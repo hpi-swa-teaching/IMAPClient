@@ -1,0 +1,10 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'SWT16-Project-02',
+      #directory : 'packages',
+      #load : 'IMAP-Client',
+      #platforms : [ #squeak ]
+    }
+  ]
+}
