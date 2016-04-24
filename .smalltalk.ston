@@ -3,7 +3,7 @@ SmalltalkCISpec {
     SCIMetacelloLoadSpec {
       #baseline : 'SWT16-Project-02',
       #directory : 'packages',
-      #load : 'IMAP-Client',
+      #load : 'Tests',
       #platforms : [ #squeak ]
     }
   ]
