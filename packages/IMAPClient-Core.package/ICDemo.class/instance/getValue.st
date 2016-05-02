@@ -1,0 +1,4 @@
+acessing
+getValue
+
+	^ 4
