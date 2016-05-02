@@ -1,1 +1,1 @@
-(name 'BaselineOfIMAPClient-AR.1' message 'set up Travis' id '82b932ca-f3fb-49e5-8b6e-997062cafafb' date '2 May 2016' time '5:37:52.281037 pm' author 'AR' ancestors () stepChildren ())
+(name 'BaselineOfIMAPClient-AR.2' message 'fix wrong line break in baseline' id 'b62ed397-0796-43fa-80e6-21ff797b2991' date '2 May 2016' time '5:53:01.921194 pm' author 'AR' ancestors ((name 'BaselineOfIMAPClient-AR.1' message 'set up Travis' id '82b932ca-f3fb-49e5-8b6e-997062cafafb' date '2 May 2016' time '5:37:52.281037 pm' author 'AR' ancestors () stepChildren ())) stepChildren ())
