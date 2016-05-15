@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"serverInvalidName" : "js 5/15/2016 16:51",
+		"serverInvalidPassword" : "js 5/15/2016 16:51",
+		"serverInvalidPort" : "js 5/15/2016 16:51",
+		"serverInvalidUsername" : "js 5/15/2016 16:51",
+		"serverName" : "js 5/15/2016 16:52",
+		"serverPassword" : "js 5/15/2016 16:52",
+		"serverPort" : "js 5/15/2016 16:52",
+		"serverUsername" : "js 5/15/2016 16:52" },
+	"instance" : {
+		"endPoint" : "js 5/15/2016 14:29",
+		"endPoint:" : "js 5/15/2016 14:29",
+		"setUp" : "js 5/15/2016 14:40",
+		"testConnectToOnAndLoginUsing_AuthenticationFailed" : "js 5/15/2016 16:56",
+		"testConnectToOnAndLoginUsing_EverythingFine" : "js 5/15/2016 16:57",
+		"testConnectToOnAndLoginUsing_WrongHost" : "js 5/15/2016 16:57",
+		"testConnectToOnAndLoginUsing_WrongPort" : "js 5/15/2016 16:57",
+		"testConnectToOn_AuthenticationFailed" : "js 5/15/2016 16:55",
+		"testConnectToOn_EverythingFine" : "js 5/15/2016 16:55",
+		"testConnectToOn_NoPassword" : "js 5/15/2016 16:55",
+		"testConnectToOn_NoUser" : "js 5/15/2016 16:56",
+		"testConnectToOn_WrongHost" : "js 5/15/2016 16:56",
+		"testConnectToOn_WrongPort" : "js 5/15/2016 16:56",
+		"testPing_EverythingFine" : "js 5/15/2016 16:57",
+		"testPing_NoConnection" : "js 5/15/2016 15:55" } }

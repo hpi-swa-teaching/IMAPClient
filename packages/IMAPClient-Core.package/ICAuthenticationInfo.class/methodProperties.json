@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"defaultPassword" : "js 5/15/2016 16:08",
+		"defaultUsername" : "js 5/15/2016 16:08",
+		"for:using:" : "js 5/15/2016 16:38" },
+	"instance" : {
+		"initialize" : "js 5/15/2016 16:08",
+		"isValid" : "js 5/15/2016 16:09",
+		"password" : "js 5/15/2016 16:03",
+		"password:" : "js 5/15/2016 16:03",
+		"username" : "js 5/15/2016 16:03",
+		"username:" : "js 5/15/2016 16:03" } }

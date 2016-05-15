@@ -1,4 +1,4 @@
 errors
 errorLoginFailed
 
-	^ 'authentification failed'
+	^ 'authentication failed'

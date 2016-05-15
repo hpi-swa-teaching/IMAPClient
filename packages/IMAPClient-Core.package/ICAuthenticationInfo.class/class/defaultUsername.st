@@ -1,0 +1,4 @@
+constants
+defaultUsername
+
+	^ 'unknown'

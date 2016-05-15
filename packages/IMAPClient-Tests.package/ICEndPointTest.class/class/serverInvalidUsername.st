@@ -1,0 +1,4 @@
+constants
+serverInvalidUsername
+
+	^ 'invalid username'

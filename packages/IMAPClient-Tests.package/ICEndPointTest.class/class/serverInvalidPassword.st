@@ -1,0 +1,4 @@
+constants
+serverInvalidPassword
+
+	^ 'invalid password'
