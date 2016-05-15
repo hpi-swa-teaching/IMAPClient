@@ -1,0 +1,4 @@
+accessing
+isLoggedIn
+
+	^ self loggedIn

@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"commandFailed" : "js 5/15/2016 13:39",
+		"commandSucceeded" : "js 5/15/2016 13:39",
+		"errorBadProtocol" : "js 5/15/2016 13:55",
+		"errorLoginFailed" : "js 5/15/2016 13:55",
+		"errorNoConnection" : "js 5/15/2016 13:50",
+		"errorNoPasswordSet" : "js 5/15/2016 13:51",
+		"errorNoUsernameSet" : "js 5/15/2016 13:51",
+		"loginCommand" : "js 5/15/2016 13:39",
+		"noopCommand" : "js 5/15/2016 13:58",
+		"protocolBlank" : "js 5/15/2016 13:37",
+		"protocolCommandStart" : "js 5/15/2016 13:37",
+		"protocolError" : "js 5/15/2016 13:38" },
+	"instance" : {
+		"commandSucceeded" : "js 5/15/2016 13:20",
+		"connectTo:on:" : "js 5/15/2016 14:03",
+		"connectTo:on:using:and:" : "js 5/15/2016 14:02",
+		"initialize" : "js 5/15/2016 13:11",
+		"isLoggedIn" : "js 5/15/2016 13:09",
+		"loggedIn" : "js 5/15/2016 13:09",
+		"loggedIn:" : "js 5/15/2016 13:09",
+		"login" : "js 5/15/2016 14:00",
+		"ping" : "js 5/15/2016 14:00",
+		"responseIsError" : "js 5/15/2016 14:03",
+		"responseIsWarning" : "js 5/15/2016 12:36" } }
