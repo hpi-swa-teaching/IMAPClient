@@ -1,4 +1,4 @@
 constants
 defaultUsername
 
-	^ 'unknown'
+	^ String empty

@@ -1,4 +1,4 @@
 commands
 loginCommand
 
-	^ ICStringFormatter concatinate: {self protocolCommandStart . 'LOGIN'} with: self protocolBlank
+	^ ICStringFormatter concatenate: {self protocolCommandStart . 'LOGIN'} with: self protocolBlank

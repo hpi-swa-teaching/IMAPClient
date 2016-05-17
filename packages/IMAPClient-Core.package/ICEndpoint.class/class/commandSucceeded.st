@@ -1,4 +1,4 @@
 responses
 commandSucceeded
 
-	^ ICStringFormatter concatinate: {self protocolCommandStart . 'OK'} with: self protocolBlank
+	^ ICStringFormatter concatenate: {self protocolCommandStart . 'OK'} with: self protocolBlank

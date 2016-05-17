@@ -1,4 +1,4 @@
 responses
 commandFailed
 
-	^ ICStringFormatter concatinate: {self protocolCommandStart . 'NO'} with: self protocolBlank
+	^ ICStringFormatter concatenate: {self protocolCommandStart . 'NO'} with: self protocolBlank

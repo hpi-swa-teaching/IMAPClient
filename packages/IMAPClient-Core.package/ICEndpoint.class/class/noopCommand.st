@@ -1,4 +1,4 @@
 commands
 noopCommand
 
-	^ ICStringFormatter concatinate: {self protocolCommandStart . 'NOOP'} with: self protocolBlank
+	^ ICStringFormatter concatenate: {self protocolCommandStart . 'NOOP'} with: self protocolBlank

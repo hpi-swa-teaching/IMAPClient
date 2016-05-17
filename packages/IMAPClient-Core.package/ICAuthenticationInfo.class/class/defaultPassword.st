@@ -1,4 +1,4 @@
 constants
 defaultPassword
 
-	^ 'unknown'
+	^ String empty
