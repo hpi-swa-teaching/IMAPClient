@@ -11,7 +11,7 @@
 	"instance" : {
 		"endPoint" : "js 5/15/2016 14:29",
 		"endPoint:" : "js 5/15/2016 14:29",
-		"setUp" : "js 5/15/2016 14:40",
+		"setUp" : "AR 5/24/2016 11:44",
 		"tearDown" : "jwe 5/17/2016 12:15",
 		"testConnectToOnAndLoginUsing_AuthenticationFailed" : "js 5/15/2016 16:56",
 		"testConnectToOnAndLoginUsing_EverythingFine" : "js 5/15/2016 16:57",
