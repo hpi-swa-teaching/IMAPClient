@@ -1,7 +1,8 @@
 logout
 testLogout_EverythingFine
 
-	self testConnectToOnAndLoginUsing_EverythingFine.
-	self assert: (self endPoint logout) = true.
-	self assert: (self endPoint loggedIn) = false.
-	self assert: (self endPoint isConnected) = false
+	self
+		testConnectToOnAndLoginUsing_EverythingFine;
+		assert: (self endPoint logout) equals: true;
+		assert: (self endPoint loggedIn) equals: false;
+		assert: (self endPoint isConnected) equals: false

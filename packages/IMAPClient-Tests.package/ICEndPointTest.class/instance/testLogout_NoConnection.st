@@ -1,8 +1,5 @@
 logout
 testLogout_NoConnection
 
-	[self assert: (self endPoint logout)]
-		on: Exception 
-		do: [ ^ self ].
-	self fail
+	self should: [self endPoint logout] raise: Exception 
 		
