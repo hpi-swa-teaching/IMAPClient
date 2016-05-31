@@ -1,5 +1,5 @@
 login
 close
 
-	super close.
+	self stream close.
 	self loggedIn: false

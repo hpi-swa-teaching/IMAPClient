@@ -4,5 +4,5 @@ connectTo: serverInfo
 	serverInfo isValid ifFalse: [ ^ Error signal: self class errorInvalidConnectionConfiguration ].
 	
 	self serverInfo: serverInfo.
-	self openOnHost: (NetNameResolver addressForName: self serverInfo host) port: self serverInfo port.
+	self stream connectTo: self serverInfo host on: self serverInfo port.
 	^ true

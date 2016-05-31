@@ -6,11 +6,13 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"stream",
 		"serverInfo",
 		"loggedIn",
-		"authenticationInfo" ],
+		"authenticationInfo",
+		"lastResponse" ],
 	"name" : "ICEndpoint",
 	"pools" : [
 		 ],
-	"super" : "ProtocolClient",
+	"super" : "Object",
 	"type" : "normal" }

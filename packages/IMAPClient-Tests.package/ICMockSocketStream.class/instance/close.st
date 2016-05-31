@@ -1,4 +1,4 @@
 as yet unclassified
 close
 
-	^ self
+	self isConnected: false

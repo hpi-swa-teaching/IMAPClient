@@ -1,5 +1,5 @@
 as yet unclassified
-nextLine
+nextResponse
 
 	^ self responseQueue removeFirst
 
