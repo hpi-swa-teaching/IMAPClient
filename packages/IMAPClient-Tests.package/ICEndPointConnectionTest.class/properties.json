@@ -1,14 +1,14 @@
 {
-	"category" : "IMAPClient-Core",
+	"category" : "IMAPClient-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "ICDemo",
+		"endPoint" ],
+	"name" : "ICEndPointConnectionTest",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TestCase",
 	"type" : "normal" }

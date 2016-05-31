@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"demo" ],
-	"name" : "ICDemoTest",
+		"endPoint" ],
+	"name" : "ICEndPointAuthentificationTest",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TestCase",
 	"type" : "normal" }

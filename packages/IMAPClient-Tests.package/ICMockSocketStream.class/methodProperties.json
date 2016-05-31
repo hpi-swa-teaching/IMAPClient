@@ -1,14 +1,23 @@
 {
 	"class" : {
-		"badResponse" : "AR 5/24/2016 10:46",
-		"responses" : "AR 5/30/2016 15:27" },
+		 },
 	"instance" : {
+		"badResponse" : "AR 5/31/2016 22:14",
 		"close" : "AR 5/31/2016 11:46",
-		"connectTo:on:" : "AR 5/31/2016 11:28",
+		"connectTo:on:" : "AR 5/31/2016 21:58",
 		"initialize" : "AR 5/31/2016 11:35",
 		"isConnected" : "AR 5/31/2016 11:40",
 		"isConnected:" : "AR 5/31/2016 11:38",
 		"nextResponse" : "AR 5/31/2016 11:11",
 		"responseQueue" : "AR 5/24/2016 10:18",
 		"responseQueue:" : "AR 5/24/2016 10:18",
-		"sendCommand:" : "AR 5/29/2016 16:51" } }
+		"responses" : "AR 5/31/2016 22:14",
+		"sendCommand:" : "AR 5/31/2016 22:15",
+		"validHost" : "AR 5/31/2016 22:03",
+		"validHost:" : "AR 5/31/2016 22:03",
+		"validPassword" : "AR 5/31/2016 22:09",
+		"validPassword:" : "AR 5/31/2016 22:09",
+		"validPort" : "AR 5/31/2016 22:03",
+		"validPort:" : "AR 5/31/2016 22:03",
+		"validUsername" : "AR 5/31/2016 22:09",
+		"validUsername:" : "AR 5/31/2016 22:09" } }

@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"invalidHost" : "AR 5/31/2016 22:00",
+		"invalidPort" : "AR 5/31/2016 22:00",
+		"validHost" : "AR 5/31/2016 21:36",
+		"validPort" : "AR 5/31/2016 21:37" },
+	"instance" : {
+		"endPoint" : "AR 5/31/2016 21:33",
+		"endPoint:" : "AR 5/31/2016 21:33",
+		"setUp" : "AR 5/31/2016 22:04",
+		"testConnectOnWrongHost" : "AR 5/31/2016 22:01",
+		"testConnectOnWrongPort" : "AR 5/31/2016 22:01",
+		"testPingIfNotConnected" : "AR 5/31/2016 22:34",
+		"testSuccesfulConnect" : "AR 5/31/2016 22:01" } }

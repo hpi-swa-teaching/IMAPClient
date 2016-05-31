@@ -1,4 +1,0 @@
-accessing
-getValue
-
-	^ 4

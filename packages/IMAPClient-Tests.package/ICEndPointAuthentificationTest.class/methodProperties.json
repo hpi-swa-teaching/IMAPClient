@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"invalidPassword" : "AR 5/31/2016 21:18",
+		"invalidUsername" : "AR 5/31/2016 21:17",
+		"validPassword" : "AR 5/31/2016 21:18",
+		"validUsername" : "AR 5/31/2016 21:18" },
+	"instance" : {
+		"endPoint" : "AR 5/31/2016 21:33",
+		"endPoint:" : "AR 5/31/2016 21:33",
+		"setUp" : "AR 5/31/2016 22:11",
+		"testLoginWithWrongPassword" : "AR 5/31/2016 21:30",
+		"testLoginWithWrongUsername" : "AR 5/31/2016 21:30",
+		"testSuccesfulLogin" : "AR 5/31/2016 22:05" } }
