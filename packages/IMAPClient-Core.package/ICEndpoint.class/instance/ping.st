@@ -1,11 +1,10 @@
 message handling
 ping
 
-	self isConnected ifFalse: [ ^ Error signal: self class errorNoConnection ].
-	
 	self 
+		checkConnected;
 		sendCommand: self class noopCommand;
-		fetchNextResponse.
-	
-	self responseIsError ifTrue: [ ^ Error signal: self class errorBadProtocol ].
+		fetchNextResponse;
+		checkForBadRequest.
+		
 	^ true

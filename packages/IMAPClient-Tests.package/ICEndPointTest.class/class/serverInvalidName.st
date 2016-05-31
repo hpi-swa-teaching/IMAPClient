@@ -1,4 +1,4 @@
 as yet unclassified
 serverInvalidName
 
-	^ 'invalid.host'
+	^ 'hpi.de'
