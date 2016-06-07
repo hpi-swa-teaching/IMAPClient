@@ -1,0 +1,17 @@
+{
+	"category" : "IMAPClient-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"serverPort",
+		"username",
+		"password",
+		"serverAddress" ],
+	"name" : "ICLoginDialog",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

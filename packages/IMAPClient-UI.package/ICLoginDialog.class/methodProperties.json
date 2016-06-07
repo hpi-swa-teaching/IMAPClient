@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"open" : "ms 5/24/2016 09:32" },
+	"instance" : {
+		"buildWith:" : "ms 6/7/2016 12:06",
+		"defaultPassword" : "ms 6/3/2016 19:39",
+		"defaultServerAddress" : "ms 6/3/2016 19:44",
+		"defaultServerPort" : "ms 6/3/2016 19:39",
+		"defaultUsername" : "ms 6/3/2016 19:39",
+		"guiElementHeight" : "ms 6/3/2016 19:32",
+		"guiElementWidth" : "ms 6/3/2016 19:36",
+		"guiElementXOffset" : "ms 6/3/2016 19:36",
+		"guiElementYOffset" : "ms 6/3/2016 19:45",
+		"login" : "ms 6/7/2016 13:09",
+		"password" : "ms 6/3/2016 19:40",
+		"password:" : "ms 5/31/2016 11:27",
+		"serverAddress" : "ms 6/3/2016 19:45",
+		"serverAddress:" : "ms 6/3/2016 19:45",
+		"serverPort" : "ms 6/3/2016 19:40",
+		"serverPort:" : "ms 6/3/2016 19:09",
+		"username" : "ms 6/3/2016 19:41",
+		"username:" : "ms 6/3/2016 19:41" } }
