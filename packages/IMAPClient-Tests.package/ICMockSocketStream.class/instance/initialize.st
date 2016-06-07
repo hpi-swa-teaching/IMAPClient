@@ -1,5 +1,5 @@
-as yet unclassified
+initialization
 initialize
 
 	self responseQueue: OrderedCollection new.
-	self isConnected: false.
+	self connected: false.

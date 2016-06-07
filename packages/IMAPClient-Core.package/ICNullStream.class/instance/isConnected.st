@@ -1,4 +1,4 @@
 accessing
 isConnected
 
-	^ self connected
+	^ false

@@ -1,6 +1,7 @@
-as yet unclassified
+accessing
 nextResponse
 
-	^ self responseQueue removeFirst
+	self lastResponse: self responseQueue removeFirst.
+	^ self lastResponse
 
 	

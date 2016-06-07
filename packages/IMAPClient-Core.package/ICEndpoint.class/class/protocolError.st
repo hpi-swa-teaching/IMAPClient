@@ -1,4 +1,4 @@
 responses
 protocolError
 
-	^ ICStringFormatter concatenate: {self protocolCommandStart . 'BAD'} with: self protocolBlank
+	^ {self protocolCommandStart . 'BAD'} joinSeparatedBy: self protocolBlank

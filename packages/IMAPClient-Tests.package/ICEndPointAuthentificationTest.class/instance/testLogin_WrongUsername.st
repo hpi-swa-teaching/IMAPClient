@@ -1,5 +1,5 @@
-as yet unclassified
-testLoginWithWrongUsername
+login
+testLogin_WrongUsername
 
 	self endPoint authenticationInfo
 		username: self class invalidUsername;

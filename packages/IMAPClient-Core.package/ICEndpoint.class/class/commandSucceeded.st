@@ -1,4 +1,4 @@
 responses
 commandSucceeded
 
-	^ 'OK'
+	^ {self protocolCommandStart . 'OK'} joinSeparatedBy: self protocolBlank

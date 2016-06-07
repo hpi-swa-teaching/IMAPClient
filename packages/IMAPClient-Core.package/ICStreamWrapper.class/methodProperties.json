@@ -2,12 +2,17 @@
 	"class" : {
 		 },
 	"instance" : {
-		"close" : "AR 5/31/2016 11:45",
-		"connectTo:on:" : "AR 5/31/2016 10:50",
-		"host" : "AR 5/31/2016 10:43",
-		"host:" : "AR 5/31/2016 10:43",
-		"nextResponse" : "AR 5/31/2016 11:09",
-		"port" : "AR 5/31/2016 10:43",
-		"port:" : "AR 5/31/2016 10:43",
-		"stream" : "AR 5/31/2016 10:54",
-		"stream:" : "AR 5/31/2016 10:54" } }
+		"close" : "js 6/7/2016 10:28",
+		"connectTo:on:" : "js 6/7/2016 10:04",
+		"host" : "js 6/7/2016 09:58",
+		"host:" : "js 6/7/2016 09:59",
+		"initialize" : "js 6/7/2016 10:05",
+		"isConnected" : "js 6/7/2016 10:04",
+		"lastResponse" : "js 6/7/2016 10:08",
+		"lastResponse:" : "js 6/7/2016 10:08",
+		"nextResponse" : "js 6/7/2016 10:09",
+		"port" : "js 6/7/2016 09:59",
+		"port:" : "js 6/7/2016 10:05",
+		"sendCommand:" : "js 6/7/2016 10:07",
+		"stream" : "js 6/7/2016 10:05",
+		"stream:" : "js 6/7/2016 10:05" } }

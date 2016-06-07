@@ -1,0 +1,4 @@
+accessing
+nextLine
+
+	^ String empty

@@ -1,4 +1,5 @@
 accessing
 nextResponse
 
-	^ self stream nextLine
+	self lastResponse: self stream nextLine.
+	^ self lastResponse

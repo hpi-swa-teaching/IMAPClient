@@ -4,9 +4,10 @@ login
 	self checkConnected.
 	self authenticationInfo isValid ifFalse: [ ^ false ].
 	
-	self 
-		sendCommand: (ICStringFormatter concatenate: {self class loginCommand . self authenticationInfo username . self authenticationInfo password} with: self class protocolBlank);
-		fetchNextResponse;
+	self stream
+		sendCommand: ({self class loginCommand . self authenticationInfo username . self authenticationInfo password} joinSeparatedBy: self class protocolBlank);
+		nextResponse.
+	self
 		checkForBadRequest;
 		loggedIn: self commandSucceeded;
 		checkLoggedIn.

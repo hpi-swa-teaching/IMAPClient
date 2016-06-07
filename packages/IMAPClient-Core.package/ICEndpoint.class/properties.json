@@ -9,8 +9,7 @@
 		"stream",
 		"serverInfo",
 		"loggedIn",
-		"authenticationInfo",
-		"lastResponse" ],
+		"authenticationInfo" ],
 	"name" : "ICEndpoint",
 	"pools" : [
 		 ],

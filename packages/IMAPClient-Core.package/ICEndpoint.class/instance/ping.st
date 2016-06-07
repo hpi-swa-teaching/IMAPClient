@@ -1,10 +1,11 @@
 message handling
 ping
 
-	self 
-		checkConnected;
+	self checkConnected.
+	self stream
 		sendCommand: self class noopCommand;
-		fetchNextResponse;
+		nextResponse.
+	self
 		checkForBadRequest.
 		
 	^ true

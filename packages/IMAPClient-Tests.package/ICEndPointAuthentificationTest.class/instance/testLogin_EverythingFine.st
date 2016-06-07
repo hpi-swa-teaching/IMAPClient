@@ -1,5 +1,5 @@
-as yet unclassified
-testSuccesfulLogin
+login
+testLogin_EverythingFine
 
 	self endPoint authenticationInfo
 		username: self class validUsername;

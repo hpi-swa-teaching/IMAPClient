@@ -8,7 +8,8 @@
 	"instvars" : [
 		"host",
 		"port",
-		"stream" ],
+		"stream",
+		"lastResponse" ],
 	"name" : "ICStreamWrapper",
 	"pools" : [
 		 ],

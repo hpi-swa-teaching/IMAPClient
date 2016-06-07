@@ -1,4 +1,4 @@
 message handling
 commandSucceeded
 
-	^ self lastResponse beginsWith: self class commandSucceeded.
+	^ self stream lastResponse beginsWith: self class commandSucceeded.

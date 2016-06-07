@@ -7,7 +7,8 @@
 	"instance" : {
 		"endPoint" : "AR 5/31/2016 21:33",
 		"endPoint:" : "AR 5/31/2016 21:33",
-		"setUp" : "AR 5/31/2016 22:11",
-		"testLoginWithWrongPassword" : "AR 5/31/2016 21:30",
-		"testLoginWithWrongUsername" : "AR 5/31/2016 21:30",
-		"testSuccesfulLogin" : "AR 5/31/2016 22:05" } }
+		"setUp" : "js 6/7/2016 09:49",
+		"tearDown" : "js 6/7/2016 09:40",
+		"testLogin_EverythingFine" : "js 6/7/2016 09:41",
+		"testLogin_WrongPassword" : "js 6/7/2016 09:41",
+		"testLogin_WrongUsername" : "js 6/7/2016 09:41" } }

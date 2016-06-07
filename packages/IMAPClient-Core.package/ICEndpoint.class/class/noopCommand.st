@@ -1,4 +1,4 @@
 commands
 noopCommand
 
-	^ ICStringFormatter concatenate: {self protocolCommandStart . 'NOOP'} with: self protocolBlank
+	^ {self protocolCommandStart . 'NOOP'} joinSeparatedBy: self protocolBlank

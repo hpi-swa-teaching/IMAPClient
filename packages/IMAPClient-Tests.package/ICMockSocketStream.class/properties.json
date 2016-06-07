@@ -7,11 +7,12 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"responseQueue",
-		"isConnected",
+		"connected",
 		"validHost",
 		"validPort",
 		"validUsername",
-		"validPassword" ],
+		"validPassword",
+		"lastResponse" ],
 	"name" : "ICMockSocketStream",
 	"pools" : [
 		 ],
