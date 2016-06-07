@@ -1,4 +1,4 @@
-as yet unclassified
+login
 testLoginWithWrongUsername
 
 	self endPoint authenticationInfo

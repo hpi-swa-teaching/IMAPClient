@@ -1,4 +1,4 @@
-as yet unclassified
+network
 nextResponse
 
 	^ self responseQueue removeFirst

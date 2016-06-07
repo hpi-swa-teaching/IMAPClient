@@ -1,4 +1,4 @@
-as yet unclassified
+network
 connectTo: host on: port
 
 	(host = self validHost and: [port = self validPort])

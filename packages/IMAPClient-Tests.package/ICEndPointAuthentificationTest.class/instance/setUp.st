@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 setUp
 
 	self endPoint: ICEndpoint new.

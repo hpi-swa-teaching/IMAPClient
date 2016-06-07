@@ -1,4 +1,0 @@
-accessing
-isLoggedIn
-
-	^ self loggedIn

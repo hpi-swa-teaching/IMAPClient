@@ -1,4 +1,4 @@
-as yet unclassified
+network
 responses
 
 	^ Dictionary newFrom: {

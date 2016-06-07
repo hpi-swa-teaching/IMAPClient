@@ -1,4 +1,0 @@
-responses
-commandSucceeded
-
-	^ 'OK'
