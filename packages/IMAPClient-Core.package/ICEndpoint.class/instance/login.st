@@ -4,11 +4,10 @@ login
 	self checkConnected.
 	self authenticationInfo isValid ifFalse: [ ^ false ].
 	
-	self stream
-		sendCommand: ({ self class loginCommand . self authenticationInfo username . self authenticationInfo password } joinSeparatedBy: self class protocolBlank);
-		nextResponse.
+	self stream sendCommand: ({ self class loginCommand . self authenticationInfo username . self authenticationInfo password } joinSeparatedBy: self class protocolBlank).
+
 	self
-		checkForBadRequest;
+		fetchNextResponse;
 		loggedIn: self commandSucceeded;
 		checkLoggedIn.
 

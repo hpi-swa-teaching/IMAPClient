@@ -1,4 +1,5 @@
 error handling
 checkForBadRequest
 
-	self responseIsError ifTrue: [ ^ Error signal: self class errorBadProtocol ]
+	self responseIsError ifTrue: [ ^ Error signal: self class errorBadProtocol ].
+	^ false
