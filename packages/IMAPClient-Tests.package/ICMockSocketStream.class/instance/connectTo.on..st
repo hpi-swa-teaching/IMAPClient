@@ -1,6 +1,6 @@
 connection
 connectTo: host on: port
 
-	(host = self validHost and: [port = self validPort])
+	(host = self server validHost and: [port = self server validPort])
 		ifFalse: [ConnectionTimedOut signal].
 	self connected: true.
