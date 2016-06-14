@@ -5,4 +5,4 @@ setUp
 	self endPoint stream: ICMockSocketStream new.
 	self endPoint stream server
 		validHost: self class validHost;
-		validPort: self class validPort.
+		validPort: self class validPort

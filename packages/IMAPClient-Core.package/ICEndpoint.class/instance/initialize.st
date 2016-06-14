@@ -8,3 +8,4 @@ initialize
 	self authenticationInfo: ICAuthenticationInfo new.
 	self stream: ICStreamWrapper new.
 	self rootFolder: ICFolder new.
+	self lastResponse: OrderedCollection new.

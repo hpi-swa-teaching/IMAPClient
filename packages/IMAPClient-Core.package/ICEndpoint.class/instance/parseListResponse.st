@@ -1,11 +1,11 @@
 protocol parse
 parseListResponse
 	
-	| line |
 	self stream nextResponse.
-	self checkForBadRequest.
+	self 
+		checkForBadRequest;
+		fetchNextResponse.
 	
-	[self stream lastResponse beginsWith: self class commandSucceeded] whileFalse: [
-		line := self stream lastResponse.
-		self folderFromResponse: (line copyFrom: (line indexOf: self class protocolQuote asCharacter) to: line size).
+	self lastResponse do: [ :each |
+		self folderFromResponse: (each copyFrom: (each indexOf: self class protocolQuote asCharacter) to: each size).
 		self stream nextResponse ]

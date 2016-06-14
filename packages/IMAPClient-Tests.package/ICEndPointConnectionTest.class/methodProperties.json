@@ -7,12 +7,10 @@
 	"instance" : {
 		"endPoint" : "AR 5/31/2016 21:33",
 		"endPoint:" : "AR 5/31/2016 21:33",
-		"setUp" : "AR 6/10/2016 15:30",
+		"setUp" : "js 6/14/2016 10:47",
 		"tearDown" : "js 6/7/2016 09:42",
-		"testConnectOnWrongHost" : "AR 5/31/2016 22:01",
-		"testConnectOnWrongPort" : "AR 5/31/2016 22:01",
-		"testConnectOn_EverythingFine" : "js 6/7/2016 09:45",
-		"testConnectOn_WrongHost" : "js 6/7/2016 09:42",
-		"testConnectOn_WrongPort" : "js 6/7/2016 09:43",
-		"testPingIfNotConnected" : "AR 5/31/2016 22:34",
+		"testConnectOn_EverythingFine" : "js 6/14/2016 10:47",
+		"testConnectOn_WrongHost" : "js 6/14/2016 10:47",
+		"testConnectOn_WrongPort" : "js 6/14/2016 10:48",
+		"testPingIfNotConnected" : "js 6/14/2016 10:48",
 		"testSuccesfulConnect" : "AR 5/31/2016 22:01" } }

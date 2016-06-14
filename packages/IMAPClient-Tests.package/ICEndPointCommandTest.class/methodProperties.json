@@ -3,10 +3,10 @@
 		"expectedFetchBody" : "AR 6/13/2016 17:02",
 		"expectedFetchHeader" : "AR 6/14/2016 09:21" },
 	"instance" : {
-		"endPoint" : "AR 6/13/2016 17:39",
-		"endPoint:" : "AR 6/13/2016 17:39",
+		"endPoint" : "js 6/14/2016 10:46",
+		"endPoint:" : "js 6/14/2016 10:46",
 		"messageID" : "AR 6/13/2016 18:45",
-		"setUp" : "AR 6/13/2016 17:56",
+		"setUp" : "js 6/14/2016 10:46",
 		"testFetch" : "AR 6/13/2016 18:45",
-		"testFetchHeader" : "AR 6/13/2016 18:45",
-		"testFillMessageBody" : "AR 6/13/2016 18:45" } }
+		"testFetchHeader" : "js 6/14/2016 10:47",
+		"testFillMessageBody" : "js 6/14/2016 10:47" } }

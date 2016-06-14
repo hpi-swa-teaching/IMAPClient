@@ -8,4 +8,4 @@ setUp
 	self endPoint stream server
 		validUsername: self class validUsername;
 		validPassword: self class validPassword;
-		responses: self endPoint stream server notAuthenticatedResponses.
+		responses: self endPoint stream server notAuthenticatedResponses

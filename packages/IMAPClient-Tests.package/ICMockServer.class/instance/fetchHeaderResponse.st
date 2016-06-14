@@ -10,4 +10,4 @@ fetchHeaderResponse
 		'Date: Fri, 10 Jun 2016 12:51:42 +0200'.
 		''.
 		')'.
-		'. OK FETCH completed.'}
+		'. OK FETCH completed.' }

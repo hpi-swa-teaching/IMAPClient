@@ -1,4 +1,4 @@
 connection
 close
 	
-	self stream close.
+	self stream close
