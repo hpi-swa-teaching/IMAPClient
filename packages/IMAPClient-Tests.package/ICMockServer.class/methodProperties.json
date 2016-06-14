@@ -1,0 +1,25 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"authenticatedResponses" : "AR 6/13/2016 16:11",
+		"badResponse" : "AR 6/10/2016 15:26",
+		"commandSucceeded:" : "AR 6/13/2016 15:53",
+		"fetchBodyResponse" : "AR 6/13/2016 16:15",
+		"fetchHeaderResponse" : "AR 6/14/2016 09:34",
+		"initialize" : "AR 6/10/2016 15:28",
+		"makeTransition:withResponse:" : "AR 6/13/2016 16:07",
+		"notAuthenticatedResponses" : "AR 6/13/2016 16:10",
+		"respondTo:" : "AR 6/13/2016 16:08",
+		"responses" : "AR 6/10/2016 12:07",
+		"responses:" : "AR 6/10/2016 12:07",
+		"selectedResponses" : "AR 6/13/2016 18:42",
+		"stateTransitions" : "AR 6/13/2016 16:05",
+		"validHost" : "AR 6/10/2016 15:28",
+		"validHost:" : "AR 6/10/2016 15:28",
+		"validPassword" : "AR 6/10/2016 15:28",
+		"validPassword:" : "AR 6/10/2016 15:28",
+		"validPort" : "AR 6/10/2016 15:28",
+		"validPort:" : "AR 6/10/2016 15:28",
+		"validUsername" : "AR 6/10/2016 15:28",
+		"validUsername:" : "AR 6/10/2016 15:28" } }

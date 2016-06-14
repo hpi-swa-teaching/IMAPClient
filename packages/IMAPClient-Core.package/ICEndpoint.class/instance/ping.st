@@ -5,7 +5,5 @@ ping
 	self stream
 		sendCommand: self class noopCommand;
 		nextResponse.
-	self
-		checkForBadRequest.
-		
+	self checkForBadRequest.	
 	^ true

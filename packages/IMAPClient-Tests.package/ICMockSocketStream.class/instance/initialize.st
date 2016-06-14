@@ -1,5 +1,7 @@
 initialization
 initialize
 
-	self responseQueue: OrderedCollection new.
-	self connected: false.
+	self
+		responseQueue: OrderedCollection new;
+		server: ICMockServer new;
+		connected: false.
