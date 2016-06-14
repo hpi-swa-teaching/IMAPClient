@@ -2,11 +2,9 @@ message handling
 logout
 
 	self checkConnected.
-	self stream
-		sendCommand: self class logoutCommand;
-		nextResponse.
+	self stream sendCommand: self class logoutCommand.
 	self
-		checkForBadRequest;
+		fetchNextResponse;
 		close.
 
 	^ true
