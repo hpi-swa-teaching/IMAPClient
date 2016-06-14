@@ -1,4 +1,4 @@
 user interface
-guiElementHeight
+guiElementYSpacing
 
 	^ 0.14

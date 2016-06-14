@@ -1,11 +1,11 @@
-as yet unclassified
+user interface
 buildWith: builder
 
 	| windowSpec  serverAdressInputFieldSpec serverPortInputFieldSpec userInputFieldSpec passwordInputFieldSpec loginButtonSpec |
 	windowSpec := builder pluggableWindowSpec new.
 	windowSpec
 		model: self;
-		label: 'IMAP Login';
+		label: self dialogTitle;
 		extent: 300 @ 200;
 		children: OrderedCollection new.
 		
@@ -17,7 +17,8 @@ buildWith: builder
 		getText: #serverAddress;
 		setText: #serverAddress:;
 		editText: #serverAddress:;
-		frame: (self guiElementXOffset @ self guiElementYOffset extent: self guiElementWidth @ self guiElementHeight).
+		help: #serverAdressHelpText;
+		frame: (self guiElementXOffset @ (self guiElementYOffsetOf: 0) extent: self guiElementWidth @ self guiElementHeight).
 	
 	serverPortInputFieldSpec := builder pluggableInputFieldSpec new.
 	serverPortInputFieldSpec
@@ -27,7 +28,8 @@ buildWith: builder
 		getText: #serverPort;
 		setText: #serverPort:;
 		editText: #serverPort:;
-		frame: (self guiElementXOffset @ (self guiElementYOffset + 0.13) extent: self guiElementWidth @ self guiElementHeight).
+		help: #serverPortHelpText;
+		frame: (self guiElementXOffset @ (self guiElementYOffsetOf: 1) extent: self guiElementWidth @ self guiElementHeight).
 		
 	userInputFieldSpec := builder pluggableInputFieldSpec new.
 	userInputFieldSpec
@@ -37,7 +39,8 @@ buildWith: builder
 		getText: #username;
 		setText: #username:;
 		editText: #username:;
-		frame: (self guiElementXOffset @ (self guiElementYOffset + 0.33) extent: self guiElementWidth @ self guiElementHeight).
+		help: #usernameHelpText;
+		frame: (self guiElementXOffset @ (self guiElementYOffsetOf: 2) extent: self guiElementWidth @ self guiElementHeight).
 		
 	passwordInputFieldSpec := builder pluggableInputFieldSpec new.
 	passwordInputFieldSpec
@@ -47,12 +50,14 @@ buildWith: builder
 		getText: #password;
 		setText: #password:;
 		editText: #password:;
-		frame: (self guiElementXOffset @ (self guiElementYOffset + 0.46) extent: self guiElementWidth @ self guiElementHeight).
+		help: #passwordHelpText;
+		font: (StrikeFont passwordFontSize: 12);
+		frame: (self guiElementXOffset @ (self guiElementYOffsetOf: 3) extent: self guiElementWidth @ self guiElementHeight).
 	
 	loginButtonSpec := builder pluggableButtonSpec new.
 	loginButtonSpec
 		model: self;
-		frame: (self guiElementXOffset @ (self guiElementYOffset + 0.7) extent: self guiElementWidth @ (self guiElementHeight * 1.3));
+		frame: (self guiElementXOffset @ (self guiElementYOffsetOf: 4.2) extent: self guiElementWidth @ (self guiElementHeight * 1.3));
 		label: 'Login';
 		action: #login.
 			

@@ -1,17 +1,11 @@
-as yet unclassified
+login
 login
 
 	| endpoint |
-	Transcript show: '----------------------'; crlf.
-	Transcript show: 'Connecting to ', self serverAddress, ' on ', self serverPort, ' with username ', self username, ' and password ', self password, '...'; crlf.
-	
 	endpoint := ICEndpoint new.
-	[ endpoint connectTo: self serverAddress asString on: self serverPort asNumber andLogin: self username using: self password. ]
+	[ endpoint connectTo: self serverAddress asString on: self serverPort asNumber andLogin: self username using: self password ]
 		on: Error
-		do: [ :sig | Transcript show: sig; crlf ].
+		do: [ :sig | self inform: sig asString ].
 	(endpoint isLoggedIn)
-		ifTrue: [ Transcript show: 'Successfully connected!'; crlf ] 
-		ifFalse: [ Transcript show: 'Connection failed.';crlf ].
-		
-	endpoint inspect.
-	Transcript show: '----------------------'; crlf.
+		ifTrue: [ self inform: 'Successfully logged in!' ] 
+		ifFalse: [ self inform: 'Login failed, please try again.' ].

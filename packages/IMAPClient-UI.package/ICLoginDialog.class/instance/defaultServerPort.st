@@ -1,4 +1,0 @@
-accessing
-defaultServerPort
-
-	^ 'server port'

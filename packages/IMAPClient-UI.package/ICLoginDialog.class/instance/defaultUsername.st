@@ -1,4 +1,0 @@
-accessing
-defaultUsername
-
-	^ 'user name'
