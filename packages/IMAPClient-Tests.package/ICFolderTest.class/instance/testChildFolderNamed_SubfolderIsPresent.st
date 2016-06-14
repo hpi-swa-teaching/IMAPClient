@@ -6,6 +6,5 @@ testChildFolderNamed_SubfolderIsPresent
 	subfolder2 := ICFolder named: 'subfolder2' in: subfolder1.
 	
 	result := subfolder1 childFolderNamed: 'subfolder2'. 
-
 	self assert: result equals: subfolder2
 	

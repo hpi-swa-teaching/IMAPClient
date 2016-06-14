@@ -1,4 +1,4 @@
-as yet unclassified
+login
 testSuccesfulLogin
 
 	self endPoint authenticationInfo

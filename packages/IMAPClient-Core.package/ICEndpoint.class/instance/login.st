@@ -10,5 +10,5 @@ login
 		fetchNextResponse;
 		loggedIn: self commandSucceeded;
 		checkLoggedIn.
-
+		
 	^ true

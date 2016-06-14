@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 expectedFetchBody
 
 	^ 'Das ist der Body'

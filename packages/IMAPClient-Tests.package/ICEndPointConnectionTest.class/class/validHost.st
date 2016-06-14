@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 validHost
 
 	^ 'example.com'

@@ -7,5 +7,5 @@ login
 		on: Error
 		do: [ :sig | self inform: sig asString ].
 	(endpoint isLoggedIn)
-		ifTrue: [ self inform: 'Successfully logged in!' ] 
-		ifFalse: [ self inform: 'Login failed, please try again.' ].
+		ifTrue: [ self inform: self class successLoginMessage ] 
+		ifFalse: [ self inform: self class failureLoginMessage ].

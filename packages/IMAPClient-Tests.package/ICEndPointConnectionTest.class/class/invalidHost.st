@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 invalidHost
 
 	^ 'example.de'

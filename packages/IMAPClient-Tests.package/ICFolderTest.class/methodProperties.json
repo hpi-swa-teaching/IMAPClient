@@ -8,7 +8,7 @@
 		"tearDown" : "js 6/7/2016 12:56",
 		"testAddFolder" : "js 6/8/2016 15:23",
 		"testChildFolderNamed_SubfolderIsNotPresent" : "js 6/14/2016 09:33",
-		"testChildFolderNamed_SubfolderIsPresent" : "js 6/14/2016 09:34",
+		"testChildFolderNamed_SubfolderIsPresent" : "jwe 6/14/2016 23:38",
 		"testCountFolders" : "jwe 6/13/2016 16:16",
 		"testRemoveFolder_FolderDoesNotExist" : "js 6/14/2016 10:50",
 		"testRemoveFolder_FolderExists" : "js 6/14/2016 09:23" } }
