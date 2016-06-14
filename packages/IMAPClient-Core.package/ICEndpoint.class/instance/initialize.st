@@ -7,3 +7,4 @@ initialize
 	self serverInfo: ICServerInfo new.
 	self authenticationInfo: ICAuthenticationInfo new.
 	self stream: ICStreamWrapper new.
+	self rootFolder: ICFolder new.

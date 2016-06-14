@@ -1,0 +1,14 @@
+{
+	"category" : "IMAPClient-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"endPoint" ],
+	"name" : "ICEndPointCommandTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -8,11 +8,8 @@
 	"instvars" : [
 		"responseQueue",
 		"connected",
-		"validHost",
-		"validPort",
-		"validUsername",
-		"validPassword",
-		"lastResponse" ],
+		"lastResponse",
+		"server" ],
 	"name" : "ICMockSocketStream",
 	"pools" : [
 		 ],
