@@ -6,9 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "ICNullStream",
+		"parent",
+		"childFolders",
+		"eMails",
+		"name" ],
+	"name" : "ICFolder",
 	"pools" : [
 		 ],
-	"super" : "SocketStream",
+	"super" : "Object",
 	"type" : "normal" }

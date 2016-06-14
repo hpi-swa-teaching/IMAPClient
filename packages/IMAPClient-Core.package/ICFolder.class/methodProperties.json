@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"defaultName" : "js 6/7/2016 11:49",
+		"errorChildDoesNotExist" : "js 6/14/2016 09:27",
+		"named:in:" : "js 6/8/2016 15:22",
+		"parseFromServer:" : "js 6/8/2016 15:35",
+		"textbasedHierarchyBlank" : "js 6/7/2016 12:55" },
+	"instance" : {
+		"addFolder:" : "js 6/7/2016 13:09",
+		"childFolderNamed:" : "js 6/14/2016 09:31",
+		"childFolderNamed:ifAbsent:" : "js 6/10/2016 15:22",
+		"childFolders" : "js 6/7/2016 11:32",
+		"childFolders:" : "js 6/7/2016 11:32",
+		"countFolders" : "js 6/7/2016 13:24",
+		"displayOnTranscript" : "js 6/14/2016 09:57",
+		"displayOnTranscript:" : "js 6/14/2016 09:57",
+		"eMails" : "js 6/7/2016 11:32",
+		"eMails:" : "js 6/7/2016 11:32",
+		"initialize" : "js 6/7/2016 11:49",
+		"name" : "js 6/7/2016 12:16",
+		"name:" : "js 6/7/2016 11:48",
+		"parent" : "js 6/7/2016 11:32",
+		"parent:" : "js 6/7/2016 11:32",
+		"removeFolder:" : "js 6/14/2016 09:38",
+		"removeFolder:ifAbsent:" : "js 6/14/2016 09:37" } }
