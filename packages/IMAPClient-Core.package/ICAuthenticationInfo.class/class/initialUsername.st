@@ -1,4 +1,4 @@
 constants
-invalidPassword
+initialUsername
 
 	^ String empty

@@ -1,6 +1,7 @@
 protocol parse
 folderFromResponse: responseLine
 
+	"responseLine contains a string like this < ''.'' ''INBOX.Subfolder'' > "
 	| response split parent |
 	response := ICStringFormatter stripChars: self class protocolQuote from: responseLine.
 	

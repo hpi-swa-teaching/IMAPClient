@@ -7,10 +7,10 @@
 	"instance" : {
 		"endPoint" : "AR 5/31/2016 21:33",
 		"endPoint:" : "AR 5/31/2016 21:33",
-		"setUp" : "js 6/14/2016 10:47",
+		"setUp" : "jwe 6/15/2016 15:56",
 		"tearDown" : "js 6/7/2016 09:42",
-		"testConnectOn_EverythingFine" : "js 6/14/2016 10:47",
+		"testConnectOn_EverythingFine" : "jwe 6/15/2016 15:57",
 		"testConnectOn_WrongHost" : "js 6/14/2016 10:47",
 		"testConnectOn_WrongPort" : "js 6/14/2016 10:48",
 		"testPingIfNotConnected" : "js 6/14/2016 10:48",
-		"testSuccesfulConnect" : "AR 5/31/2016 22:01" } }
+		"testSuccesfulConnect" : "jwe 6/15/2016 15:57" } }

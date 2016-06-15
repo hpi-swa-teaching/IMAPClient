@@ -1,4 +1,4 @@
 constants
 validPassword
 
-	^ '123456'
+	^ '"123456"'

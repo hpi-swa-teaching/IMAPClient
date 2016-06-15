@@ -1,5 +1,5 @@
 initialization
 initialize 
 
-	self username: self class defaultUsername.
-	self password: self class defaultPassword
+	self username: self class initialUsername.
+	self password: self class initialPassword

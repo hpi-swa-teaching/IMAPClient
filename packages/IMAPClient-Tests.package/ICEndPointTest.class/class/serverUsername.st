@@ -1,4 +1,4 @@
 constants
 serverUsername
 
-	^ 'swt2016'
+	^ '"swt2016"'

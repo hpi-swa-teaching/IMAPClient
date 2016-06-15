@@ -5,5 +5,5 @@ connectTo: serverInfo
 	
 	self serverInfo: serverInfo.
 	self stream connectTo: self serverInfo host on: self serverInfo port.
-	self stream nextResponse. "skip server greetings"
+	self stream discardUnimportantResponse.
 	^ true

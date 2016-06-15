@@ -1,4 +1,4 @@
 constants
 invalidUsername
 
-	^ ''
+	^ String empty

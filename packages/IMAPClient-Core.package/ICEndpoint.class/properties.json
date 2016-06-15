@@ -12,7 +12,7 @@
 		"authenticationInfo",
 		"rootFolder",
 		"lastResponse" ],
-	"name" : "ICEndpoint",
+	"name" : "ICEndPoint",
 	"pools" : [
 		 ],
 	"super" : "Object",

@@ -1,4 +1,4 @@
 constants
 serverPassword
 
-	^ 'SWT2k16'
+	^ '"SWT2k16"'

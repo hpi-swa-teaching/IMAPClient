@@ -1,4 +1,4 @@
 validation
 isValid
 
-	^ (self username ~= self class defaultUsername and: self password ~= self class defaultPassword)
+	^ (self username ~= self class initialUsername and: self password ~= self class initialPassword)
