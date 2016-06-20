@@ -1,19 +1,20 @@
 {
 	"class" : {
-		"mockupEmailHeader" : "jwe 6/14/2016 23:43" },
+		 },
 	"instance" : {
 		"authenticatedResponses" : "js 6/14/2016 10:50",
 		"badResponse" : "AR 6/10/2016 15:26",
 		"commandSucceeded:" : "jwe 6/15/2016 16:27",
 		"fetchBodyResponse" : "js 6/14/2016 10:50",
-		"fetchHeaderResponse" : "jwe 6/14/2016 23:43",
+		"fetchHeaderResponse" : "AR 6/20/2016 16:14",
+		"fetchMultlineBodyResponse" : "AR 6/15/2016 12:05",
 		"initialize" : "AR 6/10/2016 15:28",
 		"makeTransition:withResponse:" : "js 6/14/2016 10:50",
 		"notAuthenticatedResponses" : "js 6/14/2016 10:50",
 		"respondTo:" : "AR 6/13/2016 16:08",
 		"responses" : "js 6/14/2016 10:51",
 		"responses:" : "js 6/14/2016 10:51",
-		"selectedResponses" : "js 6/14/2016 10:51",
+		"selectedResponses" : "AR 6/20/2016 16:32",
 		"stateTransitions" : "js 6/14/2016 10:51",
 		"validHost" : "js 6/14/2016 10:51",
 		"validHost:" : "js 6/14/2016 10:51",

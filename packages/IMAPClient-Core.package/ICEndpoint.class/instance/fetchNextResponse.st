@@ -1,9 +1,8 @@
-message handling
+login
 fetchNextResponse
-
-	"fetches all lines upTp next ProtocolEndPhrase. In case of an Protocol error an error rises."	
+	
 	| multiLineResponse |
 	multiLineResponse := OrderedCollection new.
 	[ (self stream nextResponse beginsWith: self class commandSucceeded) or: [ self checkForBadRequest ]] whileFalse: [ multiLineResponse add: self stream lastResponse ].
 
-	self lastResponse: multiLineResponse 
+	self lastResponse: multiLineResponse "if multiLineResponse is empty but no error was risen, all we got was a single line of response containing something like '. OK ...'"

@@ -4,7 +4,7 @@ login
 	self checkConnected.
 	self authenticationInfo isValid ifFalse: [ ^ false ].
 	
-	self stream sendCommand: ({ self class loginCommand . self class asProtocolQuote: self authenticationInfo username . self class asProtocolQuote: self authenticationInfo password } joinSeparatedBy: self class protocolBlank).
+	self stream sendCommand: ({ self class loginCommand . self authenticationInfo username . self authenticationInfo password } joinSeparatedBy: self class protocolBlank).
 
 	self
 		fetchNextResponse;

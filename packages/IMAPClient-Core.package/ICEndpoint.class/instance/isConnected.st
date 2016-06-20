@@ -1,4 +1,4 @@
-accessing
+login
 isConnected
 
 	^ self stream isConnected

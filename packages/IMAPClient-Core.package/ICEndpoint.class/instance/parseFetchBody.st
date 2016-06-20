@@ -1,8 +1,6 @@
-protocol parse
+login
 parseFetchBody
 
-	^ self lastResponse at: 2
-		
-		
+	^ (self lastResponse copyFrom: 2 to: (lastResponse size - 1)) joinSeparatedBy: Character cr.
 	
 	
