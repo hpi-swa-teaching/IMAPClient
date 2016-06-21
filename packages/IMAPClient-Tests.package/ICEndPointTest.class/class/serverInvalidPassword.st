@@ -1,4 +1,0 @@
-constants
-serverInvalidPassword
-
-	^ 'invalid password'

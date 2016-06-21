@@ -3,7 +3,9 @@ login
 
 	| endpoint |
 	endpoint := ICEndPoint new.
-	[ endpoint connectTo: self serverAddress asString on: self serverPort asNumber andLogin: self username using: self password ]
+	[ endpoint 
+		connectTo: self serverAddress asString on: self serverPort asNumber;
+		login: self username using: self password ]
 		on: Error
 		do: [ :sig | self inform: sig asString ].
 	(endpoint isLoggedIn)

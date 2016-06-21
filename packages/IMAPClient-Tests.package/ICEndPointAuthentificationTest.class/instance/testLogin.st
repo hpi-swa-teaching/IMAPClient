@@ -1,5 +1,5 @@
 login
-testSuccesfulLogin
+testLogin
 
 	self endPoint authenticationInfo
 		username: self class validUsername;

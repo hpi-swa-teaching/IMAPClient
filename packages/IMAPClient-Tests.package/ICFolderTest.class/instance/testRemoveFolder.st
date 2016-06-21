@@ -1,5 +1,5 @@
 removeFolder
-testRemoveFolder_FolderExists
+testRemoveFolder
 
 	| subfolder1 subfolder2 subfolder3|
 	subfolder1 := ICFolder named: 'subfolder1' in: self root.

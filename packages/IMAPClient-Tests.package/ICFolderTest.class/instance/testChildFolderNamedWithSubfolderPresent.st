@@ -1,5 +1,5 @@
 childFolderNamed
-testChildFolderNamed_SubfolderIsPresent
+testChildFolderNamedWithSubfolderPresent
 	
 	| subfolder1 subfolder2 result|
 	subfolder1 := ICFolder named: 'subfolder' in: self root.
