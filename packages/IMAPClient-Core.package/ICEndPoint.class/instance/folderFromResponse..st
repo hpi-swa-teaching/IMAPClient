@@ -2,7 +2,7 @@ protocol parse
 folderFromResponse: responseLine
 
 	| response split parent |
-	response := ICStringFormatter stripChars: self class protocolQuote from: responseLine.
+	response := responseLine copyReplaceAll: self protocolQuote with: String empty.
 	
 	split := response subStrings: self class protocolBlank.	
 	split := split last subStrings: split first.
