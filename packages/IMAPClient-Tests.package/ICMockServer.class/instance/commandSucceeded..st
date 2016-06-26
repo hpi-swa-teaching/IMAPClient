@@ -1,4 +1,4 @@
 accessing
 commandSucceeded: aResponse
 
-	^ aResponse beginsWith: ICEndPoint commandSucceeded
+	^ aResponse last beginsWith: ICEndPoint commandSucceeded
