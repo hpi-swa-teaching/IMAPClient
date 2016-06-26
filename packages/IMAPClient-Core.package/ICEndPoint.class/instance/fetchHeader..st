@@ -1,8 +1,8 @@
 login
 fetchHeader: messageId
 
-	self stream sendCommand: (self class fetchHeaderCommand: messageId).
 	^ self
+		sendCommand: (self class fetchHeaderCommand: messageId);
 		fetchNextResponse;
 		parseFetchHeader
 		
