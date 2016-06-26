@@ -6,6 +6,7 @@ testCountFolders
 	subfolder2 := ICFolder named: 'subfolder2' in: subfolder1.
 	subfolder3 := ICFolder named: 'subfolder3' in: subfolder2.
 	
-	self assert: subfolder1 countFolders equals: 2.
-	self assert: subfolder2 countFolders equals: 1.
-	self assert: subfolder3 countFolders equals: 0
+	self 
+		assert: subfolder1 countFolders equals: 2;
+		assert: subfolder2 countFolders equals: 1;
+		assert: subfolder3 countFolders equals: 0
