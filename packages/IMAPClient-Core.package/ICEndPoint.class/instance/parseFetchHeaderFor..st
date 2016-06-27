@@ -1,18 +1,16 @@
 login
-parseFetchHeader
+parseFetchHeaderFor: anEmail
 
-	| email headerData headerChunk |
-	email := ICEmailObject new.
+	| headerData headerChunk |
 	headerData := self lastResponse copyFrom: 2 to: self lastResponse size - 2.
 	headerChunk := OrderedCollection new.
 	
 	headerData do: [ :line |
-		((self startsNewHeaderChunk: line) & (headerChunk notEmpty))
-			ifTrue: [ self parseHeaderChunk: headerChunk for: email.
-				headerChunk removeAll ].
+		(self startsNewHeaderChunk: line & headerChunk notEmpty)
+			ifTrue: [ self parseHeaderChunk: headerChunk for: anEmail.
+				headerChunk clear ].
 			headerChunk add: line ].
-	self parseHeaderChunk: headerChunk for: email.
-	^ email
+	self parseHeaderChunk: headerChunk for: anEmail
 
 	"^ ICEmailObject new
 		to: ((self lastResponse at: 2) subStrings: ' ') second;
