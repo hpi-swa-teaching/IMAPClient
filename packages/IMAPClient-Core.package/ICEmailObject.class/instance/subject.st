@@ -1,4 +1,4 @@
 accessing
 subject
 
-	^ self header at: #subject ifAbsent: 'lalalla'
+	^ self header at: #subject ifAbsent: self defaultSubject

@@ -1,4 +1,4 @@
 accessing
-eMails
+emails
 
-	^ eMails
+	^ emails

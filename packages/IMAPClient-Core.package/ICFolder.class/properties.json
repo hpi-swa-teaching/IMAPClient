@@ -8,8 +8,8 @@
 	"instvars" : [
 		"parent",
 		"childFolders",
-		"eMails",
-		"name" ],
+		"name",
+		"emails" ],
 	"name" : "ICFolder",
 	"pools" : [
 		 ],
