@@ -1,5 +1,9 @@
 accessing
 fetchHeaderResponseWithMultilineSender
 
-	^ #('From: Max Muster'
-		'	<max.muster@student.hpi.de>')
+	^ (self fetchHeaderResponseBeginning: 45),
+		self fetchHeaderResponseDate,
+		self fetchHeaderResponseReceiver,
+		self fetchHeaderResponseSubject,
+		self fetchHeaderResponseMultilineSender,
+		self fetchHeaderResponseEnding 

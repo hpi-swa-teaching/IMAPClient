@@ -1,6 +1,4 @@
 protocol parse
 parseFetchHeaderReceiver: aHeaderChunk for: anEmail
 
-	anEmail to: (aHeaderChunk first subStrings: ' ') second
-
-	
+	anEmail to: (aHeaderChunk collect: [ :receiverLine | (receiverLine subStrings: ' ') last ]).
