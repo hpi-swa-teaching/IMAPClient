@@ -1,12 +1,12 @@
 error handling
-parseFetchHeaders
+parseFetchHeaders: headerLines
 
 	| emails emailHeaderLines |
 	emails := OrderedCollection new.
 	emailHeaderLines := OrderedCollection new.
-	self lastResponse do: [ :line |
+	headerLines do: [ :line |
 		emailHeaderLines add: line.
 		(line = self lastHeaderLine) ifTrue: [
 			emails add: (self parseFetchHeader: emailHeaderLines).
-			emailHeaderLines removeAll. ] ].
+			emailHeaderLines removeAll ] ].
 	^ emails
