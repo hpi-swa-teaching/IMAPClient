@@ -1,0 +1,14 @@
+{
+	"category" : "IMAPClient-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"email" ],
+	"name" : "ICEmailDialog",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

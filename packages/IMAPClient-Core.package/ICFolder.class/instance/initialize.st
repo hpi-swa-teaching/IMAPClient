@@ -4,5 +4,5 @@ initialize
 	self
 		parent: self;
 		childFolders: OrderedCollection new;
-		eMails: OrderedCollection new;
+		emails: OrderedCollection new;
 		name: self class defaultName.

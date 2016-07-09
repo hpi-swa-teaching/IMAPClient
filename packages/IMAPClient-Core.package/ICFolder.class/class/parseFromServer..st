@@ -1,9 +1,12 @@
 instance creation
 parseFromServer: anICEndPoint
 
-	anICEndPoint 
+	^ anICEndPoint 
 		checkConnected;
-		checkLoggedIn.
+		checkLoggedIn;
+		listAllFolders;
+		fetchAllHeaders;
+		rootFolder.
 		
 	
 	

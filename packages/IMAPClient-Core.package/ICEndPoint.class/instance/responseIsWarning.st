@@ -1,4 +1,4 @@
 error handling
 responseIsWarning
 
-	^ false.
+	^ false

@@ -5,6 +5,6 @@ displayOnTranscript: hierarchyPrefix
 		show: hierarchyPrefix, '[', self name, ']';
 		crlf.
 
-	self eMails do: [ :each | each displaySubjectOnTranscript: hierarchyPrefix, self class textbasedHierarchyBlank ].
+	self emails do: [ :each | each displaySubjectOnTranscript: hierarchyPrefix, self class textbasedHierarchyBlank ].
 	self childFolders do: [ :each | each displayOnTranscript: hierarchyPrefix, self class textbasedHierarchyBlank ]
 	

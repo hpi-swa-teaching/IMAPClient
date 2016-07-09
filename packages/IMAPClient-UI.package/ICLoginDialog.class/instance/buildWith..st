@@ -1,4 +1,4 @@
-user interface
+toolbuilder
 buildWith: builder
 
 	| windowSpec  serverAdressInputFieldSpec serverPortInputFieldSpec userInputFieldSpec passwordInputFieldSpec loginButtonSpec |
