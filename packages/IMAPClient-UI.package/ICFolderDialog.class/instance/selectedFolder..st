@@ -1,6 +1,7 @@
 folder selection
-selectedFolder: anObject
+selectedFolder: aFolder
 
-	selectedFolder := anObject.
+	selectedFolder := aFolder.
+	aFolder fetchHeaders.
 	self changed: #selectedFolder.
 	self changed: #emailsOfSelectedFolder.

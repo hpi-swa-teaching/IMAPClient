@@ -3,12 +3,12 @@
 		"open" : "ms 7/9/2016 16:43",
 		"openWith:" : "ms 7/9/2016 16:56" },
 	"instance" : {
-		"buildWith:" : "ms 7/9/2016 17:29",
+		"buildWith:" : "ms 7/10/2016 13:56",
 		"dialogTitle" : "ms 7/9/2016 17:31",
 		"email" : "ms 7/9/2016 16:56",
 		"email:" : "ms 7/9/2016 16:56",
-		"getBody" : "ms 7/9/2016 16:59",
+		"getBody" : "ms 7/10/2016 14:19",
 		"getColor" : "ms 7/9/2016 17:15",
-		"getRecipient" : "ms 7/9/2016 17:18",
-		"getSenders" : "ms 7/9/2016 17:28",
+		"getRecipients" : "ms 7/10/2016 13:56",
+		"getSender" : "ms 7/10/2016 13:56",
 		"getSubject" : "ms 7/9/2016 17:16" } }

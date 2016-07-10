@@ -3,4 +3,4 @@ stateTransitions
 
 	^ Dictionary newFrom: {
 		'. LOGIN ', self validUsername, ' ', self validPassword -> self authenticatedResponses.
-		'. SELECT INBOX' -> self selectedResponses }
+		'. SELECT inbox' -> self selectedResponses}

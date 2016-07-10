@@ -2,7 +2,8 @@ login
 parseFetchHeader: headerLines
 
 	| email headerData headerChunk |
-	email := ICEmailObject new.
+	email := ICEmail new.
+	email messageID: (headerLines first subStrings: ' ') second.
 	headerData := headerLines copyFrom: 2 to: headerLines size - 2.
 	headerChunk := OrderedCollection new.
 	

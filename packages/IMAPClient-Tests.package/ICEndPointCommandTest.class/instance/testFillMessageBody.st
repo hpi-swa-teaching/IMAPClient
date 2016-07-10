@@ -1,8 +1,9 @@
 fetch
 testFillMessageBody
 
-	| emailObject |
-	emailObject := ICEmailObject new.
-	self endPoint fillBodyFor: emailObject with: self messageID. 
-	self assert: (emailObject body) equals: self class expectedFetchBody
+	| email |
+	email := ICEmail new.
+	email messageID: 42.
+	self endPoint fillBodyFor: email. 
+	self assert: (email body) equals: self class expectedFetchBody
 	

@@ -1,8 +1,9 @@
 fetch
 testFillMessageBodyWithMultilineBody
 
-	| emailObject |
-	emailObject := ICEmailObject new.
-	self endPoint fillBodyFor: emailObject with: self multilineBodyMessageID. 
-	self assert: (emailObject body) equals: self class expectedFetchMultilineBody
+	| email |
+	email := ICEmail new.
+	email messageID: 43.
+	self endPoint fillBodyFor: email. 
+	self assert: (email body) equals: self class expectedFetchMultilineBody
 	

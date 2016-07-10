@@ -1,4 +1,4 @@
 error handling
-fetchAllHeaders
+fetchAllHeadersOfSelectedFolder
 
 	^ self fetchHeadersFrom: 1 to: '*'

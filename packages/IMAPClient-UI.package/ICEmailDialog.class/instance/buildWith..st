@@ -15,7 +15,7 @@ buildWith: builder
 		color: #getColor;
 		readOnly: true;
 		indicateUnacceptedChanges: false;
-		getText: #getSenders;
+		getText: #getSender;
 		frame: (0 @ 0 extent: 1 @ 0.0666).
 	
 	subjectSpec := builder pluggableInputFieldSpec new.
@@ -34,7 +34,7 @@ buildWith: builder
 		color: #getColor;
 		readOnly: true;
 		indicateUnacceptedChanges: false;
-		getText: #getRecipient;
+		getText: #getRecipients;
 		frame: (0 @ 0.1333 extent: 1 @ 0.0666).
 		
 	bodySpec := builder pluggableTextSpec new.

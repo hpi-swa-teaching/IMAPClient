@@ -9,7 +9,8 @@
 		"parent",
 		"childFolders",
 		"name",
-		"emails" ],
+		"emails",
+		"endpoint" ],
 	"name" : "ICFolder",
 	"pools" : [
 		 ],

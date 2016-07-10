@@ -2,5 +2,8 @@ initialization
 authenticatedResponses
 
 	^ Dictionary newFrom: {
-		'. NOOP' -> (OrderedCollection newFrom: #('. OK [NOOP COMPLETED]')).
-		'. LOGOUT' -> (OrderedCollection newFrom: #('. OK' . '. OK')) }
+		'. NOOP' -> self noopResponse.
+		'. LOGOUT' -> self logoutResponse.
+		'. SELECT inbox' -> self selectInboxResponse}
+		
+	

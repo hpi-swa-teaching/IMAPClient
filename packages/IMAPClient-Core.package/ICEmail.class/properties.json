@@ -7,8 +7,10 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"body",
-		"header" ],
-	"name" : "ICEmailObject",
+		"header",
+		"folder",
+		"messageID" ],
+	"name" : "ICEmail",
 	"pools" : [
 		 ],
 	"super" : "Object",

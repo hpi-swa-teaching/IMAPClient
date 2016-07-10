@@ -1,4 +1,4 @@
-as yet unclassified
+email access
 getSubject
 
 	^ email subject

@@ -3,5 +3,5 @@ fetchEmail: messageId
 
 	| message |
 	message := self fetchHeader: messageId.
-	self fillBodyFor: message with: messageId.
+	self fillBodyFor: message.
 	^ message 

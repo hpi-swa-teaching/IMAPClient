@@ -1,4 +1,4 @@
-as yet unclassified
+email access
 getBody
-
-	^ email body
+	
+	^ email retrieveBody

@@ -1,11 +1,9 @@
 protocol parse
 folderFromResponse: responseLine
 
-	| response split parent |
-	response := responseLine copyReplaceAll: self class protocolQuote with: String empty.
-	
-	split := response subStrings: self class protocolBlank.	
-	split := split last subStrings: split first.
-	
-	parent := self rootFolder childFolderNamed: split first ifAbsent: [ ICFolder named: split first in: self rootFolder ].
-	split allButFirst do: [ :name | parent := parent childFolderNamed: name ifAbsent: [ ICFolder named: name in: parent ]]
+	| folderPath parent |
+	folderPath := self folderPathFrom: responseLine.
+	parent := self rootFolder childFolderNamed: folderPath first 
+		ifAbsent: [ ICFolder named: folderPath first in: self rootFolder with: self ].
+	folderPath allButFirst do: [ :name | parent := parent childFolderNamed: name 
+		ifAbsent: [ ICFolder named: name in: parent with: self ]]
