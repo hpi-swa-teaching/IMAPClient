@@ -1,4 +1,4 @@
 as yet unclassified
 getColor
 
-	^ Color black
+	^ Color transparent 

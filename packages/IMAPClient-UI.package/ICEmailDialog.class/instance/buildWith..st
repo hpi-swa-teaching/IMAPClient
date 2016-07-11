@@ -1,7 +1,7 @@
 toolbuilder
 buildWith: builder
 
-	| windowSpec senderLabelSpec subjectSpec bodySpec recipientSpec |
+	| window windowSpec senderLabelSpec subjectSpec bodySpec recipientSpec |
 	windowSpec := builder pluggableWindowSpec new.
 	windowSpec
 		model: self;
@@ -47,5 +47,7 @@ buildWith: builder
 
 	windowSpec children addAll: { senderLabelSpec . subjectSpec . recipientSpec . bodySpec }.
 	
-	^ builder build: windowSpec
+	window := builder build: windowSpec.
+	self changed: #getColor.
+	^ window 
 	

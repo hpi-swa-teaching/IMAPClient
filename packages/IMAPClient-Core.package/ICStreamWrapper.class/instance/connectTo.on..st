@@ -5,4 +5,3 @@ connectTo: host on: port
 	hostAddress := NetNameResolver addressForName: host.
 	self close.
 	self stream: (SocketStream openConnectionToHost: hostAddress port: port)
-	

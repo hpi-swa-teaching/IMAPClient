@@ -1,5 +1,5 @@
 email access
 fetchHeaders
 
-	(self == self endpoint rootFolder) 
-		ifFalse: [ self emails: (self endpoint fetchHeadersIn: self) ]
+	(self ~= self endpoint rootFolder) 
+		ifTrue: [ self emails: (self endpoint fetchHeadersIn: self) ]
