@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"authenticatedResponses" : "AR 6/30/2016 07:48",
+		"authenticatedResponses" : "jwe 7/12/2016 09:46",
 		"badResponse" : "AR 6/10/2016 15:26",
 		"commandSucceeded:" : "AR 6/26/2016 12:16",
 		"fetchBodyResponse" : "js 6/14/2016 10:50",
@@ -21,7 +21,8 @@
 		"fetchHeadersWithRangeResponse" : "al 7/4/2016 16:33",
 		"fetchMultlineBodyResponse" : "AR 6/15/2016 12:05",
 		"initialize" : "AR 6/10/2016 15:28",
-		"loginResponse" : "AR 6/30/2016 07:46",
+		"listFoldersResponse" : "jwe 7/12/2016 10:08",
+		"loginResponse" : "jwe 7/12/2016 10:41",
 		"logoutResponse" : "AR 6/30/2016 07:46",
 		"makeTransition:withResponse:" : "AR 6/26/2016 12:17",
 		"noopResponse" : "AR 6/30/2016 07:47",

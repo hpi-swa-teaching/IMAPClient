@@ -1,6 +1,6 @@
 connection
-connectTo: serverInfo andLoginUsing: autheticationInfo
+connectTo: serverInfo andLoginUsing: authentificationInfo
 
-	self
+	^ self
 		connectTo: serverInfo;
-		loginUsing: authenticationInfo
+		loginUsing: authentificationInfo

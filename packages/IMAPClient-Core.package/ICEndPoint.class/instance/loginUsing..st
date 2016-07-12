@@ -1,6 +1,6 @@
 login
 loginUsing: autheticationInfo
 
-	self
+	^ self
 		authenticationInfo: autheticationInfo;
 		login
