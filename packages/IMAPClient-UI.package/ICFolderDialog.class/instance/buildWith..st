@@ -7,6 +7,7 @@ buildWith: builder
 		model: self;
 		label: self dialogTitle;
 		children: OrderedCollection new;
+		closeAction: #closeConnection;
 		extent: 800 @ 600.
 		
 	folderTreeSpec := builder pluggableTreeSpec new.

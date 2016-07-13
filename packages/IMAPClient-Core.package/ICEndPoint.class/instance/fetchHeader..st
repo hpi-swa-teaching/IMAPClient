@@ -1,4 +1,4 @@
-login
+fetching
 fetchHeader: messageId
 
 	^ self

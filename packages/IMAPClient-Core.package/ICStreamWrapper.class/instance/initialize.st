@@ -1,4 +1,5 @@
 initialization
 initialize
 
-	self stream: ICNullStream new
+	self stream: ICNullStream new.
+	self ssl: false

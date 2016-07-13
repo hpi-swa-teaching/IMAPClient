@@ -30,7 +30,7 @@
 		"checkLoggedIn" : "js 5/31/2016 09:46",
 		"close" : "AR 5/31/2016 11:12",
 		"commandSucceeded" : "AR 6/14/2016 08:46",
-		"connectTo:" : "AR 6/15/2016 11:56",
+		"connectTo:" : "ms 7/12/2016 10:36",
 		"connectTo:andLoginUsing:" : "jwe 7/12/2016 10:39",
 		"connectTo:on:" : "AR 6/14/2016 08:46",
 		"fetchAllHeadersOfSelectedFolder" : "ms 7/10/2016 13:31",
@@ -44,7 +44,7 @@
 		"fillBodyFor:with:" : "AR 6/15/2016 11:30",
 		"folderFromResponse:" : "ms 7/10/2016 13:48",
 		"folderPathFrom:" : "ms 7/10/2016 13:20",
-		"initialize" : "ms 7/10/2016 13:52",
+		"initialize" : "ms 7/12/2016 10:37",
 		"isConnected" : "js 6/7/2016 10:13",
 		"isLoggedIn" : "js 5/15/2016 13:09",
 		"lastHeaderLine" : "al 7/4/2016 16:59",
@@ -77,6 +77,9 @@
 		"sendCommand:" : "AR 5/31/2016 11:07",
 		"serverInfo" : "js 5/15/2016 16:45",
 		"serverInfo:" : "js 5/15/2016 16:45",
+		"ssl" : "ms 7/12/2016 10:35",
+		"ssl:" : "ms 7/12/2016 10:35",
 		"startsNewHeaderChunk:" : "AR 6/27/2016 16:04",
 		"stream" : "js 6/7/2016 10:17",
-		"stream:" : "js 6/7/2016 10:17" } }
+		"stream:" : "js 6/7/2016 10:17",
+		"useSSL" : "ms 7/12/2016 10:35" } }

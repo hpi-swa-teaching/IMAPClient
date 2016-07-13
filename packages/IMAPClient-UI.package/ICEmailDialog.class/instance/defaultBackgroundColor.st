@@ -1,4 +1,4 @@
-as yet unclassified
+user interface
 defaultBackgroundColor
 
 	^ Color paleBlue darker darker

@@ -9,7 +9,8 @@
 		"host",
 		"port",
 		"stream",
-		"lastResponse" ],
+		"lastResponse",
+		"ssl" ],
 	"name" : "ICStreamWrapper",
 	"pools" : [
 		 ],

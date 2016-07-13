@@ -1,4 +1,4 @@
-as yet unclassified
+fetching
 fetchHeadersIn: aFolder
 
 	self select: aFolder path.

@@ -9,7 +9,8 @@
 		"serverPort",
 		"username",
 		"password",
-		"serverAddress" ],
+		"serverAddress",
+		"ssl" ],
 	"name" : "ICLoginDialog",
 	"pools" : [
 		 ],

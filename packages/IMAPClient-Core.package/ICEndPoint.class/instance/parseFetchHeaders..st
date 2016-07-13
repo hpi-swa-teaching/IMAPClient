@@ -1,4 +1,4 @@
-error handling
+protocol parse
 parseFetchHeaders: headerLines
 
 	| emails emailHeaderLines |

@@ -1,7 +1,7 @@
 toolbuilder
 buildWith: builder
 
-	| windowSpec  serverAdressInputFieldSpec serverPortInputFieldSpec userInputFieldSpec passwordInputFieldSpec loginButtonSpec |
+	| windowSpec  serverAdressInputFieldSpec serverPortInputFieldSpec userInputFieldSpec passwordInputFieldSpec sslCheckBoxSpec loginButtonSpec window |
 	windowSpec := builder pluggableWindowSpec new.
 	windowSpec
 		model: self;
@@ -40,7 +40,7 @@ buildWith: builder
 		setText: #username:;
 		editText: #username:;
 		help: #usernameHelpText;
-		frame: (self guiElementXOffset @ (self guiElementYOffsetOf: 2) extent: self guiElementWidth @ self guiElementHeight).
+		frame: (self guiElementXOffset @ (self guiElementYOffsetOf: 2.2) extent: self guiElementWidth @ self guiElementHeight).
 		
 	passwordInputFieldSpec := builder pluggableInputFieldSpec new.
 	passwordInputFieldSpec
@@ -52,15 +52,32 @@ buildWith: builder
 		editText: #password:;
 		help: #passwordHelpText;
 		font: (StrikeFont passwordFontSize: 12);
-		frame: (self guiElementXOffset @ (self guiElementYOffsetOf: 3) extent: self guiElementWidth @ self guiElementHeight).
+		frame: (self guiElementXOffset @ (self guiElementYOffsetOf: 3.2) extent: self guiElementWidth @ self guiElementHeight).
+	
+	sslCheckBoxSpec := builder pluggableCheckBoxSpec new.
+	sslCheckBoxSpec
+		model: self;
+		frame: (self guiElementXOffset @ (self guiElementYOffsetOf: 4.4) extent: self guiElementWidth @ self guiElementHeight);
+		label: #sslCheckBoxLabel;
+		color: #checkBoxColor;
+		state: #ssl;
+		action: #toggleSSL.
 	
 	loginButtonSpec := builder pluggableButtonSpec new.
 	loginButtonSpec
 		model: self;
-		frame: (self guiElementXOffset @ (self guiElementYOffsetOf: 4.2) extent: self guiElementWidth @ (self guiElementHeight * 1.3));
+		frame: (self guiElementXOffset @ (self guiElementYOffsetOf: 5.5) extent: self guiElementWidth @ (self guiElementHeight * 1.3));
 		label: 'Login';
 		action: #login.
 			
-	windowSpec children addAll: { loginButtonSpec . serverAdressInputFieldSpec . serverPortInputFieldSpec . userInputFieldSpec . passwordInputFieldSpec }.
+	windowSpec children addAll: { loginButtonSpec . serverAdressInputFieldSpec . serverPortInputFieldSpec . userInputFieldSpec . passwordInputFieldSpec . sslCheckBoxSpec }.
+
+	window := builder build: windowSpec.
 	
-	^ builder build: windowSpec
+	"hack to make the checkbox background transparent"
+	"can be removed once PluggableCheckBoxMorph starts using its color selector instead of default mint green (bug in squeak)"
+	window submorphsDo: [ :m |
+		(m class == PluggableCheckBoxMorph)
+			ifTrue: [m color: Color transparent] ].
+	
+	^ window

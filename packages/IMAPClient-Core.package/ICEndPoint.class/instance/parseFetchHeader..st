@@ -1,4 +1,4 @@
-login
+protocol parse
 parseFetchHeader: headerLines
 
 	| email headerData headerChunk |

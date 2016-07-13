@@ -9,7 +9,8 @@
 		"responseQueue",
 		"connected",
 		"lastResponse",
-		"server" ],
+		"server",
+		"ssl" ],
 	"name" : "ICMockSocketStream",
 	"pools" : [
 		 ],

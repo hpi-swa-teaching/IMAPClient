@@ -1,4 +1,4 @@
-login
+fetching
 startsNewHeaderChunk: aLine
 
 	^ (aLine subStrings: ' ') first endsWith: ':'

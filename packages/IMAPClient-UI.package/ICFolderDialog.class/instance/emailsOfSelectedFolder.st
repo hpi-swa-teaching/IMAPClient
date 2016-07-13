@@ -2,5 +2,5 @@ folder selection
 emailsOfSelectedFolder
 
 	^ selectedFolder
-		ifNil: [ ^{} ]
-		ifNotNil: [ ^ selectedFolder emails ]
+		ifNil: [ OrderedCollection new ]
+		ifNotNil: [ selectedFolder emails ]

@@ -1,4 +1,4 @@
-error handling
+fetching
 fetchHeadersFrom: aBeginId to: anEndId
 
 	^ self
