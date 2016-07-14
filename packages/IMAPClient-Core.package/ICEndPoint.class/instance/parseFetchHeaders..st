@@ -6,7 +6,7 @@ parseFetchHeaders: headerLines
 	emailHeaderLines := OrderedCollection new.
 	headerLines do: [ :line |
 		emailHeaderLines add: line.
-		(line = self lastHeaderLine) ifTrue: [
+		(line = self class lastHeaderLine) ifTrue: [
 			emails add: (self parseFetchHeader: emailHeaderLines).
 			emailHeaderLines removeAll ] ].
 	^ emails

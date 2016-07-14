@@ -12,7 +12,8 @@
 		"authenticationInfo",
 		"rootFolder",
 		"lastResponse",
-		"ssl" ],
+		"ssl",
+		"hierachyDelimiter" ],
 	"name" : "ICEndPoint",
 	"pools" : [
 		 ],
