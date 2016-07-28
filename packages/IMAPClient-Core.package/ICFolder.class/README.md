@@ -1,5 +1,6 @@
 An ICFolder is an object resembling an IMAP folder on a remote server.
 
+
 Instance Variables
 	childFolders:		All child folders of this folder. This is automatically filled in by the ICEndPoint.
 	emails:		This contains all ICEmails of this folder after calling ICFolder>>fetchHeaders.
