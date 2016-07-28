@@ -1,4 +1,4 @@
 commands
 parameterErrorPosition
 
-	^ 2.
+	^ 2
