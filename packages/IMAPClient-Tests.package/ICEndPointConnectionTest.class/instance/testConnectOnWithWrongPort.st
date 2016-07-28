@@ -1,4 +1,4 @@
 connectOn
 testConnectOnWithWrongPort
 
-	self should: [ self endPoint connectTo: self class validHost on: self class invalidPort ] raise: Exception
+	self should: [ self endPoint connectTo: self class validHost on: self class invalidPort with: SocketStream ] raise: Exception

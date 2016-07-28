@@ -1,9 +1,9 @@
 {
 	"class" : {
-		 },
+		"openConnectionToHost:port:" : "AR 7/14/2016 09:46" },
 	"instance" : {
 		"close" : "js 6/7/2016 09:49",
-		"connectTo:on:" : "js 6/14/2016 17:11",
+		"connectTo:on:" : "AR 7/28/2016 11:52",
 		"connected" : "js 6/7/2016 09:49",
 		"connected:" : "js 6/7/2016 09:49",
 		"discardUnimportantResponse" : "jwe 6/15/2016 15:56",
@@ -12,6 +12,7 @@
 		"isConnected:" : "AR 5/31/2016 11:38",
 		"lastResponse" : "js 6/7/2016 10:26",
 		"lastResponse:" : "js 6/7/2016 10:22",
+		"nextLine" : "AR 7/12/2016 10:00",
 		"nextResponse" : "al 6/20/2016 16:49",
 		"responseQueue" : "AR 5/24/2016 10:18",
 		"responseQueue:" : "AR 5/24/2016 10:18",
