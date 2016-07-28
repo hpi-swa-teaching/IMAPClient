@@ -2,8 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
+		"asString" : "AR 7/28/2016 14:06",
 		"body" : "js 6/14/2016 10:37",
 		"body:" : "js 6/14/2016 10:37",
+		"bodyAsString" : "AR 7/28/2016 13:58",
 		"date" : "AR 6/13/2016 17:26",
 		"date:" : "AR 6/13/2016 17:25",
 		"defaultSubject" : "ms 6/28/2016 10:08",
@@ -13,9 +15,11 @@
 		"from:" : "AR 6/13/2016 17:24",
 		"header" : "js 6/14/2016 10:39",
 		"header:" : "js 6/14/2016 10:39",
+		"headerAsString" : "AR 7/28/2016 14:04",
 		"initialize" : "AR 6/10/2016 11:10",
 		"messageID" : "ms 7/10/2016 13:59",
 		"messageID:" : "ms 7/10/2016 13:59",
+		"minimalHeaderAsString" : "AR 7/28/2016 14:39",
 		"printBodyToTranscript" : "AR 6/13/2016 20:59",
 		"printHeaderToTranscript" : "al 7/4/2016 17:15",
 		"printToTranscript" : "AR 6/13/2016 20:58",
