@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"emailObject" ],
-	"name" : "ICEmailObjectTest",
+		"rootFolder" ],
+	"name" : "ICMockEndpoint",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "Object",
 	"type" : "normal" }
