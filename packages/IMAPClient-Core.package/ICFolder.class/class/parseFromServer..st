@@ -5,8 +5,5 @@ parseFromServer: anICEndPoint
 		checkConnected;
 		checkLoggedIn;
 		listAllFolders;
-		rootFolder.
-		
-	
-	
+		rootFolder
 	

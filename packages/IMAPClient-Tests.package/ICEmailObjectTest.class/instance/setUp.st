@@ -1,7 +1,7 @@
 setup
 setUp
 
-	self emailObject: ICEmailObject new.
+	self emailObject: ICEmail new.
 	self emailObject
 		header: self emailObjectHeader;
 		body: self emailObjectBody

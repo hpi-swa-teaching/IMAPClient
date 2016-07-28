@@ -1,0 +1,1 @@
+An ICFolderDialog is a toolbuilder-based UI for displaying the folder hierarchy of a given rootFolder and displaying all emails of a selected folder. Opens up an ICEmailDialog displaying the details of an email when double-clicking an email in the right pane.

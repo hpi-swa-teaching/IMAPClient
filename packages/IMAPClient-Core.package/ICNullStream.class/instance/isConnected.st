@@ -1,4 +1,4 @@
-accessing
+connection
 isConnected
 
 	^ false

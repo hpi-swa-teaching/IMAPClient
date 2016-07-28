@@ -1,4 +1,4 @@
-accessing
+connection
 nextLine
 
 	^ String empty

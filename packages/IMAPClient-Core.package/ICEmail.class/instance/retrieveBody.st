@@ -1,4 +1,4 @@
-as yet unclassified
+fetch body
 retrieveBody
 
 	self folder endpoint
