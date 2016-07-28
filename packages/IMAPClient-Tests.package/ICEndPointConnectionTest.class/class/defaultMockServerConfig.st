@@ -3,7 +3,8 @@ defaultMockServerConfig
 
 	| mockServer |
 	mockServer := ICMockServer new.
-	mockServer
+	^ mockServer
 		validPort: self validPort;
 		validHostIP: self validHostIP;
-		validHost: self validPort
+		validHost: self validHost;
+		yourself
