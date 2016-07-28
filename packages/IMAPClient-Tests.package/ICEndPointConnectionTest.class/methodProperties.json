@@ -11,7 +11,7 @@
 		"endPoint:" : "AR 5/31/2016 21:33",
 		"setUp" : "AR 7/14/2016 09:17",
 		"tearDown" : "js 6/7/2016 09:42",
-		"testConnectOn" : "AR 7/28/2016 11:10",
-		"testConnectOnWithWrongHost" : "AR 7/12/2016 09:53",
-		"testConnectOnWithWrongPort" : "AR 7/12/2016 09:53",
+		"testConnectToOn" : "ms 7/28/2016 12:52",
+		"testConnectToOnWithWrongHost" : "ms 7/28/2016 13:09",
+		"testConnectToOnWithWrongPort" : "ms 7/28/2016 13:09",
 		"testPingIfNotConnected" : "js 6/14/2016 10:48" } }

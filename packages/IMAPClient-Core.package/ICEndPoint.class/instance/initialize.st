@@ -2,10 +2,11 @@ initialization
 initialize
 
 	super initialize.
-	self loggedIn: false.
-	self serverInfo: ICServerInfo new.
-	self ssl: false.
-	self authenticationInfo: ICAuthenticationInfo new.
-	self stream: ICStreamWrapper new.
-	self rootFolder: (ICFolder newRootFolderWith: self).
-	self lastResponse: OrderedCollection new.
+	self 
+		loggedIn: false;
+		serverInfo: ICServerInfo new;
+		ssl: false;
+		authenticationInfo: ICAuthenticationInfo new;
+		stream: ICStreamWrapper new;
+		rootFolder: (ICFolder newRootFolderWith: self);
+		lastResponse: OrderedCollection new.
