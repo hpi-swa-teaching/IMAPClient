@@ -8,4 +8,3 @@ connectTo: serverInfo
 		ssl: self useSSL;
 		connectTo: self serverInfo host on: self serverInfo port;
 		nextResponse. "skip server greetings"
-	^ true

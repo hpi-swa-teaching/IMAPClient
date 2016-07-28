@@ -1,4 +1,4 @@
 initialization
 fetchHeaderResponseEnding
 
-	^ #((String empty) ')' '. OK FETCH completed.')
+	^ #('' ')' '. OK FETCH completed.')

@@ -1,4 +1,5 @@
 connectOn
 testConnectOn
 
-	self assert: (self endPoint connectTo: self class validHost on: self class validPort)
+	self shouldnt: (self endPoint connectTo: self class validHost on: self class validPort) raise: Exception. 
+	self assert: endPoint isConnected

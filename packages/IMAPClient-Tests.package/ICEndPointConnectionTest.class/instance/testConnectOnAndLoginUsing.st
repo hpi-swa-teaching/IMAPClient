@@ -8,4 +8,5 @@ testConnectOnAndLoginUsing
 		responses: self endPoint stream server notAuthenticatedResponses.
 	conInfo := ICServerInfo for: self class validHost using: self class validPort.
 	authInfo := ICAuthenticationInfo for: ICEndPointAuthentificationTest  validUsername using: ICEndPointAuthentificationTest validPassword.
-	self assert: (self endPoint connectTo: conInfo andLoginUsing: authInfo)
+	self shouldnt: ( self endPoint connectTo: conInfo andLoginUsing: authInfo) raise: Exception.
+	self assert: endPoint isConnected.
