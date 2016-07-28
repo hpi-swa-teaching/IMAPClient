@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 expectedMinimalHeaderAsString
 
 	^ 'from: sender', String cr,
