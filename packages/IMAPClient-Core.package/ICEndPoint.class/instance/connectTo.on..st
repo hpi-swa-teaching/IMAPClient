@@ -1,4 +1,5 @@
 connection
 connectTo: host on: port
-	
-	self connectTo: (ICServerInfo for: host using: port) with: SocketStream
+	Transcript show: 'connecting'.
+	self connectTo: (ICServerInfo for: host using: port) with: SocketStream.
+	Transcript show: 'connected'.
