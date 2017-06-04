@@ -9,7 +9,9 @@
 		"parentheses_counter",
 		"current_mail",
 		"current_uid",
-		"state" ],
+		"state",
+		"emails",
+		"endpoint" ],
 	"name" : "ICFetchResponseParser",
 	"pools" : [
 		 ],
