@@ -10,4 +10,5 @@ initialize
 	6: '* {uid} ({body}'
 	"
 	self state: 1.
+	emails := OrderedCollection new.
 	self reset.

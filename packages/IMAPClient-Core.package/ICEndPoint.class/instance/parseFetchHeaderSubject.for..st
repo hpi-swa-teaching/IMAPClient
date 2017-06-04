@@ -1,4 +1,6 @@
 protocol parse
 parseFetchHeaderSubject: aHeaderChunk for: anEmail
-
-	anEmail subject: ((aHeaderChunk first subStrings: ' ') allButFirst joinSeparatedBy: ' ')
+	| list |
+	list := ((aHeaderChunk joinSeparatedBy: ' ') subStrings: ((Character tab) asString)).
+	list := (((list joinSeparatedBy: ' ') convertToEncoding: 'latin1') subStrings: ' ').
+	anEmail subject: (list allButFirst joinSeparatedBy: ' ').
