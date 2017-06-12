@@ -5,5 +5,4 @@ getEmailsIn: aFolder
 	
 	aFolder fetchHeaders.
 	subfolders := self subFoldersOf: aFolder.
-	self halt.
 	subfolders do: [ :folder |self getEmailsIn: folder]
