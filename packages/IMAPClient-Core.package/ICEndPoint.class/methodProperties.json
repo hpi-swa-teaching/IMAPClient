@@ -44,6 +44,8 @@
 		"fetchHeader:" : "al 7/4/2016 17:41",
 		"fetchHeadersFrom:to:" : "al 7/4/2016 17:50",
 		"fetchHeadersIn:" : "js 6/12/2017 10:58",
+		"fetchHeadersIn:for:" : "dl 6/23/2017 13:37",
+		"fetchHeadersOfSelectedFolderFor:" : "dl 6/23/2017 13:30",
 		"fetchNextResponse" : "jwe 7/28/2016 10:57",
 		"fillBodyFor:" : "ms 7/10/2016 14:09",
 		"fillBodyFor:with:" : "AR 6/15/2016 11:30",

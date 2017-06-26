@@ -1,7 +1,8 @@
 accessing
 fetchHeaderProcess
+
 	Transcript show: 'Starting FetchHeaders'.
-	selectedFolder fetchHeaders.
+	selectedFolder fetchHeadersFor: self numberOfHeadersToFetch.
 	Transcript show: 'Done with FetchHeaders'.
 	
 	Transcript show: ((selectedFolder emails)).
