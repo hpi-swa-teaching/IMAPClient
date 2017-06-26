@@ -3,8 +3,8 @@
 		 },
 	"instance" : {
 		"close" : "js 6/14/2016 10:43",
-		"connectTo:on:" : "ms 7/12/2016 10:04",
-		"connectTo:on:with:" : "ms 7/28/2016 14:51",
+		"connectTo:on:" : "dl 6/26/2017 15:55",
+		"connectTo:on:with:" : "dl 6/26/2017 15:57",
 		"discardUnimportantResponse" : "jwe 6/15/2016 15:35",
 		"host" : "js 6/7/2016 09:58",
 		"host:" : "js 6/7/2016 09:59",
@@ -18,7 +18,7 @@
 		"sendCommand:" : "js 6/7/2016 10:07",
 		"ssl" : "ms 7/12/2016 09:45",
 		"ssl:" : "ms 7/12/2016 09:45",
-		"sslConnectTo:on:" : "ms 7/28/2016 12:04",
+		"sslConnectTo:on:" : "dl 6/26/2017 16:00",
 		"stream" : "js 6/7/2016 10:05",
 		"stream:" : "js 6/7/2016 10:05",
 		"useSSL" : "ms 7/12/2016 09:45" } }

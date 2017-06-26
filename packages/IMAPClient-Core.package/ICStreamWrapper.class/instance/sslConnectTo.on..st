@@ -1,10 +1,8 @@
 connection
 sslConnectTo: host on: port
 
-	| socket |
-	socket := SecureSocket newTCP.
-	socket 
-		connectTo: host port: port;
-		waitForConnectionFor: 10;
-		sslConnectTo: host.
-	self stream: (SecureSocketStream on: socket)
+	| hostAddress |
+	
+	hostAddress := NetNameResolver addressForName: host.
+	self stream: (SecureSocketStream openConnectionToHost: hostAddress  port: port timeout: 10).
+	self stream sslConnectTo: host.
