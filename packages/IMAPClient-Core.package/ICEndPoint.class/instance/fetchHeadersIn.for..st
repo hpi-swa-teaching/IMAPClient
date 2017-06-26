@@ -1,5 +1,5 @@
 fetching
-fetchHeadersIn: aFolder
+fetchHeadersIn: aFolder for: aNumber
 	| selectResponse isNotEmpty|
 	selectResponse := self select: aFolder path.
 	
@@ -9,5 +9,5 @@ fetchHeadersIn: aFolder
 			ifTrue: [isNotEmpty := false]]).
 	
 	isNotEmpty
-		ifTrue: [^self fetchAllHeadersOfSelectedFolder collect: [ :email | email folder: aFolder ]]
+		ifTrue: [^(self fetchHeadersFrom: 1 to: aNumber) collect: [ :email | email folder: aFolder ]]
 		ifFalse: [Transcript show: (aFolder name), ' is an empty folder!'. ^OrderedCollection new.].
