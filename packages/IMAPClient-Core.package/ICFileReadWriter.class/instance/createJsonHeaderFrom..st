@@ -1,4 +1,4 @@
-as yet unclassified
+write file
 createJsonHeaderFrom: aDictionary
 
 	aDictionary ifNil: [ ^ nil ].

@@ -1,4 +1,4 @@
-as yet unclassified
+read file
 createHeaderFrom: aJsonObject
 
 	aJsonObject ifNil: [ ^ nil ].

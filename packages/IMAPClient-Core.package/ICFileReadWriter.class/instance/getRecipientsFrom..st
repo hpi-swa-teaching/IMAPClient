@@ -1,4 +1,4 @@
-as yet unclassified
+read file
 getRecipientsFrom: aJsonObject
 
 	| recipients | 

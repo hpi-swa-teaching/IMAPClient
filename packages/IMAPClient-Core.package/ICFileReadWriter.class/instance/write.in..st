@@ -1,4 +1,4 @@
-as yet unclassified
+write file
 write: anICEmail in: aFolder
 
 	| jsonFile stream renderedJson |

@@ -1,4 +1,4 @@
-as yet unclassified
+read file
 get: aFile in: aFolder
 
 	| filestream jsonFile |
