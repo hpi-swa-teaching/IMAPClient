@@ -1,8 +1,7 @@
 as yet unclassified
 write: anICEmail in: aFolder
 
-	| filestream jsonFile files |
-
+	| jsonFile stream renderedJson |
 	jsonFile := JsonObject newFrom: {
 		'header' -> (self createJsonHeaderFrom: anICEmail header). 
 		'body' -> anICEmail body.
@@ -13,4 +12,10 @@ write: anICEmail in: aFolder
 
 	"jsonFile := Json readFrom: filestream."
 	
-	^ jsonFile
+	renderedJson := Json render: jsonFile.
+	Transcript show: renderedJson.
+	"stream := FileSystem allInstancesDo: [ :x | x writeStreamOn: ('Maildir/mail2') asFileName ].
+	stream := 'newFile' asFileName writeStream.
+	stream := FileStream new open: 'mail2' forWrite: true.
+	stream nextPutAll: renderedJson.
+	stream close."

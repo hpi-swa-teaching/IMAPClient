@@ -7,4 +7,4 @@ createJsonHeaderFrom: aDictionary
 		'date' ->  (aDictionary at: #date).
 		'from' -> (aDictionary at: #from).
 		'subject' -> (aDictionary at: #subject).
-		'to' -> (self getJsonRecipientsFrom: (aDictionary at: #to))}
+		'to' -> (self getJsonRecipientsFrom: (aDictionary at: #to)) }
