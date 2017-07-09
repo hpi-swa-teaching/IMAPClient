@@ -9,5 +9,7 @@ login
 		fetchNextResponse;
 		loggedIn: self commandSucceeded;
 		checkLoggedIn.
-		
+	
+	self
+		loadEmailsFromMaildir.
 	^ true

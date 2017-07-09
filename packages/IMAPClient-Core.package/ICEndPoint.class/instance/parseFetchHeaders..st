@@ -1,10 +1,13 @@
 protocol parse
 parseFetchHeaders: headerLines
 
-	| parser |
+	| parser folder|
 	parser := (ICFetchResponseParser new) endpoint: self.
 	
 	headerLines do: [:x | x do: [:i | parser read: i]. parser read: (Character cr) ]. 
+	
+	folder := self rootFolder childFolderNamed: (self currentFolderName ). 
+	parser emails do: [:mail | mail folder: folder; saveInMaildir ].
 	
 	"emailHeaderLines := OrderedCollection new.
 	headerLines do: [ :line |
