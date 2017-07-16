@@ -5,7 +5,8 @@ write: anICEmail in: aFolder as: aString
 	jsonFile := JsonObject newFrom: {
 		'header' -> (self createJsonHeaderFrom: anICEmail header). 
 		'body' -> anICEmail body.
-		'messageID' -> anICEmail messageID}.
+		'messageID' -> anICEmail messageID.
+		'uid' -> anICEmail uid}.
 	
 	fileDirectory := (FileDirectory startUp; default).	
 	subDir := ((aFolder subStrings: (FileDirectory slash)) allButLast) joinSeparatedBy: (FileDirectory slash). 
