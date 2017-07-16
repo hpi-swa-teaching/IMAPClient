@@ -1,0 +1,4 @@
+accessing
+loggedIn
+
+	^ loggedIn

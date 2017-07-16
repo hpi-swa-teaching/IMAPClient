@@ -1,0 +1,15 @@
+{
+	"category" : "IMAPClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ms 7/28/2016 11:38",
+	"instvars" : [
+		"username",
+		"password" ],
+	"name" : "ICAuthenticationInfo",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

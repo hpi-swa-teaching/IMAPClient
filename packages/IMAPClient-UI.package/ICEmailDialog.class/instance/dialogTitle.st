@@ -1,0 +1,4 @@
+toolbuilder
+dialogTitle
+
+	^ self getSubject

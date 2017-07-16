@@ -1,0 +1,18 @@
+{
+	"category" : "IMAPClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jwe 7/28/2016 14:20",
+	"instvars" : [
+		"parent",
+		"childFolders",
+		"name",
+		"emails",
+		"endpoint" ],
+	"name" : "ICFolder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

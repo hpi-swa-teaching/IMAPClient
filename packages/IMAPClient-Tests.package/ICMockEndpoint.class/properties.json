@@ -1,0 +1,14 @@
+{
+	"category" : "IMAPClient-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"rootFolder" ],
+	"name" : "ICMockEndpoint",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

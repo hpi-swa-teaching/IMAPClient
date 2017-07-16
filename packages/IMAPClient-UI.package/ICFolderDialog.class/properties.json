@@ -1,0 +1,17 @@
+{
+	"category" : "IMAPClient-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ms 7/28/2016 12:02",
+	"instvars" : [
+		"rootFolder",
+		"selectedEmail",
+		"selectedFolder",
+		"numberOfHeadersToFetch" ],
+	"name" : "ICFolderDialog",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

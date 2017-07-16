@@ -1,0 +1,22 @@
+{
+	"category" : "IMAPClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ms 7/28/2016 11:48",
+	"instvars" : [
+		"stream",
+		"serverInfo",
+		"loggedIn",
+		"authenticationInfo",
+		"rootFolder",
+		"lastResponse",
+		"ssl",
+		"hierachyDelimiter",
+		"uids" ],
+	"name" : "ICEndPoint",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

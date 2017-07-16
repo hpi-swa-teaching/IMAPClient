@@ -1,0 +1,19 @@
+{
+	"category" : "IMAPClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parentheses_counter",
+		"current_mail",
+		"current_uid",
+		"state",
+		"emails",
+		"endpoint" ],
+	"name" : "ICFetchResponseParser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

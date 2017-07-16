@@ -1,0 +1,1 @@
+An ICAuthenticationInfo is a wrapper for a username-password-combination.

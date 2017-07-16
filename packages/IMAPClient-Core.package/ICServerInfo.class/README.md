@@ -1,0 +1,1 @@
+An ICServerInfo is a wrapper for a host-port-combination.

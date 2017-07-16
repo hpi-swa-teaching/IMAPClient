@@ -1,0 +1,4 @@
+connection
+sendCommand: aString
+
+	^ false

@@ -1,0 +1,19 @@
+{
+	"category" : "IMAPClient-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"responses",
+		"validHost",
+		"validHostIP",
+		"validPort",
+		"validUsername",
+		"validPassword" ],
+	"name" : "ICMockServer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

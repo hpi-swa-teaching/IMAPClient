@@ -1,0 +1,14 @@
+{
+	"category" : "IMAPClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ms 7/28/2016 11:52",
+	"instvars" : [
+		 ],
+	"name" : "ICNullStream",
+	"pools" : [
+		 ],
+	"super" : "SocketStream",
+	"type" : "normal" }

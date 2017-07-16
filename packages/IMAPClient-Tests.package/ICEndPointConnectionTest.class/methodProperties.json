@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"defaultMockServerConfig" : "jwe 7/28/2016 14:10",
+		"invalidHost" : "AR 5/31/2016 22:00",
+		"invalidPort" : "AR 5/31/2016 22:00",
+		"validHost" : "jwe 7/28/2016 14:29",
+		"validHostIP" : "AR 7/12/2016 10:24",
+		"validPort" : "AR 5/31/2016 21:37" },
+	"instance" : {
+		"endPoint" : "AR 5/31/2016 21:33",
+		"endPoint:" : "AR 5/31/2016 21:33",
+		"setUp" : "AR 7/14/2016 09:17",
+		"tearDown" : "js 6/7/2016 09:42",
+		"testConnectToOn" : "jwe 7/28/2016 14:01",
+		"testConnectToOnWithWrongHost" : "ms 7/28/2016 13:09",
+		"testConnectToOnWithWrongPort" : "ms 7/28/2016 13:09",
+		"testPingIfNotConnected" : "js 6/14/2016 10:48" } }

@@ -1,0 +1,4 @@
+accessing
+useSSL
+
+	^ self ssl

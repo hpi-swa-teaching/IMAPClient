@@ -1,0 +1,4 @@
+connection
+isConnected
+
+	^ false

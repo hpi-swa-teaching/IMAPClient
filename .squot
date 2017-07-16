@@ -1,0 +1,6 @@
+OrderedDictionary {
+	'packages\/BaselineOfIMAPClient.package' : #SquotCypressCodeSerializer,
+	'packages\/IMAPClient-Core.package' : #SquotCypressCodeSerializer,
+	'packages\/IMAPClient-Tests.package' : #SquotCypressCodeSerializer,
+	'packages\/IMAPClient-UI.package' : #SquotCypressCodeSerializer
+}

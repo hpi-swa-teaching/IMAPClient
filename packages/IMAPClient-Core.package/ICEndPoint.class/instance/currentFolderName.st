@@ -1,0 +1,3 @@
+fetching
+currentFolderName
+	^ currentFolderName

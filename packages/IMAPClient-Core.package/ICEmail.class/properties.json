@@ -1,0 +1,18 @@
+{
+	"category" : "IMAPClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ms 7/28/2016 11:29",
+	"instvars" : [
+		"body",
+		"header",
+		"folder",
+		"messageID",
+		"uid" ],
+	"name" : "ICEmail",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

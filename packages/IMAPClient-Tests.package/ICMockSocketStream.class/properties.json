@@ -1,0 +1,18 @@
+{
+	"category" : "IMAPClient-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"responseQueue",
+		"connected",
+		"lastResponse",
+		"server",
+		"ssl" ],
+	"name" : "ICMockSocketStream",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

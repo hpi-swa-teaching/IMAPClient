@@ -1,0 +1,4 @@
+accessing
+authenticationInfo
+
+	^ authenticationInfo

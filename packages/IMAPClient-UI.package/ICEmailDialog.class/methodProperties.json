@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"open" : "ms 7/9/2016 16:43",
+		"openWith:" : "ms 7/9/2016 16:56" },
+	"instance" : {
+		"buildWith:" : "ms 7/13/2016 17:34",
+		"checkBoxColor" : "ms 7/13/2016 17:34",
+		"defaultBackgroundColor" : "ms 7/11/2016 16:34",
+		"dialogTitle" : "ms 7/9/2016 17:31",
+		"email" : "ms 7/9/2016 16:56",
+		"email:" : "ms 7/9/2016 16:56",
+		"getBody" : "ms 7/10/2016 14:19",
+		"getColor" : "ms 7/11/2016 12:56",
+		"getRecipients" : "ms 7/10/2016 13:56",
+		"getSender" : "ms 7/10/2016 13:56",
+		"getSubject" : "ms 7/9/2016 17:16" } }

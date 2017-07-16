@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"createHeaderFrom:" : "dl 6/29/2017 20:54",
+		"createJsonHeaderFrom:" : "dl 6/29/2017 19:44",
+		"get:in:" : "dl 6/29/2017 21:10",
+		"getJsonRecipientsFrom:" : "dl 6/29/2017 21:29",
+		"getRecipientsFrom:" : "dl 6/29/2017 21:27",
+		"write:in:as:" : "js 7/9/2017 23:41" } }

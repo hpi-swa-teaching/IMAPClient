@@ -1,0 +1,4 @@
+connection
+discardUnimportantResponse
+
+	^ self

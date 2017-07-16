@@ -1,0 +1,18 @@
+{
+	"category" : "IMAPClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ms 7/28/2016 11:51",
+	"instvars" : [
+		"host",
+		"port",
+		"stream",
+		"lastResponse",
+		"ssl" ],
+	"name" : "ICStreamWrapper",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

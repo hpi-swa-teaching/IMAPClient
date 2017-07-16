@@ -1,0 +1,4 @@
+constants
+invalidHost
+
+	^ 'example.de'
