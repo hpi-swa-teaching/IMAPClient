@@ -12,6 +12,6 @@ login
 	ICFolderDialog openWith: (endpoint rootFolder).
 	(endpoint isLoggedIn)
 		ifTrue: [ 
-			self inform: self class successLoginMessage.
+			Transcript show: (self class successLoginMessage); cr.
 			ICFolder parseFromServer: endpoint ] 
 		ifFalse: [ self inform: self class failureLoginMessage ].
