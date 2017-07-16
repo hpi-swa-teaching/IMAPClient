@@ -9,8 +9,9 @@ login
 		login: self username using: self password ]
 		on: Error
 		do: [ :sig | self inform: sig asString ].
+	ICFolderDialog openWith: (endpoint rootFolder).
 	(endpoint isLoggedIn)
 		ifTrue: [ 
 			self inform: self class successLoginMessage.
-			ICFolderDialog openWith: (ICFolder parseFromServer: endpoint) ] 
+			ICFolder parseFromServer: endpoint ] 
 		ifFalse: [ self inform: self class failureLoginMessage ].

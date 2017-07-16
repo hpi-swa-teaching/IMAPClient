@@ -13,7 +13,8 @@
 		"rootFolder",
 		"lastResponse",
 		"ssl",
-		"hierachyDelimiter" ],
+		"hierachyDelimiter",
+		"uids" ],
 	"name" : "ICEndPoint",
 	"pools" : [
 		 ],
