@@ -13,7 +13,7 @@ fetchHeadersFrom: aBeginId to: anEndId
 					ifTrue: [start := uids first.]
 					ifFalse: [ start := uids at: (uidSize - anEndId + 1). ].].
 	end := uids at: (uidSize - aBeginId + 1).
-	filename := 'Maildir', FileDirectory slash,  ((self serverInfo host) replaceAll: '.' with: '_'), FileDirectory slash , (self currentFolderName).
+	filename := 'Maildir/owa_hpi_de/' , (self currentFolderName).
 	Transcript show: filename; cr.
 	Transcript show: end; cr.
 	files := ((FileDirectory uri: filename) fileNamesMatching: end).

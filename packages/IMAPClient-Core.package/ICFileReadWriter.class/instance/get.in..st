@@ -10,5 +10,4 @@ get: aFile in: aFolder
 		header: (self createHeaderFrom: (jsonFile at: 'header'));
 		body: (jsonFile at: 'body');
 		messageID: (jsonFile at: 'messageID');
-		uid: (jsonFile at: 'uid');
 		yourself
