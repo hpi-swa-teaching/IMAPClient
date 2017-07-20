@@ -5,6 +5,6 @@ getRecipientsFrom: aJsonObject
 	aJsonObject ifNil: [ ^ nil ].
 	
 	recipients := OrderedCollection new.
-	aJsonObject do: [ :eachRecipient | recipients add: (eachRecipient at: 'recipient') ].
+	aJsonObject do: [ :eachRecipient | recipients add: eachRecipient ].
 	
 	^ recipients

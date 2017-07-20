@@ -12,10 +12,13 @@ write: anICEmail in: aFolder as: aString
 	subDir := ((aFolder subStrings: (FileDirectory slash)) allButLast) joinSeparatedBy: (FileDirectory slash). 
 	
 	 (fileDirectory directoryExists: subDir)
-		ifFalse: [ fileDirectory createDirectory: subDir].
+		ifFalse: [ fileDirectory createDirectory: subDir ].
 	 (fileDirectory directoryExists: aFolder)
-		ifFalse: [ fileDirectory createDirectory: aFolder].
+		ifFalse: [ fileDirectory createDirectory: aFolder ].
 		
 	renderedJson := Json render: jsonFile.
 	FileStream forceNewFileNamed: (aFolder, FileDirectory slash, aString) do:
-		[:stream | stream nextPutAll: renderedJson; flush; close]
+		[ :stream | stream 
+			nextPutAll: renderedJson; 
+			flush; 
+			close ]

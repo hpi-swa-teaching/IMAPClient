@@ -11,4 +11,4 @@ initialize
 	"
 	self state: 1.
 	emails := OrderedCollection new.
-	self reset.
+	self reset

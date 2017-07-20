@@ -1,7 +1,6 @@
 as yet unclassified
-read9: aChar
-	((aChar == $  )
-		ifTrue:
-			[self state: 10]
-		ifFalse: 
-			[self throwError])
+read9: aChar 
+
+	aChar == Character space
+		ifTrue: [ self state: 10 ]
+		ifFalse: [ self throwError ]

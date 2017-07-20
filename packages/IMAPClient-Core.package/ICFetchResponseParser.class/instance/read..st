@@ -1,5 +1,6 @@
 as yet unclassified
 read: aChar
+
 	(state = 1)	 ifTrue: [self read1: aChar]  ifFalse: [
 	(state = 2)	 ifTrue: [self read2: aChar]  ifFalse: [
 	(state = 3)	 ifTrue: [self read3: aChar]  ifFalse: [
