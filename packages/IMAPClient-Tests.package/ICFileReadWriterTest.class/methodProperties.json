@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"expectedJsonHeader" : "dl 7/20/2017 10:55",
+		"expectedMailObject" : "dl 7/20/2017 10:55",
+		"givenJsonObject" : "dl 7/20/2017 10:55" },
+	"instance" : {
+		"readWriter" : "dl 7/20/2017 10:54",
+		"readWriter:" : "dl 7/20/2017 10:54",
+		"setUp" : "dl 7/20/2017 10:54",
+		"testCreateHeader" : "dl 7/20/2017 10:56",
+		"testCreateJsonHeader" : "dl 7/20/2017 10:56",
+		"testGetRecipients" : "dl 7/20/2017 10:56",
+		"testReadWrite" : "dl 7/20/2017 10:56" } }
