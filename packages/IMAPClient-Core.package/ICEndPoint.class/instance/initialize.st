@@ -9,4 +9,4 @@ initialize
 		authenticationInfo: ICAuthenticationInfo new;
 		stream: ICStreamWrapper new;
 		rootFolder: (ICFolder newRootFolderWith: self);
-		lastResponse: OrderedCollection new.
+		lastResponse: OrderedCollection new
