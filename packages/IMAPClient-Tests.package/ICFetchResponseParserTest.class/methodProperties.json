@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"exampleHeader" : "dl 8/1/2017 16:24",
+		"expectedMailObject" : "dl 8/1/2017 16:55",
+		"expectedNumberOfMails" : "dl 8/1/2017 16:25" },
+	"instance" : {
+		"endPoint" : "dl 7/31/2017 21:55",
+		"endPoint:" : "dl 7/31/2017 21:55",
+		"parser" : "dl 7/31/2017 21:54",
+		"parser:" : "dl 7/31/2017 21:54",
+		"setUp" : "dl 8/1/2017 17:02",
+		"testRead" : "dl 8/1/2017 16:54" } }

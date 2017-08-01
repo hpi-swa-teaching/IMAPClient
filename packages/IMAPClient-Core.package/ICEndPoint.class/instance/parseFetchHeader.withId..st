@@ -2,6 +2,7 @@ protocol parse
 parseFetchHeader: headerLines withId: id
 
 	| email headerData headerChunk |
+	
 	email := ICEmail new.
 	email messageID: id.
 	"(headerLines first subStrings: ' ') second."
