@@ -1,4 +1,4 @@
-accessing
+get emails
 chooseNumberOfMails
 
 	| numberOfMails |

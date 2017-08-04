@@ -1,24 +1,19 @@
 write file
 write: anICEmail in: aFolder as: aString
 
-	| jsonFile renderedJson fileDirectory subDir |
-	jsonFile := JsonObject newFrom: {
+	| json_object rendered_json directory |
+	json_object := JsonObject newFrom: {
 		'header' -> (self createJsonHeaderFrom: anICEmail header). 
 		'body' -> anICEmail body.
 		'messageID' -> anICEmail messageID.
 		'uid' -> anICEmail uid}.
-	
-	fileDirectory := (FileDirectory startUp; default).	
-	subDir := ((aFolder subStrings: (FileDirectory slash)) allButLast) joinSeparatedBy: (FileDirectory slash). 
-	
-	 (fileDirectory directoryExists: subDir)
-		ifFalse: [ fileDirectory createDirectory: subDir ].
-	 (fileDirectory directoryExists: aFolder)
-		ifFalse: [ fileDirectory createDirectory: aFolder ].
 		
-	renderedJson := Json render: jsonFile.
-	FileStream forceNewFileNamed: (aFolder, FileDirectory slash, aString) do:
+	directory := self createPathIfNotExisting: aFolder.
+		
+		
+	rendered_json := Json render: json_object.
+	(FileStream forceNewFileNamed: (directory fullNameFor: aString)) do:
 		[ :stream | stream 
-			nextPutAll: renderedJson; 
+			nextPutAll: rendered_json; 
 			flush; 
 			close ]
