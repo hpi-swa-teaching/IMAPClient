@@ -1,16 +1,10 @@
-as yet unclassified
+stateTransitions
 read11: aChar 
-
 	aChar == $(
-		ifTrue: [ parentheses_counter := parentheses_counter + 1 ].
-	
+		ifTrue: [ self parenthesesCounter: (self parenthesesCounter +1)].	
 	aChar == $)	
-		ifTrue: [ parentheses_counter := parentheses_counter - 1 ].
-	
-	parentheses_counter = 0
-		ifTrue: [ emails
-					add: (self endpoint parseFetchHeader: current_mail withId: current_uid).
-				self 
-					state: 1;
-					reset ]
-		ifFalse: [current_mail := current_mail , aChar]
+		ifTrue: [ self parenthesesCounter: (self parenthesesCounter - 1)].
+	parenthesesCounter = 0
+		ifTrue: [ self emails add: (self endpoint parseFetchHeader: currentMail withId: currentUid).
+			     	self state: 1; reset ]
+		ifFalse: [ currentMail := currentMail , aChar ]

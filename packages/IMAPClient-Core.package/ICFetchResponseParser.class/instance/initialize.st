@@ -1,14 +1,17 @@
-as yet unclassified
+initialization
 initialize
-	"
-	States:
+	"States:
 	1 : '*'
 	2: '* '
 	3: '* {uid}'
 	4: '* {uid} '
-	5: '* {uid} ('
-	6: '* {uid} ({body}'
-	"
+	5: '* {uid} F'
+	6: '* {uid} FE'
+	7: '* {uid} FET'
+	8: '* {uid} FETC'
+	9: '* {uid} FETCH'
+	10: '* {uid} FETCH '
+      11: '* {uid} FETCH ( $header_content )'"
 	self state: 1.
-	emails := OrderedCollection new.
+	self emails: OrderedCollection new.
 	self reset

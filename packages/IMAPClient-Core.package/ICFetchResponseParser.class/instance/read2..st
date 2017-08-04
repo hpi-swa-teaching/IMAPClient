@@ -1,4 +1,4 @@
-as yet unclassified
+stateTransitions
 read2: aChar 
 
 	aChar == Character space

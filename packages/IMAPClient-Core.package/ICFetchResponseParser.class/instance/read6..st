@@ -1,4 +1,4 @@
-as yet unclassified
+stateTransitions
 read6: aChar 
 
 	aChar == $T

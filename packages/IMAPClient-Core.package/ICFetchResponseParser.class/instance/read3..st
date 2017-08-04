@@ -1,8 +1,8 @@
-as yet unclassified
+stateTransitions
 read3: aChar 
 
 	aChar isDigit
-		ifTrue: [ current_uid := current_uid , aChar.
+		ifTrue: [ currentUid := currentUid , aChar.
 				self state: 3 ]
 		ifFalse: [ aChar = Character space
 					ifTrue: [ self state: 4 ]

@@ -1,12 +1,9 @@
 protocol parse
 parseFetchHeader: headerLines withId: id
-
 	| email headerData headerChunk |
-	
 	email := ICEmail new.
 	email messageID: id.
-	"(headerLines first subStrings: ' ') second."
-	headerData := headerLines subStrings: ((Character cr) asString) ." copyFrom: 2 to: headerLines size - 2.".
+	headerData := headerLines subStrings: ((Character cr) asString) .
 	headerChunk := OrderedCollection new.
 	
 	headerData do: [ :line |

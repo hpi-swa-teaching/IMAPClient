@@ -1,16 +1,11 @@
 login
-loadEmailsFromMaildir
-
-	| directory_name  server_directory filereader |
-	
-	directory_name := (self serverInfo host) copyReplaceAll: '.' with: '_'.
-	(self maildirDirectory directoryExists: directory_name)
-		ifFalse: [
-			Transcript show: 'Maildir doesnt exist'.
-			^ (OrderedCollection new) ].
-
-	server_directory := self maildirDirectory directoryNamed: directory_name.
-	
-	filereader := ICFileReadWriter new.
-	(server_directory directoryNames) do:
-		[ :foldername | self loadEmailsInFolder: foldername andDirectory: server_directory ]
+loadEmailsFromMaildir 
+	| directory_name maildir_directory default_directory |
+ 	default_directory := FileDirectory default.
+ 	(default_directory directoryExists: 'Maildir')
+ 		ifFalse: [default_directory createDirectory: 'Maildir'].
+  	maildir_directory := default_directory directoryNamed: 'Maildir'.
+  	directory_name := (self serverInfo host) copyReplaceAll: '.' with: '_'.
+  	(maildir_directory directoryExists: directory_name)
+    		ifFalse: [ Transcript show: 'Maildir doesnt exist'. ^ (OrderedCollection new) ].
+  	^ self createEmailsWith: maildir_directory andName: directory_name.

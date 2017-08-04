@@ -1,4 +1,4 @@
-as yet unclassified
+stateTransitions
 read7: aChar 
 
 	aChar == $C

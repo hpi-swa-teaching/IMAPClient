@@ -1,5 +1,5 @@
-as yet unclassified
+initialization
 reset
-
-	current_uid := ''.
-	current_mail := ''
+	currentUid := ''.
+	currentMail := ''.
+	self parenthesesCounter: 0.

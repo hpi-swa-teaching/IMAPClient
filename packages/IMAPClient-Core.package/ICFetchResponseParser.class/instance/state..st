@@ -1,4 +1,4 @@
-as yet unclassified
-state: aState
+stateTransitions
+state: anObject
 
-	state := aState
+	state := anObject

@@ -1,4 +1,4 @@
-as yet unclassified
+stateTransitions
 read5: aChar 
 
 	aChar == $E
