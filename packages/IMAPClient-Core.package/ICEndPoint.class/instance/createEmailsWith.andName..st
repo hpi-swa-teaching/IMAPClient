@@ -12,7 +12,9 @@ createEmailsWith: maildir_directory andName: directory_name
       self rootFolder addFolder: folder.
       (server_directory directoryNamed: foldername) fileNames do:
         [ :filename |
-          email := (filereader get: filename in: (directory_name, FileDirectory slash, foldername)).
+	
+	Transcript show: 'folderName:' , (directory_name, FileDirectory slash, foldername); cr.
+          email := (filereader get: filename in: ('Maildir', FileDirectory slash, directory_name, FileDirectory slash, foldername)).
         email folder: folder.
          existing_emails add: email ]].
   
