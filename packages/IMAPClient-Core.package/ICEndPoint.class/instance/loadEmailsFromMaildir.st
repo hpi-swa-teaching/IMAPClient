@@ -2,7 +2,7 @@ login
 loadEmailsFromMaildir
 
 	| path fileDirectory existing_emails filereader folder email |
-	fileDirectory := (FileDirectory startUp) default.
+	fileDirectory := FileDirectory default.
 	
 	path :=  'Maildir' , FileDirectory slash, (self serverInfo host) copyReplaceAll: '.' with: '_'.
 	
