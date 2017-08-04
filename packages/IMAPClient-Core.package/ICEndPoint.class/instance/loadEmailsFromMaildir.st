@@ -1,23 +1,28 @@
 login
 loadEmailsFromMaildir
 
-	| path fileDirectory existing_emails filereader folder email |
-	fileDirectory := FileDirectory default.
+	| directory_name maildir_directory default_directory server_directory existing_emails filereader folder email |
+	default_directory := FileDirectory default.
 	
-	path :=  'Maildir' , FileDirectory slash, (self serverInfo host) copyReplaceAll: '.' with: '_'.
-	
-	(fileDirectory directoryExists: path)
+	(default_directory directoryExists: 'Maildir')
+		ifFalse: [default_directory createDirectory: 'Maildir'].
+	maildir_directory := default_directory directoryNamed: 'Maildir'.
+	directory_name := (self serverInfo host) copyReplaceAll: '.' with: '_'.
+	(maildir_directory directoryExists: directory_name)
 		ifFalse: [ Transcript show: 'Maildir doesnt exist'. ^ (OrderedCollection new) ].
+	server_directory := maildir_directory directoryNamed: directory_name.
 	
 	filereader := ICFileReadWriter new.
-	((fileDirectory on: path) directoryNames) do:
+	(server_directory directoryNames) do:
 		[ :foldername | 
 			existing_emails := OrderedCollection new.
-			folder := ((ICFolder new) name: foldername; emails: existing_emails; endpoint: self; yourself).
+			folder := ((ICFolder new) name: foldername;
+				emails: existing_emails;
+				endpoint: self; yourself).
 			self rootFolder addFolder: folder.
-			(fileDirectory on: (path, FileDirectory slash, foldername)) fileNames do:
-			[ :filename |
-				email := (filereader get: filename in: (path, FileDirectory slash, foldername)).
+			(server_directory directoryNamed: foldername) fileNames do:
+				[ :filename |
+					email := (filereader get: filename in: (directory_name, FileDirectory slash, foldername)).
 				email folder: folder.
 			 	existing_emails add: email ]].
 	
