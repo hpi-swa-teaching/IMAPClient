@@ -1,5 +1,4 @@
 accessing
 hierarchyDelimiter
-		
-	^ hierachyDelimiter
+	^ hierarchyDelimiter
 	

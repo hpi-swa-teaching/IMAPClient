@@ -1,6 +1,5 @@
 protocol parse
 parseHeaderChunk: aHeaderChunk for: anEmail
-	
 	| headerField method |
 	headerField := (aHeaderChunk first subStrings: ':') first.
 	method := 	(self parseMethods at: headerField ifAbsent: nil).

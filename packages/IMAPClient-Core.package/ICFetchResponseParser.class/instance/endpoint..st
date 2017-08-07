@@ -1,4 +1,3 @@
-as yet unclassified
+accessing
 endpoint: anEndpoint
-
 	endpoint := anEndpoint

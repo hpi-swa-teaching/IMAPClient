@@ -1,4 +1,4 @@
-get emails
+accessing
 fetchHeaderProcess
 
 	selectedFolder fetchHeadersFor: self numberOfHeadersToFetch.

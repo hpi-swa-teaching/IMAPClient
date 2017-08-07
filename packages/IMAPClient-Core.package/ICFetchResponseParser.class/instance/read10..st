@@ -1,7 +1,6 @@
-as yet unclassified
+stateTransitions
 read10: aChar 
-
 	aChar == $(
-		ifTrue: [ parentheses_counter := 1.
+		ifTrue: [self parenthesesCounter: (self parenthesesCounter +1).
 				self state: 11 ]
 		ifFalse: [ self throwError ]

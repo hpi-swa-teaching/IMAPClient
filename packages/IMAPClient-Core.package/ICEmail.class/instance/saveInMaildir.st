@@ -1,7 +1,6 @@
 accessing
 saveInMaildir
-
-	ICFileReadWriter new
+	^ ICFileReadWriter new
 		write: self
-		in: ('Maildir' , FileDirectory slash , self folder endpoint serverInfo host asString , FileDirectory slash , self folder path copyReplaceAll: '.' with: '_')
+		in: self maildirFileName 
 		as: self uid
