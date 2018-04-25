@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/hpi-swa-teaching/IMAPClient.svg?branch=develop)](https://travis-ci.org/hpi-swa-teaching/IMAPClient)
+ # IMAPClient [![Build Status](https://travis-ci.org/hpi-swa-teaching/IMAPClient.svg?branch=develop)](https://travis-ci.org/hpi-swa-teaching/IMAPClient)
 
 Johannes Schneider, Maximilian Söchting, Julian Weise, Alexander Riese, Alexander Loeser
 
