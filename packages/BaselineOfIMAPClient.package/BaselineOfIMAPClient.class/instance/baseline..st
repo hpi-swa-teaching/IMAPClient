@@ -9,4 +9,4 @@ baseline: spec
                 package: 'IMAPClient-Tests' with: [ spec requires: #('default') ].
             spec
                 group: 'default' with: #('IMAPClient-Core');
-                group: 'Tests' with: #('IMAPClient-Tests' 'JSON') ]
+                group: 'Tests' with: #('IMAPClient-Tests') ]
