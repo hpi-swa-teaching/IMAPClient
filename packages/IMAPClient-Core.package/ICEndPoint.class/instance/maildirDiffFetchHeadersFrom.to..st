@@ -1,6 +1,7 @@
 connection
 maildirDiffFetchHeadersFrom: start to: end
 	| searchBegin searchEnd currentMails |
+
 	searchBegin := (FileDirectory uri: self maildirFileName)
 				fileNamesMatching: end.
 	searchEnd := (FileDirectory uri: self maildirFileName)
@@ -13,7 +14,8 @@ maildirDiffFetchHeadersFrom: start to: end
 						ifAbsent: [OrderedCollection new].
 			currentMails := currentMails emails.
 			^ currentMails].
-	^ self
-		sendCommand: (self class fetchHeadersWithUIDRange: start to: end);
-		 fetchNextResponse;
-		 parseFetchHeaders: self lastResponse
+	
+     ^self
+       	sendCommand: (self class fetchHeadersWithUIDRange: start to: end);
+		fetchNextResponse;
+		parseFetchHeaders: self lastResponse

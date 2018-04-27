@@ -14,7 +14,8 @@
 		"lastResponse",
 		"ssl",
 		"uids",
-		"hierarchyDelimiter" ],
+		"hierarchyDelimiter",
+		"currentFolderName" ],
 	"name" : "ICEndPoint",
 	"pools" : [
 		 ],
