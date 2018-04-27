@@ -13,5 +13,5 @@ baseline: spec
             spec
                 group: 'default' with: #('IMAPClient-Core');
                 group: 'Tests' with: #('IMAPClient-Tests');
-				group: 'libraries' with: #('JSON')
+				group: 'libaries' with: #('JSON')
 			]
