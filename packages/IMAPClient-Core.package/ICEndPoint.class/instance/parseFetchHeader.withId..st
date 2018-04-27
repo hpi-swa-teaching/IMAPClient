@@ -7,7 +7,7 @@ parseFetchHeader: headerLines withId: id
 	headerChunk := OrderedCollection new.
 	
 	headerData do: [ :line |
-		(line includesSubstring: 'UID')	
+		(line includesSubString: 'UID')	
 			ifTrue: [email uid: ((line subStrings: ' ') second)].
 		((self startsNewHeaderChunk: line) & (headerChunk notEmpty))
 			ifTrue: [ 
