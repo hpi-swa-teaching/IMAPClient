@@ -7,7 +7,7 @@ createPathRecursive: aPath and: aFileWriter
 		ifTrue: [
 			(aFileWriter directoryExists: subDir first)
 				ifFalse: [ aFileWriter createDirectory: subDir first].
-				Transcript show: subDir first.
+				"Transcript show: subDir first."
 				self createPathRecursive: 
 					(subDir allButFirst joinSeparatedBy: (FileDirectory slash)) 
 					and: (aFileWriter on: subDir first).	

@@ -1,19 +1,21 @@
 connection
 maildirDiffFetchHeadersFrom: start to: end
-	| searchBegin searchEnd currentMails |
-
-	searchBegin := (FileDirectory uri: self maildirFileName)
-				fileNamesMatching: end.
-	searchEnd := (FileDirectory uri: self maildirFileName)
-				fileNamesMatching: start.
+	| searchBegin searchEnd currentMails mailFolder|
 	
-	searchBegin size > 0 & (searchEnd size > 0)
-		ifTrue: [Transcript show: 'Do nothing. Newest Mailrange already loaded'.
-			currentMails := rootFolder
-						childFolderNamed: self currentFolderName
-						ifAbsent: [OrderedCollection new].
-			currentMails := currentMails emails.
-			^ currentMails].
+	(FileDirectory default directoryExists: (self maildirFileName)) 
+		ifTrue: [
+			    mailFolder := FileDirectory default on: self maildirFileName.
+				searchBegin := mailFolder	fileNamesMatching: end.
+				searchEnd := mailFolder	fileNamesMatching: start.
+	
+				searchBegin size > 0 & (searchEnd size > 0)
+					ifTrue: [Transcript show: 'Do nothing. Newest Mailrange already loaded'.
+						currentMails := rootFolder
+									childFolderNamed: self currentFolderName
+									ifAbsent: [OrderedCollection new].
+						currentMails := currentMails emails.
+						^ currentMails].
+		].
 	
      ^self
        	sendCommand: (self class fetchHeadersWithUIDRange: start to: end);
