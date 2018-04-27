@@ -9,7 +9,9 @@ baseline: spec
 					[ spec file: 'JSON-ul.35';	
        					repository: 'http://www.squeaksource.com/JSON' ];
                 package: 'IMAPClient-Core';
-                package: 'IMAPClient-Tests' with: [ spec requires: #('default') ].
+                package: 'IMAPClient-Tests' with: [ spec requires: #('default' 'libaries') ].
             spec
                 group: 'default' with: #('IMAPClient-Core');
-                group: 'Tests' with: #('IMAPClient-Tests') ]
+                group: 'Tests' with: #('IMAPClient-Tests');
+				group: 'libraries' with: #('JSON')
+			]
