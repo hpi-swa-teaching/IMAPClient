@@ -1,10 +1,13 @@
 write file
 createJsonHeaderFrom: aDictionary
 
+	|jsonFile|
 	aDictionary ifNil: [ ^ nil ].
 	
-	^ JsonObject newFrom: {
+	jsonFile := JsonObject newFrom: {
 		'date' ->  (aDictionary at: #date).
 		'from' -> (aDictionary at: #from).
 		'subject' -> (aDictionary at: #subject).
-		'to' -> (aDictionary at: #to) }
+		'to' -> (aDictionary at: #to) }.
+		
+	^jsonFile    
