@@ -31,7 +31,7 @@
 		"testFetchHeadersWithRange" : "DH 4/27/2018 14:01",
 		"testFetchHeadersWithUnlimitedRange" : "DH 4/27/2018 02:29",
 		"testFillMessageBody" : "js 8/4/2017 21:29",
-		"testFillMessageBodyWithMultilineBody" : "js 8/4/2017 22:01",
+		"testFillMessageBodyWithMultilineBody" : "DH 4/30/2018 18:51",
 		"testListAllFolders" : "DH 4/27/2018 02:35",
 		"testLogout" : "jwe 6/21/2016 10:15",
 		"testPing" : "jwe 6/21/2016 10:15",
