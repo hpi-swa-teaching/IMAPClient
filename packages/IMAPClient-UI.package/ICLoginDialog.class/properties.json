@@ -10,7 +10,8 @@
 		"username",
 		"password",
 		"serverAddress",
-		"ssl" ],
+		"ssl",
+		"credentials" ],
 	"name" : "ICLoginDialog",
 	"pools" : [
 		 ],

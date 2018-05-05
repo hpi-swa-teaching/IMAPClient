@@ -1,7 +1,7 @@
 toolbuilder
 buildWith: builder
 
-	| windowSpec  serverAdressInputFieldSpec serverPortInputFieldSpec userInputFieldSpec passwordInputFieldSpec sslCheckBoxSpec loginButtonSpec window |
+	| windowSpec  serverAdressInputFieldSpec serverPortInputFieldSpec userInputFieldSpec passwordInputFieldSpec sslCheckBoxSpec loginButtonSpec window saveCredentialsBoxSpec |
 	windowSpec := builder pluggableWindowSpec new.
 	windowSpec
 		model: self;
@@ -62,7 +62,18 @@ buildWith: builder
 		color: #checkBoxColor;
 		state: #ssl;
 		action: #toggleSSL.
-	
+			
+		
+	saveCredentialsBoxSpec := builder pluggableCheckBoxSpec new.
+	saveCredentialsBoxSpec
+		model: self;
+		frame: ((self guiElementXOffset + 0.4) @ (self guiElementYOffsetOf: 4.4) extent: self guiElementWidth @ self guiElementHeight);
+		label: #credentialsCheckBoxLabel;
+		color: #checkBoxColor;
+		state: #credentials;
+		action: #toggleCredentials.	
+		
+		
 	loginButtonSpec := builder pluggableButtonSpec new.
 	loginButtonSpec
 		model: self;
@@ -70,7 +81,7 @@ buildWith: builder
 		label: 'Login';
 		action: #login.
 			
-	windowSpec children addAll: { loginButtonSpec . serverAdressInputFieldSpec . serverPortInputFieldSpec . userInputFieldSpec . passwordInputFieldSpec . sslCheckBoxSpec }.
+	windowSpec children addAll: { loginButtonSpec . serverAdressInputFieldSpec . serverPortInputFieldSpec . userInputFieldSpec . passwordInputFieldSpec . sslCheckBoxSpec . saveCredentialsBoxSpec }.
 
 	window := builder build: windowSpec.
 	
