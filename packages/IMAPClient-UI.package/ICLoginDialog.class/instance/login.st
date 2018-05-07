@@ -15,7 +15,7 @@ login
 		connectTo: self serverAddress asString on: self serverPort asNumber;
 		login: self username using: self password ]
 		on: Error
-		do: [ :sig | self inform: sig asString ].
+		do: [ :sig | self inform: sig asString. ^self].
 	ICFolderDialog openWith: (endpoint rootFolder).
 	(endpoint isLoggedIn)
 		ifTrue: [ 
