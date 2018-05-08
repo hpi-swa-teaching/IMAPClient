@@ -1,4 +1,10 @@
 email selection
 labelFor: email
 
-	^ (email subject truncateTo: 80), Character tab, ((email from findBetweenSubStrs: '<>') at: 2), Character tab, email date
+	| fromCollection |
+	fromCollection := email from findBetweenSubStrs: '<>'.
+	^ (email subject truncateTo: 80),
+	Character tab,
+	(fromCollection at: 2 ifAbsent: [fromCollection at: 1]),
+	Character tab,
+	email date
