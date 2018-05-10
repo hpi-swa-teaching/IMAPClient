@@ -1,6 +1,5 @@
 fetch body
 modifyImportantFlag
-
 		(self important)
 			 ifTrue: [
 					 folder endpoint

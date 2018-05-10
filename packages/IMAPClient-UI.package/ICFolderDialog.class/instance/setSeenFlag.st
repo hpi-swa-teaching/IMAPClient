@@ -1,4 +1,5 @@
 email selection
 setSeenFlag
 
-	selectedEmail modifySeenFlag 
+	selectedEmail modifySeenFlag.
+	self changed: #emailsOfSelectedFolder

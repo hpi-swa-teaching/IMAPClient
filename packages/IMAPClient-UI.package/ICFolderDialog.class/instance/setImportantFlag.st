@@ -1,4 +1,5 @@
 email selection
 setImportantFlag
 
-	selectedEmail modifyImportantFlag 
+	selectedEmail modifyImportantFlag.
+	self changed: #emailsOfSelectedFolder
