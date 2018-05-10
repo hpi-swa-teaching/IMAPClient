@@ -1,2 +1,4 @@
 email selection
 setImportantFlag
+
+	selectedEmail modifyImportantFlag 
