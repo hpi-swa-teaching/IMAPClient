@@ -36,6 +36,7 @@ buildWith: builder
 		setSelected: #selectedEmail:;
 		getSelected: #selectedEmail;
 		autoDeselect: false;
+		menu: #menu:;
 		columns: {[:listMorph | (listMorph filteredItems collect: [:item | 
 					item preferredWidthOfColumn: 1]) max].
 			[:listMorph | (listMorph filteredItems collect: [:item |
