@@ -7,4 +7,6 @@ createHeaderFrom: aJsonObject
 		#date -> (aJsonObject at: 'date').
 		#from -> (aJsonObject at: 'from').
 		#subject -> (aJsonObject at: 'subject').
-		#to -> (self getRecipientsFrom: (aJsonObject at: 'to')) }
+		#to -> (self getRecipientsFrom: (aJsonObject at: 'to')).
+		#seen -> (aJsonObject at: 'seen').
+		#important -> (aJsonObject at: 'important').}
