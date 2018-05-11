@@ -18,6 +18,6 @@ maildirDiffFetchHeadersFrom: start to: end
 		].
 
      ^self
-       	sendCommand: (self class fetchFlagsAndHeadersWithUIDRange: start to: end);
+       	sendCommand: (self class fetchHeadersWithUIDRange: start to: end);
 		fetchNextResponse;
 		parseFetchHeaders: self lastResponse

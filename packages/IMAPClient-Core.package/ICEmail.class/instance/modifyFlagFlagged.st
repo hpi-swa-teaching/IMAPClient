@@ -1,6 +1,7 @@
 fetch body
 modifyFlagFlagged
-		(self flagged)
+		
+		(self retrieveFlags at: #flagged)
 			 ifTrue: [
 					 folder endpoint
 					select: self folder path;

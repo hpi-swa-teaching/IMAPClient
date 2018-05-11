@@ -1,7 +1,7 @@
 fetch body
 modifyFlagSeen
 
-		(self seen)
+		(self retrieveFlags at: #seen)
 			 ifTrue: [
 					 folder endpoint
 					select: self folder path;

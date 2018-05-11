@@ -1,5 +1,0 @@
-constants
-expectedFetchHeaderSeen
-
-	^ 'true'
-		
