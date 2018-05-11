@@ -5,5 +5,5 @@ parseFetchFlags: aHeaderChunk for: anEmail
 		ifFalse: [anEmail seen: false].
 		
 	((aHeaderChunk at: 1) includesSubstring: '\Flagged')
-		ifTrue: [anEmail important: true] 
-		ifFalse: [anEmail important: false] 
+		ifTrue: [anEmail flagged: true] 
+		ifFalse: [anEmail flagged: false] 

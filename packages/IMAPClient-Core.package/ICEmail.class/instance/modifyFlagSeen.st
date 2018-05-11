@@ -1,12 +1,12 @@
 fetch body
-modifySeenFlag
+modifyFlagSeen
 
 		(self seen)
 			 ifTrue: [
 					 folder endpoint
 					select: self folder path;
-					resetSeenFlag: self]
+					resetFlagSeen: self]
 			 ifFalse: [
 					folder endpoint
 					select: self folder path;
-					setSeenFlag: self]
+					setFlagSeen: self]

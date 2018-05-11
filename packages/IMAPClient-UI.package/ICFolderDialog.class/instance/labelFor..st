@@ -9,7 +9,7 @@ labelFor: email
 	Character tab,
 	email date.
 	(email seen) 
-		ifFalse: [label := '[UNREAD] ', label].
-	(email important) 
-		ifTrue: [label := '[HIGH PRIORITY] ', label].	
+		ifFalse: [label := '[UNSEEN] ', label].
+	(email flagged) 
+		ifTrue: [label := '[FLAGGED] ', label].	
 	^ label			

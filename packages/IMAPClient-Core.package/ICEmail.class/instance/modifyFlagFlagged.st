@@ -1,11 +1,11 @@
 fetch body
-modifyImportantFlag
-		(self important)
+modifyFlagFlagged
+		(self flagged)
 			 ifTrue: [
 					 folder endpoint
 					select: self folder path;
-					resetImportantFlag: self]
+					resetFlagFlagged: self]
 			 ifFalse: [
 					folder endpoint
 					select: self folder path;
-					setImportantFlag: self]
+					setFlagFlagged: self]
