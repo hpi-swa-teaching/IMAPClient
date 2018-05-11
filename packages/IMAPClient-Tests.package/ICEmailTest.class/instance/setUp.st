@@ -6,4 +6,6 @@ setUp
 		subject: 'subject text';
 		from: 'sender';
 		to: 'receiver';
-		date: 'Fri, 10 Jun 2016 12:51:42 +0200')
+		date: 'Fri, 10 Jun 2016 12:51:42 +0200';
+		seen: 'true';
+		flagged: 'true')
