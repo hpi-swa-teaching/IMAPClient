@@ -16,6 +16,7 @@ saveCredentialsIntoFile
 			nextPutAll: self serverAddress asString; cr;
 			nextPutAll: self serverPort asString; cr;
 			nextPutAll: self username asString;  cr;
-			nextPutAll: self password asString;
+			nextPutAll: self password asString; cr;
+			nextPutAll: self ssl asString;
 			close 
 		]	
