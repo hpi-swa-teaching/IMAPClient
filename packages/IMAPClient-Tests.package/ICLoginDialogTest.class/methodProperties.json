@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"testPassword" : "DH 5/14/2018 12:16",
+		"testSSL" : "DH 5/14/2018 12:27",
+		"testSSLasString" : "DH 5/14/2018 12:27",
+		"testServerName" : "DH 5/14/2018 12:14",
+		"testServerPort" : "DH 5/14/2018 12:15",
+		"testUsername" : "DH 5/14/2018 12:16" },
+	"instance" : {
+		"createConfigFile" : "DH 5/14/2018 12:44",
+		"deleteConfigFile" : "DH 5/14/2018 12:55",
+		"testLoadCredentials" : "DH 5/14/2018 12:55",
+		"testSaveCredentials" : "DH 5/14/2018 12:55" } }

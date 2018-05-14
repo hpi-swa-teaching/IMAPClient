@@ -8,9 +8,9 @@ saveCredentialsIntoFile
 		 (default_directory directoryExists: 'Maildir')
  			ifFalse: [default_directory createDirectory: 'Maildir'].
   		maildir_directory := default_directory directoryNamed: 'Maildir'.	
-			(maildir_directory fileOrDirectoryExists: 'config.txt')
-			ifTrue: [maildir_directory deleteFileNamed: 'config.txt'].
-		FileStream forceNewFileNamed: (maildir_directory fullPathFor: ('config.txt')) do:
+			(maildir_directory fileOrDirectoryExists: self class getConfigNameFile)
+			ifTrue: [maildir_directory deleteFileNamed: self class getConfigNameFile].
+		FileStream forceNewFileNamed: (maildir_directory fullPathFor: self class getConfigNameFile) do:
 		[ :stream | stream 
 			wantsLineEndConversion: false;
 			nextPutAll: self serverAddress asString; cr;
