@@ -12,7 +12,7 @@ baseline: spec
 		    package: 'IMAPClient-UI';
                 package: 'IMAPClient-Tests' with: [ spec requires: #('default' 'libaries') ].
             spec
-                group: 'default' with: #('IMAPClient-Core', 'IMAPClient-UI');
+                group: 'default' with: #('IMAPClient-Core' 'IMAPClient-UI');
                 group: 'Tests' with: #('IMAPClient-Tests');
 				group: 'libaries' with: #('JSON')
 			]
