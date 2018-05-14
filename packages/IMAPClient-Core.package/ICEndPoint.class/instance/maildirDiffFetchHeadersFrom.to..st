@@ -1,7 +1,7 @@
 connection
 maildirDiffFetchHeadersFrom: start to: end
 	| searchBegin searchEnd currentMails mailFolder|
-	
+
 	(FileDirectory default directoryExists: (FileDirectory default fullPathFor: self maildirFileName)) 
 		ifTrue: [
 			    mailFolder := FileDirectory default on: self maildirFileName.
