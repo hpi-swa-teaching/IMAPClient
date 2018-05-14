@@ -11,7 +11,7 @@ baseline: spec
                 package: 'IMAPClient-Core';
                 package: 'IMAPClient-Tests' with: [ spec requires: #('default' 'libaries') ].
             spec
-                group: 'default' with: #('IMAPClient-Core');
+                group: 'default' with: #('IMAPClient-Core', 'IMAPClient-UI');
                 group: 'Tests' with: #('IMAPClient-Tests');
 				group: 'libaries' with: #('JSON')
 			]
