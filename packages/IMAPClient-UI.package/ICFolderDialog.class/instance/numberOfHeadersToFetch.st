@@ -1,4 +1,0 @@
-accessing
-numberOfHeadersToFetch
-
-	^ numberOfHeadersToFetch
