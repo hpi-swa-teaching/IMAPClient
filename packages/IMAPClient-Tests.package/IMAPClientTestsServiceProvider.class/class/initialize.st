@@ -1,3 +1,3 @@
 initialization
 initialize 
-	ServiceRegistry buildProvider: self new
+	ServiceRegistry current buildProvider: self new
