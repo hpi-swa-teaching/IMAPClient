@@ -1,5 +1,6 @@
 fetching
 fetchNextResponse
+
 	| multiLineResponse |
 	multiLineResponse := OrderedCollection new.
 	self stream nextResponse.
