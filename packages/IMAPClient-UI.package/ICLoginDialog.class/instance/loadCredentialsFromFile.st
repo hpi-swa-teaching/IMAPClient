@@ -9,10 +9,10 @@ loadCredentialsFromFile
 	(default_directory directoryExists: 'Maildir')
 		ifTrue: [
 			maildir_directory := default_directory directoryNamed: 'Maildir'.	
-			(maildir_directory fileOrDirectoryExists: 'config.txt')
+			(maildir_directory fileOrDirectoryExists: self class getConfigNameFile)
 			ifTrue: [
 			
-				FileStream readOnlyFileNamed: (maildir_directory fullPathFor: ('config.txt')) do:
+				FileStream readOnlyFileNamed: (maildir_directory fullPathFor: self class getConfigNameFile) do:
 				[ :stream | 
 					[stream atEnd] whileFalse: [
 					|line|
