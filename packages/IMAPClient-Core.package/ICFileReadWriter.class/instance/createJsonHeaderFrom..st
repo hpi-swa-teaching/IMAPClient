@@ -8,6 +8,6 @@ createJsonHeaderFrom: aDictionary
 		'date' ->  (aDictionary at: #date ifAbsent: ['']).
 		'from' -> (aDictionary at: #from ifAbsent: ['']).
 		'subject' -> (aDictionary at: #subject ifAbsent: ['']).
-		'to' -> (aDictionary at: #to ifAbsent: ['']) }.
+		'to' -> (aDictionary at: #to ifAbsent: [''])}.
 		
 	^jsonFile    

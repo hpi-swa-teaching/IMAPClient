@@ -1,5 +1,6 @@
 message handling
 login
+
 	self checkConnected.
  	self authenticationInfo isValid ifFalse: [ ^ false ].
   	self sendCommand: (

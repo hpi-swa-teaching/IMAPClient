@@ -1,4 +1,6 @@
 email selection
 openEmail: email
-
-	^ ICEmailDialog openWith: email
+	| mailDialog |
+	mailDialog := ICEmailDialog openWith: email.
+	self changed: #emailsOfSelectedFolder.
+	^ mailDialog
