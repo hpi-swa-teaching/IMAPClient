@@ -1,4 +1,6 @@
 connection
 maildirDiffFetchHeadersFrom: anUID
 
-	self maildirDiffFetchHeadersFrom: anUID to: self uids last
+	self uids
+		ifNil: [^ OrderedCollection new]
+		ifNotNil: [^ self maildirDiffFetchHeadersFrom: anUID to: self uids last]
