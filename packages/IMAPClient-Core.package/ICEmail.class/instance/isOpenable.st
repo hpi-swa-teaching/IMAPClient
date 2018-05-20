@@ -1,0 +1,4 @@
+accessing
+isOpenable
+
+	^ true
