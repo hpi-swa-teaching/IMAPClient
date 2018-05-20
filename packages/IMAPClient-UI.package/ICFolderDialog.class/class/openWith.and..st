@@ -1,8 +1,8 @@
 instance creation
-openWith: rootFolder
+openWith: rootFolder and: endpoint
 
 	| instance |
 	instance := self new.
 	instance rootFolder: (Array with: rootFolder).
-	instance getFolder.
+	instance getFolderWith: endpoint.
 	^ ToolBuilder default open: instance
