@@ -18,7 +18,6 @@ login
 		do: [ :sig | self inform: sig asString ].
 	(endpoint isLoggedIn)
 		ifTrue: [
-			ICFolderDialog openWith: (endpoint rootFolder) and: endpoint. 
-			"Transcript show: (self class successLoginMessage); cr."
-			"ICFolder parseFromServer: endpoint" ] 
+			ICFolderDialog openWith: endpoint. 
+			Transcript show: (self class successLoginMessage); cr ] 
 		ifFalse: [ self inform: self class failureLoginMessage ].
