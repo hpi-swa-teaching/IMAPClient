@@ -1,8 +1,13 @@
 email access
 getBody
 	
-	| body |
+	|mimeDoc body |
 	body := email retrieveBody.
-	body isAsciiString
-		ifTrue: [^ body asTextFromHtml asString decodeQuotedPrintable]
-		ifFalse: [^ 'Der Inhalt dieser Mail kann leider nicht angezeigt werden. Bitte benutze einen besseren Browser.']
+
+	"retrieveBody will now also return content type. But now we need to find a way to render it nicely.
+	MIMEDocument only supports not multipart messages. :(
+	"
+	mimeDoc := MailMessage from: body.	
+	^mimeDoc bodyTextFormatted
+	
+	
