@@ -1,5 +1,5 @@
 get emails
-getCurrentUID
+getHighestUID
 
 	| latestEmail |
 	latestEmail := self emailsOfSelectedFolder detectMax: [:anICEmail | anICEmail uid].

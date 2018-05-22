@@ -12,7 +12,8 @@
 		"dialogTitle" : "ms 6/26/2016 13:50",
 		"emailsOfSelectedFolder" : "ms 7/12/2016 13:03",
 		"folderNameOf:" : "ms 6/26/2016 14:09",
-		"getCurrentUID" : "lvm 5/15/2018 14:06",
+		"getHighestUID" : "lvm 5/21/2018 13:51",
+		"getLowestUID" : "lvm 5/21/2018 13:52",
 		"labelFor:" : "lvm 5/20/2018 20:13",
 		"menu:" : "mw 5/17/2018 20:56",
 		"modifyFlaggedFlag" : "mw 5/17/2018 14:47",
@@ -26,5 +27,5 @@
 		"selectedFolder:" : "dl 6/23/2017 11:58",
 		"startUpdateHeadersProcess:" : "lvm 5/15/2018 14:18",
 		"subFoldersOf:" : "ms 6/26/2016 14:10",
-		"updateEmails" : "lvm 5/15/2018 14:18",
-		"updateHeadersProcess:" : "lvm 5/20/2018 20:22" } }
+		"updateEmails" : "lvm 5/21/2018 13:51",
+		"updateHeadersProcess:" : "lvm 5/21/2018 13:54" } }
