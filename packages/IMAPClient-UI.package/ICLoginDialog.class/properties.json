@@ -11,7 +11,8 @@
 		"password",
 		"serverAddress",
 		"ssl",
-		"credentials" ],
+		"credentials",
+		"inputCollection" ],
 	"name" : "ICLoginDialog",
 	"pools" : [
 		 ],

@@ -1,5 +1,7 @@
 accessing
 serverAddress: anObject
-
-	serverAddress := anObject.
-	self changed: #serverAddress
+	
+	(self checkIfLastCharacterIsTab: anObject string)
+	ifFalse: [serverAddress := anObject.
+			self changed: #serverAddress]
+	ifTrue: [self changeInputField: 1]	

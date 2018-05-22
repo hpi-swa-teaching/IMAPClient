@@ -1,0 +1,6 @@
+initialization
+changeFieldAfterTab: currentField
+	^ self
+				
+		
+  
