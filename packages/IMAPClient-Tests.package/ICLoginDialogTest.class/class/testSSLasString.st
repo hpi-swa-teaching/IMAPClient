@@ -1,0 +1,3 @@
+constants
+testSSLasString
+	^ 'true'
