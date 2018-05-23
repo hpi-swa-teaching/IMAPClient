@@ -1,6 +1,0 @@
-initialization
-changeFieldAfterTab: currentField
-	^ self
-				
-		
-  
