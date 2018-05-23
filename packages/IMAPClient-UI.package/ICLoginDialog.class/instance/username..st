@@ -1,5 +1,8 @@
 accessing
 username: anObject
 
-	username := anObject.
-	self changed: #username
+	(self checkIfLastCharacterIsTab: anObject string)
+		ifFalse: [username := anObject]
+		ifTrue: [self changeInputField: 3].
+		
+	self changed: #username	

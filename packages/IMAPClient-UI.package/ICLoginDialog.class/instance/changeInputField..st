@@ -1,10 +1,15 @@
 helper
-changeInputField: currentInput
+changeInputField: currentIndex
 
-	self halt.
-		
-	(self inputCollection size > (currentInput +1))
+	| correctSubmorph|
+
+	"find field i need to go to"
+	(self inputCollection size > (currentIndex))
 	ifTrue: [
-		(self inputCollection at: (currentInput)) hasFocus: false. 	
-		(self inputCollection at: (currentInput +1)) 	hasFocus: false.
+		
+		correctSubmorph := self inputCollection detect: [:each | 
+				(each getTextSelector = (self symbolArray at: (currentIndex + 1)))
+			]. 	
+		correctSubmorph grabKeyboard.
+		
 	]

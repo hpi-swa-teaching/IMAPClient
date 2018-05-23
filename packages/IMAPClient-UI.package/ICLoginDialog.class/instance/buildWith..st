@@ -94,5 +94,4 @@ buildWith: builder
 			ifTrue: [self inputCollection add: m].
 		(m class == PluggableCheckBoxMorph)
 			ifTrue: [m color: Color transparent] ].
-	self halt.
 	^ window
