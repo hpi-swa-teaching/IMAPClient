@@ -13,7 +13,8 @@
 		"ssl",
 		"credentials",
 		"inputCollection",
-		"symbolArray" ],
+		"symbolArray",
+		"loginMorph" ],
 	"name" : "ICLoginDialog",
 	"pools" : [
 		 ],

@@ -85,13 +85,17 @@ buildWith: builder
 
 	window := builder build: windowSpec.
 	
+	window on: #keyStroke send: #keyEvent: to: self.
+	self loginMorph: window.
+	
 	self inputCollection: OrderedCollection new.
 	
 	"hack to make the checkbox background transparent"
 	"can be removed once PluggableCheckBoxMorph starts using its color selector instead of default mint green (bug in squeak)"
 	window submorphsDo: [ :m |
 		(m class == PluggableTextMorphPlus)
-			ifTrue: [self inputCollection add: m].
+			ifTrue: [self inputCollection add: m.
+					m textMorph on: #keyDown send: #keyEvent: to: self].
 		(m class == PluggableCheckBoxMorph)
 			ifTrue: [m color: Color transparent] ].
 	^ window

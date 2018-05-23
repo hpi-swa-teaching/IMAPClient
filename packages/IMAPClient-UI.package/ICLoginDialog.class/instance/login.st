@@ -16,6 +16,7 @@ login
 		do: [ :sig | self inform: sig asString ].
 	(endpoint isLoggedIn)
 		ifTrue: [
+			self loginMorph abandon.
 			ICFolderDialog openWith: endpoint. 
 			Transcript show: (self class successLoginMessage); cr ] 
 		ifFalse: [ self inform: self class failureLoginMessage ].
