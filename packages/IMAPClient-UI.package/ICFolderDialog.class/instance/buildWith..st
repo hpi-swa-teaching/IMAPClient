@@ -20,14 +20,14 @@ buildWith: builder
 	folderTreeSpec := builder pluggableTreeSpec new.
 	folderTreeSpec
 		model: self;
-		roots: #rootFolder;
+		roots: #childFolders;
 		setSelected: #selectedFolder:;
 		getSelected: #selectedFolder;
 		getChildren: #subFoldersOf: ;
 		label: #folderNameOf:;	
 		autoDeselect: false;
 		frame: (0 @ 0.05 extent: 0.2 @ 0.95).
-
+	
 	emailListSpec := builder pluggableTreeSpec new.
 	emailListSpec
 		model: self;
@@ -36,14 +36,12 @@ buildWith: builder
 		setSelected: #selectedEmail:;
 		getSelected: #selectedEmail;
 		autoDeselect: false;
-		columns: {
-		    [:listMorph | (listMorph filteredItems collect: [:item | 
+		columns: {[:listMorph | (listMorph filteredItems collect: [:item | 
 					item preferredWidthOfColumn: 1]) max].
 			[:listMorph | (listMorph filteredItems collect: [:item |
 					item preferredWidthOfColumn: 2]) max]. 
 			[:listMorph | (listMorph filteredItems collect: [:item |
-					item preferredWidthOfColumn: 3]) max].
-		};
+					item preferredWidthOfColumn: 3]) max].};
 		frame: (0.2 @ 0 extent: 0.8 @ 1);
 		color: (Color white).
 	
