@@ -4,9 +4,7 @@ login
 	| endpoint|
 	
 	self credentials 
-	ifTrue: [
-		self saveCredentialsIntoFile.
-	].	
+	ifTrue: [ self saveCredentialsIntoFile ].	
 	
 	endpoint := ICEndPoint new.
 	
