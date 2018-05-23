@@ -9,6 +9,8 @@ labelFor: anICEmail
 	Character tab,
 	anICEmail date.
 
+	anICEmail isFlaggable
+		ifFalse: [^ label].
 	flags := anICEmail retrieveFlags.
 	(flags at: #seen) 
 		ifFalse: [label := '[UNSEEN] ', label].

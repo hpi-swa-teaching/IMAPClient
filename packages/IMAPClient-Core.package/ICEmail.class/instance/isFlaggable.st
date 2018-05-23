@@ -1,4 +1,4 @@
 accessing
-isOpenable
+isFlaggable
 
 	^ true
