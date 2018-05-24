@@ -2,4 +2,5 @@ email selection
 openEmail: anICEmail
 	
 	anICEmail open.
-	self changed: #emailsOfSelectedFolder
+	anICEmail isFlaggable
+		ifTrue: [self changed: #emailsOfSelectedFolder]

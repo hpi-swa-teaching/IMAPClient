@@ -1,4 +1,5 @@
 get emails
 loadOlderEmails
 
-	self updateEmails
+	[ self loadOlderEmailsProcess ] forkAt: Processor userBackgroundPriority
+	

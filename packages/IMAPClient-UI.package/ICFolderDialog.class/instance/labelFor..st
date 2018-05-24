@@ -8,7 +8,7 @@ labelFor: anICEmail
 	(fromCollection at: 2 ifAbsent: [fromCollection at: 1 ifAbsent: ['']]),
 	Character tab,
 	anICEmail date.
-
+	
 	anICEmail isFlaggable
 		ifFalse: [^ label].
 	flags := anICEmail retrieveFlags.
