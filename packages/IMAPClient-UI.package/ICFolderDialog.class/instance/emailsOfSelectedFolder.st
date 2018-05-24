@@ -1,8 +1,10 @@
 folder selection
 emailsOfSelectedFolder
 
+	| emails |
 	self selectedFolder ifNil: [ ^ OrderedCollection new ].
-	"^ (OrderedCollection newFrom: (self selectedFolder emails)) addLast: (ICLoadOlderMail instanceFor: self selectedFolder)"
-	(self selectedFolder emails last == (ICLoadOlderMail instanceFor: self))
-		ifFalse: [self selectedFolder emails add: (ICLoadOlderMail instanceFor: self)].
-	^ self selectedFolder emails
+	emails := self selectedFolder emails.
+	emails ifEmpty: [ ^ emails ].
+	(emails last == (ICLoadOlderMail instanceFor: self))
+		ifFalse: [emails add: (ICLoadOlderMail instanceFor: self)].
+	^ emails
