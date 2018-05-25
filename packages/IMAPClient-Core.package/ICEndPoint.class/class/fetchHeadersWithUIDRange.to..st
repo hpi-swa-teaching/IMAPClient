@@ -3,4 +3,4 @@ fetchHeadersWithUIDRange: aBeginId to: anEndId
 
 	^ {self protocolCommandStart . 'UID FETCH' .
 		(aBeginId asString, ':', anEndId asString) .
-		'(BODY.PEEK[HEADER.FIELDS (from to subject date)])' } joinSeparatedBy: self protocolBlank
+		'(FLAGS BODY.PEEK[HEADER.FIELDS (from to subject date)])' } joinSeparatedBy: self protocolBlank

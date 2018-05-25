@@ -8,5 +8,7 @@ get: aFile in: aFolder
 		header: (self createHeaderFrom: (jsonFile at: 'header'));
 		body: (jsonFile at: 'body');
 		messageID: (jsonFile at: 'messageID');
+		seen: (jsonFile at: 'seen');
+		flagged: (jsonFile at: 'flagged');		
 		uid: (jsonFile at: 'uid');
 		yourself

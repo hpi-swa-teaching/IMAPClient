@@ -13,5 +13,7 @@ createEmailsWith: maildir_directory andName: directory_name
 	
 	Transcript show: 'folderName:' , (directory_name, FileDirectory slash, foldername); cr.
           email := (filereader get: filename in: ('Maildir', FileDirectory slash, directory_name, FileDirectory slash, foldername)).
+	(email seen isNil) ifTrue: [email seen: true].
+	(email flagged isNil) ifTrue: [email flagged: false].
         email folder: folder.
          folder emails add: email ]]
