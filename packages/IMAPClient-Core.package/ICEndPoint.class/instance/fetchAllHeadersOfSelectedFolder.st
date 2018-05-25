@@ -1,4 +1,4 @@
 fetching
 fetchAllHeadersOfSelectedFolder
 
-	^ self fetchFlagsHeadersFrom: 1 to: '10'
+	^ self fetchHeadersFrom: 1 to: '10'
