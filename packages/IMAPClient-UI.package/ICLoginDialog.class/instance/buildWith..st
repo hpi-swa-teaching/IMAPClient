@@ -87,17 +87,17 @@ buildWith: builder
 	
 	window on: #keyStroke send: #keyEvent: to: self.
 	self loginMorph: window.
-	
 	self inputCollection: OrderedCollection new.
 	
 	
-	window submorphsDo: [ :m |
-	"add listener to text fields"	
+	"add listener to text fields
+	and hack to make the checkbox background transparent
+	can be removed once PluggableCheckBoxMorph starts using its color selector instead of default mint green (bug in       	squeak)"
+		
+	window submorphsDo: [:m |
 		(m class == PluggableTextMorphPlus)
 			ifTrue: [self inputCollection add: m.
 					m textMorph on: #keyDown send: #keyEvent: to: self].
-	"hack to make the checkbox background transparent"
-	"can be removed once PluggableCheckBoxMorph starts using its color selector instead of default mint green (bug in squeak)"
 		(m class == PluggableCheckBoxMorph)
-			ifTrue: [m color: Color transparent] ].
+			ifTrue: [m color: Color transparent]].
 	^ window
