@@ -6,5 +6,5 @@ retrieveFlagsFor: anEmail
 		fetchNextResponse.
 	^ Dictionary newFrom: {
 		#seen -> (self parseFetchFlags includesSubstring: '\Seen').
-		#flagged -> (self parseFetchFlags includesSubstring: '\Flagged').}
+		#flagged -> (self parseFetchFlags includesSubstring: '\Flagged')}
 		
