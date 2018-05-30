@@ -4,7 +4,7 @@ fetchHeadersIn: aFolder for: aNumber
 	selectResponse := self select: aFolder path.
 	isNotEmpty := true.
 	(self lastResponse do:
-		[:line | (line findString: '0 EXISTS') > 0
+		[:line | (line findString: ' 0 EXISTS') > 0
 			ifTrue: [isNotEmpty := false]]).
 	isNotEmpty
 		ifTrue: [^(self fetchHeadersFrom: 1 to: aNumber) collect: [ :email | email folder: aFolder ]]
