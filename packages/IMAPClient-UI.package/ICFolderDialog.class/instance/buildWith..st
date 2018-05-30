@@ -14,8 +14,8 @@ buildWith: builder
 	emailButtonSpec
 		model: self;
 		frame: (0 @ 0 extent: 0.2 @ 0.05);
-		label: 'Get Emails';
-		action: #getEmails.
+		label: 'Update';
+		action: #updateEmails.
 				
 	folderTreeSpec := builder pluggableTreeSpec new.
 	folderTreeSpec
