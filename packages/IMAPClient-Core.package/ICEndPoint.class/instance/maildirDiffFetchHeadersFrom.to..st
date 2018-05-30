@@ -16,7 +16,7 @@ maildirDiffFetchHeadersFrom: start to: end
 						currentMails := currentMails emails.
 						^ currentMails].
 		].
-	 
+
      ^self
        	sendCommand: (self class fetchHeadersWithUIDRange: start to: end);
 		fetchNextResponse;

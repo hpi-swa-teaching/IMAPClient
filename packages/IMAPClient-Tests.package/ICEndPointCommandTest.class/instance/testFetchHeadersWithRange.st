@@ -4,7 +4,7 @@ testFetchHeadersWithRange
 	|path emailObjects mailAPath mailBPath|
 	
 	"ToDo: Add an test if the Objects are already present in Storage and they need to be loaded from ICFolder"
-	
+		
 	emailObjects := self endPoint fetchHeadersFrom: 6 to: 7.
 	path := #('Maildir' 'unknown' 'inbox') asOrderedCollection joinSeparatedBy: (FileDirectory slash).
 	mailAPath := FileDirectory default fullPathFor: path , FileDirectory slash, '3' .
@@ -17,6 +17,7 @@ testFetchHeadersWithRange
 		assert: (FileDirectory default fileExists: (mailAPath));	
 		assert: (FileDirectory default fileExists: (mailBPath)).
 		
+				
 	"Delete genered files"
 	FileDirectory default
 		deleteFileNamed: mailAPath;
