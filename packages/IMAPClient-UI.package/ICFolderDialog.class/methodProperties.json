@@ -1,15 +1,18 @@
 {
 	"class" : {
 		"open" : "ms 6/25/2016 18:25",
-		"openWith:" : "CG 5/20/2018 13:39" },
+		"openWith:" : "CG 5/30/2018 21:56" },
 	"instance" : {
-		"buildWith:" : "CG 5/17/2018 18:36",
+		"addEmailAccount:" : "CG 5/30/2018 20:04",
+		"buildWith:" : "CG 5/30/2018 23:49",
 		"childFolders" : "CG 5/17/2018 18:38",
 		"chooseNumberOfMails" : "mw 4/25/2018 22:27",
 		"closeConnection" : "ms 7/13/2016 18:01",
 		"currentRemoteVatId" : "dl 6/23/2017 12:30",
 		"defaultBackgroundColor" : "ms 7/11/2016 16:33",
 		"dialogTitle" : "ms 6/26/2016 13:50",
+		"emailAccounts" : "CG 5/30/2018 20:02",
+		"emailAccounts:" : "CG 5/30/2018 20:03",
 		"emailsOfSelectedFolder" : "DH 5/16/2018 18:01",
 		"fetchHeaderProcess" : "js 7/16/2017 18:16",
 		"folderNameOf:" : "ms 6/26/2016 14:09",
@@ -26,5 +29,7 @@
 		"selectedEmail:" : "ms 7/10/2016 11:15",
 		"selectedFolder" : "ms 6/28/2016 11:44",
 		"selectedFolder:" : "dl 6/23/2017 11:58",
+		"something" : "CG 5/30/2018 21:59",
+		"something:" : "CG 5/30/2018 21:59",
 		"startFetchHeaderProcess" : "mw 4/25/2018 22:26",
 		"subFoldersOf:" : "ms 6/26/2016 14:10" } }

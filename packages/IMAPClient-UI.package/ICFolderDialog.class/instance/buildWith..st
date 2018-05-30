@@ -1,7 +1,7 @@
 toolbuilder
 buildWith: builder
 
-	| windowSpec emailButtonSpec folderTreeSpec emailListSpec |
+	| windowSpec emailButtonSpec userListSpec folderTreeSpec emailListSpec |
 	windowSpec := builder pluggableWindowSpec new.
 	windowSpec
 		model: self;
@@ -16,6 +16,12 @@ buildWith: builder
 		frame: (0 @ 0 extent: 0.2 @ 0.05);
 		label: 'Get Emails';
 		action: #getEmails.
+		
+	userListSpec := builder pluggableListSpec new.
+	userListSpec
+		model: self;
+		list: #emailAccounts;
+		frame: (0 @ 0.05 extent: 0.2 @ 0.1).
 				
 	folderTreeSpec := builder pluggableTreeSpec new.
 	folderTreeSpec
@@ -26,7 +32,7 @@ buildWith: builder
 		getChildren: #subFoldersOf: ;
 		label: #folderNameOf:;	
 		autoDeselect: false;
-		frame: (0 @ 0.05 extent: 0.2 @ 0.95).
+		frame: (0 @ 0.15 extent: 0.2 @ 0.85).
 	
 	emailListSpec := builder pluggableTreeSpec new.
 	emailListSpec
@@ -45,5 +51,5 @@ buildWith: builder
 		frame: (0.2 @ 0 extent: 0.8 @ 1);
 		color: (Color white).
 	
-	windowSpec children addAll: { emailButtonSpec . folderTreeSpec . emailListSpec }.
+	windowSpec children addAll: { emailButtonSpec . userListSpec . folderTreeSpec . emailListSpec }.
 	^ builder build: windowSpec

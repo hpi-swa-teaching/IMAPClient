@@ -9,7 +9,8 @@
 		"rootFolder",
 		"selectedEmail",
 		"selectedFolder",
-		"numberOfHeadersToFetch" ],
+		"numberOfHeadersToFetch",
+		"emailAccounts" ],
 	"name" : "ICFolderDialog",
 	"pools" : [
 		 ],
