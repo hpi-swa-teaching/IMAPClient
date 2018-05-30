@@ -13,11 +13,12 @@ changeInputField: currentIndex
 		
 		"get text of next input field"
 		text := self perform: (correctSubmorph getTextSelector).
-		(text size > 0)
-		ifTrue: [
-			"select text of morph"
-			correctSubmorph textMorph editor selectInterval: (1 to: (text size))	
-		].
-	
+		text ifNotNil:[
+			text size > 0
+				ifTrue: [
+					"select text of morph"
+					correctSubmorph textMorph editor selectInterval: (1 to: (text size))	
+				]
+			].
 		correctSubmorph grabKeyboard.
 	]
