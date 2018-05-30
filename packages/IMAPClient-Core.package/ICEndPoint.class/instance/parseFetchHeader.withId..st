@@ -14,8 +14,7 @@ parseFetchHeader: headerLines withId: id
 				self parseHeaderChunk: headerChunk for: email.
 				headerChunk removeAll.
 			].
-		headerChunk add: line 
+		headerChunk add: line withBlanksTrimmed
 	].
-
 	self parseHeaderChunk: headerChunk for: email.
 	^ email
