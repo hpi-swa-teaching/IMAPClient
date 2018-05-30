@@ -11,7 +11,10 @@
 		"password",
 		"serverAddress",
 		"ssl",
-		"credentials" ],
+		"credentials",
+		"inputCollection",
+		"symbolArray",
+		"loginMorph" ],
 	"name" : "ICLoginDialog",
 	"pools" : [
 		 ],
