@@ -34,6 +34,7 @@ buildWith: builder
 		roots: #emailsOfSelectedFolder;
 		label: #labelFor:;
 		setSelected: #selectedEmail:;
+		menu: #menu:;
 		getSelected: #selectedEmail;
 		autoDeselect: false;
 		columns: {[:listMorph | (listMorph filteredItems collect: [:item | 
