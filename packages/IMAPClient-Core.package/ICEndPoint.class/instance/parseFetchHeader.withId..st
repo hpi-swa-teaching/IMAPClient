@@ -8,7 +8,6 @@ parseFetchHeader: headerLines withId: id
 	headerData := (headerLines subStrings: {Character cr}) allButFirst.		
 	headerChunk := OrderedCollection new.
 	
-	
 	"this is necassery because one header fields could contains multiple lines..."
 	headerData do: [ :line |
 		(line includesSubString: 'UID')	
