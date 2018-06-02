@@ -20,23 +20,23 @@ buildWith: builder
 	folderTreeSpec := builder pluggableTreeSpec new.
 	folderTreeSpec
 		model: self;
-		roots: #rootFolder;
+		roots: #childFolders;
 		setSelected: #selectedFolder:;
 		getSelected: #selectedFolder;
 		getChildren: #subFoldersOf: ;
 		label: #folderNameOf:;	
 		autoDeselect: false;
 		frame: (0 @ 0.05 extent: 0.2 @ 0.95).
-		
+	
 	emailListSpec := builder pluggableTreeSpec new.
 	emailListSpec
 		model: self;
 		roots: #emailsOfSelectedFolder;
 		label: #labelFor:;
 		setSelected: #selectedEmail:;
+		menu: #menu:;
 		getSelected: #selectedEmail;
 		autoDeselect: false;
-		menu: #menu:;
 		columns: {[:listMorph | (listMorph filteredItems collect: [:item | 
 					item preferredWidthOfColumn: 1]) max].
 			[:listMorph | (listMorph filteredItems collect: [:item |

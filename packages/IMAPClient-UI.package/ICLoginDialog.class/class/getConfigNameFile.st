@@ -1,0 +1,3 @@
+constants
+getConfigNameFile 
+	^ 'config.txt'

@@ -1,0 +1,3 @@
+accessing
+inputCollection
+	^ inputCollection
