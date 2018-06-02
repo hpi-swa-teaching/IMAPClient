@@ -1,7 +1,7 @@
 write file
 write: anICEmail in: aFolder as: aString
 	| jsonFile renderedJson fileDirectory |
-	
+
 	jsonFile := JsonObject newFrom: {
 		'header' -> (self createJsonHeaderFrom: anICEmail header). 
 		'body' -> anICEmail body.

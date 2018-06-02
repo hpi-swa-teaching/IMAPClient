@@ -1,8 +1,8 @@
 {
 	"class" : {
-		"expectedJsonHeader" : "dl 7/20/2017 10:55",
-		"expectedMailObject" : "dl 7/20/2017 10:55",
-		"givenJsonObject" : "DH 4/27/2018 11:54" },
+		"expectedJsonHeader" : "DH 6/2/2018 13:35",
+		"expectedMailObject" : "DH 6/2/2018 13:34",
+		"givenJsonObject" : "DH 6/2/2018 13:33" },
 	"instance" : {
 		"readWriter" : "dl 7/20/2017 10:54",
 		"readWriter:" : "dl 7/20/2017 10:54",
