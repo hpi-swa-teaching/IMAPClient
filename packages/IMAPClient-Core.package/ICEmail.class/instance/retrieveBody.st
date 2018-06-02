@@ -1,6 +1,7 @@
 fetch body
 retrieveBody
-	|mailbody|
+	
+	| mailbody |
 	self folder endpoint
 		select: self folder path;
 		fillBodyFor: self.
@@ -12,4 +13,4 @@ retrieveBody
 				  Character cr, Character cr, self body.
 			
 	
-	^mailbody
+	^ mailbody

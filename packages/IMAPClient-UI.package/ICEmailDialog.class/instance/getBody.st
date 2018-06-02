@@ -1,11 +1,11 @@
 email access
 getBody
 	
-	|mimeDoc body |
-
+	| mimeDoc body |
+	
 	body := email retrieveBody.
-
+	
 	mimeDoc := MailMessage new initializeFromString: body.
-	^mimeDoc bodyTextFormatted
+	^ mimeDoc bodyTextFormatted
 	
 	
