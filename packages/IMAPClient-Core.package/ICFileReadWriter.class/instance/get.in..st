@@ -7,8 +7,6 @@ get: aFile in: aFolder
 	^ ICEmail new
 		header: (self createHeaderFrom: (jsonFile at: 'header'));
 		body: (jsonFile at: 'body');
-		messageID: (jsonFile at: 'messageID');
-		seen: (jsonFile at: 'seen');
-		flagged: (jsonFile at: 'flagged');		
+		messageID: (jsonFile at: 'messageID');	
 		uid: (jsonFile at: 'uid');
 		yourself
