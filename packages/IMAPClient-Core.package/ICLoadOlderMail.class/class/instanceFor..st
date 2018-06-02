@@ -8,6 +8,8 @@ instanceFor: anICFolderDialog
 			#subject -> 'load older eMails!'.
 			#to -> OrderedCollection new });
 		body: '';
+		seen: 'true';
+		flagged: 'false';
 		messageID: '-1';
 		uid: '-1'].
 	^ Instance folder: anICFolderDialog selectedFolder; folderDialog: anICFolderDialog

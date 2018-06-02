@@ -1,7 +1,7 @@
 email selection
 labelFor: anICEmail
 
-	| fromCollection label flags |
+	| fromCollection label |
 	fromCollection := anICEmail from findBetweenSubStrs: '<>'.
 	label := (anICEmail subject truncateTo: 80),
 	Character tab,
@@ -11,9 +11,9 @@ labelFor: anICEmail
 	
 	anICEmail isFlaggable
 		ifFalse: [^ label].
-	flags := anICEmail retrieveFlags.
-	(flags at: #seen) 
+	(anICEmail seen) 
 		ifFalse: [label := '[UNSEEN] ', label].
-	(flags at: #flagged) 
+	(anICEmail flagged) 
 		ifTrue: [label := '[FLAGGED] ', label].	
+			
 	^ label

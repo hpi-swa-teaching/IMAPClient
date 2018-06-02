@@ -10,5 +10,6 @@ menu: aMenu
 			ifTrue: ['Unflag']
 			ifFalse: ['Mark as flagged'])  
 			action: #modifyFlaggedFlag;
-		add: 'TODO: Delete' action: #deleteEmail.	
+		add: 'Delete' 
+			action: #deleteEmail.	
 	^aMenu	
