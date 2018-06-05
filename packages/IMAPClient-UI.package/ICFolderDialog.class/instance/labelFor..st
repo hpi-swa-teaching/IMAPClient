@@ -1,7 +1,7 @@
 email selection
 labelFor: anICEmail
 
-	| fromCollection label flags date |
+	| fromCollection label date |
 	
 	date := ''.
 	anICEmail date = ''
@@ -22,9 +22,8 @@ labelFor: anICEmail
 	
 	anICEmail isFlaggable
 		ifFalse: [^ label].
-	flags := anICEmail retrieveFlags.
-	(flags at: #seen) 
+	(anICEmail seen)
 		ifFalse: [label := '[UNSEEN] ', label].
-	(flags at: #flagged) 
+	(anICEmail flagged)
 		ifTrue: [label := '[FLAGGED] ', label].	
 	^ label

@@ -17,7 +17,7 @@ testFetchHeadersWithRange
 		assert: (FileDirectory default fileExists: (mailAPath));	
 		assert: (FileDirectory default fileExists: (mailBPath)).
 		
-	"Delete genered files"
+	"Delete generated files"
 	FileDirectory default
 		deleteFileNamed: mailAPath;
 		deleteFileNamed: mailBPath. 
