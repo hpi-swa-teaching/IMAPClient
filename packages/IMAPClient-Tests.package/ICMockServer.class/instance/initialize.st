@@ -5,8 +5,8 @@ initialize
 		'. NOOP' -> self noopResponse.
 		'. LOGIN ', self validUsername, ' ', self validPassword -> self loginResponse.
 		'. LOGOUT' -> self logoutResponse.
-		'. FETCH 3:4 (body[HEADER.FIELDS (from to subject date)])' -> self fetchHeadersWithRangeResponse.
-		'. UID FETCH 3:4 (body[HEADER.FIELDS (from to subject date content-type content-transfer-encoding)])' -> self fetchHeadersWithRangeResponse.
+		'. FETCH 3:4 BODY.PEEK[HEADER.FIELDS (from to subject date)])' -> self fetchHeadersWithRangeResponse.
+		'. UID FETCH 3:4 (FLAGS BODY.PEEK[HEADER.FIELDS (from to subject date content-type content-transfer-encoding)])' -> self fetchHeadersWithRangeResponse.
 		'. FETCH 3:* (body[HEADER.FIELDS (from to subject date)])' -> self fetchHeadersWithRangeResponse.
 		'. FETCH 42 (body[HEADER.FIELDS (from to subject date)])' -> self fetchHeaderResponse.
 		'. FETCH 44 (body[HEADER.FIELDS (from to subject date)])' -> self fetchHeaderResponseWithDifferentOrder.

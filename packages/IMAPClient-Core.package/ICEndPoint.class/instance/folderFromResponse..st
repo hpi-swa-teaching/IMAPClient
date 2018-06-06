@@ -1,5 +1,6 @@
 protocol parse
 folderFromResponse: responseLine
+
 	| folderPath parent |
 	folderPath := self folderPathFrom: responseLine.
 	parent := self rootFolder childFolderNamed: folderPath first 

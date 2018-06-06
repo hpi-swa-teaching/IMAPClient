@@ -7,7 +7,7 @@ fetchHeadersFrom: aBeginId to: anEndId
 	not fit. fetchHeadersFrom 1 to 5, will pull the 5 newest message --> aka 
 	the ones with the highest uid."
 	"start..* makes no sense imo --> we should rework."
-	
+
 	self getCurrentUIDs.
 	aBeginId >  (self uids size)
 		ifTrue: [ ^ OrderedCollection new ].

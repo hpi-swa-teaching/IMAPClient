@@ -9,4 +9,6 @@ createHeaderFrom: aJsonObject
 		#subject -> (aJsonObject at: 'subject').
 		#contentType -> (aJsonObject at: 'contentType').
 		#contentTransferEncoding -> (aJsonObject at: 'contentTransferEncoding').
-		#to -> (self getRecipientsFrom: (aJsonObject at: 'to')) }
+		#to -> (self getRecipientsFrom: (aJsonObject at: 'to')).
+		#seen -> (aJsonObject at: 'seen').
+		#flagged -> (aJsonObject at: 'flagged') }

@@ -5,6 +5,8 @@ expectedMailObject
 		body: 'body text';
 		subject: 'subject text';
 		from: 'sender';
+		flagged: false;
+		seen: false;
 		contentType: 'text/plain;  charset="iso-8859-1"';
 		contentTransferEncoding: 'quoted-printable';
 		to: (OrderedCollection newFrom: { 'receiver1' . 'receiver2' });
