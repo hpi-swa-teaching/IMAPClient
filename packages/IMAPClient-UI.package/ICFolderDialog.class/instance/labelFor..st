@@ -3,15 +3,9 @@ labelFor: anICEmail
 
 	| fromCollection label date |
 	
-	date := ''.
 	anICEmail date = ''
-		ifFalse: [|sp| sp := DateAndTime fromSeconds: (self timeFrom: anICEmail date) + (Date newDay: 1 year: 1980 )asSeconds.
-				date := ((sp dayOfMonth asString padded: #left to: 2 with: $0) ,'.', 
-				(sp month asString padded: #left to: 2 with: $0), '.',
-				(sp year asString padded: #left to: 2 with: $0),'  ',
-				(sp hour24 asString padded: #left to: 2 with: $0),':', (sp minute asString padded: #left to: 2 with: $0)).
-			].
-	
+		ifFalse: [date := self formatDateAndTime: (self getMailTimeInSeconds: anICEmail date)]
+		ifTrue: [date := ''].
 	
 	fromCollection := anICEmail from findBetweenSubStrs: '<>'.
 	label := (anICEmail subject truncateTo: 80),
