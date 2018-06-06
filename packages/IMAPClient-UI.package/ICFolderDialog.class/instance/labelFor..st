@@ -2,7 +2,7 @@ email selection
 labelFor: anICEmail
 
 	| fromCollection label |
-	
+
 	fromCollection := anICEmail from findBetweenSubStrs: '<>'.
 	label := (anICEmail subject truncateTo: 80),
 	Character tab,
