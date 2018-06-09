@@ -9,7 +9,7 @@ testFetchHeadersWithRange
 	path := #('Maildir' 'unknown' 'inbox') asOrderedCollection joinSeparatedBy: (FileDirectory slash).
 	mailAPath := FileDirectory default fullPathFor: path , FileDirectory slash, '3' .
 	mailBPath := FileDirectory default fullPathFor: path , FileDirectory slash, '4' .
-	
+
 	self
 		assert: emailObjects size equals: 2;
 		assert: (emailObjects collect: [ :each | each header ]) equals: self class expectedFetchHeadersWithRange;
