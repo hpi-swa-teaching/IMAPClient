@@ -8,6 +8,7 @@
 	"instvars" : [
 		"rootFolder",
 		"selectedEmail",
+		"selectedAccount",
 		"selectedFolder",
 		"numberOfHeadersToFetch",
 		"emailAccounts" ],

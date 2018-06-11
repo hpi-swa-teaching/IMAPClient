@@ -1,4 +1,5 @@
-as yet unclassified
+accessing
 emailAccounts: aCollection
-
+	
 	 	emailAccounts  := aCollection
+	

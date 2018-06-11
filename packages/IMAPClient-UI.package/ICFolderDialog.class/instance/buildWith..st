@@ -27,7 +27,9 @@ buildWith: builder
 	userListSpec := builder pluggableListSpec new.
 	userListSpec
 		model: self;
-		list: #emailAccounts;
+		list: #getNameOfEmailAccounts;
+		getSelected: #selectedAccount;
+		setSelected: #selectedAccount:;
 		frame: (0 @ 0.05 extent: 0.2 @ 0.1).
 				
 	folderTreeSpec := builder pluggableTreeSpec new.

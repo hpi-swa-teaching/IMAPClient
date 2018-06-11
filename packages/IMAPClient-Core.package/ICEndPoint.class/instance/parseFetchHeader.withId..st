@@ -3,9 +3,10 @@ parseFetchHeader: headerLines withId: id
 	| email headerData headerChunk |
 	email := ICEmail new.
 	email messageID: id.
+	
 		
 	"the first one is just the imap command"
-	headerData := (headerLines subStrings: {Character cr}) allButFirst.		
+	headerData := (headerLines subStrings: {Character cr}).		
 	headerChunk := OrderedCollection new.
 	
 	"this is necassery because one header fields could contains multiple lines..."
