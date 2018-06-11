@@ -17,6 +17,7 @@ login
 	(endpoint isLoggedIn)
 		ifTrue: [
 			self loginMorph abandon.
-			ICFolderDialog openWith: endpoint. 
+			ICFolderDialog openWith: endpoint.
+			endpoint preventTimeout.
 			Transcript show: (self class successLoginMessage); cr ] 
-		ifFalse: [ self inform: self class failureLoginMessage ].
+		ifFalse: [ self inform: self class failureLoginMessage ]

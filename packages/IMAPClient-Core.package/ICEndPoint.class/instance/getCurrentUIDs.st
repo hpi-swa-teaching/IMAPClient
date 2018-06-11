@@ -1,5 +1,6 @@
 fetching
 getCurrentUIDs
+
 	self
 		sendCommand: self class getAllUIDs;
 		 fetchNextResponse.

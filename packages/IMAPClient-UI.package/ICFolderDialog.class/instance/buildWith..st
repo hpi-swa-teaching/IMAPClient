@@ -14,8 +14,8 @@ buildWith: builder
 	emailButtonSpec
 		model: self;
 		frame: (0 @ 0 extent: 0.2 @ 0.05);
-		label: 'Get Emails';
-		action: #getEmails.
+		label: 'Update';
+		action: #updateEmails.
 		
 	userListSpec := builder pluggableListSpec new.
 	userListSpec
@@ -41,6 +41,7 @@ buildWith: builder
 		label: #labelFor:;
 		setSelected: #selectedEmail:;
 		getSelected: #selectedEmail;
+		menu: #menu:;
 		autoDeselect: false;
 		columns: {[:listMorph | (listMorph filteredItems collect: [:item | 
 					item preferredWidthOfColumn: 1]) max].

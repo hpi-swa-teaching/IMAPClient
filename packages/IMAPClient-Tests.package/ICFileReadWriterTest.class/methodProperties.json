@@ -1,13 +1,13 @@
 {
 	"class" : {
-		"expectedJsonHeader" : "dl 7/20/2017 10:55",
-		"expectedMailObject" : "dl 7/20/2017 10:55",
-		"givenJsonObject" : "DH 4/27/2018 11:54" },
+		"expectedJsonHeader" : "DH 6/6/2018 20:10",
+		"expectedMailObject" : "DH 6/6/2018 20:10",
+		"givenJsonObject" : "DH 6/6/2018 20:09" },
 	"instance" : {
 		"readWriter" : "dl 7/20/2017 10:54",
 		"readWriter:" : "dl 7/20/2017 10:54",
 		"setUp" : "dl 7/20/2017 10:54",
-		"testCreateHeader" : "dl 7/20/2017 10:56",
-		"testCreateJsonHeader" : "dl 7/20/2017 10:56",
+		"testCreateHeader" : "DH 6/2/2018 13:01",
+		"testCreateJsonHeader" : "DH 6/2/2018 13:01",
 		"testGetRecipients" : "dl 7/20/2017 10:56",
-		"testReadWrite" : "DH 4/27/2018 00:39" } }
+		"testReadWrite" : "DH 6/2/2018 12:59" } }
