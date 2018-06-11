@@ -1,10 +1,14 @@
 {
 	"class" : {
-		"expectedMinimalHeaderAsString" : "mw 5/11/2018 15:02",
-		"expectedStringRepresentation" : "mw 5/11/2018 15:02" },
+		"expectedBody" : "DH 6/9/2018 15:33",
+		"expectedMinimalHeaderAsString" : "DH 6/9/2018 15:32",
+		"expectedParsedDate" : "DH 6/6/2018 19:52",
+		"expectedStringRepresentation" : "DH 6/9/2018 15:23" },
 	"instance" : {
 		"email" : "AR 7/28/2016 14:11",
 		"email:" : "AR 7/28/2016 14:11",
-		"setUp" : "mw 5/11/2018 14:32",
+		"setUp" : "DH 6/9/2018 15:21",
 		"testAsString" : "mw 5/11/2018 12:06",
-		"testMinimalHeaderAsString" : "mw 5/11/2018 12:08" } }
+		"testGetDateFormatted" : "DH 6/9/2018 14:38",
+		"testMinimalHeaderAsString" : "mw 5/11/2018 12:08",
+		"testRetrieveBody" : "DH 6/9/2018 15:27" } }

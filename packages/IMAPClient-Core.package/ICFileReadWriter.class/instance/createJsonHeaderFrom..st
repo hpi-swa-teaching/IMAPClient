@@ -10,6 +10,9 @@ createJsonHeaderFrom: aDictionary
 		'subject' -> (aDictionary at: #subject ifAbsent: ['']).
 		'to' -> (aDictionary at: #to ifAbsent: ['']).
 		'seen' ->  (aDictionary at: #seen ifAbsent: [true]).
-		'flagged' -> (aDictionary at: #flagged ifAbsent: [false]) }.
+		'flagged' -> (aDictionary at: #flagged ifAbsent: [false]).
+		'contentType' -> (aDictionary at: #contentType ifAbsent: ['']).
+		'contentTransferEncoding' -> (aDictionary at: #contentTransferEncoding  ifAbsent: ['']) }
+		.
 		
 	^jsonFile    
