@@ -1,7 +1,7 @@
 toolbuilder
 buildWith: builder
 
-	| windowSpec emailButtonSpec userListSpec folderTreeSpec emailListSpec |
+	| windowSpec emailButtonSpec addAccountButtonSpec userListSpec folderTreeSpec emailListSpec |
 	windowSpec := builder pluggableWindowSpec new.
 	windowSpec
 		model: self;
@@ -13,10 +13,17 @@ buildWith: builder
 	emailButtonSpec := builder pluggableButtonSpec new.
 	emailButtonSpec
 		model: self;
-		frame: (0 @ 0 extent: 0.2 @ 0.05);
+		frame: (0 @ 0 extent: 0.15 @ 0.05);
 		label: 'Update';
 		action: #updateEmails.
 		
+	addAccountButtonSpec := builder pluggableButtonSpec new.
+	addAccountButtonSpec
+		model: self;
+		frame: (0.15 @ 0 extent: 0.05 @ 0.05);
+		label: '+';
+		action: #addAccount.
+	
 	userListSpec := builder pluggableListSpec new.
 	userListSpec
 		model: self;
@@ -33,7 +40,7 @@ buildWith: builder
 		label: #folderNameOf:;	
 		autoDeselect: false;
 		frame: (0 @ 0.15 extent: 0.2 @ 0.85).
-	
+		
 	emailListSpec := builder pluggableTreeSpec new.
 	emailListSpec
 		model: self;
@@ -52,5 +59,5 @@ buildWith: builder
 		frame: (0.2 @ 0 extent: 0.8 @ 1);
 		color: (Color white).
 	
-	windowSpec children addAll: { emailButtonSpec . userListSpec . folderTreeSpec . emailListSpec }.
+	windowSpec children addAll: { emailButtonSpec . addAccountButtonSpec . userListSpec . folderTreeSpec . emailListSpec }.
 	^ builder build: windowSpec
