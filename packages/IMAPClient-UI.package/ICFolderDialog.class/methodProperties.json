@@ -1,8 +1,10 @@
 {
 	"class" : {
+		"loadCredentialsFromFile" : "DH 6/12/2018 21:23",
 		"numberOfHeadersToFetchAfterFirstLogin" : "lvm 5/24/2018 10:34",
-		"open" : "DH 6/11/2018 23:31",
+		"open" : "DH 6/12/2018 21:18",
 		"openWith:" : "CG 5/30/2018 21:56",
+		"parseStringToBool:" : "DH 6/12/2018 21:16",
 		"passwordAccOne" : "DH 6/11/2018 23:38",
 		"passwordAccThree" : "DH 6/11/2018 23:38",
 		"passwordAccTwo" : "DH 6/11/2018 23:38" },
