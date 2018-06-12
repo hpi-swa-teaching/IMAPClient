@@ -37,7 +37,8 @@ buildWith: builder
 		menu: #menu:;
 		getSelected: #selectedEmail;
 		autoDeselect: false;
-		columns: {[:listMorph | (listMorph filteredItems collect: [:item | 
+		columns: {[:listMorph | self emphasizeUnseenMessages: listMorph filteredItems.
+			(listMorph filteredItems collect: [:item | 
 					item preferredWidthOfColumn: 1]) max].
 			[:listMorph | (listMorph filteredItems collect: [:item |
 					item preferredWidthOfColumn: 2]) max]. 
