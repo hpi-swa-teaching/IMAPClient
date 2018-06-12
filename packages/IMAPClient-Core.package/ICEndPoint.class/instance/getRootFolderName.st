@@ -1,4 +1,4 @@
 fetching
 getRootFolderName
 	
-	^ (SecureHashAlgorithm new hashMessage: (self serverInfo host, self authenticationInfo username)) asString first: 10
+	^ ICHelper getHashNameForAccount: (self serverInfo host)  and: (self authenticationInfo username)
