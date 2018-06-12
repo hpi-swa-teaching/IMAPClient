@@ -1,4 +1,4 @@
-instance creation
+as yet unclassified
 loadCredentialsFromFile
 	
 	|default_directory maildir_directory config_directory endpointCollection configs|

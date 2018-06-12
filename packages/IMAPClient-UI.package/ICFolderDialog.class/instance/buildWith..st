@@ -9,6 +9,15 @@ buildWith: builder
 		children: OrderedCollection new;
 		closeAction: #closeConnection;
 		extent: 1200 @ 600.
+		
+	userListSpec := builder pluggableListSpec new.
+	userListSpec
+		model: self;
+		list: #getNameOfEmailAccounts;
+		getSelected: #selectedAccount;
+		setSelected: #selectedAccount:;
+		frame: (0 @ 0.05 extent: 0.2 @ 0.1).
+				
 
 	emailButtonSpec := builder pluggableButtonSpec new.
 	emailButtonSpec
@@ -22,16 +31,8 @@ buildWith: builder
 		model: self;
 		frame: (0.15 @ 0 extent: 0.05 @ 0.05);
 		label: '+';
-		action: #addAccount.
+		action: #addAccountButton.
 	
-	userListSpec := builder pluggableListSpec new.
-	userListSpec
-		model: self;
-		list: #getNameOfEmailAccounts;
-		getSelected: #selectedAccount;
-		setSelected: #selectedAccount:;
-		frame: (0 @ 0.05 extent: 0.2 @ 0.1).
-				
 	folderTreeSpec := builder pluggableTreeSpec new.
 	folderTreeSpec
 		model: self;

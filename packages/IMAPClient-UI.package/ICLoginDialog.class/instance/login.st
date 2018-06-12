@@ -1,23 +1,17 @@
 login
 login
-
-	| endpoint|
 	
-	self credentials 
-	ifTrue: [ self saveCredentialsIntoFile ].	
+	|dataDictionary|
+	"create a dictionary with data and return it"
 	
-	endpoint := ICEndPoint new.
+	dataDictionary := Dictionary new.
 	
-	[ endpoint 
-		ssl: self ssl;
-		connectTo: self serverAddress asString on: self serverPort asNumber;
-		login: self username using: self password ]
-		on: Error
-		do: [ :sig | self inform: sig asString ].
-	(endpoint isLoggedIn)
-		ifTrue: [
-			self loginMorph abandon.
-			ICFolderDialog openWith: endpoint.
-			endpoint preventTimeout.
-			Transcript show: (self class successLoginMessage); cr ] 
-		ifFalse: [ self inform: self class failureLoginMessage ]
+	dataDictionary at: 'name' put: self accountName asString.
+	dataDictionary at: 'address' put: self serverAddress asString.
+	dataDictionary at: 'port' put: self serverPort asString.
+	dataDictionary at: 'username' put: self username asString.
+	dataDictionary at: 'password' put: self password asString.
+	dataDictionary at: 'ssl' put: self ssl asString.
+	
+ 	folderDialogInstance addAccount: dataDictionary.
+	self loginMorph abandon.

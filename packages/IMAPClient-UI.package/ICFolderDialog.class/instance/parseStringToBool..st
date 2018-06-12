@@ -1,4 +1,4 @@
-instance creation
+as yet unclassified
 parseStringToBool: aString
 		
 		aString = 'true'
