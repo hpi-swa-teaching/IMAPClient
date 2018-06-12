@@ -36,6 +36,8 @@ buildWith: builder
 		setSelected: #selectedEmail:;
 		menu: #menu:;
 		getSelected: #selectedEmail;
+		hScrollBarPolicy: #always;
+		vScrollBarPolicy: #always;
 		autoDeselect: false;
 		columns: {[:listMorph | (listMorph filteredItems collect: [:item | 
 					item preferredWidthOfColumn: 1]) max].
