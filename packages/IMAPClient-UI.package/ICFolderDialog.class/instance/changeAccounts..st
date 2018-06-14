@@ -4,7 +4,9 @@ changeAccounts: anAccount
 	|foundEndpointIndex foundEndpoint|
 	"search endpoint with same name"
 	
-	foundEndpointIndex := self emailAccounts findFirst: [ :endpoint | endpoint name = anAccount].
+	anAccount ifNil: [^self].
+	
+	foundEndpointIndex := self emailAccounts findFirst: [ :endpoint | endpoint name = anAccount string].
 	
 	foundEndpoint := self emailAccounts at: foundEndpointIndex.
 	self getFolderWith: foundEndpoint.
