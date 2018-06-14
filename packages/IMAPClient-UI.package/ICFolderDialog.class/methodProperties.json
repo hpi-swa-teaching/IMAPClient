@@ -3,7 +3,7 @@
 		"numberOfHeadersToFetchAfterFirstLogin" : "lvm 5/24/2018 10:34",
 		"open" : "DH 6/12/2018 23:35" },
 	"instance" : {
-		"addAccount:" : "DH 6/14/2018 12:41",
+		"addAccount:" : "DH 6/14/2018 13:21",
 		"addAccountButton" : "DH 6/12/2018 23:02",
 		"buildWith:" : "DH 6/12/2018 23:34",
 		"changeAccounts:" : "DH 6/14/2018 11:34",
@@ -22,7 +22,7 @@
 		"getHighestUID" : "lvm 5/21/2018 13:51",
 		"getLowestUID" : "lvm 5/24/2018 09:37",
 		"getNameOfEmailAccounts" : "DH 6/14/2018 11:27",
-		"initialize" : "DH 6/14/2018 12:42",
+		"initialize" : "DH 6/14/2018 13:21",
 		"labelFor:" : "DH 6/6/2018 20:00",
 		"loadOlderEmails" : "lvm 5/24/2018 09:46",
 		"loadOlderEmailsProcess" : "lvm 5/24/2018 09:44",

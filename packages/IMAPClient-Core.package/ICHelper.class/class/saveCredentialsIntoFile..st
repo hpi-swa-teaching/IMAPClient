@@ -1,9 +1,10 @@
 as yet unclassified
 saveCredentialsIntoFile: aDataDictionary
 
-	|default_directory maildir_directory config_directory fileName |
+	"Takes a dictionary and saves data in a config file.
+	aDataDictionary should have keys: [name, address, port, username, password, ssl]"
 
-	"aDataDictionary should have keys: [name, address, port, username, password, ssl]"
+	|default_directory maildir_directory config_directory fileName |
 	
 	fileName := self getHashNameForAccount: (aDataDictionary at: 'address') and: (aDataDictionary at: 'username') .
 	

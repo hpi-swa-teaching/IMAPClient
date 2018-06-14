@@ -1,3 +1,5 @@
 as yet unclassified
 initialize 
-	 self emailAccounts: (ICHelper loadCredentialsFromFile).
+	
+	 self emailAccounts: (ICHelper accountDictionariesToEndpoints: (ICHelper loadCredentialsIntoDictionaries))
+	.

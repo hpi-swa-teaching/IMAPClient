@@ -1,7 +1,10 @@
 as yet unclassified
 addAccount: aDataDictionary
 
+	| accountCollection |
+	
 	ICHelper saveCredentialsIntoFile: aDataDictionary.
-	self emailAccounts: (ICHelper loadCredentialsFromFile).
+	accountCollection := ICHelper loadCredentialsIntoDictionaries.
+	self emailAccounts: (ICHelper accountDictionariesToEndpoints: accountCollection).
 	self changed: #emailAccounts.
 	self changed: #getNameOfEmailAccounts
