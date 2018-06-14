@@ -22,11 +22,11 @@ saveCredentialsIntoFile: aDataDictionary
 		FileStream forceNewFileNamed: (config_directory fullPathFor: fileName) do:
 		[ :stream | stream 
 			wantsLineEndConversion: false;
-			nextPutAll: (aDataDictionary at: 'name') ; cr;
-			nextPutAll: (aDataDictionary at: 'address'); cr;
-			nextPutAll: (aDataDictionary at: 'port');  cr;
-			nextPutAll: (aDataDictionary at: 'username'); cr;
-			nextPutAll: (aDataDictionary at: 'password'); cr;
-			nextPutAll: (aDataDictionary at: 'ssl'); cr;
+			nextPutAll: (aDataDictionary at: 'name') asString; cr;
+			nextPutAll: (aDataDictionary at: 'address') asString; cr;
+			nextPutAll: (aDataDictionary at: 'port') asString;  cr;
+			nextPutAll: (aDataDictionary at: 'username') asString; cr;
+			nextPutAll: (aDataDictionary at: 'password') asString; cr;
+			nextPutAll: (aDataDictionary at: 'ssl') asString; cr;
 			close 
 		]	

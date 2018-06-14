@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"configFiles" : "DH 6/14/2018 13:41",
+		"firstConfig" : "DH 6/14/2018 13:45",
+		"secondConfig" : "DH 6/14/2018 13:45" },
+	"instance" : {
+		"createConfigFiles" : "DH 6/14/2018 13:43",
+		"deleteConfigFiles" : "DH 6/14/2018 13:34",
+		"getConfigDirectory" : "DH 6/14/2018 13:31",
+		"testLoadCredentialsIntoDictionaries" : "DH 6/14/2018 13:51",
+		"testSaveCredentialsIntoFile" : "DH 6/14/2018 14:05" } }
