@@ -1,3 +1,0 @@
-constants
-testPassword
-	^ 'pass'
