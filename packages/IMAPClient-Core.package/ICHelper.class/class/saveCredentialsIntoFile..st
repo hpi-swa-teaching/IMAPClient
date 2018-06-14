@@ -1,11 +1,11 @@
 as yet unclassified
-saveConfig: aDataDictionary
+saveCredentialsIntoFile: aDataDictionary
 
 	|default_directory maildir_directory config_directory fileName |
 
 	"aDataDictionary should have keys: [name, address, port, username, password, ssl]"
 	
-	fileName := ICHelper getHashNameForAccount: (aDataDictionary at: 'address') and: (aDataDictionary at: 'username') .
+	fileName := self getHashNameForAccount: (aDataDictionary at: 'address') and: (aDataDictionary at: 'username') .
 	
 	default_directory := FileDirectory default.	
 		 (default_directory directoryExists: 'Maildir')

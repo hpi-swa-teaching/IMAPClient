@@ -1,3 +1,3 @@
 as yet unclassified
 initialize 
-	 self emailAccounts: (self loadCredentialsFromFile).
+	 self emailAccounts: (ICHelper loadCredentialsFromFile).
