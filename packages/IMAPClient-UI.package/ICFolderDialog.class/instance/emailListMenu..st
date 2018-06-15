@@ -1,5 +1,5 @@
 folder selection
-menu: aMenu
+emailListMenu: aMenu
 
 	aMenu
 		add: ((self selectedEmail retrieveFlags at: #seen) 

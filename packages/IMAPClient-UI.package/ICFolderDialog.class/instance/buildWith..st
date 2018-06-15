@@ -14,6 +14,7 @@ buildWith: builder
 	userListSpec
 		model: self;
 		list: #getNameOfEmailAccounts;
+		menu: #userListMenu:;
 		getSelected: #selectedAccount;
 		setSelected: #selectedAccount:;
 		frame: (0 @ 0.05 extent: 0.2 @ 0.1).
@@ -53,7 +54,7 @@ buildWith: builder
 		getSelected: #selectedEmail;
 		hScrollBarPolicy: #always;
 		vScrollBarPolicy: #always;
-		menu: #menu:;
+		menu: #emailListMenu:;
 		autoDeselect: false;
 		columns: {[:listMorph | self emphasizeUnseenMessages: listMorph filteredItems.
 			(listMorph filteredItems collect: [:item | 
