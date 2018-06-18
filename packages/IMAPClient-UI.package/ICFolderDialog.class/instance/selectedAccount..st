@@ -3,4 +3,4 @@ selectedAccount: anObject
 
 
 	selectedAccount := anObject.
-	self changeAccounts: anObject.
+	self changeAccounts: anObject string.

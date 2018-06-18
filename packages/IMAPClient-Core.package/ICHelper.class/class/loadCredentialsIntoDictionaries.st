@@ -1,7 +1,6 @@
 as yet unclassified
 loadCredentialsIntoDictionaries
-	"this methods loads all credentials from within config folder, and returns them in a collection of dictionaries, which contain the login
-	information"
+	"this methods loads all credentials from within config folder, and returns them in a collection of dictionaries, which contain the login information"
 	
 	|default_directory maildir_directory config_directory configs configCollection|
 

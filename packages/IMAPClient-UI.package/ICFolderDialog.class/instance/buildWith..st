@@ -10,6 +10,7 @@ buildWith: builder
 		closeAction: #closeConnection;
 		extent: 1200 @ 600.
 		
+	"ToDo: Use endpoints here directly..."	
 	userListSpec := builder pluggableListSpec new.
 	userListSpec
 		model: self;

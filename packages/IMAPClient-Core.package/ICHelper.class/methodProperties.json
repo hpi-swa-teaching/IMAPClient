@@ -1,8 +1,9 @@
 {
 	"class" : {
 		"accountDictionariesToEndpoints:" : "DH 6/14/2018 13:20",
+		"deleteAccountFromEndpoint:" : "DH 6/18/2018 22:18",
 		"getHashNameForAccount:and:" : "DH 6/12/2018 23:13",
-		"loadCredentialsIntoDictionaries" : "DH 6/14/2018 13:21",
+		"loadCredentialsIntoDictionaries" : "DH 6/18/2018 21:27",
 		"parseStringToBool:" : "DH 6/14/2018 12:42",
 		"saveCredentialsIntoFile:" : "DH 6/14/2018 14:01" },
 	"instance" : {

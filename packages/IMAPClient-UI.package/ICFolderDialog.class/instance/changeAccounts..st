@@ -1,23 +1,20 @@
 accessing
 changeAccounts: anAccount
 
-	|foundEndpointIndex foundEndpoint|
+	| endpoint|
 	"search endpoint with same name"
 	
 	anAccount ifNil: [^self].
+	endpoint := self getEndpointByName: anAccount.
 	
-	foundEndpointIndex := self emailAccounts findFirst: [ :endpoint | endpoint name = anAccount string].
+	self getFolderWith: endpoint.
 	
-	foundEndpoint := self emailAccounts at: foundEndpointIndex.
-	self getFolderWith: foundEndpoint.
-	
-	self rootFolder: (Array with: foundEndpoint rootFolder).
+	self rootFolder: (Array with: endpoint rootFolder).
 	self selectedFolder: nil.
 	
 	self changed: #selectedFolder.	
 	self changed: #rootFolder.
 	self changed: #childFolders.
-	self changed: #selectedFolder.
 	self changed: #emailsOfSelectedFolder
 
 	
