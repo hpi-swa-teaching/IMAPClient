@@ -1,10 +1,11 @@
 fetch
 testFetchHeadersWithUnlimitedRange
 
-	| emailObjects mailAPath mailBPath path |
+	| emailObjects mailAPath mailBPath path folderName |
+
 	emailObjects := self endPoint fetchHeadersFrom: 6 to: '*'.
-		
-	path := #('Maildir' 'unknown' 'inbox') asOrderedCollection joinSeparatedBy: (FileDirectory slash).	
+	folderName := ICHelper getHashNameForAccount: (self endPoint serverInfo host) and: (self endPoint authenticationInfo username).	
+	path := 'Maildir', FileDirectory slash, folderName, FileDirectory slash, 'inbox'.
 	mailAPath := FileDirectory default fullPathFor: path , FileDirectory slash, '3' .
 	mailBPath := FileDirectory default fullPathFor: path , FileDirectory slash, '4' .
 	
@@ -15,7 +16,7 @@ testFetchHeadersWithUnlimitedRange
 		assert: (FileDirectory default fileExists: (mailAPath));	
 		assert: (FileDirectory default fileExists: (mailBPath)).
 		
-	"Delete genered files"
+	"Delete generated files"
 	FileDirectory default
 		deleteFileNamed: mailAPath;
 		deleteFileNamed: mailBPath. 

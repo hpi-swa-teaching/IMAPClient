@@ -2,6 +2,6 @@ connection
 maildirFileName
  ^ 'Maildir' , 
 		FileDirectory slash, 
-		(self serverInfo host replaceAll: '.' with: '_'), 
+		self getRootFolderName, 
 		FileDirectory slash, 
 		self currentFolderName.

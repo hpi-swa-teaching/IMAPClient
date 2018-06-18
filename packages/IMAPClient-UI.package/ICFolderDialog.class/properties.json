@@ -8,8 +8,10 @@
 	"instvars" : [
 		"rootFolder",
 		"selectedEmail",
+		"selectedAccount",
 		"selectedFolder",
-		"numberOfHeadersToFetch" ],
+		"numberOfHeadersToFetch",
+		"emailAccounts" ],
 	"name" : "ICFolderDialog",
 	"pools" : [
 		 ],

@@ -15,7 +15,8 @@
 		"ssl",
 		"uids",
 		"hierarchyDelimiter",
-		"currentFolderName" ],
+		"currentFolderName",
+		"name" ],
 	"name" : "ICEndPoint",
 	"pools" : [
 		 ],

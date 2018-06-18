@@ -1,3 +1,0 @@
-constants
-getConfigNameFile
-	^ 'testconfig.txt'

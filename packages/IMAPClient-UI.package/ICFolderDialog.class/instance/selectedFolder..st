@@ -1,4 +1,4 @@
-folder selection
+accessing
 selectedFolder: aFolder
 
 	selectedFolder := aFolder.

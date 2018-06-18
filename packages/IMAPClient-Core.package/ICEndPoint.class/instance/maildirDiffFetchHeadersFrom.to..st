@@ -5,8 +5,8 @@ maildirDiffFetchHeadersFrom: start to: end
 	(FileDirectory default directoryExists: (FileDirectory default fullPathFor: self maildirFileName)) 
 		ifTrue: [
 			    mailFolder := FileDirectory default on: self maildirFileName.
-				searchBegin := mailFolder	fileNamesMatching: end.
-				searchEnd := mailFolder	fileNamesMatching: start.
+				searchBegin := mailFolder	fileNamesMatching: (end asString).
+				searchEnd := mailFolder	fileNamesMatching: (start asString).
 	
 				searchBegin size > 0 & (searchEnd size > 0)
 					ifTrue: [Transcript show: 'Do nothing. Newest Mailrange already loaded'.

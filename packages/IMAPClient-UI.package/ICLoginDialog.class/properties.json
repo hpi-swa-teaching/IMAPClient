@@ -6,15 +6,16 @@
 		 ],
 	"commentStamp" : "ms 7/28/2016 11:58",
 	"instvars" : [
+		"accountName",
 		"serverPort",
 		"username",
 		"password",
 		"serverAddress",
 		"ssl",
-		"credentials",
 		"inputCollection",
 		"symbolArray",
-		"loginMorph" ],
+		"loginMorph",
+		"folderDialogInstance" ],
 	"name" : "ICLoginDialog",
 	"pools" : [
 		 ],

@@ -1,4 +1,8 @@
 instance creation
 open
 
-	^ ToolBuilder default open: self new
+	| instance|
+	
+	instance := self new.
+	
+	^ ToolBuilder default open: instance

@@ -1,12 +1,13 @@
 fetch
 testFetchHeadersWithRange
 	
-	|path emailObjects mailAPath mailBPath|
+	|path emailObjects mailAPath mailBPath folderName|
 	
 	"ToDo: Add an test if the Objects are already present in Storage and they need to be loaded from ICFolder"
-	
+
 	emailObjects := self endPoint fetchHeadersFrom: 6 to: 7.
-	path := #('Maildir' 'unknown' 'inbox') asOrderedCollection joinSeparatedBy: (FileDirectory slash).
+	folderName := ICHelper getHashNameForAccount: (self endPoint serverInfo host) and: (self endPoint authenticationInfo username).	
+	path := 'Maildir', FileDirectory slash, folderName, FileDirectory slash, 'inbox'.
 	mailAPath := FileDirectory default fullPathFor: path , FileDirectory slash, '3' .
 	mailBPath := FileDirectory default fullPathFor: path , FileDirectory slash, '4' .
 
