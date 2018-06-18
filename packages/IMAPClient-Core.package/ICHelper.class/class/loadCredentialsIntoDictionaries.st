@@ -47,8 +47,4 @@ loadCredentialsIntoDictionaries
 		]
 	].	
 	
-	^ configCollection 
-	
-
-
-			
+	^ configCollection			

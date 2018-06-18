@@ -12,5 +12,3 @@ firstConfig
 	config at: 'password' put: 'sicheresPasswort123'.
 	
 	^config
-				
-	

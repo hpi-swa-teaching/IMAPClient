@@ -10,9 +10,3 @@ initialize
 	self symbolArray add: #serverPort.
 	self symbolArray add: #username.
 	self symbolArray add: #password.
-				
-				
-			
-			
-		
-  

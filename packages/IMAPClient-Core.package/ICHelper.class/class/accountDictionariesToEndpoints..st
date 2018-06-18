@@ -6,7 +6,6 @@ accountDictionariesToEndpoints: aCollection
 	
 	|endpoint endpointCollection|
 	
-	
 	endpointCollection := OrderedCollection new.
 	
 	aCollection do: [ :configData | 
@@ -24,5 +23,4 @@ accountDictionariesToEndpoints: aCollection
 		endpointCollection add: endpoint.
 	].
 			
-	^ endpointCollection			
-				
+	^ endpointCollection

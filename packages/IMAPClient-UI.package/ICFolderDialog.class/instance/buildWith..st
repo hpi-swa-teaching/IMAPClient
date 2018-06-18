@@ -55,7 +55,7 @@ buildWith: builder
 		vScrollBarPolicy: #always;
 		menu: #menu:;
 		autoDeselect: false;
-		columns: {[:listMorph | self emphasizeUnseenMessages: listMorph filteredItems.
+		columns: {[:listMorph |  self emphasizeUnseenMessages: listMorph filteredItems.
 			(listMorph filteredItems collect: [:item | 
 					item preferredWidthOfColumn: 1]) max].
 			[:listMorph | (listMorph filteredItems collect: [:item |

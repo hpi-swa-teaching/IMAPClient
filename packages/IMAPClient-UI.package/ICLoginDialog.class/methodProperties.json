@@ -2,7 +2,6 @@
 	"class" : {
 		"failureLoginMessage" : "jwe 6/14/2016 23:41",
 		"getConfigNameFile" : "DH 5/14/2018 12:01",
-		"open" : "lvm 5/5/2018 10:37",
 		"open:" : "DH 6/12/2018 22:18",
 		"successLoginMessage" : "jwe 6/14/2016 23:40" },
 	"instance" : {
@@ -22,11 +21,11 @@
 		"guiElementYOffset" : "ms 7/12/2016 10:45",
 		"guiElementYOffsetOf:" : "ms 7/12/2016 10:45",
 		"guiElementYSpacing" : "ms 6/14/2016 10:05",
-		"initialize" : "DH 6/12/2018 23:28",
+		"initialize" : "DH 6/18/2018 21:06",
 		"inputCollection" : "DH 5/23/2018 00:39",
 		"inputCollection:" : "DH 5/23/2018 00:39",
 		"keyEvent:" : "lvm 5/30/2018 21:18",
-		"login" : "DH 6/12/2018 23:31",
+		"login" : "DH 6/18/2018 20:09",
 		"loginMorph" : "DH 5/23/2018 20:35",
 		"loginMorph:" : "DH 5/23/2018 20:35",
 		"nameHelpText" : "DH 6/12/2018 22:36",

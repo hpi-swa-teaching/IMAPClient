@@ -12,5 +12,3 @@ secondConfig
 	config at: 'password' put: 'sicheresPasswort321'.
 	
 	^config
-				
-	

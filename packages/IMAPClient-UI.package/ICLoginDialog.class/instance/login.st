@@ -13,5 +13,5 @@ login
 	dataDictionary at: 'password' put: self password asString.
 	dataDictionary at: 'ssl' put: self ssl asString.
 	
- 	folderDialogInstance addAccount: dataDictionary.
+ 	self folderDialogInstance addAccount: dataDictionary.
 	self loginMorph abandon.

@@ -19,7 +19,3 @@ changeAccounts: anAccount
 	self changed: #childFolders.
 	self changed: #selectedFolder.
 	self changed: #emailsOfSelectedFolder
-
-	
-		
-	 	
