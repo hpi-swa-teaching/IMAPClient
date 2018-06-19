@@ -79,7 +79,7 @@ buildWith: builder
 	loginButtonSpec
 		model: self;
 		frame: (self guiElementXOffset @ (self guiElementYOffsetOf: 6) extent: self guiElementWidth @ (self guiElementHeight * 1.0));
-		label: 'Add';
+		label: #getButtonLabel;
 		action: #login.
 			
 	windowSpec children addAll: { loginButtonSpec . serverAdressInputFieldSpec . serverPortInputFieldSpec . userInputFieldSpec . 

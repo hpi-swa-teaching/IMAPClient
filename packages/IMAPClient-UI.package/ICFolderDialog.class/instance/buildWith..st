@@ -2,6 +2,7 @@ toolbuilder
 buildWith: builder
 
 	| windowSpec emailButtonSpec addAccountButtonSpec userListSpec folderTreeSpec emailListSpec |
+	
 	windowSpec := builder pluggableWindowSpec new.
 	windowSpec
 		model: self;
@@ -10,12 +11,14 @@ buildWith: builder
 		closeAction: #closeConnection;
 		extent: 1200 @ 600.
 		
-	"ToDo: Use endpoints here directly..."	
-	userListSpec := builder pluggableListSpec new.
+		
+	userListSpec := builder pluggableTreeSpec new.
 	userListSpec
 		model: self;
-		list: #getNameOfEmailAccounts;
+		roots: #emailAccounts;
+		label: #labelForAccount:;
 		menu: #userListMenu:;
+		autoDeselect: false;
 		getSelected: #selectedAccount;
 		setSelected: #selectedAccount:;
 		frame: (0 @ 0.05 extent: 0.2 @ 0.1).
@@ -50,7 +53,7 @@ buildWith: builder
 	emailListSpec
 		model: self;
 		roots: #emailsOfSelectedFolder;
-		label: #labelFor:;
+		label: #labelForMail:;
 		setSelected: #selectedEmail:;
 		getSelected: #selectedEmail;
 		hScrollBarPolicy: #always;

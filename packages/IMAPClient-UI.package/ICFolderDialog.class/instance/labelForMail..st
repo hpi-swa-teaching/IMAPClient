@@ -1,5 +1,5 @@
 email selection
-labelFor: anICEmail
+labelForMail: anICEmail
 
 	| fromCollection label |
 

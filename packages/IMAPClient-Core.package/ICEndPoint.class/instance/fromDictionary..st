@@ -1,6 +1,8 @@
 accessing
 fromDictionary: configData
 	
+	"initializes endpoint with a dictionary"
+	
 	[self
 		ssl: (configData at: 'ssl');
 		name: (configData at: 'name');

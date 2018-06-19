@@ -3,7 +3,7 @@ initialize
 
 	super initialize.
 	self ssl: false.
-	
+	self updateMode: false.
 	self symbolArray: OrderedCollection new. 
 	self symbolArray add: #name.
 	self symbolArray add: #serverAddress.
