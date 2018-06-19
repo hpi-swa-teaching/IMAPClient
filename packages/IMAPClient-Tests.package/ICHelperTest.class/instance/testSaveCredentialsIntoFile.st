@@ -22,4 +22,3 @@ testSaveCredentialsIntoFile
 	
 	"delete the file, which was created for the test"
 	self deleteConfigFiles: firstFileName and: secondFileName.
-	
