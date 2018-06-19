@@ -5,7 +5,6 @@ editAccount: newData with: anEndPoint
 	contains the old data"
 	
 	| accountCollection |
-	"ToDo: Figure out a way to update Endpoints"
 	
 	ICHelper deleteAccountFromEndpoint: anEndPoint.
 	self emailAccounts remove: anEndPoint.
@@ -13,8 +12,14 @@ editAccount: newData with: anEndPoint
 	ICHelper saveCredentialsIntoFile: newData.
 	accountCollection := ICHelper loadCredentialsIntoDictionaries.
 	self emailAccounts: (ICHelper accountDictionariesToEndpoints: accountCollection).
+	
+	self selectedFolder: nil.
+	self rootFolder: nil.
+	
+	self changed: #selectedFolder.	
+	self changed: #rootFolder.
+	self changed: #childFolders.
+	self changed: #emailsOfSelectedFolder.
 	self changed: #emailAccounts
-	
-	
 	
 	
