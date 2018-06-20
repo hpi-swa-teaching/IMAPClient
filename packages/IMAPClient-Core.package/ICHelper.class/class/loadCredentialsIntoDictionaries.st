@@ -1,5 +1,6 @@
 as yet unclassified
 loadCredentialsIntoDictionaries
+
 	"this methods loads all credentials from within config folder, 
 	and returns them in a collection of dictionaries, which contain the login information"
 	
@@ -9,15 +10,14 @@ loadCredentialsIntoDictionaries
 	default_directory := FileDirectory default.	
 	
 	(default_directory directoryExists: 'Maildir')
-	ifTrue: [maildir_directory := default_directory directoryNamed: 'Maildir'.	
-			
+	ifTrue: [
+		maildir_directory := default_directory directoryNamed: 'Maildir'.	
 		(maildir_directory directoryExists: 'config')
 		ifTrue: [
 			config_directory := maildir_directory directoryNamed: 'config'.
 			configs := config_directory fileNames.	
 			configs do: [:config | 
 				| loginData dataDictionary |
-				
 				loginData := OrderedCollection new.
 				dataDictionary := Dictionary new.
 				
@@ -26,7 +26,7 @@ loadCredentialsIntoDictionaries
 				[:stream | 
 					[stream atEnd] 
 					whileFalse: [
-						|line|
+						| line |
 						line := stream nextLine.
 						loginData add: line]].	
 				

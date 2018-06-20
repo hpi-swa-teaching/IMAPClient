@@ -9,4 +9,4 @@ initialize
 	self symbolArray add: #serverAddress.
 	self symbolArray add: #serverPort.
 	self symbolArray add: #username.
-	self symbolArray add: #password.
+	self symbolArray add: #password

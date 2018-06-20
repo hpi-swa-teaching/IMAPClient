@@ -1,7 +1,7 @@
 as yet unclassified
 buildWith: builder
 	
-	| window windowSpec passwordField button |
+	| window windowSpec passwordField addPasswordButton |
 
 	windowSpec := builder pluggableWindowSpec new.
 	windowSpec
@@ -22,15 +22,16 @@ buildWith: builder
 		help: 'Password';
 		frame: (0 @ 0.05 extent: 1 @ 0.4).
 		
-	button := builder pluggableButtonSpec new.
-	button
+	addPasswordButton := builder pluggableButtonSpec new.
+	addPasswordButton
 		model: self;
 		frame: (0 @ 0.5 extent: 1 @ 0.4);
 		label: 'login';
 		action: #login.
 			
-	windowSpec children addAll: { passwordField . button}.
+	windowSpec children addAll: { passwordField . addPasswordButton }.
 
 	window := builder build: windowSpec.
 	self window: window.
+	
 	^ window

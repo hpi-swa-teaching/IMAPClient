@@ -2,6 +2,7 @@ toolbuilder
 buildWith: builder
 
 	| windowSpec emailButtonSpec addAccountButtonSpec userListSpec folderTreeSpec emailListSpec |
+	
 	windowSpec := builder pluggableWindowSpec new.
 	windowSpec
 		model: self;
@@ -66,4 +67,5 @@ buildWith: builder
 		color: (Color white).
 	
 	windowSpec children addAll: { emailButtonSpec . addAccountButtonSpec . userListSpec . folderTreeSpec . emailListSpec }.
+	
 	^ builder build: windowSpec

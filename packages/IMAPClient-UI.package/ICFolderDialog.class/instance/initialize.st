@@ -1,13 +1,13 @@
 as yet unclassified
 initialize
 	
+	"get config data as credentials"
+	
 	| accounts |
 	
-	
-	"get config data as credentials"
 	accounts := ICHelper loadCredentialsIntoDictionaries.	
 			
 	self uninitializedAccounts: accounts. 
 	self initializedAccounts: OrderedCollection new.
 	
-	ICPasswordPrompt openWith: (self uninitializedAccounts first) and: self. 
+	ICPasswordPrompt openWith: (self uninitializedAccounts first) and: self

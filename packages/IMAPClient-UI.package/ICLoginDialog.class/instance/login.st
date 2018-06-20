@@ -1,9 +1,10 @@
 login
 login
 	
-	| dataDictionary |
 	"create a dictionary with data and return it"
 	
+	| dataDictionary |
+		
 	dataDictionary := Dictionary new.
 	
 	dataDictionary at: 'name' put: self accountName asString.
