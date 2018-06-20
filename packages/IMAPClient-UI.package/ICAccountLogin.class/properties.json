@@ -1,14 +1,14 @@
 {
-	"category" : "IMAPClient-Core",
+	"category" : "IMAPClient-UI",
 	"classinstvars" : [
-		"AccountsDictionary" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "ICHelper",
+	"name" : "ICAccountLogin",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ICLoginDialog",
 	"type" : "normal" }

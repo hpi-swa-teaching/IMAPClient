@@ -1,7 +1,7 @@
 instance creation
 open
 
-	| instance|
+	| instance |
 	
 	instance := self new.
 	
