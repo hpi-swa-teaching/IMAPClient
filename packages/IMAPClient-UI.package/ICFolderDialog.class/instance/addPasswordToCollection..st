@@ -2,8 +2,7 @@ as yet unclassified
 addPasswordToCollection: aDictionary
 	
 	| found |
-	self halt.
-	
+		
 	self initializedAccounts add: aDictionary.
 	
 	"delete initializedAccount from uninitializedAccounts"
