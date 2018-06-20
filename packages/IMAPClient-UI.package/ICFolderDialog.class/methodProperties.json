@@ -1,10 +1,13 @@
 {
 	"class" : {
 		"numberOfHeadersToFetchAfterFirstLogin" : "lvm 5/24/2018 10:34",
-		"open" : "DH 6/12/2018 23:35" },
+		"open" : "C.G. 6/20/2018 19:38" },
 	"instance" : {
+		"accountsComplete" : "C.G. 6/20/2018 22:16",
 		"addAccount:" : "DH 6/14/2018 13:21",
 		"addAccountButton" : "DH 6/12/2018 23:02",
+		"addPasswordToCollection:" : "C.G. 6/20/2018 22:16",
+		"askForPasswordsWith:" : "C.G. 6/20/2018 18:19",
 		"buildWith:" : "DH 6/18/2018 20:59",
 		"changeAccounts:" : "DH 6/18/2018 21:05",
 		"childFolders" : "DH 6/11/2018 22:37",
@@ -23,7 +26,9 @@
 		"getHighestUID" : "lvm 5/21/2018 13:51",
 		"getLowestUID" : "lvm 5/24/2018 09:37",
 		"getNameOfEmailAccounts" : "DH 6/14/2018 11:27",
-		"initialize" : "DH 6/18/2018 21:05",
+		"initialize" : "C.G. 6/20/2018 22:06",
+		"initializedAccounts" : "C.G. 6/20/2018 21:18",
+		"initializedAccounts:" : "C.G. 6/20/2018 21:18",
 		"labelFor:" : "DH 6/6/2018 20:00",
 		"loadOlderEmails" : "lvm 5/24/2018 09:46",
 		"loadOlderEmailsProcess" : "lvm 5/24/2018 09:44",
@@ -44,6 +49,8 @@
 		"startUpdateFlagsProcess" : "lvm 5/24/2018 09:01",
 		"startUpdateHeadersProcess:" : "lvm 5/15/2018 14:18",
 		"subFoldersOf:" : "ms 6/26/2016 14:10",
+		"uninitializedAccounts" : "C.G. 6/20/2018 19:55",
+		"uninitializedAccounts:" : "C.G. 6/20/2018 19:55",
 		"updateEmails" : "lvm 5/22/2018 15:32",
 		"updateFlags" : "lvm 5/24/2018 09:00",
 		"updateHeadersProcess:" : "lvm 5/22/2018 15:32" } }

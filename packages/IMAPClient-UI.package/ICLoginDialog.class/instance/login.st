@@ -1,7 +1,7 @@
 login
 login
 	
-	|dataDictionary|
+	| dataDictionary |
 	"create a dictionary with data and return it"
 	
 	dataDictionary := Dictionary new.
@@ -14,4 +14,4 @@ login
 	dataDictionary at: 'ssl' put: self ssl asString.
 	
  	self folderDialogInstance addAccount: dataDictionary.
-	self loginMorph abandon.
+	self loginMorph abandon
