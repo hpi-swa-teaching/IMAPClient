@@ -1,8 +1,13 @@
 as yet unclassified
-initialize 
+initialize
 	
 	| accounts |
-	accounts := ICHelper loadCredentialsIntoDictionaries.
-	"ToDo: What to do when no account has been added yet".
-	self askForPasswordsWith: accounts.	
-	self emailAccounts: (ICHelper accountDictionariesToEndpoints: (ICHelper accountsDictionary))
+	
+	
+	"get config data as credentials"
+	accounts := ICHelper loadCredentialsIntoDictionaries.	
+			
+	self uninitializedAccounts: accounts. 
+	self initializedAccounts: OrderedCollection new.
+	
+	ICPasswordPrompt openWith: (self uninitializedAccounts first) and: self. 

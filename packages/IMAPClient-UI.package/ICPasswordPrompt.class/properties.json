@@ -6,9 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "ICAccountLogin",
+		"data",
+		"folderDialogInstance",
+		"password",
+		"window" ],
+	"name" : "ICPasswordPrompt",
 	"pools" : [
 		 ],
-	"super" : "ICLoginDialog",
+	"super" : "Model",
 	"type" : "normal" }

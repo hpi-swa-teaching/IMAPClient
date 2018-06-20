@@ -1,7 +1,7 @@
 {
 	"category" : "IMAPClient-Core",
 	"classinstvars" : [
-		"AccountsDictionary" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
