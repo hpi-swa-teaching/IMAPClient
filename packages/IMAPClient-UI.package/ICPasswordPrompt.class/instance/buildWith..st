@@ -34,4 +34,8 @@ buildWith: builder
 	window := builder build: windowSpec.
 	self window: window.
 	
+	window submorphsDo: [:m |
+		(m class == PluggableTextMorphPlus)
+			ifTrue: [m textMorph on: #keyDown send: #keyEvent: to: self]].
+	
 	^ window
