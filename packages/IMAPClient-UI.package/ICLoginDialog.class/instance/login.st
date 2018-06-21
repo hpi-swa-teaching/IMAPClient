@@ -1,7 +1,8 @@
 login
 login
 	
-	|dataDictionary|
+	| dataDictionary |
+	
 	"create a dictionary with data and return it"
 	
 	dataDictionary := Dictionary new.
@@ -14,7 +15,7 @@ login
 	dataDictionary at: 'ssl' put: self ssl asString.
 	
 	(self updateMode)
-		ifFalse:[	folderDialogInstance addAccount: dataDictionary]
-		ifTrue:[folderDialogInstance editAccount: dataDictionary with: (self endpoint)].
+		ifFalse: [folderDialogInstance addAccount: dataDictionary]
+		ifTrue: [folderDialogInstance editAccount: dataDictionary with: (self endpoint)].
 		
-	self loginMorph abandon.
+	self loginMorph abandon

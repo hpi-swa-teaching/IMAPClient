@@ -35,6 +35,4 @@ testDeleteAccountFromEndpoint
 		ICHelper deleteAccountFromEndpoint: endpoint.
 		
 		self assert: ((directory directoryExists: fileName)) equals: false.
-		self assert: ((configDirectory fileExists: fileName)) equals: false.
-		
-		
+		self assert: ((configDirectory fileExists: fileName)) equals: false	

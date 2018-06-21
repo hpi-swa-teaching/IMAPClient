@@ -3,7 +3,7 @@ asDictionary
 	
 	"returns endpoint data as dictionary"
 	
-	|dataDictionary|
+	| dataDictionary |
 	
 	dataDictionary := Dictionary new.
 	
@@ -14,5 +14,4 @@ asDictionary
 	dataDictionary at: 'username' put: (self authenticationInfo username).
 	dataDictionary at: 'password' put: (self authenticationInfo password).
 	
-	^ dataDictionary 
-     
+	^ dataDictionary

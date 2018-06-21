@@ -1,12 +1,13 @@
 toolbuilder
 buildWith: builder
 
-	| windowSpec nameInputFieldSpec serverAdressInputFieldSpec serverPortInputFieldSpec userInputFieldSpec passwordInputFieldSpec sslCheckBoxSpec loginButtonSpec window  |
+	| windowSpec nameInputFieldSpec serverAdressInputFieldSpec serverPortInputFieldSpec userInputFieldSpec passwordInputFieldSpec sslCheckBoxSpec loginButtonSpec window |
+	
 	windowSpec := builder pluggableWindowSpec new.
 	windowSpec
 		model: self;
 		label: self dialogTitle;
-		extent: 300 @ 200;
+		extent: 300 @ 250;
 		children: OrderedCollection new.
 		
 	nameInputFieldSpec := builder pluggableInputFieldSpec new.
@@ -78,19 +79,18 @@ buildWith: builder
 	loginButtonSpec := builder pluggableButtonSpec new.
 	loginButtonSpec
 		model: self;
-		frame: (self guiElementXOffset @ (self guiElementYOffsetOf: 6) extent: self guiElementWidth @ (self guiElementHeight * 1.0));
+		frame: (self guiElementXOffset @ (self guiElementYOffsetOf: 5.6) extent: self guiElementWidth @ (self guiElementHeight * 1.0));
 		label: #getButtonLabel;
 		action: #login.
 			
 	windowSpec children addAll: { loginButtonSpec . serverAdressInputFieldSpec . serverPortInputFieldSpec . userInputFieldSpec . 
-								     nameInputFieldSpec . passwordInputFieldSpec . sslCheckBoxSpec}.
+								     nameInputFieldSpec . passwordInputFieldSpec . sslCheckBoxSpec }.
 
 	window := builder build: windowSpec.
 	
 	window on: #keyStroke send: #keyEvent: to: self.
 	self loginMorph: window.
 	self inputCollection: OrderedCollection new.
-	
 	
 	"add listener to text fields
 	and hack to make the checkbox background transparent
@@ -102,4 +102,5 @@ buildWith: builder
 					m textMorph on: #keyDown send: #keyEvent: to: self].
 		(m class == PluggableCheckBoxMorph)
 			ifTrue: [m color: Color transparent]].
+		
 	^ window

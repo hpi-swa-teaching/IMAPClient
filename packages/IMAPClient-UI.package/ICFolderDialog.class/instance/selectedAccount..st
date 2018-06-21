@@ -5,8 +5,4 @@ selectedAccount: anObject
 		ifFalse: [
 			selectedAccount := anObject.
 			self changeAccounts: anObject.
-			
-			self changed: #selectedAccount.
-		].
-
-	
+			self changed: #selectedAccount].

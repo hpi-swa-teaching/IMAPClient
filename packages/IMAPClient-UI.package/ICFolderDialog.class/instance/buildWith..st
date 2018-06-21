@@ -11,7 +11,6 @@ buildWith: builder
 		closeAction: #closeConnection;
 		extent: 1200 @ 600.
 		
-		
 	userListSpec := builder pluggableTreeSpec new.
 	userListSpec
 		model: self;
@@ -71,4 +70,5 @@ buildWith: builder
 		color: (Color white).
 	
 	windowSpec children addAll: { emailButtonSpec . addAccountButtonSpec . userListSpec . folderTreeSpec . emailListSpec }.
+	
 	^ builder build: windowSpec
