@@ -2,7 +2,6 @@ toolbuilder
 buildWith: builder
 
 	| windowSpec emailButtonSpec addAccountButtonSpec userListSpec folderTreeSpec emailListSpec |
-	
 	windowSpec := builder pluggableWindowSpec new.
 	windowSpec
 		model: self;
@@ -25,7 +24,7 @@ buildWith: builder
 		model: self;
 		frame: (0 @ 0 extent: 0.15 @ 0.05);
 		label: 'Update';
-		action: #updateEmails.
+		action: #update.
 		
 	addAccountButtonSpec := builder pluggableButtonSpec new.
 	addAccountButtonSpec
@@ -67,5 +66,4 @@ buildWith: builder
 		color: (Color white).
 	
 	windowSpec children addAll: { emailButtonSpec . addAccountButtonSpec . userListSpec . folderTreeSpec . emailListSpec }.
-	
 	^ builder build: windowSpec
