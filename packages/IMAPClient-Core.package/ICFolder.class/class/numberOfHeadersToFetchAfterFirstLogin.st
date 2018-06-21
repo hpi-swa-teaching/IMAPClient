@@ -1,4 +1,4 @@
 constants
 numberOfHeadersToFetchAfterFirstLogin
 
-	^ 100
+	^ 2
