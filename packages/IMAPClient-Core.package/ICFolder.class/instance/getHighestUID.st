@@ -1,8 +1,8 @@
-get emails
+updateEmails
 getHighestUID
 
 	| latestEmail |
-	latestEmail := self emailsOfSelectedFolder detectMax: [:anICEmail | anICEmail uid].
+	latestEmail := self emails detectMax: [:anICEmail | anICEmail uid].
 	latestEmail isNil
 		ifTrue: [^ nil]
 		ifFalse: [^ latestEmail uid]

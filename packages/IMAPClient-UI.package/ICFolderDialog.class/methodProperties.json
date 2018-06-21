@@ -5,8 +5,8 @@
 	"instance" : {
 		"addAccount:" : "DH 6/14/2018 13:21",
 		"addAccountButton" : "DH 6/12/2018 23:02",
-		"buildWith:" : "DH 6/18/2018 20:59",
-		"changeAccounts:" : "DH 6/18/2018 21:05",
+		"buildWith:" : "lvm 6/19/2018 16:29",
+		"changeAccounts:" : "lvm 6/19/2018 16:13",
 		"childFolders" : "DH 6/11/2018 22:37",
 		"closeConnection" : "DH 6/12/2018 22:14",
 		"currentRemoteVatId" : "dl 6/23/2017 12:30",
@@ -18,9 +18,9 @@
 		"emailsOfSelectedFolder" : "DH 6/5/2018 23:29",
 		"emphasizeUnseenMessages:" : "lvm 6/13/2018 13:01",
 		"folderNameOf:" : "ms 6/26/2016 14:09",
+		"getAccount:" : "lvm 6/19/2018 16:13",
 		"getFolder" : "CG 5/20/2018 12:00",
 		"getFolderWith:" : "CG 5/20/2018 12:12",
-		"getHighestUID" : "lvm 5/21/2018 13:51",
 		"getLowestUID" : "lvm 5/24/2018 09:37",
 		"getNameOfEmailAccounts" : "DH 6/14/2018 11:27",
 		"initialize" : "DH 6/18/2018 21:05",
@@ -42,8 +42,6 @@
 		"something" : "CG 5/30/2018 21:59",
 		"something:" : "CG 5/30/2018 21:59",
 		"startUpdateFlagsProcess" : "lvm 5/24/2018 09:01",
-		"startUpdateHeadersProcess:" : "lvm 5/15/2018 14:18",
 		"subFoldersOf:" : "ms 6/26/2016 14:10",
-		"updateEmails" : "lvm 5/22/2018 15:32",
-		"updateFlags" : "lvm 5/24/2018 09:00",
-		"updateHeadersProcess:" : "lvm 5/22/2018 15:32" } }
+		"update" : "lvm 6/20/2018 11:33",
+		"updateFlags" : "lvm 5/24/2018 09:00" } }
