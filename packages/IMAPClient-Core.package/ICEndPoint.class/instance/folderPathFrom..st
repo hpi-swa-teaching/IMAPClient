@@ -6,5 +6,4 @@ folderPathFrom: responseLine
 	splittedResponse := response subStrings: self class protocolBlank.	
 	self hierarchyDelimiter: splittedResponse first.
 	
-	Transcript show: 'ICEndPoint->folderPathfrom: hierarchyDelimiter', (self hierarchyDelimiter); cr.
 	^ splittedResponse last subStrings: splittedResponse first

@@ -2,6 +2,7 @@ protocol parse
 folderFromResponse: responseLine
 
 	| folderPath parent |
+	
 	folderPath := self folderPathFrom: responseLine.
 	parent := self rootFolder childFolderNamed: folderPath first 
 		ifAbsent: [ ICFolder named: folderPath first in: self rootFolder with: self ].
