@@ -1,5 +1,5 @@
 email selection
-labelFor: anICEmail
+labelForMail: anICEmail
 
 	| fromCollection label |
 
@@ -15,6 +15,5 @@ labelFor: anICEmail
 	(anICEmail seen)
 		ifFalse: [label := '[UNSEEN] ', label].
 	(anICEmail flagged)
-		ifTrue: [label := '[FLAGGED] ', label].
-		
+		ifTrue: [label := '[FLAGGED] ', label].	
 	^ label

@@ -3,7 +3,6 @@ initialize
 
 	super initialize.
 	
-	
 	self 
 		loggedIn: false;
 		serverInfo: ICServerInfo new;

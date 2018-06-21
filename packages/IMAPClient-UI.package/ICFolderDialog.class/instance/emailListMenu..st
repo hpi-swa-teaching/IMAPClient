@@ -1,5 +1,5 @@
 folder selection
-menu: aMenu
+emailListMenu: aMenu
 
 	aMenu
 		add: ((self selectedEmail retrieveFlags at: #seen) 
@@ -11,6 +11,5 @@ menu: aMenu
 			ifFalse: ['Mark as flagged'])  
 			action: #modifyFlaggedFlag;
 		add: 'Delete' 
-			action: #deleteEmail.
-	
-	^ aMenu
+			action: #deleteEmail.	
+	^aMenu	

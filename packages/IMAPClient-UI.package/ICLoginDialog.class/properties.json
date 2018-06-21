@@ -15,7 +15,9 @@
 		"inputCollection",
 		"symbolArray",
 		"loginMorph",
-		"folderDialogInstance" ],
+		"folderDialogInstance",
+		"updateMode",
+		"endpoint" ],
 	"name" : "ICLoginDialog",
 	"pools" : [
 		 ],

@@ -74,6 +74,7 @@ buildWith: builder
 		color: #checkBoxColor;
 		state: #ssl;
 		action: #toggleSSL.
+					
 		
 	loginButtonSpec := builder pluggableButtonSpec new.
 	loginButtonSpec
@@ -83,18 +84,18 @@ buildWith: builder
 		action: #login.
 			
 	windowSpec children addAll: { loginButtonSpec . serverAdressInputFieldSpec . serverPortInputFieldSpec . userInputFieldSpec . 
-								     nameInputFieldSpec . passwordInputFieldSpec . sslCheckBoxSpec}.
+								     nameInputFieldSpec . passwordInputFieldSpec . sslCheckBoxSpec }.
 
 	window := builder build: windowSpec.
 	
 	window on: #keyStroke send: #keyEvent: to: self.
-	
 	self loginMorph: window.
 	self inputCollection: OrderedCollection new.
 	
-	"add listener to text fields and hack to make the checkbox background transparent
-	can be removed once PluggableCheckBoxMorph starts using its color selector 
-	instead of default mint green (bug in squeak)"
+	"add listener to text fields
+	and hack to make the checkbox background transparent
+	can be removed once PluggableCheckBoxMorph starts using its color selector instead of default mint green
+	 (bug in squeak)"
 		
 	window submorphsDo: [:m |
 		(m class == PluggableTextMorphPlus)

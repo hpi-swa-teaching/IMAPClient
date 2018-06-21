@@ -1,11 +1,16 @@
 login
 loadEmailsFromMaildir 
-	| directory_name maildir_directory default_directory |
- 	default_directory := FileDirectory default.
- 	(default_directory directoryExists: 'Maildir')
- 		ifFalse: [default_directory createDirectory: 'Maildir'].
-  	maildir_directory := default_directory directoryNamed: 'Maildir'.
-  	directory_name := self getRootFolderName.
-  	(maildir_directory directoryExists: directory_name)
-    		ifFalse: [ Transcript show: 'Maildir doesnt exist'. ^ (OrderedCollection new) ].
-  	^ self createEmailsWith: maildir_directory andName: directory_name.
+
+	| directory directoryName |
+	
+ 	directory := FileDirectory default.
+ 	(directory directoryExists: 'Maildir')
+ 		ifFalse: [directory createDirectory: 'Maildir'].
+		
+  	directory := directory directoryNamed: 'Maildir'.
+  	directoryName := self getRootFolderName.
+	
+  	(directory directoryExists: directoryName)
+    		ifFalse: [ Transcript show: 'Maildir doesnt exist'. ^ (OrderedCollection new)].
+		
+  	^ self createEmailsWith: directory andName: directoryName

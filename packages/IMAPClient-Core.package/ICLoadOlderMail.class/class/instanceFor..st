@@ -1,15 +1,16 @@
 instances
 instanceFor: anICFolderDialog
 
-	Instance ifNil: [Instance := self new
+	instance ifNil: [instance := self new
 		header: (Dictionary newFrom: {
 			#date -> ''.
 			#from -> ''.
 			#subject -> 'load older eMails!'.
-			#to -> OrderedCollection new });
+			#to -> OrderedCollection new});
 		body: '';
 		seen: true;
 		flagged: false;
 		messageID: '-1';
 		uid: '-1'].
-	^ Instance folder: anICFolderDialog selectedFolder; folderDialog: anICFolderDialog
+	
+	^ instance folder: anICFolderDialog selectedFolder; folderDialog: anICFolderDialog
