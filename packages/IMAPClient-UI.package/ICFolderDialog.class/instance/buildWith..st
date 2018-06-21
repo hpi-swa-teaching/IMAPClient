@@ -1,7 +1,7 @@
 toolbuilder
 buildWith: builder
 
-	| windowSpec emailButtonSpec addAccountButtonSpec userListSpec folderTreeSpec emailListSpec |
+	| window windowSpec emailButtonSpec addAccountButtonSpec userListSpec folderTreeSpec emailListSpec |
 	
 	windowSpec := builder pluggableWindowSpec new.
 	windowSpec
@@ -71,4 +71,8 @@ buildWith: builder
 	
 	windowSpec children addAll: { emailButtonSpec . addAccountButtonSpec . userListSpec . folderTreeSpec . emailListSpec }.
 	
-	^ builder build: windowSpec
+	window := builder build: windowSpec.
+	
+	window on: #keyStroke send: #keyEvent: to: self.
+	^ window 
+	
