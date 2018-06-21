@@ -1,11 +1,11 @@
-accountManagment
+as yet unclassified
 addAccount: aDataDictionary
-
-	"callback method for dialog"
+	| data |
 	
-	| accountCollection |
+	data := OrderedCollection new.
+	data add: aDataDictionary.
 	
 	ICHelper saveCredentialsIntoFile: aDataDictionary.
-	accountCollection := ICHelper loadCredentialsIntoDictionaries.
-	self emailAccounts: (ICHelper accountDictionariesToEndpoints: accountCollection).
-	self changed: #emailAccounts
+	self emailAccounts add: ((ICHelper accountDictionariesToEndpoints: data) at: 1).
+	self changed: #emailAccounts.
+	self changed: #getNameOfEmailAccounts

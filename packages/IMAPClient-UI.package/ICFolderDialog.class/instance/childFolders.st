@@ -1,5 +1,6 @@
 accessing
-childFolders 
+childFolders
+
 	(rootFolder)
 		ifNil: [ ^ OrderedCollection new].
 		

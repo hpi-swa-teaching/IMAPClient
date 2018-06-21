@@ -11,7 +11,9 @@
 		"selectedAccount",
 		"selectedFolder",
 		"numberOfHeadersToFetch",
-		"emailAccounts" ],
+		"emailAccounts",
+		"uninitializedAccounts",
+		"initializedAccounts" ],
 	"name" : "ICFolderDialog",
 	"pools" : [
 		 ],

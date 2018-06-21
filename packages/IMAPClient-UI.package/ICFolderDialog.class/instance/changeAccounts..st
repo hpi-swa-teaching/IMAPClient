@@ -8,10 +8,10 @@ changeAccounts: anAccount
 	self rootFolder: (Array with: anAccount rootFolder).
 	self selectedFolder: nil.
 	
-	self changed: #selectedFolder.	
-	self changed: #rootFolder.
-	self changed: #childFolders.
-	self changed: #emailsOfSelectedFolder
-	
+	self 
+		changed: #selectedFolder;
+		changed: #rootFolder;
+		changed: #childFolders;
+		changed: #emailsOfSelectedFolder
 		
 	 	

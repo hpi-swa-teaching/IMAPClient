@@ -1,4 +1,4 @@
 as yet unclassified
 addAccountButton
 
-	ICLoginDialog open: self.
+	ICLoginDialog open: self

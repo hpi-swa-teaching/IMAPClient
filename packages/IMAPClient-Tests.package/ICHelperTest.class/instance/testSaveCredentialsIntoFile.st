@@ -10,7 +10,6 @@ testSaveCredentialsIntoFile
 	firstFileName := (ICHelper getHashNameForAccount: (self class firstConfig at: 'address') and: (self class firstConfig at: 'username')).
 	secondFileName := (ICHelper getHashNameForAccount: (self class secondConfig at: 'address') and: (self class secondConfig at: 'username')).
 	
-	
 	"the method uses hashing for names"
 	self assert: (directory fileExists: (ICHelper getHashNameForAccount: (self class firstConfig at: 'address') and: (self class firstConfig at: 'username'))).	
 	self assert: (directory fileExists: (ICHelper getHashNameForAccount: (self class secondConfig at: 'address') and: (self class secondConfig at: 'username'))).	

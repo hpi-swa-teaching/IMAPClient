@@ -48,6 +48,7 @@ buildWith: builder
 	windowSpec children addAll: { senderLabelSpec . subjectSpec . recipientSpec . bodySpec }.
 	
 	window := builder build: windowSpec.
-	self changed: #checkBoxColor.
-	^ window 
 	
+	self changed: #checkBoxColor.
+	
+	^ window

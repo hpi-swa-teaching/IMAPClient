@@ -7,7 +7,7 @@ buildWith: builder
 	windowSpec
 		model: self;
 		label: self dialogTitle;
-		extent: 300 @ 250;
+		extent: 300 @ 200;
 		children: OrderedCollection new.
 		
 	nameInputFieldSpec := builder pluggableInputFieldSpec new.
@@ -79,8 +79,8 @@ buildWith: builder
 	loginButtonSpec := builder pluggableButtonSpec new.
 	loginButtonSpec
 		model: self;
-		frame: (self guiElementXOffset @ (self guiElementYOffsetOf: 5.6) extent: self guiElementWidth @ (self guiElementHeight * 1.0));
-		label: #getButtonLabel;
+		frame: (self guiElementXOffset @ (self guiElementYOffsetOf: 6) extent: self guiElementWidth @ (self guiElementHeight * 1.0));
+		label: 'Add';
 		action: #login.
 			
 	windowSpec children addAll: { loginButtonSpec . serverAdressInputFieldSpec . serverPortInputFieldSpec . userInputFieldSpec . 
@@ -94,7 +94,8 @@ buildWith: builder
 	
 	"add listener to text fields
 	and hack to make the checkbox background transparent
-	can be removed once PluggableCheckBoxMorph starts using its color selector instead of default mint green (bug in       	squeak)"
+	can be removed once PluggableCheckBoxMorph starts using its color selector instead of default mint green
+	 (bug in squeak)"
 		
 	window submorphsDo: [:m |
 		(m class == PluggableTextMorphPlus)

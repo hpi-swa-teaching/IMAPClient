@@ -1,0 +1,17 @@
+{
+	"category" : "IMAPClient-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"data",
+		"folderDialogInstance",
+		"password",
+		"window" ],
+	"name" : "ICPasswordPrompt",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }
