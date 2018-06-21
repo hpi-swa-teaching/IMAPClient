@@ -4,7 +4,7 @@
 		"open" : "C.G. 6/21/2018 00:01" },
 	"instance" : {
 		"accountsComplete" : "C.G. 6/20/2018 22:16",
-		"addAccount:" : "DH 6/20/2018 22:41",
+		"addAccount:" : "DH 6/21/2018 12:09",
 		"addAccountButton" : "C.G. 6/21/2018 00:14",
 		"addPasswordToCollection:" : "C.G. 6/21/2018 00:14",
 		"buildWith:" : "lvm 6/19/2018 16:29",
@@ -24,7 +24,7 @@
 		"getFolderWith:" : "CG 5/20/2018 12:12",
 		"getLowestUID" : "C.G. 6/21/2018 00:21",
 		"getNameOfEmailAccounts" : "C.G. 6/21/2018 00:22",
-		"initialize" : "C.G. 6/21/2018 00:02",
+		"initialize" : "DH 6/21/2018 12:06",
 		"initializedAccounts" : "C.G. 6/20/2018 21:18",
 		"initializedAccounts:" : "C.G. 6/20/2018 21:18",
 		"labelFor:" : "C.G. 6/21/2018 00:22",

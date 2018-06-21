@@ -10,4 +10,6 @@ initialize
 	self uninitializedAccounts: accounts. 
 	self initializedAccounts: OrderedCollection new.
 	
-	ICPasswordPrompt openWith: (self uninitializedAccounts first) and: self
+	(self uninitializedAccounts) 
+		ifEmpty: [self accountsComplete]
+		ifNotEmpty: [ICPasswordPrompt openWith: (self uninitializedAccounts first) and: self]

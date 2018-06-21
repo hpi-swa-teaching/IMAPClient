@@ -1,7 +1,7 @@
 as yet unclassified
 addAccount: aDataDictionary
 	| data |
-	self halt.
+	
 	data := OrderedCollection new.
 	data add: aDataDictionary.
 	
