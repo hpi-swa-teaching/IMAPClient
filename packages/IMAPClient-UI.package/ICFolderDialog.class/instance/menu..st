@@ -11,5 +11,6 @@ menu: aMenu
 			ifFalse: ['Mark as flagged'])  
 			action: #modifyFlaggedFlag;
 		add: 'Delete' 
-			action: #deleteEmail.	
-	^aMenu	
+			action: #deleteEmail.
+	
+	^ aMenu

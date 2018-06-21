@@ -20,7 +20,6 @@ createConfigFiles
 				nextPutAll: (config at: 'address'); cr;
 				nextPutAll: (config at: 'port') asString;  cr;
 				nextPutAll: (config at: 'username'); cr;
-				nextPutAll: (config at: 'password'); cr;
 				nextPutAll: (config at: 'ssl') asString; cr;
 				close 
 			]
