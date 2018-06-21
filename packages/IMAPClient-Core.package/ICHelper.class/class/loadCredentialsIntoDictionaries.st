@@ -31,12 +31,11 @@ loadCredentialsIntoDictionaries
 						loginData add: line]].	
 				
 				"create a dictionary for each config file"
-				dataDictionary at: 'ssl' put: (self parseStringToBool: (loginData at: 6)).
+				dataDictionary at: 'ssl' put: (self parseStringToBool: (loginData at: 5)).
 				dataDictionary at: 'name' put: (loginData at: 1).
 				dataDictionary at: 'address' put: (loginData at: 2) .
 				dataDictionary at: 'port' put: ((loginData at: 3) asString).
 				dataDictionary at: 'username' put: (loginData at: 4).
-				dataDictionary at: 'password' put: ''.
 				
 				configCollection add: dataDictionary]]].	
 	

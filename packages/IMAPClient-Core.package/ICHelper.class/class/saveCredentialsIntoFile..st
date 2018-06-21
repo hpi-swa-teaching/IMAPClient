@@ -26,7 +26,6 @@ saveCredentialsIntoFile: aDataDictionary
 			nextPutAll: (aDataDictionary at: 'address') asString; cr;
 			nextPutAll: (aDataDictionary at: 'port') asString;  cr;
 			nextPutAll: (aDataDictionary at: 'username') asString; cr;
-			nextPutAll: ''; cr;
 			nextPutAll: (aDataDictionary at: 'ssl') asString; cr;
 			close 
 		]	
