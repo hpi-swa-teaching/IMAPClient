@@ -11,11 +11,12 @@ maildirDiffFetchHeadersFrom: start to: end
 				searchBegin size > 0 & (searchEnd size > 0)
 					ifTrue: [Transcript show: 'Do nothing. Newest Mailrange already loaded'.
 						currentMails := rootFolder
-									childFolderNamed: self currentFolderName
+									childFolderNamed: self currentFolderName with: (self hierarchyDelimiter)
 									ifAbsent: [OrderedCollection new].
 						currentMails := currentMails emails.
 						^ currentMails].
 		].
+	
 
      ^self
        	sendCommand: (self class fetchHeadersWithUIDRange: start to: end);
