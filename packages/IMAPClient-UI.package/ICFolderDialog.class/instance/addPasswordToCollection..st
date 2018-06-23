@@ -14,4 +14,4 @@ addPasswordToCollection: aDictionary
 	"if there are yet uninitializedAccounts, open a ICPasswordPrompt for them"
 	(uninitializedAccounts isEmpty) 
 		ifTrue: [self accountsComplete]
-		ifFalse: [ICPasswordPrompt openWith: (self uninitializedAccounts first) and: self]
+		ifFalse: [ICPasswordDialog openWith: (self uninitializedAccounts first) and: self]

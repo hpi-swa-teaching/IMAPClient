@@ -12,4 +12,4 @@ initialize
 	
 	(self uninitializedAccounts) 
 		ifEmpty: [self accountsComplete]
-		ifNotEmpty: [ICPasswordPrompt openWith: (self uninitializedAccounts first) and: self]
+		ifNotEmpty: [ICPasswordDialog openWith: (self uninitializedAccounts first) and: self]
