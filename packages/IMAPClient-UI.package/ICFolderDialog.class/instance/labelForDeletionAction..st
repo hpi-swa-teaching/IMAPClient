@@ -1,5 +1,5 @@
 as yet unclassified
 labelForDeletionAction: aFolderName
 	(aFolderName = 'Trash')
-		ifTrue: [^ 'Delete Email']
+		ifTrue: [^ 'Clear Folder']
 		ifFalse: [^ 'Move to trash']
