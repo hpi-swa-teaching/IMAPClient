@@ -1,4 +1,4 @@
-as yet unclassified
+accountManagment
 addAccountButton
 
 	ICLoginDialog open: self

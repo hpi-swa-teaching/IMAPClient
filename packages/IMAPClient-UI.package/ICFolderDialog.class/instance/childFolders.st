@@ -1,7 +1,7 @@
-accessing
+as yet unclassified
 childFolders
 
-	(rootFolder)
+	(self rootFolder)
 		ifNil: [ ^ OrderedCollection new].
 		
-	^ (rootFolder at: 1) childFolders
+	^ (self rootFolder at: 1) childFolders
