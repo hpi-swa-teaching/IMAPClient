@@ -3,7 +3,7 @@ listFoldersIn: root using: filter
 	self 
 		checkConnected;
 		checkLoggedIn.
-	self stream sendCommand: (
+	self sendCommand: (
 			{self class listCommand. 
 			self class asProtocolQuote: root. 
 			self class asProtocolQuote: filter} 

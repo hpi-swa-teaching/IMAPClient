@@ -1,4 +1,5 @@
 accessing
 lastResponse: anObject
-	Transcript show: 'RECEIVED: ', anObject; cr.
+
+	Transcript show: 'RECEIVED: ', (anObject copy truncateTo:50) ; cr.
 	lastResponse := anObject
