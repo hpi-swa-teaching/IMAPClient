@@ -10,7 +10,7 @@
 		"folderDialogInstance",
 		"password",
 		"window" ],
-	"name" : "ICPasswordPrompt",
+	"name" : "ICPasswordDialog",
 	"pools" : [
 		 ],
 	"super" : "Model",

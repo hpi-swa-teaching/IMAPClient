@@ -1,4 +1,8 @@
 folder selection
 getFolderWith: endpoint
 	
-	ICFolder parseFromServer: endpoint
+	 ^ endpoint 
+		checkConnected;
+		checkLoggedIn;
+		listAllFolders;
+		rootFolder

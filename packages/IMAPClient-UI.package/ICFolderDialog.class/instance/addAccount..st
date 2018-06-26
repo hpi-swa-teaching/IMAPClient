@@ -1,5 +1,6 @@
-as yet unclassified
+accountManagment
 addAccount: aDataDictionary
+
 	| data |
 	
 	data := OrderedCollection new.
