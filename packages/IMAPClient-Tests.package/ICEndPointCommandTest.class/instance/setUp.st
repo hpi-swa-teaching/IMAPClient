@@ -13,7 +13,8 @@ setUp
 		stream: ICMockSocketStream new;
 		loggedIn: true;
 		rootFolder: self rootFolder;
-		currentFolderName: 'inbox'.
+		currentFolderName: 'inbox';
+		hierarchyDelimiter: '\'.
 		
 	self endPoint stream connected: true.
 	"self endPoint stream server responses: self endPoint stream server selectedResponses."

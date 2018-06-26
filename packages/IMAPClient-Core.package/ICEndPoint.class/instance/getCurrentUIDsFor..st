@@ -2,6 +2,7 @@ fetching
 getCurrentUIDsFor: anICFolder
 
 	| isEmpty |
+		
 	self select: anICFolder path.
 	isEmpty := true.
 	(self lastResponse do:

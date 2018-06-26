@@ -1,7 +1,7 @@
 toolbuilder
 buildWith: builder
 
-	| windowSpec emailButtonSpec addAccountButtonSpec userListSpec folderTreeSpec emailListSpec |
+	| window windowSpec emailButtonSpec addAccountButtonSpec userListSpec folderTreeSpec emailListSpec |
 	
 	windowSpec := builder pluggableWindowSpec new.
 	windowSpec
@@ -22,7 +22,6 @@ buildWith: builder
 		setSelected: #selectedAccount:;
 		frame: (0 @ 0.05 extent: 0.2 @ 0.1).
 				
-
 	emailButtonSpec := builder pluggableButtonSpec new.
 	emailButtonSpec
 		model: self;
@@ -70,5 +69,8 @@ buildWith: builder
 		color: (Color white).
 	
 	windowSpec children addAll: { emailButtonSpec . addAccountButtonSpec . userListSpec . folderTreeSpec . emailListSpec }.
+	window := builder build: windowSpec.
+	window on: #keyStroke send: #keyEvent: to: self.
 	
-	^ builder build: windowSpec
+	^ window 
+	
