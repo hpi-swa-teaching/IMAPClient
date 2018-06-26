@@ -13,7 +13,6 @@ maildirDiffFetchHeadersFrom: start to: end
 						^ OrderedCollection new].
 		].
 	
-
      ^self
        	sendCommand: (self class fetchHeadersWithUIDRange: start to: end);
 		fetchNextResponse;
