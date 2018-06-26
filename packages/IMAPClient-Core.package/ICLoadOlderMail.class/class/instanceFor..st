@@ -5,7 +5,7 @@ instanceFor: anICFolderDialog
 		header: (Dictionary newFrom: {
 			#date -> ''.
 			#from -> ''.
-			#seen -> 'true'.
+			#seen -> true.
 			#subject -> 'load older eMails!'.
 			#to -> OrderedCollection new});
 		body: '';
