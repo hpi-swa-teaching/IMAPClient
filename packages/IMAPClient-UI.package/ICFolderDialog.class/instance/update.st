@@ -1,3 +1,4 @@
 get emails
 update
-	[ self updateProcess ] forkAt: Processor userBackgroundPriority.
+
+	[self updateProcess] forkAt: Processor userBackgroundPriority

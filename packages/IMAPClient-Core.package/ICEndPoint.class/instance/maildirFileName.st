@@ -1,11 +1,10 @@
 connection
 maildirFileName
 
-"replace hierarchyDelimiter with FileSystem slash"
+	"replace hierarchyDelimiter with FileSystem slash"
 
- ^ 'Maildir' , 
+	^ 'Maildir', 
 		FileDirectory slash, 
 		self getRootFolderName, 
 		FileDirectory slash, 		
 		currentFolderName copyReplaceAll: (self hierarchyDelimiter) with: (FileDirectory slash)
-		

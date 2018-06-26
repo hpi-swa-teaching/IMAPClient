@@ -10,9 +10,9 @@
 	"instance" : {
 		"addFolder:" : "js 6/7/2016 13:09",
 		"childFolderNamed:" : "js 6/14/2016 09:31",
-		"childFolderNamed:ifAbsent:" : "DH 6/21/2018 20:51",
-		"childFolderNamed:with:" : "DH 6/21/2018 20:18",
-		"childFolderNamed:with:ifAbsent:" : "DH 6/21/2018 20:45",
+		"childFolderNamed:ifAbsent:" : "C.G. 6/26/2018 10:58",
+		"childFolderNamed:with:" : "C.G. 6/26/2018 11:01",
+		"childFolderNamed:with:ifAbsent:" : "C.G. 6/26/2018 11:02",
 		"childFolders" : "js 6/7/2016 11:32",
 		"childFolders:" : "js 6/7/2016 11:32",
 		"countFolders" : "js 6/7/2016 13:24",
@@ -35,4 +35,4 @@
 		"removeFolder:" : "js 6/14/2016 09:38",
 		"removeFolder:ifAbsent:" : "js 6/14/2016 09:37",
 		"startUpdateProcess:" : "lvm 6/19/2018 16:52",
-		"update" : "DH 6/23/2018 14:05" } }
+		"update" : "C.G. 6/26/2018 11:02" } }

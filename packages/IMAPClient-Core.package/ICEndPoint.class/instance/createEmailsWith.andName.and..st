@@ -5,7 +5,6 @@ createEmailsWith: maildirDirectory andName: directoryName and: relativeRootFolde
 	
 	| serverDirectory filereader email folder |
 	
-	
 	serverDirectory := maildirDirectory directoryNamed: directoryName.
 	filereader := ICFileReadWriter new.
 	
@@ -17,14 +16,10 @@ createEmailsWith: maildirDirectory andName: directoryName and: relativeRootFolde
 			yourself.
 			
 		relativeRootFolder addFolder: folder.
-		
-		self createEmailsWith: serverDirectory andName: foldername and: folder
-	].
+		self createEmailsWith: serverDirectory andName: foldername and: folder].
 	
 	"add mails in a directory to parent folder"
 	(serverDirectory) fileNames do: [:filename |
 				email := (filereader get: filename in: (maildirDirectory fullPathFor: directoryName)).
 				email folder: relativeRootFolder.
-				relativeRootFolder emails add: email].
-		
-			
+				relativeRootFolder emails add: email]

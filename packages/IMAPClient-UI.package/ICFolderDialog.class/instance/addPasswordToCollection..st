@@ -1,9 +1,9 @@
 accountManagment
 addPasswordToCollection: aDictionary
 	
+	"this is the callback method for the ICPasswordPrompt"
+	
 	| nextAccount |
-
-	"this is the callback method for the ICPasswordPrompt "
 	
 	self initializedAccounts add: aDictionary.
 	

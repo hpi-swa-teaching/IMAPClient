@@ -1,5 +1,6 @@
 connection
 maildirDiffFetchHeadersFrom: anUID
+
 	"fetch headers in range (anUID, self uids last("
 	
 	self uids
