@@ -50,6 +50,7 @@ buildWith: builder
 	emailListSpec := builder pluggableTreeSpec new.
 	emailListSpec
 		model: self;
+		keyPress: #filter:;
 		roots: #emailsOfSelectedFolder;
 		label: #labelForMail:;
 		setSelected: #selectedEmail:;

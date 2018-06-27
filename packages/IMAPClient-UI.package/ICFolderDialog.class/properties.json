@@ -13,7 +13,8 @@
 		"numberOfHeadersToFetch",
 		"emailAccounts",
 		"uninitializedAccounts",
-		"initializedAccounts" ],
+		"initializedAccounts",
+		"filterString" ],
 	"name" : "ICFolderDialog",
 	"pools" : [
 		 ],
