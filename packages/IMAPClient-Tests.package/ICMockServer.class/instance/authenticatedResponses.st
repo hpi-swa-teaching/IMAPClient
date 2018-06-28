@@ -6,5 +6,3 @@ authenticatedResponses
 		'. LOGOUT' -> self logoutResponse.
 		'. SELECT "inbox"' -> self selectInboxResponse.
 		'. LIST "" "*"' -> self listFoldersResponse}
-		
-	
