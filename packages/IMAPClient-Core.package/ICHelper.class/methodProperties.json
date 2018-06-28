@@ -5,6 +5,7 @@
 		"getHashNameForAccount:and:" : "DH 6/12/2018 23:13",
 		"loadCredentialsIntoDictionaries" : "DH 6/21/2018 16:45",
 		"parseStringToBool:" : "DH 6/14/2018 12:42",
+		"resetMailData" : "DH 6/28/2018 10:31",
 		"saveCredentialsIntoFile:" : "DH 6/21/2018 09:10" },
 	"instance" : {
 		 } }
