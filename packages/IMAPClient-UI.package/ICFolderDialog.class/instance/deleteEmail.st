@@ -5,4 +5,5 @@ deleteEmail
 		ifFalse: [selectedEmail deleteEmail].
 		
 	self selectedEmail: nil.
-	self changed: #emailsOfSelectedFolder
+	self changed: #emailsOfSelectedFolder.
+	
