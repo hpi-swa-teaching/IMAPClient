@@ -5,11 +5,12 @@ emailListMenu: aMenu
 		add: ((self selectedEmail retrieveFlags at: #seen) 
 			ifTrue: ['Mark as unseen'] 
 			ifFalse: ['Mark as seen'])  
-			action: #modifySeenFlag;
+			action: [self modifyFlag: #seen];
 		add: ((self selectedEmail retrieveFlags at: #flagged) 
 			ifTrue: ['Unflag']
 			ifFalse: ['Mark as flagged'])  
-			action: #modifyFlaggedFlag;
+			action: [self modifyFlag: #flagged];
 		add: (self labelForDeletionAction: self selectedEmail folder name)
-			action: #deleteEmail.	
+			action: #deleteEmail;
+		add: 'Move to ...' subMenu: self folderListMenu.	
 	^aMenu	
