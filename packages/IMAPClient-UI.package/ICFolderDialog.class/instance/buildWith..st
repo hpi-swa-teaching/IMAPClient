@@ -20,7 +20,12 @@ buildWith: builder
 		autoDeselect: false;
 		getSelected: #selectedAccount;
 		setSelected: #selectedAccount:;
-		frame: (0 @ 0.05 extent: 0.2 @ 0.1).
+		frame: (0 @ 0.05 extent: 0.2 @ 0.1);
+		columns: {[:listMorph | self emphasizeUnseenAccounts: listMorph filteredItems.
+			(listMorph filteredItems collect: [:item | 
+					item preferredWidthOfColumn: 1]) max].
+			[:listMorph | (listMorph filteredItems collect: [:item |
+					item preferredWidthOfColumn: 2]) max].}.
 				
 	emailButtonSpec := builder pluggableButtonSpec new.
 	emailButtonSpec
@@ -45,7 +50,12 @@ buildWith: builder
 		getChildren: #subFoldersOf: ;
 		label: #folderNameOf:;	
 		autoDeselect: false;
-		frame: (0 @ 0.15 extent: 0.2 @ 0.85).
+		frame: (0 @ 0.15 extent: 0.2 @ 0.85);
+		columns: {[:listMorph | self emphasizeUnseenFolders: listMorph filteredItems.
+			(listMorph filteredItems collect: [:item | 
+					item preferredWidthOfColumn: 1]) max].
+			[:listMorph | (listMorph filteredItems collect: [:item |
+					item preferredWidthOfColumn: 2]) max].}.
 		
 	emailListSpec := builder pluggableTreeSpec new.
 	emailListSpec
