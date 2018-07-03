@@ -4,4 +4,8 @@ modifyFlaggedFlag
 	selectedEmail modifyFlag: #flagged.
 	selectedEmail flagged: (selectedEmail retrieveFlags at: #flagged).
 	selectedEmail saveInMaildir.
-	self changed: #emailsOfSelectedFolder
+	self
+		changed: #emailsOfSelectedFolder;
+		changed: #childFolders;
+		changed: #emailAccounts
+	

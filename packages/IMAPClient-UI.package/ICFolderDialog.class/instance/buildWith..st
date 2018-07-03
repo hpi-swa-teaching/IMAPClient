@@ -50,7 +50,7 @@ buildWith: builder
 		setSelected: #selectedFolder:;
 		getSelected: #selectedFolder;
 		getChildren: #subFoldersOf:;
-		label: #folderNameOf:;
+		label: #labelForFolder:;
 		autoDeselect: false;
 		frame: (0 @ 0.15 extent: 0.2 @ 0.85);
 		columns: {
