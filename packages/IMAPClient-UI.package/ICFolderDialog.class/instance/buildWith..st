@@ -50,11 +50,10 @@ buildWith: builder
 	emailSearchSpec := builder pluggableInputFieldSpec new.
 	emailSearchSpec
 		model: self;
-		setText: #changeFilter:;
 		frame: (0.2 @ 0 extent: 0.8 @ 0.05);
 		askBeforeDiscardingEdits: false;
 		editText: #changeFilter:;
-		help: 'Suche ...';
+		help: #emailSearchHelp;
 		indicateUnacceptedChanges: false.
 		
 	emailListSpec := builder pluggableTreeSpec new.
@@ -83,4 +82,3 @@ buildWith: builder
 	window on: #keyStroke send: #keyEvent: to: self.
 	
 	^ window
-	
