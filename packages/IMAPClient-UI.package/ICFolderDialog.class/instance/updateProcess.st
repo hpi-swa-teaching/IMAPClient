@@ -2,7 +2,7 @@ get emails
 updateProcess
 
 	self emailAccounts do: [:anICEndpoint | anICEndpoint rootFolder update].
-	self selectedFolder ifNotNil: [
-		self changed: #emailsOfSelectedFolder.
-		self changed: #childFolders.
-		self changed: #emailAccounts]
+	self selectedFolder ifNotNil: [self changed: #emailsOfSelectedFolder].
+	self
+		changed: #childFolders;
+		changed: #emailAccounts

@@ -1,4 +1,4 @@
 folder selection
 folderNameOf: folder
 
-	^ folder name
+	^ folder name , Character tab , folder countOfUnseenMails asString
