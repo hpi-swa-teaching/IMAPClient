@@ -9,7 +9,8 @@ buildWith: builder
 		label: self dialogTitle;
 		children: OrderedCollection new;
 		closeAction: #closeConnection;
-		extent: 1200 @ 600.
+		extent: 1240 @ 600;
+		minimumExtent: 1980 @ 600.
 		
 	userListSpec := builder pluggableTreeSpec new.
 	userListSpec
@@ -54,8 +55,8 @@ buildWith: builder
 		label: #labelForMail:;
 		setSelected: #selectedEmail:;
 		getSelected: #selectedEmail;
-		hScrollBarPolicy: #always;
-		vScrollBarPolicy: #always;
+		hScrollBarPolicy: #whenNeeded;
+		vScrollBarPolicy: #whenNeeded;
 		menu: #emailListMenu:;
 		autoDeselect: false;
 		columns: {[:listMorph | self emphasizeUnseenMessages: listMorph filteredItems.
