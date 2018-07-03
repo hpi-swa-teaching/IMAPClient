@@ -2,10 +2,10 @@
 	"class" : {
 		"defaultName" : "js 6/7/2016 11:49",
 		"errorChildDoesNotExist" : "js 6/14/2016 09:27",
-		"named:in:" : "js 6/8/2016 15:22",
-		"named:in:with:" : "js 8/4/2017 23:06",
+		"named:in:" : "DH 6/29/2018 15:05",
+		"named:in:with:" : "DH 6/29/2018 15:05",
 		"newRootFolderWith:" : "CG 5/20/2018 11:56",
-		"numberOfHeadersToFetchAfterFirstLogin" : "DH 6/21/2018 23:57",
+		"numberOfHeadersToFetchAfterFirstLogin" : "DH 7/3/2018 22:31",
 		"textbasedHierarchyBlank" : "js 6/7/2016 12:55" },
 	"instance" : {
 		"addFolder:" : "js 6/7/2016 13:09",
@@ -24,9 +24,9 @@
 		"endpoint:" : "ms 7/10/2016 13:24",
 		"fetchHeadersFrom:" : "DH 6/11/2018 23:18",
 		"fetchHeadersFrom:to:" : "mw 5/25/2018 20:26",
-		"getHighestUID" : "lvm 6/19/2018 16:33",
+		"getHighestUID" : "DH 7/3/2018 22:30",
 		"getLatestEmails:" : "mw 5/25/2018 20:26",
-		"initialize" : "lvm 5/21/2018 13:09",
+		"initialize" : "DH 6/29/2018 15:14",
 		"name" : "js 6/7/2016 12:16",
 		"name:" : "js 6/7/2016 11:48",
 		"parent" : "js 6/7/2016 11:32",
@@ -34,5 +34,5 @@
 		"path" : "DH 6/21/2018 22:22",
 		"removeFolder:" : "js 6/14/2016 09:38",
 		"removeFolder:ifAbsent:" : "js 6/14/2016 09:37",
-		"startUpdateProcess:" : "DH 6/28/2018 11:08",
-		"update" : "DH 6/26/2018 21:02" } }
+		"startUpdateProcess:" : "DH 6/29/2018 15:17",
+		"update" : "DH 7/3/2018 22:28" } }
