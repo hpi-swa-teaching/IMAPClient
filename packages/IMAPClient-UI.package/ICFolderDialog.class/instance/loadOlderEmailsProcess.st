@@ -11,4 +11,7 @@ loadOlderEmailsProcess
 	
 	self selectedFolder fetchHeadersFrom: from to: to.
 	Transcript show: (self selectedFolder emails).
-	self changed: #emailsOfSelectedFolder
+	self
+		changed: #emailsOfSelectedFolder;
+		changed: #childFolders;
+		changed: #emailAccounts
