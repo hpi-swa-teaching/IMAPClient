@@ -1,4 +1,4 @@
 commands
-expungeEmails
+expungeEmail
 
 	^ {self protocolCommandStart . 'EXPUNGE'} joinSeparatedBy: self protocolBlank	
