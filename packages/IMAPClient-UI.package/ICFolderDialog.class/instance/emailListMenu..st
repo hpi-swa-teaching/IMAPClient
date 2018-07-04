@@ -13,4 +13,5 @@ emailListMenu: aMenu
 		add: (self labelForDeletionAction: self selectedEmail folder name)
 			action: #deleteEmail;
 		add: 'Move to ...' subMenu: self folderListMenu.	
-	^aMenu	
+		
+	^ aMenu
