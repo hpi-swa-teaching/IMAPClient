@@ -10,8 +10,7 @@
 		"childFolders",
 		"name",
 		"emails",
-		"endpoint",
-		"countOfUnseenMails" ],
+		"endpoint" ],
 	"name" : "ICFolder",
 	"pools" : [
 		 ],
