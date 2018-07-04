@@ -1,7 +1,7 @@
 as yet unclassified
 testParseSimpleFetch
 	
-	|parseResult firstResult parsedMail givenMail|
+	| parseResult firstResult parsedMail givenMail |
 	
 	parseResult := parser parse: (ReadStream on: (self class firstExampleResponse)). 
 	
@@ -17,5 +17,4 @@ testParseSimpleFetch
 	self assert: parsedMail to equals: givenMail to.
 	self assert: parsedMail subject equals: givenMail subject.
 	self assert: parsedMail date equals: givenMail date. 
-	self assert: parsedMail uid equals: givenMail uid.
-	
+	self assert: parsedMail uid equals: givenMail uid

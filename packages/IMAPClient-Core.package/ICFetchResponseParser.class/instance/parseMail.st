@@ -11,6 +11,3 @@ parseMail
 	
 	"reset variables for nextMail"
 	self reset
-	
-	
-	
