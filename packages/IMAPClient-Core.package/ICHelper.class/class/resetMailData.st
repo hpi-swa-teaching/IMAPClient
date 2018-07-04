@@ -7,12 +7,11 @@ resetMailData
 	directory := FileDirectory default.
 	
 	(directory directoryExists: 'Maildir')
-		ifFalse: [^ self].
+		ifFalse: [^ 'No Maildir exists'].
 		
 	directory := directory directoryNamed: 'Maildir'.
 	directory recursiveDelete.
 	
 	ICLoadOlderMail instance: nil.
-		
-		
 	
+	^ 'OK'
