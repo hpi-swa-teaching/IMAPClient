@@ -18,7 +18,7 @@ folderListMenu
 		topElement childFolders do: [ :folder | stack push: folder]
 	].
 
-	folders do: [ :each | 
+	folders allButFirst do: [ :each | 
 		aMenu 
 			add: (self folderNameOf: each) 
 			action: [self moveEmail: (each path)]].
