@@ -10,5 +10,7 @@ parseMail
 	self emails at: self currentID put: self currentMail.
 	
 	"reset variables for nextMail"
-	self currentMail: ''.
-	self currentID: ''
+	self reset
+	
+	
+	
