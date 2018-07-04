@@ -3,7 +3,7 @@
 		"defaultName" : "js 6/7/2016 11:49",
 		"errorChildDoesNotExist" : "js 6/14/2016 09:27",
 		"named:in:" : "DH 6/29/2018 15:05",
-		"named:in:with:" : "DH 6/29/2018 15:05",
+		"named:in:with:" : "C.G. 7/4/2018 13:07",
 		"newRootFolderWith:" : "CG 5/20/2018 11:56",
 		"numberOfHeadersToFetchAfterFirstLogin" : "DH 7/3/2018 22:31",
 		"textbasedHierarchyBlank" : "js 6/7/2016 12:55" },
@@ -24,9 +24,9 @@
 		"endpoint:" : "ms 7/10/2016 13:24",
 		"fetchHeadersFrom:" : "DH 6/11/2018 23:18",
 		"fetchHeadersFrom:to:" : "mw 5/25/2018 20:26",
-		"getHighestUID" : "DH 7/3/2018 22:30",
+		"getHighestUID" : "C.G. 7/4/2018 13:08",
 		"getLatestEmails:" : "mw 5/25/2018 20:26",
-		"initialize" : "DH 6/29/2018 15:14",
+		"initialize" : "C.G. 7/4/2018 13:08",
 		"name" : "js 6/7/2016 12:16",
 		"name:" : "js 6/7/2016 11:48",
 		"parent" : "js 6/7/2016 11:32",
@@ -35,4 +35,4 @@
 		"removeFolder:" : "js 6/14/2016 09:38",
 		"removeFolder:ifAbsent:" : "js 6/14/2016 09:37",
 		"startUpdateProcess:" : "DH 6/29/2018 15:17",
-		"update" : "DH 7/3/2018 22:28" } }
+		"update" : "C.G. 7/4/2018 13:09" } }

@@ -1,13 +1,15 @@
 protocol parse
 parseFetchHeader: headerLines withId: id
+
 	| email headerData headerChunk |
+	
 	email := ICEmail new.
 	email messageID: id.
 			
 	headerData := (headerLines subStrings: {Character cr}).		
 	headerChunk := OrderedCollection new.
 	
-	"this is necassery because one header fields could contains multiple lines..."
+	"this is necassery because one header field could contains multiple lines"
 	headerData do: [ :line |
 		(line includesSubString: 'UID')	
 			ifTrue: [email uid: ((line subStrings: ' ') second)]
@@ -15,11 +17,8 @@ parseFetchHeader: headerLines withId: id
 				((self startsNewHeaderChunk: line) & (headerChunk notEmpty))
 					ifTrue: [ 
 						self parseHeaderChunk: headerChunk for: email.
-						headerChunk removeAll.
-					].
-				headerChunk add: line
-			]
-	].
+						headerChunk removeAll].
+				headerChunk add: line]].
 
 	self parseHeaderChunk: headerChunk for: email.
 

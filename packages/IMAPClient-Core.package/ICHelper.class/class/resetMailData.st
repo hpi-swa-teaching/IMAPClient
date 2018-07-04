@@ -15,6 +15,3 @@ resetMailData
 	ICLoadOlderMail instance: nil.
 	
 	^ 'OK'
-		
-		
-	

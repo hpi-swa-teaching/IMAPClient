@@ -12,6 +12,3 @@ parseMail
 	"reset variables for nextMail"
 	self currentMail: ''.
 	self currentID: ''
-	
-	
-	
