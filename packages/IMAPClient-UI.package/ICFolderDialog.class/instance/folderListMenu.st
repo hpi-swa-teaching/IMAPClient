@@ -7,7 +7,7 @@ folderListMenu
 	
 	folders := OrderedCollection new.
 	
-	"breadth first search"
+	"depth first search"
 	stack := Stack new.
 	stack push: ((self rootFolder) at:1).
 	
