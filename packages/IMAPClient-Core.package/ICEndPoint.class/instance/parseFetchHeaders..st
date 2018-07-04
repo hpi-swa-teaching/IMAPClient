@@ -1,25 +1,24 @@
 protocol parse
 parseFetchHeaders: headerLines
 
-	| parser folder string index|
+	| parser folder parseResult mailCollection|
 	
-	parser := (ICFetchResponseParserRework new) endpoint: self.
+	(headerLines size = 0) ifTrue: [ ^ OrderedCollection new].
 		
-	"quick fix: if 'content-Type' and boundaries are in seperated lines the
-	 bytes the server told us, wont fit anymore :('"
-
-	index := 1.
-	string := ''.
+	mailCollection := OrderedCollection new.
+	parser := ICFetchResponseParser new.
+	parseResult := parser parse: (ReadStream on: (headerLines joinSeparatedBy: Character cr)).
+		
+	folder := self rootFolder childFolderNamed: (self currentFolderName) with: hierarchyDelimiter.
+	 
+	"iterate over all pairs of IDs and Messages"
+	parseResult keysAndValuesDo: [:id :message | 
+		| mail |
+		"parse the message and ID into a ICMail"
+		
+		mail := self parseFetchHeader: message withId: id.
+		mailCollection add: mail.
+		"store the ICMail in the appropriate folder and write it on the disk"
+		mail folder: folder; saveInMaildir].
 	
-	headerLines do: [:y |
-	y do: [:i | string := string , i]. string := string , (Character cr)]. 
-			
-	headerLines do: [:x | 
-		x do: [:i | parser read: i]. parser read: (Character cr)]. 
-	
-	
-
-	folder := self rootFolder childFolderNamed: (self currentFolderName) with: hierarchyDelimiter. 
-	parser emails do: [:mail | mail folder: folder; saveInMaildir].
-	
-	^ parser emails
+	^ mailCollection

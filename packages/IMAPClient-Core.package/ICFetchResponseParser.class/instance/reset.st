@@ -1,5 +1,5 @@
 initialization
 reset
-	currentUid := ''.
+	currentUID := ''.
 	currentMail := ''.
-	self parenthesesCounter: 0.
+	self parseBytes: ''.
