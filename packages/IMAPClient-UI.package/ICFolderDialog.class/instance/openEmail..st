@@ -5,4 +5,8 @@ openEmail: anICEmail
 	selectedEmail seen: (selectedEmail retrieveFlags at: #seen).
 	
 	anICEmail isFlaggable
-		ifTrue: [self changed: #emailsOfSelectedFolder]
+		ifTrue: [
+			self
+				changed: #emailsOfSelectedFolder;
+				changed: #childFolders;
+				changed: #emailAccounts]

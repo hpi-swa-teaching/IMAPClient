@@ -1,4 +1,4 @@
 accessing
 uid
 
-	^uid.
+	^ uid ifNil: [uid := 0]

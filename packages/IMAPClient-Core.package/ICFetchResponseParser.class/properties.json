@@ -6,12 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"state",
-		"emails",
-		"endpoint",
-		"parenthesesCounter",
 		"currentMail",
-		"currentUid" ],
+		"reader",
+		"emails",
+		"currentID" ],
 	"name" : "ICFetchResponseParser",
 	"pools" : [
 		 ],
