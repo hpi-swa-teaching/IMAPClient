@@ -10,7 +10,7 @@ buildWith: builder
 		children: OrderedCollection new;
 		closeAction: #closeConnection;
 		extent: 1240 @ 600;
-		minimumExtent: 1980 @ 600.
+		minimumExtent: (Display width * 0.664) @ (Display height * 0.32).
 		
 	userListSpec := builder pluggableTreeSpec new.
 	userListSpec
