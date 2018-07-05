@@ -9,7 +9,8 @@ buildWith: builder
 		label: self dialogTitle;
 		children: OrderedCollection new;
 		closeAction: #closeConnection;
-		extent: 1200 @ 600.
+		extent: 1240 @ 600;
+		minimumExtent: (Display width * 0.664) @ (Display height * 0.32).
 		
 	userListSpec := builder pluggableTreeSpec new.
 	userListSpec
@@ -20,14 +21,7 @@ buildWith: builder
 		autoDeselect: false;
 		getSelected: #selectedAccount;
 		setSelected: #selectedAccount:;
-		frame: (0 @ 0.05 extent: 0.2 @ 0.1);
-		columns: {
-			[:listMorph | self emphasizeUnseenAccounts: listMorph filteredItems.
-				(listMorph filteredItems collect: [:item |
-					item preferredWidthOfColumn: 1]) max].
-			[:listMorph |
-				(listMorph filteredItems collect: [:item |
-					item preferredWidthOfColumn: 2]) max].}.
+		frame: (0 @ 0.05 extent: 0.2 @ 0.1).
 				
 	emailButtonSpec := builder pluggableButtonSpec new.
 	emailButtonSpec
@@ -49,17 +43,10 @@ buildWith: builder
 		roots: #childFolders;
 		setSelected: #selectedFolder:;
 		getSelected: #selectedFolder;
-		getChildren: #subFoldersOf:;
-		label: #labelForFolder:;
+		getChildren: #subFoldersOf: ;
+		label: #folderNameOf:;	
 		autoDeselect: false;
-		frame: (0 @ 0.15 extent: 0.2 @ 0.85);
-		columns: {
-			[:listMorph | self emphasizeUnseenFolders: listMorph filteredItems.
-				(listMorph filteredItems collect: [:item |
-					item preferredWidthOfColumn: 1]) max].
-			[:listMorph |
-				(listMorph filteredItems collect: [:item |
-					item preferredWidthOfColumn: 2]) max].}.
+		frame: (0 @ 0.15 extent: 0.2 @ 0.85).
 		
 	emailListSpec := builder pluggableTreeSpec new.
 	emailListSpec
@@ -68,16 +55,15 @@ buildWith: builder
 		label: #labelForMail:;
 		setSelected: #selectedEmail:;
 		getSelected: #selectedEmail;
-		hScrollBarPolicy: #always;
-		vScrollBarPolicy: #always;
+		hScrollBarPolicy: #whenNeeded;
+		vScrollBarPolicy: #whenNeeded;
 		menu: #emailListMenu:;
 		autoDeselect: false;
-		columns: {
-			[:listMorph | self emphasizeUnseenMessages: listMorph filteredItems.
-				(listMorph filteredItems collect: [:item |
+		columns: {[:listMorph | self emphasizeUnseenMessages: listMorph filteredItems.
+			(listMorph filteredItems collect: [:item | 
 					item preferredWidthOfColumn: 1]) max].
 			[:listMorph | (listMorph filteredItems collect: [:item |
-					item preferredWidthOfColumn: 2]) max].
+					item preferredWidthOfColumn: 2]) max]. 
 			[:listMorph | (listMorph filteredItems collect: [:item |
 					item preferredWidthOfColumn: 3]) max].};
 		frame: (0.2 @ 0 extent: 0.8 @ 1);
@@ -87,4 +73,5 @@ buildWith: builder
 	window := builder build: windowSpec.
 	window on: #keyStroke send: #keyEvent: to: self.
 	
-	^ window
+	^ window 
+	
