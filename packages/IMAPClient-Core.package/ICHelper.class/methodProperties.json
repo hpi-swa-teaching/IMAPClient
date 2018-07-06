@@ -2,6 +2,7 @@
 	"class" : {
 		"accountDictionariesToEndpoints:" : "C.G. 6/21/2018 10:43",
 		"deleteAccountFromEndpoint:" : "C.G. 6/21/2018 10:45",
+		"getAllFolders:" : "DH 7/6/2018 13:24",
 		"getHashNameForAccount:and:" : "DH 6/12/2018 23:13",
 		"loadCredentialsIntoDictionaries" : "DH 6/21/2018 16:45",
 		"parseStringToBool:" : "DH 6/14/2018 12:42",
