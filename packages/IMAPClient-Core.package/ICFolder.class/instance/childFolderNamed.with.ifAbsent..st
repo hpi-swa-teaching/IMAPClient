@@ -10,9 +10,7 @@ childFolderNamed: name with: delimiter ifAbsent: block
 			(delimiterIndex ~= 0)
 				ifTrue: [
 					rootPart := name first: (delimiterIndex -1).
-					childPart := name last: (name size - (delimiterIndex)).
+					childPart := name last: (name size - delimiterIndex).
 					child := self childFolders detect: [ :childFolder | childFolder name = rootPart].
-					(child)
-						ifNotNil: [^ child childFolderNamed: childPart with: delimiter ifAbsent: block]].
-			
+					child ifNotNil: [^ child childFolderNamed: childPart with: delimiter ifAbsent: block]].
 		^ block value]
