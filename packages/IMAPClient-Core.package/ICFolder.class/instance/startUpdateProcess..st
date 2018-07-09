@@ -1,5 +1,6 @@
 updateEmails
 startUpdateProcess: anUID
+
 	(self name = 'root') ifTrue: [^self].
 	[anUID
 		ifNil: [self getLatestEmails: self class numberOfHeadersToFetchAfterFirstLogin]

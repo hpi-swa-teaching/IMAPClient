@@ -4,10 +4,9 @@ emailsOfSelectedFolder
 	| emails |
 	
 	self selectedFolder ifNil: [^ OrderedCollection new].
-	emails := self selectedFolder emails.
+	emails := self selectedFolder emails copy.
 	
 	emails ifEmpty: [^ emails].
-	(emails last == (ICLoadOlderMail instanceFor: self))
-		ifFalse: [emails add: (ICLoadOlderMail instanceFor: self)].
+	emails add: (ICLoadOlderMail instanceFor: self).
 		
 	^ emails
