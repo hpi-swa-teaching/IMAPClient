@@ -14,7 +14,8 @@
 		"emailAccounts",
 		"uninitializedAccounts",
 		"initializedAccounts",
-		"filterString" ],
+		"filterString"
+		"folderListMenu" ],
 	"name" : "ICFolderDialog",
 	"pools" : [
 		 ],

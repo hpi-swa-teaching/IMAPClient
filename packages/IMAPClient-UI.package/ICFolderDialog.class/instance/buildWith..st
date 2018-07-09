@@ -20,7 +20,14 @@ buildWith: builder
 		autoDeselect: false;
 		getSelected: #selectedAccount;
 		setSelected: #selectedAccount:;
-		frame: (0 @ 0.05 extent: 0.2 @ 0.1).
+		frame: (0 @ 0.05 extent: 0.2 @ 0.1);
+		columns: {
+			[:listMorph | self emphasizeUnseenAccounts: listMorph filteredItems.
+				(listMorph filteredItems collect: [:item |
+					item preferredWidthOfColumn: 1]) max].
+			[:listMorph |
+				(listMorph filteredItems collect: [:item |
+					item preferredWidthOfColumn: 2]) max].}.
 				
 	emailButtonSpec := builder pluggableButtonSpec new.
 	emailButtonSpec
@@ -42,10 +49,17 @@ buildWith: builder
 		roots: #childFolders;
 		setSelected: #selectedFolder:;
 		getSelected: #selectedFolder;
-		getChildren: #subFoldersOf: ;
-		label: #folderNameOf:;	
+		getChildren: #subFoldersOf:;
+		label: #labelForFolder:;
 		autoDeselect: false;
-		frame: (0 @ 0.15 extent: 0.2 @ 0.85).
+		frame: (0 @ 0.15 extent: 0.2 @ 0.85);
+		columns: {
+			[:listMorph | self emphasizeUnseenFolders: listMorph filteredItems.
+				(listMorph filteredItems collect: [:item |
+					item preferredWidthOfColumn: 1]) max].
+			[:listMorph |
+				(listMorph filteredItems collect: [:item |
+					item preferredWidthOfColumn: 2]) max].}.
 		
 	emailSearchSpec := builder pluggableInputFieldSpec new.
 	emailSearchSpec
@@ -67,11 +81,12 @@ buildWith: builder
 		vScrollBarPolicy: #always;
 		menu: #emailListMenu:;
 		autoDeselect: false;
-		columns: {[:listMorph | self emphasizeUnseenMessages: listMorph filteredItems.
-			(listMorph filteredItems collect: [:item | 
+		columns: {
+			[:listMorph | self emphasizeUnseenMessages: listMorph filteredItems.
+				(listMorph filteredItems collect: [:item |
 					item preferredWidthOfColumn: 1]) max].
 			[:listMorph | (listMorph filteredItems collect: [:item |
-					item preferredWidthOfColumn: 2]) max]. 
+					item preferredWidthOfColumn: 2]) max].
 			[:listMorph | (listMorph filteredItems collect: [:item |
 					item preferredWidthOfColumn: 3]) max].};
 		frame: (0.2 @ 0.05 extent: 0.8 @ 0.95);
