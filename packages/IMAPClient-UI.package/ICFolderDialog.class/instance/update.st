@@ -1,7 +1,6 @@
 get emails
 update
 
-	"get Number of Mail Folders"	
 	self numberOfFetchedFolders: 0. 
 	self numberOfFolders: (ICHelper getAllFolders: (self emailAccounts collect: [:each | each rootFolder])) size.
 
