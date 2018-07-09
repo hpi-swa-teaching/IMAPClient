@@ -9,4 +9,4 @@ fromDictionary: configData
 		connectTo: (configData at: 'address') on: ((configData at: 'port') asNumber);
 		login: (configData at: 'username') using: (configData at: 'password')]
 	on: Error
-	do: [:sig | self inform: sig asString]
+	do: [UserDialogBoxMorph inform: 'Connection could not be established' title: '']
