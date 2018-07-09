@@ -15,7 +15,8 @@
 		"initializedAccounts",
 		"folderListMenu",
 		"numberOfFetchedFolders",
-		"numberOfFolders" ],
+		"numberOfFolders",
+		"filterString" ],
 	"name" : "ICFolderDialog",
 	"pools" : [
 		 ],

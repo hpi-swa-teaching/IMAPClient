@@ -2,6 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
+		"fillBodyFor:" : "DH 7/9/2018 15:37",
 		"hierarchyDelimiter" : "ms 7/28/2016 14:04",
+		"mailBody" : "DH 7/9/2018 15:25",
+		"mailBody:" : "DH 7/9/2018 15:25",
 		"rootFolder" : "ms 7/28/2016 14:00",
-		"rootFolder:" : "ms 7/28/2016 14:01" } }
+		"rootFolder:" : "ms 7/28/2016 14:01",
+		"select:" : "DH 7/9/2018 15:37" } }
