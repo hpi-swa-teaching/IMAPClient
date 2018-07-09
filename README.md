@@ -9,3 +9,4 @@
 An Overview of our architecture can be seen [here](https://drive.google.com/file/d/0B7DmQDOI4mJbdm0tTF9hMnVHV0U/view?usp=sharing). 
 
 To start the application, do `ICFolderDialog` open. 
+

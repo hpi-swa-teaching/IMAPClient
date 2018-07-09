@@ -1,7 +1,7 @@
 toolbuilder
 buildWith: builder
 
-	| window windowSpec emailButtonSpec addAccountButtonSpec userListSpec folderTreeSpec emailListSpec |
+	| window windowSpec emailButtonSpec addAccountButtonSpec userListSpec folderTreeSpec emailListSpec emailSearchSpec |
 	
 	windowSpec := builder pluggableWindowSpec new.
 	windowSpec
@@ -61,6 +61,15 @@ buildWith: builder
 				(listMorph filteredItems collect: [:item |
 					item preferredWidthOfColumn: 2]) max].}.
 		
+	emailSearchSpec := builder pluggableInputFieldSpec new.
+	emailSearchSpec
+		model: self;
+		frame: (0.2 @ 0 extent: 0.8 @ 0.05);
+		askBeforeDiscardingEdits: false;
+		editText: #changeFilter:;
+		help: #emailSearchHelp;
+		indicateUnacceptedChanges: false.
+		
 	emailListSpec := builder pluggableTreeSpec new.
 	emailListSpec
 		model: self;
@@ -80,10 +89,10 @@ buildWith: builder
 					item preferredWidthOfColumn: 2]) max].
 			[:listMorph | (listMorph filteredItems collect: [:item |
 					item preferredWidthOfColumn: 3]) max].};
-		frame: (0.2 @ 0 extent: 0.8 @ 1);
+		frame: (0.2 @ 0.05 extent: 0.8 @ 0.95);
 		color: (Color white).
 	
-	windowSpec children addAll: { emailButtonSpec . addAccountButtonSpec . userListSpec . folderTreeSpec . emailListSpec }.
+	windowSpec children addAll: { emailButtonSpec . addAccountButtonSpec . userListSpec . folderTreeSpec . emailListSpec . emailSearchSpec}.
 	window := builder build: windowSpec.
 	window on: #keyStroke send: #keyEvent: to: self.
 	
