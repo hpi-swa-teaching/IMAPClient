@@ -2,7 +2,7 @@ error handling
 checkForBadRequest
 
 	(self fatalErrorOccured)
-		ifTrue: [^ self].
+		ifTrue: [^ false].
 		
 	self responseIsError ifTrue: [
 		self fatalErrorOccured: true.

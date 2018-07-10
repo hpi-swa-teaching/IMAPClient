@@ -2,7 +2,10 @@ message handling
 login
 
 	self checkConnected.
- 	self authenticationInfo isValid ifFalse: [ ^ false ].
+ 	(self authenticationInfo isValid) 
+		ifFalse: [
+			self fatalErrorOccured: true.
+			^ false].
   	self sendCommand: (
 			{ self class loginCommand. 
 			self authenticationInfo username. 
@@ -12,4 +15,5 @@ login
     		loggedIn: self commandSucceeded;
     		checkLoggedIn.
 	self loadEmailsFromMaildir.
+	
   ^ true
