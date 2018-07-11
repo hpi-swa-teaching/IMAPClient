@@ -6,4 +6,3 @@ testAccountWith: aCollection
 	testEndpoint := ICEndPoint new fromDictionary: aCollection.
 	
 	^ ((testEndpoint fatalErrorOccured) not)
-		

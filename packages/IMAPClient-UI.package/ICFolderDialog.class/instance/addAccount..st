@@ -6,7 +6,7 @@ addAccount: aDataDictionary
 	data := OrderedCollection new.
 	data add: aDataDictionary.
 	
-	(self testAccountWith: (data at: 1))
+	(self testAccountWith: aDataDictionary)
 		ifTrue: [	
 			ICHelper saveCredentialsIntoFile: aDataDictionary.
 			self emailAccounts add: ((ICHelper accountDictionariesToEndpoints: data) at: 1).
