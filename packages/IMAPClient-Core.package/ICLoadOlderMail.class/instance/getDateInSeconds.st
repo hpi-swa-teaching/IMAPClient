@@ -1,0 +1,4 @@
+accessing
+getDateInSeconds 
+
+	^ -1

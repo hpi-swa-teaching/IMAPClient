@@ -12,7 +12,7 @@
 		"childFolderNamed:" : "js 6/14/2016 09:31",
 		"childFolderNamed:ifAbsent:" : "C.G. 6/26/2018 10:58",
 		"childFolderNamed:with:" : "C.G. 6/26/2018 11:01",
-		"childFolderNamed:with:ifAbsent:" : "C.G. 6/26/2018 11:02",
+		"childFolderNamed:with:ifAbsent:" : "DH 7/9/2018 00:23",
 		"childFolders" : "js 6/7/2016 11:32",
 		"childFolders:" : "js 6/7/2016 11:32",
 		"countFolders" : "js 6/7/2016 13:24",
@@ -25,8 +25,8 @@
 		"fetchHeadersFrom:" : "DH 6/11/2018 23:18",
 		"fetchHeadersFrom:to:" : "mw 5/25/2018 20:26",
 		"getHighestUID" : "C.G. 7/4/2018 13:08",
-		"getLatestEmails:" : "mw 5/25/2018 20:26",
-		"initialize" : "C.G. 7/4/2018 13:08",
+		"getLatestEmails:" : "C.G. 7/12/2018 08:10",
+		"initialize" : "DH 7/9/2018 11:22",
 		"name" : "js 6/7/2016 12:16",
 		"name:" : "js 6/7/2016 11:48",
 		"numOfUnseenMails" : "lvm 7/4/2018 11:22",
@@ -35,5 +35,6 @@
 		"path" : "DH 7/9/2018 15:38",
 		"removeFolder:" : "js 6/14/2016 09:38",
 		"removeFolder:ifAbsent:" : "js 6/14/2016 09:37",
-		"startUpdateProcess:" : "DH 6/29/2018 15:17",
-		"update" : "C.G. 7/4/2018 13:09" } }
+		"startUpdateProcess:" : "C.G. 7/12/2018 08:11",
+		"update" : "DH 7/9/2018 00:49",
+		"update:" : "C.G. 7/12/2018 08:11" } }
