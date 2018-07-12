@@ -2,6 +2,7 @@ email access
 getLatestEmails: count
 
 	| startUID allUIDs |
+	
 	self endpoint getCurrentUIDsFor: self.
 	allUIDs := self endpoint uids.
 	allUIDs ifEmpty: [^ OrderedCollection new].

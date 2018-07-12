@@ -1,12 +1,13 @@
 accessing
 getDateFormatted
 
+	"Use date in header and convert it into seconds with MailMessage timeFrom Method.
+	Add localOffset to keep it in LocalTime. 
+	Need to add 1.1.1980 because DateAndTime starts there."
+
 	| date formatted |
 	
 	self date = '' ifTrue: [^''].
-	
-	"Use date in header and convert it into seconds with MailMessage timeFrom Method."
-	"add localOffset to keep it in LocalTime. Need to add 1.1.1980 because DateAndTime starts there."
 	
 	date := DateAndTime fromSeconds: self getDateInSeconds.
 	

@@ -4,12 +4,11 @@ folderListMenu
 	| aMenu folders |
 	
 	aMenu := MenuMorph new.
-	
 	folders := ICHelper getAllFolders: ((self rootFolder) asOrderedCollection).
 
-	folders allButFirst do: [ :each | 
+	folders allButFirst do: [:each | 
 		aMenu 
 			add: (self folderNameOf: each) 
 			action: [self moveEmail: (each path)]].
 		
-	^aMenu
+	^ aMenu
