@@ -5,12 +5,8 @@ fromDictionary: configData
 	
 	| possiblyEmptyParameters errorMessage |
 	
-	self halt.
 	possiblyEmptyParameters := self checkForEmptyParameter: configData.
 	errorMessage := 'Please put in '.
-	
-	Transcript show: possiblyEmptyParameters; cr.
-	Transcript show: possiblyEmptyParameters isEmpty; cr.
 	
 	(possiblyEmptyParameters isEmpty) 
 		ifFalse: [
@@ -22,8 +18,7 @@ fromDictionary: configData
 		UserDialogBoxMorph inform: errorMessage title: ''.
 		self fatalErrorOccured: true.
 		^ self].
-			
-	Transcript show: configData.
+	
 	[self
 		ssl: (configData at: 'ssl');
 		name: (configData at: 'name');
