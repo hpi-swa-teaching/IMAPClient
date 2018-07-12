@@ -6,5 +6,6 @@ checkLoggedIn
 	
 	self isLoggedIn 
 		ifFalse: [
-			self fatalErrorOccured: true]
-		
+			self fatalErrorOccured: true.
+			^ false].
+	^ true

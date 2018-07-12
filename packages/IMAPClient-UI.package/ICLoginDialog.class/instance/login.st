@@ -16,4 +16,6 @@ login
 	
 	(self updateMode)
 		ifFalse: [folderDialogInstance addAccount: dataDictionary]
-		ifTrue: [folderDialogInstance editAccount: dataDictionary with: (self endpoint)]
+		ifTrue: [folderDialogInstance editAccount: dataDictionary with: (self endpoint)].
+		
+	self loginMorph abandon
