@@ -4,15 +4,13 @@ childFolderNamed: name with: delimiter ifAbsent: block
 	^ self childFolders 
 		detect: [:child | child name = name] 
 		ifNone: [ 
-			| rootPart childPart delimiterIndex child |
+			| rootPart childPart child parts |
 			"splice at delimiter and ask child"
-			delimiterIndex := name indexOf: delimiter asCharacter.
-			(delimiterIndex ~= 0)
+			parts := name subStrings: delimiter.
+			(parts size > 1)
 				ifTrue: [
-					rootPart := name first: (delimiterIndex -1).
-					childPart := name last: (name size - (delimiterIndex)).
+					rootPart := parts first.
+					childPart := parts allButFirst joinSeparatedBy: delimiter.
 					child := self childFolders detect: [ :childFolder | childFolder name = rootPart].
-					(child)
-						ifNotNil: [^ child childFolderNamed: childPart with: delimiter ifAbsent: block]].
-			
-		^ block value]
+					child ifNotNil: [^ child childFolderNamed: childPart with: delimiter ifAbsent: block]].
+			^ block value]
