@@ -2,10 +2,8 @@ flags
 modifyFlag: aFlag
 
 	selectedEmail modifyFlag: aFlag.
-	(aFlag = #seen)
-		ifTrue: [selectedEmail seen: (selectedEmail retrieveFlags at: aFlag)]
-		ifFalse: [selectedEmail flagged: (selectedEmail retrieveFlags at: aFlag)]. 
-	selectedEmail saveInMaildir.
+	selectedEmail retrieveFlags.
+	
 	self
 		changed: #emailsOfSelectedFolder;
 		changed: #childFolders;

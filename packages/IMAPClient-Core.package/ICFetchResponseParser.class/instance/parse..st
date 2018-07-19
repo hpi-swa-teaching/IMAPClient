@@ -1,7 +1,7 @@
 parser managment
 parse: aStream
 	
-	[reader := aStream.
+	[self reader: aStream.
 	"try to parse one mail after another"
 	[reader atEnd] whileFalse: [self parseMail].
 	^ self emails] 

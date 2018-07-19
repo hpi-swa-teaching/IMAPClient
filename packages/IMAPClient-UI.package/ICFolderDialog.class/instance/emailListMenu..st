@@ -1,12 +1,15 @@
 folder selection
 emailListMenu: aMenu
-
+	
+	"update the flags of the mail"
+	self selectedEmail retrieveFlags.
+	
 	aMenu
-		add: ((self selectedEmail retrieveFlags at: #seen) 
+		add: ((self selectedEmail seen) 
 			ifTrue: ['Mark as unseen'] 
 			ifFalse: ['Mark as seen'])  
 			action: [self modifyFlag: #seen];
-		add: ((self selectedEmail retrieveFlags at: #flagged) 
+		add: ((self selectedEmail flagged) 
 			ifTrue: ['Unflag']
 			ifFalse: ['Mark as flagged'])  
 			action: [self modifyFlag: #flagged];

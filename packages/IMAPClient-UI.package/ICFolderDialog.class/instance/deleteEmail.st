@@ -1,6 +1,7 @@
 email selection
 deleteEmail
-	(selectedEmail retrieveFlags at: #deleted)
+	selectedEmail retrieveFlags.
+	(selectedEmail deleted)
 		ifTrue: [selectedEmail expungeEmails]
 		ifFalse: [selectedEmail deleteEmail].
 		

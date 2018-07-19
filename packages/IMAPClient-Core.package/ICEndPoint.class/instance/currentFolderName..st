@@ -1,3 +1,3 @@
-fetching
+accessing
 currentFolderName: aFolderName
 	currentFolderName := aFolderName.

@@ -21,7 +21,7 @@
 		"emails:" : "ms 6/28/2016 09:52",
 		"endpoint" : "ms 7/10/2016 13:24",
 		"endpoint:" : "ms 7/10/2016 13:24",
-		"fetchHeadersFrom:" : "DH 6/11/2018 23:18",
+		"fetchHeadersFrom:" : "DH 7/19/2018 21:47",
 		"fetchHeadersFrom:to:" : "mw 5/25/2018 20:26",
 		"getHighestUID" : "C.G. 7/4/2018 13:08",
 		"getLatestEmails:" : "C.G. 7/12/2018 08:10",
@@ -34,6 +34,7 @@
 		"path" : "DH 7/9/2018 15:38",
 		"removeFolder:" : "js 6/14/2016 09:38",
 		"removeFolder:ifAbsent:" : "js 6/14/2016 09:37",
-		"startUpdateProcess:" : "C.G. 7/12/2018 08:11",
+		"retrieveFlagsFrom:to:" : "DH 7/19/2018 21:46",
+		"startUpdateProcess:" : "DH 7/19/2018 22:08",
 		"update" : "DH 7/9/2018 00:49",
 		"update:" : "C.G. 7/12/2018 08:11" } }

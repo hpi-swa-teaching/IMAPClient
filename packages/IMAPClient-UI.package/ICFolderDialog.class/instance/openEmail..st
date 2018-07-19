@@ -2,10 +2,10 @@ email selection
 openEmail: anICEmail
 	
 	anICEmail open.
-	selectedEmail seen: (selectedEmail retrieveFlags at: #seen).
-	
+		
 	anICEmail isFlaggable
 		ifTrue: [
+			selectedEmail retrieveFlags.
 			self
 				changed: #emailsOfSelectedFolder;
 				changed: #childFolders;
