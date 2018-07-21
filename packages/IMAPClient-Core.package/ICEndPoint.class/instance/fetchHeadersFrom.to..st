@@ -1,5 +1,5 @@
 fetching
-fetchHeadersFrom: aBeginId to: anEndId 
+fetchHeadersFrom: aBeginUID to: anEndUID 
 	| start end |
 	
 	"This Method takes the anEndId-aBeginId+1 latest Messages...
@@ -9,14 +9,15 @@ fetchHeadersFrom: aBeginId to: anEndId
 	"start..* makes no sense imo --> we should rework."
 
 	self getCurrentUIDs.
-	aBeginId >  (self uids size)
+	
+	aBeginUID >  (self uids size)
 		ifTrue: [ ^ OrderedCollection new ].
-	anEndId = '*'
+	anEndUID = '*'
 		ifTrue: [ start := self uids first ]
-		ifFalse: [ anEndId >  (self uids size)
+		ifFalse: [ anEndUID >  (self uids size)
 				ifTrue: [start := self uids first ]
-				ifFalse: [start := self uids at:  (self uids size) - anEndId + 1 ] ].
-	end := self uids at:  (self uids size) - aBeginId + 1.		
+				ifFalse: [start := self uids at:  (self uids size) - anEndUID + 1 ] ].
+	end := self uids at:  (self uids size) - aBeginUID + 1.		
 	^ self maildirDiffFetchHeadersFrom: start to: end
 		
 	

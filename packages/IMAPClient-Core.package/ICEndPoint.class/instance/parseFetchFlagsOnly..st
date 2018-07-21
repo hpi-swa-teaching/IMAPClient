@@ -2,7 +2,6 @@ protocol parse
 parseFetchFlagsOnly: aFolder
 
 	"method to parse a flags-only response"
-	
 	(self lastResponse isEmpty) 
 		ifTrue: [^ '']. 
 		
@@ -15,7 +14,7 @@ parseFetchFlagsOnly: aFolder
 		uid := uid first.
 		
 		email := aFolder emails detect: [ :mail | mail uid asString = uid] ifNone: [^ ''].
-		
+				
 		"only update maildir file, it something changes, this improves performance drastically"
 		((email seen ~= (line includesSubString: '\Seen')) or: 
 		(email flagged ~= (line includesSubString: '\Flagged')) or:
