@@ -10,7 +10,8 @@ login
 		ifFalse: [^ self].
 	
 	((ICEndPoint new) testAccountWith: dataDictionary)
-		ifTrue: [	
+		ifTrue: [
+			self loginMorph abandon.
 			(self updateMode)
 				ifFalse: [folderDialogInstance addAccount: dataDictionary]
 				ifTrue: [folderDialogInstance editAccount: dataDictionary with: (self endpoint)]]
