@@ -7,4 +7,6 @@ checkConnected
 	self stream isConnected 
 		ifFalse: [
 			self fatalErrorOccured: true.
-			^ Error signal: self class errorNoConnection]
+			^ false].
+		
+	^ true
