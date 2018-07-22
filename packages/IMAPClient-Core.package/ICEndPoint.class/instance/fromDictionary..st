@@ -5,7 +5,6 @@ fromDictionary: configData
 	
 	| possiblyEmptyParameters errorMessage |
 	
-	self halt.
 	possiblyEmptyParameters := self checkForEmptyParameter: configData.
 	errorMessage := 'Please put in '.
 	

@@ -9,7 +9,8 @@ makeParameterCollection: aCollection
 	sortedCollection := OrderedCollection new.
 	(aCollection includes: 'password') ifTrue: [sortedCollection addFirst: 'password'].
 	(aCollection includes: 'username') ifTrue: [sortedCollection addFirst: 'username'].
-	(aCollection includes: 'address') ifTrue:  [sortedCollection addFirst: 'server address'].
+	(aCollection includes: 'port') ifTrue: [sortedCollection addFirst: 'server port'].
+	(aCollection includes: 'address') ifTrue: [sortedCollection addFirst: 'server address'].
 	(aCollection includes: 'name') ifTrue: [sortedCollection addFirst: 'account name'].
 	
 	^ sortedCollection

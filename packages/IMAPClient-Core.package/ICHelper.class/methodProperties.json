@@ -4,9 +4,11 @@
 		"deleteAccountFromEndpoint:" : "C.G. 6/21/2018 10:45",
 		"getHashNameForAccount:and:" : "DH 6/12/2018 23:13",
 		"loadCredentialsIntoDictionaries" : "DH 6/21/2018 16:45",
-		"makeParameterCollection:" : "C.G. 7/11/2018 16:20",
+		"makeParameterCollection:" : "C.G. 7/22/2018 18:27",
+		"parameterCollection:" : "C.G. 7/11/2018 15:50",
 		"parseStringToBool:" : "DH 6/14/2018 12:42",
 		"resetMailData" : "C.G. 7/4/2018 13:10",
-		"saveCredentialsIntoFile:" : "DH 6/21/2018 09:10" },
+		"saveCredentialsIntoFile:" : "DH 6/21/2018 09:10",
+		"sortParameter:" : "C.G. 7/11/2018 15:50" },
 	"instance" : {
 		 } }
