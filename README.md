@@ -29,6 +29,9 @@ Password: xxxxxxx
 Use SSL: True
 ```
 
+## Safety
+You don't have to be worried about your passwords, of course we won't save them. After closing the IMAP-Client and reopening it your are welcomed by a password prompt to re-enter your credentials.
+
 ## History
 2016: Johannes Schneider, Maximilian Söchting, Julian Weise, Alexander Riese, Alexander Loeser
 
