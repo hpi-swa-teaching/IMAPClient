@@ -6,12 +6,9 @@ connectTo: serverInfo with: aStreamClass
 	Transcript cr; cr; show: 'connectTo'; cr; cr.
 	
 	self serverInfo: serverInfo.
-	self stream
-		ssl: self useSSL.
-	[self connectTo: self serverInfo host on: self serverInfo port with: aStreamClass]
-		on: Error
-		do: [Transcript show: 'something'].
-		
-	Transcript show: 'Before nextResponse'; cr.
-	self nextResponse. "skip server greetings"
-		Transcript show: 'After nextResponse '
+	[self stream
+		ssl: self useSSL;
+		connectTo: self serverInfo host on: self serverInfo port with: aStreamClass;
+		nextResponse "skip server greetings"]
+	on: Error
+	do: [self fatalErrorOccured: true]

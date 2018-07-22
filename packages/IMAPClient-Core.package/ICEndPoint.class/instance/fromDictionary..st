@@ -4,7 +4,7 @@ fromDictionary: configData
 	"initializes endpoint with a dictionary"
 	
 	| possiblyEmptyParameters errorMessage |
-	
+
 	possiblyEmptyParameters := self checkForEmptyParameter: configData.
 	errorMessage := 'Please put in '.
 	
@@ -21,8 +21,8 @@ fromDictionary: configData
 		UserDialogBoxMorph inform: errorMessage title: ''.
 		self fatalErrorOccured: true.
 		^ self].
-			
-	Transcript show: configData.
+	
+	self halt.
 	[self
 		ssl: (configData at: 'ssl');
 		name: (configData at: 'name');
