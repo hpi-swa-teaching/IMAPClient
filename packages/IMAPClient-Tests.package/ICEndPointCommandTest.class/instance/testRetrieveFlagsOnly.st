@@ -1,11 +1,13 @@
 logout
 testRetrieveFlagsOnly
 
-	| folder mailA mailB emailObjects folderName mailAPath mailBPath path mockResponse readWriter |
+	| folder mailA mailB emailObjects folderName mailAPath mailBPath path readWriter |
 	
 	" load emails from server and store them locally "
-				
-	emailObjects := self endPoint fetchHeadersFrom: 6 to: 7.
+	
+	" to test the functionality I need ICEMails, which are already present in storage, 
+	  so I can check whether the flags are updated " 			
+	emailObjects := self endPoint maildirDiffFetchHeadersFrom: '3' to: '4'.
 	mailA := emailObjects first.
 	mailB := emailObjects second.
 	
@@ -23,13 +25,7 @@ testRetrieveFlagsOnly
 	self assert: mailB seen equals: true.
 	self assert: mailB flagged equals: false.
 	
-	" add the respose, which is needed by retrieveFlags to the MockServer "
-	mockResponse := OrderedCollection newFrom: {
-		 '* 1 FLAGS( \Flagged) UID 3'.
-		 '* 2 FLAGS( \Flagged) UID 4'.
-		'. OK FETCH completed.' }.
-	
-	self endPoint stream server responses at: '. UID FETCH 3:4 (FLAGS)' put: mockResponse.
+	" now retrive flags to trigger update "
 	self endPoint retrieveFlagsFrom: 3 to: 4 in: folder.
 	
 	" asserts that the flags - in the mail object - were updated "

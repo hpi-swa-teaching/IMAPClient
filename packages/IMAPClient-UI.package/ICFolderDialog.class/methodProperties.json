@@ -1,6 +1,5 @@
 {
 	"class" : {
-		"numberOfHeadersToFetchAfterFirstLogin" : "lvm 5/24/2018 10:34",
 		"open" : "DH 7/19/2018 18:21" },
 	"instance" : {
 		"accountsComplete" : "DH 7/4/2018 13:23",
@@ -32,7 +31,6 @@
 		"folderListMenu" : "C.G. 7/12/2018 08:14",
 		"folderNameOf:" : "DH 7/4/2018 20:17",
 		"getFolderWith:" : "DH 6/21/2018 20:22",
-		"getLowestUID" : "C.G. 6/21/2018 00:21",
 		"initialize" : "DH 6/23/2018 16:23",
 		"initializedAccounts" : "C.G. 6/20/2018 21:18",
 		"initializedAccounts:" : "C.G. 6/20/2018 21:18",
@@ -42,7 +40,7 @@
 		"labelForFolder:" : "lvm 7/4/2018 11:13",
 		"labelForMail:" : "C.G. 6/26/2018 11:06",
 		"loadOlderEmails" : "C.G. 6/21/2018 00:23",
-		"loadOlderEmailsProcess" : "lvm 7/3/2018 21:59",
+		"loadOlderEmailsProcess" : "DH 7/22/2018 22:02",
 		"modifyFlag:" : "DH 7/19/2018 19:52",
 		"moveEmail:" : "lvm 7/8/2018 11:46",
 		"numberOfFetchedFolders" : "C.G. 7/12/2018 08:14",
