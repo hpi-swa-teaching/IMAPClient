@@ -29,6 +29,8 @@ fromDictionary: configData
 		login: (configData at: 'username') using: (configData at: 'password')]
 	valueWithin: 2 seconds 
 	onTimeout: [
-		self fatalErrorOccured: true.
-		UserDialogBoxMorph inform: 'Connection could not be established' title: '']
+		(self fatalErrorOccured)
+			ifFalse: [
+				UserDialogBoxMorph inform: 'Connection could not be established' title: ''.
+				self fatalErrorOccured: true]]
 			

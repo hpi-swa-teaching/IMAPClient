@@ -14,6 +14,8 @@ login
 	dataDictionary at: 'password' put: self password asString.
 	dataDictionary at: 'ssl' put: self ssl.
 	
-	(self updateMode)
-		ifFalse: [folderDialogInstance addAccount: dataDictionary]
-		ifTrue: [folderDialogInstance editAccount: dataDictionary with: (self endpoint)]
+	((ICEndPoint new) testAccountWith: dataDictionary)
+		ifTrue: [	
+			(self updateMode)
+				ifFalse: [folderDialogInstance addAccount: dataDictionary]
+				ifTrue: [folderDialogInstance editAccount: dataDictionary with: (self endpoint)]]
