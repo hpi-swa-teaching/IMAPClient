@@ -3,24 +3,10 @@ fromDictionary: configData
 	
 	"initializes endpoint with a dictionary"
 	
-	| possiblyEmptyParameters errorMessage |
-
-	possiblyEmptyParameters := self checkForEmptyParameter: configData.
-	errorMessage := 'Please put in '.
-	
-	Transcript show: possiblyEmptyParameters; cr.
-	Transcript show: possiblyEmptyParameters isEmpty; cr.
-	
-	(possiblyEmptyParameters isEmpty) 
+	(self checkForEmptyParameter: configData)
 		ifFalse: [
-			(ICHelper makeParameterCollection: possiblyEmptyParameters) do: [:parameter |
-				errorMessage := errorMessage, parameter asString.
-				(parameter ~= (ICHelper makeParameterCollection: possiblyEmptyParameters) last)
-					ifTrue: [errorMessage := errorMessage, ', ']].
-		errorMessage := errorMessage, ' data'.
-		UserDialogBoxMorph inform: errorMessage title: ''.
-		self fatalErrorOccured: true.
-		^ self].
+			self fatalErrorOccured: true.
+			^ self].
 	
 	[self
 		ssl: (configData at: 'ssl');

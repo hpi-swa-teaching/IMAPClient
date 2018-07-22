@@ -1,12 +1,14 @@
-connection
+error handling
 checkForEmptyParameter: aCollection
 
-	| emptyParameters |
+	| possiblyEmptyParameters |
 	
-	emptyParameters := OrderedCollection new.
+	possiblyEmptyParameters := self emptyParameterFrom: aCollection.	
+	(possiblyEmptyParameters isEmpty) 
+		ifFalse: [
+			self displayEmptyFieldErrorMessage: possiblyEmptyParameters.			
+			^ false].
 	
-	aCollection keysAndValuesDo:  [:key :value |
-		(value = nil asString)
-			ifTrue: [emptyParameters add: key]].
-
-	^ emptyParameters
+	^ true
+	
+	
