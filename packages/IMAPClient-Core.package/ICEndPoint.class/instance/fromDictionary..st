@@ -22,7 +22,6 @@ fromDictionary: configData
 		self fatalErrorOccured: true.
 		^ self].
 	
-	self halt.
 	[self
 		ssl: (configData at: 'ssl');
 		name: (configData at: 'name');
@@ -30,5 +29,4 @@ fromDictionary: configData
 		login: (configData at: 'username') using: (configData at: 'password')]
 			on: Error
 			do: [
-				self fatalErrorOccured: true.
-				UserDialogBoxMorph inform: 'Connection could not be established' title: '']
+				self fatalErrorOccured: true]

@@ -14,8 +14,9 @@ login
     		fetchNextResponse;
     		loggedIn: self commandSucceeded.
 		
-    	(self checkLoggedIn)
+    (self checkLoggedIn)
 		ifFalse: [^ false].
+	
 	self loadEmailsFromMaildir.
 	
   ^ true

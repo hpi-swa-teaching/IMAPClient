@@ -3,8 +3,6 @@ connectTo: serverInfo with: aStreamClass
 
 	serverInfo isValid ifFalse: [ ^ Error signal: self class errorInvalidConnectionConfiguration ].
 	
-	Transcript cr; cr; show: 'connectTo'; cr; cr.
-	
 	self serverInfo: serverInfo.
 	[self stream
 		ssl: self useSSL;
