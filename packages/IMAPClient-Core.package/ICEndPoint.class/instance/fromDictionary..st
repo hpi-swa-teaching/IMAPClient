@@ -1,13 +1,6 @@
 accessing
 fromDictionary: configData
 	
-	"initializes endpoint with a dictionary"
-	
-	(self checkForEmptyParameter: configData)
-		ifFalse: [
-			self fatalErrorOccured: true.
-			^ self].
-	
 	[self
 		ssl: (configData at: 'ssl');
 		name: (configData at: 'name');

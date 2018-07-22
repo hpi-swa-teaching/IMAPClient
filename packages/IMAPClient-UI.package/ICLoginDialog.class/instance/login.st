@@ -6,6 +6,8 @@ login
 	| dataDictionary |
 	
 	dataDictionary := self makeDataDictionary.
+	(self checkForEmptyParameter: dataDictionary)
+		ifFalse: [^ self].
 	
 	((ICEndPoint new) testAccountWith: dataDictionary)
 		ifTrue: [	

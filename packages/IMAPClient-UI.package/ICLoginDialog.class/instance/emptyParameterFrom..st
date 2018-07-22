@@ -1,4 +1,4 @@
-connection
+as yet unclassified
 emptyParameterFrom: aCollection
 
 	| emptyParameters |

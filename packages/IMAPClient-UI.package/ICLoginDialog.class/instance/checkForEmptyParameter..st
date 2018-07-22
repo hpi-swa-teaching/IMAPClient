@@ -1,6 +1,6 @@
-error handling
+as yet unclassified
 checkForEmptyParameter: aCollection
-
+	
 	| possiblyEmptyParameters |
 	
 	possiblyEmptyParameters := self emptyParameterFrom: aCollection.	
@@ -10,5 +10,3 @@ checkForEmptyParameter: aCollection
 			^ false].
 	
 	^ true
-	
-	

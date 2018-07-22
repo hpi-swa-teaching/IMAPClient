@@ -9,5 +9,4 @@ displayEmptyFieldErrorMessage: aCollection
 				(parameter ~= (ICHelper makeParameterCollection: aCollection) last)
 					ifTrue: [errorMessage := errorMessage, ', ']].
 		errorMessage := errorMessage, ' data'.
-		UserDialogBoxMorph inform: errorMessage title: ''.
-		self fatalErrorOccured: true.
+		UserDialogBoxMorph inform: errorMessage title: ''
