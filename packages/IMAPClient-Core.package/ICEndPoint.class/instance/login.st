@@ -12,8 +12,10 @@ login
 			self authenticationInfo password } 
 			joinSeparatedBy: self class protocolBlank);
     		fetchNextResponse;
-    		loggedIn: self commandSucceeded;
-    		checkLoggedIn.
+    		loggedIn: self commandSucceeded.
+		
+    	(self checkLoggedIn)
+		ifFalse: [^ false].
 	self loadEmailsFromMaildir.
 	
   ^ true
