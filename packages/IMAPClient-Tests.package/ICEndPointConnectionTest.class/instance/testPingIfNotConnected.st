@@ -1,6 +1,5 @@
 accessing
 testPingIfNotConnected
 
-	[self 
-		should: [self endPoint ping] 
-		raise: Exception] valueSuppressingAllMessages
+	self endPoint ping.
+	self assert: self endPoint fatalErrorOccured equals: true
