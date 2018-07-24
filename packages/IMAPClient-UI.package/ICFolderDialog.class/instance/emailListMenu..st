@@ -1,5 +1,10 @@
 folder selection
 emailListMenu: aMenu
+
+	self selectedEmail ifNil: [^ aMenu].
+	
+	"ICLoadOlderMail shouldnt open context menu"
+	self selectedEmail isFlaggable ifFalse: [^ aMenu].
 	
 	"update the flags of the mail"
 	self selectedEmail retrieveFlags.
