@@ -9,7 +9,7 @@
 		"numberOfHeadersToFetchAtTheBeginning" : "DH 7/22/2018 22:37" },
 	"instance" : {
 		"addFolder:" : "js 6/7/2016 13:09",
-		"checkTopicality" : "DH 7/23/2018 00:00",
+		"checkTopicality" : "DH 7/25/2018 00:33",
 		"childFolderNamed:" : "js 6/14/2016 09:31",
 		"childFolderNamed:ifAbsent:" : "C.G. 6/26/2018 10:58",
 		"childFolderNamed:with:" : "C.G. 6/26/2018 11:01",
@@ -21,7 +21,7 @@
 		"emails:" : "ms 6/28/2016 09:52",
 		"endpoint" : "ms 7/10/2016 13:24",
 		"endpoint:" : "ms 7/10/2016 13:24",
-		"fetchHeadersFrom:" : "C.G. 7/24/2018 16:33",
+		"fetchHeadersFrom:" : "DH 7/25/2018 00:38",
 		"getHighestUID" : "DH 7/22/2018 23:55",
 		"getLatestEmails:" : "C.G. 7/12/2018 08:10",
 		"getLowestUID" : "DH 7/22/2018 23:56",
