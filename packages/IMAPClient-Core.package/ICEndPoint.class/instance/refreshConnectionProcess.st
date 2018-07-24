@@ -1,10 +1,12 @@
 connection
 refreshConnectionProcess
-	
-	[self isConnected and: self isLoggedIn] whileTrue: [
-		self sendCommand: self class noopCommand.
-		self fetchNextResponse.
-		Transcript show: ('Just called Delay ', TimeStamp now).
-		(Delay forSeconds: 60*28) wait.
-	].
-	Transcript show: 'Thread terminated'
+
+	| delayTime |
+	delayTime := 60 * 10.  "Wait for 10 minutes."
+	[self isConnected and: [self isLoggedIn]]
+		whileTrue: [
+			self sendCommand: self class noopCommand.
+			self fetchNextResponse.
+			Transcript show: 'Prevent timeout'.
+			(Delay forSeconds: delayTime) wait
+		]
