@@ -13,7 +13,6 @@
 		"emailAccounts",
 		"uninitializedAccounts",
 		"initializedAccounts",
-		"folderListMenu",
 		"numberOfFetchedFolders",
 		"numberOfFolders",
 		"filterString" ],

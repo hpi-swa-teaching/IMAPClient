@@ -1,4 +1,4 @@
-fetching
+accessing
 currentFolderName
 	^ currentFolderName
 	

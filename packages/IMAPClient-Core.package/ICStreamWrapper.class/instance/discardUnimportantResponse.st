@@ -1,4 +1,0 @@
-connection
-discardUnimportantResponse
-
-	self stream nextLine

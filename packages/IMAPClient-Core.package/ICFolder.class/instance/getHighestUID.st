@@ -3,4 +3,4 @@ getHighestUID
 	
 	(self emails) ifEmpty: [^ nil].
 		
-	^ (self emails at: 1) uid
+	^ (self emails detectMax: [:mail | mail uid asNumber]) uid.

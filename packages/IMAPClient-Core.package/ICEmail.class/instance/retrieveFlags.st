@@ -1,4 +1,5 @@
 fetch body
 retrieveFlags
 
-	^ self folder endpoint select: self folder path; retrieveFlagsFor: self
+	self folder retrieveFlagsFrom: self uid to: self uid.
+	

@@ -7,9 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"currentMail",
-		"reader",
 		"emails",
-		"currentID" ],
+		"currentID",
+		"reader" ],
 	"name" : "ICFetchResponseParser",
 	"pools" : [
 		 ],

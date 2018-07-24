@@ -1,0 +1,4 @@
+constants
+numberOfHeadersToFetchAtTheBeginning
+
+	^ 100
