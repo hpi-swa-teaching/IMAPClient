@@ -10,7 +10,7 @@ changeInputField: currentIndex
 			correctSubmorph := self inputCollection detect: [:each | 
 					(each getTextSelector = (self symbolArray at: (currentIndex + 1)))]. 	
 		
-		"get text of next input field"
+		"get text of next input field - to select it"
 		text := self perform: (correctSubmorph getTextSelector).
 		text ifNotNil:[
 			text size > 0

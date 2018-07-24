@@ -1,7 +1,7 @@
 helper
 keyEvent: aKey
 
-	"global keyEvent listener attached to morph and input fields"
+	" keyEvent listener attached to morph and input fields"
 	
 	| shouldLogin |
 	
