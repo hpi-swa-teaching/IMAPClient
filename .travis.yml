@@ -3,4 +3,7 @@ sudo: false
 
 smalltalk:
   - Squeak-5.1
- 
+  - Squeak-trunk
+
+matrix:
+    allow_failures:
