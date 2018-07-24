@@ -5,4 +5,4 @@ loadOlderMails
 	
 	self emails addAll: (self endpoint
 		getCurrentUIDsFor: self;
-		fetchMailsBeginningAt: self emails last uid number: self class numberOfHeadersToFetchAtLoadOlderMails)
+		fetchMailsBeginningAt: self getLowestUID number: self class numberOfHeadersToFetchAtLoadOlderMails)
