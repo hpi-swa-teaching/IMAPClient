@@ -1,4 +1,6 @@
 accessing
 testPingIfNotConnected
 
-	self should: [ self endPoint ping ] raise: Exception. 
+	[self 
+		should: [self endPoint ping] 
+		raise: Exception] valueSuppressingAllMessages

@@ -10,6 +10,6 @@ fromDictionary: configData
 	onTimeout: [
 		(self fatalErrorOccured)
 			ifFalse: [
-				UserDialogBoxMorph inform: 'Connection could not be established' title: ''.
+				UIManager default inform: 'Connection could not be established'.
 				self fatalErrorOccured: true]]
 			
