@@ -16,7 +16,8 @@
 		"uids",
 		"hierarchyDelimiter",
 		"currentFolderName",
-		"name" ],
+		"name",
+		"fatalErrorOccured" ],
 	"name" : "ICEndPoint",
 	"pools" : [
 		 ],
