@@ -13,9 +13,9 @@
 		"emailAccounts",
 		"uninitializedAccounts",
 		"initializedAccounts",
-		"numberOfFetchedFolders",
+		"filterString",
 		"numberOfFolders",
-		"filterString" ],
+		"numberOfFetchedFolders" ],
 	"name" : "ICFolderDialog",
 	"pools" : [
 		 ],

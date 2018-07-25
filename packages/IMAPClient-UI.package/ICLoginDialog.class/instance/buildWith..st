@@ -74,7 +74,6 @@ buildWith: builder
 		color: #checkBoxColor;
 		state: #ssl;
 		action: #toggleSSL.
-					
 		
 	loginButtonSpec := builder pluggableButtonSpec new.
 	loginButtonSpec
@@ -83,8 +82,8 @@ buildWith: builder
 		label: #getButtonLabel;
 		action: #login.
 			
-	windowSpec children addAll: { loginButtonSpec . serverAdressInputFieldSpec . serverPortInputFieldSpec . userInputFieldSpec . 
-								     nameInputFieldSpec . passwordInputFieldSpec . sslCheckBoxSpec }.
+	windowSpec children addAll: {loginButtonSpec . serverAdressInputFieldSpec . serverPortInputFieldSpec . userInputFieldSpec . 
+		nameInputFieldSpec . passwordInputFieldSpec . sslCheckBoxSpec}.
 
 	window := builder build: windowSpec.
 	

@@ -12,6 +12,6 @@
 		"setUp" : "AR 7/14/2016 09:17",
 		"tearDown" : "js 6/7/2016 09:42",
 		"testConnectToOn" : "jwe 7/28/2016 14:01",
-		"testConnectToOnWithWrongHost" : "ms 7/28/2016 13:09",
-		"testConnectToOnWithWrongPort" : "ms 7/28/2016 13:09",
-		"testPingIfNotConnected" : "js 6/14/2016 10:48" } }
+		"testConnectToOnWithWrongHost" : "C.G. 7/24/2018 18:50",
+		"testConnectToOnWithWrongPort" : "C.G. 7/24/2018 18:51",
+		"testPingIfNotConnected" : "C.G. 7/24/2018 18:53" } }

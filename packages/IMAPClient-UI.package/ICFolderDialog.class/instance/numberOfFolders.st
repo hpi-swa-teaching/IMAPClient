@@ -1,4 +1,0 @@
-accessing
-numberOfFolders
-
-	^ numberOfFolders

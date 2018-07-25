@@ -1,4 +1,11 @@
 error handling
 checkLoggedIn
 		
-	self isLoggedIn ifFalse: [ ^ Error signal: self class errorLoginFailed ]
+	(self fatalErrorOccured)
+		ifTrue: [^ false].
+	
+	self isLoggedIn 
+		ifFalse: [
+			self fatalErrorOccured: true.
+			^ false].
+	^ true
