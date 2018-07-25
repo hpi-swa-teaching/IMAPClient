@@ -9,4 +9,5 @@ open: aFolderDialogInstance with: anEndpoint
 	instance loadData: anEndpoint asDictionary.
 	instance updateMode: true.
 	instance endpoint: anEndpoint.
+	
 	^ ToolBuilder default open: instance

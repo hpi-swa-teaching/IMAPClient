@@ -10,10 +10,10 @@ folderNameOf: folder
 	offset := ''.
 	currentFolder := folder.
 	
-	[(currentFolder parent ~= currentFolder) and: (currentFolder parent ~= (self rootFolder at:1))] whileTrue: [
-	     levelCounter := levelCounter + 1.
-		currentFolder := currentFolder parent.
-	].
+	[(currentFolder parent ~= currentFolder) and: (currentFolder parent ~= (self rootFolder at:1))] 
+		whileTrue: [
+			levelCounter := levelCounter + 1.
+			currentFolder := currentFolder parent].
 
 	1 to: levelCounter do: [ :i | offset := offset , '  '].
 	

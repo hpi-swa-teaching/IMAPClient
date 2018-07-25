@@ -7,5 +7,3 @@ getBody
 	mimeDoc := MailMessage new initializeFromString: body.
 	
 	^ mimeDoc bodyTextFormatted
-	
-	

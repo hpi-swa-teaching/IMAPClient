@@ -45,7 +45,7 @@ buildWith: builder
 		getText: #getBody;
 		frame: (0 @ 0.2 extent: 1 @ 0.8).
 
-	windowSpec children addAll: { senderLabelSpec . subjectSpec . recipientSpec . bodySpec }.
+	windowSpec children addAll: {senderLabelSpec . subjectSpec . recipientSpec . bodySpec}.
 	
 	window := builder build: windowSpec.
 	

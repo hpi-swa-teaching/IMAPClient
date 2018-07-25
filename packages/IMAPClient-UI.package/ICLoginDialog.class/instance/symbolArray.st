@@ -1,3 +1,4 @@
 accessing
 symbolArray
+
 	^ symbolArray

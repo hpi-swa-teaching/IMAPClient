@@ -13,5 +13,3 @@ changeAccounts: anAccount
 		changed: #rootFolder;
 		changed: #childFolders;
 		changed: #emailsOfSelectedFolder
-		
-	 	
