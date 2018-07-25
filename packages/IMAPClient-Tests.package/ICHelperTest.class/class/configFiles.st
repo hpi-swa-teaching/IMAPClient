@@ -1,6 +1,7 @@
 as yet unclassified
-configFiles 
-	|configs|
+configFiles
+
+	| configs |
 	
 	configs := OrderedCollection new.
 	configs add: self firstConfig.

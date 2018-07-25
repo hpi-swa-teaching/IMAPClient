@@ -1,6 +1,6 @@
 mockMethods
 select: aString
  	
-	"do nothing"	
-	^ ''
+	"do nothing"
 	
+	^ ''

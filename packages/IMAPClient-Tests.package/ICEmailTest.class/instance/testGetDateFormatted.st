@@ -1,7 +1,7 @@
 accessing
 testGetDateFormatted
 	
-	|previousOffset|
+	| previousOffset |
 	
 	previousOffset := DateAndTime localOffset.
 	

@@ -1,4 +1,4 @@
 accessing
 setUp
 		
-	self	readWriter: ICFileReadWriter new.
+	self readWriter: ICFileReadWriter new

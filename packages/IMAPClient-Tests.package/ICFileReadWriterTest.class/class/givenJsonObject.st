@@ -1,7 +1,8 @@
 constants
 givenJsonObject
 
-	| header object|
+	| header object |
+	
 	Transcript show: 'Debug'.
 	Transcript show: JsonObject. 	
 	header := JsonObject newFrom: {
@@ -12,10 +13,10 @@ givenJsonObject
 		'seen' -> false.
 		'contentType' -> 'text/plain;  charset="iso-8859-1"'.
 		'contentTransferEncoding' -> 'quoted-printable'.
-		'to' -> #('receiver1' 'receiver2') }.
+		'to' -> #('receiver1' 'receiver2')}.
 		
 	object := JsonObject newFrom: {
 		'header' -> header.
-		'body' -> 'body text' }.
+		'body' -> 'body text'}.
 		
-	^object 
+	^ object

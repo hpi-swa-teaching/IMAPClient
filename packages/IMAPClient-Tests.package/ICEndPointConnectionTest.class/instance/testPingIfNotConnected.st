@@ -2,4 +2,4 @@ accessing
 testPingIfNotConnected
 
 	self endPoint ping.
-	self assert: self endPoint fatalErrorOccured equals: true 
+	self assert: self endPoint fatalErrorOccured equals: true

@@ -7,4 +7,4 @@ fetchMultlineBodyResponse
 		'line2<br>'.
 		'line3'.
 		')'.
-		'. OK FETCH completed.' }
+		'. OK FETCH completed.'}

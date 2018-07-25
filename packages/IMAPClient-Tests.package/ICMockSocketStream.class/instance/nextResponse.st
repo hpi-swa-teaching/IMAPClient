@@ -5,4 +5,5 @@ nextResponse
 	
 	self lastResponse: self responseQueue removeFirst.
 	Transcript show: 'RECEIVING: ' , self lastResponse; cr.
+	
 	^ self lastResponse
