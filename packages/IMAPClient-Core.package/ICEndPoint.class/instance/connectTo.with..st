@@ -1,7 +1,7 @@
 connection
 connectTo: serverInfo with: aStreamClass
 
-	serverInfo isValid ifFalse: [ ^ Error signal: self class errorInvalidConnectionConfiguration ].
+	serverInfo isValid ifFalse: [^ Error signal: self class errorInvalidConnectionConfiguration].
  
 	self serverInfo: serverInfo.
 	[self stream
@@ -10,4 +10,3 @@ connectTo: serverInfo with: aStreamClass
 		nextResponse "skip server greetings"]
 	on: Error
 	do: [self fatalErrorOccured: true]
- 

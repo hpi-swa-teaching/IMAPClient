@@ -1,9 +1,8 @@
 action
 moveEmail: aFolder 
 
-		| anICEndPoint |
+	| anICEndPoint |
 		
-		anICEndPoint := folder endpoint select: self folder path.
-		self deleteEmailFromDisk.
-		anICEndPoint moveEmail: self to: aFolder
-		
+	anICEndPoint := folder endpoint select: self folder path.
+	self deleteEmailFromDisk.
+	anICEndPoint moveEmail: self to: aFolder

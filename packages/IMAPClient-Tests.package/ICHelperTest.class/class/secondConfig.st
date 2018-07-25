@@ -1,6 +1,7 @@
 as yet unclassified
 secondConfig
-	|config|
+
+	| config |
 	
 	config := Dictionary new.
 	
@@ -10,4 +11,4 @@ secondConfig
 	config at: 'port' put: '993'.
 	config at: 'username' put: 'peterMustermann'.
 	
-	^config
+	^ config

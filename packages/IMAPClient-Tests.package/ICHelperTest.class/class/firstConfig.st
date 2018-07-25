@@ -1,6 +1,7 @@
 as yet unclassified
 firstConfig
-	|config|
+
+	| config |
 	
 	config := Dictionary new.
 	
@@ -10,4 +11,4 @@ firstConfig
 	config at: 'port' put: '993'.
 	config at: 'username' put: 'maxMustermann'.
 	
-	^config
+	^ config

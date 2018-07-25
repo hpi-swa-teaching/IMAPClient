@@ -1,4 +1,4 @@
 accessing
 currentFolderName
+
 	^ currentFolderName
-	

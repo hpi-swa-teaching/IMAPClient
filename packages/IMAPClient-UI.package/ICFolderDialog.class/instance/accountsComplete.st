@@ -9,4 +9,5 @@ accountsComplete
 	self emailAccounts do: [:endpoint |
 		self getFolderWith: endpoint.
 		endpoint preventTimeout].
+	
 	ToolBuilder default open: self

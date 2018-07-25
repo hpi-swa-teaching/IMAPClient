@@ -1,4 +1,4 @@
 accessing
 contentType
 
-	^ self header at: #contentType ifAbsent: String empty 
+	^ self header at: #contentType ifAbsent: String empty

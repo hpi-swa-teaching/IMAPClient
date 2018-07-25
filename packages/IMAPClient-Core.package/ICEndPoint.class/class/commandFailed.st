@@ -1,4 +1,4 @@
 responses
 commandFailed
 
-	^ { self protocolCommandStart . 'NO' } joinSeparatedBy: self protocolBlank
+	^ {self protocolCommandStart . 'NO'} joinSeparatedBy: self protocolBlank

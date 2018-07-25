@@ -1,4 +1,4 @@
 accessing
 date: aDate
 
-	self header at: #date put: aDate 
+	self header at: #date put: aDate

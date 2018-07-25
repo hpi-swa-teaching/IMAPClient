@@ -1,4 +1,4 @@
 responses
 protocolError
 
-	^ { self protocolCommandStart . 'BAD' } joinSeparatedBy: self protocolBlank
+	^ {self protocolCommandStart . 'BAD'} joinSeparatedBy: self protocolBlank

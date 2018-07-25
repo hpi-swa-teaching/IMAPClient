@@ -5,9 +5,13 @@ fetchNextResponse
 
 	multiLineResponse := OrderedCollection new.
 	self stream nextResponse.
-	self checkForBadRequest;
+	self 
+		checkForBadRequest;
 		checkForParameterError.
-	[ (self stream lastResponse beginsWith: self class commandSucceeded)] whileFalse: [ 
-		multiLineResponse add: self stream lastResponse.
-		self stream nextResponse ].
-	self lastResponse: multiLineResponse 
+	
+	[(self stream lastResponse beginsWith: self class commandSucceeded)] 
+		whileFalse: [ 
+			multiLineResponse add: self stream lastResponse.
+			self stream nextResponse].
+	
+	self lastResponse: multiLineResponse

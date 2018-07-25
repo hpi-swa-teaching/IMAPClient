@@ -1,12 +1,12 @@
 fetch body
 modifyFlag: aFlag
 
-		| anICEndPoint |
+	| anICEndPoint |
 		
-		self retrieveFlags.
+	self retrieveFlags.
 		
-		anICEndPoint := self folder endpoint.
+	anICEndPoint := self folder endpoint.
 		
-		(self perform: aFlag)
-			ifTrue: [anICEndPoint resetFlag: self and: aFlag]
-			ifFalse: [anICEndPoint setFlag: self and: aFlag]
+	(self perform: aFlag)
+		ifTrue: [anICEndPoint resetFlag: self and: aFlag]
+		ifFalse: [anICEndPoint setFlag: self and: aFlag]

@@ -1,9 +1,10 @@
 fetch
 testFetchMailsBeginningAtWithFoundMails
+
 	"the uids of the mock server are 3 4 42 43 44 45 46
 	 so fetchMailsBeginningAt:42 with 2 should return mails 3+4"
 	
-	|path emailObjects mailAPath mailBPath folderName|
+	| path emailObjects mailAPath mailBPath folderName |
 		
 	emailObjects := self endPoint fetchMailsBeginningAt: 42 number: 2. 
 	folderName := ICHelper getHashNameForAccount: (self endPoint serverInfo host) and: (self endPoint authenticationInfo username).	
@@ -24,5 +25,5 @@ testFetchMailsBeginningAtWithFoundMails
 		deleteFileNamed: mailBPath. 
 		
 	self
-		assert: (FileDirectory default fileExists: (mailAPath)) equals: false ;	
-		assert: (FileDirectory default fileExists: (mailBPath)) equals: false.
+		assert: (FileDirectory default fileExists: (mailAPath)) equals: false;	
+		assert: (FileDirectory default fileExists: (mailBPath)) equals: false

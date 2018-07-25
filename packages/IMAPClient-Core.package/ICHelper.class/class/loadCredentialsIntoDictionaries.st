@@ -25,10 +25,10 @@ loadCredentialsIntoDictionaries
 				FileStream readOnlyFileNamed: (configDirectory fullPathFor: config) do:
 				[:stream | 
 					[stream atEnd] 
-					whileFalse: [
-						| line |
-						line := stream nextLine.
-						loginData add: line]].
+						whileFalse: [
+							| line |
+							line := stream nextLine.
+							loginData add: line]].
 			
 				"create a dictionary for each config file"
 				dataDictionary at: 'name' put: (loginData at: 1).

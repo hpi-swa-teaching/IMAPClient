@@ -1,7 +1,7 @@
 read file
 createHeaderFrom: aJsonObject
 
-	aJsonObject ifNil: [ ^ nil ].
+	aJsonObject ifNil: [^ nil].
 	
 	^ Dictionary newFrom: {
 		#date -> (aJsonObject at: 'date').
@@ -11,4 +11,4 @@ createHeaderFrom: aJsonObject
 		#contentTransferEncoding -> (aJsonObject at: 'contentTransferEncoding').
 		#to -> (self getRecipientsFrom: (aJsonObject at: 'to')).
 		#seen -> (aJsonObject at: 'seen').
-		#flagged -> (aJsonObject at: 'flagged') }
+		#flagged -> (aJsonObject at: 'flagged')}

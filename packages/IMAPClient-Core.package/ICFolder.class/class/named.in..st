@@ -7,4 +7,5 @@ named: name in: parent
 	newFolder	name: name.
 		
 	parent addFolder: newFolder.
+	
 	^ newFolder

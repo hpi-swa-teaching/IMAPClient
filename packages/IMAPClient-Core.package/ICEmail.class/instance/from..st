@@ -1,4 +1,4 @@
 accessing
 from: aSender
 
-	self header at: #from put: aSender 
+	self header at: #from put: aSender

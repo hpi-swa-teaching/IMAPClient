@@ -7,9 +7,9 @@
 		"firstMessageID" : "DH 7/4/2018 12:37",
 		"firstUID" : "DH 7/4/2018 12:37" },
 	"instance" : {
-		"endpoint" : "DH 7/4/2018 12:54",
-		"endpoint:" : "DH 7/4/2018 12:54",
-		"parser" : "dl 7/31/2017 21:54",
-		"parser:" : "dl 7/31/2017 21:54",
-		"setUp" : "DH 7/4/2018 12:54",
+		"endpoint" : "C.G. 7/25/2018 18:02",
+		"endpoint:" : "C.G. 7/25/2018 18:02",
+		"parser" : "C.G. 7/25/2018 18:02",
+		"parser:" : "C.G. 7/25/2018 18:02",
+		"setUp" : "C.G. 7/25/2018 18:02",
 		"testParseSimpleFetch" : "C.G. 7/4/2018 13:23" } }

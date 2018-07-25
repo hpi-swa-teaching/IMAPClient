@@ -8,4 +8,3 @@ testFetchMailsBeginningAtWithoutFoundMails
 	
 	result := self endPoint fetchMailsBeginningAt: 3 number: 5. 
 	self assert: result isEmpty
-	

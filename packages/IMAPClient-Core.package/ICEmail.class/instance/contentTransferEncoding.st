@@ -1,4 +1,4 @@
 accessing
 contentTransferEncoding
 
-	^ self header at: #contentTransferEncoding ifAbsent: String empty 
+	^ self header at: #contentTransferEncoding ifAbsent: String empty

@@ -2,7 +2,8 @@ connection
 connectTo: host on: port
 
 	| hostAddress |
-	self useSSL ifTrue: [^ self sslConnectTo: host on: port ].
+	
+	self useSSL ifTrue: [^ self sslConnectTo: host on: port].
 	
 	hostAddress := NetNameResolver addressForName: host.
 	self close.

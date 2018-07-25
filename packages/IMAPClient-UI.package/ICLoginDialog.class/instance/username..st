@@ -5,4 +5,4 @@ username: anObject
 		ifFalse: [username := anObject withBlanksTrimmed]
 		ifTrue: [self changeInputField: 4].
 		
-	self changed: #username	
+	self changed: #username

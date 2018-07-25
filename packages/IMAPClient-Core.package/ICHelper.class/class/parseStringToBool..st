@@ -1,6 +1,6 @@
 helper methods
 parseStringToBool: aString
 		
-		aString = 'true'
-				ifTrue:  [^true]
-				ifFalse: [ ^false]
+	aString = 'true'
+		ifTrue:  [^ true]
+		ifFalse: [ ^ false]

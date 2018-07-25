@@ -1,9 +1,9 @@
 {
 	"class" : {
-		"openConnectionToHost:port:" : "AR 7/14/2016 09:46" },
+		"openConnectionToHost:port:" : "C.G. 7/25/2018 18:15" },
 	"instance" : {
 		"close" : "js 6/7/2016 09:49",
-		"connectTo:on:" : "ms 7/28/2016 13:11",
+		"connectTo:on:" : "C.G. 7/25/2018 18:14",
 		"connected" : "js 6/7/2016 09:49",
 		"connected:" : "js 6/7/2016 09:49",
 		"initialize" : "AR 6/13/2016 15:21",
@@ -11,11 +11,11 @@
 		"lastResponse" : "js 6/7/2016 10:26",
 		"lastResponse:" : "js 6/7/2016 10:22",
 		"nextLine" : "AR 7/12/2016 10:00",
-		"nextResponse" : "js 8/4/2017 21:50",
+		"nextResponse" : "C.G. 7/25/2018 18:14",
 		"responseQueue" : "AR 5/24/2016 10:18",
 		"responseQueue:" : "AR 5/24/2016 10:18",
 		"sendCommand:" : "AR 6/10/2016 15:30",
-		"server" : "AR 6/10/2016 15:29",
-		"server:" : "AR 6/10/2016 15:29",
+		"server" : "C.G. 7/25/2018 18:14",
+		"server:" : "C.G. 7/25/2018 18:14",
 		"ssl" : "ms 7/12/2016 10:38",
 		"ssl:" : "ms 7/12/2016 10:38" } }

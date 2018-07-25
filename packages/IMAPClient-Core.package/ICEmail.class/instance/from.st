@@ -1,4 +1,4 @@
 accessing
 from
 
-	^ self header at: #from ifAbsent: String empty 
+	^ self header at: #from ifAbsent: String empty

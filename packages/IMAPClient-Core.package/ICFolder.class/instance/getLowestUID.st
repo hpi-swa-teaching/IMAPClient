@@ -3,4 +3,4 @@ getLowestUID
 	
 	(self emails) ifEmpty: [^ nil].
 		
-	^ (self emails detectMin: [:mail | mail uid asNumber]) uid.
+	^ (self emails detectMin: [:mail | mail uid asNumber]) uid

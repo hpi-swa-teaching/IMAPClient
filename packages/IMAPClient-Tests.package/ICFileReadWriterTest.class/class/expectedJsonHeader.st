@@ -9,4 +9,4 @@ expectedJsonHeader
 		'seen' -> false.
 		'contentType' -> 'text/plain;  charset="iso-8859-1"'.
 		'contentTransferEncoding' -> 'quoted-printable'.
-		'to' -> (OrderedCollection newFrom: { 'receiver1' . 'receiver2' }) }
+		'to' -> (OrderedCollection newFrom: {'receiver1'. 'receiver2'})}

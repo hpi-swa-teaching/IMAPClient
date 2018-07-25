@@ -1,4 +1,4 @@
 commands
 getAllUIDs
 
-	^ {self protocolCommandStart . 'UID SEARCH ALL'} joinSeparatedBy: self protocolBlank.
+	^ {self protocolCommandStart . 'UID SEARCH ALL'} joinSeparatedBy: self protocolBlank

@@ -23,5 +23,3 @@ editAccount: newData with: anEndPoint
 	self changed: #childFolders.
 	self changed: #emailsOfSelectedFolder.
 	self changed: #emailAccounts
-	
-	

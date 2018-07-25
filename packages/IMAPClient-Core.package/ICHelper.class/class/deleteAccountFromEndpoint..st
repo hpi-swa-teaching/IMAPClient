@@ -28,4 +28,3 @@ deleteAccountFromEndpoint: aEndpoint
 			
 	mailDirectory := directory directoryNamed: fileName.
 	mailDirectory recursiveDelete
-		

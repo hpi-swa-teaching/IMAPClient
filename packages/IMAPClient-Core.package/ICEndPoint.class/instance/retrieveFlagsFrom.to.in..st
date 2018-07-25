@@ -5,4 +5,4 @@ retrieveFlagsFrom: anUID to: anotherUID in: aFolder
 		sendCommand: (self class fetchFlagsWithUIDRange: anUID to: anotherUID);
 		fetchNextResponse.
 		
-	self parseFetchFlagsOnly: aFolder.
+	self parseFetchFlagsOnly: aFolder

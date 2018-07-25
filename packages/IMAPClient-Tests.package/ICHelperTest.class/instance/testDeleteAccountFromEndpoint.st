@@ -2,6 +2,7 @@ as yet unclassified
 testDeleteAccountFromEndpoint
 
 	| endpoint serverInfo authenticationInfo directory configDirectory fileName |
+	
 	serverInfo := (ICServerInfo new) host: 'testHost'; port: 993.
 	authenticationInfo := (ICAuthenticationInfo new) username: 'klaus'; password: 'test'.
 	
@@ -15,24 +16,27 @@ testDeleteAccountFromEndpoint
 	
 	"create dummy config file"
 	directory := FileDirectory default.	
-		 (directory directoryExists: 'Maildir')
- 			ifFalse: [directory createDirectory: 'Maildir'].
-  		directory := directory directoryNamed: 'Maildir'.
+	
+	(directory directoryExists: 'Maildir')
+		ifFalse: [directory createDirectory: 'Maildir'].
+  	
+	directory := directory directoryNamed: 'Maildir'.
 		
-		"create maildir mail folder"
-		(directory directoryExists: fileName)
-			ifFalse: [directory createDirectory: fileName].
+	"create maildir mail folder"
+	(directory directoryExists: fileName)
+		ifFalse: [directory createDirectory: fileName].
 		
-		"create config file"
-		(directory directoryExists: 'config')
- 			ifFalse: [directory createDirectory: 'config'].
-  		configDirectory := directory directoryNamed: 'config'.	
-		configDirectory forceNewFileNamed: fileName.
+	"create config file"
+	(directory directoryExists: 'config')
+ 		ifFalse: [directory createDirectory: 'config'].
 		
-		self assert: ((directory directoryExists: fileName)) equals: true.
-		self assert: ((configDirectory fileExists: fileName)) equals: true.
+ 	configDirectory := directory directoryNamed: 'config'.	
+	configDirectory forceNewFileNamed: fileName.
 		
-		ICHelper deleteAccountFromEndpoint: endpoint.
+	self assert: ((directory directoryExists: fileName)) equals: true.
+	self assert: ((configDirectory fileExists: fileName)) equals: true.
 		
-		self assert: ((directory directoryExists: fileName)) equals: false.
-		self assert: ((configDirectory fileExists: fileName)) equals: false	
+	ICHelper deleteAccountFromEndpoint: endpoint.
+		
+	self assert: ((directory directoryExists: fileName)) equals: false.
+	self assert: ((configDirectory fileExists: fileName)) equals: false	

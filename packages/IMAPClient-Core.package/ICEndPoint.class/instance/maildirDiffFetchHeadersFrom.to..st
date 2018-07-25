@@ -9,8 +9,7 @@ maildirDiffFetchHeadersFrom: start to: end
 			searchBegin := mailFolder	fileNamesMatching: (end asString).
 			searchEnd := mailFolder	fileNamesMatching: (start asString).
 	
-			searchBegin size > 0 & (searchEnd size > 0)
-			ifTrue: [
+			searchBegin size > 0 & (searchEnd size > 0) ifTrue: [
 				Transcript show: 'Do nothing. Newest Mailrange already loaded'.
 				^ OrderedCollection new]].
 	

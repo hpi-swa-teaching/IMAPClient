@@ -1,13 +1,13 @@
 {
 	"class" : {
-		"configFiles" : "DH 6/14/2018 13:41",
-		"firstConfig" : "DH 6/21/2018 09:27",
-		"secondConfig" : "DH 6/21/2018 09:27" },
+		"configFiles" : "C.G. 7/25/2018 18:15",
+		"firstConfig" : "C.G. 7/25/2018 18:15",
+		"secondConfig" : "C.G. 7/25/2018 18:16" },
 	"instance" : {
-		"createConfigFiles" : "DH 6/21/2018 09:16",
-		"deleteConfigFiles:and:" : "DH 6/14/2018 15:53",
-		"getConfigDirectory" : "DH 6/14/2018 13:31",
-		"testDeleteAccountFromEndpoint" : "C.G. 6/21/2018 10:53",
-		"testGetHashName" : "DH 6/19/2018 16:30",
-		"testLoadCredentialsIntoDictionaries" : "DH 7/19/2018 18:16",
-		"testSaveCredentialsIntoFile" : "DH 6/21/2018 09:21" } }
+		"createConfigFiles" : "C.G. 7/25/2018 18:06",
+		"deleteConfigFiles:and:" : "C.G. 7/25/2018 18:06",
+		"getConfigDirectory" : "C.G. 7/25/2018 18:07",
+		"testDeleteAccountFromEndpoint" : "C.G. 7/25/2018 18:08",
+		"testGetHashName" : "C.G. 7/25/2018 18:09",
+		"testLoadCredentialsIntoDictionaries" : "C.G. 7/25/2018 18:09",
+		"testSaveCredentialsIntoFile" : "C.G. 7/25/2018 18:10" } }
