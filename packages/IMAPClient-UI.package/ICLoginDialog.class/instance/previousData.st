@@ -1,3 +1,0 @@
-accessing
-previousData
-	^ previousData
