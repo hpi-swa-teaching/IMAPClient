@@ -1,6 +1,6 @@
 connection
 checkForParameterError
-
+	
 	(self fatalErrorOccured)
 		ifTrue: [^ false].
   
