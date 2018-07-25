@@ -1,5 +1,11 @@
 error handling
 checkForBadRequest
 
-	self responseIsError ifTrue: [ ^ Error signal: self class errorBadProtocol ].
+	(self fatalErrorOccured)
+ 		ifTrue: [^ false].
+  
+	self responseIsError ifTrue: [
+		self fatalErrorOccured: true.
+		^ Error signal: self class errorBadProtocol].
+ 
 	^ false
