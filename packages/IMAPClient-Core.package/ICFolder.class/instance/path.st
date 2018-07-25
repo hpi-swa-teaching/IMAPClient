@@ -1,4 +1,4 @@
-hierarchy
+folder hierarchy
 path
 
 	^ (self parent == self endpoint rootFolder) 

@@ -1,4 +1,4 @@
-as yet unclassified
+helper methods
 deleteAccountFromEndpoint: aEndpoint
 
 	"Takes an currently active endpoint and deletes the account."

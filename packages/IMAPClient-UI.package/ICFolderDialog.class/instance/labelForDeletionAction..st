@@ -1,4 +1,4 @@
-as yet unclassified
+flags
 labelForDeletionAction: aFolderName
 	(aFolderName = 'Trash')
 		ifTrue: [^ 'Clear Folder']

@@ -1,4 +1,4 @@
-hierarchy
+folder hierarchy
 childFolderNamed: name with: delimiter ifAbsent: block
 	
 	^ self childFolders 

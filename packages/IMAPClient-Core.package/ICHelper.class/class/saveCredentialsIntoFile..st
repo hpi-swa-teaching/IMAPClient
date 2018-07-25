@@ -1,4 +1,4 @@
-as yet unclassified
+helper methods
 saveCredentialsIntoFile: aDataDictionary
 
 	"Takes a dictionary and saves data in a config file.

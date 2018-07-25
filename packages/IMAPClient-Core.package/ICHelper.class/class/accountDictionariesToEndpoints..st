@@ -1,4 +1,4 @@
-as yet unclassified
+helper methods
 accountDictionariesToEndpoints: aCollection
 	
 	"this method takes a collection of dictionaries, which contain login information, and responds with a collection of    

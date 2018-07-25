@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initialize 
 	
 	"get config data as credentials"

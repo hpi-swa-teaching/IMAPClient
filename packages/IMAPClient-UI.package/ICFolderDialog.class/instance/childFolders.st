@@ -1,4 +1,4 @@
-as yet unclassified
+folder selection
 childFolders
 
 	(self rootFolder)

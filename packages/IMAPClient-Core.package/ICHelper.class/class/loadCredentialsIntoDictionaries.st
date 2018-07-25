@@ -1,4 +1,4 @@
-as yet unclassified
+helper methods
 loadCredentialsIntoDictionaries
 
 	"this methods loads all credentials from within config folder, 
