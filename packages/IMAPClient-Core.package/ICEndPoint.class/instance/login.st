@@ -1,8 +1,11 @@
 message handling
 login
 
-	(self checkConnected) ifFalse: [^ false].
-  
+	(self checkConnected) ifFalse: [
+		self fatalErrorOccured: true.
+		UIManager default inform: 'Cant connect to the server'. 
+		^ false].
+  	
 	(self authenticationInfo isValid) ifFalse: [
 		self fatalErrorOccured: true.
 		^ false].
