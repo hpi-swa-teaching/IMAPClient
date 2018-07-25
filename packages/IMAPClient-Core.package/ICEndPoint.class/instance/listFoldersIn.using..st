@@ -6,9 +6,9 @@ listFoldersIn: root using: filter
 		checkLoggedIn.
 		
 	self sendCommand: (
-			{self class listCommand. 
-			self class asProtocolQuote: root. 
-			self class asProtocolQuote: filter} 
+		{self class listCommand. 
+		self class asProtocolQuote: root. 
+		self class asProtocolQuote: filter} 
 		joinSeparatedBy: self class protocolBlank).
 		
 	^ self parseListResponse

@@ -1,3 +1,4 @@
 instances
 instance: anObject
-  instance := anObject
+
+	instance := anObject

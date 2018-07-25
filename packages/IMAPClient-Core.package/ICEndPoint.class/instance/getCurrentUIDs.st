@@ -5,7 +5,8 @@ getCurrentUIDs
 		sendCommand: self class getAllUIDs;
 		 fetchNextResponse.
 		
-	self uids: (((self lastResponse at: 1) subStrings: ' ') asOrderedCollection 
-				removeFirst;
-				removeFirst; 
-				yourself)
+	self 
+		uids: (((self lastResponse at: 1) subStrings: ' ') asOrderedCollection 
+		removeFirst;
+		removeFirst; 
+		yourself)

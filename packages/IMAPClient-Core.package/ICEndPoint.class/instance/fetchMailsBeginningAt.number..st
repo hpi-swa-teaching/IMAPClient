@@ -1,6 +1,7 @@
 fetching
 fetchMailsBeginningAt: aBeginUID number: numberOfMessages 
-	| start end possibleUID numberToFetch|
+
+	| start end possibleUID numberToFetch |
 	
 	"aBeginUID is the last known UID of the folder. numberOfMessages is the number
 	 of messages which should be fetched starting at this UID"
@@ -8,9 +9,9 @@ fetchMailsBeginningAt: aBeginUID number: numberOfMessages
 	numberToFetch := numberOfMessages.
 	
 	self getCurrentUIDs.
-	possibleUID := self uids select: [ :uid | uid asNumber < aBeginUID].
+	possibleUID := self uids select: [:uid | uid asNumber < aBeginUID].
 	possibleUID size < numberToFetch
-		ifTrue: [  numberToFetch := possibleUID size].
+		ifTrue: [numberToFetch := possibleUID size].
 		
 	numberToFetch = 0 ifTrue: [^ OrderedCollection new].	
 		
@@ -20,5 +21,3 @@ fetchMailsBeginningAt: aBeginUID number: numberOfMessages
 	end := possibleUID last.
 			
 	^ self maildirDiffFetchHeadersFrom: start asString to: end asString
- 		
-	

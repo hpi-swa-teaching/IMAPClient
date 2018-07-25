@@ -1,8 +1,10 @@
 write file
 createPathRecursive: aPath and: aFileWriter
-	|subDir|
+
+	| subDir |
 	
 	subDir := ((aPath subStrings: (FileDirectory slash))).
+	
 	subDir size > 0
 		ifTrue: [
 			(aFileWriter directoryExists: subDir first)
@@ -10,7 +12,6 @@ createPathRecursive: aPath and: aFileWriter
 				"Transcript show: subDir first."
 				self createPathRecursive: 
 					(subDir allButFirst joinSeparatedBy: (FileDirectory slash)) 
-					and: (aFileWriter on: subDir first).	
-		].
-	^ self 
+					and: (aFileWriter on: subDir first)].
 	
+	^ self

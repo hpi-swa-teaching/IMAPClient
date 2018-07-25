@@ -1,4 +1,4 @@
 accessing
 seen
 
-	^ self header at: #seen ifAbsent: true 
+	^ self header at: #seen ifAbsent: true

@@ -1,8 +1,9 @@
 write file
 createJsonHeaderFrom: aDictionary
 
-	|jsonFile|
-	aDictionary ifNil: [ ^ nil ].
+	| jsonFile |
+	
+	aDictionary ifNil: [^ nil].
 
 	jsonFile := JsonObject newFrom: {
 		'date' ->  (aDictionary at: #date ifAbsent: ['']).
@@ -12,7 +13,6 @@ createJsonHeaderFrom: aDictionary
 		'seen' ->  (aDictionary at: #seen ifAbsent: [true]).
 		'flagged' -> (aDictionary at: #flagged ifAbsent: [false]).
 		'contentType' -> (aDictionary at: #contentType ifAbsent: ['']).
-		'contentTransferEncoding' -> (aDictionary at: #contentTransferEncoding  ifAbsent: ['']) }
-		.
+		'contentTransferEncoding' -> (aDictionary at: #contentTransferEncoding ifAbsent: [''])}.
 		
-	^jsonFile    
+	^ jsonFile

@@ -10,10 +10,10 @@ parseFetchHeader: headerLines withId: id
 	headerChunk := OrderedCollection new.
 	
 	"this is necassery because one header field could contains multiple lines"
-	headerData do: [ :line |
+	headerData do: [:line |
 		(line includesSubString: 'UID')	
 			ifTrue: [email uid: ((line subStrings: ' ') second)]
-			ifFalse:[
+			ifFalse: [
 				((self startsNewHeaderChunk: line) & (headerChunk notEmpty))
 					ifTrue: [ 
 						self parseHeaderChunk: headerChunk for: email.

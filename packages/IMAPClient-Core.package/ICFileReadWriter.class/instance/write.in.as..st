@@ -1,5 +1,6 @@
 write file
 write: anICEmail in: aFolder as: aString
+
 	| jsonFile renderedJson fileDirectory |
 
 	jsonFile := JsonObject newFrom: {

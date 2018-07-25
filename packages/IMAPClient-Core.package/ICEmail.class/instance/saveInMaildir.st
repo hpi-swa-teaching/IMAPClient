@@ -1,5 +1,6 @@
 accessing
 saveInMaildir
+
 	^ ICFileReadWriter new
 		write: self
 		in: self maildirFileName 

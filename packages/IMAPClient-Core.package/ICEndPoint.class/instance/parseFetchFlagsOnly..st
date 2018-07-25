@@ -6,14 +6,12 @@ parseFetchFlagsOnly: aFolder
 		ifTrue: [^ '']. 
 		
 	"iterate through lastResponse and find flags for every uid"
- 	lastResponse do: [ :line |
+ 	lastResponse do: [:line |
 		| uidPart uid email |
-
 		uidPart := (line allRegexMatches: 'UID \d*') ifEmpty: [ ^ ''].
 		uid := (uidPart first allRegexMatches: '[\d]+') ifEmpty: [ ^ ''].
 		uid := uid first.
-		
-		email := aFolder emails detect: [ :mail | mail uid asString = uid] ifNone: [^ ''].
+		email := aFolder emails detect: [:mail | mail uid asString = uid] ifNone: [^ ''].
 				
 		"only update maildir file, it something changes, this improves performance drastically"
 		((email seen ~= (line includesSubString: '\Seen')) or: 
@@ -22,7 +20,4 @@ parseFetchFlagsOnly: aFolder
 			email seen: (line includesSubString: '\Seen').
 			email flagged: (line includesSubString: '\Flagged').
 			email deleted: (line includesSubString: '\Deleted').
-			email saveInMaildir
-		].
-		
-	]
+			email saveInMaildir]]

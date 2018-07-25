@@ -1,7 +1,7 @@
 protocol parse
 parseFetchHeaders: headerLines
 
-	| parser folder parseResult mailCollection|
+	| parser folder parseResult mailCollection |
 	
 	(headerLines size = 0) ifTrue: [^ OrderedCollection new].
 		

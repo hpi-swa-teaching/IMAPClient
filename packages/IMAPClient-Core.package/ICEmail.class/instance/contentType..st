@@ -1,4 +1,4 @@
 accessing
 contentType: aContentType
 
-	self header at: #contentType put: aContentType 
+	self header at: #contentType put: aContentType

@@ -10,5 +10,3 @@ folderFromResponse: responseLine
 	
 	folderPath allButFirst do: [ :name | parent := parent childFolderNamed: name 
 		ifAbsent: [ICFolder named: name in: parent with: self]]
-	
-	
