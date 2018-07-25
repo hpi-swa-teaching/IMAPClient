@@ -11,7 +11,24 @@ Metacello new
     repository: 'github://hpi-swa-teaching/IMAPClient:develop/packages';
     load.
 ```
-We needed to use some Squeak Methods, which werent available in Squeak-5.1 so we had to update them manually. For a description which methods need to be updated to use the full functionality on Squeak-5.1 please see: [here](https://github.com/hpi-swa-teaching/IMAPClient/pull/96)
+We needed to use some Squeak Methods, which werent available in Squeak-5.1, so we had to update them manually.
+Please follow the following steps:
+
+1. Open Monticello Browser
+
+![](screenshots/40866916-aaf887fc-6600-11e8-9dc8-847775df210c.png)
+
+2. Select `http://source.squeak.org/trunk` on the right and press `open`
+
+![](screenshots/40867006-45090ee8-6601-11e8-8e89-9d9f6a536792.png)
+
+3. In the new window search for `Network`, select the newest commit and click `Load`
+
+![](screenshots/40867029-7fddabc8-6601-11e8-9247-7df69755c6e9.png)
+
+4. Do the Same for `Collections`
+
+![](screenshots/40867038-95f11300-6601-11e8-9ce6-70933baae984.png)
 
  ## Configuration
  You can customize the number of mails, which are fetched on the initial update process, and the number of mails which are loaded if you press the `Load older Mails` Button. Default are 100 and 10. Change `ICFolder>>numbersOfHeadersToFetch{AtLoaderOlderMail | AtTheBeginning}`
