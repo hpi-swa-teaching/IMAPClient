@@ -1,7 +1,7 @@
 login
 testLoginWithWrongUsername
 
-	self endPoint authenticationInfo
+	[self endPoint authenticationInfo
 		username: self class invalidUsername;
 		password: self class validPassword.
-	self deny: self endPoint login
+	self deny: self endPoint login] valueSuppressingAllMessages
