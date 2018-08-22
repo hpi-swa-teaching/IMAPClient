@@ -1,4 +1,12 @@
 error handling
 checkConnected
 
-	self stream isConnected ifFalse: [ ^ Error signal: self class errorNoConnection ]
+	(self fatalErrorOccured)
+		ifTrue: [^ false].
+  
+	self stream isConnected 
+		ifFalse: [
+			self fatalErrorOccured: true.
+			^ false].
+  
+	^ true

@@ -1,7 +1,8 @@
-folder selection
+accessing
 selectedFolder: aFolder
 
 	selectedFolder := aFolder.
-	aFolder fetchHeaders.
+	self selectedEmail: nil.
+	
 	self changed: #selectedFolder.
-	self changed: #emailsOfSelectedFolder.
+	self changed: #emailsOfSelectedFolder

@@ -5,6 +5,10 @@ listFoldersIn: root using: filter
 		checkConnected;
 		checkLoggedIn.
 		
-	self stream sendCommand: ({ self class listCommand . self class asProtocolQuote: root . self class asProtocolQuote: filter } joinSeparatedBy: self class protocolBlank).
-	
+	self sendCommand: (
+		{self class listCommand. 
+		self class asProtocolQuote: root. 
+		self class asProtocolQuote: filter} 
+		joinSeparatedBy: self class protocolBlank).
+		
 	^ self parseListResponse

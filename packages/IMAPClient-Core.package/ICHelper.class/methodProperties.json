@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"accountDictionariesToEndpoints:" : "C.G. 6/21/2018 10:43",
+		"deleteAccountFromEndpoint:" : "C.G. 7/25/2018 14:06",
+		"getAllFolders:" : "C.G. 7/12/2018 08:13",
+		"getHashNameForAccount:and:" : "C.G. 7/25/2018 14:06",
+		"loadCredentialsIntoDictionaries" : "C.G. 7/25/2018 14:06",
+		"makeParameterCollection:" : "C.G. 7/25/2018 12:20",
+		"parseStringToBool:" : "C.G. 7/25/2018 14:07",
+		"resetMailData" : "C.G. 7/4/2018 13:10",
+		"saveCredentialsIntoFile:" : "C.G. 7/25/2018 14:07" },
+	"instance" : {
+		 } }

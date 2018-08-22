@@ -1,6 +1,7 @@
 message handling
-select: aFolder
+select: aFolderName
 
 	self
-		sendCommand: (self class selectCommand: aFolder);
+		currentFolderName: aFolderName;
+		sendCommand: (self class selectCommand:  ('"' , aFolderName, '"'));
 		fetchNextResponse

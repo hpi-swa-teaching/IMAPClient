@@ -1,12 +1,23 @@
 protocol parse
 parseFetchHeaders: headerLines
 
-	| emails emailHeaderLines |
-	emails := OrderedCollection new.
-	emailHeaderLines := OrderedCollection new.
-	headerLines do: [ :line |
-		emailHeaderLines add: line.
-		(line = self class lastHeaderLine) ifTrue: [
-			emails add: (self parseFetchHeader: emailHeaderLines).
-			emailHeaderLines removeAll ] ].
-	^ emails
+	| parser folder parseResult mailCollection |
+	
+	(headerLines size = 0) ifTrue: [^ OrderedCollection new].
+		
+	mailCollection := OrderedCollection new.
+	parser := ICFetchResponseParser new.
+	parseResult := parser parse: (ReadStream on: (headerLines joinSeparatedBy: Character cr)).
+		
+	folder := self rootFolder childFolderNamed: (self currentFolderName) with: (self hierarchyDelimiter).
+	 
+	"iterate over all pairs of IDs and messages"
+	parseResult keysAndValuesDo: [:id :message | 
+		| mail |
+		"parse the message and ID into a ICMail"
+		mail := self parseFetchHeader: message withId: id.
+		mailCollection add: mail.
+		"store the ICMail in the appropriate folder and write it on the disk"
+		mail folder: folder; saveInMaildir].
+	
+	^ mailCollection

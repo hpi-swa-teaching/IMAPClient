@@ -1,4 +1,4 @@
 user interface
 getColor
 
-	^ Color transparent 
+	^ Color transparent

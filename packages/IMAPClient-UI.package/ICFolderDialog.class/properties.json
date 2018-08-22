@@ -8,7 +8,14 @@
 	"instvars" : [
 		"rootFolder",
 		"selectedEmail",
-		"selectedFolder" ],
+		"selectedAccount",
+		"selectedFolder",
+		"emailAccounts",
+		"uninitializedAccounts",
+		"initializedAccounts",
+		"numberOfFetchedFolders",
+		"numberOfFolders",
+		"filterString" ],
 	"name" : "ICFolderDialog",
 	"pools" : [
 		 ],

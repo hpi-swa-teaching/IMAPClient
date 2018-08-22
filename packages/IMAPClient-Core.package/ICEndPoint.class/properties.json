@@ -13,7 +13,11 @@
 		"rootFolder",
 		"lastResponse",
 		"ssl",
-		"hierachyDelimiter" ],
+		"uids",
+		"hierarchyDelimiter",
+		"currentFolderName",
+		"name",
+		"fatalErrorOccured" ],
 	"name" : "ICEndPoint",
 	"pools" : [
 		 ],

@@ -2,5 +2,5 @@ login
 loginUsing: autheticationInfo
 
 	^ self
-		authenticationInfo: autheticationInfo;
-		login
+			authenticationInfo: autheticationInfo;
+			login

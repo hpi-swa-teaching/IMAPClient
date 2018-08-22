@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"expectedNumberOfMails" : "dl 8/1/2017 16:25",
+		"firstExampleResponse" : "C.G. 7/4/2018 13:21",
+		"firstExpectedMailObject" : "C.G. 7/4/2018 13:21",
+		"firstExpectedResponse" : "C.G. 7/4/2018 13:22",
+		"firstMessageID" : "DH 7/4/2018 12:37",
+		"firstUID" : "DH 7/4/2018 12:37" },
+	"instance" : {
+		"endpoint" : "C.G. 7/25/2018 18:02",
+		"endpoint:" : "C.G. 7/25/2018 18:02",
+		"parser" : "C.G. 7/25/2018 18:02",
+		"parser:" : "C.G. 7/25/2018 18:02",
+		"setUp" : "C.G. 7/25/2018 18:02",
+		"testParseSimpleFetch" : "C.G. 7/4/2018 13:23" } }

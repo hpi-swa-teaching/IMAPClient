@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"endPoint" ],
+		"endPoint",
+		"rootFolder" ],
 	"name" : "ICEndPointCommandTest",
 	"pools" : [
 		 ],

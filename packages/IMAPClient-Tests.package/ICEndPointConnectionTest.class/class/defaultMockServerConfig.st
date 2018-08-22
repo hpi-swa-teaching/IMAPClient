@@ -2,6 +2,7 @@ constants
 defaultMockServerConfig
 
 	| mockServer |
+	
 	mockServer := ICMockServer new.
 	^ mockServer
 		validPort: self validPort;

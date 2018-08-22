@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"createHeaderFrom:" : "C.G. 7/25/2018 14:00",
+		"createJsonHeaderFrom:" : "C.G. 7/25/2018 14:00",
+		"createPathRecursive:and:" : "C.G. 7/25/2018 14:01",
+		"get:in:" : "C.G. 7/25/2018 14:01",
+		"getRecipientsFrom:" : "C.G. 7/25/2018 14:01",
+		"write:in:as:" : "C.G. 7/25/2018 14:01" } }

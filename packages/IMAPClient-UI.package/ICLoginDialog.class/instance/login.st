@@ -1,16 +1,17 @@
 login
 login
 
-	| endpoint |
-	endpoint := ICEndPoint new.
-	[ endpoint 
-		ssl: self ssl;
-		connectTo: self serverAddress asString on: self serverPort asNumber;
-		login: self username using: self password ]
-		on: Error
-		do: [ :sig | self inform: sig asString ].
-	(endpoint isLoggedIn)
-		ifTrue: [ 
-			self inform: self class successLoginMessage.
-			ICFolderDialog openWith: (ICFolder parseFromServer: endpoint) ] 
-		ifFalse: [ self inform: self class failureLoginMessage ].
+	"create a dictionary with data and return it"
+ 
+	| dataDictionary |
+ 
+	dataDictionary := self makeDataDictionary.
+	(self checkForEmptyParameter: dataDictionary)
+		ifFalse: [^ self].
+ 
+	((ICEndPoint new) testAccountWith: dataDictionary)
+		ifTrue: [
+			self loginMorph abandon.
+			(self updateMode)
+				ifFalse: [folderDialogInstance addAccount: dataDictionary]
+				ifTrue: [folderDialogInstance editAccount: dataDictionary with: (self endpoint)]]

@@ -1,0 +1,14 @@
+{
+	"category" : "IMAPClient-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"readWriter" ],
+	"name" : "ICFileReadWriterTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

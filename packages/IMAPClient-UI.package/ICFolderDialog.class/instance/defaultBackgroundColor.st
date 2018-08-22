@@ -1,4 +1,4 @@
 toolbuilder
 defaultBackgroundColor
 
-	^ Color paleBlue darker darker 
+	^ Color paleBlue darker darker
