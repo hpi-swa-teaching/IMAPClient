@@ -1,16 +1,21 @@
  # IMAPClient [![Build Status](https://travis-ci.org/hpi-swa-teaching/IMAPClient.svg?branch=develop)](https://travis-ci.org/hpi-swa-teaching/IMAPClient)
  
- 
- ## Introduction
- We proudly present our IMAP Client for Smalltalk Squeak, which we developed and improved during SoSe 2018 for our Software Architecture Lecture.
+We proudly present our IMAP Client for Smalltalk Squeak, which we developed and improved during the summer term 2018 of the Software Engineering course.
  
 ## Installation
+1. Get [Squeak 5.1 or later](http://www.squeak.org)
+2. Load [Metacello](https://github.com/metacello/metacello)
+3. Finally, load the package with the following command:
+
 ```
 Metacello new
-    baseline: 'IMAPClient';
-    repository: 'github://hpi-swa-teaching/IMAPClient:develop/packages';
-    load.
+  baseline: 'IMAPClient';
+  repository: 'github://hpi-swa-teaching/IMAPClient:develop/packages';
+  load.
 ```
+
+4. Afterwards load additional changes from Squeak-trunk:
+
 We needed to use some Squeak Methods, which werent available in Squeak-5.1, so we had to update them manually.
 Please follow the following steps:
 
