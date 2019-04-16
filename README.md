@@ -35,6 +35,9 @@ Please follow the following steps:
 
 ![](screenshots/40867038-95f11300-6601-11e8-9ce6-70933baae984.png)
 
+## Open
+You can open the tool with the command `ICLoginDialog open: ICFolderDialog new`
+
  ## Configuration
  You can customize the number of mails, which are fetched on the initial update process, and the number of mails which are loaded if you press the `Load older Mails` Button. Default are 100 and 10. Change `ICFolder>>numbersOfHeadersToFetch{AtLoaderOlderMail | AtTheBeginning}`
  
