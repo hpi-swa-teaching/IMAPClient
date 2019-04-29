@@ -1,13 +1,14 @@
 {
 	"class" : {
+		"defaultPassword" : "ms 5/17/2016 09:34",
+		"defaultUsername" : "ms 5/17/2016 09:34",
 		"for:using:" : "js 5/15/2016 16:38",
 		"initialPassword" : "jwe 6/15/2016 15:47",
 		"initialUsername" : "jwe 6/15/2016 15:47" },
 	"instance" : {
+		"initialize" : "jwe 6/15/2016 15:48",
 		"isValid" : "C.G. 7/25/2018 13:46",
-		"password" : "MT 4/25/2019 21:26",
+		"password" : "js 5/15/2016 16:03",
 		"password:" : "js 5/15/2016 16:03",
-		"passwordAsIMAPString" : "MT 4/25/2019 22:13",
-		"username" : "MT 4/25/2019 21:27",
-		"username:" : "js 5/15/2016 16:03",
-		"usernameAsIMAPString" : "MT 4/25/2019 22:13" } }
+		"username" : "js 5/15/2016 16:03",
+		"username:" : "js 5/15/2016 16:03" } }

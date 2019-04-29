@@ -1,4 +1,0 @@
-accessing
-passwordAsIMAPString
-	
-	^ '"', self password, '"'
