@@ -83,6 +83,13 @@ buildWith: builder
 		autoDeselect: false;
 		columns: {
 			[:listMorph | self emphasizeUnseenMessages: listMorph filteredItems.
+				listMorph filteredItems
+						detect: [:item | item complexContents item class = ICLoadOlderMail]
+						ifFound: [:item |
+							item
+								backgroundColor: Color gray lighter;
+								emphasis: 1]
+						ifNone: [].
 				(listMorph filteredItems collect: [:item |
 					item preferredWidthOfColumn: 1]) max].
 			[:listMorph | (listMorph filteredItems collect: [:item |
