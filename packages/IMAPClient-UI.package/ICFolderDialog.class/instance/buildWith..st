@@ -87,7 +87,9 @@ buildWith: builder
 						detect: [:item | item complexContents item class = ICLoadOlderMail]
 						ifFound: [:item |
 							item
-								backgroundColor: Color gray lighter;
+								backgroundColor:
+									(UserInterfaceTheme current properties
+										at: PluggableListMorph->#filterColor);
 								emphasis: 1]
 						ifNone: [].
 				(listMorph filteredItems collect: [:item |
