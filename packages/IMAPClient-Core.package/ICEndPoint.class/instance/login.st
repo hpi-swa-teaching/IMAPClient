@@ -12,8 +12,8 @@ login
   
 	self sendCommand: (
 		{ self class loginCommand. 
-		self authenticationInfo username. 
-		self authenticationInfo password }
+		self authenticationInfo usernameAsIMAPString. 
+		self authenticationInfo passwordAsIMAPString }
 		joinSeparatedBy: self class protocolBlank);
 		fetchNextResponse;
 		loggedIn: self commandSucceeded.

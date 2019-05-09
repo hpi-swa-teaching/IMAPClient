@@ -1,4 +1,5 @@
 accessing
-username: anObject
+username: aString
 
-	username := anObject
+	(self canConvert: aString) ifFalse: [self error: (aString, ' is not IMAP convertable')].
+	username := aString
