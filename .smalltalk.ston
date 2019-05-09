@@ -6,5 +6,10 @@ SmalltalkCISpec {
       #load : 'Tests',
       #platforms : [ #squeak ]
     }
-  ]
+  ],
+  #testing : {
+    #coverage : {
+      #packages : [ 'IMAP.*' ]
+    }
+}
 }
