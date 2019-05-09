@@ -1,4 +1,4 @@
-# IMAPClient [![Build Status](https://travis-ci.org/hpi-swa-teaching/IMAPClient.svg?branch=master)](https://travis-ci.org/hpi-swa-teaching/IMAPClient)
+# IMAPClient [![Build Status](https://travis-ci.org/hpi-swa-teaching/IMAPClient.svg?branch=master)](https://travis-ci.org/hpi-swa-teaching/IMAPClient) [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/IMAPClient/badge.svg?branch=master)](https://coveralls.io/github/hpi-swa-teaching/IMAPClient?branch=master)
  
 We proudly present our IMAP Client for Smalltalk Squeak, which we developed and improved during the summer term 2018 of the Software Engineering course.
  
