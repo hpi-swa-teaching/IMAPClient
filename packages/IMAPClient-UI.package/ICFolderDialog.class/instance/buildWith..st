@@ -77,6 +77,7 @@ buildWith: builder
 		label: #labelForMail:;
 		setSelected: #selectedEmail:;
 		getSelected: #selectedEmail;
+		doubleClick: #openEmail:;
 		hScrollBarPolicy: #always;
 		vScrollBarPolicy: #always;
 		menu: #emailListMenu:;
