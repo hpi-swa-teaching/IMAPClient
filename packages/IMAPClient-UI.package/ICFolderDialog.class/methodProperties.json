@@ -1,12 +1,13 @@
 {
 	"class" : {
+		"defaultOpenEmailChar" : "pm 5/16/2019 17:13",
 		"open" : "DH 7/19/2018 18:21" },
 	"instance" : {
 		"accountsComplete" : "C.G. 7/25/2018 14:15",
 		"addAccount:" : "C.G. 6/26/2018 11:04",
 		"addAccountButton" : "C.G. 6/26/2018 11:04",
 		"addPasswordToCollection:" : "C.G. 6/26/2018 11:05",
-		"buildWith:" : "pm 5/16/2019 15:33",
+		"buildWith:" : "pm 5/16/2019 17:15",
 		"changeAccounts:" : "C.G. 7/25/2018 14:16",
 		"changeFilter:" : "lvm 7/3/2018 15:50",
 		"childFolders" : "C.G. 7/25/2018 14:16",
@@ -20,6 +21,7 @@
 		"editAccountButton:" : "C.G. 7/25/2018 14:16",
 		"emailAccounts" : "C.G. 7/25/2018 14:16",
 		"emailAccounts:" : "C.G. 7/25/2018 14:16",
+		"emailListKeyPress:" : "pm 5/16/2019 17:21",
 		"emailListMenu:" : "DH 7/25/2018 00:04",
 		"emailSearchHelp" : "lvm 7/3/2018 16:09",
 		"emailsOfSelectedFolder" : "DH 7/9/2018 21:22",
@@ -35,7 +37,6 @@
 		"initialize" : "DH 6/23/2018 16:23",
 		"initializedAccounts" : "C.G. 7/25/2018 14:18",
 		"initializedAccounts:" : "C.G. 7/25/2018 14:18",
-		"keyEvent:" : "C.G. 7/25/2018 14:18",
 		"labelForAccount:" : "C.G. 7/25/2018 14:19",
 		"labelForDeletionAction:" : "C.G. 7/25/2018 14:19",
 		"labelForFolder:" : "C.G. 7/25/2018 14:19",
