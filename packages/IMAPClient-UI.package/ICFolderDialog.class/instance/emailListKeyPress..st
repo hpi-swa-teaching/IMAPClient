@@ -1,8 +1,8 @@
 events
 emailListKeyPress: aKey
-
-	((aKey asLowercase = self class defaultOpenEmailChar) and: [self selectedEmail notNil]) ifTrue: [
-		self openEmail: self selectedEmail.
+	
+	(self emailListKeyPressMapping includesKey: aKey asLowercase) ifTrue: [
+		(self emailListKeyPressMapping at: aKey) value.
 		^ true
 	].
 	^ false
