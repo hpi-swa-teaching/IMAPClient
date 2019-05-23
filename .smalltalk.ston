@@ -9,7 +9,7 @@ SmalltalkCISpec {
   ],
   #testing : {
     #coverage : {
-      #packages : [ 'IMAP.*' ]
+      #packages : [ 'IMAPClient-Core' ]
     }
 }
 }
