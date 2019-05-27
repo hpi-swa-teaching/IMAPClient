@@ -1,4 +1,0 @@
-constants
-defaultOpenEmailChar
-
-	^ $o

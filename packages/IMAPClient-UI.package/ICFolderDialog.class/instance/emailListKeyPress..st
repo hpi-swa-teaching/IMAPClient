@@ -1,8 +1,7 @@
 events
 emailListKeyPress: aKey
 	
-	(self emailListKeyPressMapping includesKey: aKey asLowercase) ifTrue: [
-		(self emailListKeyPressMapping at: aKey) value.
+	self emailListKeyPressMapping at: (aKey asLowercase) ifPresent: [ :anAction |
+		anAction value.
 		^ true
-	].
-	^ false
+	] ifAbsent: [^ false]

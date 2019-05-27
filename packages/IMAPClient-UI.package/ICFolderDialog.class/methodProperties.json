@@ -1,6 +1,5 @@
 {
 	"class" : {
-		"defaultOpenEmailChar" : "pm 5/16/2019 17:13",
 		"open" : "DH 7/19/2018 18:21" },
 	"instance" : {
 		"accountsComplete" : "C.G. 7/25/2018 14:15",
@@ -21,8 +20,8 @@
 		"editAccountButton:" : "C.G. 7/25/2018 14:16",
 		"emailAccounts" : "C.G. 7/25/2018 14:16",
 		"emailAccounts:" : "C.G. 7/25/2018 14:16",
-		"emailListKeyPress:" : "pm 5/23/2019 14:54",
-		"emailListKeyPressMapping" : "pm 5/23/2019 14:47",
+		"emailListKeyPress:" : "pm 5/27/2019 14:00",
+		"emailListKeyPressMapping" : "pm 5/27/2019 14:00",
 		"emailListMenu:" : "DH 7/25/2018 00:04",
 		"emailSearchHelp" : "lvm 7/3/2018 16:09",
 		"emailsOfSelectedFolder" : "DH 7/9/2018 21:22",
