@@ -77,6 +77,8 @@ buildWith: builder
 		label: #labelForMail:;
 		setSelected: #selectedEmail:;
 		getSelected: #selectedEmail;
+		doubleClick: #openEmail:;
+		keyPress: #emailListKeyPress:;
 		hScrollBarPolicy: #always;
 		vScrollBarPolicy: #always;
 		menu: #emailListMenu:;
@@ -97,6 +99,5 @@ buildWith: builder
 		addAll: {emailButtonSpec . addAccountButtonSpec . userListSpec . folderTreeSpec . emailListSpec . emailSearchSpec}.
 	
 	window := builder build: windowSpec.
-	window on: #keyStroke send: #keyEvent: to: self.
 	
 	^ window
