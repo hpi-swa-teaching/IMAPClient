@@ -12,6 +12,6 @@ instanceFor: anICFolderDialog
 		seen: true;
 		flagged: false;
 		messageID: '-1';
-		uid: '-1'].
+		uniqueID: '-1'].
 	
 	^ instance folder: anICFolderDialog selectedFolder; folderDialog: anICFolderDialog

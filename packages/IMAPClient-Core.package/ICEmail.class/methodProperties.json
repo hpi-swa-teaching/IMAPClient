@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"defaultSubject" : "pm 6/2/2019 16:01" },
 	"instance" : {
 		"asString" : "AR 7/28/2016 14:06",
 		"body" : "js 6/14/2016 10:37",
@@ -12,9 +12,10 @@
 		"contentType:" : "C.G. 7/25/2018 13:46",
 		"date" : "C.G. 7/25/2018 13:46",
 		"date:" : "C.G. 7/25/2018 13:46",
-		"defaultSubject" : "ms 6/28/2016 10:08",
+		"dateFormatted" : "pm 6/2/2019 15:56",
+		"dateInSeconds" : "pm 6/2/2019 15:56",
 		"deleteEmail" : "C.G. 7/12/2018 08:07",
-		"deleteEmailFromDisk" : "C.G. 7/25/2018 13:46",
+		"deleteEmailFromDisk" : "pm 6/2/2019 15:58",
 		"deleted" : "DH 7/19/2018 21:58",
 		"deleted:" : "DH 7/19/2018 19:43",
 		"expungeEmails" : "C.G. 7/25/2018 13:47",
@@ -24,8 +25,6 @@
 		"folder:" : "ms 7/10/2016 13:31",
 		"from" : "C.G. 7/25/2018 13:47",
 		"from:" : "C.G. 7/25/2018 13:47",
-		"getDateFormatted" : "C.G. 7/12/2018 08:08",
-		"getDateInSeconds" : "C.G. 7/12/2018 08:08",
 		"header" : "js 6/14/2016 10:39",
 		"header:" : "js 6/14/2016 10:39",
 		"headerAsString" : "C.G. 7/25/2018 13:47",
@@ -39,13 +38,13 @@
 		"moveEmail:" : "C.G. 7/25/2018 13:48",
 		"open" : "lvm 5/20/2018 20:10",
 		"retrieveBody" : "C.G. 7/25/2018 13:48",
-		"retrieveFlags" : "C.G. 7/25/2018 13:49",
-		"saveInMaildir" : "C.G. 7/25/2018 13:49",
+		"retrieveFlags" : "pm 6/2/2019 15:58",
+		"saveInMaildir" : "pm 6/2/2019 15:58",
 		"seen" : "C.G. 7/25/2018 13:49",
 		"seen:" : "C.G. 7/25/2018 13:49",
-		"subject" : "ms 6/28/2016 10:08",
+		"subject" : "pm 6/2/2019 16:01",
 		"subject:" : "C.G. 7/25/2018 13:49",
 		"to" : "C.G. 7/25/2018 13:49",
 		"to:" : "C.G. 7/25/2018 13:49",
-		"uid" : "lvm 7/4/2018 11:17",
-		"uid:" : "C.G. 7/25/2018 13:49" } }
+		"uniqueID" : "pm 6/2/2019 15:58",
+		"uniqueID:" : "pm 6/2/2019 15:58" } }

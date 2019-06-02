@@ -12,7 +12,7 @@ parseFetchHeader: headerLines withId: id
 	"this is necassery because one header field could contains multiple lines"
 	headerData do: [:line |
 		(line includesSubString: 'UID')	
-			ifTrue: [email uid: ((line subStrings: ' ') second)]
+			ifTrue: [email uniqueID: ((line subStrings: ' ') second)]
 			ifFalse: [
 				((self startsNewHeaderChunk: line) & (headerChunk notEmpty))
 					ifTrue: [ 

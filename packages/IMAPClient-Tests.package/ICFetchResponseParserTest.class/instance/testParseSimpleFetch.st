@@ -17,4 +17,4 @@ testParseSimpleFetch
 	self assert: parsedMail to equals: givenMail to.
 	self assert: parsedMail subject equals: givenMail subject.
 	self assert: parsedMail date equals: givenMail date. 
-	self assert: parsedMail uid equals: givenMail uid
+	self assert: parsedMail uniqueID equals: givenMail uniqueID
