@@ -1,4 +1,4 @@
-action
+endpoint interaction
 moveEmail: aFolder 
 
 	| anICEndPoint |

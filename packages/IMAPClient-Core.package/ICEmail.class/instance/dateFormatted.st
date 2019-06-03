@@ -1,5 +1,5 @@
 accessing
-getDateFormatted
+dateFormatted
 
 	"Use date in header and convert it into seconds with MailMessage timeFrom Method.
 	Add localOffset to keep it in LocalTime. 
@@ -9,7 +9,7 @@ getDateFormatted
 	
 	self date = '' ifTrue: [^''].
 	
-	date := DateAndTime fromSeconds: self getDateInSeconds.
+	date := DateAndTime fromSeconds: self dateInSeconds.
 	
 	formatted := ((date dayOfMonth asString padded: #left to: 2 with: $0) ,'.', 
 			 (date month asString padded: #left to: 2 with: $0), '.',

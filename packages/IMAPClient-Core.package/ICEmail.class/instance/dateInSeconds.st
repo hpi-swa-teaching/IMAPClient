@@ -1,5 +1,5 @@
 accessing
-getDateInSeconds
+dateInSeconds
 
 	"Use date in header and convert it into seconds with MailMessage timeFrom Method.
 	Add localOffset to keep it in LocalTime. 

@@ -11,7 +11,7 @@ parseFetchFlagsOnly: aFolder
 		uidPart := (line allRegexMatches: 'UID \d*') ifEmpty: [ ^ ''].
 		uid := (uidPart first allRegexMatches: '[\d]+') ifEmpty: [ ^ ''].
 		uid := uid first.
-		email := aFolder emails detect: [:mail | mail uid asString = uid] ifNone: [^ ''].
+		email := aFolder emails detect: [:mail | mail uniqueID asString = uid] ifNone: [^ ''].
 				
 		"only update maildir file, it something changes, this improves performance drastically"
 		((email seen ~= (line includesSubString: '\Seen')) or: 
