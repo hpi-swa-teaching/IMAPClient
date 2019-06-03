@@ -1,5 +1,5 @@
 folder selection
-getFolderWith: endpoint
+folderWith: endpoint
 	
 	 ^ endpoint 
 		checkConnected;

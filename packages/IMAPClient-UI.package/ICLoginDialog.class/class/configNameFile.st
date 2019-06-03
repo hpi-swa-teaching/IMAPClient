@@ -1,4 +1,4 @@
 constants
-getConfigNameFile
+configNameFile
 
 	^ 'config.txt'

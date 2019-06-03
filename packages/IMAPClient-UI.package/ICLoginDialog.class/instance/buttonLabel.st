@@ -1,5 +1,5 @@
 accessing
-getButtonLabel
+buttonLabel
 
 	(self updateMode)
 		ifTrue: [^ 'Update']

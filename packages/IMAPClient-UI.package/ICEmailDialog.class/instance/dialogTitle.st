@@ -1,4 +1,4 @@
 toolbuilder
 dialogTitle
 
-	^ self getSubject
+	^ self subject

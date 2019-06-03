@@ -7,7 +7,7 @@ accountsComplete
 	
 	"let all Endpoints preload their file structure and configure them to prevent timeouts"
 	self emailAccounts do: [:endpoint |
-		self getFolderWith: endpoint.
+		self folderWith: endpoint.
 		endpoint preventTimeout].
 	
 	ToolBuilder default open: self
