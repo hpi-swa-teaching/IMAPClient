@@ -1,5 +1,5 @@
 updateEmails
-getHighestUniqueID
+highestUniqueID
 	
 	(self emails) ifEmpty: [^ nil].
 		

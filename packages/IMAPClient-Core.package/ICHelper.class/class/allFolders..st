@@ -1,5 +1,5 @@
 helper methods
-getAllFolders: initialCollection	
+allFolders: initialCollection	
 	
 	| folders stack |
 	

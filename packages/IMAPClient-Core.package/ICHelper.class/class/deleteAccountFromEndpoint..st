@@ -5,7 +5,7 @@ deleteAccountFromEndpoint: aEndpoint
 
 	| directory configDirectory fileName mailDirectory |
 	
-	fileName := self getHashNameForAccount: (aEndpoint serverInfo host)  and: (aEndpoint authenticationInfo username).
+	fileName := self hashNameForAccount: (aEndpoint serverInfo host)  and: (aEndpoint authenticationInfo username).
 	directory := FileDirectory default.
 	
 	(directory directoryExists: 'Maildir')

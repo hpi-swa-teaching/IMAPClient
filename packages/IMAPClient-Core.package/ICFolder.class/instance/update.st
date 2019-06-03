@@ -1,5 +1,5 @@
 updateEmails
 update
 
-	self startUpdateProcess: self getHighestUniqueID.	
+	self startUpdateProcess: self highestUniqueID.	
 	self childFolders do: [:anICFolder | anICFolder update]
