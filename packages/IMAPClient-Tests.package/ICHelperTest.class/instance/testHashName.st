@@ -1,5 +1,5 @@
 as yet unclassified
-testGetHashName
+testHashName
 
 	self assert: (ICHelper hashNameForAccount: 'testHost' and: 'klaus') equals: '1394373304'.
 	self assert: (ICHelper hashNameForAccount: 'tHost' and: 'klaus') equals: '8003456151'.

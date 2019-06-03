@@ -7,7 +7,7 @@ testSaveCredentialsIntoFile
 	
 	self class configFiles do: [ :config | 	ICHelper saveCredentialsIntoFile: (config)].
 	
-	directory := self getConfigDirectory.
+	directory := self configDirectory.
 	
 	firstFileName := (ICHelper hashNameForAccount: (self class firstConfig at: 'address') 
 		and: (self class firstConfig at: 'username')).

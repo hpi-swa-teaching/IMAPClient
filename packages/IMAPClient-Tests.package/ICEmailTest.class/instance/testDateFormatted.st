@@ -1,5 +1,5 @@
 accessing
-testGetDateFormatted
+testDateFormatted
 	
 	| previousOffset |
 	

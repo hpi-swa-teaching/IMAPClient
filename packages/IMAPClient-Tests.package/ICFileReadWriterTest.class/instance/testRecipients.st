@@ -1,5 +1,5 @@
 accessing
-testGetRecipients
+testRecipients
 	
 	| jsonRecipients |
 	

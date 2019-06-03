@@ -4,10 +4,10 @@
 		"firstConfig" : "C.G. 7/25/2018 18:15",
 		"secondConfig" : "C.G. 7/25/2018 18:16" },
 	"instance" : {
+		"configDirectory" : "pm 6/3/2019 18:53",
 		"createConfigFiles" : "C.G. 7/25/2018 18:06",
-		"deleteConfigFiles:and:" : "C.G. 7/25/2018 18:06",
-		"getConfigDirectory" : "C.G. 7/25/2018 18:07",
+		"deleteConfigFiles:and:" : "pm 6/3/2019 18:53",
 		"testDeleteAccountFromEndpoint" : "C.G. 7/25/2018 18:08",
-		"testGetHashName" : "pm 6/3/2019 18:36",
+		"testHashName" : "pm 6/3/2019 18:53",
 		"testLoadCredentialsIntoDictionaries" : "C.G. 7/25/2018 18:09",
-		"testSaveCredentialsIntoFile" : "pm 6/3/2019 18:37" } }
+		"testSaveCredentialsIntoFile" : "pm 6/3/2019 18:53" } }
