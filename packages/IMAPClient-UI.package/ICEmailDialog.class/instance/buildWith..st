@@ -15,7 +15,7 @@ buildWith: builder
 		color: #checkBoxColor;
 		readOnly: true;
 		indicateUnacceptedChanges: false;
-		getText: #getSender;
+		getText: #sender;
 		frame: (0 @ 0 extent: 1 @ 0.0666).
 	
 	subjectSpec := builder pluggableInputFieldSpec new.
@@ -25,7 +25,7 @@ buildWith: builder
 		readOnly: true;
 		font: (Preferences standardDefaultTextFont emphasized: 1);
 		indicateUnacceptedChanges: false;
-		getText: #getSubject;
+		getText: #subject;
 		frame: (0 @ 0.0666 extent: 1 @ 0.0666).
 		
 	recipientSpec := builder pluggableInputFieldSpec new.
@@ -34,7 +34,7 @@ buildWith: builder
 		color: #checkBoxColor;
 		readOnly: true;
 		indicateUnacceptedChanges: false;
-		getText: #getRecipients;
+		getText: #recipients;
 		frame: (0 @ 0.1333 extent: 1 @ 0.0666).
 		
 	bodySpec := builder pluggableTextSpec new.
@@ -42,7 +42,7 @@ buildWith: builder
 		model: self;
 		readOnly: true;
 		indicateUnacceptedChanges: false;
-		getText: #getBody;
+		getText: #body;
 		frame: (0 @ 0.2 extent: 1 @ 0.8).
 
 	windowSpec children addAll: {senderLabelSpec . subjectSpec . recipientSpec . bodySpec}.

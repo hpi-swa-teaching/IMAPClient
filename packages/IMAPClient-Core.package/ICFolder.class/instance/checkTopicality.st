@@ -4,10 +4,10 @@ checkTopicality
 	| relevantUIDs localMails min max |
 	
 	" we cant access first and last of the sortedCollection because its sorted by date, not by UID "
-	min := self getLowestUniqueID.
-	max := self getHighestUniqueID.
+	min := self lowestUniqueID.
+	max := self highestUniqueID.
 		
-	self endpoint getCurrentUIDs.
+	self endpoint currentUIDs.
 	
 	relevantUIDs := self endpoint uids select: [ :uid | (uid asNumber <= max) and: (uid asNumber >=min)].
 

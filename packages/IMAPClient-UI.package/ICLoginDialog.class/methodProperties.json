@@ -1,14 +1,15 @@
 {
 	"class" : {
+		"configNameFile" : "pm 6/3/2019 18:48",
 		"failureLoginMessage" : "jwe 6/14/2016 23:41",
-		"getConfigNameFile" : "C.G. 6/21/2018 00:34",
 		"open:" : "C.G. 6/21/2018 10:56",
 		"open:with:" : "C.G. 7/25/2018 14:26",
 		"successLoginMessage" : "jwe 6/14/2016 23:40" },
 	"instance" : {
 		"accountName" : "C.G. 7/25/2018 14:21",
 		"accountName:" : "C.G. 7/25/2018 14:21",
-		"buildWith:" : "C.G. 7/25/2018 14:22",
+		"buildWith:" : "pm 6/3/2019 18:47",
+		"buttonLabel" : "pm 6/3/2019 18:47",
 		"changeInputField:" : "DH 7/25/2018 00:10",
 		"checkBoxColor" : "ms 7/13/2016 17:34",
 		"checkForEmptyParameter:" : "C.G. 7/25/2018 12:20",
@@ -21,7 +22,6 @@
 		"endpoint:" : "C.G. 7/25/2018 14:23",
 		"folderDialogInstance" : "C.G. 7/25/2018 14:23",
 		"folderDialogInstance:" : "C.G. 7/25/2018 14:23",
-		"getButtonLabel" : "C.G. 7/25/2018 14:23",
 		"guiElementHeight" : "ms 6/3/2016 19:32",
 		"guiElementWidth" : "ms 6/3/2016 19:36",
 		"guiElementXOffset" : "ms 6/3/2016 19:36",

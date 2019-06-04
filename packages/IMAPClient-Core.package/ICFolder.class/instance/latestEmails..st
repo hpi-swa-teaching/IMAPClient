@@ -1,9 +1,9 @@
 email access
-getLatestEmails: count
+latestEmails: count
 
 	| startUID allUIDs |
 	
-	self endpoint getCurrentUIDsFor: self.
+	self endpoint currentUIDsFor: self.
 	allUIDs := self endpoint uids.
 	allUIDs ifEmpty: [^ OrderedCollection new].
 	(allUIDs size - count) <= 0

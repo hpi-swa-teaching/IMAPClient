@@ -14,7 +14,7 @@ testRetrieveFlagsOnly
 	folder := emailObjects first folder.
 	folder emails addAll: emailObjects.
 	
-	folderName := ICHelper getHashNameForAccount: (self endPoint serverInfo host) and: (self endPoint authenticationInfo username).
+	folderName := ICHelper hashNameForAccount: (self endPoint serverInfo host) and: (self endPoint authenticationInfo username).
 	path := 'Maildir', FileDirectory slash, folderName, FileDirectory slash, 'inbox'.
 	mailAPath := FileDirectory default fullPathFor: path , FileDirectory slash, '3' .
 	mailBPath := FileDirectory default fullPathFor: path , FileDirectory slash, '4' .

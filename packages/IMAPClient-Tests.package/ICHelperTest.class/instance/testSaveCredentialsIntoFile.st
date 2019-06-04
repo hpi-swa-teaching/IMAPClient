@@ -7,21 +7,21 @@ testSaveCredentialsIntoFile
 	
 	self class configFiles do: [ :config | 	ICHelper saveCredentialsIntoFile: (config)].
 	
-	directory := self getConfigDirectory.
+	directory := self configDirectory.
 	
-	firstFileName := (ICHelper getHashNameForAccount: (self class firstConfig at: 'address') 
+	firstFileName := (ICHelper hashNameForAccount: (self class firstConfig at: 'address') 
 		and: (self class firstConfig at: 'username')).
 		
-	secondFileName := (ICHelper getHashNameForAccount: (self class secondConfig at: 'address') 
+	secondFileName := (ICHelper hashNameForAccount: (self class secondConfig at: 'address') 
 		and: (self class secondConfig at: 'username')).
 	
 	"the method uses hashing for names"
 	self 
-		assert: (directory fileExists: (ICHelper getHashNameForAccount: (self class firstConfig at: 'address') 
+		assert: (directory fileExists: (ICHelper hashNameForAccount: (self class firstConfig at: 'address') 
 		and: (self class firstConfig at: 'username'))).	
 	
 	self 
-		assert: (directory fileExists: (ICHelper getHashNameForAccount: (self class secondConfig at: 'address') 
+		assert: (directory fileExists: (ICHelper hashNameForAccount: (self class secondConfig at: 'address') 
 		and: (self class secondConfig at: 'username'))).	
 			
 	result := ICHelper loadCredentialsIntoDictionaries.

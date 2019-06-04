@@ -1,8 +1,8 @@
 fetching
-getCurrentUIDs
+currentUIDs
 
 	self
-		sendCommand: self class getAllUIDs;
+		sendCommand: self class allUIDs;
 		 fetchNextResponse.
 		
 	self 

@@ -1,4 +1,4 @@
 email access
-getSubject
+subject
 
 	^ email subject

@@ -3,7 +3,7 @@ deleteConfigFiles: firstFileName and: secondFileName
 		
 	| directory |
 	
-	directory :=  self getConfigDirectory.
+	directory :=  self configDirectory.
 				
 	(directory fileOrDirectoryExists: (firstFileName)) 
 		ifTrue: [directory deleteFileNamed: (firstFileName)].

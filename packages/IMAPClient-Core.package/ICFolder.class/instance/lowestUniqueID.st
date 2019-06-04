@@ -1,5 +1,5 @@
 updateEmails
-getLowestUniqueID
+lowestUniqueID
 	
 	(self emails) ifEmpty: [^ nil].
 		

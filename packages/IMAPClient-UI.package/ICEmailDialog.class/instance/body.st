@@ -1,5 +1,5 @@
 email access
-getBody
+body
 	
 	| mimeDoc body |
 	

@@ -1,4 +1,4 @@
 email access
-getSender
+sender
 
 	^ email from

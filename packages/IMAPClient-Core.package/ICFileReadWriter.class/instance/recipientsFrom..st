@@ -1,5 +1,5 @@
 read file
-getRecipientsFrom: aJsonObject
+recipientsFrom: aJsonObject
 
 	| recipients |
 	

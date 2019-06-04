@@ -92,7 +92,7 @@ buildWith: builder
 		frame: 
 			(self guiElementXOffset @ (self guiElementYOffsetOf: 6) 
 			extent: self guiElementWidth @ (self guiElementHeight * 1.0));
-		label: #getButtonLabel;
+		label: #buttonLabel;
 		action: #login.
 			
 	windowSpec children 
