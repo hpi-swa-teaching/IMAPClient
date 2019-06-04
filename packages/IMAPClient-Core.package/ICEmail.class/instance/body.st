@@ -1,4 +1,4 @@
 accessing
 body
 
-	^ body
+	^ body ifNil: [body := String empty]
