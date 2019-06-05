@@ -61,15 +61,16 @@ buildWith: builder
 				(listMorph filteredItems collect: [:item |
 					item preferredWidthOfColumn: 2]) max]}.
 		
-	emailSearchSpec := builder pluggableTextSpec new.
+	emailSearchSpec := builder pluggableInputFieldSpec new.
 	emailSearchSpec
 		model: self;
 		frame: (0.2 @ 0 extent: 0.8 @ 0.05);
 		editText: #changeFilter:;
-		help: #emailSearchHelp.";
-		
+		setText: #filterString:;
+		getText: #filterString;
+		help: #emailSearchHelp;		
 		askBeforeDiscardingEdits: true;
-		indicateUnacceptedChanges: false."
+		indicateUnacceptedChanges: false.
 		
 	emailListSpec := builder pluggableTreeSpec new.
 	emailListSpec
