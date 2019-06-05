@@ -1,0 +1,1 @@
+This class supportes the automatic release via travis.
