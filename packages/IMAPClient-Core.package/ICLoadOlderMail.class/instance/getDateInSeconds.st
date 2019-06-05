@@ -1,4 +1,0 @@
-accessing
-getDateInSeconds 
-
-	^ -1

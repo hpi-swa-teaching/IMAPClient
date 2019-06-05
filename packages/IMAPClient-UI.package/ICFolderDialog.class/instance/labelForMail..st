@@ -9,7 +9,7 @@ labelForMail: anICEmail
 		Character tab,
 		(fromCollection at: 2 ifAbsent: [fromCollection at: 1 ifAbsent: ['']]),
 		Character tab,
-		anICEmail getDateFormatted.
+		anICEmail dateFormatted.
 	
 	(anICEmail isFlaggable) ifFalse: [^ label].
 	(anICEmail flagged) ifTrue: [label := '[FLAGGED] ', label].	

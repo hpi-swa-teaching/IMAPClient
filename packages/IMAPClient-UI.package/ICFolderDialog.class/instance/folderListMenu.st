@@ -4,7 +4,7 @@ folderListMenu
 	| aMenu folders |
 	
 	aMenu := MenuMorph new.
-	folders := ICHelper getAllFolders: ((self rootFolder) asOrderedCollection).
+	folders := ICHelper allFolders: ((self rootFolder) asOrderedCollection).
 
 	folders allButFirst do: [:each | 
 		aMenu 

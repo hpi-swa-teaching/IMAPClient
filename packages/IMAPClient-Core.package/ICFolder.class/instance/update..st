@@ -5,5 +5,5 @@ update: aBlock
 		signal: (aBlock value) 
 		extra: (self endpoint name, ' Mailbox. Folder: ', self name).
 	
-	self startUpdateProcess: self getHighestUID.
+	self startUpdateProcess: self highestUniqueID.
 	self childFolders do: [:anICFolder | anICFolder update: aBlock]

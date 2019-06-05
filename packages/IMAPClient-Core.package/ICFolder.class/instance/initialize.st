@@ -4,5 +4,5 @@ initialize
 	self
 		parent: self;
 		childFolders: OrderedCollection new;
-		emails: (SortedCollection sortBlock: [:first :second | first getDateInSeconds >= second getDateInSeconds]);
+		emails: (SortedCollection sortBlock: [:first :second | first dateInSeconds >= second dateInSeconds]);
 		name: self class defaultName

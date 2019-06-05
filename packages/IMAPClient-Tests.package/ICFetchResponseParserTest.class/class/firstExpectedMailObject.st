@@ -6,5 +6,5 @@ firstExpectedMailObject
 			from: 'test@example.de';
 			to: (OrderedCollection newFrom: { 'student@hpi.de' });
 			subject: 'test mail';
-			uid: (self firstUID);
+			uniqueID: (self firstUID);
 			yourself

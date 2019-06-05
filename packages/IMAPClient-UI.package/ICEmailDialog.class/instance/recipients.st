@@ -1,4 +1,4 @@
 email access
-getRecipients
+recipients
 
 	^ email to joinSeparatedBy: ';'

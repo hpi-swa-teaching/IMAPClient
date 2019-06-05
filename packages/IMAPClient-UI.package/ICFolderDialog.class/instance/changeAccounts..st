@@ -3,7 +3,7 @@ changeAccounts: anAccount
 
 	
 	anAccount ifNil: [^self].	
-	self getFolderWith: anAccount.
+	self folderWith: anAccount.
 	
 	self rootFolder: (Array with: anAccount rootFolder).
 	self selectedFolder: nil.
