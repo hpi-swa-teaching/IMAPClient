@@ -65,9 +65,11 @@ buildWith: builder
 	emailSearchSpec
 		model: self;
 		frame: (0.2 @ 0 extent: 0.8 @ 0.05);
-		askBeforeDiscardingEdits: false;
 		editText: #changeFilter:;
-		help: #emailSearchHelp;
+		setText: #filterString:;
+		getText: #filterString;
+		help: #emailSearchHelp;		
+		askBeforeDiscardingEdits: true;
 		indicateUnacceptedChanges: false.
 		
 	emailListSpec := builder pluggableTreeSpec new.
