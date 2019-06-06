@@ -2,9 +2,7 @@ helper
 checkIfAccountnameUnused: aDictionary
 
 	" return false if account with same name exists "
-	ICHelper loadCredentialsIntoDictionaries do: [ :credDict |
-		((aDictionary at: 'name') = (credDict at: 'name'))
-			ifTrue: [
-				self displayAccountnameExistsErrorMessage.
-				^ false ].].
-	^ true
+	ICHelper loadCredentialsIntoDictionaries 
+		detect: [:credDict | (aDictionary at: 'name') = (credDict at: 'name')] 
+		ifFound: [:credDict | self displayAccountnameExistsErrorMessage. ^false] 
+		ifNone: [^true]
