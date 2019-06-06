@@ -1,5 +1,5 @@
 helper
-checkForAccountnameExistence: aDictionary
+checkIfAccountnameUnused: aDictionary
 
 	" return false if account with same name exists "
 	ICHelper loadCredentialsIntoDictionaries do: [ :credDict |
