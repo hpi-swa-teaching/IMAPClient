@@ -1,4 +1,4 @@
 accessing
 name
 
-	^ name
+	^ name ifNil: [name := self class defaultName]

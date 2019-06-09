@@ -1,4 +1,4 @@
 accessing
 uninitializedAccounts
 
-	^ uninitializedAccounts
+	^ uninitializedAccounts ifNil: [uninitializedAccounts := OrderedCollection new]

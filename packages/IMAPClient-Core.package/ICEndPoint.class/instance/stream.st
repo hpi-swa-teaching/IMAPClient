@@ -1,4 +1,4 @@
 accessing
 stream
 
-	^ stream
+	^ stream ifNil: [stream := ICStreamWrapper new]

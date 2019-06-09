@@ -1,4 +1,4 @@
 accessing
 childFolders
 
-	^ childFolders
+	^ childFolders ifNil: [childFolders := OrderedCollection new]
