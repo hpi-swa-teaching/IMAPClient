@@ -1,4 +1,4 @@
 accessing
-data: anObject
+data: aDictionary
 
-	data := anObject
+	data := aDictionary

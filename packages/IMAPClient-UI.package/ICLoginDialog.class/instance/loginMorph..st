@@ -1,4 +1,4 @@
 accessing
-loginMorph: anObject
+loginMorph: aMorph
 
-	loginMorph := anObject
+	loginMorph := aMorph

@@ -1,4 +1,4 @@
 accessing
-responses: anObject
+responses: anOrderedCollection
 
-	responses := anObject
+	responses := anOrderedCollection

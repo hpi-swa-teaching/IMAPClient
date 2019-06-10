@@ -1,4 +1,4 @@
 accessing
-port: anObject
+port: aNumber
 
-	port := anObject
+	port := aNumber

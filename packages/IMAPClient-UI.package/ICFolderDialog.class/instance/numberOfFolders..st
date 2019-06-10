@@ -1,4 +1,4 @@
 accessing
-numberOfFolders: anObject
+numberOfFolders: aNumber
 
-	numberOfFolders := anObject
+	numberOfFolders := aNumber

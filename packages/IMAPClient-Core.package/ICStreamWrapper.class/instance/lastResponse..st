@@ -1,5 +1,5 @@
 accessing
-lastResponse: anObject
+lastResponse: anOrderedCollection
 
-	Transcript show: 'RECEIVED: ', (anObject copy truncateTo:50); cr.
-	lastResponse := anObject
+	Transcript show: 'RECEIVED: ', (anOrderedCollection copy truncateTo:50); cr.
+	lastResponse := anOrderedCollection

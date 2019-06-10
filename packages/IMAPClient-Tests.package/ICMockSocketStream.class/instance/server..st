@@ -1,4 +1,4 @@
 accessing
-server: anObject
+server: anICMockServer
 
-	server := anObject
+	server := anICMockServer
