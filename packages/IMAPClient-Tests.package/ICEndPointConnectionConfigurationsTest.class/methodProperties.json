@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"defaultConfigurationDictionary" : "pm 6/11/2019 20:04" },
+	"instance" : {
+		"previousConnectionConfigurations" : "pm 6/11/2019 19:44",
+		"previousConnectionConfigurations:" : "pm 6/11/2019 19:45",
+		"setUp" : "pm 6/11/2019 20:01",
+		"tearDown" : "pm 6/11/2019 19:47",
+		"testAddConfiguration" : "pm 6/11/2019 20:07",
+		"testClearConfigurations" : "pm 6/11/2019 20:12",
+		"testLazyInit" : "pm 6/11/2019 20:01",
+		"testRemoveConfiguration" : "pm 6/11/2019 20:10" } }
