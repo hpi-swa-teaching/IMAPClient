@@ -1,4 +1,4 @@
 accessing
-window: anObject
+window: aMorph
 
-	window := anObject
+	window := aMorph

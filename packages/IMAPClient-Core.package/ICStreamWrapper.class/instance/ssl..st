@@ -1,4 +1,4 @@
 accessing
-ssl: anObject
+ssl: aBool
 
-	ssl := anObject
+	ssl := aBool

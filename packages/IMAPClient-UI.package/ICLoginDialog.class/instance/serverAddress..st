@@ -1,8 +1,8 @@
 accessing
-serverAddress: anObject
+serverAddress: aText
 	
-	(self checkIfLastCharacterIsTab: anObject string)
-		ifFalse: [serverAddress := anObject withBlanksTrimmed]
+	(self checkIfLastCharacterIsTab: aText string)
+		ifFalse: [serverAddress := aText withBlanksTrimmed]
 		ifTrue: [self changeInputField: 2].
 		
 	self changed: #serverAddress

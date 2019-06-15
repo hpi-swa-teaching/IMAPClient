@@ -1,4 +1,4 @@
 accessing
-currentID: anObject
+currentID: aString
 
-	currentID := anObject
+	currentID := aString

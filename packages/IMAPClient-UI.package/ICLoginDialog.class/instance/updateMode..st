@@ -1,4 +1,4 @@
 accessing
-updateMode: anObject
+updateMode: aBool
 
-	updateMode := anObject
+	updateMode := aBool

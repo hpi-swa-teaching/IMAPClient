@@ -1,4 +1,4 @@
 accessing
-endPoint: anObject
+endPoint: anICEndPoint
 
-	endPoint := anObject
+	endPoint := anICEndPoint

@@ -1,4 +1,4 @@
 accessing
-mailBody: anObject
+mailBody: aString
 
-	mailBody := anObject
+	mailBody := aString
