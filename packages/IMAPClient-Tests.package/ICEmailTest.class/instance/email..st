@@ -1,4 +1,4 @@
 accessing
-email: anObject
+email: anICEmail
 
-	email := anObject
+	email := anICEmail

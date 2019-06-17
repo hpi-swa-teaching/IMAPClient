@@ -1,4 +1,4 @@
 accessing
-symbolArray: anObject
+symbolArray: anOrderedCollection
 
-	symbolArray := anObject
+	symbolArray := anOrderedCollection

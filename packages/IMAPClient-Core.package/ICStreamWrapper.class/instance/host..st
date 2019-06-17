@@ -1,4 +1,4 @@
 accessing
-host: anObject
+host: aString
 
-	host := anObject
+	host := aString

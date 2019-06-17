@@ -1,4 +1,4 @@
 accessing
-currentMail: anObject
+currentMail: aString
 
-	currentMail := anObject
+	currentMail := aString

@@ -1,4 +1,4 @@
 accessing
-reader: anObject
+reader: aStream
 
-	reader := anObject
+	reader := aStream

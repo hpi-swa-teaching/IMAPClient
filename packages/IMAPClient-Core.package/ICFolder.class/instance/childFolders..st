@@ -1,4 +1,4 @@
 accessing
-childFolders: anObject
+childFolders: anOrderedCollection
 
-	childFolders := anObject
+	childFolders := anOrderedCollection

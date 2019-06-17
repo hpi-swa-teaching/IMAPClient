@@ -1,4 +1,4 @@
 accessing
-validPassword: anObject
+validPassword: aString
 
-	validPassword := anObject
+	validPassword := aString

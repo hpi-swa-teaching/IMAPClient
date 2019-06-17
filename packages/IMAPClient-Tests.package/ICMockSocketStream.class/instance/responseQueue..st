@@ -1,4 +1,4 @@
 accessing
-responseQueue: anObject
+responseQueue: anOrderedCollection
 
-	responseQueue := anObject
+	responseQueue := anOrderedCollection

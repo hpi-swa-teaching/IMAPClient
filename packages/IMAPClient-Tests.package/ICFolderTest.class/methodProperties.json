@@ -3,10 +3,10 @@
 		 },
 	"instance" : {
 		"endpoint" : "ms 7/28/2016 14:10",
-		"endpoint:" : "ms 7/28/2016 14:11",
+		"endpoint:" : "pm 6/9/2019 17:19",
 		"exampleEmailIn:" : "C.G. 7/25/2018 18:04",
 		"root" : "js 6/7/2016 12:56",
-		"root:" : "js 6/7/2016 12:56",
+		"root:" : "pm 6/9/2019 17:19",
 		"setUp" : "C.G. 7/25/2018 18:04",
 		"tearDown" : "js 6/7/2016 12:56",
 		"testAddFolder" : "DH 7/19/2018 18:18",

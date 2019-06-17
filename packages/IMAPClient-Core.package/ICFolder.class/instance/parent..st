@@ -1,4 +1,4 @@
 accessing
-parent: anObject
+parent: anICFolder
 
-	parent := anObject
+	parent := anICFolder
