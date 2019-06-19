@@ -1,12 +1,15 @@
 {
 	"class" : {
-		"defaultConfigurationDictionary" : "pm 6/11/2019 20:04" },
+		"defaultConfigurationDictionary" : "pm 6/11/2019 20:04",
+		"defaultInvalidKeysConfigurationDictionary" : "pm 6/19/2019 14:14",
+		"invalidDataDictionaryErrorMessage" : "pm 6/19/2019 14:26" },
 	"instance" : {
 		"previousConnectionConfigurations" : "pm 6/11/2019 19:44",
 		"previousConnectionConfigurations:" : "pm 6/11/2019 19:45",
-		"setUp" : "pm 6/11/2019 20:01",
-		"tearDown" : "pm 6/11/2019 19:47",
-		"testAddConfiguration" : "pm 6/11/2019 20:07",
-		"testClearConfigurations" : "pm 6/11/2019 20:12",
-		"testLazyInit" : "pm 6/11/2019 20:01",
-		"testRemoveConfiguration" : "pm 6/11/2019 20:10" } }
+		"setUp" : "pm 6/19/2019 13:19",
+		"tearDown" : "pm 6/19/2019 13:19",
+		"testAddConfiguration" : "pm 6/19/2019 14:46",
+		"testClearConfigurations" : "pm 6/19/2019 14:47",
+		"testLazyInit" : "pm 6/19/2019 14:47",
+		"testRejectInvaildConfiguration" : "pm 6/19/2019 14:47",
+		"testRemoveConfiguration" : "pm 6/19/2019 14:47" } }

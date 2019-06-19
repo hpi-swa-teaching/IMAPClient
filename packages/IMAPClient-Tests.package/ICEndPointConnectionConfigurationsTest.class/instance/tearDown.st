@@ -1,6 +1,6 @@
 running
 tearDown
 
-	ICEndPoint class connectionConfigurations: self previousConnectionConfigurations.
+	ICEndPoint connectionConfigurations: self previousConnectionConfigurations.
 	
 	

@@ -9,10 +9,10 @@ editAccount: newData with: anEndPoint
 	data := OrderedCollection new.
 	data add: newData.
 	
-	ICHelper deleteAccountFromEndpoint: anEndPoint.
+	ICEndPoint removeConfiguration: anEndPoint.
 	self emailAccounts remove: anEndPoint.
 	
-	ICHelper saveCredentialsIntoFile: newData.
+	ICEndPoint addConfiguration: newData.
 	
 	self emailAccounts add: ((ICHelper accountDictionariesToEndpoints: data) at: 1).	
 	self selectedFolder: nil.

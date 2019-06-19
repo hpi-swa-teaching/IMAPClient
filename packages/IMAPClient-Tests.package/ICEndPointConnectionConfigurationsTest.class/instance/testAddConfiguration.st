@@ -1,6 +1,6 @@
 testing
 testAddConfiguration
 
-	ICEndPoint class addConfiguration: self class defaultConfigurationDictionary.
-	self assert: ICEndPoint class connectionConfigurations equals: 
-		{ self class defaultConfigurationDictionary at: 'name' -> self class defaultConfigurationDictionary } asDictionary
+	ICEndPoint addConfiguration: self class defaultConfigurationDictionary.
+	self assert: ICEndPoint connectionConfigurations equals: 
+		{ self class defaultConfigurationDictionary } asOrderedCollection
