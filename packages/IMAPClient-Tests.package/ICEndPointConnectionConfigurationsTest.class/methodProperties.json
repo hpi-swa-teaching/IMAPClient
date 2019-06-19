@@ -9,6 +9,7 @@
 		"setUp" : "pm 6/19/2019 13:19",
 		"tearDown" : "pm 6/19/2019 13:19",
 		"testAddConfiguration" : "pm 6/19/2019 14:46",
+		"testCheckValidConfiguration" : "pm 6/19/2019 15:03",
 		"testClearConfigurations" : "pm 6/19/2019 14:47",
 		"testLazyInit" : "pm 6/19/2019 14:47",
 		"testRejectInvaildConfiguration" : "pm 6/19/2019 14:47",
