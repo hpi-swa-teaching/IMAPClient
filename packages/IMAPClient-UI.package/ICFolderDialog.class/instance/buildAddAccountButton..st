@@ -3,6 +3,6 @@ buildAddAccountButton: builder
 
 	^ builder pluggableButtonSpec new
 		model: self;
-		frame: (0.15 @ 0 extent: 0.05 @ 0.05);
+		frame: (0.8 @ 0 corner: 1 @ 0.05);
 		label: '+';
 		action: #addAccountButton

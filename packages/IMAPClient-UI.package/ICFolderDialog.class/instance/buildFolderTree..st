@@ -9,7 +9,7 @@ buildFolderTree: builder
 		getChildren: #subFoldersOf:;
 		label: #labelForFolder:;
 		autoDeselect: false;
-		frame: (0 @ 0.15 extent: 0.2 @ 0.85);
+		frame: (0 @ 0.15 corner: 1 @ 1);
 		columns: {
 			[:listMorph | self emphasizeUnseenFolders: listMorph filteredItems.
 				(listMorph filteredItems collect: [:item |

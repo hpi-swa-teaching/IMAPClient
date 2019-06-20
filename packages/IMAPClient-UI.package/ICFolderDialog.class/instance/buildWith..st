@@ -8,9 +8,6 @@ buildWith: builder
 		closeAction: #closeConnection;
 		extent: 1200 @ 600;
 		children: {
-			self buildUserList: builder.
-			self buildEmailButton: builder.
-			self buildAddAccountButton: builder.
-			self buildFolderTree: builder.
+			self buildNavigationPanel: builder.
 			self buildEmailSearch: builder.
 			self buildEmailList: builder})

@@ -9,7 +9,7 @@ buildUserList: builder
 		autoDeselect: false;
 		getSelected: #selectedAccount;
 		setSelected: #selectedAccount:;
-		frame: (0 @ 0.05 extent: 0.2 @ 0.1);
+		frame: (0 @ 0.05 corner: 1 @ 0.15);
 		columns: {
 			[:listMorph | self emphasizeUnseenAccounts: listMorph filteredItems.
 				(listMorph filteredItems collect: [:item |
