@@ -4,6 +4,6 @@ checkIfAllFieldsFilled: aDictionary
 	| possiblyEmptyParameters |
  
 	possiblyEmptyParameters := self emptyParametersIn: aDictionary. 
-	self displayEmptyFieldErrorMessageIfNecessary: possiblyEmptyParameters.
+	self displayEmptyFieldNoteIfNecessary: possiblyEmptyParameters.
 	
 	^ possiblyEmptyParameters isEmpty
