@@ -1,7 +1,7 @@
 accountManagment
 deleteAccountButton: account
 
-	ICHelper deleteAccountFromEndpoint: account.
+	ICEndPoint removeConfiguration: account.
 	self emailAccounts remove: account.
 	
 	self selectedFolder: nil.
