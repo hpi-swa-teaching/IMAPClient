@@ -1,4 +1,4 @@
-as yet unclassified
+login
 loginWithPassword: aText
 
 	self password: aText.

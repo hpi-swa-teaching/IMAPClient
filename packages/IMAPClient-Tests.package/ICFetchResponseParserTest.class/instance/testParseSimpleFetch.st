@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testParseSimpleFetch
 	
 	| parseResult firstResult parsedMail givenMail |

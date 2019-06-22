@@ -1,4 +1,4 @@
-as yet unclassified
+helper
 emptyParameterFrom: aCollection
 
 	| emptyParameters |

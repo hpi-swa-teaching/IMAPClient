@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 firstExpectedResponse
 
 	  ^ ('BODY[HEADER.FIELDS (from to subject date)] ', Character cr,
