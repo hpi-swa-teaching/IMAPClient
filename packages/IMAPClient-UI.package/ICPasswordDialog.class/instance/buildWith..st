@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 buildWith: builder
 	
 	| window windowSpec passwordField addPasswordButton |

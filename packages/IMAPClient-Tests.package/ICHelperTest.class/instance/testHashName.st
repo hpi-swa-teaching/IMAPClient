@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testHashName
 
 	self assert: (ICHelper hashNameForAccount: 'testHost' and: 'klaus') equals: '1394373304'.

@@ -1,4 +1,4 @@
-as yet unclassified
+helper
 checkForEmptyParameter: aCollection
  
 	| possiblyEmptyParameters |
