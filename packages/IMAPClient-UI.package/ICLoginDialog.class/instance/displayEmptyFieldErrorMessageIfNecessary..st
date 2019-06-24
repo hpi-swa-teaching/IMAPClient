@@ -1,5 +1,5 @@
 toasts
-displayEmptyFieldNoteIfNecessary: aCollection
+displayEmptyFieldErrorMessageIfNecessary: aCollection
 
 	(aCollection isEmpty)
 		ifFalse: [
