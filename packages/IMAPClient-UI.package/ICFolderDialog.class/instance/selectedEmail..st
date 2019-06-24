@@ -1,5 +1,5 @@
 accessing
-selectedEmail: anObject
+selectedEmail: anEmail
 
-	selectedEmail := anObject.
+	selectedEmail := anEmail.
 	self changed: #selectedEmail

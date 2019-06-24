@@ -1,4 +1,4 @@
 accessing
-stream: anObject
+stream: aStream
 
-	stream := anObject
+	stream := aStream

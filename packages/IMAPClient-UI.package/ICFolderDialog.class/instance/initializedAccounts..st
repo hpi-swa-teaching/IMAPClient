@@ -1,4 +1,4 @@
 accessing
-initializedAccounts: anObject
+initializedAccounts: anOrderedCollection
 
-	initializedAccounts := anObject
+	initializedAccounts := anOrderedCollection

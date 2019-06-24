@@ -1,8 +1,8 @@
 accessing
-selectedAccount: anObject
+selectedAccount: anAccount
 
-	(anObject = self selectedAccount)
+	(anAccount = self selectedAccount)
 		ifFalse: [
-			selectedAccount := anObject.
-			self changeAccounts: anObject.
+			selectedAccount := anAccount.
+			self changeAccounts: anAccount.
 			self changed: #selectedAccount]

@@ -5,7 +5,7 @@ initialize
 	
 	| accounts |
 	
-	accounts := ICHelper loadCredentialsIntoDictionaries.	
+	accounts := ICEndPoint connectionConfigurations.	
 			
 	self uninitializedAccounts: accounts. 
 	self initializedAccounts: OrderedCollection new.

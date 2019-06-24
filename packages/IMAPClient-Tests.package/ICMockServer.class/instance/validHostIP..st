@@ -1,4 +1,4 @@
 accessing
-validHostIP: anObject
+validHostIP: anArray
 
-	validHostIP := anObject
+	validHostIP := anArray

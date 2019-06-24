@@ -16,7 +16,7 @@ buildWith: builder
 		askBeforeDiscardingEdits: false;
 		indicateUnacceptedChanges: false;
 		getText: #password;
-		setText: #password:;
+		setText: #loginWithPassword:;
 		editText: #password:;
 		font: (StrikeFont passwordFontSize: 12);
 		help: 'Password';
@@ -33,9 +33,5 @@ buildWith: builder
 
 	window := builder build: windowSpec.
 	self window: window.
-	
-	window submorphsDo: [:m |
-		(m class == PluggableTextMorphPlus)
-			ifTrue: [m textMorph on: #keyDown send: #keyEvent: to: self]].
 	
 	^ window

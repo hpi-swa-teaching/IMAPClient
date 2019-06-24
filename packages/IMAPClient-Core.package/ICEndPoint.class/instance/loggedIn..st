@@ -1,4 +1,4 @@
 accessing
-loggedIn: anObject
+loggedIn: aBool
 
-	loggedIn := anObject
+	loggedIn := aBool

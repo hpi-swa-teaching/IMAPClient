@@ -1,4 +1,4 @@
 accessing
-validPort: anObject
+validPort: aNumber
 
-	validPort := anObject
+	validPort := aNumber

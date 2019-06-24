@@ -1,4 +1,4 @@
 accessing
-parser: anObject
+parser: anICFetchResponseParser
 
-	parser := anObject
+	parser := anICFetchResponseParser

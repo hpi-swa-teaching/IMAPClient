@@ -1,4 +1,4 @@
 instances
-instance: anObject
+instance: anICLoadOlderMail
 
-	instance := anObject
+	instance := anICLoadOlderMail

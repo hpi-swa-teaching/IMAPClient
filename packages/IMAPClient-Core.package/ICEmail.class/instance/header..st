@@ -1,4 +1,4 @@
 accessing
-header: anObject
+header: aDictionary
 
-	header := anObject
+	header := aDictionary
