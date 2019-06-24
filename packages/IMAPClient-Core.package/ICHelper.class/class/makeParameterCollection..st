@@ -1,4 +1,4 @@
-as yet unclassified
+helper methods
 makeParameterCollection: aCollection
  
 	"This hardcoded function returns a Collection of the given keys in the Dictionary.

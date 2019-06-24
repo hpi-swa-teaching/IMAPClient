@@ -1,4 +1,4 @@
-as yet unclassified
+error handling
 fatalErrorOccured
 	
 	"If an error occured, that makes it impossible for a connection to be established, 

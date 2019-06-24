@@ -1,4 +1,4 @@
-as yet unclassified
+helper
 deleteConfigFiles: firstFileName and: secondFileName
 		
 	| directory |

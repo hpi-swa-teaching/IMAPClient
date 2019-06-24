@@ -1,4 +1,4 @@
-as yet unclassified
+login
 login
 
 	(self password = nil)
