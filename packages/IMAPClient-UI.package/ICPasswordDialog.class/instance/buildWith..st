@@ -1,37 +1,15 @@
 toolbuilder
 buildWith: builder
 	
-	| window windowSpec passwordField addPasswordButton |
+	| window |
 
-	windowSpec := builder pluggableWindowSpec new.
-	windowSpec
+	window := builder build: (builder pluggableWindowSpec new
 		model: self;
 		label: (self data at: 'name');
 		extent: 200 @ 100;
-		children: OrderedCollection new.
-		
-	passwordField := builder pluggableInputFieldSpec new.
-	passwordField
-		model: self;
-		askBeforeDiscardingEdits: false;
-		indicateUnacceptedChanges: false;
-		getText: #password;
-		setText: #loginWithPassword:;
-		editText: #password:;
-		font: (StrikeFont passwordFontSize: 12);
-		help: 'Password';
-		frame: (0 @ 0.05 extent: 1 @ 0.4).
-		
-	addPasswordButton := builder pluggableButtonSpec new.
-	addPasswordButton
-		model: self;
-		frame: (0 @ 0.5 extent: 1 @ 0.4);
-		label: 'login';
-		action: #login.
+		children: {
+			self buildPasswordField: builder.
+			self buildAddPasswordButton: builder}).
 			
-	windowSpec children addAll: { passwordField . addPasswordButton }.
-
-	window := builder build: windowSpec.
 	self window: window.
-	
 	^ window
