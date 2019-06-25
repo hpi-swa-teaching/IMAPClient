@@ -6,7 +6,7 @@ login
 	| dataDictionary |
  
 	dataDictionary := self makeDataDictionary.
-	(self checkForEmptyParameter: dataDictionary)
+	(self checkIfAllFieldsFilled: dataDictionary)
 		ifFalse: [^ self].
 	(self checkIfAccountnameUnused: dataDictionary)
 		ifFalse: [^ self].
