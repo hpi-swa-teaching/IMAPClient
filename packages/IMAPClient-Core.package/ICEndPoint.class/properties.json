@@ -3,7 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"ConnectionConfigurations" ],
 	"commentStamp" : "ms 7/28/2016 11:48",
 	"instvars" : [
 		"stream",

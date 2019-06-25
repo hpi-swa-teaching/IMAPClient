@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 firstExampleResponse
 
 	 ^ ('* ', self firstMessageID ,' FETCH (BODY[HEADER.FIELDS (from to subject date)] {103}', Character cr,

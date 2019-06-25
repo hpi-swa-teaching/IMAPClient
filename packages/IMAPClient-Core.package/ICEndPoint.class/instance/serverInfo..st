@@ -1,4 +1,4 @@
 accessing
-serverInfo: anObject
+serverInfo: anICServerInfo
 
-	serverInfo := anObject
+	serverInfo := anICServerInfo

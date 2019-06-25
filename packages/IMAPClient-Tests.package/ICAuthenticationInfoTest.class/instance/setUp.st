@@ -1,4 +1,4 @@
-as yet unclassified
+running
 setUp
 
 	self authInfo: (ICAuthenticationInfo for: self class username using: self class password).

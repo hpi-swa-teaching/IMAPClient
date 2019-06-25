@@ -1,4 +1,4 @@
 accessing
-connected: anObject
+connected: aBool
 
-	connected := anObject
+	connected := aBool

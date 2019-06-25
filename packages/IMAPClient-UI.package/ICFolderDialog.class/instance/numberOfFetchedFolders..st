@@ -1,4 +1,4 @@
 accessing
-numberOfFetchedFolders: anObject
+numberOfFetchedFolders: aNumber
 
-	numberOfFetchedFolders := anObject
+	numberOfFetchedFolders := aNumber

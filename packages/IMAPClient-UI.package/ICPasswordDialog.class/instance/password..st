@@ -1,4 +1,4 @@
 accessing
-password: anObject
+password: aText
 
-	password := anObject
+	password := aText

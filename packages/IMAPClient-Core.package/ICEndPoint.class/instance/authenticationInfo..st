@@ -1,4 +1,4 @@
 accessing
-authenticationInfo: anObject
+authenticationInfo: anICAuthenticationInfo
 
-	authenticationInfo := anObject
+	authenticationInfo := anICAuthenticationInfo

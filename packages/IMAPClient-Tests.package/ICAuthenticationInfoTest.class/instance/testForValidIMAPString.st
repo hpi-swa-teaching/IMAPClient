@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testForValidIMAPString
 
 	self should: [self authInfo username: self class invalidUsername] raise: Error.

@@ -1,4 +1,4 @@
 accessing
-lastResponse: anObject
+lastResponse: aString
 
-	lastResponse := anObject
+	lastResponse := aString

@@ -1,4 +1,4 @@
 accessing
-emails: anObject
+emails: aDictionary
 
-	emails := anObject
+	emails := aDictionary
