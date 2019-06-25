@@ -1,4 +1,4 @@
-as yet unclassified
+login
 testAccountWith: dataDictionary
 
 	self fromDictionary: dataDictionary.

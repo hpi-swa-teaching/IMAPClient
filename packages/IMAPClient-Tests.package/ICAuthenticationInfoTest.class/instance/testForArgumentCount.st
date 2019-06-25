@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testForArgumentCount
 	
 	self assert: ['\".*\"' asRegex matches: self authInfo usernameAsIMAPString].
