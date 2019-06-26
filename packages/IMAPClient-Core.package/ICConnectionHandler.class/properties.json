@@ -1,0 +1,25 @@
+{
+	"category" : "IMAPClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ConnectionConfigurations" ],
+	"commentStamp" : "ms 7/28/2016 11:48",
+	"instvars" : [
+		"stream",
+		"serverInfo",
+		"loggedIn",
+		"authenticationInfo",
+		"rootFolder",
+		"lastResponse",
+		"ssl",
+		"uids",
+		"hierarchyDelimiter",
+		"currentFolderName",
+		"name",
+		"fatalErrorOccured" ],
+	"name" : "ICConnectionHandler",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
