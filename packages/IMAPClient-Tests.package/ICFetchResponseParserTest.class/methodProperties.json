@@ -12,4 +12,5 @@
 		"parser" : "C.G. 7/25/2018 18:02",
 		"parser:" : "pm 6/9/2019 17:18",
 		"setUp" : "C.G. 7/25/2018 18:02",
-		"testParseSimpleFetch" : "pm 6/2/2019 15:58" } }
+		"testParseFailure" : "tg 6/26/2019 14:32",
+		"testParseSuccess" : "tg 6/26/2019 14:26" } }
