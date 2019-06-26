@@ -5,7 +5,10 @@
 		"firstExpectedMailObject" : "pm 6/2/2019 15:58",
 		"firstExpectedResponse" : "C.G. 7/4/2018 13:22",
 		"firstMessageID" : "DH 7/4/2018 12:37",
-		"firstUID" : "DH 7/4/2018 12:37" },
+		"firstUID" : "DH 7/4/2018 12:37",
+		"malformedOctetExampleResponse" : "tg 6/26/2019 14:33",
+		"noCommandExampleResponse" : "tg 6/26/2019 14:33",
+		"noIDExampleResponse" : "tg 6/26/2019 14:33" },
 	"instance" : {
 		"endpoint" : "C.G. 7/25/2018 18:02",
 		"endpoint:" : "pm 6/9/2019 17:18",
