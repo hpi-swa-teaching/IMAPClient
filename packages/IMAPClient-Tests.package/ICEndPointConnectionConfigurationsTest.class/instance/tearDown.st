@@ -1,6 +1,6 @@
 running
 tearDown
 
-	ICEndPoint connectionConfigurations: self previousConnectionConfigurations.
+	ICConnectionHandler connectionConfigurations: self previousConnectionConfigurations.
 	
 	

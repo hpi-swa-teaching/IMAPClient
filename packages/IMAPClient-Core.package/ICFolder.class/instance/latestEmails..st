@@ -3,7 +3,7 @@ latestEmails: count
 
 	| startUID allUIDs |
 	
-	self endpoint currentUIDsFor: self.
+	self endpoint fetchUIDsFor: self.
 	allUIDs := self endpoint uids.
 	allUIDs ifEmpty: [^ OrderedCollection new].
 	(allUIDs size - count) <= 0

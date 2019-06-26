@@ -1,4 +1,4 @@
 accessing
 commandSucceeded: aResponse
 
-	^ aResponse last beginsWith: ICEndPoint commandSucceeded
+	^ aResponse last beginsWith: ICConnectionHandler commandSucceeded

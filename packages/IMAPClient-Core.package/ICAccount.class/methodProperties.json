@@ -1,0 +1,27 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"authenticationInfo" : "pm 6/27/2019 00:13",
+		"authenticationInfo:" : "pm 6/27/2019 00:14",
+		"connectTo:onStream:" : "pm 6/27/2019 01:43",
+		"connectionHandler" : "pm 6/27/2019 01:51",
+		"connectionHandler:" : "pm 6/27/2019 01:52",
+		"deleteEmail:" : "pm 6/27/2019 01:54",
+		"expungeEmail" : "pm 6/27/2019 01:05",
+		"fetchUIDsFor:" : "pm 6/27/2019 01:08",
+		"fetchUIDsFor:startingAt:count:" : "pm 6/27/2019 01:16",
+		"fillBodyFor:" : "pm 6/27/2019 01:00",
+		"listFoldersIn:filteredBy:" : "pm 6/27/2019 01:37",
+		"loginUsing:" : "pm 6/27/2019 01:47",
+		"logout" : "pm 6/27/2019 01:49",
+		"moveEmail:to:" : "pm 6/27/2019 01:01",
+		"name" : "pm 6/27/2019 00:15",
+		"name:" : "pm 6/27/2019 00:15",
+		"parser" : "pm 6/27/2019 01:54",
+		"parser:" : "pm 6/27/2019 01:54",
+		"serverInfo" : "pm 6/27/2019 00:15",
+		"serverInfo:" : "pm 6/27/2019 00:15",
+		"setFlag:ofEmail:to:" : "pm 6/27/2019 01:27",
+		"ssl" : "pm 6/27/2019 00:15",
+		"ssl:" : "pm 6/27/2019 00:15" } }

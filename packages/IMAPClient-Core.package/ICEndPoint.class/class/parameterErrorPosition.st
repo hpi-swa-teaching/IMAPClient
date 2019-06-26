@@ -1,4 +1,0 @@
-commands
-parameterErrorPosition
-
-	^ 2

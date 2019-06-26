@@ -1,4 +1,0 @@
-connection
-uids
-
-	^ uids

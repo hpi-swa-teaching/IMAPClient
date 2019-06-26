@@ -9,10 +9,10 @@ editAccount: newData with: anEndPoint
 	data := OrderedCollection new.
 	data add: newData.
 	
-	ICEndPoint removeConfiguration: anEndPoint.
+	ICConnectionHandler removeConfiguration: anEndPoint.
 	self emailAccounts remove: anEndPoint.
 	
-	ICEndPoint addConfiguration: newData.
+	ICConnectionHandler addConfiguration: newData.
 	
 	self emailAccounts add: ((ICHelper accountDictionariesToEndpoints: data) at: 1).	
 	self selectedFolder: nil.

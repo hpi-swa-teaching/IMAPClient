@@ -1,6 +1,6 @@
 testing
 testAddConfiguration
 
-	ICEndPoint addConfiguration: self class defaultConfigurationDictionary.
-	self assert: ICEndPoint connectionConfigurations equals: 
+	ICConnectionHandler addConfiguration: self class defaultConfigurationDictionary.
+	self assert: ICConnectionHandler connectionConfigurations equals: 
 		{ self class defaultConfigurationDictionary } asOrderedCollection

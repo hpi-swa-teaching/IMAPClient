@@ -1,7 +1,7 @@
 setup
 setUp
 
-	self endPoint: ICEndPoint new.
+	self endPoint: ICConnectionHandler new.
 	self endPoint stream: ICMockSocketStream new.
 	self endPoint stream connected: true.
 	self 

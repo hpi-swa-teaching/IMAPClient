@@ -4,7 +4,7 @@ fetchHeadersFrom: anUID
 	"loads mails, which are newer than anUID"
 	
 	self emails addAll: (self endpoint
-		currentUIDsFor: self;
+		fetchUIDsFor: self;
 		maildirDiffFetchHeadersFrom: anUID).
 		
 	self emails size = 0 ifTrue: [^ self].

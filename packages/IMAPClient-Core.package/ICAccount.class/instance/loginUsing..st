@@ -1,0 +1,4 @@
+session
+loginUsing: anICAuthenticationInfo
+
+	self connectionHandler loginUsing: anICAuthenticationInfo

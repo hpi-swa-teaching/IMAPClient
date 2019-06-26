@@ -1,7 +1,7 @@
 running
 setUp
 
-	self previousConnectionConfigurations: ICEndPoint connectionConfigurations.
-	ICEndPoint connectionConfigurations: nil.
+	self previousConnectionConfigurations: ICConnectionHandler connectionConfigurations.
+	ICConnectionHandler connectionConfigurations: nil.
 	
 	

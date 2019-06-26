@@ -11,7 +11,7 @@ login
 	(self checkIfAccountnameUnused: dataDictionary)
 		ifFalse: [^ self].
  
-	((ICEndPoint new) testAccountWith: dataDictionary)
+	((ICConnectionHandler new) testAccountWith: dataDictionary)
 		ifTrue: [
 			self loginMorph abandon.
 			(self updateMode)

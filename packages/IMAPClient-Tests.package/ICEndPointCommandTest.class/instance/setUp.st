@@ -3,7 +3,7 @@ setUp
 
 	| subfolder |
 	
-	self endPoint: ICEndPoint new.
+	self endPoint: ICConnectionHandler new.
 	self rootFolder: ICFolder new.
 	self rootFolder endpoint: self endPoint.
 	

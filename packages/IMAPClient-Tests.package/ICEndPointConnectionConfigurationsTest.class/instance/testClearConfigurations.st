@@ -1,6 +1,6 @@
 testing
 testClearConfigurations
 
-	ICEndPoint addConfiguration: self class defaultConfigurationDictionary.
-	ICEndPoint clearConfigurations.
-	self assert: ICEndPoint connectionConfigurations equals: OrderedCollection new
+	ICConnectionHandler addConfiguration: self class defaultConfigurationDictionary.
+	ICConnectionHandler clearConfigurations.
+	self assert: ICConnectionHandler connectionConfigurations equals: OrderedCollection new
