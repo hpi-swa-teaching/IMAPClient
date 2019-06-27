@@ -11,6 +11,5 @@ emailsOfSelectedFolder
 	self filterString notEmpty
 		ifTrue: [^ emails select: [:anICEmail |
 					(self labelForMail: anICEmail) includesSubstring: self filterString caseSensitive: false]].
-	emails add: (ICLoadOlderMail instanceFor: self).
 		
 	^ emails

@@ -15,7 +15,6 @@ buildEmailList: builder
 		autoDeselect: false;
 		columns: {
 			[:listMorph | self emphasizeUnseenMessages: listMorph filteredItems.
-				self emphasizeLoadOlderEmailsButton: listMorph filteredItems.
 				(listMorph filteredItems collect: [:item |
 					item preferredWidthOfColumn: 1]) max].
 			[:listMorph | (listMorph filteredItems collect: [:item |
