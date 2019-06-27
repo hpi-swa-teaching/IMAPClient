@@ -2,13 +2,7 @@ initialization
 initialize 
 	
 	"get config data as credentials"
-	
-	| accounts |
-	
-	accounts := ICEndPoint connectionConfigurations.	
-			
-	self uninitializedAccounts: accounts. 
-	self initializedAccounts: OrderedCollection new.
+	self uninitializedAccounts: ICHelper loadCredentialsIntoDictionaries.
 	
 	(self uninitializedAccounts) 
 		ifEmpty: [self accountsComplete]

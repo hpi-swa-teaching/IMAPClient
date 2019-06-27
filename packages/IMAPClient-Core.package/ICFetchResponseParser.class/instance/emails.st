@@ -1,4 +1,4 @@
 accessing
 emails
 
-	^ emails
+	^ emails ifNil: [emails := Dictionary new]

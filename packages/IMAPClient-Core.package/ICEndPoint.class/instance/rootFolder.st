@@ -1,4 +1,4 @@
 accessing
 rootFolder
 
-	^ rootFolder
+	^ rootFolder ifNil: [rootFolder := ICFolder newRootFolderWith: self]

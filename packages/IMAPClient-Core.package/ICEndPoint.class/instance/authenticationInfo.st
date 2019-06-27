@@ -1,4 +1,4 @@
 accessing
 authenticationInfo
 
-	^ authenticationInfo
+	^ authenticationInfo ifNil: [authenticationInfo := ICAuthenticationInfo new]
