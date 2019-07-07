@@ -1,13 +1,13 @@
 {
 	"class" : {
+		"addUserIcon" : "fr 7/7/2019 10:18",
 		"install" : "pm 5/24/2019 14:28",
 		"open" : "DH 7/19/2018 18:21" },
 	"instance" : {
 		"accountsComplete" : "pm 6/3/2019 18:47",
 		"addAccount:" : "pm 6/19/2019 14:29",
-		"addAccountButton" : "C.G. 6/26/2018 11:04",
 		"addPasswordToCollection:" : "C.G. 6/26/2018 11:05",
-		"buildAddAccountButton:" : "ok 6/20/2019 12:18",
+		"buildAddAccountButton:" : "fr 7/7/2019 10:15",
 		"buildEmailButton:" : "ok 6/20/2019 12:18",
 		"buildEmailList:" : "pm 6/26/2019 14:31",
 		"buildEmailSearch:" : "pm 6/26/2019 14:43",
@@ -21,6 +21,7 @@
 		"changeFilter:" : "lvm 7/3/2018 15:50",
 		"childFolders" : "C.G. 7/25/2018 14:16",
 		"closeConnection" : "C.G. 6/21/2018 00:19",
+		"createAccount" : "fr 7/7/2019 09:59",
 		"currentRemoteVatId" : "dl 6/23/2017 12:30",
 		"defaultBackgroundColor" : "C.G. 7/25/2018 14:16",
 		"deleteAccountButton:" : "pm 6/19/2019 14:52",
