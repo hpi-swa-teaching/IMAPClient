@@ -5,7 +5,7 @@ initialize
 	
 	| accounts |
 	
-	accounts := ICEndPoint connectionConfigurations copy.	
+	accounts := ICEndPoint connectionConfigurations.
 			
 	self uninitializedAccounts: accounts. 
 	self initializedAccounts: OrderedCollection new.
