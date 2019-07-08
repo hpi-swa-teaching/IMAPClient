@@ -1,0 +1,1 @@
+This tests the ICAuthenticationInfo class by asserting IMAP conformity and argument count.

@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "tg 7/8/2019 15:40",
 	"instvars" : [
 		"authInfo" ],
 	"name" : "ICAuthenticationInfoTest",

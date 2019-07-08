@@ -1,0 +1,1 @@
+This test the class ICEmail by testing basic formatting, header and body accessing. 

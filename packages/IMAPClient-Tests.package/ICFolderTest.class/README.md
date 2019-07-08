@@ -1,0 +1,1 @@
+This tests the ICFolder class by adding, removing and reading from a folder.
