@@ -1,4 +1,4 @@
 accessing
 currentMail
 
-	^ currentMail
+	^ currentMail ifNil: [currentMail := '']

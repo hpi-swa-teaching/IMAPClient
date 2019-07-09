@@ -1,4 +1,4 @@
 accessing
 serverInfo
 
-	^ serverInfo
+	^ serverInfo ifNil: [serverInfo := ICServerInfo new]
