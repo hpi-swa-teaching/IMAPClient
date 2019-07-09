@@ -1,4 +1,4 @@
-An ICFetchResponseParser parses a IMAP-server response containing mails to a dictionary containing all these mails.
+An ICFetchResponseParser parses an IMAP-server response containing mails to a dictionary containing all these mails.
 
 Instance Variables
 	currentID:		The ID of the currently parsed mail

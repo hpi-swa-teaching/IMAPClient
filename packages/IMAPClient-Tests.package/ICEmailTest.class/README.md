@@ -1,1 +1,1 @@
-This test the class ICEmail by testing basic formatting, header and body accessing. 
+This conducts testing of basic formatting, header and body accessing methods of the ICEmail class.

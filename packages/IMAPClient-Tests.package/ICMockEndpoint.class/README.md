@@ -1,1 +1,1 @@
-This is part of the imap server communication mock up.
+Mock endpoint for offline testing purposes

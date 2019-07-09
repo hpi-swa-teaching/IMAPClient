@@ -1,1 +1,1 @@
-This class supportes the automatic release via travis. It is not used for teting but enables automatic sar bulding.
+This class supports automatic releases via travis. It is not used for testing but enables automatic sar bulding.
