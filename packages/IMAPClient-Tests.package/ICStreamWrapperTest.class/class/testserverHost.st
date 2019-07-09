@@ -1,0 +1,4 @@
+constants
+testserverHost
+
+	^ 'hpi.de'
