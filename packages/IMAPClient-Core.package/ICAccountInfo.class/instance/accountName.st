@@ -1,4 +1,4 @@
 accessing
 accountName
 
-	^ accountName ifNil: [accountName := self class defaultName]
+	^ accountName ifNil: [accountName := self class initialAccountName]

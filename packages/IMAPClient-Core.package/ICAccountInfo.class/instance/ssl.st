@@ -1,4 +1,4 @@
 accessing
 ssl
 
-	^ ssl ifNil: [ssl := self class defaultSsl]
+	^ ssl ifNil: [ssl := self class initialSsl]
