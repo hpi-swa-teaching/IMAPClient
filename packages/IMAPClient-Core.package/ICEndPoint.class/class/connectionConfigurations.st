@@ -1,4 +1,4 @@
 storage
 connectionConfigurations
 
-	^ ConnectionConfigurations ifNil: [ConnectionConfigurations := OrderedCollection new]
+	^ self basicConnectionConfigurations copy

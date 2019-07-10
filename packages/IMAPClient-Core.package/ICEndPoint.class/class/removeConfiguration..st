@@ -1,4 +1,4 @@
 storage
 removeConfiguration: aDictionary
 
-	^ self connectionConfigurations remove: aDictionary
+	^ self basicConnectionConfigurations remove: aDictionary

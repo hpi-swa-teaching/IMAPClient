@@ -1,0 +1,1 @@
+This tests the ICFetchResponseParser by parsing a mail out of a hardocded server response.

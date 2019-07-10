@@ -5,6 +5,7 @@ login
  
 	| dataDictionary |
  
+	self insertDefaults.
 	dataDictionary := self makeDataDictionary.
 	(self checkIfAllFieldsFilled: dataDictionary)
 		ifFalse: [^ self].

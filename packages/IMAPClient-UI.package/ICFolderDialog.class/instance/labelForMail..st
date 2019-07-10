@@ -11,7 +11,6 @@ labelForMail: anICEmail
 		Character tab,
 		anICEmail dateFormatted.
 	
-	(anICEmail isFlaggable) ifFalse: [^ label].
 	(anICEmail flagged) ifTrue: [label := '[FLAGGED] ', label].	
 	
 	^ label

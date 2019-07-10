@@ -9,5 +9,5 @@ buildWith: builder
 		extent: 1200 @ 600;
 		children: {
 			self buildNavigationPanel: builder.
-			self buildEmailSearch: builder.
-			self buildEmailList: builder})
+			self buildEmailTopPanel: builder.
+			self buildEmailList: builder.})

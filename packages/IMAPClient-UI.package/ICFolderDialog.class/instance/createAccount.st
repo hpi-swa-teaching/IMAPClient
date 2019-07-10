@@ -1,4 +1,4 @@
 accountManagment
-addAccountButton
+createAccount
 
 	ICLoginDialog open: self

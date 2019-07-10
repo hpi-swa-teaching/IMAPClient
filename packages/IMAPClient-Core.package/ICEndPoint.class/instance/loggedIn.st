@@ -1,4 +1,4 @@
 accessing
 loggedIn
 
-	^ loggedIn
+	^ loggedIn ifNil: [loggedIn := false]
