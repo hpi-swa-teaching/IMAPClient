@@ -3,7 +3,7 @@ update: aBlock
 	
 	ProgressNotification 
 		signal: (aBlock value) 
-		extra: (self endpoint name, ' Mailbox. Folder: ', self name).
+		extra: (self endpoint accountInfo accountName, ' Mailbox. Folder: ', self name).
 	
 	self startUpdateProcess: self highestUniqueID.
 	self childFolders do: [:anICFolder | anICFolder update: aBlock]

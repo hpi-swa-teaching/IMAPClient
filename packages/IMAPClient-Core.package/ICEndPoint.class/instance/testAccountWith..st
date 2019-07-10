@@ -1,6 +1,6 @@
 login
-testAccountWith: dataDictionary
+testAccountWith: accountInfo
 
-	self fromDictionary: dataDictionary.
+	self fromAccountInfo: accountInfo.
  
 	^ self fatalErrorOccured not

@@ -1,4 +1,4 @@
 accessing
 useSSL
 
-	^ self ssl
+	^ self accountInfo ssl

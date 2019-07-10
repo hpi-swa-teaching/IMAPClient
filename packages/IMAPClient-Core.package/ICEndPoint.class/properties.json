@@ -7,9 +7,8 @@
 	"commentStamp" : "ms 7/28/2016 11:48",
 	"instvars" : [
 		"stream",
-		"serverInfo",
+		"accountInfo",
 		"loggedIn",
-		"authenticationInfo",
 		"rootFolder",
 		"lastResponse",
 		"ssl",

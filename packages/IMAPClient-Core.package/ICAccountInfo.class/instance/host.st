@@ -1,4 +1,4 @@
 accessing
 host
 
-	^ host ifNil: [host := self class defaultHost]
+	^ host ifNil: [host := self class invalidHost]

@@ -7,6 +7,6 @@ accountDictionariesToEndpoints: aCollection
 	| endpointCollection |
 	
 	endpointCollection := OrderedCollection new.
-	aCollection do: [:configData | endpointCollection add: (ICEndPoint new fromDictionary: configData)].
+	aCollection do: [:configData | endpointCollection add: (ICEndPoint new fromAccountInfo: (ICAccountInfo from: configData))].
 			
 	^ endpointCollection

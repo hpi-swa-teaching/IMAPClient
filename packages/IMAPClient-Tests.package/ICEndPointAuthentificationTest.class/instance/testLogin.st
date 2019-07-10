@@ -1,4 +1,5 @@
 login
 testLogin
-
-	self assert: (self endPoint login: self class validUsername using: self class validPassword)
+	
+	self endPoint accountInfo: self class validAccountInfo.
+	self assert: (self endPoint login)

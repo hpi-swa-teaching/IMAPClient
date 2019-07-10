@@ -1,0 +1,4 @@
+constants
+initialSsl
+
+	^ true

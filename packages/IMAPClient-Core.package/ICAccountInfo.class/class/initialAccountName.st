@@ -1,0 +1,4 @@
+constants
+initialAccountName
+
+	^ String empty

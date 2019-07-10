@@ -1,4 +1,4 @@
 accessing
 port
 
-	^ port ifNil: [port := self class defaultPort]
+	^ port ifNil: [port := self class invalidPort]

@@ -6,11 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"name",
+		"accountName",
 		"host",
 		"port",
 		"username",
-		"password" ],
+		"password",
+		"ssl" ],
 	"name" : "ICAccountInfo",
 	"pools" : [
 		 ],
