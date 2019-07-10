@@ -1,0 +1,4 @@
+constants
+initialPassword
+
+	^ String empty

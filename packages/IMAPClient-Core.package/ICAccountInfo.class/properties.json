@@ -1,0 +1,18 @@
+{
+	"category" : "IMAPClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name",
+		"host",
+		"port",
+		"username",
+		"password" ],
+	"name" : "ICAccountInfo",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
