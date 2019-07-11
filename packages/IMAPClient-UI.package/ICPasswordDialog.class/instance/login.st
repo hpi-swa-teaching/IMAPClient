@@ -8,7 +8,7 @@ login
  
 	self data at: 'password' put: (self password asString).
 	
-	((ICEndPoint new) testAccountWith: (ICAccountInfo from: data))
+	((ICEndPoint new) testAccountWith: (ICAccountInfo newWith: data))
 		ifTrue: [
 			self folderDialogInstance addPasswordToCollection: (self data).
 			self window abandon]
