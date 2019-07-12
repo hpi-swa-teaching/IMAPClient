@@ -1,0 +1,28 @@
+{
+	"class" : {
+		"commandFailed" : "pm 7/12/2019 17:23",
+		"commandSucceeded" : "pm 7/12/2019 17:23",
+		"lastHeaderLine" : "pm 7/12/2019 17:23",
+		"protocolBlank" : "pm 7/12/2019 17:23",
+		"protocolCommandStart" : "pm 7/12/2019 17:23",
+		"protocolError" : "pm 7/12/2019 17:23",
+		"protocolParameterError" : "pm 7/12/2019 17:22",
+		"protocolQuote" : "pm 7/12/2019 17:23" },
+	"instance" : {
+		"commandSucceeded" : "pm 7/12/2019 17:20",
+		"folderFromResponse:" : "pm 7/12/2019 17:20",
+		"folderPathFrom:" : "pm 7/12/2019 17:20",
+		"parseFetchBody" : "pm 7/12/2019 17:20",
+		"parseFetchFlagsOnly:" : "pm 7/12/2019 17:20",
+		"parseFetchHeader:withId:" : "pm 7/12/2019 17:21",
+		"parseFetchHeaderContentTransferEncoding:for:" : "pm 7/12/2019 17:21",
+		"parseFetchHeaderContentType:for:" : "pm 7/12/2019 17:21",
+		"parseFetchHeaderDate:for:" : "pm 7/12/2019 17:21",
+		"parseFetchHeaderFlags:for:" : "pm 7/12/2019 17:21",
+		"parseFetchHeaderReceiver:for:" : "pm 7/12/2019 17:21",
+		"parseFetchHeaderSender:for:" : "pm 7/12/2019 17:21",
+		"parseFetchHeaderSubject:for:" : "pm 7/12/2019 17:22",
+		"parseFetchHeaders:" : "pm 7/12/2019 17:22",
+		"parseHeaderChunk:for:" : "pm 7/12/2019 17:22",
+		"parseListResponse" : "pm 7/12/2019 17:22",
+		"parseMethods" : "pm 7/12/2019 17:22" } }

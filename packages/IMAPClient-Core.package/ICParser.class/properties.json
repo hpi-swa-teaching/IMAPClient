@@ -1,0 +1,14 @@
+{
+	"category" : "IMAPClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pm 7/12/2019 17:18",
+	"instvars" : [
+		 ],
+	"name" : "ICParser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
