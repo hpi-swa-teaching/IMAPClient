@@ -1,0 +1,1 @@
+An ICParser is a stateless method bin that can parse a header, email body and folder path from a response.
