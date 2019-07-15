@@ -1,11 +1,8 @@
 protocol parse
 folderPathFrom: responseLine
 
-	| response splittedResponse folderName |
+	| folder |
 
-	response := responseLine copyReplaceAll: self class protocolQuote with: String empty.	
-	splittedResponse := response subStrings: self class protocolBlank.	
-	self hierarchyDelimiter: splittedResponse first.
-	folderName := splittedResponse allButFirst joinSeparatedBy: ' '.
-	
-	^ folderName subStrings: self hierarchyDelimiter
+	folder := ICParser folderPathFrom: responseLine.
+	self hierarchyDelimiter: folder hierarchyDelimiter.
+	^ folder pathAsArray

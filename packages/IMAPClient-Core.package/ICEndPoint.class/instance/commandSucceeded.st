@@ -1,4 +1,4 @@
 protocol parse
 commandSucceeded
 
-	^ self stream lastResponse beginsWith: self class commandSucceeded
+	^ ICParser commandSucceeded: self stream lastResponse

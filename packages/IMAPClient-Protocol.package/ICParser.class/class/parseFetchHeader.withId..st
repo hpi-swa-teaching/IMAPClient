@@ -15,7 +15,9 @@ parseFetchHeader: aHeaderString withId: aMessageID
 			ifFalse: [
 				(self startsNewHeaderChunk: line)
 					ifTrue: [headerChunks add: {line} asOrderedCollection]
-					ifFalse: [headerChunks last add: line]]].
+					ifFalse: [
+						headerChunks ifNotEmpty: [
+							headerChunks last add: line]]]].
 			
 	headerChunks do: [:chunk |
 		self parseHeaderChunk: chunk for: email].
