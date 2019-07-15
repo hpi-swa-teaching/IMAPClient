@@ -16,7 +16,7 @@ login
 		self authenticationInfo passwordAsIMAPString }
 		joinSeparatedBy: self class protocolBlank);
 		fetchNextResponse;
-		loggedIn: self commandSucceeded.
+		loggedIn: (ICParser commandSucceeded: self stream lastResponse).
   
 	(self checkLoggedIn) ifFalse: [
 		self fatalErrorOccured: true.

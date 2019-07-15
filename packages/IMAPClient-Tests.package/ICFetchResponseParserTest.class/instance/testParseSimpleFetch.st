@@ -10,7 +10,7 @@ testParseSimpleFetch
 	self assert: (firstResult) equals: (self class firstExpectedResponse).
 	
 	"parse the mail into ICMail and compare"
-	parsedMail := self endpoint parseFetchHeader: firstResult withId: (parseResult keyAtValue: firstResult).
+	parsedMail := ICParser parseFetchHeader: firstResult withId: (parseResult keyAtValue: firstResult).
 	
 	givenMail := self class firstExpectedMailObject.
 	self assert: parsedMail from equals: givenMail from. 
