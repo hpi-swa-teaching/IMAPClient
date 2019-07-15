@@ -44,7 +44,7 @@
 	"instance" : {
 		"accountInfo" : "tg 7/10/2019 17:23",
 		"accountInfo:" : "tg 7/10/2019 17:24",
-		"asDictionary" : "tg 7/10/2019 17:33",
+		"asAccountInfoDictionary" : "tg 7/15/2019 12:20",
 		"checkConnected" : "tg 7/10/2019 19:29",
 		"checkForBadRequest" : "C.G. 7/25/2018 12:30",
 		"checkForParameterError" : "DH 7/25/2018 17:29",
@@ -52,7 +52,8 @@
 		"close" : "AR 5/31/2016 11:12",
 		"commandSucceeded" : "AR 6/14/2016 08:46",
 		"connect" : "tg 7/10/2019 19:02",
-		"connectWith:" : "tg 7/10/2019 19:01",
+		"connectAndLoginWith:" : "tg 7/15/2019 12:28",
+		"connectWith:" : "tg 7/15/2019 12:21",
 		"createEmailsWith:andName:and:" : "C.G. 6/26/2018 10:51",
 		"currentFolderName" : "C.G. 7/25/2018 13:50",
 		"currentFolderName:" : "C.G. 7/25/2018 13:50",
@@ -68,7 +69,6 @@
 		"folderFromResponse:" : "C.G. 7/25/2018 13:51",
 		"folderNameOfTrash" : "mw 6/23/2018 12:08",
 		"folderPathFrom:" : "DH 7/4/2018 13:14",
-		"fromAccountInfo:" : "tg 7/10/2019 18:18",
 		"hierarchyDelimiter" : "mw 5/11/2018 10:37",
 		"hierarchyDelimiter:" : "mw 5/11/2018 10:37",
 		"isConnected" : "js 6/7/2016 10:13",
@@ -117,7 +117,6 @@
 		"startsNewHeaderChunk:" : "C.G. 7/25/2018 13:58",
 		"stream" : "pm 6/9/2019 13:08",
 		"stream:" : "js 6/7/2016 10:17",
-		"testAccountWith:" : "tg 7/10/2019 17:40",
+		"testAccountWith:" : "tg 7/15/2019 12:29",
 		"uids" : "C.G. 7/25/2018 13:59",
-		"uids:" : "pm 6/9/2019 16:52",
-		"useSSL" : "tg 7/10/2019 17:36" } }
+		"uids:" : "pm 6/9/2019 16:52" } }

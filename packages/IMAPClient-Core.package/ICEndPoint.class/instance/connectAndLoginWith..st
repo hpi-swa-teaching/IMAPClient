@@ -1,5 +1,5 @@
-accessing
-fromAccountInfo: anICAccountInfo
+connection
+connectAndLoginWith: anICAccountInfo
 
 	self accountInfo: anICAccountInfo.
 

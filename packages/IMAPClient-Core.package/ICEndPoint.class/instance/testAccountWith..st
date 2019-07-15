@@ -1,6 +1,6 @@
 login
 testAccountWith: accountInfo
 
-	self fromAccountInfo: accountInfo.
+	self connectAndLoginWith: accountInfo.
  
 	^ self fatalErrorOccured not

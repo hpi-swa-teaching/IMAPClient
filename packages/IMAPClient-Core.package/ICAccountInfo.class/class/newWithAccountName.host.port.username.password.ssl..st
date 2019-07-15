@@ -1,10 +1,10 @@
 instance creation
-newWithAccountName: name host: host port: port username: username password: password ssl: ssl
+newWithAccountName: aNameString host: aHostString port: aPortNumber username: aUsernameString password: aPasswordString ssl: aSSLBool
 
 	^ self new
-			accountName: name;
-			host: host;
-			port: port;
-			username: username;
-			password: password;
-			ssl: ssl
+			accountName: aNameString;
+			host: aHostString;
+			port: aPortNumber;
+			username: aUsernameString;
+			password: aPasswordString;
+			ssl: aSSLBool
