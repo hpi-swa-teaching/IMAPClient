@@ -10,5 +10,5 @@ parseFetchFlagsOnly: aResponseStringArray
 		uidPart := (line allRegexMatches: 'UID \d*') ifEmpty: [ ^ Dictionary new].
 		uid := (uidPart first allRegexMatches: '[\d]+') ifEmpty: [ ^ Dictionary new].
 
-		Association key: uid first value: (self class flags select: [:flag |
+		Association key: uid first value: (self flags select: [:flag |
 			line includesSubString: flag])]) as: Dictionary
