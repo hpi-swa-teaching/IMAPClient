@@ -1,4 +1,4 @@
-connection
+fetching
 maildirDiffFetchHeadersFrom: start to: end
 
 	| searchBegin searchEnd mailFolder |

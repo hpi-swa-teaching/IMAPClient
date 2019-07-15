@@ -1,4 +1,4 @@
 connection
 connect
 
-	self connectWith: SocketStream
+	self connectWith: self class defaultStreamClass

@@ -1,4 +1,4 @@
-connection
+storage
 createEmailsWith: maildirDirectory andName: directoryName and: relativeRootFolder
 	
 	"this loads mails from storage and create ICFolder with ICMails in it."

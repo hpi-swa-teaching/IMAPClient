@@ -1,4 +1,4 @@
-connection
+storage
 maildirFileName
 
 	"replace hierarchyDelimiter with FileSystem slash"

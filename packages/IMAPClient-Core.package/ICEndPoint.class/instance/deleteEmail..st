@@ -3,4 +3,4 @@ deleteEmail: anEmail
 
 	self sendCommand: (self class deleteEmail: anEmail messageID).	
 	self fetchNextResponse.
-	self moveEmail: anEmail to: self folderNameOfTrash
+	self moveEmail: anEmail to: self class folderNameOfTrash
