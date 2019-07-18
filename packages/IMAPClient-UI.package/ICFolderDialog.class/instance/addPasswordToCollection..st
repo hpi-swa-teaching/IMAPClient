@@ -8,7 +8,7 @@ addPasswordToCollection: aDictionary
 	self initializedAccounts add: aDictionary.
 	
 	"delete the newly initialized account from uninitializedAccounts"
-	nextAccount := self uninitializedAccounts findFirst: [:account | 	(account at: 'name') = (aDictionary at: 'name')].
+	nextAccount := self uninitializedAccounts findFirst: [:account | 	(account at: 'accountName') = (aDictionary at: 'accountName')].
 	self uninitializedAccounts removeAt: nextAccount.
 	
 	"if there are yet uninitializedAccounts, open a ICPasswordPrompt for them"

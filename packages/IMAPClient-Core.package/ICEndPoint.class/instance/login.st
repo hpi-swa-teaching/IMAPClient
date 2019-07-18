@@ -1,6 +1,6 @@
 login
 login
-
+	
 	(self checkConnected) ifFalse: [
 		self fatalErrorOccured: true.
 		UIManager default inform: 'Cant connect to the server'. 
