@@ -11,7 +11,7 @@ createEmailsWith: maildirDirectory andName: directoryName and: relativeRootFolde
 	"for each directory create Folder"
 	(serverDirectory directoryNames) do: [:foldername |
 		folder := (ICFolder new) 
-			name: foldername;
+			folderName: foldername;
 			endpoint: self; 
 			yourself.
 			

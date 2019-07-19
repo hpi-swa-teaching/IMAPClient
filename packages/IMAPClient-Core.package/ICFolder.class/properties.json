@@ -8,7 +8,7 @@
 	"instvars" : [
 		"parent",
 		"childFolders",
-		"name",
+		"folderName",
 		"emails",
 		"endpoint" ],
 	"name" : "ICFolder",

@@ -10,7 +10,7 @@ testRetrieveBody
 	
 	folder := ICFolder new.
 	folder endpoint: endpoint;
-		   name: 'dummy';
+		   folderName: 'dummy';
 		   parent: nil.
 	
 	self email folder: folder.
