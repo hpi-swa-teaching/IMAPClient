@@ -15,7 +15,7 @@ emailListMenu: aMenu
 			ifTrue: ['Unflag']
 			ifFalse: ['Mark as flagged'])  
 			action: [self modifyFlag: #flagged];
-		add: (self labelForDeletionAction: self selectedEmail folder name)
+		add: (self labelForDeletionAction: self selectedEmail folder folderName)
 			action: #deleteEmail;
 		add: 'Move to ...' subMenu: self folderListMenu.	
 		
