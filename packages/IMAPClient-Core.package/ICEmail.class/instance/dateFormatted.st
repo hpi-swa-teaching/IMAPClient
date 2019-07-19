@@ -1,15 +1,9 @@
 accessing
 dateFormatted
 
-	"Use date in header and convert it into seconds with MailMessage timeFrom Method.
-	Add localOffset to keep it in LocalTime. 
-	Need to add 1.1.1980 because DateAndTime starts there."
-
 	| date formatted |
-	
-	self date = '' ifTrue: [^''].
-	
-	date := DateAndTime fromSeconds: self dateInSeconds.
+		
+	date := DateAndTime fromSeconds: self dateInSecondsSinceSqueakEpoch + DateAndTime localOffsetSeconds.
 	
 	formatted := ((date dayOfMonth asString padded: #left to: 2 with: $0) ,'.', 
 			 (date month asString padded: #left to: 2 with: $0), '.',
