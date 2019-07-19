@@ -4,8 +4,8 @@ setUp
 	self endPoint: ICEndPoint new.
 	self endPoint stream: ICMockSocketStream new.
 	self endPoint stream connected: true.
-	self 
-		endPoint stream server
+	
+	self endPoint stream server
 		validUsername: self class validUsername;
 		validPassword: self class validPassword;
 		responses: self endPoint stream server notAuthenticatedResponses

@@ -5,7 +5,7 @@ refreshConnectionProcess
 	
 	delayTime := 60 * 10.  "Wait for 10 minutes."
 	
-	[self isConnected and: [self isLoggedIn]]
+	[self isConnected and: [self loggedIn]]
 		whileTrue: [
 			self sendCommand: self class noopCommand.
 			self fetchNextResponse.

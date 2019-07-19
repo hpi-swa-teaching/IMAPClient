@@ -1,9 +1,9 @@
 helper
-checkIfAllFieldsFilled: aDictionary
+checkIfAllFieldsFilled: anAccountInfo
  
 	| possiblyEmptyParameters |
  
-	possiblyEmptyParameters := self emptyParametersIn: aDictionary. 
+	possiblyEmptyParameters := self emptyParametersIn: anAccountInfo asDictionary. 
 	self displayEmptyFieldErrorMessageIfNecessary: possiblyEmptyParameters.
 	
 	^ possiblyEmptyParameters isEmpty

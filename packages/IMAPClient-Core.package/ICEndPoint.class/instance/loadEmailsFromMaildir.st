@@ -1,4 +1,4 @@
-login
+storage
 loadEmailsFromMaildir 
 
 	| directory directoryName |

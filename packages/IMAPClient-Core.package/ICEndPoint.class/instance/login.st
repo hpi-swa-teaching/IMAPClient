@@ -1,19 +1,19 @@
 login
 login
-
+	
 	(self checkConnected) ifFalse: [
 		self fatalErrorOccured: true.
 		UIManager default inform: 'Cant connect to the server'. 
 		^ false].
   	
-	(self authenticationInfo isValid) ifFalse: [
+	(self accountInfo isValid) ifFalse: [
 		self fatalErrorOccured: true.
 		^ false].
   
 	self sendCommand: (
 		{ self class loginCommand. 
-		self authenticationInfo usernameAsIMAPString. 
-		self authenticationInfo passwordAsIMAPString }
+		self accountInfo usernameAsIMAPString. 
+		self accountInfo passwordAsIMAPString }
 		joinSeparatedBy: self class protocolBlank);
 		fetchNextResponse;
 		loggedIn: self commandSucceeded.

@@ -1,0 +1,4 @@
+constants
+validHost
+
+	^ 'valid.host'

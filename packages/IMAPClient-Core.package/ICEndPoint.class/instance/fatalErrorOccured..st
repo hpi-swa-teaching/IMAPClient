@@ -1,4 +1,4 @@
-error handling
+accessing
 fatalErrorOccured: aBoolean
 	
 	"If an error occured, that makes it impossible for a connection to be established, 

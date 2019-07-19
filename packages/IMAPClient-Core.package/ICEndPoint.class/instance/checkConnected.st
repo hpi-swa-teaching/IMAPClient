@@ -1,6 +1,6 @@
 error handling
 checkConnected
-
+	
 	(self fatalErrorOccured)
 		ifTrue: [^ false].
   
