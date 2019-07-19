@@ -3,7 +3,7 @@ dateFormatted
 
 	| date formatted |
 		
-	date := DateAndTime fromSeconds: self dateInSecondsSinceSqueakEpoch + DateAndTime localOffsetSeconds.
+	date := DateAndTime fromSeconds: self dateInSecondsSinceSqueakEpoch + DateAndTime localOffset asSeconds.
 	
 	formatted := ((date dayOfMonth asString padded: #left to: 2 with: $0) ,'.', 
 			 (date month asString padded: #left to: 2 with: $0), '.',
