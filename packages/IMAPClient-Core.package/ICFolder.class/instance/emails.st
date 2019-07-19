@@ -1,4 +1,4 @@
 accessing
 emails
 
-	^ emails ifNil: [emails := (SortedCollection sortBlock: [:first :second | first dateInSeconds >= second dateInSeconds])]
+	^ emails ifNil: [emails := (SortedCollection sortBlock: [:first :second | first dateInSecondsSinceSqueakEpoch >= second dateInSecondsSinceSqueakEpoch])]
