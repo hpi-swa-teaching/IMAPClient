@@ -1,4 +1,4 @@
 email access
 subject
 
-	^ email subject
+	^ email subject ifEmpty: [^ self class defaultSubject]
