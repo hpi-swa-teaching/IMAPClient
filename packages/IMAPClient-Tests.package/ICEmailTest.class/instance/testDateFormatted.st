@@ -5,9 +5,12 @@ testDateFormatted
 	
 	previousOffset := DateAndTime localOffset.
 	
-	"use 'Mitteleuropäische Sommerzeit' "
-	DateAndTime localOffset: (Duration fromString: '0:02:00:00').
+	"use UTC (Coordinated Universal Time)"
+	DateAndTime localOffset: (Duration fromString: '0:00:00:00').
+	self assert: self email dateFormatted equals: self class expectedParsedUTCDate.
 	
-	self assert: self email dateFormatted equals: self class expectedParsedDate.
+	"use Mitteleuropäische Sommerzeit"
+	DateAndTime localOffset: (Duration fromString: '0:02:00:00').
+	self assert: self email dateFormatted equals: self class expectedParsedMESZDate.
 	
 	DateAndTime localOffset: previousOffset
