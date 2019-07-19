@@ -5,5 +5,5 @@ labelForFolder: anICFolder
 	
 	countOfUnseenMails := anICFolder numOfUnseenMails.
 	countOfUnseenMails > 0
-		ifTrue: [^ anICFolder name, Character tab, '[', countOfUnseenMails asString, ']']
-		ifFalse: [^ anICFolder name, Character tab, '']
+		ifTrue: [^ anICFolder folderName, Character tab, '[', countOfUnseenMails asString, ']']
+		ifFalse: [^ anICFolder folderName, Character tab, '']

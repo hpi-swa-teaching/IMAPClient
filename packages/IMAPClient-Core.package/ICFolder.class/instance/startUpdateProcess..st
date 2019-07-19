@@ -1,7 +1,7 @@
 updateEmails
 startUpdateProcess: anUID
 
-	(self name = 'root') ifTrue: [^self].
+	(self folderName = 'root') ifTrue: [^self].
 	
 	[anUID
 		ifNil: [self latestEmails: self class numberOfHeadersToFetchAtTheBeginning]

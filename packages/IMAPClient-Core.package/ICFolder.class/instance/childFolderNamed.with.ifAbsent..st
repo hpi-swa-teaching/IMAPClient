@@ -1,16 +1,16 @@
 folder hierarchy
-childFolderNamed: name with: delimiter ifAbsent: block
+childFolderNamed: childFolderName with: delimiter ifAbsent: block
 	
 	^ self childFolders 
-		detect: [:child | child name = name] 
+		detect: [:child | child folderName = childFolderName] 
 		ifNone: [ 
 			| rootPart childPart child parts |
 			"splice at delimiter and ask child"
-			parts := name subStrings: delimiter.
+			parts := childFolderName subStrings: delimiter.
 			(parts size > 1)
 				ifTrue: [
 					rootPart := parts first.
 					childPart := parts allButFirst joinSeparatedBy: delimiter.
-					child := self childFolders detect: [ :childFolder | childFolder name = rootPart].
+					child := self childFolders detect: [ :childFolder | childFolder folderName = rootPart].
 					child ifNotNil: [^ child childFolderNamed: childPart with: delimiter ifAbsent: block]].
 			^ block value]

@@ -17,4 +17,4 @@ folderNameOf: folder
 
 	1 to: levelCounter do: [ :i | offset := offset , '  '].
 	
-	^ offset, folder name
+	^ offset, folder folderName

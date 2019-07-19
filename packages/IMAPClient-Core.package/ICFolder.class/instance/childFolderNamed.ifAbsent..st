@@ -1,6 +1,6 @@
 folder hierarchy
-childFolderNamed: name ifAbsent: block
+childFolderNamed: childFolderName ifAbsent: block
 
 	^ self childFolders 
-		detect: [:child | child name = name] 
+		detect: [:child | child folderName = childFolderName] 
 		ifNone: [block value]
