@@ -1,4 +1,4 @@
 commands
 allUIDs
 
-	^ {ICEndPoint protocolCommandStart . 'UID SEARCH ALL'} joinSeparatedBy: ICEndPoint protocolBlank
+	^ self join: {'UID SEARCH ALL'}

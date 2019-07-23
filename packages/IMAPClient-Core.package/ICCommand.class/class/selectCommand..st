@@ -1,5 +1,5 @@
 commands
 selectCommand: aFolder
 
-	^ {ICEndPoint protocolCommandStart . 'SELECT' . aFolder} joinSeparatedBy: ICEndPoint protocolBlank
+	^ self join: {'SELECT' . self putInQuotes: aFolder}
 	

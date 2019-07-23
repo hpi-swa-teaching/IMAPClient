@@ -1,4 +1,4 @@
 commands
-deleteEmail: messageId
+deleteEmail: aMessageId
 
-	^ {ICEndPoint protocolCommandStart . 'STORE' . messageId . '+FLAGS \Deleted'} joinSeparatedBy: ICEndPoint protocolBlank
+	^ self join: {'STORE' . aMessageId . '+FLAGS \Deleted'}

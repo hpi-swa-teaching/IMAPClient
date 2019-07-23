@@ -1,5 +1,4 @@
 commands
-moveEmail: messageId to: aFolder
+moveEmail: aMessageId to: aFolder
 
-	^ {ICEndPoint protocolCommandStart . 'MOVE' . messageId . aFolder} joinSeparatedBy: ICEndPoint protocolBlank
-
+	^ self join: {'MOVE' . aMessageId . self putInQuotes: aFolder}

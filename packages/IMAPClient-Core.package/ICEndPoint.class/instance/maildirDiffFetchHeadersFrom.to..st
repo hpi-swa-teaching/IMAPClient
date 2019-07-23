@@ -14,6 +14,6 @@ maildirDiffFetchHeadersFrom: start to: end
 				^ OrderedCollection new]].
 	
      ^ self
-       	sendCommand: (ICCommand fetchHeadersWithUIDRange: start to: end);
+       	sendCommand: (ICCommand fetchHeadersWithUIDFrom: start to: end);
 		fetchNextResponse;
 		parseFetchHeaders: self lastResponse
