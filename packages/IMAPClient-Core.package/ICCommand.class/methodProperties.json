@@ -4,8 +4,9 @@
 		"deleteEmail:" : "pm 7/23/2019 14:46",
 		"expungeEmail" : "pm 7/23/2019 14:19",
 		"fetchBody:" : "pm 7/23/2019 14:48",
-		"fetchFlagsWithUIDFrom:to:" : "pm 7/23/2019 14:49",
-		"fetchHeadersWithUIDFrom:to:" : "pm 7/23/2019 14:49",
+		"fetchFlagsForUIDFrom:to:" : "pm 7/23/2019 18:22",
+		"fetchHeadersForUIDFrom:to:" : "pm 7/23/2019 18:23",
+		"isValidFlag:" : "pm 7/23/2019 18:28",
 		"join:" : "pm 7/23/2019 14:11",
 		"listSubfoldersOf:filterBy:" : "pm 7/23/2019 14:50",
 		"loginWith:" : "pm 7/23/2019 14:52",
@@ -13,8 +14,8 @@
 		"moveEmail:to:" : "pm 7/23/2019 14:54",
 		"noop" : "pm 7/23/2019 15:09",
 		"putInQuotes:" : "pm 7/23/2019 14:47",
-		"resetFlag:for:" : "pm 7/23/2019 14:57",
-		"select:" : "pm 7/23/2019 15:09",
-		"setFlag:for:" : "pm 7/23/2019 14:59" },
+		"resetFlag:for:" : "pm 7/23/2019 18:29",
+		"select:" : "pm 7/23/2019 18:24",
+		"setFlag:for:" : "pm 7/23/2019 18:29" },
 	"instance" : {
 		 } }

@@ -1,4 +1,4 @@
-commands
+command building
 join: aCommandArray
 
 	^ aCommandArray asOrderedCollection
