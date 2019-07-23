@@ -2,6 +2,6 @@ message handling
 ping
 
 	self checkConnected.
-	self sendCommand: ICCommand noopCommand.
+	self sendCommand: ICCommand noop.
 	self fetchNextResponse.	
 	^ true

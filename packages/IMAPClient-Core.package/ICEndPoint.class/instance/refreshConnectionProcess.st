@@ -7,7 +7,7 @@ refreshConnectionProcess
 	
 	[self isConnected and: [self loggedIn]]
 		whileTrue: [
-			self sendCommand: ICCommand noopCommand.
+			self sendCommand: ICCommand noop.
 			self fetchNextResponse.
 			Transcript show: 'Prevent timeout'.
 			(Delay forSeconds: delayTime) wait]

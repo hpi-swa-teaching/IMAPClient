@@ -1,5 +1,5 @@
 commands
-selectCommand: aFolder
+select: aFolder
 
 	^ self join: {'SELECT' . self putInQuotes: aFolder}
 	

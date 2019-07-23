@@ -1,4 +1,4 @@
 commands
-noopCommand
+noop
 
 	^ self join: {'NOOP'}
