@@ -11,7 +11,7 @@ login
 		^ false].
   
 	self sendCommand: (
-		{ self class loginCommand. 
+		{ ICCommand loginCommand. 
 		self accountInfo usernameAsIMAPString. 
 		self accountInfo passwordAsIMAPString }
 		joinSeparatedBy: self class protocolBlank);

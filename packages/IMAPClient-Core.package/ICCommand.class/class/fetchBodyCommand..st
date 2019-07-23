@@ -1,4 +1,4 @@
 commands
 fetchBodyCommand: messageId
 
-	^ {self protocolCommandStart . 'FETCH' . messageId . 'body[TEXT]'} joinSeparatedBy: self protocolBlank
+	^ {ICEndPoint protocolCommandStart . 'FETCH' . messageId . 'body[TEXT]'} joinSeparatedBy: ICEndPoint protocolBlank

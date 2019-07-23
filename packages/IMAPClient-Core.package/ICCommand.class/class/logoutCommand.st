@@ -1,4 +1,4 @@
 commands
 logoutCommand
 
-	^ {self protocolCommandStart . 'LOGOUT'} joinSeparatedBy: self protocolBlank
+	^ {ICEndPoint protocolCommandStart . 'LOGOUT'} joinSeparatedBy: ICEndPoint protocolBlank

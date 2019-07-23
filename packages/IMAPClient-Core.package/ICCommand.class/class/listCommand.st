@@ -1,4 +1,4 @@
 commands
 listCommand
 
-	^ {self protocolCommandStart . 'LIST'} joinSeparatedBy: self protocolBlank
+	^ {ICEndPoint protocolCommandStart . 'LIST'} joinSeparatedBy: ICEndPoint protocolBlank

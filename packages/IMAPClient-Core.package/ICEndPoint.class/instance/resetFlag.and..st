@@ -1,6 +1,6 @@
 fetching
 resetFlag: anEmail and: aFlag
 
-	(aFlag == #flagged) ifTrue: [self sendCommand: (self class resetFlagFlagged: anEmail messageID)].
-	(aFlag == #seen) ifTrue: [self sendCommand: (self class resetFlagSeen: anEmail messageID)].		
+	(aFlag == #flagged) ifTrue: [self sendCommand: (ICCommand resetFlagFlagged: anEmail messageID)].
+	(aFlag == #seen) ifTrue: [self sendCommand: (ICCommand resetFlagSeen: anEmail messageID)].		
 	self fetchNextResponse

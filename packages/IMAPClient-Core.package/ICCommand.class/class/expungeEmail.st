@@ -1,4 +1,4 @@
 commands
 expungeEmail
 
-	^ {self protocolCommandStart . 'EXPUNGE'} joinSeparatedBy: self protocolBlank	
+	^ {ICEndPoint protocolCommandStart . 'EXPUNGE'} joinSeparatedBy: ICEndPoint protocolBlank	

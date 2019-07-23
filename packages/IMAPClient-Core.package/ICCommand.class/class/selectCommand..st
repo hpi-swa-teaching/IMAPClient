@@ -1,5 +1,5 @@
 commands
 selectCommand: aFolder
 
-	^ {self protocolCommandStart . 'SELECT' . aFolder} joinSeparatedBy: self protocolBlank
+	^ {ICEndPoint protocolCommandStart . 'SELECT' . aFolder} joinSeparatedBy: ICEndPoint protocolBlank
 	

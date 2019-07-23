@@ -2,7 +2,7 @@ fetching
 currentUIDs
 
 	self
-		sendCommand: self class allUIDs;
+		sendCommand: ICCommand allUIDs;
 		 fetchNextResponse.
 		
 	self 

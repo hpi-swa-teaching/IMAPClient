@@ -1,4 +1,4 @@
 commands
 asProtocolQuote: message
 
-	^ self protocolQuote, message, self protocolQuote
+	^ ICEndPoint protocolQuote, message, ICEndPoint protocolQuote

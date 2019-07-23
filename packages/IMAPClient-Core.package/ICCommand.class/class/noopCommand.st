@@ -1,4 +1,4 @@
 commands
 noopCommand
 
-	^ {self protocolCommandStart . 'NOOP'} joinSeparatedBy: self protocolBlank
+	^ {ICEndPoint protocolCommandStart . 'NOOP'} joinSeparatedBy: ICEndPoint protocolBlank

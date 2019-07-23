@@ -1,5 +1,5 @@
 commands
 resetFlagSeen: messageId
 
-	^ {self protocolCommandStart . 'STORE' . messageId . '-FLAGS \Seen'} 
-		joinSeparatedBy: self protocolBlank
+	^ {ICEndPoint protocolCommandStart . 'STORE' . messageId . '-FLAGS \Seen'} 
+		joinSeparatedBy: ICEndPoint protocolBlank
