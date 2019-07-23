@@ -55,10 +55,6 @@ Use SSL: True
 ## Security
 Your password isn't stored on disk, but visible to your Squeak environment. After closing the IMAP-Client and reopening it your are welcomed by a password prompt to re-enter your credentials.
 
-## Architecture
-
-  ![](screenshots/architecture.png)
-
 ## History
 2016: Johannes Schneider, Maximilian Söchting, Julian Weise, Alexander Riese, Alexander Loeser
 
