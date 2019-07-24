@@ -1,4 +1,4 @@
-sanitation
+command building
 putInQuotes: aString
 
-	^ ICEndPoint protocolQuote, aString, ICEndPoint protocolQuote
+	^ self protocolQuote, aString, self protocolQuote

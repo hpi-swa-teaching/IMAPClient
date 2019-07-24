@@ -1,5 +1,5 @@
 commands
-fetchHeadersForUIDFrom: aBeginId to: anEndId
+fetchHeadersForUIDsFrom: aBeginId to: anEndId
 
 	^ self join: {
 		'UID FETCH' .
