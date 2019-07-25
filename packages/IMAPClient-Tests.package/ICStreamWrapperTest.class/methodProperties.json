@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"testserverHost" : "ok 7/25/2019 20:16",
+		"testserverPort" : "ok 7/25/2019 20:16",
+		"testserverSSLPort" : "ok 7/25/2019 20:17" },
+	"instance" : {
+		"setUp" : "ok 7/25/2019 20:17",
+		"streamWrapper" : "ok 7/25/2019 20:18",
+		"streamWrapper:" : "ok 7/25/2019 20:18",
+		"tearDown" : "ok 7/25/2019 20:17",
+		"testAccessors" : "ok 7/25/2019 20:24",
+		"testStreamConnection" : "ok 7/25/2019 20:24",
+		"testStreamSSLConnection" : "ok 7/25/2019 20:24" } }
