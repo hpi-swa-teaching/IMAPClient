@@ -1,1 +1,0 @@
-This tests the class ICFileReadWriter by creating and reading JSON FIles.

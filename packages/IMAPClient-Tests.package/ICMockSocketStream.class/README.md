@@ -1,1 +1,0 @@
-This is part of the imap server communication mock up.

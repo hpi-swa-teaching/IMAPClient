@@ -1,4 +1,0 @@
-constants
-firstUID
-
-	 ^ '20'

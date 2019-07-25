@@ -1,4 +1,0 @@
-accessing
-previousConnectionConfigurations
-
-	^ previousConnectionConfigurations

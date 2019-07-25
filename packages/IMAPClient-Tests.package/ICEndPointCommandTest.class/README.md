@@ -1,1 +1,0 @@
-This tests the ICEndPoint-Command part by performing various protocol calls.

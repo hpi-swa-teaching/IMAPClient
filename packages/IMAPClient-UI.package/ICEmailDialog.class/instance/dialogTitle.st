@@ -1,4 +1,0 @@
-toolbuilder
-dialogTitle
-
-	^ self subject

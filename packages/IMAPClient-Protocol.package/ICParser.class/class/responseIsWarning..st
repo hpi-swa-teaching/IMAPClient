@@ -1,4 +1,0 @@
-parsing
-responseIsWarning: aResponseString
-
-	^ false

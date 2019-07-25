@@ -1,4 +1,0 @@
-constants
-invalidUsername
-
-	^ String empty

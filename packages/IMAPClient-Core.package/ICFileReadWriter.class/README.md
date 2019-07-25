@@ -1,1 +1,0 @@
-An ICFileReadWriter is a JSON File Writer and Reader handling the file system storage of mails.

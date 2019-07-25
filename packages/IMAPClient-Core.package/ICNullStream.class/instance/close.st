@@ -1,4 +1,0 @@
-connection
-close
-
-	^ true

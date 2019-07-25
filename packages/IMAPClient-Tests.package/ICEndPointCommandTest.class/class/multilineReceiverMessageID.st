@@ -1,4 +1,0 @@
-constants
-multilineReceiverMessageID
-
-	^ 46

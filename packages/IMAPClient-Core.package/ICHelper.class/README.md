@@ -1,2 +1,0 @@
-An ICHelper is a method bucket which contains helpermethods for the filesystem storage, parameter sorting and subfolder reading.
-It is leagcy. It should burn in hell for its sins. We should delete this.

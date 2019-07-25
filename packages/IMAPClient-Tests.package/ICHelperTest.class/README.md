@@ -1,1 +1,0 @@
-This tests the ICHelperClass by comparing precalculated hashes.

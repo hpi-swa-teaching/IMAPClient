@@ -1,4 +1,0 @@
-constants
-expectedNumberOfMails
-
-	 ^ 1

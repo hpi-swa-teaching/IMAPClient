@@ -1,4 +1,0 @@
-accessing
-uninitializedAccounts: anOrderedCollection
-
-	uninitializedAccounts := anOrderedCollection

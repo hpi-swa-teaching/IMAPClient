@@ -1,4 +1,0 @@
-constants
-folderNameOfTrash
-
-	^ 'Trash'

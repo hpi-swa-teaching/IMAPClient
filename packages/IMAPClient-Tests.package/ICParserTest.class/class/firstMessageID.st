@@ -1,4 +1,0 @@
-constants
-firstMessageID
-
-	 ^ '364'

@@ -1,4 +1,0 @@
-connection
-sendCommand: aString
-
-	^ false

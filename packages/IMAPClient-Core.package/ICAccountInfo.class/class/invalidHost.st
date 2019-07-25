@@ -1,4 +1,0 @@
-constants
-invalidHost
-
-	^ String empty

@@ -1,1 +1,0 @@
-This tests the ICEndPoint-Connection part by creating a successfull connection and a failing one.

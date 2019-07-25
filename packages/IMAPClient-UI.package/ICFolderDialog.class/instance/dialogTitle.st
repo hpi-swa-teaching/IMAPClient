@@ -1,4 +1,0 @@
-toolbuilder
-dialogTitle
-
-	^ 'IMAP Overview'

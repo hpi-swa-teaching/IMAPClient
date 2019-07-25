@@ -1,4 +1,0 @@
-constants
-initialAccountName
-
-	^ String empty

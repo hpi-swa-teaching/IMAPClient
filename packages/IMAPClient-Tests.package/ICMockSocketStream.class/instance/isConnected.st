@@ -1,4 +1,0 @@
-accessing
-isConnected
-
-	^ self connected

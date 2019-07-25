@@ -1,4 +1,0 @@
-constants
-parameterErrorPosition
-
-	^ 2

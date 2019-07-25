@@ -1,4 +1,0 @@
-constants
-multilineSenderMessageID
-
-	^ 45

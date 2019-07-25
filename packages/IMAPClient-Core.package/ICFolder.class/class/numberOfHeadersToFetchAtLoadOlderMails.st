@@ -1,4 +1,0 @@
-constants
-numberOfHeadersToFetchAtLoadOlderMails
-
-	^ 10

@@ -1,1 +1,0 @@
-This tests the ICParser by parsing hardcoded server responses.

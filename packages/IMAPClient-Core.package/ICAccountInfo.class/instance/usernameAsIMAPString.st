@@ -1,4 +1,0 @@
-accessing
-usernameAsIMAPString
-
-	^ '"', self username, '"'

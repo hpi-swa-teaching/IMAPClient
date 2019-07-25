@@ -1,4 +1,0 @@
-accessing
-previousConnectionConfigurations: aConfigurationsCollection
-
-	previousConnectionConfigurations := aConfigurationsCollection

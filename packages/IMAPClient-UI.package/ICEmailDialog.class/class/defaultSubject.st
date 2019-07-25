@@ -1,4 +1,0 @@
-defaults
-defaultSubject
-
-	^ '(no subject)'
