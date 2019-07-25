@@ -10,11 +10,7 @@ login
 		self fatalErrorOccured: true.
 		^ false].
   
-	self sendCommand: (
-		{ self class loginCommand. 
-		self accountInfo usernameAsIMAPString. 
-		self accountInfo passwordAsIMAPString }
-		joinSeparatedBy: self class protocolBlank);
+	self sendCommand: (ICCommand loginWith: self accountInfo);
 		fetchNextResponse;
 		loggedIn: self commandSucceeded.
   

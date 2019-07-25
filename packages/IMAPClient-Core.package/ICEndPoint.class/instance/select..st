@@ -3,5 +3,5 @@ select: aFolderName
 
 	self
 		currentFolderName: aFolderName;
-		sendCommand: (self class selectCommand:  ('"' , aFolderName, '"'));
+		sendCommand: (ICCommand select: aFolderName);
 		fetchNextResponse

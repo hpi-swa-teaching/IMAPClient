@@ -1,5 +1,5 @@
 delete
 expungeEmail
 
-	self sendCommand: (self class expungeEmail).	
+	self sendCommand: ICCommand expungeEmail.	
 	self fetchNextResponse
