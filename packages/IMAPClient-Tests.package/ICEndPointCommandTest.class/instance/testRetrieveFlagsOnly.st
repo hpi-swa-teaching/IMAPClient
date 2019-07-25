@@ -6,7 +6,7 @@ testRetrieveFlagsOnly
 	"Load emails from server and store them locally"
 	
 	"To test the functionality I need ICEMails, which are already present in storage, 
-	 so I can check whether the flags are updated" 			
+	 so I can check whether the flags are updated" 
 	emailObjects := self endPoint maildirDiffFetchHeadersFrom: '3' to: '4'.
 	mailA := emailObjects first.
 	mailB := emailObjects second.

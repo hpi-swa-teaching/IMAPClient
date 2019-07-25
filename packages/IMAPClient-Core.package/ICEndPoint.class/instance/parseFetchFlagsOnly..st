@@ -7,10 +7,10 @@ parseFetchFlagsOnly: aFolder
 	
 	aFolder emails do: [:email | 
 		flagsPerUID at: email uniqueID asString ifPresent: [:flags |
-			((email seen ~= (flags contains: '\Seen')) or: 
-			(email flagged ~= (flags contains: '\Flagged')) or:
-			(email deleted ~= (flags contains: '\Deleted'))) ifTrue: [
-				email seen: (flags contains: '\Seen').
-				email flagged: (flags contains: '\Flagged').
-				email deleted: (flags contains: '\Deleted').
+			((email seen ~= (flags includes: '\Seen')) or: 
+			(email flagged ~= (flags includes: '\Flagged')) or:
+			(email deleted ~= (flags includes: '\Deleted'))) ifTrue: [
+				email seen: (flags includes: '\Seen').
+				email flagged: (flags includes: '\Flagged').
+				email deleted: (flags includes: '\Deleted').
 				email saveInMaildir]]].
