@@ -1,9 +1,4 @@
 accessing
 recursiveChildFolders
 	
-	| childFolderCollection |
-	
-	childFolderCollection := self childFolders collect: [:child | child recursiveChildFolders].
-	childFolderCollection add: self childFolders.
-	
-	^ childFolderCollection flatten
+	^ {self childFolders collect: [:child | child recursiveChildFolders]. self childFolders} flatten asOrderedCollection
