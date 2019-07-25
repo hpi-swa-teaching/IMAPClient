@@ -1,8 +1,9 @@
-testing
-testHashName
+folderNames
+testRootFolderHashName
 	
 	| endpoint|
-	endpoint := ICEndPoint new accountInfo: (ICAccountInfo newWithAccountName: '' host: '' port: '' username: '' password: '' ssl: '').
+	endpoint := ICEndPoint new
+		accountInfo: (ICAccountInfo newWithAccountName: '' host: '' port: '' username: '' password: '' ssl: '').
 	
 	endpoint accountInfo
 		host: 'testHost';

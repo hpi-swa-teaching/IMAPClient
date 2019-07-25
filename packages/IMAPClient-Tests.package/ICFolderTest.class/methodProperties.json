@@ -15,4 +15,5 @@
 		"testCountFolders" : "C.G. 7/25/2018 18:04",
 		"testEmailInFolder" : "C.G. 7/25/2018 18:05",
 		"testRemoveFolder" : "C.G. 7/25/2018 18:04",
-		"testRemoveFolderWithFolderNotExisting" : "C.G. 7/25/2018 18:04" } }
+		"testRemoveFolderWithFolderNotExisting" : "C.G. 7/25/2018 18:04",
+		"testRootFolderHashName" : "tg 7/25/2019 13:03" } }
