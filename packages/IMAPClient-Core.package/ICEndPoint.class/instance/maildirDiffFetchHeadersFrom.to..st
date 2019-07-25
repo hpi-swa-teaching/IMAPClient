@@ -12,7 +12,7 @@ maildirDiffFetchHeadersFrom: start to: end
 			searchBegin size > 0 & (searchEnd size > 0) ifTrue: [
 				Transcript show: 'Do nothing. Newest Mailrange already loaded'.
 				^ OrderedCollection new]].
-	
+		
      ^ self
        	sendCommand: (ICCommand fetchHeadersForUIDsFrom: start to: end);
 		fetchNextResponse;

@@ -4,7 +4,7 @@ checkForBadRequest
 	(self fatalErrorOccured)
  		ifTrue: [^ false].
   
-	self responseIsError ifTrue: [
+	(ICParser responseIsError: self stream lastResponse) ifTrue: [
 		self fatalErrorOccured: true.
 		^ Error signal: self class errorBadProtocol].
  

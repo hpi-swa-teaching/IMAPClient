@@ -1,0 +1,14 @@
+{
+	"category" : "IMAPClient-Protocol",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pm 7/23/2019 15:11",
+	"instvars" : [
+		 ],
+	"name" : "ICCommand",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

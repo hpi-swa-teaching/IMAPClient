@@ -12,7 +12,7 @@ login
   
 	self sendCommand: (ICCommand loginWith: self accountInfo);
 		fetchNextResponse;
-		loggedIn: self commandSucceeded.
+		loggedIn: (ICParser commandSucceeded: self stream lastResponse).
   
 	(self checkLoggedIn) ifFalse: [
 		self fatalErrorOccured: true.
