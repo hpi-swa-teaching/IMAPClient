@@ -3,7 +3,7 @@ tearDown
 
 	| mailAPath mailBPath path folderName |
 	
-	folderName := ICHelper hashNameForAccount: (self endPoint accountInfo host) and: (self endPoint accountInfo username).	
+	folderName := self endPoint rootFolderName.	
 		
 	path := 'Maildir', FileDirectory slash, folderName, FileDirectory slash, 'inbox'.
 	mailAPath := FileDirectory default fullPathFor: path , FileDirectory slash, '3' .
