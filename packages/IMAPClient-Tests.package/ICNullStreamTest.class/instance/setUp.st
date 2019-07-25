@@ -1,4 +1,4 @@
 running
-setup
+setUp
 
 	self nullStream: ICNullStream new.
