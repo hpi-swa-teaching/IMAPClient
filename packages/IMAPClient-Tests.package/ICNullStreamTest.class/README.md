@@ -1,0 +1,1 @@
+This test class conducts basic testing of the ICNullStream null object properties.
