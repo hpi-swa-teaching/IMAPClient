@@ -1,12 +1,5 @@
 helper methods
 accountDictionariesToEndpoints: aCollection
 	
-	"this method takes a collection of dictionaries, which contain login information, and responds with a collection of    
-	 endpoints,	which are created from the dictionary data"
 	
-	| endpointCollection |
-	
-	endpointCollection := OrderedCollection new.
-	aCollection do: [:configData | endpointCollection add: (ICEndPoint new connectAndLoginWith: (ICAccountInfo newWith: configData))].
-			
-	^ endpointCollection
+	^ aCollection collect: [:configData | ICEndPoint new connectAndLoginWith: (ICAccountInfo newWith: configData)]
