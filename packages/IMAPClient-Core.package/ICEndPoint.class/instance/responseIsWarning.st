@@ -1,4 +1,0 @@
-error handling
-responseIsWarning
-
-	^ false

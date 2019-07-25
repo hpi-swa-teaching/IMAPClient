@@ -1,9 +1,11 @@
 protocol parse
 folderFromResponse: responseLine
 
-	| folderPath parent |
+	| folder folderPath parent |
 	
-	folderPath := self folderPathFrom: responseLine.
+	folder := ICParser folderPathFrom: responseLine.
+	self hierarchyDelimiter: folder hierarchyDelimiter.
+	folderPath := folder pathAsArray.
 	
 	parent := self rootFolder childFolderNamed: folderPath first 
 		ifAbsent: [ICFolder named: folderPath first in: self rootFolder with: self].

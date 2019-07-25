@@ -5,4 +5,4 @@ retrieveFlagsFrom: anUID to: anotherUID in: aFolder
 		sendCommand: (ICCommand fetchFlagsForUIDsFrom: anUID to: anotherUID);
 		fetchNextResponse.
 		
-	self parseFetchFlagsOnly: aFolder
+	self parseFetchedFlagsAndPopulate: aFolder

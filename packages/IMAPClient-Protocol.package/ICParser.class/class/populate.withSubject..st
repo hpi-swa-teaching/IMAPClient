@@ -1,4 +1,4 @@
 parsing
-parseFetchHeaderSubject: aHeaderChunk for: anEmail
+populate: anEmail withSubject: aHeaderChunk
 
 	anEmail subject: aHeaderChunk decodeMimeHeader

@@ -1,4 +1,4 @@
 parsing
-parseFetchHeaderReceiver: aHeaderChunk for: anEmail
+populate: anEmail withReceiver: aHeaderChunk
 
 	anEmail to: (aHeaderChunk subStrings: ',') asOrderedCollection

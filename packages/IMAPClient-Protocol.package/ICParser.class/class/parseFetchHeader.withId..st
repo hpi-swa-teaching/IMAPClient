@@ -20,6 +20,6 @@ parseFetchHeader: aHeaderString withId: aMessageID
 							headerChunks last add: line]]]].
 			
 	headerChunks do: [:chunk |
-		self parseHeaderChunk: chunk for: email].
+		self populate: email withHeadersFrom: chunk].
 
 	^ email

@@ -1,5 +1,5 @@
 parsing
-parseFetchHeaderFlags: aHeaderChunk for: anEmail
+populate: anEmail withFlags: aHeaderChunk
 
 	anEmail seen: (aHeaderChunk includesSubString: '\Seen').
 	anEmail flagged: (aHeaderChunk includesSubString: '\Flagged').

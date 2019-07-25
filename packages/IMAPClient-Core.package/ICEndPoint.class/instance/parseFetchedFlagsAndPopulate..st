@@ -1,9 +1,9 @@
 protocol parse
-parseFetchFlagsOnly: aFolder
+parseFetchedFlagsAndPopulate: aFolder
 
 	| flagsPerUID | 
 	
-	flagsPerUID := ICParser parseFetchFlagsOnly: self lastResponse.
+	flagsPerUID := ICParser parseFetchedFlagsAndPopulate: self lastResponse.
 	
 	aFolder emails do: [:email | 
 		flagsPerUID at: email uniqueID asString ifPresent: [:flags |

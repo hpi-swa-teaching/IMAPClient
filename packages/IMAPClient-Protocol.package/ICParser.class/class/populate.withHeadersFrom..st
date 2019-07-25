@@ -1,5 +1,5 @@
 parsing
-parseHeaderChunk: aHeaderChunk for: anEmail
+populate: anEmail withHeadersFrom: aHeaderChunk
 
 	| headerField aHeaderContentChunk method |
 	
