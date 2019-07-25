@@ -1,13 +1,12 @@
 protocol parse
 parseFetchHeaders: headerLines
 
-	| parser folder parseResult mailCollection |
+	| folder parseResult mailCollection |
 	
 	(headerLines size = 0) ifTrue: [^ OrderedCollection new].
-		
+
 	mailCollection := OrderedCollection new.
-	parser := ICFetchResponseParser new.
-	parseResult := parser parse: (ReadStream on: (headerLines joinSeparatedBy: Character cr)).
+	parseResult := ICParser parseFetchMailStream: (ReadStream on: (headerLines joinSeparatedBy: Character cr)).
 		
 	folder := self rootFolder childFolderNamed: (self currentFolderName) with: (self hierarchyDelimiter).
 	 

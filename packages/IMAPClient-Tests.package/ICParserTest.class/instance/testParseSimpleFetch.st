@@ -3,7 +3,7 @@ testParseSimpleFetch
 	
 	| parseResult firstResult parsedMail givenMail |
 	
-	parseResult := parser parse: (ReadStream on: (self class firstExampleResponse)). 
+	parseResult := ICParser parseFetchMailStream: (ReadStream on: (self class firstExampleResponse)). 
 	
 	firstResult := parseResult at: (self class firstMessageID).
 	self assert: parseResult size equals: self class expectedNumberOfMails.

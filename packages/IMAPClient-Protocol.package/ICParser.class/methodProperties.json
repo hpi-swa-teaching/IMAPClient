@@ -16,7 +16,7 @@
 		"parseFetchHeaderReceiver:for:" : "pm 7/15/2019 20:14",
 		"parseFetchHeaderSender:for:" : "pm 7/12/2019 19:55",
 		"parseFetchHeaderSubject:for:" : "pm 7/12/2019 19:57",
-		"parseFetchStream:" : "pm 7/25/2019 14:27",
+		"parseFetchMailStream:" : "pm 7/25/2019 15:40",
 		"parseHeaderChunk:for:" : "pm 7/15/2019 20:13",
 		"parseMethods" : "pm 7/12/2019 17:22",
 		"protocolBlank" : "pm 7/12/2019 17:23",
@@ -24,6 +24,7 @@
 		"protocolError" : "pm 7/12/2019 17:23",
 		"protocolParameterError" : "pm 7/12/2019 17:22",
 		"protocolQuote" : "pm 7/12/2019 17:23",
-		"startsNewHeaderChunk:" : "pm 7/12/2019 20:07" },
+		"startsNewHeaderChunk:" : "pm 7/12/2019 20:07",
+		"throwError:" : "pm 7/25/2019 15:25" },
 	"instance" : {
 		 } }

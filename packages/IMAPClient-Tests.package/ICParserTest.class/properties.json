@@ -4,11 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "tg 7/8/2019 15:45",
+	"commentStamp" : "pm 7/25/2019 15:44",
 	"instvars" : [
-		"endpoint",
-		"parser" ],
-	"name" : "ICFetchResponseParserTest",
+		"endpoint" ],
+	"name" : "ICParserTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
