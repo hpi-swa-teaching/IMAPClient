@@ -1,5 +1,6 @@
 connectOn
 testConnectToOnWithWrongPort
 
-	self endPoint connectTo: self class validHost on: self class invalidPort with: ICMockSocketStream.
+	self endPoint accountInfo: self class invalidPortAccountInfo.
+	self endPoint connectWith: ICMockSocketStream.
 	self assert: self endPoint fatalErrorOccured equals: true

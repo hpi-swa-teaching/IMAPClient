@@ -1,11 +1,11 @@
 accountManagment
-addAccount: aDataDictionary
+addAccount: anAccountInfo
 
 	| data |
 	
 	data := OrderedCollection new.
-	data add: aDataDictionary.
+	data add: anAccountInfo asDictionary.
 	
-	ICEndPoint addConfiguration: aDataDictionary.
+	ICEndPoint addConfiguration: anAccountInfo asDictionary.
 	self emailAccounts add: ((ICHelper accountDictionariesToEndpoints: data) at: 1).
 	self changed: #emailAccounts

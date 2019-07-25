@@ -3,18 +3,18 @@ login
 
 	"create a dictionary with data and return it"
  
-	| dataDictionary |
+	| accountInfo |
  
 	self insertDefaults.
-	dataDictionary := self makeDataDictionary.
-	(self checkIfAllFieldsFilled: dataDictionary)
+	accountInfo := self createAccountInfo.
+	(self checkIfAllFieldsFilled: accountInfo)
 		ifFalse: [^ self].
-	(self checkIfAccountnameUnused: dataDictionary)
+	(self checkIfAccountnameUnused: accountInfo)
 		ifFalse: [^ self].
  
-	((ICEndPoint new) testAccountWith: dataDictionary)
+	((ICEndPoint new) testAccountWith: accountInfo)
 		ifTrue: [
 			self loginMorph abandon.
 			(self updateMode)
-				ifFalse: [folderDialogInstance addAccount: dataDictionary]
-				ifTrue: [folderDialogInstance editAccount: dataDictionary with: (self endpoint)]]
+				ifFalse: [folderDialogInstance addAccount: accountInfo]
+				ifTrue: [folderDialogInstance editAccount: accountInfo with: (self endpoint)]]

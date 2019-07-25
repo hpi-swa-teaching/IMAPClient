@@ -1,20 +1,16 @@
 login
 login
-
+	
 	(self checkConnected) ifFalse: [
 		self fatalErrorOccured: true.
 		UIManager default inform: 'Cant connect to the server'. 
 		^ false].
   	
-	(self authenticationInfo isValid) ifFalse: [
+	(self accountInfo isValid) ifFalse: [
 		self fatalErrorOccured: true.
 		^ false].
   
-	self sendCommand: (
-		{ self class loginCommand. 
-		self authenticationInfo usernameAsIMAPString. 
-		self authenticationInfo passwordAsIMAPString }
-		joinSeparatedBy: self class protocolBlank);
+	self sendCommand: (ICCommand loginWith: self accountInfo);
 		fetchNextResponse;
 		loggedIn: (ICParser commandSucceeded: self stream lastResponse).
   

@@ -1,0 +1,4 @@
+constants
+validPassword
+
+	^ 'foo bar'

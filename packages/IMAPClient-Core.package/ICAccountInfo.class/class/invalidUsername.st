@@ -1,0 +1,4 @@
+constants
+invalidUsername
+
+	^ String empty

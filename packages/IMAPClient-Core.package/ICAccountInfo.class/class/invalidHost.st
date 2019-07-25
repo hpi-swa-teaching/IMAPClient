@@ -1,0 +1,4 @@
+constants
+invalidHost
+
+	^ String empty

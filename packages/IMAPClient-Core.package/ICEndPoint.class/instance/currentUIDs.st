@@ -2,8 +2,8 @@ fetching
 currentUIDs
 
 	self
-		sendCommand: self class allUIDs;
-		 fetchNextResponse.
+		sendCommand: ICCommand allUIDs;
+		fetchNextResponse.
 		
 	self 
 		uids: (((self lastResponse at: 1) subStrings: ' ') asOrderedCollection 

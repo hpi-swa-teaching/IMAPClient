@@ -1,0 +1,4 @@
+constants
+invalidPort
+
+	^ -1

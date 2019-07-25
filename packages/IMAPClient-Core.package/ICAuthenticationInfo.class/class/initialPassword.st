@@ -1,4 +1,0 @@
-constants
-initialPassword
-
-	^ String empty

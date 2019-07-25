@@ -5,5 +5,5 @@ labelForAccount: anICEndpoint
 	
 	countOfUnseenMails := anICEndpoint rootFolder numOfUnseenMails.
 	countOfUnseenMails > 0
-		ifTrue: [^ anICEndpoint name, Character tab, '[' , countOfUnseenMails asString, ']']
-		ifFalse: [^ anICEndpoint name, Character tab, '']
+		ifTrue: [^ anICEndpoint accountInfo accountName, Character tab, '[' , countOfUnseenMails asString, ']']
+		ifFalse: [^ anICEndpoint accountInfo accountName, Character tab, '']

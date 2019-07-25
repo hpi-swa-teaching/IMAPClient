@@ -1,5 +1,5 @@
 accountManagment
-editAccount: newData with: anEndPoint
+editAccount: anAccountInfo with: anEndPoint
 	
 	"callback method for dialog. newData contains the updated Data, while previousData
 	contains the old data"
@@ -7,12 +7,12 @@ editAccount: newData with: anEndPoint
 	| data |
 		
 	data := OrderedCollection new.
-	data add: newData.
+	data add: anAccountInfo asDictionary.
 	
 	ICEndPoint removeConfiguration: anEndPoint.
 	self emailAccounts remove: anEndPoint.
 	
-	ICEndPoint addConfiguration: newData.
+	ICEndPoint addConfiguration: anAccountInfo asDictionary.
 	
 	self emailAccounts add: ((ICHelper accountDictionariesToEndpoints: data) at: 1).	
 	self selectedFolder: nil.

@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"invalidPassword" : "tg 5/9/2019 13:03",
+		"invalidUsername" : "tg 5/9/2019 13:04",
+		"validAccountName" : "tg 7/10/2019 19:37",
+		"validHost" : "tg 7/10/2019 19:37",
+		"validPassword" : "tg 7/10/2019 19:36",
+		"validPort" : "tg 7/10/2019 19:38",
+		"validUsername" : "tg 7/10/2019 19:36" },
+	"instance" : {
+		"accountInfo" : "tg 7/10/2019 18:44",
+		"accountInfo:" : "tg 7/10/2019 18:44",
+		"setUp" : "tg 7/10/2019 19:44",
+		"testForArgumentCount" : "tg 7/10/2019 18:45",
+		"testForValidIMAPString" : "tg 5/9/2019 14:16" } }

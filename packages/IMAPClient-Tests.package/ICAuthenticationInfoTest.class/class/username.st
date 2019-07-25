@@ -1,4 +1,0 @@
-constants
-username
-
-	^ 'user1'

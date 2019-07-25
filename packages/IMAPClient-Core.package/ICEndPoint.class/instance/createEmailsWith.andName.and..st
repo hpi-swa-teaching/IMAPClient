@@ -1,4 +1,4 @@
-connection
+storage
 createEmailsWith: maildirDirectory andName: directoryName and: relativeRootFolder
 	
 	"this loads mails from storage and create ICFolder with ICMails in it."
@@ -11,7 +11,7 @@ createEmailsWith: maildirDirectory andName: directoryName and: relativeRootFolde
 	"for each directory create Folder"
 	(serverDirectory directoryNames) do: [:foldername |
 		folder := (ICFolder new) 
-			name: foldername;
+			folderName: foldername;
 			endpoint: self; 
 			yourself.
 			

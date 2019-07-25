@@ -13,7 +13,7 @@ currentUIDsFor: anICFolder
 	isEmpty
 	ifFalse: [
 		self
-			sendCommand: self class allUIDs;
+			sendCommand: ICCommand allUIDs;
 			fetchNextResponse.
 		self 
 			uids: (((self lastResponse at: 1) subStrings: ' ') asOrderedCollection 
@@ -21,5 +21,5 @@ currentUIDsFor: anICFolder
 			removeFirst; 
 			yourself)]
 	ifTrue: [
-			Transcript show: (anICFolder name), ' is an empty folder!'. 
+			Transcript show: (anICFolder folderName), ' is an empty folder!'. 
 			^ OrderedCollection new]

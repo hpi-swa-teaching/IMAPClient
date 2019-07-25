@@ -1,4 +1,0 @@
-constants
-password
-
-	^ 'foo bar'

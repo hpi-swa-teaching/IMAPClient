@@ -1,4 +1,4 @@
-connection
+fetching
 maildirDiffFetchHeadersFrom: start to: end
 
 	| searchBegin searchEnd mailFolder |
@@ -14,6 +14,6 @@ maildirDiffFetchHeadersFrom: start to: end
 				^ OrderedCollection new]].
 		
      ^ self
-       	sendCommand: (self class fetchHeadersWithUIDRange: start to: end);
+       	sendCommand: (ICCommand fetchHeadersForUIDsFrom: start to: end);
 		fetchNextResponse;
 		parseFetchHeaders: self lastResponse

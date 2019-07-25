@@ -1,4 +1,0 @@
-accessing
-authenticationInfo: anICAuthenticationInfo
-
-	authenticationInfo := anICAuthenticationInfo

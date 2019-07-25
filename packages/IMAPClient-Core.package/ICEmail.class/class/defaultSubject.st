@@ -1,4 +1,0 @@
-constants
-defaultSubject
-
-	^ '(no subject)'
