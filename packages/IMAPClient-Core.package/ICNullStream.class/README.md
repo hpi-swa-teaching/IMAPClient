@@ -1,1 +1,1 @@
-An ICNullStream is a Null Object resembling an ICStreamWrapper. 
+An ICNullStream is a Null Object resembling an SocketStream. 
