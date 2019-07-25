@@ -1,9 +1,6 @@
 toasts
 constructEmptyFieldsErrorMessage: aCollection
 	
-	| parameters |
-	parameters := ((ICHelper makeParameterCollection: aCollection) 
-						collect: [:parameter | parameter asString])
-							fold: [:a :b | a,', ',b].
+	aCollection sort: [:first :second | (self class inputParameterOrder indexOf: first) < (self class inputParameterOrder indexOf: second)].
 	
-	^ 'Please put in ', parameters, ' data'
+	^ 'Please put in ', (aCollection fold: [:a :b | a, ', ', b]) , ' data'
