@@ -2,4 +2,4 @@ protocol parse
 parseListResponse
 	
 	self fetchNextResponse.
-	self lastResponse do: [:each | self folderFromResponse: (each copyAfter: ICCommand protocolQuote asCharacter)]
+	self lastResponse do: [:each | self folderFromResponse: each]

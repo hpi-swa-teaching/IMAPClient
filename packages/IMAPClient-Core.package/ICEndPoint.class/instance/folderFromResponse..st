@@ -1,11 +1,16 @@
 protocol parse
 folderFromResponse: responseLine
 
-	| folder folderPath parent |
+	| folder folderPath parent namePart|
 	
-	folder := ICParser folderPathFrom: responseLine.
+	
+	namePart := (responseLine copyAfter: ICCommand protocolQuote asCharacter).
+	
+	folder := ICParser folderPathFrom: namePart.
 	self hierarchyDelimiter: folder hierarchyDelimiter.
 	folderPath := folder pathAsArray.
+	
+	(responseLine includesSubstring: '\Trash') ifTrue: [self folderNameOfTrash: folderPath first].
 	
 	parent := self rootFolder childFolderNamed: folderPath first 
 		ifAbsent: [ICFolder named: folderPath first in: self rootFolder with: self].
