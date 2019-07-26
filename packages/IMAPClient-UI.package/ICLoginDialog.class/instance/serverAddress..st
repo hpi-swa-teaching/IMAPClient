@@ -1,7 +1,7 @@
 accessing
 serverAddress: aText
 	
-	(self checkIfLastCharacterIsTab: aText string)
+	(self lastCharacterIsTab: aText string)
 		ifFalse: [serverAddress := aText withBlanksTrimmed]
 		ifTrue: [self changeInputField: 2].
 		

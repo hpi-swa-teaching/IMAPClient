@@ -1,7 +1,7 @@
 accessing
 accountName: aText
 	
-	(self checkIfLastCharacterIsTab: aText string)
+	(self lastCharacterIsTab: aText string)
 		ifFalse: [accountName := aText string]
 		ifTrue: [self changeInputField: 1].
 		

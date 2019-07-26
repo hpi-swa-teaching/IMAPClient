@@ -1,9 +1,9 @@
 toolbuilder
 buildWith: builder
 	
-	| window |
+	| newWindow |
 
-	window := builder build: (builder pluggableWindowSpec new
+	newWindow := builder build: (builder pluggableWindowSpec new
 		model: self;
 		label: (self data at: 'accountName');
 		extent: 200 @ 100;
@@ -11,5 +11,5 @@ buildWith: builder
 			self buildPasswordField: builder.
 			self buildAddPasswordButton: builder}).
 			
-	self window: window.
-	^ window
+	self window: newWindow.
+	^ newWindow

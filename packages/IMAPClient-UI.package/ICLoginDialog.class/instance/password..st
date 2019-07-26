@@ -1,7 +1,7 @@
 accessing
 password: aText
 	
-	(self checkIfLastCharacterIsTab: aText string)
+	(self lastCharacterIsTab: aText string)
 		ifFalse: [password := aText]
 		ifTrue: [self changeInputField: 5].
 		

@@ -7,9 +7,9 @@ login
  
 	self insertDefaults.
 	accountInfo := self createAccountInfo.
-	(self checkIfAllFieldsFilled: accountInfo)
+	(self allFieldsFilled: accountInfo)
 		ifFalse: [^ self].
-	(self checkIfAccountnameUnused: accountInfo)
+	(self accountnameUnused: accountInfo)
 		ifFalse: [^ self].
  
 	((ICEndPoint new) testAccountWith: accountInfo)
