@@ -1,5 +1,4 @@
 accessing
-dateInSecondsSince1980	
-	"MailMessage parses in UTC"
+dateInSecondsSince1980
 	
 	^ MailMessage new timeFrom: self date
