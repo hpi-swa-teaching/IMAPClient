@@ -7,4 +7,4 @@ exampleEmailIn: aFolder
 		from: 'coolkid@aol.com';
 		to: 'me@me.com';
 		folder: aFolder;
-		date: 'Fri, 10 Jun 2016 12:52:11 +0200'.
+		date: 'Fri, 10 Jun 2016 12:52:11 +0200'
