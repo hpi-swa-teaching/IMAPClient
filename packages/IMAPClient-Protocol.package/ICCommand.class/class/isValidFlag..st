@@ -1,4 +1,4 @@
 validation
 isValidFlag: aFlagString
 
-	^ {'Seen' . 'Flagged'} contains: aFlagString withFirstCharacterUppercase
+	^ {'Seen' . 'Flagged'} includes: aFlagString withFirstCharacterUppercase

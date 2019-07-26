@@ -5,7 +5,7 @@ switchToNewEndpoint
 	self selectedEndpoint ifNil: [^self].	
 	self folderWith: self selectedEndpoint.
 	
-	self rootFolder: (Array with: self selectedEndpoint rootFolder).
+	self rootFolder: self selectedEndpoint rootFolder.
 	self selectedFolder: nil.
 	
 	self 
