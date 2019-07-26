@@ -8,6 +8,7 @@
 		"numberOfHeadersToFetchAtLoadOlderMails" : "DH 7/22/2018 22:37",
 		"numberOfHeadersToFetchAtTheBeginning" : "DH 7/22/2018 22:37" },
 	"instance" : {
+		"accountName" : "ok 7/26/2019 19:06",
 		"addFolder:" : "js 6/7/2016 13:09",
 		"checkTopicality" : "fr 7/26/2019 15:57",
 		"childFolderNamed:" : "C.G. 7/25/2018 14:02",
@@ -24,6 +25,7 @@
 		"fetchHeadersFrom:" : "fr 7/26/2019 15:54",
 		"folderName" : "tg 7/19/2019 09:17",
 		"folderName:" : "tg 7/19/2019 09:17",
+		"hierarchyDelimiter" : "ok 7/26/2019 19:02",
 		"highestUniqueID" : "pm 6/3/2019 18:34",
 		"latestEmails:" : "fr 7/26/2019 15:55",
 		"loadOlderMails" : "pm 6/3/2019 18:34",
@@ -31,11 +33,13 @@
 		"numOfUnseenMails" : "C.G. 7/25/2018 14:03",
 		"parent" : "tg 6/25/2019 21:21",
 		"parent:" : "js 6/7/2016 11:32",
-		"path" : "tg 7/19/2019 09:20",
+		"parentPath" : "ok 7/26/2019 19:08",
+		"path" : "ok 7/26/2019 19:08",
 		"recursiveChildFolders" : "tg 7/25/2019 12:56",
 		"removeFolder:" : "C.G. 7/25/2018 14:03",
 		"removeFolder:ifAbsent:" : "C.G. 7/25/2018 14:04",
 		"retrieveFlagsFrom:to:" : "fr 7/26/2019 15:37",
+		"rootFolder" : "ok 7/26/2019 19:05",
 		"startUpdateProcess:" : "tg 7/19/2019 09:19",
 		"update" : "pm 6/3/2019 18:34",
-		"update:" : "tg 7/19/2019 09:19" } }
+		"update:" : "ok 7/26/2019 19:05" } }

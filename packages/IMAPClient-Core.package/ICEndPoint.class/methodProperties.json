@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"accountFolderHashRelevantCharacters" : "ok 7/26/2019 19:11",
 		"addConfiguration:" : "tg 7/8/2019 15:12",
 		"basicConnectionConfigurations" : "tg 7/8/2019 15:14",
 		"checkValidConfiguration:" : "tg 7/18/2019 23:06",
@@ -45,6 +46,7 @@
 		"folderNameOfTrash:" : "tg 7/26/2019 14:13",
 		"hierarchyDelimiter" : "mw 5/11/2018 10:37",
 		"hierarchyDelimiter:" : "mw 5/11/2018 10:37",
+		"host" : "ok 7/26/2019 19:09",
 		"isConnected" : "js 6/7/2016 10:13",
 		"lastResponse" : "pm 6/9/2019 13:10",
 		"lastResponse:" : "lvm 5/24/2018 10:16",
@@ -69,7 +71,7 @@
 		"retrieveFlagsFrom:to:in:" : "pm 7/25/2019 17:45",
 		"rootFolder" : "pm 6/9/2019 13:09",
 		"rootFolder:" : "js 6/10/2016 15:09",
-		"rootFolderName" : "tg 7/25/2019 10:58",
+		"rootFolderName" : "ok 7/26/2019 19:11",
 		"select:" : "fr 7/26/2019 15:45",
 		"sendCommand:" : "DH 6/26/2018 20:21",
 		"setFlag:and:" : "tg 7/26/2019 13:44",
@@ -77,4 +79,5 @@
 		"stream:" : "js 6/7/2016 10:17",
 		"testAccountWith:" : "tg 7/15/2019 12:29",
 		"uids" : "C.G. 7/25/2018 13:59",
-		"uids:" : "pm 6/9/2019 16:52" } }
+		"uids:" : "pm 6/9/2019 16:52",
+		"username" : "ok 7/26/2019 19:09" } }

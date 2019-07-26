@@ -1,0 +1,4 @@
+constants
+maxTranscriptDumpLength
+
+	^ 50
