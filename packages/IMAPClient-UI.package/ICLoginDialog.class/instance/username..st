@@ -1,7 +1,7 @@
 accessing
 username: aText
 
-	(self checkIfLastCharacterIsTab: aText string)
+	(self lastCharacterIsTab: aText string)
 		ifFalse: [username := aText withBlanksTrimmed]
 		ifTrue: [self changeInputField: 4].
 		

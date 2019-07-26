@@ -1,11 +1,11 @@
 email selection
 deleteEmail
-
-	selectedEmail retrieveFlags.
 	
-	(selectedEmail deleted)
-		ifTrue: [selectedEmail expungeEmails]
-		ifFalse: [selectedEmail deleteEmail].
+	self selectedEmail retrieveFlags.
+	
+	(self selectedEmail deleted)
+		ifTrue: [self selectedEmail expungeEmails]
+		ifFalse: [self selectedEmail deleteEmail].
 		
 	self selectedEmail: nil.
 	self

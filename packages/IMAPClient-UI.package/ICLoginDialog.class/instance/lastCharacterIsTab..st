@@ -1,5 +1,5 @@
 helper
-checkIfLastCharacterIsTab: aString
+lastCharacterIsTab: aString
 
 	aString isEmpty ifTrue: [^ false].
 	
