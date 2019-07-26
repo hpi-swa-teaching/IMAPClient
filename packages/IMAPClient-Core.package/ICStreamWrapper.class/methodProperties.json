@@ -1,7 +1,6 @@
 {
 	"class" : {
-		"connectionTimeout" : "ok 7/26/2019 18:50",
-		"maxTranscriptDumpLength" : "ok 7/26/2019 18:49" },
+		"connectionTimeout" : "ok 7/26/2019 18:50" },
 	"instance" : {
 		"close" : "js 6/14/2016 10:43",
 		"connectTo:on:" : "C.G. 7/25/2018 14:08",
@@ -10,7 +9,7 @@
 		"host:" : "js 6/7/2016 09:59",
 		"isConnected" : "js 6/7/2016 10:04",
 		"lastResponse" : "js 6/7/2016 10:08",
-		"lastResponse:" : "ok 7/26/2019 18:50",
+		"lastResponse:" : "ok 7/26/2019 21:15",
 		"nextResponse" : "C.G. 7/25/2018 14:09",
 		"port" : "js 6/7/2016 09:59",
 		"port:" : "pm 6/9/2019 16:59",

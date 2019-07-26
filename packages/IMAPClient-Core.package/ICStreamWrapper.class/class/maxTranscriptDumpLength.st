@@ -1,4 +1,0 @@
-constants
-maxTranscriptDumpLength
-
-	^ 50
