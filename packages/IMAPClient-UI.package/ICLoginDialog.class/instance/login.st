@@ -1,7 +1,5 @@
 login
 login
-
-	"create a dictionary with data and return it"
  
 	| accountInfo |
  

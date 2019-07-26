@@ -2,8 +2,7 @@ login
 login
 	
 	| accountInfo |
-	(self password = nil)
-		ifTrue: [
+	self password ifNil: [
 			self inform: 'Please put in a password'.
 			^ self].
  
@@ -15,5 +14,5 @@ login
 	
 	((ICEndPoint new) testAccountWith: accountInfo)
 		ifTrue: [
-			self folderDialogInstance addPasswordToCollection: (self data).
+			self folderDialogInstance passwordPromtCallback: (self data).
 			self window abandon]
