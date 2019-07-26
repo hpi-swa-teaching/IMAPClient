@@ -6,7 +6,7 @@ checkForParameterError
   
 	(ICParser responseIsParameterError: self stream lastResponse) ifTrue: [
 		self fatalErrorOccured: true.
-		UIManager default inform: 'Wrong username or password'.
+		self inform: 'Wrong username or password'.
 		^ true].
   
 	^ false

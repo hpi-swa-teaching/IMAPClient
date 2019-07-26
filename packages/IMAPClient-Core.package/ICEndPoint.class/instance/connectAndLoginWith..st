@@ -10,5 +10,5 @@ connectAndLoginWith: anICAccountInfo
 	onTimeout: [
 		(self fatalErrorOccured)
 			ifFalse: [
-				UIManager default inform: 'Connection could not be established'.
+				self inform: 'Connection could not be established'.
 				self fatalErrorOccured: true]]

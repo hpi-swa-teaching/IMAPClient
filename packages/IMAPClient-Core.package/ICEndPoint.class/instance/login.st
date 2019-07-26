@@ -3,7 +3,7 @@ login
 	
 	(self checkConnected) ifFalse: [
 		self fatalErrorOccured: true.
-		UIManager default inform: 'Cant connect to the server'. 
+		self inform: 'Cant connect to the server'. 
 		^ false].
   	
 	(self accountInfo isValid) ifFalse: [
