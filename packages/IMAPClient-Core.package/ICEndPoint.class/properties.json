@@ -15,7 +15,6 @@
 		"uids",
 		"hierarchyDelimiter",
 		"currentFolderName",
-		"name",
 		"fatalErrorOccured",
 		"folderNameOfTrash" ],
 	"name" : "ICEndPoint",

@@ -14,7 +14,7 @@ createEmailsWith: maildirDirectory andName: directoryName and: relativeRootFolde
 		relativeRootFolder addFolder: folder.
 		self createEmailsWith: serverDirectory andName: foldername and: folder].
 	
-	relativeRootFolder emails addAll: (serverDirectory fileNames collect: [:filename | 
+	relativeRootFolder addMails: (serverDirectory fileNames collect: [:filename | 
 		(filereader get: filename in: (maildirDirectory fullPathFor: directoryName))
 			folder: relativeRootFolder;
 			yourself ]).

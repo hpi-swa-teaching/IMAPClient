@@ -14,5 +14,5 @@ login
 		ifTrue: [
 			self loginMorph abandon.
 			(self updateMode)
-				ifFalse: [folderDialogInstance addAccount: accountInfo]
-				ifTrue: [folderDialogInstance editAccount: accountInfo with: (self endpoint)]]
+				ifFalse: [self folderDialogInstance addAccount: accountInfo]
+				ifTrue: [self folderDialogInstance editAccount: accountInfo with: (self endpoint)]]

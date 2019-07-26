@@ -1,6 +1,4 @@
 helper
 lastCharacterIsTab: aString
 
-	aString isEmpty ifTrue: [^ false].
-	
-	^ (aString last asciiValue == 9)
+	^ aString notEmpty and: [aString last asciiValue == 9]

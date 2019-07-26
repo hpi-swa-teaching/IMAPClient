@@ -1,8 +1,8 @@
 connection
-sslConnectTo: host on: port
+sslConnectTo: aHost on: aPort
 
 	| hostAddress |
 	
-	hostAddress := NetNameResolver addressForName: host.
-	self stream: (SecureSocketStream openConnectionToHost: hostAddress port: port timeout: self class connectionTimeout).
-	self stream sslConnectTo: host
+	hostAddress := NetNameResolver addressForName: aHost.
+	self stream: (SecureSocketStream openConnectionToHost: hostAddress port: aPort timeout: self class connectionTimeout).
+	self stream sslConnectTo: aHost

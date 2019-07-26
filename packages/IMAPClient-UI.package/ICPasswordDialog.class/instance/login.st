@@ -8,7 +8,7 @@ login
  
 	self data at: 'password' put: (self password asString).
 	
-	[accountInfo := ICAccountInfo newWith: data.]
+	[accountInfo := ICAccountInfo newWith: self data.]
 		on: Error
 		do: [:e | self inform: e asString. ^ self].
 	

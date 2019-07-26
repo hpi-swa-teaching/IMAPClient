@@ -1,10 +1,10 @@
 connection
-connectTo: host on: port
+connectTo: aHost on: aPort
 
 	| hostAddress |
 	
-	self useSSL ifTrue: [^ self sslConnectTo: host on: port].
+	self useSSL ifTrue: [^ self sslConnectTo: aHost on: aPort].
 	
-	hostAddress := NetNameResolver addressForName: host.
+	hostAddress := NetNameResolver addressForName: aHost.
 	self close.
-	self stream: (SocketStream openConnectionToHost: hostAddress port: port)
+	self stream: (SocketStream openConnectionToHost: hostAddress port: aPort)
