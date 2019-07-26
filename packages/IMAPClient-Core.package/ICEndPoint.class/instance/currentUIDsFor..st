@@ -7,7 +7,7 @@ currentUIDsFor: anICFolder
 	isEmpty := true.
 	
 	self lastResponse do:
-		[:line | (line find: 'EXISTS') positive
+		[:line | (line findString: 'EXISTS') positive
 			ifTrue: [isEmpty := false]].
 	
 	isEmpty

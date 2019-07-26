@@ -14,12 +14,11 @@ createEmailsWith: maildirDirectory andName: directoryName and: relativeRootFolde
 			folderName: foldername;
 			endpoint: self; 
 			yourself.
-			
 		relativeRootFolder addFolder: folder.
 		self createEmailsWith: serverDirectory andName: foldername and: folder].
 	
 	"add mails in a directory to parent folder"
-	relativeRootFolder emails addAll: (ServerDirectory filenames collect: [:filename | 
-		^ (filereader get: filename in: (maildirDirectory fullPathFor: directoryName))
+	relativeRootFolder emails addAll: (serverDirectory fileNames collect: [:filename | 
+		(filereader get: filename in: (maildirDirectory fullPathFor: directoryName))
 			folder: relativeRootFolder;
 			yourself ]).
