@@ -1,9 +1,6 @@
 fetch
 testFetchMailsBeginningAtWithFoundMails
 
-	"the uids of the mock server are 3 4 42 43 44 45 46
-	 so fetchMailsBeginningAt:42 with 2 should return mails 3+4"
-	
 	| path emailObjects mailAPath mailBPath folderName |
 		
 	emailObjects := self endPoint fetchMailsBeginningAt: 42 number: 2. 
@@ -19,7 +16,6 @@ testFetchMailsBeginningAtWithFoundMails
 		assert: (FileDirectory default fileExists: (mailAPath));	
 		assert: (FileDirectory default fileExists: (mailBPath)).
 		
-	"Delete generated files"
 	FileDirectory default
 		deleteFileNamed: mailAPath;
 		deleteFileNamed: mailBPath. 

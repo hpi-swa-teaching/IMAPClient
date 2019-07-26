@@ -1,4 +1,4 @@
-setup
+running
 tearDown
 
 	| mailAPath mailBPath path folderName |
