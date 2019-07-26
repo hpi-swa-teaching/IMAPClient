@@ -1,5 +1,5 @@
 helper
-checkIfAllFieldsFilled: anAccountInfo
+allFieldsFilled: anAccountInfo
  
 	| possiblyEmptyParameters |
  
