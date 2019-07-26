@@ -2,8 +2,7 @@ login
 login
 	
 	| accountInfo |
-	self password isNil
-		ifTrue: [
+	self password ifNil: [
 			self inform: 'Please put in a password'.
 			^ self].
  

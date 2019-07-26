@@ -13,8 +13,7 @@ changeInputField: currentIndex
 		"get text of next input field - to select it"
 		text := self perform: (correctSubmorph getTextSelector).
 		text ifNotNil:[
-			text notEmpty
-				ifTrue: [
+			text ifNotEmpty: [
 					"select text of morph"
 					correctSubmorph textMorph editor selectInterval: (1 to: (text size))]].
 		
