@@ -1,4 +1,4 @@
-setup
+running
 tearDown 
 
 	self root: nil

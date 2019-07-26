@@ -1,4 +1,4 @@
-deployment
+running
 setUp
 
-self timeout: 60.
+self timeout: 60

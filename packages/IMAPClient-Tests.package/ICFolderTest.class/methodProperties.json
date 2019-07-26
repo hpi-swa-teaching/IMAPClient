@@ -4,7 +4,7 @@
 	"instance" : {
 		"endpoint" : "ms 7/28/2016 14:10",
 		"endpoint:" : "pm 6/9/2019 17:19",
-		"exampleEmailIn:" : "C.G. 7/25/2018 18:04",
+		"exampleEmailIn:" : "mt 7/26/2019 14:51",
 		"root" : "js 6/7/2016 12:56",
 		"root:" : "pm 6/9/2019 17:19",
 		"setUp" : "C.G. 7/25/2018 18:04",
@@ -16,4 +16,4 @@
 		"testEmailInFolder" : "C.G. 7/25/2018 18:05",
 		"testRemoveFolder" : "C.G. 7/25/2018 18:04",
 		"testRemoveFolderWithFolderNotExisting" : "C.G. 7/25/2018 18:04",
-		"testRootFolderHashName" : "tg 7/25/2019 13:03" } }
+		"testRootFolderHashName" : "mt 7/26/2019 14:30" } }
