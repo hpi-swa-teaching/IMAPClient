@@ -1,4 +1,4 @@
 accessing
 username
 
-	^ username ifNil: [username := self class invalidUsername].
+	^ username ifNil: [username := self class invalidUsername]

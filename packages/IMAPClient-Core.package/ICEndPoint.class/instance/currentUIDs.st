@@ -6,7 +6,7 @@ currentUIDs
 		fetchNextResponse.
 		
 	self 
-		uids: (((self lastResponse at: 1) subStrings: ' ') asOrderedCollection 
+		uids: ((self lastResponse first subStrings: ' ') asOrderedCollection 
 		removeFirst;
 		removeFirst; 
 		yourself)

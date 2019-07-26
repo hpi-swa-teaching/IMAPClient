@@ -6,9 +6,9 @@ currentUIDsFor: anICFolder
 	self select: anICFolder path.
 	isEmpty := true.
 	
-	(self lastResponse do:
-		[:line | (line findString: 'EXISTS') > 0
-			ifTrue: [isEmpty := false]]).
+	self lastResponse do:
+		[:line | (line find: 'EXISTS') positive
+			ifTrue: [isEmpty := false]].
 	
 	isEmpty
 	ifFalse: [
@@ -16,7 +16,7 @@ currentUIDsFor: anICFolder
 			sendCommand: ICCommand allUIDs;
 			fetchNextResponse.
 		self 
-			uids: (((self lastResponse at: 1) subStrings: ' ') asOrderedCollection 
+			uids: ((self lastResponse first subStrings: ' ') asOrderedCollection 
 			removeFirst;
 			removeFirst; 
 			yourself)]
