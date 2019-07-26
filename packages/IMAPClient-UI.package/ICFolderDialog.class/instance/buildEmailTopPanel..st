@@ -1,8 +1,6 @@
 toolbuilder
 buildEmailTopPanel: builder
 
-	"This is needed, so the resize handles appear on the load older emails button"
-
 	^ builder pluggablePanelSpec new
 		wantsResizeHandles: true;
 		model: self;

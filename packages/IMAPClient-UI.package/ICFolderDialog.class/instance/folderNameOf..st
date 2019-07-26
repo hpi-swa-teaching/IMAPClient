@@ -1,8 +1,5 @@
 folder selection
 folderNameOf: folder
-
-	"folder is a child of a folder, which is not the root folder
-	 this is an easy way to indent entries"
 	
 	| levelCounter offset currentFolder |
 	
