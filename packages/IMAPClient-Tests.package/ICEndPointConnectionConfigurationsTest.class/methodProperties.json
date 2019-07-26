@@ -12,6 +12,6 @@
 		"testCheckValidConfiguration" : "pm 6/19/2019 15:03",
 		"testClearConfigurations" : "pm 6/19/2019 14:47",
 		"testLazyInit" : "pm 6/19/2019 14:47",
-		"testReferenceDeleteSecurity" : "tg 7/8/2019 15:15",
-		"testRejectInvaildConfiguration" : "pm 6/19/2019 14:47",
+		"testReferenceDeleteSecurity" : "tg 7/26/2019 20:59",
+		"testRejectInvaildConfiguration" : "tg 7/26/2019 21:00",
 		"testRemoveConfiguration" : "pm 6/19/2019 14:47" } }
