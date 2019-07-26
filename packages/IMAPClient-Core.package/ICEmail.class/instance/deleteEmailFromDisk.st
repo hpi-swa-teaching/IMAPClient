@@ -1,5 +1,5 @@
 action
 deleteEmailFromDisk
 
-	self folder emails remove: self. 
+	self folder removeMail: self. 
 	FileDirectory default deleteFileNamed: (self maildirFileName, FileDirectory slash, self uniqueID)		

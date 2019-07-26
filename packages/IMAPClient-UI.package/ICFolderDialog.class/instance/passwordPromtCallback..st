@@ -9,6 +9,6 @@ passwordPromtCallback: aDictionary
 		(account at: 'accountName') = (aDictionary at: 'accountName')].
 	self uninitializedAccounts removeAt: nextAccount.
 	
-	(uninitializedAccounts isEmpty) 
+	(self uninitializedAccounts isEmpty) 
 		ifTrue: [self accountsComplete]
 		ifFalse: [ICPasswordDialog openWith: (self uninitializedAccounts first) and: self]

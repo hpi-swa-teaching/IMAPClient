@@ -11,4 +11,3 @@ createPathRecursive: aPath and: aFileWriter
 				self createPathRecursive: 
 					(subDir allButFirst joinSeparatedBy: (FileDirectory slash)) 
 					and: (aFileWriter on: subDir first)].
-	^ self

@@ -7,7 +7,7 @@ folderNameOf: folder
 	offset := ''.
 	currentFolder := folder.
 	
-	[(currentFolder parent ~= currentFolder) and: (currentFolder parent ~= self rootFolder)] 
+	[(currentFolder parent ~= currentFolder) and: [(currentFolder parent ~= self rootFolder)]]
 		whileTrue: [
 			levelCounter := levelCounter + 1.
 			currentFolder := currentFolder parent].

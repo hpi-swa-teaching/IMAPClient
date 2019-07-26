@@ -1,11 +1,9 @@
 {
 	"class" : {
 		"defaultPort" : "ok 7/9/2019 19:05",
-		"failureLoginMessage" : "jwe 6/14/2016 23:41",
 		"inputParameterOrder" : "tg 7/25/2019 10:48",
 		"open:" : "C.G. 6/21/2018 10:56",
-		"open:with:" : "tg 7/15/2019 12:19",
-		"successLoginMessage" : "jwe 6/14/2016 23:40" },
+		"open:with:" : "tg 7/15/2019 12:19" },
 	"instance" : {
 		"accountName" : "C.G. 7/25/2018 14:21",
 		"accountName:" : "tg 7/26/2019 15:55",
@@ -41,11 +39,11 @@
 		"guiElementYSpacing" : "ms 6/14/2016 10:05",
 		"inputCollection" : "C.G. 7/25/2018 14:23",
 		"inputCollection:" : "pm 6/9/2019 17:12",
-		"insertDefaults" : "ok 7/9/2019 19:11",
+		"insertDefaults" : "tg 7/26/2019 22:07",
 		"keyEvent:" : "tg 7/26/2019 16:21",
-		"lastCharacterIsTab:" : "tg 7/26/2019 15:55",
+		"lastCharacterIsTab:" : "tg 7/26/2019 21:47",
 		"loadData:" : "tg 7/19/2019 09:56",
-		"login" : "tg 7/26/2019 16:21",
+		"login" : "tg 7/26/2019 21:41",
 		"loginMorph" : "C.G. 7/25/2018 14:24",
 		"loginMorph:" : "pm 6/9/2019 17:12",
 		"nameHelpText" : "DH 6/12/2018 22:36",

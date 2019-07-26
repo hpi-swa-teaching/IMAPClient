@@ -3,7 +3,7 @@
 		"connectionTimeout" : "ok 7/26/2019 18:50" },
 	"instance" : {
 		"close" : "js 6/14/2016 10:43",
-		"connectTo:on:" : "C.G. 7/25/2018 14:08",
+		"connectTo:on:" : "tg 7/26/2019 22:13",
 		"connectTo:on:with:" : "C.G. 7/25/2018 14:08",
 		"host" : "js 6/7/2016 09:58",
 		"host:" : "js 6/7/2016 09:59",
@@ -13,10 +13,10 @@
 		"nextResponse" : "C.G. 7/25/2018 14:09",
 		"port" : "js 6/7/2016 09:59",
 		"port:" : "pm 6/9/2019 16:59",
-		"sendCommand:" : "DH 6/26/2018 20:20",
+		"sendCommand:" : "tg 7/26/2019 21:57",
 		"ssl" : "pm 6/9/2019 13:14",
 		"ssl:" : "ms 7/12/2016 09:45",
-		"sslConnectTo:on:" : "ok 7/26/2019 18:52",
+		"sslConnectTo:on:" : "tg 7/26/2019 22:13",
 		"stream" : "pm 6/9/2019 13:14",
 		"stream:" : "js 6/7/2016 10:05",
 		"useSSL" : "ms 7/12/2016 09:45" } }

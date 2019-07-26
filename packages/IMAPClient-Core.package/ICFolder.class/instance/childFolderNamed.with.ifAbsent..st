@@ -1,10 +1,11 @@
 folder hierarchy
 childFolderNamed: childFolderName with: delimiter ifAbsent: block
+
+	| rootPart childPart child parts |
 	
 	^ self childFolders 
-		detect: [:child | child folderName = childFolderName] 
+		detect: [:subFolder | subFolder folderName = childFolderName] 
 		ifNone: [ 
-			| rootPart childPart child parts |
 			"splice at delimiter and ask child"
 			parts := childFolderName subStrings: delimiter.
 			(parts size > 1)
