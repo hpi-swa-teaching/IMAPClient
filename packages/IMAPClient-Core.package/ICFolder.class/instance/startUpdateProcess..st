@@ -6,5 +6,5 @@ startUpdateProcess: anUID
 	[anUID
 		ifNil: [self latestEmails: self class numberOfHeadersToFetchAtTheBeginning]
 		ifNotNil: [self fetchHeadersFrom: anUID]]
-	on: Error 
+	on: Error
 	do: [:e | self inform: e asString]
