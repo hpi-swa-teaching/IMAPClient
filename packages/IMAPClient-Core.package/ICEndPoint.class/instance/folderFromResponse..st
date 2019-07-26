@@ -6,7 +6,7 @@ folderFromResponse: responseLine
 	
 	namePart := (responseLine copyAfter: ICCommand protocolQuote asCharacter).
 	
-	folder := ICParser folderPathFrom: namePart.
+	folder := ICParser parseFolderPathFrom: namePart.
 	self hierarchyDelimiter: folder hierarchyDelimiter.
 	folderPath := folder pathAsArray.
 	
