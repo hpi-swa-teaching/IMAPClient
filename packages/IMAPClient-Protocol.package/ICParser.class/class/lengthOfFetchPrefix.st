@@ -1,0 +1,4 @@
+constants
+lengthOfFetchPrefix
+	
+	^ 'FETCH (' size
