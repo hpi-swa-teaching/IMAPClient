@@ -1,6 +1,6 @@
 folder hierarchy
 path
 
-	^ (self parent == self endpoint rootFolder) 
+	^ (self parent == self rootFolder) 
 		ifTrue: [ self folderName ] 
-		ifFalse: [ self parent path, self endpoint hierarchyDelimiter, self folderName]
+		ifFalse: [ self parentPath, self hierarchyDelimiter, self folderName]

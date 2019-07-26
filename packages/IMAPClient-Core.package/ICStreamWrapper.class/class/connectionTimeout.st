@@ -1,0 +1,4 @@
+constants
+connectionTimeout
+
+	^ 10

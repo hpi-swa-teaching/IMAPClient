@@ -20,6 +20,4 @@ currentUIDsFor: anICFolder
 			removeFirst;
 			removeFirst; 
 			yourself)]
-	ifTrue: [
-			Transcript show: (anICFolder folderName), ' is an empty folder!'. 
-			^ OrderedCollection new]
+	ifTrue: [^ OrderedCollection new]

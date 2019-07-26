@@ -1,4 +1,0 @@
-errors
-errorLoginFailed
-
-	^ 'authentication failed'
