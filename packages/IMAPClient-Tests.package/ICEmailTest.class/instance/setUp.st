@@ -1,8 +1,7 @@
-accessing
+running
 setUp
 
-	self 
-		email: (ICEmail new
+	self email: (ICEmail new
 		body: 'body text';
 		subject: 'subject text';
 		from: 'sender';
