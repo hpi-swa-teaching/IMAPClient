@@ -1,4 +1,4 @@
 validation
 isValid
 
-	^ self hasValidServerInfo and: self hasValidUserInfo
+	^ self hasValidServerInfo and: [self hasValidUserInfo]

@@ -3,7 +3,7 @@ parseFetchHeaders: headerLines
 
 	| folder parseResult mailCollection |
 	
-	(headerLines size = 0) ifTrue: [^ OrderedCollection new].
+	headerLines ifEmpty: [^ OrderedCollection new].
 
 	mailCollection := OrderedCollection new.
 	parseResult := ICParser parseFetchMailStream: (ReadStream on: (headerLines joinSeparatedBy: Character cr)).

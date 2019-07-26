@@ -1,4 +1,4 @@
 validation
 canConvert: aString
 	
-	^ ('"|\\' asRegex matchesIn: aString) isEmpty.
+	^ ('"|\\' asRegex matchesIn: aString) isEmpty

@@ -7,4 +7,4 @@ maildirFileName
 		FileDirectory slash, 
 		self rootFolderName, 
 		FileDirectory slash, 		
-		currentFolderName copyReplaceAll: (self hierarchyDelimiter) with: (FileDirectory slash)
+		self currentFolderName copyReplaceAll: (self hierarchyDelimiter) with: (FileDirectory slash)

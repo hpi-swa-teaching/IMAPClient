@@ -9,7 +9,7 @@ checkTopicality
 		
 	self endpoint currentUIDs.
 	
-	relevantUIDs := self endpoint uids select: [ :uid | (uid asNumber <= max) and: (uid asNumber >=min)].
+	relevantUIDs := self endpoint uids select: [ :uid | (uid asNumber <= max) and: [uid asNumber >=min]].
 
 	"search for uids, which are in storage, but not on the server --> they were moved"
 	localMails := self emails copy.
