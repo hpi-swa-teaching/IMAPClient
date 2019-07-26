@@ -9,7 +9,9 @@ login
  
 	self data at: 'password' put: (self password asString).
 	
-	[accountInfo := ICAccountInfo newWith: data.] on: Error do: [:e | self inform: e messageText. ^ self].
+	[accountInfo := ICAccountInfo newWith: data.]
+		on: Error
+		do: [:e | self inform: e asString. ^ self].
 	
 	((ICEndPoint new) testAccountWith: accountInfo)
 		ifTrue: [
