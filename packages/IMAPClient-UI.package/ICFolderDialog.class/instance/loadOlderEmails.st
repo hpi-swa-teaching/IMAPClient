@@ -1,4 +1,6 @@
 get emails
 loadOlderEmails
 
-	[self loadOlderEmailsProcess ] forkAt: Processor userBackgroundPriority
+
+	self selectedFolder ifNotNil: [
+		[self loadOlderEmailsProcess ] forkAt: Processor userBackgroundPriority]

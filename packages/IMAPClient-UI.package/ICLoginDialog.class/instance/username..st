@@ -1,8 +1,8 @@
 accessing
-username: anObject
+username: aText
 
-	(self checkIfLastCharacterIsTab: anObject string)
-		ifFalse: [username := anObject withBlanksTrimmed]
+	(self lastCharacterIsTab: aText string)
+		ifFalse: [username := aText withBlanksTrimmed]
 		ifTrue: [self changeInputField: 4].
 		
 	self changed: #username

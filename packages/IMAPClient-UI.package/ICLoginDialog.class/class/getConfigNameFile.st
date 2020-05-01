@@ -1,4 +1,0 @@
-constants
-getConfigNameFile
-
-	^ 'config.txt'

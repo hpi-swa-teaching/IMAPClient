@@ -2,7 +2,7 @@ folder selection
 userListMenu: aMenu
 
 	aMenu
-		add: 'Edit' action: [self editAccountButton: self selectedAccount];
-		add: 'Delete' action: [self deleteAccountButton: self selectedAccount].
+		add: 'Edit' action: [self editAccountButton: self selectedEndpoint];
+		add: 'Delete' action: [self deleteAccountButton: self selectedEndpoint].
 			
 	^ aMenu

@@ -1,4 +1,4 @@
-accessing
+accessing-header
 subject
 
-	^ self header at: #subject ifAbsent: self defaultSubject
+	^ self header at: #subject ifAbsent: String empty

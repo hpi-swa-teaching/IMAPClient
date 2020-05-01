@@ -3,10 +3,10 @@
 		 },
 	"instance" : {
 		"endpoint" : "ms 7/28/2016 14:10",
-		"endpoint:" : "ms 7/28/2016 14:11",
-		"exampleEmailIn:" : "C.G. 7/25/2018 18:04",
+		"endpoint:" : "pm 6/9/2019 17:19",
+		"exampleEmailIn:" : "mt 7/26/2019 15:18",
 		"root" : "js 6/7/2016 12:56",
-		"root:" : "js 6/7/2016 12:56",
+		"root:" : "pm 6/9/2019 17:19",
 		"setUp" : "C.G. 7/25/2018 18:04",
 		"tearDown" : "js 6/7/2016 12:56",
 		"testAddFolder" : "DH 7/19/2018 18:18",
@@ -15,4 +15,5 @@
 		"testCountFolders" : "C.G. 7/25/2018 18:04",
 		"testEmailInFolder" : "C.G. 7/25/2018 18:05",
 		"testRemoveFolder" : "C.G. 7/25/2018 18:04",
-		"testRemoveFolderWithFolderNotExisting" : "C.G. 7/25/2018 18:04" } }
+		"testRemoveFolderWithFolderNotExisting" : "C.G. 7/25/2018 18:04",
+		"testRootFolderHashName" : "mt 7/26/2019 14:30" } }

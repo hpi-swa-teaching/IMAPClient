@@ -2,7 +2,7 @@ login
 logout
 
 	self checkConnected.
-	self stream sendCommand: self class logoutCommand.
+	self sendCommand: ICCommand logout.
 	self
 		fetchNextResponse;
 		close.

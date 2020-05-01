@@ -5,7 +5,7 @@ testFillMessageBody
 	
 	email := ICEmail new.
 	email messageID: 42.
-	email uid: 42.
+	email uniqueID: 42.
 	
 	self endPoint fillBodyFor: email. 
 	self assert: (email body) equals: self class expectedFetchBody

@@ -9,7 +9,7 @@ fetchNextResponse
 		checkForBadRequest;
 		checkForParameterError.
 	
-	[(self stream lastResponse beginsWith: self class commandSucceeded)] 
+	[ICParser commandSucceeded: self stream lastResponse]
 		whileFalse: [ 
 			multiLineResponse add: self stream lastResponse.
 			self stream nextResponse].

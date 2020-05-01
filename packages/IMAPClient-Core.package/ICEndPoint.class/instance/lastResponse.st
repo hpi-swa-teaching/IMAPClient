@@ -1,4 +1,4 @@
 accessing
 lastResponse
 
-	^ lastResponse
+	^ lastResponse ifNil: [lastResponse := OrderedCollection new]

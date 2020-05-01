@@ -1,19 +1,14 @@
 updateEmails
 fetchHeadersFrom: anUID
-
-	"loads mails, which are newer than anUID"
 	
 	self emails addAll: (self endpoint
-		getCurrentUIDsFor: self;
+		currentUIDsFor: self;
 		maildirDiffFetchHeadersFrom: anUID).
 		
-	self emails size = 0 ifTrue: [^ self].
+	self emails ifEmpty: [^ self].
 	
-	" check if mails were moved on the server, so that we need to delete them"
 	self checkTopicality.
 	
-	" if checkTopicality deleted mails, the mails again could be empty "
-	self emails size = 0 ifTrue: [^ self].
-		
-	"update existing flags of all mails in folder"
-	self retrieveFlagsFrom: self emails last uid to: self emails first uid
+	self emails ifEmpty: [^ self].
+
+	self retrieveFlagsFrom: self emails last uniqueID to: self emails first uniqueID

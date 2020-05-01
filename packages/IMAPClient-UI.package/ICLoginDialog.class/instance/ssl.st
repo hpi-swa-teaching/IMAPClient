@@ -1,3 +1,4 @@
 accessing
 ssl
-	^ ssl
+
+	^ ssl ifNil: [ssl := true]

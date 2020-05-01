@@ -1,11 +1,6 @@
 accountManagment
-addAccount: aDataDictionary
-
-	| data |
+addAccount: anAccountInfo
 	
-	data := OrderedCollection new.
-	data add: aDataDictionary.
-	
-	ICHelper saveCredentialsIntoFile: aDataDictionary.
-	self emailAccounts add: ((ICHelper accountDictionariesToEndpoints: data) at: 1).
+	ICEndPoint addConfiguration: anAccountInfo asDictionary.
+	self emailAccounts add: (ICEndPoint new connectAndLoginWith: anAccountInfo).
 	self changed: #emailAccounts

@@ -1,0 +1,4 @@
+constants
+accountFolderHashRelevantCharacters
+
+	^ 10

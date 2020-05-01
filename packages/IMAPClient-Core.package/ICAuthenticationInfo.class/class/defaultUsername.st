@@ -1,4 +1,0 @@
-constants
-defaultUsername
-
-	^ String empty

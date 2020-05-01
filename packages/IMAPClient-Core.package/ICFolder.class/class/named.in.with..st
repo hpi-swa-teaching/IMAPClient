@@ -4,7 +4,7 @@ named: name in: parent with: endpoint
 	| newFolder |
 	
 	newFolder := (self new)
-		name: name;
+		folderName: name;
 		endpoint: endpoint.
 		
 	parent addFolder: newFolder.

@@ -1,4 +1,9 @@
 accessing
 symbolArray
-
-	^ symbolArray
+	
+	^ symbolArray ifNil: [symbolArray := {
+		#accountName.
+		#serverAddress.
+		#serverPort.
+		#username.
+		#password} as: OrderedCollection]

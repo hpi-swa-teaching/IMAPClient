@@ -1,0 +1,4 @@
+constants
+defaultStreamClass
+
+	^ SocketStream

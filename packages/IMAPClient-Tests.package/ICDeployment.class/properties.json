@@ -1,0 +1,14 @@
+{
+	"category" : "IMAPClient-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tg 7/26/2019 10:33",
+	"instvars" : [
+		 ],
+	"name" : "ICDeployment",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

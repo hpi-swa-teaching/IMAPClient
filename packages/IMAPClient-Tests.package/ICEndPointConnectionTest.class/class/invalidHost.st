@@ -1,4 +1,4 @@
 constants
 invalidHost
 
-	^ 'example.de'
+	^ 'example'

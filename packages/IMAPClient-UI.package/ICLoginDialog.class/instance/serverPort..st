@@ -1,11 +1,8 @@
 accessing
-serverPort: anObject
+serverPort: aText
 	
-	(anObject isString) 
-		ifTrue: [Transcript show: anObject].
-	
-	(self checkIfLastCharacterIsTab: anObject string)
-		ifFalse: [serverPort := anObject withBlanksTrimmed]
+	(self lastCharacterIsTab: aText string)
+		ifFalse: [serverPort := aText withBlanksTrimmed]
 		ifTrue: [self changeInputField: 3].	
 	
 	self changed: #serverPort

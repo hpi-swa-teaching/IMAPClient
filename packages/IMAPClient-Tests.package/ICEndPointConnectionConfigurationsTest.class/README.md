@@ -1,0 +1,1 @@
+This tests the ICEndPoint-ConnectionConfigurations part (aka the storage) by modifying the data and assuring it cant be modifyed otherwise.

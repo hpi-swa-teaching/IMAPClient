@@ -1,4 +1,4 @@
-fetch body
+endpoint interaction
 retrieveFlags
 
-	self folder retrieveFlagsFrom: self uid to: self uid
+	self folder retrieveFlagsFrom: self uniqueID to: self uniqueID

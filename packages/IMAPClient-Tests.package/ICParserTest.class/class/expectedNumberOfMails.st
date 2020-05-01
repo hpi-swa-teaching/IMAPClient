@@ -1,0 +1,4 @@
+constants
+expectedNumberOfMails
+
+	 ^ 1

@@ -3,7 +3,7 @@
 We proudly present our IMAP Client for Smalltalk Squeak, which we developed and improved during the summer term 2018 of the Software Engineering course.
  
 ## Installation
-1. Get [Squeak 5.1 or later](http://www.squeak.org)
+1. Get [Squeak 5.2 or later](http://www.squeak.org)
 2. Load [Metacello](https://github.com/metacello/metacello)
 3. Finally, load the package with the following command:
 
@@ -14,29 +14,11 @@ Metacello new
   load.
 ```
 
-4. Afterwards load additional changes from Squeak-trunk:
+4. Now you can setup a Menu Entry under "Apps" using `ICFolderDialog install`.
 
-We needed to use some Squeak Methods, which werent available in Squeak-5.1, so we had to update them manually.
-Please follow the following steps:
-
-1. Open Monticello Browser
-
-![](screenshots/40866916-aaf887fc-6600-11e8-9dc8-847775df210c.png)
-
-2. Select `http://source.squeak.org/trunk` on the right and press `open`
-
-![](screenshots/40867006-45090ee8-6601-11e8-8e89-9d9f6a536792.png)
-
-3. In the new window search for `Network`, select the newest commit and click `Load`
-
-![](screenshots/40867029-7fddabc8-6601-11e8-9247-7df69755c6e9.png)
-
-4. Do the Same for `Collections`
-
-![](screenshots/40867038-95f11300-6601-11e8-9ce6-70933baae984.png)
 
 ## Open
-You can open the tool with the command `ICLoginDialog open: ICFolderDialog new`
+You can open the tool with the command `ICFolderDialog new` or using a Menu Entry.
 
  ## Configuration
  You can customize the number of mails, which are fetched on the initial update process, and the number of mails which are loaded if you press the `Load older Mails` Button. Default are 100 and 10. Change `ICFolder>>numbersOfHeadersToFetch{AtLoaderOlderMail | AtTheBeginning}`
@@ -61,7 +43,7 @@ You can open the tool with the command `ICLoginDialog open: ICFolderDialog new`
   - Display emails correctly (parse different encodings)
 
 ## Usage
-Start the IMAP Client with `ICFolderDialog open`. Add new Accounts with the `+` Button. We tested the functionality with the HPI OWA Accounts. But other accounts should work fine.
+Start the IMAP Client with `ICFolderDialog new`. Add new Accounts with the `+` Button. We tested the functionality with the HPI OWA Accounts. But other accounts should work fine.
 ``` 
 Server: owa.hpi.de
 Port: 993
@@ -70,16 +52,12 @@ Password: xxxxxxx
 Use SSL: True
 ```
 
-## Safety
-You don't have to be worried about your passwords, of course we won't save them. After closing the IMAP-Client and reopening it your are welcomed by a password prompt to re-enter your credentials.
+## Security
+Your password isn't stored on disk, but visible to your Squeak environment. After closing the IMAP-Client and reopening it your are welcomed by a password prompt to re-enter your credentials.
 
-## Issue
-There are some open issues left (we wanted to give you a good starting point ;-)) - just kidding, we didn't had enough time to fix all of these, so we left some in the Issues section.
+## Documentation
 
-## Architecture
-
-  ![](screenshots/architecture.png)
-
+Hava a look at the GitHub Project Wiki to find more insights into the project.
 
 ## History
 2016: Johannes Schneider, Maximilian Söchting, Julian Weise, Alexander Riese, Alexander Loeser
@@ -87,6 +65,8 @@ There are some open issues left (we wanted to give you a good starting point ;-)
 2017: Jonathan Sauder, Marcus Ding, Melvin Witte, Daniel Lindner
 
 2018: Claudia Grabowski, Leonard Von Merzljak, Marius Walter, David Hennemann
+
+2019: Paul Methfessel, Martin Taraz, Otto Kissig, Tim Garrels, Felix Rindt
 
 ## Questions
 

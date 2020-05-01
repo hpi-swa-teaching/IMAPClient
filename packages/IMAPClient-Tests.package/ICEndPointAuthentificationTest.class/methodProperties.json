@@ -1,14 +1,20 @@
 {
 	"class" : {
 		"invalidPassword" : "jwe 6/15/2016 16:03",
+		"invalidPasswordAccountInfo" : "mt 7/26/2019 14:22",
 		"invalidUsername" : "jwe 6/15/2016 16:03",
-		"validPassword" : "jwe 6/15/2016 16:03",
-		"validUsername" : "jwe 6/15/2016 16:03" },
+		"invalidUsernameAccountInfo" : "mt 7/26/2019 14:23",
+		"validAccountInfo" : "mt 7/26/2019 14:23",
+		"validAccountName" : "tg 7/10/2019 19:43",
+		"validHost" : "tg 7/10/2019 19:43",
+		"validPassword" : "tg 4/30/2019 12:22",
+		"validPort" : "tg 7/10/2019 19:43",
+		"validUsername" : "tg 4/30/2019 12:22" },
 	"instance" : {
 		"endPoint" : "AR 5/31/2016 21:33",
-		"endPoint:" : "AR 5/31/2016 21:33",
-		"setUp" : "C.G. 7/25/2018 17:53",
+		"endPoint:" : "pm 6/9/2019 17:16",
+		"setUp" : "tg 7/10/2019 19:16",
 		"tearDown" : "js 6/7/2016 09:40",
-		"testLogin" : "jwe 7/12/2016 10:18",
-		"testLoginWithWrongPassword" : "C.G. 7/25/2018 12:54",
-		"testLoginWithWrongUsername" : "C.G. 7/25/2018 12:55" } }
+		"testLogin" : "tg 7/10/2019 18:58",
+		"testLoginWithInvalidPassword" : "tg 7/10/2019 18:59",
+		"testLoginWithInvalidUsername" : "tg 7/10/2019 18:54" } }

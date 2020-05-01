@@ -5,10 +5,6 @@ listFoldersIn: root using: filter
 		checkConnected;
 		checkLoggedIn.
 		
-	self sendCommand: (
-		{self class listCommand. 
-		self class asProtocolQuote: root. 
-		self class asProtocolQuote: filter} 
-		joinSeparatedBy: self class protocolBlank).
+	self sendCommand: (ICCommand listSubfoldersOf: root filterBy: filter).
 		
 	^ self parseListResponse

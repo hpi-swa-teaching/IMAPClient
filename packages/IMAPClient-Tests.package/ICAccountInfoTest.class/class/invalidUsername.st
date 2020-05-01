@@ -1,0 +1,4 @@
+constants
+invalidUsername
+
+	^ 'user1 " \ '

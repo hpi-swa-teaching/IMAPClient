@@ -1,14 +1,18 @@
-as yet unclassified
 login
-
-	(self password = nil)
-		ifTrue: [
-			UserDialogBoxMorph inform: 'Please put in a password' title: ''.
+login
+	
+	| accountInfo |
+	self password ifNil: [
+			self inform: 'Please put in a password'.
 			^ self].
  
-	self data at: 'password' put: (self password).
- 
-	((ICEndPoint new) testAccountWith: data)
+	self data at: 'password' put: (self password asString).
+	
+	[accountInfo := ICAccountInfo newWith: self data.]
+		on: Error
+		do: [:e | self inform: e asString. ^ self].
+	
+	((ICEndPoint new) testAccountWith: accountInfo)
 		ifTrue: [
-			self folderDialogInstance addPasswordToCollection: (self data).
+			self folderDialogInstance passwordPromtCallback: (self data).
 			self window abandon]

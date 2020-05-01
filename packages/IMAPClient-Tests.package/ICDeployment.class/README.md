@@ -1,0 +1,2 @@
+This class supports automatic releases via travis. It is not used for testing but enables automatic sar bulding.
+As the build takes longer than 5 seconds a custom timeout is set in setUp. This enforces fast builds as well

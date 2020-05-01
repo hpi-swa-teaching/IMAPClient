@@ -1,4 +1,4 @@
-login
+storage
 loadEmailsFromMaildir 
 
 	| directory directoryName |
@@ -8,11 +8,9 @@ loadEmailsFromMaildir
  		ifFalse: [directory createDirectory: 'Maildir'].
 		
   	directory := directory directoryNamed: 'Maildir'.
-  	directoryName := self getRootFolderName.
+  	directoryName := self rootFolderName.
 	
   	(directory directoryExists: directoryName)
-    		ifFalse: [
-				Transcript show: 'Maildir doesnt exist'. 
-				^ (OrderedCollection new)].
+    		ifFalse: [^ (OrderedCollection new)].
 		
   	^ self createEmailsWith: directory andName: directoryName and: (self rootFolder)

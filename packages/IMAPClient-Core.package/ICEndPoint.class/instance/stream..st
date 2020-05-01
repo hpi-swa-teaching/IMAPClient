@@ -1,4 +1,4 @@
 accessing
-stream: anObject
+stream: anICStreamWrapper
 
-	stream := anObject
+	stream := anICStreamWrapper

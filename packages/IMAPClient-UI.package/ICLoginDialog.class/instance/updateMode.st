@@ -1,4 +1,4 @@
 accessing
 updateMode
 
-	^ updateMode
+	^ updateMode ifNil: [updateMode := false]

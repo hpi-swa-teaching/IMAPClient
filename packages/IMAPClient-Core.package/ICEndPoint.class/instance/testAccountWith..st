@@ -1,6 +1,6 @@
-as yet unclassified
-testAccountWith: dataDictionary
+login
+testAccountWith: anAccountInfo
 
-	self fromDictionary: dataDictionary.
+	self connectAndLoginWith: anAccountInfo.
  
 	^ self fatalErrorOccured not

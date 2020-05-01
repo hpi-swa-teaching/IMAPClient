@@ -1,4 +1,4 @@
 accessing
 folderNameOfTrash
 
-	^ 'Trash'
+	^ folderNameOfTrash

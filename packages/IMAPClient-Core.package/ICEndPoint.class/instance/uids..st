@@ -1,4 +1,4 @@
-connection
-uids: anObject
+accessing
+uids: anOrderedCollection
 
-	uids := anObject
+	uids := anOrderedCollection

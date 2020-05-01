@@ -1,0 +1,4 @@
+constants
+invalidPassword
+
+	^ 'foo bar " \ '

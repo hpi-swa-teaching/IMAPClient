@@ -1,4 +1,4 @@
 user interface
 serverPortHelpText
 
-	^ 'server port'
+	^ 'server port (default: 993)'

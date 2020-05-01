@@ -1,4 +1,4 @@
 accessing
 header
 
-	^ header
+	^ header ifNil: [header := Dictionary new]

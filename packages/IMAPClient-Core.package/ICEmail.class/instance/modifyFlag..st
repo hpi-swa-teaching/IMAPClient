@@ -1,4 +1,4 @@
-fetch body
+endpoint interaction
 modifyFlag: aFlag
 
 	| anICEndPoint |

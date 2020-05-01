@@ -1,13 +1,12 @@
 accountManagment
 accountsComplete
 
-	"all accounts are have received their password"
-	
-	self emailAccounts: (ICHelper accountDictionariesToEndpoints: (self initializedAccounts)).
+	self emailAccounts: (self initializedAccounts collect: [:configData | 
+		ICEndPoint new connectAndLoginWith: (ICAccountInfo newWith: configData)]).
 	
 	"let all Endpoints preload their file structure and configure them to prevent timeouts"
 	self emailAccounts do: [:endpoint |
-		self getFolderWith: endpoint.
+		self folderWith: endpoint.
 		endpoint preventTimeout].
 	
 	ToolBuilder default open: self

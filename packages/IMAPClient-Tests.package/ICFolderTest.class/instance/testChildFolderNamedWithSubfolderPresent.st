@@ -1,4 +1,4 @@
-childFolderNamed
+folderNames
 testChildFolderNamedWithSubfolderPresent
 	
 	| subfolder1 subfolder2 result |

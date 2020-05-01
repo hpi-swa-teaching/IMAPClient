@@ -1,9 +1,5 @@
 accessing
-selectedEmail: anObject
+selectedEmail: anEmail
 
-	((anObject == self selectedEmail) and: anObject isNil not) 
-		ifTrue: [
-			self openEmail: anObject].
-	
-	selectedEmail := anObject.
+	selectedEmail := anEmail.
 	self changed: #selectedEmail

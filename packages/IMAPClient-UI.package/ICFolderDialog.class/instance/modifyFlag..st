@@ -1,8 +1,8 @@
 flags
 modifyFlag: aFlag
-
-	selectedEmail modifyFlag: aFlag.
-	selectedEmail retrieveFlags.
+	
+	self selectedEmail modifyFlag: aFlag.
+	self selectedEmail retrieveFlags.
 	
 	self
 		changed: #emailsOfSelectedFolder;

@@ -1,4 +1,4 @@
 accessing
-readWriter: anObject
+readWriter: anICFileReadWriter
 
-	readWriter := anObject
+	readWriter := anICFileReadWriter

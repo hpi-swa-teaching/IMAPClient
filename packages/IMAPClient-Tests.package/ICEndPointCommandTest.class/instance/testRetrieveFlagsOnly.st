@@ -6,15 +6,15 @@ testRetrieveFlagsOnly
 	"Load emails from server and store them locally"
 	
 	"To test the functionality I need ICEMails, which are already present in storage, 
-	 so I can check whether the flags are updated" 			
+	 so I can check whether the flags are updated" 
 	emailObjects := self endPoint maildirDiffFetchHeadersFrom: '3' to: '4'.
 	mailA := emailObjects first.
 	mailB := emailObjects second.
 	
 	folder := emailObjects first folder.
-	folder emails addAll: emailObjects.
+	folder addMails: emailObjects.
 	
-	folderName := ICHelper getHashNameForAccount: (self endPoint serverInfo host) and: (self endPoint authenticationInfo username).
+	folderName := self endPoint rootFolderName.
 	path := 'Maildir', FileDirectory slash, folderName, FileDirectory slash, 'inbox'.
 	mailAPath := FileDirectory default fullPathFor: path , FileDirectory slash, '3' .
 	mailBPath := FileDirectory default fullPathFor: path , FileDirectory slash, '4' .

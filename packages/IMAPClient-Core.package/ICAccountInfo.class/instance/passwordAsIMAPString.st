@@ -1,0 +1,4 @@
+accessing
+passwordAsIMAPString
+	
+	^ '"', self password, '"'

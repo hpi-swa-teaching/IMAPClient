@@ -3,21 +3,20 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"ConnectionConfigurations" ],
 	"commentStamp" : "ms 7/28/2016 11:48",
 	"instvars" : [
 		"stream",
-		"serverInfo",
+		"accountInfo",
 		"loggedIn",
-		"authenticationInfo",
 		"rootFolder",
 		"lastResponse",
 		"ssl",
 		"uids",
 		"hierarchyDelimiter",
 		"currentFolderName",
-		"name",
-		"fatalErrorOccured" ],
+		"fatalErrorOccured",
+		"folderNameOfTrash" ],
 	"name" : "ICEndPoint",
 	"pools" : [
 		 ],

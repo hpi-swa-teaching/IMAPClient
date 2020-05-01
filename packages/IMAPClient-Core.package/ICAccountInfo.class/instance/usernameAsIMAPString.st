@@ -1,0 +1,4 @@
+accessing
+usernameAsIMAPString
+
+	^ '"', self username, '"'

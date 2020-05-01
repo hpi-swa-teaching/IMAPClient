@@ -4,7 +4,7 @@ named: name in: parent
 	| newFolder |
 	
 	newFolder := self new.
-	newFolder	name: name.
+	newFolder folderName: name.
 		
 	parent addFolder: newFolder.
 	
