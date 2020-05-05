@@ -6,6 +6,7 @@ baseline: spec
         do: [ 
             spec
 		    package: 'JSON' with: [ spec file: 'JSON-ul.35'; repository: 'http://www.squeaksource.com/JSON' ];
+		    baseline: 'Widgets' with: [ spec repository: 'github://hpi-swa/widgets:master/repository'];
                 package: 'IMAPClient-Core';
 		    package: 'IMAPClient-UI';
 			package: 'IMAPClient-Protocol';
@@ -13,4 +14,4 @@ baseline: spec
             spec
                 group: 'default' with: #('IMAPClient-UI' 'IMAPClient-Core' 'IMAPClient-Protocol');
                 group: 'Tests' with: #('IMAPClient-Tests');
-		    group: 'libaries' with: #('JSON')]
+		    group: 'libaries' with: #('JSON' 'Widgets')]
