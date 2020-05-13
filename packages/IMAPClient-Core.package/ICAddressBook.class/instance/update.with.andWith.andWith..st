@@ -1,11 +1,10 @@
-accessing
+crud
 update: anAddressBookEntry with: newFirstName andWith: newLastName andWith: newEmail
 
-	| index entryToUpdate |
-	index := self entries find: anAddressBookEntry.
+	| entryToUpdate |
+	entryToUpdate := self find: anAddressBookEntry.
 	
-	entryToUpdate := self entries at: index.
-	
-	entryToUpdate firstName: newFirstName.
-	entryToUpdate lastName: newLastName.
-	entryToUpdate email: newEmail
+	entryToUpdate 
+		firstName: newFirstName;
+		lastName: newLastName;
+		email: newEmail

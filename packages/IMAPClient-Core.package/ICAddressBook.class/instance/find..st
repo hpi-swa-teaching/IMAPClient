@@ -1,5 +1,6 @@
-as yet unclassified
+crud
 find: anEntry
+
 	| index |
-	index := self entries find: anEntry.
+	index := self entries indexOf: anEntry.
 	^ self entries at: index.

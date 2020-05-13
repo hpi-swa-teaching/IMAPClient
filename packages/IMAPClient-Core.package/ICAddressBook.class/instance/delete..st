@@ -1,6 +1,5 @@
-as yet unclassified
+crud
 delete: anEntry
-	| index |
-	index := self entries find: anEntry.
-	self entries removeAt: index.
+
+	 self entries remove: anEntry
 	

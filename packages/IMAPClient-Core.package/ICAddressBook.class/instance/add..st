@@ -1,4 +1,5 @@
-as yet unclassified
+crud
 add: anEntry
+
 	self entries add: anEntry.
 	

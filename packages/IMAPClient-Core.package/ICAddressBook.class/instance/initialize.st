@@ -1,4 +1,5 @@
-as yet unclassified
 initialize
+initialize
+
 	self entries: OrderedCollection new.
 	
