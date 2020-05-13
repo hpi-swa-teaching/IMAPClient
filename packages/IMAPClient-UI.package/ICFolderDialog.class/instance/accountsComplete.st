@@ -9,4 +9,6 @@ accountsComplete
 		self folderWith: endpoint.
 		endpoint preventTimeout].
 	
+	self update.
+	
 	ToolBuilder default open: self
