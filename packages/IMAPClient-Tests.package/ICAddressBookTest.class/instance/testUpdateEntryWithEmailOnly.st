@@ -1,5 +1,6 @@
 as yet unclassified
 testUpdateEntryWithEmailOnly
+
 	| newEmail refreshedAddressBookEntry |
 	newEmail := 'maytheforce@bewith.you'.
 	
@@ -11,5 +12,5 @@ testUpdateEntryWithEmailOnly
 	
 	self assert: refreshedAddressBookEntry firstName  equals: self addressBookEntry firstName.
 	self assert: refreshedAddressBookEntry lastName  equals: self addressBookEntry lastName.
-	self assert: refreshedAddressBookEntry email  equals: newEmail.
+	self assert: refreshedAddressBookEntry email  equals: newEmail
 	

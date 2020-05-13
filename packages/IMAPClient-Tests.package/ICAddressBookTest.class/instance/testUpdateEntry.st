@@ -1,5 +1,6 @@
 as yet unclassified
 testUpdateEntry
+
 	| newFirstName newLastName newEmail refreshedAddressBookEntry |
 	newFirstName := 'Obi-Wan'.
 	newLastName := 'Kenobi'.
@@ -13,5 +14,5 @@ testUpdateEntry
 	
 	self assert: refreshedAddressBookEntry firstName  equals: newFirstName.
 	self assert: refreshedAddressBookEntry lastName  equals: newLastName.
-	self assert: refreshedAddressBookEntry email  equals: newEmail.
+	self assert: refreshedAddressBookEntry email  equals: newEmail
 	

@@ -5,4 +5,4 @@ setUp
 	
 	self addressBookEntry firstName: 'Max'.
 	self addressBookEntry lastName: 'Mustermann'.
-	self addressBookEntry email: 'maxmustermann@moin.rocks'.
+	self addressBookEntry email: 'maxmustermann@moin.rocks'

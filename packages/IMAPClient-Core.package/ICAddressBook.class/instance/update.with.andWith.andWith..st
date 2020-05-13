@@ -1,5 +1,6 @@
 accessing
 update: anAddressBookEntry with: newFirstName andWith: newLastName andWith: newEmail
+
 	| index entryToUpdate |
 	index := self entries find: anAddressBookEntry.
 	
@@ -7,4 +8,4 @@ update: anAddressBookEntry with: newFirstName andWith: newLastName andWith: newE
 	
 	entryToUpdate firstName: newFirstName.
 	entryToUpdate lastName: newLastName.
-	entryToUpdate email: newEmail.
+	entryToUpdate email: newEmail
