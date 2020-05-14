@@ -1,0 +1,14 @@
+{
+	"category" : "IMAPClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "LW 5/13/2020 11:21",
+	"instvars" : [
+		"entries" ],
+	"name" : "ICAddressBook",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

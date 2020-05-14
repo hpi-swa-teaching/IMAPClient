@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"add:" : "LW 5/13/2020 12:34",
+		"delete:" : "LW 5/13/2020 12:29",
+		"entries" : "LW 5/13/2020 12:34",
+		"entries:" : "LW 5/13/2020 12:34",
+		"find:" : "LW 5/13/2020 12:34",
+		"initialize" : "LW 5/13/2020 12:34",
+		"update:with:andWith:andWith:" : "LW 5/13/2020 12:34",
+		"update:withEmail:" : "LW 5/13/2020 11:22",
+		"update:withFirstName:" : "LW 5/13/2020 11:22",
+		"update:withLastName:" : "LW 5/13/2020 11:22" } }
