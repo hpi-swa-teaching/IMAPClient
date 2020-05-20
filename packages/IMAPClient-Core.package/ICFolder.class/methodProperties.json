@@ -10,7 +10,7 @@
 	"instance" : {
 		"accountName" : "ok 7/26/2019 19:06",
 		"addFolder:" : "js 6/7/2016 13:09",
-		"addMails:" : "tg 7/26/2019 22:00",
+		"addMails:" : "LW 5/20/2020 09:48",
 		"checkTopicality" : "fr 7/26/2019 15:57",
 		"childFolderNamed:" : "C.G. 7/25/2018 14:02",
 		"childFolderNamed:ifAbsent:" : "tg 7/19/2019 09:19",
@@ -42,6 +42,7 @@
 		"removeMail:" : "tg 7/26/2019 21:59",
 		"retrieveFlagsFrom:to:" : "fr 7/26/2019 15:37",
 		"rootFolder" : "ok 7/26/2019 19:05",
+		"sanitizeMailCollection:" : "LW 5/20/2020 09:49",
 		"startUpdateProcess:" : "tg 7/26/2019 20:33",
 		"update" : "pm 6/3/2019 18:34",
 		"update:" : "ok 7/26/2019 19:05" } }
