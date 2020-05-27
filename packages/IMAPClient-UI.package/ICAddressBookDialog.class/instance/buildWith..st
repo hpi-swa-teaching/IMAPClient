@@ -1,0 +1,12 @@
+toolbuilder
+buildWith: builder
+
+	^ builder build: (builder pluggableWindowSpec new
+			model: self;
+			label: self dialogTitle;
+			children: OrderedCollection new;
+			extent: 300 @ 200;
+			children: {
+				self buildAddressBookEntryList: builder.
+				self buildAddressBookEntryAddLine: builder.
+				self buildAddAddressBookEntryButton: builder.})

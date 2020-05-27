@@ -1,0 +1,16 @@
+{
+	"category" : "IMAPClient-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"addressBook",
+		"newEmailAddress",
+		"selectedAddressBookEntry" ],
+	"name" : "ICAddressBookDialog",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }
