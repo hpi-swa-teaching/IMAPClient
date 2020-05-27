@@ -2,6 +2,7 @@
  
 We proudly present our IMAP Client for Smalltalk Squeak, which we developed and improved during the summer term 2018 of the Software Engineering course.
  
+ 
 ## Installation
 1. Get [Squeak 5.2 or later](http://www.squeak.org)
 2. Load [Metacello](https://github.com/metacello/metacello)
