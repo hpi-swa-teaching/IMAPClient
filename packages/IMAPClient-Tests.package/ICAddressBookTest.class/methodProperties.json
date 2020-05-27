@@ -6,14 +6,11 @@
 		"addressBook:" : "LW 5/13/2020 09:54",
 		"addressBookEntry" : "LW 5/13/2020 10:25",
 		"addressBookEntry:" : "LW 5/13/2020 10:25",
-		"setUp" : "LW 5/13/2020 11:23",
+		"setUp" : "NH 5/27/2020 09:30",
 		"testAddEntry" : "LW 5/13/2020 11:23",
+		"testChangeEntry" : "NH 5/27/2020 09:31",
+		"testChangeNonExistentEntryRaisesError" : "NH 5/27/2020 09:34",
 		"testDeleteEntry" : "LW 5/13/2020 11:23",
 		"testDeleteNonExistentEntryRaisesError" : "LW 5/13/2020 11:23",
 		"testFindEntry" : "LW 5/13/2020 11:23",
-		"testFindNonExistentEntryRaisesError" : "LW 5/13/2020 12:33",
-		"testUpdateEntry" : "LW 5/13/2020 11:23",
-		"testUpdateEntryWithEmailOnly" : "LW 5/13/2020 11:23",
-		"testUpdateEntryWithFirstNameOnly" : "LW 5/13/2020 11:23",
-		"testUpdateEntryWithLastNameOnly" : "LW 5/13/2020 11:23",
-		"testUpdateNonExistentEntryRaisesError" : "LW 5/13/2020 12:35" } }
+		"testFindNonExistentEntryRaisesError" : "LW 5/13/2020 12:33" } }
