@@ -5,4 +5,4 @@ testDeleteEntry
 	
 	self addressBook delete: self addressBookEntry.
 	
-	self assert: self addressBook entries isEmpty
+	self assert: self addressBook isEmpty

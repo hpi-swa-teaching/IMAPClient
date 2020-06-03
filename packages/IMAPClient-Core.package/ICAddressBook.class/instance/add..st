@@ -1,5 +1,5 @@
 crud
 add: anEntry
 
-	self entries add: anEntry.
+	self entries addIfNotPresent: anEntry.
 	
