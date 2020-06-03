@@ -1,6 +1,8 @@
 {
 	"class" : {
-		"open" : "LW 5/27/2020 11:11" },
+		"newWith:" : "NH 6/3/2020 10:18",
+		"open" : "LW 5/27/2020 11:11",
+		"openWith:" : "NH 6/3/2020 10:18" },
 	"instance" : {
 		"addressBook" : "LW 5/27/2020 11:11",
 		"addressBook:" : "LW 5/27/2020 11:11",
@@ -15,7 +17,6 @@
 		"defaultBackgroundColor" : "LW 5/27/2020 11:11",
 		"deleteAddressBookEntry" : "LW 5/27/2020 12:30",
 		"dialogTitle" : "LW 5/27/2020 11:10",
-		"initialize" : "NH 6/3/2020 10:11",
 		"labelForAddressBookEntry:" : "LW 5/27/2020 11:30",
 		"labelForDeletionAction:" : "LW 5/27/2020 12:27",
 		"newEmailAddress" : "LW 5/27/2020 12:07",
