@@ -1,5 +1,5 @@
 toolbuilder
-buildEmailButton: builder
+buildUpdateButton: builder
 
 	^ builder pluggableButtonSpec new
 		model: self;
