@@ -3,4 +3,4 @@ moveEmail: aFolder
 
 	self selectedEmail moveEmail: aFolder.
 	self selectedEmail: nil.
-	self triggerEmailChanges.
+	self triggerEmailChanges

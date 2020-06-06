@@ -7,8 +7,7 @@ editAccount: anAccountInfo with: anEndPoint
 	ICEndPoint addConfiguration: anAccountInfo asDictionary.
 	
 	self emailAccounts add: (ICEndPoint new connectAndLoginWith: anAccountInfo).
-	self selectedFolder: nil.
-	self rootFolder: nil.
-	
+	self 
+		selectedFolder: nil;
+		rootFolder: nil.
 	self triggerEmailChanges.
-	self changed: #selectedFolder.
