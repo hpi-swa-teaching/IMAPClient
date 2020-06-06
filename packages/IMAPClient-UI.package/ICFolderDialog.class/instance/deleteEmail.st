@@ -8,7 +8,4 @@ deleteEmail
 		ifFalse: [self selectedEmail deleteEmail].
 		
 	self selectedEmail: nil.
-	self
-		changed: #emailsOfSelectedFolder;
-		changed: #childFolders;
-		changed: #emailAccounts
+	self triggerEmailChanges
