@@ -2,5 +2,5 @@ crud
 find: anEntry
 
 	| index |
-	index := self entries indexOf: anEntry.
-	^ self entries at: index.
+	index := self indexOf: anEntry.
+	^ self at: index.

@@ -1,7 +1,7 @@
 as yet unclassified
 testAddEntry
 
-	self addressBook add: self emailAddress.
+	self addressBook addEmail: self emailAddress.
 	
 	self assert: self addressBook size equals: 1
 	

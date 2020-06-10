@@ -4,7 +4,7 @@ testChangeEntry
 	| newEmail |
 	newEmail := 'maytheforce@bewith.you'.
 	
-	self addressBook add: self emailAddress.
+	self addressBook addEmail: self emailAddress.
 	
 	self addressBook change: self emailAddress with: newEmail.
 	

@@ -1,10 +1,9 @@
 crud
-change: anAddressBookEntry with: newEmail
+change: anOldEmailString with: newEmailString
 
 	| entryToUpdate |
 	
-	entryToUpdate := self find: anAddressBookEntry.
+	entryToUpdate := self find: anOldEmailString.
 	
-	self delete: entryToUpdate.
-	entryToUpdate email: newEmail.
-	self add: entryToUpdate.
+	self remove: entryToUpdate.
+	self addEmail: newEmailString.

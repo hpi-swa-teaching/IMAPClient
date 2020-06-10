@@ -1,8 +1,8 @@
 as yet unclassified
 testDeleteEntry
 
-	self addressBook add: self addressBookEntry.
+	self addressBook addEmail: self emailAddress.
 	
-	self addressBook delete: self addressBookEntry.
+	self addressBook remove: self emailAddress.
 	
 	self assert: self addressBook isEmpty
