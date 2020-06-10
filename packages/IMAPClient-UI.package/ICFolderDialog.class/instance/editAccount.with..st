@@ -1,7 +1,7 @@
 accountManagment
 editAccount: anAccountInfo with: anEndPoint
 	
-	ICEndPoint removeConfiguration: anEndPoint.
+	ICEndPoint removeConfiguration: anEndPoint accountInfo asDictionary.
 	self emailAccounts remove: anEndPoint.
 	
 	ICEndPoint addConfiguration: anAccountInfo asDictionary.
