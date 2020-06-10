@@ -8,6 +8,7 @@ buildFolderTree: builder
 		getSelected: #selectedFolder;
 		getChildren: #subFoldersOf:;
 		label: #labelForFolder:;
+		menu: #folderTreeMenu:;
 		autoDeselect: false;
 		frame: (0 @ 0.15 corner: 1 @ 1);
 		columns: {
