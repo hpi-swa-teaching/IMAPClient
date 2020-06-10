@@ -1,14 +1,13 @@
 as yet unclassified
 testChangeEntryToBeDuplicated
 
-	| newAddressBookEntry newEmailAddress initialSize |
+	| newEmailAddress initialSize |
 	newEmailAddress := 'maytheforce@bewith.you'.
-	newAddressBookEntry := ICAddressBookEntry newWith: newEmailAddress.
 	
-	self addressBook add: self addressBookEntry.
-	self addressBook add: newAddressBookEntry.
+	self addressBook add: self emailAddress.
+	self addressBook add: newEmailAddress.
 	initialSize := self addressBook size.
 	
-	self addressBook change: newAddressBookEntry with: self addressBookEntry email.
+	self addressBook change: newEmailAddress with: self emailAddress.
 	self assert: self addressBook size equals: initialSize - 1.
 	

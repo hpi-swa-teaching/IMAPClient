@@ -1,7 +1,7 @@
 as yet unclassified
 testFindEntry
 
-	self addressBook add: self addressBookEntry.
+	self addressBook add: self emailAddress.
 	
-	self assert: (self addressBook find: self addressBookEntry) equals: self addressBookEntry
+	self assert: (self addressBook find: self emailAddress) equals: self emailAddress
 	

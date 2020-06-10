@@ -1,14 +1,12 @@
 as yet unclassified
 testChangeEntry
 
-	| newEmail refreshedAddressBookEntry |
+	| newEmail |
 	newEmail := 'maytheforce@bewith.you'.
 	
-	self addressBook add: self addressBookEntry.
+	self addressBook add: self emailAddress.
 	
-	self addressBook change: self addressBookEntry with: newEmail.
+	self addressBook change: self emailAddress with: newEmail.
 	
-	refreshedAddressBookEntry := self addressBook find: self addressBookEntry.
-	
-	self assert: refreshedAddressBookEntry email  equals: newEmail
+	self assert: (self addressBook includes: newEmail) equals: true
 	

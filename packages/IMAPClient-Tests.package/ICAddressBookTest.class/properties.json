@@ -7,7 +7,7 @@
 	"commentStamp" : "NH 5/27/2020 09:30",
 	"instvars" : [
 		"addressBook",
-		"addressBookEntry" ],
+		"emailAddress" ],
 	"name" : "ICAddressBookTest",
 	"pools" : [
 		 ],
