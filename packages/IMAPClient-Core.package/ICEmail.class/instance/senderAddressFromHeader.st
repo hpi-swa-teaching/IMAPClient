@@ -1,4 +1,7 @@
 accessing-header
 senderAddressFromHeader
+
+	| emailAddress |
+	emailAddress := (MailAddressParser addressesIn: self from) at: 1.
 	
-	^ self from squeakToUtf8 splitBy:  '<'
+	^ emailAddress

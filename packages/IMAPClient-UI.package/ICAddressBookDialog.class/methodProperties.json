@@ -1,8 +1,6 @@
 {
 	"class" : {
-		"newWith:" : "NH 6/3/2020 10:18",
-		"open" : "LW 5/27/2020 11:11",
-		"openWith:" : "LW 6/10/2020 11:38" },
+		"openWith:" : "LW 6/10/2020 13:21" },
 	"instance" : {
 		"addressBook" : "LW 5/27/2020 11:11",
 		"addressBook:" : "LW 5/27/2020 11:11",
@@ -18,8 +16,7 @@
 		"dialogTitle" : "LW 5/27/2020 11:10",
 		"emailAccounts" : "LW 6/10/2020 11:20",
 		"emailAccounts:" : "LW 6/10/2020 11:20",
-		"feedMeWithEntries" : "LW 6/10/2020 11:33",
-		"initialize" : "LW 6/10/2020 11:34",
+		"initializeMailEmailAddresses" : "LW 6/10/2020 13:20",
 		"labelForAddressBookEntry:" : "LW 6/10/2020 10:51",
 		"labelForDeletionAction:" : "LW 5/27/2020 12:27",
 		"newEmailAddress" : "LW 5/27/2020 12:07",
