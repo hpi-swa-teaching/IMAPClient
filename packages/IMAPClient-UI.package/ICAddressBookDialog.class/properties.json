@@ -8,7 +8,8 @@
 	"instvars" : [
 		"addressBook",
 		"newEmailAddress",
-		"selectedAddressBookEntry" ],
+		"selectedAddressBookEntry",
+		"emailAccounts" ],
 	"name" : "ICAddressBookDialog",
 	"pools" : [
 		 ],

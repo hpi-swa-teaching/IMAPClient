@@ -1,4 +1,7 @@
 instance creation
-openWith: anAddressBook
-
-	^ ToolBuilder default open: (self newWith: anAddressBook)
+openWith: anEmailAccountCollection
+	
+	^ ToolBuilder default open: (self basicNew
+		emailAccounts: anEmailAccountCollection;
+		initialize;
+		yourself)

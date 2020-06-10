@@ -1,4 +1,4 @@
 accountManagment
 openAddressBook
 
-	ICAddressBookDialog open
+	ICAddressBookDialog openWith: self emailAccounts
