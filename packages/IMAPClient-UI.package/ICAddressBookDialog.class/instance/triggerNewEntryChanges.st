@@ -1,7 +1,7 @@
 helper
-updateUiAfterAddingNewEntry
+triggerNewEntryChanges
 	
 	self 
 		newEmailAddress: '';
 		changed: #newEmailAddress;
-		changed: #addressBookEntries
+		changed: #addressBook

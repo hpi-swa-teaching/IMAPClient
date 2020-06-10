@@ -1,4 +1,4 @@
 toolbuilder
-labelForAddressBookEntry: anAddressBookEntry
+labelForAddressBookEntry: aEmailAddress
 	
-	^ anAddressBookEntry email
+	^ aEmailAddress

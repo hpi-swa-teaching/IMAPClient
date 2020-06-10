@@ -4,7 +4,7 @@ buildAddressBookEntryList: builder
 	^ builder pluggableTreeSpec new
 			model: self;
 			label: #labelForAddressBookEntry:;
-			roots: #addressBookEntries;
+			roots: #addressBook;
 			hScrollBarPolicy: #always;
 			vScrollBarPolicy: #always;
 			setSelected: #selectedAddressBookEntry:;
