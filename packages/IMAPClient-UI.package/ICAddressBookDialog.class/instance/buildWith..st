@@ -5,7 +5,7 @@ buildWith: builder
 			model: self;
 			label: self dialogTitle;
 			children: OrderedCollection new;
-			extent: 300 @ 200;
+			extent: 350 @ 200;
 			children: {
 				self buildAddressBookEntryList: builder.
 				self buildAddressBookEntryAddLine: builder.
