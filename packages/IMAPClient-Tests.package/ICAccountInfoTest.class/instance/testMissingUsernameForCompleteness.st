@@ -1,6 +1,6 @@
 testing
 testMissingUsernameForCompleteness
 
-	self accountInfo username: nil.
-	self assert: self accountInfo isComplete not.
+	self accountInfo username: ''.
+	self assert: (self accountInfo missingFields contains: [:key | key = 'username'])
 	

@@ -1,6 +1,6 @@
 testing
 testMissingPortForCompleteness
 
-	self accountInfo port: nil.
-	self assert: self accountInfo isComplete not.
+	self accountInfo port: ''.
+	self assert: (self accountInfo missingFields contains: [:key | key = 'port'])
 	

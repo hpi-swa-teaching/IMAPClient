@@ -1,6 +1,6 @@
 testing
 testMissingPasswordForCompleteness
 
-	self accountInfo password: nil.
-	self assert: self accountInfo isComplete not.
+	self accountInfo password: ''.
+	self assert: (self accountInfo missingFields contains: [:key | key = 'password'])
 	

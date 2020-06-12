@@ -1,6 +1,6 @@
 testing
 testMissingHostForCompleteness
 
-	self accountInfo host: nil.
-	self assert: self accountInfo isComplete not.
+	self accountInfo host: ''.
+	self assert: (self accountInfo missingFields contains: [:key | key = 'address'])
 	

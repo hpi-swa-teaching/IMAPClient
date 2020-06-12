@@ -1,5 +1,5 @@
 testing
 testNoMissingFieldsForCompleteness
 
-	self assert: self accountInfo isComplete.
+	self assert: self accountInfo missingFields isEmpty
 	
