@@ -13,7 +13,6 @@
 		"serverAddress",
 		"ssl",
 		"inputCollection",
-		"symbolArray",
 		"loginMorph",
 		"folderDialogInstance",
 		"updateMode",
