@@ -1,8 +1,8 @@
 accountManagment
-deleteAccountButton: anICEndpoint
+deleteAccountButton: anEndpoint
 
-	ICEndPoint removeConfiguration: (anICEndpoint accountInfo asDictionary).
-	self emailAccounts remove: anICEndpoint.
+	ICEndPoint removeConfiguration: anEndpoint accountInfo asDictionary.
+	self emailAccounts remove: anEndpoint.
 	
 	self selectedFolder: nil.
 	self rootFolder: nil.
