@@ -4,7 +4,7 @@ addressBookEntriesMenu: aMenu
 	self selectedAddressBookEntry ifNil: [^ aMenu ].
 	
 	aMenu
-		add: (self labelForDeletionAction: self selectedAddressBookEntry)
+		add: (self labelForDeletionAction)
 				action: #deleteAddressBookEntry.
 				
 	^ aMenu

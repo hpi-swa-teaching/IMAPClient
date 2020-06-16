@@ -1,5 +1,5 @@
 initialize
-readSubfoldersMailsFrom: anEmailAccount
+readChildFoldersMailsFrom: anEmailAccount
 
 	anEmailAccount rootFolder recursiveChildFolders do: [:childFolder |
 			childFolder emails do: [:childFolderEmail | 

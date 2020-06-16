@@ -1,8 +1,8 @@
 crud
-change: anOldEmailString with: newEmailString
+change: anOldEmailString with: aNewEmailString
 
 	| entryToUpdate |
 	entryToUpdate := self find: anOldEmailString.
 	
 	self remove: entryToUpdate.
-	self addEmail: newEmailString.
+	self addEmail: aNewEmailString

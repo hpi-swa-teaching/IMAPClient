@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addEmail:" : "hg 6/10/2020 10:26",
-		"change:with:" : "LW 6/10/2020 13:18",
-		"feedMeWithEntries:" : "LW 6/10/2020 13:32",
-		"find:" : "hg 6/10/2020 10:16",
-		"readRootFoldersMailsFrom:" : "LW 6/10/2020 13:32",
-		"readSubfoldersMailsFrom:" : "LW 6/10/2020 13:32" } }
+		"addEmail:" : "LW 6/16/2020 09:51",
+		"change:with:" : "LW 6/16/2020 09:51",
+		"feedMeWithEntries:" : "LW 6/16/2020 09:51",
+		"find:" : "LW 6/16/2020 09:51",
+		"readChildFoldersMailsFrom:" : "LW 6/16/2020 09:50",
+		"readRootFoldersMailsFrom:" : "LW 6/10/2020 13:32" } }
