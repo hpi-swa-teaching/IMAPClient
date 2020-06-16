@@ -1,0 +1,4 @@
+toolbuilder
+dialogTitle
+
+	^ 'Address Book'

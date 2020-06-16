@@ -1,0 +1,1 @@
+An ICAddressBookDialog is a toolbuilder-based UI for displaying the contents of the user's address book.

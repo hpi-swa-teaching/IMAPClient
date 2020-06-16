@@ -1,0 +1,28 @@
+{
+	"class" : {
+		"openWith:" : "LW 6/10/2020 13:21" },
+	"instance" : {
+		"addressBook" : "LW 5/27/2020 11:11",
+		"addressBook:" : "LW 5/27/2020 11:11",
+		"addressBookEntriesMenu:" : "LW 6/10/2020 10:51",
+		"addressBookEntryHelp" : "LW 5/27/2020 11:43",
+		"buildAddAddressBookEntryButton:" : "LW 6/10/2020 13:51",
+		"buildAddressBookEntryAddLine:" : "NH 6/3/2020 10:05",
+		"buildAddressBookEntryList:" : "LW 6/10/2020 10:49",
+		"buildWith:" : "LW 6/10/2020 13:37",
+		"createAddressBookEntry" : "LW 6/10/2020 11:33",
+		"defaultBackgroundColor" : "LW 5/27/2020 11:11",
+		"deleteAddressBookEntry" : "LW 6/10/2020 10:49",
+		"dialogTitle" : "LW 5/27/2020 11:10",
+		"emailAccounts" : "LW 6/10/2020 11:20",
+		"emailAccounts:" : "LW 6/10/2020 11:20",
+		"initializeMailEmailAddresses" : "LW 6/10/2020 13:20",
+		"labelForAddressBookEntry:" : "LW 6/10/2020 10:51",
+		"labelForDeletionAction:" : "LW 5/27/2020 12:27",
+		"newEmailAddress" : "LW 5/27/2020 12:07",
+		"newEmailAddress:" : "LW 5/27/2020 12:10",
+		"sanitizeInput:" : "NH 6/3/2020 10:13",
+		"selectedAddressBookEntry" : "LW 5/27/2020 12:22",
+		"selectedAddressBookEntry:" : "LW 5/27/2020 12:32",
+		"triggerNewEntryChanges" : "LW 6/10/2020 10:50",
+		"updateNewEmailAddress:" : "NH 6/3/2020 10:05" } }

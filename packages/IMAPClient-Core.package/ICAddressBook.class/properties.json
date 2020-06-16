@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "LW 5/13/2020 11:21",
+	"commentStamp" : "hg 6/10/2020 10:36",
 	"instvars" : [
-		"entries" ],
+		 ],
 	"name" : "ICAddressBook",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "OrderedCollection",
 	"type" : "normal" }

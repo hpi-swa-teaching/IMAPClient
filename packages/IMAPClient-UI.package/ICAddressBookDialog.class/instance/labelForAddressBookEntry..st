@@ -1,0 +1,4 @@
+toolbuilder
+labelForAddressBookEntry: aEmailAddress
+	
+	^ aEmailAddress
