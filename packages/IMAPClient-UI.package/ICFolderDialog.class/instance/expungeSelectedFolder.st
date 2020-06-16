@@ -1,9 +1,10 @@
 email selection
-deleteEmail
-	
-	self selectedEmail deleteEmail.
+expungeSelectedFolder
+
+	self selectedFolder
+		expungeEmails;
+		update.
 		
-	self selectedEmail: nil.
 	self
 		changed: #emailsOfSelectedFolder;
 		changed: #childFolders;
