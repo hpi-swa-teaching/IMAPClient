@@ -10,5 +10,4 @@ editAccount: anAccountInfo with: anEndPoint
 	self selectedFolder: nil.
 	self rootFolder: nil.
 	
-	self triggerBasicChanges.
-	self changed: #emailAccounts.
+	self triggerEmailChanges

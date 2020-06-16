@@ -8,6 +8,6 @@ buildNavigationPanel: builder
 		children: {
 			self buildAddAccountButton: builder.
 			self buildOpenAddressBookButton: builder.
-			self buildEmailButton: builder.
+			self buildUpdateButton: builder.
 			self buildUserList: builder.
 			self buildFolderTree: builder}

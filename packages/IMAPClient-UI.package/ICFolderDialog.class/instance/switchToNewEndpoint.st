@@ -8,5 +8,6 @@ switchToNewEndpoint
 	self rootFolder: self selectedEndpoint rootFolder.
 	self selectedFolder: nil.
 	
-	self triggerBasicChanges.
-	self changed: #selectedEndpoint
+	self 
+		changed: #childFolders;
+		changed: #emailOfSelectedFolder.
