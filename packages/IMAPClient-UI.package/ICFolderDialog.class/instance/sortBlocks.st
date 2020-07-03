@@ -1,4 +1,4 @@
-instance creation
+sorting
 sortBlocks
 	
 	^ Dictionary withAll: {
