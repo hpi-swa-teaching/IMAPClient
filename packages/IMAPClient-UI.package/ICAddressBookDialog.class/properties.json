@@ -7,7 +7,6 @@
 	"commentStamp" : "LW 6/10/2020 13:22",
 	"instvars" : [
 		"addressBook",
-		"newEmailAddress",
 		"selectedAddressBookEntry",
 		"emailAccounts" ],
 	"name" : "ICAddressBookDialog",
