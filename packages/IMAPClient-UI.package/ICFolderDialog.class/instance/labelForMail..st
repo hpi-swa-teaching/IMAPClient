@@ -1,13 +1,11 @@
 email selection
 labelForMail: anICEmail
 
-	| subject |
-	
-	subject := anICEmail subject ifEmpty: [ICEmailDialog defaultSubject].
-	
-	^	((anICEmail flagged) ifTrue: '*' ifFalse: ' '),
+	^	((anICEmail flagged) 
+			ifTrue: '*' 
+			ifFalse: ' '),
 		Character tab, 
-		(subject truncateTo: 80),
+		((anICEmail subject ifEmpty: [ICEmailDialog defaultSubject]) truncateTo: 80),
 		Character tab,
 		anICEmail sender,
 		Character tab,

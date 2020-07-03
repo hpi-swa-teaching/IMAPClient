@@ -1,3 +1,3 @@
-toolbuilder
+sorting
 sortEmailsByDate
 	self sortEmailsBy: #date

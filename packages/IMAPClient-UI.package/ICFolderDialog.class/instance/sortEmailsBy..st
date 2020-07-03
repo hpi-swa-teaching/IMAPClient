@@ -1,4 +1,4 @@
-toolbuilder
+sorting
 sortEmailsBy: aSymbol
 	(self sortMethod = aSymbol)
 		ifTrue: [self toggleReverseMails]
