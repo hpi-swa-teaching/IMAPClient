@@ -16,7 +16,9 @@
 		"numberOfFetchedFolders",
 		"numberOfFolders",
 		"filterString",
-		"searchResultsString" ],
+		"searchResultsString",
+		"sortMethod",
+		"reverseMails" ],
 	"name" : "ICFolderDialog",
 	"pools" : [
 		 ],
