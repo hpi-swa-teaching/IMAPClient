@@ -5,6 +5,10 @@
 		"createHeaderFrom:" : "pm 6/3/2019 18:34",
 		"createJsonHeaderFrom:" : "C.G. 7/25/2018 14:00",
 		"createPathRecursive:and:" : "tg 7/26/2019 21:50",
-		"get:in:" : "pm 6/2/2019 15:58",
+		"delete:in:" : "hg 7/15/2020 19:17",
+		"get:in:" : "hg 7/15/2020 20:18",
+		"readEmailsFor:From:in:" : "hg 7/15/2020 20:16",
+		"readEmailsFromDiskWith:" : "hg 7/15/2020 20:31",
 		"recipientsFrom:" : "fr 7/26/2019 15:34",
+		"recursivelyReadFolderStructureWith:and:and:and:" : "hg 7/15/2020 20:19",
 		"write:in:as:" : "pm 6/2/2019 16:11" } }
