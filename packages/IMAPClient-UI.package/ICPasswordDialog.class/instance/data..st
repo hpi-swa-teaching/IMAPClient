@@ -1,4 +1,4 @@
 accessing
-data: aDictionary
+data: anAccountInfo
 
-	data := aDictionary
+	data := anAccountInfo

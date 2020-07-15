@@ -1,9 +1,9 @@
 accessing
-loadData: dataDictionary
+loadData: anAccountInfo
 
-    self accountName: (dataDictionary at: 'accountName').
-    self serverAddress: (dataDictionary at: 'address').
-    self serverPort: (dataDictionary at: 'port') asString.
-    self username: (dataDictionary at: 'username').
-    self password: (dataDictionary at: 'password').
-    self ssl: (dataDictionary at: 'ssl')
+    self accountName: (anAccountInfo accountName).
+    self serverAddress: (anAccountInfo host).
+    self serverPort: (anAccountInfo port) asString.
+    self username: (anAccountInfo username).
+    self password: (anAccountInfo password).
+    self ssl: (anAccountInfo ssl)
