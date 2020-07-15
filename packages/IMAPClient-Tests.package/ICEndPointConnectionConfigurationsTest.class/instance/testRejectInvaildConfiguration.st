@@ -5,7 +5,7 @@ testRejectInvaildConfiguration
 		raise: Error
 		description: self class invalidDataDictionaryErrorMessage.
 	self should: [ICEndPoint addConfiguration: 
-			self class defaultInvalidKeysConfigurationDictionary ] 
+			self class defaultInvalidAccountInfo ] 
 		raise: Error
 		description: self class invalidDataDictionaryErrorMessage
 	

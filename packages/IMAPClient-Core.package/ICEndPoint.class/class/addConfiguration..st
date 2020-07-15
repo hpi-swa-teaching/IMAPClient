@@ -1,5 +1,5 @@
 storage
-addConfiguration: aDictionary
+addConfiguration: anAccountInfo
 	
-	(self checkValidConfiguration: aDictionary) ifFalse: [self error: 'Not a valid dataDictionary'].
-	self basicConnectionConfigurations add: aDictionary
+	(anAccountInfo isValid) ifFalse: [self error: 'Not a valid AccountInfo'].
+	self basicConnectionConfigurations add: anAccountInfo
