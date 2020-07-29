@@ -8,6 +8,8 @@ readEmailsSmartFromDiskWith: anEndpoint
  		ifFalse: [directory createDirectory: 'Maildir'].
 	rootDirectory := (directory directoryNamed: 'Maildir') directoryNamed: anEndpoint rootDirectoryName.
   	rootDirectory 
-		withAllFilesDo: [:test |] 
+		withAllFilesDo: [:file | | currentFolder | 
+			currentFolder := directoryToFolderDictionary at: file directory pathName.
+			currentFolder addMails: {(self readMailFromStream: file) folder: currentFolder; yourself}]
 		andDirectoriesDo: 
 			(self directoryVisitorWith: anEndpoint rootFolder and: rootDirectory and: anEndpoint)

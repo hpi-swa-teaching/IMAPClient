@@ -1,6 +1,6 @@
 read file
 directoryVisitorWith: rootFolder and: rootDirectory and: anEndpoint
-	| directoryToFolderDictionary |
+
 	directoryToFolderDictionary := Dictionary newFrom: {rootDirectory pathName -> rootFolder}.
 	
 	^ [:directory | | parentFolder currentFolder |
