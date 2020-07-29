@@ -2,7 +2,7 @@
 	"class" : {
 		"newWith:" : "hg 7/29/2020 13:55" },
 	"instance" : {
-		"delete:in:" : "hg 7/15/2020 19:17",
+		"delete:" : "hg 7/29/2020 15:32",
 		"directoryToFolderDictionary" : "hg 7/29/2020 14:08",
 		"directoryToFolderDictionary:" : "hg 7/29/2020 13:58",
 		"directoryVisitor" : "hg 7/29/2020 14:18",
