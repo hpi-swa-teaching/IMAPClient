@@ -3,4 +3,8 @@ fileVisitor
 
 	 ^ [:file | | currentFolder | 
 			currentFolder := self directoryToFolderDictionary at: file directory.
-			currentFolder addMails: {(self readMailFromStream: file) folder: currentFolder; yourself}]
+			currentFolder addMails: {
+				(self readMailFromStream: file) 
+					folder: currentFolder; 
+					yourself}.
+			file close]

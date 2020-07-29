@@ -3,14 +3,14 @@
 		"newWith:" : "hg 7/29/2020 13:55" },
 	"instance" : {
 		"delete:" : "hg 7/29/2020 15:32",
-		"directoryToFolderDictionary" : "hg 7/29/2020 14:08",
+		"directoryToFolderDictionary" : "hg 7/29/2020 15:35",
 		"directoryToFolderDictionary:" : "hg 7/29/2020 13:58",
 		"directoryVisitor" : "hg 7/29/2020 14:18",
 		"endpoint" : "hg 7/29/2020 14:09",
 		"endpoint:" : "hg 7/29/2020 14:09",
-		"fileVisitor" : "hg 7/29/2020 14:20",
+		"fileVisitor" : "hg 7/29/2020 15:47",
 		"readEmailsFromDisk" : "hg 7/29/2020 14:19",
 		"readMailFromStream:" : "hg 7/29/2020 15:07",
 		"recipientsFrom:" : "fr 7/26/2019 15:34",
 		"rootDirectory" : "hg 7/29/2020 13:56",
-		"write:" : "hg 7/29/2020 14:52" } }
+		"write:" : "hg 7/29/2020 15:49" } }
