@@ -18,6 +18,6 @@ login
 		self fatalErrorOccured: true.
 		^ false].
  
-	ICFileReadWriter new readEmailsFromDiskWith: self.
+	ICFileReadWriter new readEmailsSmartFromDiskWith: self.
  
 	^ true

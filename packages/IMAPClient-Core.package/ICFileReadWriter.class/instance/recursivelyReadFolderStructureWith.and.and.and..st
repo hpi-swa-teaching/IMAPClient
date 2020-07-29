@@ -1,4 +1,4 @@
-read file
+private
 recursivelyReadFolderStructureWith: maildirDirectory and: directoryName and: currentFolder and: anEndpoint
 	
 	| currentDirectory childFolder currentPath |
@@ -14,4 +14,4 @@ recursivelyReadFolderStructureWith: maildirDirectory and: directoryName and: cur
 		currentFolder addFolder: childFolder.
 		self recursivelyReadFolderStructureWith: currentDirectory and: foldername and: childFolder and: anEndpoint].
 	
-	self readEmailsFor: currentFolder From: currentPath in: currentDirectory
+	self readEmailsFor: currentFolder From: currentPath In: currentDirectory

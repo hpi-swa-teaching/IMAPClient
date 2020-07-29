@@ -7,7 +7,7 @@ readEmailsFromDiskWith: anEndpoint
  	(directory directoryExists: 'Maildir')
  		ifFalse: [directory createDirectory: 'Maildir'].
 	
-  	((directory directoryNamed: 'Maildir') directoryExists: anEndpoint rootFolderName)
+  	((directory directoryNamed: 'Maildir') directoryExists: anEndpoint rootDirectoryName)
     		ifFalse: [^ (OrderedCollection new)].
-	
-	self recursivelyReadFolderStructureWith: directory and: anEndpoint rootFolderName and: anEndpoint rootFolder and: anEndpoint
+		
+	self recursivelyReadFolderStructureWith: directory and: anEndpoint rootDirectoryName and: anEndpoint rootFolder and: anEndpoint

@@ -14,7 +14,7 @@ testRetrieveFlagsOnly
 	folder := emailObjects first folder.
 	folder addMails: emailObjects.
 	
-	folderName := self endPoint rootFolderName.
+	folderName := self endPoint rootDirectoryName.
 	path := 'Maildir', FileDirectory slash, folderName, FileDirectory slash, 'inbox'.
 	mailAPath := FileDirectory default fullPathFor: path , FileDirectory slash, '3' .
 	mailBPath := FileDirectory default fullPathFor: path , FileDirectory slash, '4' .

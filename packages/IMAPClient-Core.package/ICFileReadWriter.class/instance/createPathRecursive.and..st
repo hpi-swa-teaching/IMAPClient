@@ -1,4 +1,4 @@
-write file
+private
 createPathRecursive: aPath and: aFileWriter
 
 	| subDir |
