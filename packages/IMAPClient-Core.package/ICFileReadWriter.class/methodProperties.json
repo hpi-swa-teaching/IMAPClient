@@ -2,9 +2,6 @@
 	"class" : {
 		"newWith:" : "hg 7/29/2020 13:55" },
 	"instance" : {
-		"createHeaderFrom:" : "pm 6/3/2019 18:34",
-		"createJsonHeaderFrom:" : "C.G. 7/25/2018 14:00",
-		"createPathRecursive:and:" : "tg 7/26/2019 21:50",
 		"delete:in:" : "hg 7/15/2020 19:17",
 		"directoryToFolderDictionary" : "hg 7/29/2020 14:08",
 		"directoryToFolderDictionary:" : "hg 7/29/2020 13:58",
@@ -12,9 +9,8 @@
 		"endpoint" : "hg 7/29/2020 14:09",
 		"endpoint:" : "hg 7/29/2020 14:09",
 		"fileVisitor" : "hg 7/29/2020 14:20",
-		"get:in:" : "hg 7/15/2020 20:18",
 		"readEmailsFromDisk" : "hg 7/29/2020 14:19",
-		"readMailFromStream:" : "hg 7/29/2020 12:02",
+		"readMailFromStream:" : "hg 7/29/2020 15:07",
 		"recipientsFrom:" : "fr 7/26/2019 15:34",
 		"rootDirectory" : "hg 7/29/2020 13:56",
-		"write:in:as:" : "pm 6/2/2019 16:11" } }
+		"write:" : "hg 7/29/2020 14:52" } }

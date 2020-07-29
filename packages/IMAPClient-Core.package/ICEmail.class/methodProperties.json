@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"newFrom:" : "hg 7/29/2020 15:08" },
 	"instance" : {
 		"asString" : "AR 7/28/2016 14:06",
 		"body" : "pm 6/3/2019 21:27",
@@ -19,6 +19,7 @@
 		"deleteEmailFromDisk" : "hg 7/15/2020 19:18",
 		"deleted" : "DH 7/19/2018 21:58",
 		"deleted:" : "DH 7/19/2018 19:43",
+		"deserializeFrom:" : "hg 7/29/2020 15:22",
 		"flagged" : "C.G. 7/25/2018 13:47",
 		"flagged:" : "C.G. 7/25/2018 13:47",
 		"folder" : "ms 7/10/2016 13:31",
@@ -37,11 +38,12 @@
 		"open" : "lvm 5/20/2018 20:10",
 		"retrieveBody" : "ok 7/26/2019 21:07",
 		"retrieveFlags" : "pm 6/2/2019 15:58",
-		"saveInMaildir" : "pm 6/2/2019 15:58",
+		"saveInMaildir" : "hg 7/29/2020 14:48",
 		"seen" : "C.G. 7/25/2018 13:49",
 		"seen:" : "C.G. 7/25/2018 13:49",
 		"sender" : "hg 7/3/2020 16:10",
 		"senderAddressFromHeader" : "LW 6/10/2020 13:12",
+		"serializeToJson" : "hg 7/29/2020 15:25",
 		"subject" : "tg 7/19/2019 11:45",
 		"subject:" : "C.G. 7/25/2018 13:49",
 		"to" : "C.G. 7/25/2018 13:49",
