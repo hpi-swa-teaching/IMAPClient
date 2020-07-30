@@ -4,7 +4,7 @@ fileVisitor
 	 ^ [:file | | currentFolder | 
 			currentFolder := self directoryToFolderDictionary at: file directory.
 			currentFolder addMails: {
-				(self readMailFromStream: file) 
+				(ICEmail newFromJsonStream: file) 
 					folder: currentFolder; 
 					yourself}.
 			file close]
