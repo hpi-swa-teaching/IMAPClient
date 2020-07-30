@@ -1,4 +1,4 @@
 delete file
 delete: anICEmail
 
-	(FileDirectory default / anICEmail maildirFileName / anICEmail uniqueID) delete
+	(FileDirectory default / self endpoint maildirFileName / anICEmail uniqueID) delete
