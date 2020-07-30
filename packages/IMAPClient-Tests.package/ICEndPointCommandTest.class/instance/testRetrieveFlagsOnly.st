@@ -35,8 +35,8 @@ testRetrieveFlagsOnly
 	self assert: mailB flagged equals: true.
 	
 	"Asserts that the flags - in the maildir storage file - were also updated"
-	mailA := ICEmail newFromJsonStream: (FileStream fileNamed: path , FileDirectory slash, 3).
-	mailB := ICEmail newFromJsonStream: (FileStream fileNamed: path , FileDirectory slash, 4).
+	mailA := ICEmail newFromJsonStream: (FileStream fileNamed: mailAPath).
+	mailB := ICEmail newFromJsonStream: (FileStream fileNamed: mailBPath).
 	
 	self assert: mailA seen equals: false.
 	self assert: mailA flagged equals: true.
