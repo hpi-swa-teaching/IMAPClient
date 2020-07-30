@@ -1,18 +1,13 @@
 login
 login
 	
-	| accountInfo |
 	self password ifNil: [
 			self inform: 'Please put in a password'.
 			^ self].
  
-	self data at: 'password' put: (self password asString).
-	
-	[accountInfo := ICAccountInfo newWith: self data.]
-		on: Error
-		do: [:e | self inform: e asString. ^ self].
-	
-	((ICEndPoint new) testAccountWith: accountInfo)
+	self data password: self password asString.
+		
+	((ICEndPoint new) testAccountWith: self data)
 		ifTrue: [
 			self folderDialogInstance passwordPromtCallback: (self data).
 			self window abandon]

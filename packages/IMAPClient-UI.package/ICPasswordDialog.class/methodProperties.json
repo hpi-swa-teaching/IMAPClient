@@ -1,15 +1,15 @@
 {
 	"class" : {
-		"openWith:and:" : "C.G. 6/20/2018 21:11" },
+		"openWith:and:" : "LW 7/15/2020 10:58" },
 	"instance" : {
 		"buildAddPasswordButton:" : "pm 6/25/2019 16:58",
 		"buildPasswordField:" : "pm 6/25/2019 16:57",
-		"buildWith:" : "tg 7/26/2019 15:51",
+		"buildWith:" : "LW 7/15/2020 10:57",
 		"data" : "C.G. 7/25/2018 14:25",
-		"data:" : "pm 6/9/2019 17:14",
+		"data:" : "LW 7/15/2020 10:57",
 		"folderDialogInstance" : "C.G. 7/25/2018 14:25",
 		"folderDialogInstance:" : "pm 6/9/2019 17:14",
-		"login" : "tg 7/26/2019 21:41",
+		"login" : "LW 7/15/2020 11:01",
 		"loginWithPassword:" : "fr 6/13/2019 14:39",
 		"password" : "C.G. 7/25/2018 14:25",
 		"password:" : "fr 6/13/2019 14:44",

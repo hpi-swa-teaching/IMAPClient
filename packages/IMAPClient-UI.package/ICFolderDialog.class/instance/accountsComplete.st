@@ -1,8 +1,8 @@
 accountManagment
 accountsComplete
 
-	self emailAccounts: (self initializedAccounts collect: [:configData | 
-		ICEndPoint new connectAndLoginWith: (ICAccountInfo newWith: configData)]).
+	self emailAccounts: (self initializedAccounts collect: [:anAccountInfo | 
+		ICEndPoint new connectAndLoginWith: anAccountInfo]).
 	
 	"let all Endpoints preload their file structure and configure them to prevent timeouts"
 	self emailAccounts do: [:endpoint |

@@ -1,12 +1,11 @@
 accountManagment
-passwordPromtCallback: aDictionary
+passwordPromtCallback: anAccountInfo
 	
 	| nextAccount |
-	
-	self initializedAccounts add: aDictionary.
+	self initializedAccounts add: anAccountInfo.
 	
 	nextAccount := self uninitializedAccounts findFirst: [:account | 
-		(account at: 'accountName') = (aDictionary at: 'accountName')].
+		(account accountName) = (anAccountInfo accountName)].
 	self uninitializedAccounts removeAt: nextAccount.
 	
 	(self uninitializedAccounts isEmpty) 

@@ -1,9 +1,8 @@
 {
 	"class" : {
 		"accountFolderHashRelevantCharacters" : "ok 7/26/2019 19:11",
-		"addConfiguration:" : "tg 7/8/2019 15:12",
+		"addConfiguration:" : "NH 7/15/2020 10:15",
 		"basicConnectionConfigurations" : "tg 7/8/2019 15:14",
-		"checkValidConfiguration:" : "tg 7/18/2019 23:06",
 		"clearConfigurations" : "pm 6/19/2019 13:17",
 		"connectionConfigurations" : "tg 7/8/2019 15:14",
 		"connectionConfigurations:" : "pm 6/19/2019 14:49",
@@ -11,7 +10,7 @@
 		"errorBadProtocol" : "js 5/15/2016 13:55",
 		"errorInvalidConnectionConfiguration" : "js 5/15/2016 16:15",
 		"refreshConnectionIntervalInSeconds" : "ok 7/26/2019 21:04",
-		"removeConfiguration:" : "tg 7/8/2019 15:12" },
+		"removeConfiguration:" : "NH 7/15/2020 09:55" },
 	"instance" : {
 		"accountInfo" : "tg 7/10/2019 17:23",
 		"accountInfo:" : "tg 7/10/2019 17:24",

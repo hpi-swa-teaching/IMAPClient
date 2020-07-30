@@ -1,4 +1,4 @@
 constants
 invalidDataDictionaryErrorMessage
 
-	^ 'Not a valid dataDictionary'
+	^ 'Not a valid AccountInfo'
