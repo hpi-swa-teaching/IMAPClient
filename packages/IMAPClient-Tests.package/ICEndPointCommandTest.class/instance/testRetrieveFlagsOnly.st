@@ -1,7 +1,7 @@
 logout
 testRetrieveFlagsOnly
 
-	| folder mailA mailB emailObjects folderName mailAPath mailBPath path readWriter |
+	| folder mailA mailB emailObjects folderName mailAPath mailBPath path |
 	
 	"Load emails from server and store them locally"
 	
@@ -35,9 +35,8 @@ testRetrieveFlagsOnly
 	self assert: mailB flagged equals: true.
 	
 	"Asserts that the flags - in the maildir storage file - were also updated"
-	readWriter := ICFileReadWriter new.
-	mailA := readWriter get: '3' in: path.
-	mailB := readWriter get: '4' in: path.
+	mailA := ICEmail newFromJsonStream: (FileStream fileNamed: path , FileDirectory slash, 3).
+	mailB := ICEmail newFromJsonStream: (FileStream fileNamed: path , FileDirectory slash, 4).
 	
 	self assert: mailA seen equals: false.
 	self assert: mailA flagged equals: true.

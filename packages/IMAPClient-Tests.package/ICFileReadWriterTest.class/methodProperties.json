@@ -2,12 +2,9 @@
 	"class" : {
 		"expectedJsonHeader" : "C.G. 7/25/2018 18:21",
 		"expectedMailObject" : "DH 6/6/2018 20:10",
-		"givenJsonObject" : "C.G. 7/25/2018 18:21" },
+		"givenJsonObject" : "hg 7/30/2020 10:34" },
 	"instance" : {
 		"readWriter" : "dl 7/20/2017 10:54",
 		"readWriter:" : "pm 6/9/2019 17:18",
 		"setUp" : "C.G. 7/25/2018 18:02",
-		"testCreateHeader" : "C.G. 7/25/2018 18:03",
-		"testCreateJsonHeader" : "C.G. 7/25/2018 18:03",
-		"testReadWrite" : "C.G. 7/25/2018 18:03",
-		"testRecipients" : "pm 6/3/2019 18:53" } }
+		"testReadWrite" : "hg 7/30/2020 11:43" } }

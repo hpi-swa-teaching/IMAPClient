@@ -3,11 +3,13 @@
 		"emailDate" : "tg 7/19/2019 12:40",
 		"expected1980Seconds" : "tg 7/19/2019 09:33",
 		"expectedBody" : "DH 6/9/2018 15:33",
+		"expectedMailObject" : "hg 7/30/2020 11:37",
 		"expectedMinimalHeaderAsString" : "DH 6/9/2018 15:32",
 		"expectedParsedMESZDate" : "tg 7/19/2019 10:36",
 		"expectedParsedUTCDate" : "tg 7/19/2019 10:36",
 		"expectedSqueakEpochSeconds" : "tg 7/19/2019 09:29",
-		"expectedStringRepresentation" : "DH 6/9/2018 15:23" },
+		"expectedStringRepresentation" : "DH 6/9/2018 15:23",
+		"givenJsonObject" : "hg 7/30/2020 11:40" },
 	"instance" : {
 		"email" : "C.G. 7/25/2018 17:52",
 		"email:" : "pm 6/9/2019 17:16",
@@ -16,5 +18,6 @@
 		"testDateFormatted" : "tg 7/19/2019 08:36",
 		"testDateInSecondsSince1980" : "tg 7/19/2019 09:26",
 		"testDateInSecondsSinceSqueakEpoch" : "tg 7/19/2019 09:27",
-		"testMinimalHeaderAsString" : "C.G. 7/25/2018 17:53",
-		"testRetrieveBody" : "mt 7/26/2019 14:41" } }
+		"testDeserialization" : "hg 7/30/2020 11:01",
+		"testRetrieveBody" : "mt 7/26/2019 14:41",
+		"testSerialization" : "hg 7/30/2020 10:57" } }

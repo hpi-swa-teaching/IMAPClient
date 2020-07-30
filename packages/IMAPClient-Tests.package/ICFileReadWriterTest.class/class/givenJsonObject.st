@@ -2,9 +2,7 @@ constants
 givenJsonObject
 
 	| header object |
-	
-	Transcript show: 'Debug'.
-	Transcript show: JsonObject. 	
+		
 	header := JsonObject newFrom: {
 		'date' ->  'Fri, 10 Jun 2016 12:51:42 +0200'.
 		'from' -> 'sender'.
