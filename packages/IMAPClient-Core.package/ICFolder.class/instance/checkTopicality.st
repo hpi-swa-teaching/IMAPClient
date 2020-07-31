@@ -16,4 +16,4 @@ checkTopicality
 	relevantUIDs do: [ :uid | localMails removeAllSuchThat: [ :mail | mail uniqueID = uid]].
 	
 	"everything left in localMails has changed, and therefore can be removed"
-	localMails do: [ :mail | mail deleteEmailFromDisk]
+	localMails do: [ :mail | self endpoint deleteMailLocally: mail]
