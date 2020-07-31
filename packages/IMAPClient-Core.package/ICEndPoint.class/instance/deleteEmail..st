@@ -5,6 +5,4 @@ deleteEmail: anEmail
 	self sendCommand: (ICCommand deleteEmail: anEmail messageID).
 	self fetchNextResponse.
 	
-	anEmail folder removeMail: anEmail.
-	self readWriter delete: anEmail.
-	self moveEmail: anEmail to: self folderNameOfTrash.
+	self moveEmail: anEmail to: self folderNameOfTrash
