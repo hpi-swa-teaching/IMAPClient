@@ -1,4 +1,4 @@
-accessing
+delteFile
 testDelete
 	
 	self createFileWith: self deleteUID.

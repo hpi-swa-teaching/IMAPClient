@@ -1,4 +1,4 @@
-accessing
+readFile
 testRead
 	
 	self createFileWith: self readUID.

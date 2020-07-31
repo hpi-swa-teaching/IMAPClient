@@ -1,4 +1,4 @@
-accessing
+writeFile
 testWrite
 
 	self readWriter write: (self class expectedMailObjectFor: self writeUID).

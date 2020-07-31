@@ -1,4 +1,4 @@
-running
+setup
 setUp
 	
 	self endpoint: (ICMockEndpoint new rootFolder: ICFolder new).
