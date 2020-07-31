@@ -1,0 +1,4 @@
+accessing
+eraseStoredPassword
+	
+	self password: ''

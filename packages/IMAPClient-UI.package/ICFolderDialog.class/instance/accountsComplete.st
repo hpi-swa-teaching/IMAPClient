@@ -9,6 +9,8 @@ accountsComplete
 		self folderWith: endpoint.
 		endpoint preventTimeout].
 	
+	ICEndPoint eraseStoredPasswords.
+	
 	self update.
 	
 	ToolBuilder default open: self
