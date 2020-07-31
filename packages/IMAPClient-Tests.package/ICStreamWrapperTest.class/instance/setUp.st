@@ -1,4 +1,4 @@
 running
 setUp 
 
-	self streamWrapper: ICStreamWrapper new.
+	self streamWrapper: ICStreamWrapper new

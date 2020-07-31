@@ -7,4 +7,4 @@ testReferenceDeleteSecurity
 	reference remove: self class defaultAccountInfo.
 	
 	self assert: ICEndPoint connectionConfigurations equals:
-		{self class defaultAccountInfo} asOrderedCollection.
+		{self class defaultAccountInfo} asOrderedCollection

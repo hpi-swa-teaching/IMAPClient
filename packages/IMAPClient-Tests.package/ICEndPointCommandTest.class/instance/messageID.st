@@ -1,5 +1,0 @@
-setup
-messageID
-	
-	^ 42
-	
