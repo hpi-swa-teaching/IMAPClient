@@ -13,4 +13,4 @@ parseFetchedFlagsAndPopulate: aFolder
 				email seen: (flags includes: '\Seen').
 				email flagged: (flags includes: '\Flagged').
 				email deleted: (flags includes: '\Deleted').
-				email saveInMaildir]]].
+				self readWriter write: email]]].

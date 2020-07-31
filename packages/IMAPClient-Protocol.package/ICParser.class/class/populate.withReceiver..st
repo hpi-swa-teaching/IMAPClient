@@ -1,4 +1,4 @@
 parsing
 populate: anEmail withReceiver: aHeaderChunk
 
-	anEmail to: (aHeaderChunk subStrings: ',') asOrderedCollection
+	anEmail to: (aHeaderChunk subStrings: ',') asArray

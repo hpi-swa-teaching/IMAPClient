@@ -1,5 +1,5 @@
 accessing
-rootFolderName
+rootDirectoryName
 	
 	^ (SecureHashAlgorithm new 
 		hashMessage: self host, self username) 

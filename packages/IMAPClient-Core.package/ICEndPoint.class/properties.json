@@ -16,7 +16,8 @@
 		"hierarchyDelimiter",
 		"currentFolderName",
 		"fatalErrorOccured",
-		"folderNameOfTrash" ],
+		"folderNameOfTrash",
+		"readWriter" ],
 	"name" : "ICEndPoint",
 	"pools" : [
 		 ],

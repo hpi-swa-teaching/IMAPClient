@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "ok 7/9/2019 21:00",
 	"instvars" : [
-		 ],
+		"directoryToFolderDictionary",
+		"endpoint" ],
 	"name" : "ICFileReadWriter",
 	"pools" : [
 		 ],
