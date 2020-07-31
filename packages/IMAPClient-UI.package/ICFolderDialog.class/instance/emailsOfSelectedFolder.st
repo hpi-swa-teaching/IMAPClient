@@ -8,7 +8,11 @@ emailsOfSelectedFolder
 	
 	emails ifEmpty: [^ emails].
 	
+	self filterString notEmpty
+		ifTrue: [^ emails select: [:anICEmail |
+					(self labelForMail: anICEmail) includesSubstring: self filterString caseSensitive: false]].
+
 	emails sort: (self sortBlocks at: self sortMethod).
 	self reverseMails ifTrue: [emails reverseInPlace].
 	
-	^ emails select: [:anICEmail | self shouldEmailBeVisible: anICEmail]
+	 ^ emails
