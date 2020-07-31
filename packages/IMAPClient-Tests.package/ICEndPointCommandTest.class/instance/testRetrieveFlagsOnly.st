@@ -21,8 +21,10 @@ testRetrieveFlagsOnly
 	"Asserts that in the beginning the flags equal this"
 	self assert: mailA seen equals: true.
 	self assert: mailA flagged equals: false.
+	self assert: mailA deleted equals: false.
 	self assert: mailB seen equals: true.
 	self assert: mailB flagged equals: false.
+	self assert: mailB deleted equals: false.
 	
 	"Now retrive flags to trigger update"
 	self endPoint retrieveFlagsFrom: 3 to: 4 in: folder.
@@ -30,8 +32,10 @@ testRetrieveFlagsOnly
 	"Asserts that the flags - in the mail object - were updated"
 	self assert: mailA seen equals: false.
 	self assert: mailA flagged equals: true.
+	self assert: mailA deleted equals: false.
 	self assert: mailB seen equals: false.
 	self assert: mailB flagged equals: true.
+	self assert: mailB deleted equals: false.
 	
 	"Asserts that the flags - in the maildir storage file - were also updated"
 	mailA := ICEmail newFromJsonStream: (FileStream readOnlyFileNamed: mailAPath).
@@ -39,8 +43,10 @@ testRetrieveFlagsOnly
 	
 	self assert: mailA seen equals: false.
 	self assert: mailA flagged equals: true.
+	self assert: mailA deleted equals: false.
 	self assert: mailB seen equals: false.
 	self assert: mailB flagged equals: true.
+	self assert: mailB deleted equals: false.
 	
 	"Delete generated files"
 	FileDirectory default
