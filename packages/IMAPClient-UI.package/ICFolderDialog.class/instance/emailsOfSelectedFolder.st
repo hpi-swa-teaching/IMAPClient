@@ -11,5 +11,4 @@ emailsOfSelectedFolder
 	emails sort: (self sortBlocks at: self sortMethod).
 	self reverseMails ifTrue: [emails reverseInPlace].
 	
-	^ emails select: [:anICEmail |
-					self shouldEmailBeVisible: anICEmail]
+	^ emails select: [:anICEmail | self shouldEmailBeVisible: anICEmail]
