@@ -1,4 +1,4 @@
 accessing
 eraseStoredPassword
 	
-	self password: 'erased'
+	self password: ''
