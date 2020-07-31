@@ -9,8 +9,6 @@
 		"setUp" : "hg 6/24/2020 11:37",
 		"testAddEntry" : "hg 6/10/2020 10:27",
 		"testAddEntryDuplicated" : "hg 6/10/2020 10:27",
-		"testChangeEntry" : "hg 6/10/2020 10:28",
-		"testChangeEntryToBeDuplicated" : "hg 6/10/2020 10:28",
 		"testDeleteEntry" : "hg 6/10/2020 10:28",
 		"testDeleteNonExistentEntryRaisesError" : "hg 6/10/2020 10:17",
 		"testFindEntry" : "hg 6/10/2020 10:29",
