@@ -1,5 +1,5 @@
 constants
-expectedMailObject
+expectedMailObjectFor: UID
 
 	^ ICEmail new
 		body: 'body text';
@@ -9,5 +9,6 @@ expectedMailObject
 		seen: false;
 		contentType: 'text/plain;  charset="iso-8859-1"';
 		contentTransferEncoding: 'quoted-printable';
-		to: (OrderedCollection newFrom: { 'receiver1' . 'receiver2' });
-		date: 'Fri, 10 Jun 2016 12:51:42 +0200'
+		to: { 'receiver1' . 'receiver2' };
+		date: 'Fri, 10 Jun 2016 12:51:42 +0200';
+		uniqueID: UID
