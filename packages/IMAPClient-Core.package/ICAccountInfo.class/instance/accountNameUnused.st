@@ -1,4 +1,4 @@
-accessing
+validating
 accountNameUnused
 
 	^ ICEndPoint connectionConfigurations

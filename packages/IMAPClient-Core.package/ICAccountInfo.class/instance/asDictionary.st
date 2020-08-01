@@ -1,4 +1,4 @@
-accessing
+converting
 asDictionary
 	
 	| dict |

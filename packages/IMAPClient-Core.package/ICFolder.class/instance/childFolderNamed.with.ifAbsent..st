@@ -1,4 +1,4 @@
-folder hierarchy
+action - folder hierarchy
 childFolderNamed: childFolderName with: delimiter ifAbsent: block
 
 	| rootPart childPart child parts |

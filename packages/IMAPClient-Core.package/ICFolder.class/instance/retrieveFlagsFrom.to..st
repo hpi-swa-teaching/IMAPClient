@@ -1,4 +1,4 @@
-updateEmails
+action - update emails
 retrieveFlagsFrom: anUID to: anotherUID
 	self endpoint 
 		select: self path;
