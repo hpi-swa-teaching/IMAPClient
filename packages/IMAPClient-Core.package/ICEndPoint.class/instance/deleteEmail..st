@@ -1,4 +1,4 @@
-delete
+protocol handling - delete
 deleteEmail: anEmail
 	
 	self select: anEmail folder path.

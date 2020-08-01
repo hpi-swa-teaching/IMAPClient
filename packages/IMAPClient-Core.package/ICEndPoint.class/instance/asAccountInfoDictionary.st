@@ -1,4 +1,4 @@
-accessing
+converting
 asAccountInfoDictionary
 	
 	^ self accountInfo asDictionary

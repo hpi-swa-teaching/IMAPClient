@@ -1,4 +1,4 @@
-fetching
+protocol handling - fetch
 currentUIDsFor: anICFolder
 
 	| isEmpty |

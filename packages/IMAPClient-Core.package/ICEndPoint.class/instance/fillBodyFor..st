@@ -1,4 +1,4 @@
-login
+protocol handling - fetch
 fillBodyFor: anEmail
 	
 	self 

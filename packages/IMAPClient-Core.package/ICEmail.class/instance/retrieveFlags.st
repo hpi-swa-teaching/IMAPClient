@@ -1,4 +1,4 @@
-endpoint interaction
+action
 retrieveFlags
 
-	self folder retrieveFlagsFrom: self uniqueID to: self uniqueID
+	self folder retrieveFlagsFor: self uniqueID
