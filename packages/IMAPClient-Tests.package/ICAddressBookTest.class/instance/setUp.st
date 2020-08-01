@@ -1,4 +1,4 @@
-as yet unclassified
+running
 setUp
 	self addressBook: (ICAddressBook new: 10).
 	

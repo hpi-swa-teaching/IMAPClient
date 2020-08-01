@@ -1,4 +1,4 @@
-as yet unclassified
+adding entries
 testAddEntry
 
 	self addressBook addEmail: self emailAddress.

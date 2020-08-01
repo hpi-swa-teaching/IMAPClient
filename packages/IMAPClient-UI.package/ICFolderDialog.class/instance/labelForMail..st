@@ -2,8 +2,8 @@ accessing - email
 labelForMail: anICEmail
 
 	^	((anICEmail flagged) 
-			ifTrue: '*' 
-			ifFalse: ' '),
+			ifTrue: ['*'] 
+			ifFalse: [' ']),
 		Character tab, 
 		((anICEmail subject ifEmpty: [ICEmailDialog defaultSubject]) truncateTo: 80),
 		Character tab,

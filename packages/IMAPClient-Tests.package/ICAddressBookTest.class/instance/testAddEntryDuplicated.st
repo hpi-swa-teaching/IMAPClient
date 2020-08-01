@@ -1,4 +1,4 @@
-as yet unclassified
+adding entries
 testAddEntryDuplicated
 
 	self addressBook addEmail: self emailAddress.
