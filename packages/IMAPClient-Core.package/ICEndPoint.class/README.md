@@ -1,10 +1,15 @@
 An ICEndPoint is main class for our framework, handling server communication.
 
 Instance Variables
-	authenticationInfo:		Contains the ICAuthenticationInfo, i.e. the username and password of the current connection.
-	lastResponse:		Contains the complete (possibly multi-line) answer for the last sent command.
-	loggedIn:		Returns a boolean value indicating if the user is currently logged in.
-	rootFolder:		A virtual ICFolder containing all parsed folders from the server as children.
-	serverInfo:		Contains an ICServerInfo, i.e. the host name and the port of the current connection.
-	ssl:			A boolean value indicating whether SSL is currently enabled.
-	stream:		Contains an ICStreamWrapper, resembling the connection to the server.
+	stream:					Contains an ICStreamWrapper, resembling the connection to the server.
+	accountInfo:			Contains the ICAccountInfo, i.e. the username and password of the current connection.
+	loggedIn:				Returns a boolean value indicating if the user is currently logged in.
+	rootFolder:				A virtual ICFolder containing all parsed folders from the server as children.
+	lastResponse:			Contains the complete (possibly multi-line) answer for the last sent command.
+	ssl:						A boolean value indicating whether SSL is currently enabled.
+	uids: 					Collection of unique ids.
+	hierarchyDelimiter:		Symbol indicating the delimiter for hierachies.
+	currentFolderName: 	Folder name string of the currently requesting folder.
+	fatalErrorOccured: 		Boolean indicator whether an error occured or not after a request.
+      folderNameOfTrash: 	Folder name string of the trash folder on the server.
+	readWriter: 			Responsible for disk I/O. Instance of ICFileReadWriter.
