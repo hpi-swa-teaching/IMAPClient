@@ -1,4 +1,4 @@
-folder selection
+accessing - folder
 labelForFolder: anICFolder
 
 	| countOfUnseenMails |

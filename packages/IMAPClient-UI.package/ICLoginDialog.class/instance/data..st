@@ -1,5 +1,5 @@
 accessing
-loadData: anAccountInfo
+data: anAccountInfo
 
     self accountName: (anAccountInfo accountName).
     self serverAddress: (anAccountInfo host).

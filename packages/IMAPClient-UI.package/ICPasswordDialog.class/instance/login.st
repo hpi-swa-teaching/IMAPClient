@@ -1,6 +1,6 @@
+action - button
 login
-login
-	
+
 	self password ifNil: [
 			self inform: 'Please put in a password'.
 			^ self].

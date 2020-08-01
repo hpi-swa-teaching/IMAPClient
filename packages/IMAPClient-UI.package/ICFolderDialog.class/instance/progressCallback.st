@@ -1,4 +1,4 @@
-get emails
+action - emails
 progressCallback
 
 	| result |

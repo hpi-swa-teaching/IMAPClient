@@ -1,4 +1,4 @@
-get emails
+action - load older emails
 loadOlderEmails
 
 	self selectedFolder ifNotNil: [

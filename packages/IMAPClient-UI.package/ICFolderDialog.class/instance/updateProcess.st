@@ -1,4 +1,4 @@
-get emails
+action - emails
 updateProcess
 		
 	self emailAccounts do: [:anICEndpoint |

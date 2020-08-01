@@ -1,4 +1,4 @@
-folder selection
+toolbuilder
 folderTreeMenu: aMenu
 
 	(self selectedFolder isTrashFolder) ifTrue: [

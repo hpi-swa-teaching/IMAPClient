@@ -1,4 +1,4 @@
-email selection
+accessing - email
 labelForMail: anICEmail
 
 	^	((anICEmail flagged) 

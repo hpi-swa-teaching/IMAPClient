@@ -1,4 +1,4 @@
-flags
+accessing - folder
 labelForDeletionAction: aFolderName
 
 	(aFolderName = 'Trash')

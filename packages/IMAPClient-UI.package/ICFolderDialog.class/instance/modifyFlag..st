@@ -1,4 +1,4 @@
-flags
+action - emails
 modifyFlag: aFlag
 	
 	self selectedEmail modifyFlag: aFlag.

@@ -1,4 +1,4 @@
-email selection
+accessing - account
 labelForAccount: anICEndpoint
 
 	| countOfUnseenMails |

@@ -1,4 +1,4 @@
-email selection
+action - emails
 deleteEmail
 	
 	self selectedEndpoint deleteEmail: self selectedEmail.

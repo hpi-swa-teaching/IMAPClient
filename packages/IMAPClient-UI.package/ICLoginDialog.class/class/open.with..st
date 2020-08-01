@@ -6,7 +6,7 @@ open: aFolderDialogInstance with: anEndpoint
 	
 	instance := self new.
 	instance folderDialogInstance: aFolderDialogInstance.
-	instance loadData: anEndpoint accountInfo.
+	instance data: anEndpoint accountInfo.
 	instance updateMode: true.
 	instance endpoint: anEndpoint.
 	

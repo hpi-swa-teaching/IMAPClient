@@ -1,4 +1,4 @@
-email selection
+action - emails
 openEmail: anICEmail
 	
 	[anICEmail open.	

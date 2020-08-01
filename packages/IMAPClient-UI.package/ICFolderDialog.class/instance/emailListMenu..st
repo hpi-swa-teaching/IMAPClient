@@ -1,4 +1,4 @@
-folder selection
+toolbuilder
 emailListMenu: aMenu
 
 	self selectedEmail ifNil: [^ aMenu].
