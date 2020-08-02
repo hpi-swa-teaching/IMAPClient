@@ -32,7 +32,6 @@ You can open the tool with the command `ICFolderDialog new` or using a Menu Entr
  - Manage different accounts
   ![](screenshots/addAccount.png)
   You can add an account by clicking the `+` button. You will then be prompted to enter the account information needed to establish a connection with the server.
-  When you have a lot of eamils, this step might take a while, because after initialization you will be greeted with all your recent emails already fetched for you to see.
   
  - Fetch new mails from the server
   ![](screenshots/updating.png)
@@ -97,7 +96,7 @@ After closing the IMAP-Client and reopening it your are welcomed by a password p
 
 As this project has lived through many iterations, there are a couple of known issues that we could not resolve during the few months we spend with this project. 
 If you encounter any problem while using our IMAP client, have a look at the Issues of this GitHub Project. Most of them are probably already known to us.
-In case your problem has not been reported yet, feel free to post a new issue and describe what you dis to get the problem, what the unexpected behaviour was and what behaviour you would have expected. 
+In case your problem has not been reported yet, feel free to post a new issue and describe what you did to get the problem, what the unexpected behaviour was and what behaviour you would have expected. 
 Thank you in anvance for contributing to making this project better by reporting any problems that we are not yet aware of!
 
 ## Documentation
