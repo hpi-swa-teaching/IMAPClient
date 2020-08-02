@@ -1,6 +1,6 @@
 # IMAPClient [![Build Status](https://travis-ci.org/hpi-swa-teaching/IMAPClient.svg?branch=develop)](https://travis-ci.org/hpi-swa-teaching/IMAPClient) [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/IMAPClient/badge.svg?branch=develop)](https://coveralls.io/github/hpi-swa-teaching/IMAPClient?branch=develop)
  
-Welcome to our IMAP Client project. We are a team of 4th semester IT-Systems Engineering studets and are happy to take over this project for the sixth iteration.
+Welcome to our IMAP Client project. We are a team of 4th semester IT-Systems Engineering students and are happy to take over this project for the sixth iteration.
 This project is part of a lecture in Softwareengineering techniques and will be contributing to our final grade, so we are giving it our best ;)
 As this is a student project, it will mostly be worked on during the summer terms. Therefore our time with this project is limited to the end of july.
 
