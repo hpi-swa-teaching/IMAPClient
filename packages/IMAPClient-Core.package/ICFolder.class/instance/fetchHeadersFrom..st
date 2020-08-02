@@ -5,10 +5,6 @@ fetchHeadersFrom: anUID
 		currentUIDsFor: self;
 		maildirDiffFetchHeadersFrom: anUID).
 		
-	self emails ifEmpty: [^ self].
-	
 	self ensureFreshness.
-	
 	self emails ifEmpty: [^ self].
-
 	self retrieveFlagsFrom: self emails last uniqueID to: self emails first uniqueID

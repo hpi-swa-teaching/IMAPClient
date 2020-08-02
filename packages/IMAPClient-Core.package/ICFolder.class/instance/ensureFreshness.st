@@ -4,6 +4,8 @@ ensureFreshness
 	" This method is part of a good first issue with no. 366 :)"
 	| relevantUIDs localMails min max |
 	
+	self emails ifEmpty: [^ self].
+	
 	" we cant access first and last of the sortedCollection because its sorted by date, not by UID "
 	min := self lowestUniqueID.
 	max := self highestUniqueID.
