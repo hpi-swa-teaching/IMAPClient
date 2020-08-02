@@ -7,7 +7,7 @@ fetchHeadersFrom: anUID
 		
 	self emails ifEmpty: [^ self].
 	
-	self checkTopicality.
+	self ensureFreshness.
 	
 	self emails ifEmpty: [^ self].
 

@@ -1,6 +1,7 @@
-validating
-checkTopicality
+action - freshness
+ensureFreshness
 	
+	" This method is part of a good first issue with no. 366 :)"
 	| relevantUIDs localMails min max |
 	
 	" we cant access first and last of the sortedCollection because its sorted by date, not by UID "

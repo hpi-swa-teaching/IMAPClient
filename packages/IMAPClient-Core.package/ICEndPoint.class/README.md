@@ -6,7 +6,7 @@ Instance Variables
 	loggedIn:				Returns a boolean value indicating if the user is currently logged in.
 	rootFolder:				A virtual ICFolder containing all parsed folders from the server as children.
 	lastResponse:			Contains the complete (possibly multi-line) answer for the last sent command.
-	uids: 					Collection of unique ids.
+	uids: 					Collection of unique ids of messages.
 	hierarchyDelimiter:		Symbol indicating the delimiter for hierachies.
 	currentFolderName: 	Folder name string of the currently requesting folder.
 	fatalErrorOccured: 		Boolean indicator whether an error occured or not after a request.

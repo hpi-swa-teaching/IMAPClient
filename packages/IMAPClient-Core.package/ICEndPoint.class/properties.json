@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		"ConnectionConfigurations" ],
-	"commentStamp" : "LW 8/1/2020 12:08",
+	"commentStamp" : "LW 8/2/2020 14:03",
 	"instvars" : [
 		"stream",
 		"accountInfo",
