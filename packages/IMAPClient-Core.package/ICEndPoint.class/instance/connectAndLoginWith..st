@@ -1,4 +1,4 @@
-connection
+login
 connectAndLoginWith: anICAccountInfo
 
 	self accountInfo: anICAccountInfo.

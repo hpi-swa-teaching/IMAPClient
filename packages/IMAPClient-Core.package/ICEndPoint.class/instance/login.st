@@ -1,23 +1,12 @@
 login
 login
 	
-	(self checkConnected) ifFalse: [
-		self fatalErrorOccured: true.
-		self inform: 'Cant connect to the server'. 
-		^ false].
-  	
-	(self accountInfo isValid) ifFalse: [
-		self fatalErrorOccured: true.
-		^ false].
-  
-	self sendCommand: (ICCommand loginWith: self accountInfo);
-		fetchNextResponse;
-		loggedIn: (ICParser commandSucceeded: self stream lastResponse).
-  
-	(self checkLoggedIn) ifFalse: [
-		self fatalErrorOccured: true.
-		^ false].
- 
+	(self throwErrorIfNotLoggedIn) ifFalse: [^false].
+  	(self throwErrofIfAccountInvalid) ifFalse: [^false].
+	
+	self sendLoginCommand.
+	
+	(self throwErrorIfNotLoggedIn) ifFalse: [^false].
+	
 	(ICFileReadWriter newWith: self) readEmailsFromDisk.
- 
 	^ true
