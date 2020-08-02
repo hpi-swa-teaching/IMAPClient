@@ -19,5 +19,4 @@
 		"tearDown" : "js 6/7/2016 09:42",
 		"testConnectToOn" : "tg 7/26/2019 21:41",
 		"testConnectToOnWithWrongHost" : "tg 7/10/2019 20:00",
-		"testConnectToOnWithWrongPort" : "tg 7/10/2019 20:00",
-		"testPingIfNotConnected" : "C.G. 7/25/2018 18:02" } }
+		"testConnectToOnWithWrongPort" : "tg 7/10/2019 20:00" } }

@@ -9,7 +9,6 @@
 		"setUp" : "hg 7/31/2020 22:08",
 		"tearDown" : "hg 7/31/2020 22:09",
 		"testAddConfiguration" : "NH 7/15/2020 10:05",
-		"testClearConfigurations" : "NH 7/15/2020 10:06",
 		"testLazyInit" : "hg 7/31/2020 22:09",
 		"testReferenceDeleteSecurity" : "hg 7/31/2020 22:09",
 		"testRemoveConfiguration" : "NH 7/15/2020 10:06" } }

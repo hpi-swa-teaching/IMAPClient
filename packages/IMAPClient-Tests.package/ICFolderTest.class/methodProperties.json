@@ -10,8 +10,6 @@
 		"setUp" : "C.G. 7/25/2018 18:04",
 		"tearDown" : "js 6/7/2016 12:56",
 		"testAddFolder" : "DH 7/19/2018 18:18",
-		"testChildFolderNamedWithSubfolderNotPresent" : "C.G. 7/25/2018 18:04",
-		"testChildFolderNamedWithSubfolderPresent" : "C.G. 7/25/2018 18:04",
 		"testCountFolders" : "C.G. 7/25/2018 18:04",
 		"testEmailInFolder" : "C.G. 7/25/2018 18:05",
 		"testRemoveFolder" : "C.G. 7/25/2018 18:04",
