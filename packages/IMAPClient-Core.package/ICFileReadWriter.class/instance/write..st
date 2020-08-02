@@ -5,4 +5,8 @@ write: anICEmail
 		
 	FileStream 
 		forceNewFileNamed: (self endpoint maildirFileName, FileDirectory slash, anICEmail uniqueID) 
-		do: [:stream | stream nextPutAll: anICEmail serializeToJson; flush; close ]
+		do: [:stream | 
+			stream nextPutAll: anICEmail 
+				serializeToJson; 
+				flush; 
+				close]
