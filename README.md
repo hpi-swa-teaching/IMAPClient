@@ -30,42 +30,42 @@ You can open the tool with the command `ICFolderDialog new` or using a Menu Entr
  
  ## Features
  - Manage different accounts
- 
-  ![](screenshots/manage_accounts.png)
+  ![](screenshots/addAccount.png)
   You can add an account by clicking the `+` button. You will then be prompted to enter the account information needed to establish a connection with the server.
   When you have a lot of eamils, this step might take a while, because after initialization you will be greeted with all your recent emails already fetched for you to see.
   
  - Fetch new mails from the server
- 
-  ![](screenshots/update_mails.png)
+  ![](screenshots/updating.png)
   Mails are automatically fetched on login. If you wish to update and resynchronize with the server, click the update button.
   
  - Delete & move mails
- 
- ![](screenshots/move_mails.png)
+ ![](screenshots/move.png)
  A right click on any mail will show you your options. Deleting a mail automatically moves it to the trash folder. If you want to revert a deletion, you can simply navigate to the trash folder and move the email back to another folder.
  When you want to permanently delete emails, right click on the trash folder and choose expunge. This will dump your trash folder permanently.
  
  - Flag and read emails
   A right click on any mail will show you your options. You can flag an email for later use or mark it as seen if you do not want to be disturbed by it beeing highlighted anymore. Also you can mark already seen mails as unseen again.
- 
+  ![](screenshots/flag.png)
+  ![](screenshots/unflag.png)
+    
  - See unseen mails immediately. 
  All unseen mails will be highlighted and the number of unseen mails per folder can be seen next to the folder name.
  
  - Search Mails
- 
-  ![](screenshots/search_mails.png)
+  ![](screenshots/search.png)
   You can enter a search string into the search bar at the top. Right next to the search bar you can see, how many search results you got for the current search.
  
- -Parse different encodings
+ - Parse different encodings
  
  - Reflect server changes back to Client. 
  If you're accessing your mails for a different device, and deleting/moving them, just press the update button in the Client, and every change should be correctly updated.
  
  - Sort mails by different categories. 
+   ![](screenshots/sort.png)
  By default all sortings are ascending. Double clicking the button will switch do descending order.
  
  - Addressbook. 
+   ![](screenshots/addressbook.png)
  You can open the addressbook by clicking the button with the person icon. The adressbook holds all sender addresses of mails from any of the currently logged in accounts.
 
 ## Usage
