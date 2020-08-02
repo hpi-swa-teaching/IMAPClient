@@ -1,4 +1,4 @@
-delete
+protocol handling - move
 moveEmail: anEmail to: aFolder
 
 	self select: anEmail folder path.

@@ -1,4 +1,4 @@
-folder hierarchy
+action - folder hierarchy
 addFolder: child
 
 	child parent: self.

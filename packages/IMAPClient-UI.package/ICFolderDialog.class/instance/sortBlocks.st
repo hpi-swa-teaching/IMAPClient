@@ -1,4 +1,4 @@
-sorting
+action - sorting
 sortBlocks
 	
 	^ Dictionary withAll: {

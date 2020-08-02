@@ -1,4 +1,4 @@
-message handling
+connection
 ping
 
 	self checkConnected.

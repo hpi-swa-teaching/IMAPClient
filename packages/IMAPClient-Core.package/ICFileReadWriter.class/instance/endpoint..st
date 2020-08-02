@@ -1,3 +1,3 @@
-private
+accessing
 endpoint: anObject
 	endpoint := anObject

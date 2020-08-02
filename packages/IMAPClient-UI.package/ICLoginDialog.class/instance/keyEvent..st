@@ -1,4 +1,4 @@
-helper
+keyboard handling
 keyEvent: aKey
 	
 	| shouldLogin |

@@ -1,4 +1,4 @@
-folder selection
+accessing - folder
 folderNameOf: folder
 	
 	| levelCounter offset currentFolder |

@@ -1,4 +1,4 @@
-email selection
+action - emails
 expungeSelectedFolder
 
 	self selectedFolder

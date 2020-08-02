@@ -1,4 +1,4 @@
-private
+accessing
 directoryToFolderDictionary
 
 	^ directoryToFolderDictionary ifNil: [

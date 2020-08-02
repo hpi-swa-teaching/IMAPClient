@@ -4,14 +4,13 @@
 		 ],
 	"classvars" : [
 		"ConnectionConfigurations" ],
-	"commentStamp" : "ms 7/28/2016 11:48",
+	"commentStamp" : "LW 8/2/2020 14:03",
 	"instvars" : [
 		"stream",
 		"accountInfo",
 		"loggedIn",
 		"rootFolder",
 		"lastResponse",
-		"ssl",
 		"uids",
 		"hierarchyDelimiter",
 		"currentFolderName",

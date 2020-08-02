@@ -4,7 +4,7 @@
 	"instance" : {
 		"addressBook" : "LW 5/27/2020 11:11",
 		"addressBook:" : "LW 5/27/2020 11:11",
-		"addressBookEntriesMenu:" : "LW 6/16/2020 10:05",
+		"addressBookEntriesMenu:" : "LW 8/1/2020 10:38",
 		"buildAddressBookEntryList:" : "hg 7/3/2020 15:49",
 		"buildWith:" : "hg 7/3/2020 15:49",
 		"defaultBackgroundColor" : "LW 5/27/2020 11:11",
@@ -15,6 +15,6 @@
 		"initializeMailEmailAddresses" : "LW 6/10/2020 13:20",
 		"labelForAddressBookEntry:" : "LW 6/10/2020 10:51",
 		"labelForDeletionAction" : "LW 6/16/2020 10:05",
-		"sanitizeInput:" : "NH 6/3/2020 10:13",
+		"sanitizeInput:" : "LW 8/1/2020 10:38",
 		"selectedAddressBookEntry" : "LW 5/27/2020 12:22",
 		"selectedAddressBookEntry:" : "LW 5/27/2020 12:32" } }

@@ -1,4 +1,4 @@
-accessing
+action
 eraseStoredPassword
 	
 	self password: ''

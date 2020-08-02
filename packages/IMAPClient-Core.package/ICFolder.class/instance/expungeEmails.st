@@ -1,4 +1,4 @@
-accessing
+action - remove emails
 expungeEmails
 	
 	| anICEndPoint |

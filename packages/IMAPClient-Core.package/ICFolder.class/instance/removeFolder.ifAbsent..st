@@ -1,4 +1,4 @@
-folder hierarchy
+action - folder hierarchy
 removeFolder: child ifAbsent: block
 
 	(self childFolders includes: child) ifFalse: [^ block value].

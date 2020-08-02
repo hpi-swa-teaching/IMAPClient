@@ -1,4 +1,4 @@
-delete
+protocol handling - delete
 deleteMailLocally: anEmail
 
 	anEmail folder removeMail: anEmail.

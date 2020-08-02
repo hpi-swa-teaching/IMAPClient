@@ -3,8 +3,8 @@
 		"connectionTimeout" : "ok 7/26/2019 18:50" },
 	"instance" : {
 		"close" : "js 6/14/2016 10:43",
-		"connectTo:on:" : "tg 7/26/2019 22:13",
-		"connectTo:on:with:" : "C.G. 7/25/2018 14:08",
+		"connectTo:on:" : "LW 8/1/2020 10:24",
+		"connectTo:on:with:" : "LW 8/1/2020 10:24",
 		"host" : "js 6/7/2016 09:58",
 		"host:" : "js 6/7/2016 09:59",
 		"isConnected" : "js 6/7/2016 10:04",
@@ -18,5 +18,4 @@
 		"ssl:" : "ms 7/12/2016 09:45",
 		"sslConnectTo:on:" : "tg 7/26/2019 22:13",
 		"stream" : "pm 6/9/2019 13:14",
-		"stream:" : "js 6/7/2016 10:05",
-		"useSSL" : "ms 7/12/2016 09:45" } }
+		"stream:" : "js 6/7/2016 10:05" } }

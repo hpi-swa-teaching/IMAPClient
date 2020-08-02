@@ -1,4 +1,4 @@
-protocol parse
+protocol handling
 parseFetchHeaders: headerLines
 
 	| folder parseResult mailCollection |
