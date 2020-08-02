@@ -1,0 +1,4 @@
+accessing
+labelForAddressBookEntry: aEmailAddress
+	
+	^ aEmailAddress

@@ -1,9 +1,5 @@
-get emails
+action - load older emails
 loadOlderEmailsProcess
 
 	self selectedFolder loadOlderMails.
-
-	self
-		changed: #emailsOfSelectedFolder;
-		changed: #childFolders;
-		changed: #emailAccounts
+	self triggerEmailChanges

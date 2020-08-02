@@ -1,10 +1,7 @@
-get emails
+action - emails
 updateProcess
 		
 	self emailAccounts do: [:anICEndpoint |
-		anICEndpoint rootFolder update: [self progressCallback]].
+		anICEndpoint rootFolder updateAndShowProgressWith: [self progressCallback]].
 
-	self
-		changed: #emailsOfSelectedFolder;
-		changed: #childFolders;
-		changed: #emailAccounts
+	self triggerEmailChanges

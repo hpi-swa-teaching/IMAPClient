@@ -1,0 +1,4 @@
+accessing
+labelForDeletionAction
+
+	^ 'Delete Entry'

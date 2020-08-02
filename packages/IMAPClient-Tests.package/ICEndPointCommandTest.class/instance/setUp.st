@@ -7,8 +7,7 @@ setUp
 	self rootFolder: ICFolder new.
 	self rootFolder endpoint: self endPoint.
 	
-	subfolder := ICFolder named: 'inbox' in: self rootFolder.
-	subfolder endpoint: self endPoint.
+	subfolder := ICFolder named: 'inbox' in: self rootFolder with: self endPoint.
 	
 	self 
 		endPoint

@@ -1,4 +1,4 @@
-message handling
+protocol handling - fetch
 select: aFolderName
 
 	self	currentFolderName: aFolderName;

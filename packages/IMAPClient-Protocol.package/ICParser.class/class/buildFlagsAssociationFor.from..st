@@ -2,4 +2,4 @@ parsing
 buildFlagsAssociationFor: aUidString from: aLineString
 
 	^ Association key: aUidString first value: (self flags select: [:flag |
-			aLineString includesSubString: flag])
+			aLineString includesSubstring: flag])

@@ -1,10 +1,10 @@
 instance creation
-openWith: aDictionary and: anInstance 
+openWith: anAccountInfo and: anInstance 
 
 	| instance |
 	
 	instance := self new.
-	instance data: aDictionary.
+	instance accountInfo: anAccountInfo.
 	instance folderDialogInstance: anInstance.
 	
 	^ ToolBuilder default open: instance

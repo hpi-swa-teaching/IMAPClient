@@ -3,7 +3,7 @@ buildEmailSearch: builder
 
 	^ builder pluggableInputFieldSpec new
 		model: self;
-		frame: (0 @ 0 extent: 0.8 @ 1);
+		frame: (0 @ 0 extent: 0.75 @ 1);
 		editText: #changeFilter:;
 		setText: #filterString:;
 		getText: #filterString;

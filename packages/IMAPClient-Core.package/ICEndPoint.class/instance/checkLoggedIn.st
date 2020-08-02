@@ -1,4 +1,4 @@
-error handling
+login
 checkLoggedIn
   
 	(self fatalErrorOccured)

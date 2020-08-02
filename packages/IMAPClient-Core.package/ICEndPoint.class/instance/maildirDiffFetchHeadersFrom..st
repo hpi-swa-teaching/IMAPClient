@@ -1,4 +1,4 @@
-fetching
+protocol handling - fetch
 maildirDiffFetchHeadersFrom: anUID
 
 	self uids

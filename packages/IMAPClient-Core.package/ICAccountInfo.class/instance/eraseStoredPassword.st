@@ -1,0 +1,4 @@
+action
+eraseStoredPassword
+	
+	self password: ''

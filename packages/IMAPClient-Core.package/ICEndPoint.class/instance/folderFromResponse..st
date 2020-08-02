@@ -1,4 +1,4 @@
-protocol parse
+protocol handling
 folderFromResponse: responseLine
 
 	| folder folderPath parent namePart|

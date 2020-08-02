@@ -1,8 +1,7 @@
-helper
+validating
 accountnameUnused: anAccountInfo
 
-	ICEndPoint connectionConfigurations
-		detect: [:credDict | (anAccountInfo accountName) = (credDict at: 'accountName')] 
-		ifFound: [:credDict | self displayAccountnameExistsErrorMessage. ^false] 
-		ifNone: [^true].
-	^ false
+	(anAccountInfo accountNameUnused) ifFalse: [ 
+		self displayAccountnameExistsErrorMessage.
+		^ false].
+	^ true 

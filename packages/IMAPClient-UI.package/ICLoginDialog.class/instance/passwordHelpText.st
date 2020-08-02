@@ -1,4 +1,4 @@
-user interface
+accessing - user interface
 passwordHelpText
 
 	^ 'password'

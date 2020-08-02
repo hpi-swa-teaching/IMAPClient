@@ -1,14 +1,7 @@
-email selection
+action - emails
 deleteEmail
 	
-	self selectedEmail retrieveFlags.
-	
-	(self selectedEmail deleted)
-		ifTrue: [self selectedEmail expungeEmails]
-		ifFalse: [self selectedEmail deleteEmail].
+	self selectedEndpoint deleteEmail: self selectedEmail.
 		
 	self selectedEmail: nil.
-	self
-		changed: #emailsOfSelectedFolder;
-		changed: #childFolders;
-		changed: #emailAccounts
+	self triggerEmailChanges

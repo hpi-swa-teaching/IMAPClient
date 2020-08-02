@@ -1,16 +1,17 @@
 {
 	"class" : {
-		"openWith:and:" : "C.G. 6/20/2018 21:11" },
+		"openWith:and:" : "hg 8/2/2020 15:24" },
 	"instance" : {
+		"accountInfo" : "hg 8/2/2020 15:19",
+		"accountInfo:" : "hg 8/2/2020 15:19",
 		"buildAddPasswordButton:" : "pm 6/25/2019 16:58",
 		"buildPasswordField:" : "pm 6/25/2019 16:57",
-		"buildWith:" : "tg 7/26/2019 15:51",
-		"data" : "C.G. 7/25/2018 14:25",
-		"data:" : "pm 6/9/2019 17:14",
+		"buildWith:" : "hg 8/2/2020 15:25",
+		"erasePassword" : "hg 8/2/2020 15:20",
 		"folderDialogInstance" : "C.G. 7/25/2018 14:25",
 		"folderDialogInstance:" : "pm 6/9/2019 17:14",
-		"login" : "tg 7/26/2019 21:41",
-		"loginWithPassword:" : "fr 6/13/2019 14:39",
+		"login" : "hg 8/2/2020 15:26",
+		"loginWithPassword:" : "hg 8/2/2020 15:05",
 		"password" : "C.G. 7/25/2018 14:25",
 		"password:" : "fr 6/13/2019 14:44",
 		"window" : "C.G. 7/25/2018 14:25",

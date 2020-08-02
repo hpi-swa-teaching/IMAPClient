@@ -3,7 +3,7 @@ connectTo: aHost on: aPort with: aStreamClass
 
 	| hostAddress |
 	
-	self useSSL ifTrue: [^ self sslConnectTo: aHost on: aPort].
+	self ssl ifTrue: [^ self sslConnectTo: aHost on: aPort].
 		
 	hostAddress := NetNameResolver addressForName: aHost.
 	self close.	

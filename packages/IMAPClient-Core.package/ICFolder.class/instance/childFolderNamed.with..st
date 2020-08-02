@@ -1,4 +1,4 @@
-folder hierarchy
+action - folder hierarchy
 childFolderNamed: name with: delimiter
 
 	^ self 

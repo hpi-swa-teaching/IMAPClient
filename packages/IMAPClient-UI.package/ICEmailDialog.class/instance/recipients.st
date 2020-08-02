@@ -1,4 +1,4 @@
-email access
+accessing - email
 recipients
 
 	^ self email to joinSeparatedBy: ';'

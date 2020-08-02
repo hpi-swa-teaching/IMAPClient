@@ -1,5 +1,4 @@
 accessing
 emailAccounts: aCollection
 
-	 	emailAccounts  := aCollection
-	
+	emailAccounts  := aCollection
