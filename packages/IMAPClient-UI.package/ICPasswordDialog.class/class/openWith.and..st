@@ -4,7 +4,7 @@ openWith: anAccountInfo and: anInstance
 	| instance |
 	
 	instance := self new.
-	instance data: anAccountInfo.
+	instance accountInfo: anAccountInfo.
 	instance folderDialogInstance: anInstance.
 	
 	^ ToolBuilder default open: instance
