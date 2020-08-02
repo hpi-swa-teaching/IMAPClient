@@ -1,5 +1,5 @@
 login
-throwErrofIfAccountInvalid
+throwErrorIfAccountInvalid
   	
 	(self accountInfo isValid) ifFalse: [
 		self fatalErrorOccured: true.

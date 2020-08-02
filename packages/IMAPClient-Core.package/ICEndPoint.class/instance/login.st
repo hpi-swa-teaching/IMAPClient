@@ -2,7 +2,7 @@ login
 login
 	
 	(self throwErrorIfNotLoggedIn) ifFalse: [^false].
-  	(self throwErrofIfAccountInvalid) ifFalse: [^false].
+  	(self throwErrorIfAccountInvalid) ifFalse: [^false].
 	
 	self sendLoginCommand.
 	
