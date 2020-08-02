@@ -2,7 +2,7 @@
 	"class" : {
 		"allUIDs" : "pm 7/23/2019 14:18",
 		"deleteEmail:" : "pm 7/23/2019 14:46",
-		"expungeEmail" : "pm 7/23/2019 14:19",
+		"expungeEmails" : "NH 8/2/2020 11:35",
 		"fetchBody:" : "pm 7/23/2019 14:48",
 		"fetchFlagsForUIDsFrom:to:" : "pm 7/24/2019 21:18",
 		"fetchHeadersForUIDsFrom:to:" : "pm 7/24/2019 21:18",

@@ -1,4 +1,4 @@
 commands
-expungeEmail
+expungeEmails
 
 	^ self join: {'EXPUNGE'}
