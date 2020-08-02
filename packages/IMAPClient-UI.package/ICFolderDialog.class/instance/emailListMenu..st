@@ -4,7 +4,7 @@ emailListMenu: aMenu
 	self selectedEmail ifNil: [^ aMenu].
 	
 	"update the flags of the mail"
-	self selectedEmail retrieveFlags.
+	self selectedFolder retrieveFlagsFor: self selectedEmail.
 	
 	aMenu
 		add: ((self selectedEmail seen) 

@@ -1,4 +1,4 @@
 action - update emails
-retrieveFlagsFor: anUniqueId
+retrieveFlagsFor: anEmail
 	
-	self retrieveFlagsFrom: anUniqueId to: anUniqueId
+	self retrieveFlagsFrom: anEmail uniqueID to: anEmail uniqueID
