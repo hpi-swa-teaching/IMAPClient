@@ -1,4 +1,4 @@
-accessing
+converting
 usernameAsIMAPString
 
 	^ '"', self username, '"'

@@ -1,4 +1,4 @@
-validation
+validating
 hasValidUserInfo
 
 	^ self username ~= self class invalidUsername

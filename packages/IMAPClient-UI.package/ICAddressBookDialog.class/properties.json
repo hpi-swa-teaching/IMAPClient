@@ -4,10 +4,9 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "LW 6/10/2020 13:22",
+	"commentStamp" : "LW 8/1/2020 11:24",
 	"instvars" : [
 		"addressBook",
-		"newEmailAddress",
 		"selectedAddressBookEntry",
 		"emailAccounts" ],
 	"name" : "ICAddressBookDialog",

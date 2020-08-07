@@ -3,8 +3,8 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
-	"commentStamp" : "hg 6/10/2020 10:36",
+		"Instance" ],
+	"commentStamp" : "LW 8/1/2020 11:23",
 	"instvars" : [
 		 ],
 	"name" : "ICAddressBook",

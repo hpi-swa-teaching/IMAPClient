@@ -1,4 +1,4 @@
-storage
+configuration storage
 connectionConfigurations: anOrderedCollection
 
 	ConnectionConfigurations := anOrderedCollection

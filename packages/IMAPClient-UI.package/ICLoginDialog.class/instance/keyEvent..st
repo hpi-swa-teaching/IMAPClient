@@ -1,4 +1,4 @@
-helper
+keyboard handling
 keyEvent: aKey
 	
 	| shouldLogin |
@@ -8,4 +8,4 @@ keyEvent: aKey
 		ifFalse: [shouldLogin := (aKey keyValue = 36)].
 
 	shouldLogin
-		ifTrue: [self login]
+		ifTrue: [self submit]

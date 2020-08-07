@@ -5,7 +5,7 @@ buildWith: builder
 
 	newWindow := builder build: (builder pluggableWindowSpec new
 		model: self;
-		label: (self data at: 'accountName');
+		label: (self accountInfo accountName);
 		extent: 200 @ 100;
 		children: {
 			self buildPasswordField: builder.

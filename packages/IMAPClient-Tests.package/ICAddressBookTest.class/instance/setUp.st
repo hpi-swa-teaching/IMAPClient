@@ -1,5 +1,5 @@
-as yet unclassified
+running
 setUp
-	self addressBook: ICAddressBook new.
+	self addressBook: (ICAddressBook new: 10).
 	
 	self emailAddress: 'maxmustermann@moin.rocks'

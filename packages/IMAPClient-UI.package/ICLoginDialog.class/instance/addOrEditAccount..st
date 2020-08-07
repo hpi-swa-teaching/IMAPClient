@@ -1,4 +1,4 @@
-login
+action - button
 addOrEditAccount: anAccountInfo
 
 	(self updateMode)

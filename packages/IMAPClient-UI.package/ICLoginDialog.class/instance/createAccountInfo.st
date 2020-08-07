@@ -1,4 +1,4 @@
-helper
+action - button
 createAccountInfo
 
 	^ ICAccountInfo new

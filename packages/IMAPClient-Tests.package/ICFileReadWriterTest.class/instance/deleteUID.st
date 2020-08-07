@@ -1,0 +1,4 @@
+UIDs
+deleteUID
+	
+	^ '1'

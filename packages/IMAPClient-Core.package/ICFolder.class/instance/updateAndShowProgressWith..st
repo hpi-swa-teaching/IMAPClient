@@ -1,4 +1,4 @@
-updateEmails
+action - update emails
 updateAndShowProgressWith: aBlock
 	
 	ProgressNotification 

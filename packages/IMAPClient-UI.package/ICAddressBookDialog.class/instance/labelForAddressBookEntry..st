@@ -1,4 +1,4 @@
-toolbuilder
+accessing
 labelForAddressBookEntry: aEmailAddress
 	
 	^ aEmailAddress

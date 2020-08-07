@@ -1,4 +1,4 @@
-helper
+keyboard handling
 changeInputField: currentIndex
 
 	| correctSubmorph text |

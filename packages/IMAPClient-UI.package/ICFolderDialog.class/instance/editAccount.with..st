@@ -1,13 +1,13 @@
 accountManagment
 editAccount: anAccountInfo with: anEndPoint
 	
-	ICEndPoint removeConfiguration: anEndPoint accountInfo asDictionary.
+	ICEndPoint removeConfiguration: anEndPoint accountInfo.
 	self emailAccounts remove: anEndPoint.
-	
-	ICEndPoint addConfiguration: anAccountInfo asDictionary.
 	
 	self emailAccounts add: (ICEndPoint new connectAndLoginWith: anAccountInfo).
 	self selectedFolder: nil.
 	self rootFolder: nil.
+
+	self addAccountInfoToEndpointConfigWithoutPassword: anAccountInfo.
 	
 	self triggerEmailChanges

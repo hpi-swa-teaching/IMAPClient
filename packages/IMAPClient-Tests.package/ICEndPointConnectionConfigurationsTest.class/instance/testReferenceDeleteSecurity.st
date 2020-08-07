@@ -2,9 +2,9 @@ testing
 testReferenceDeleteSecurity
 	
 	|reference|
-	ICEndPoint addConfiguration: self class defaultConfigurationDictionary.
+	ICEndPoint addConfiguration: self class defaultAccountInfo.
 	reference := ICEndPoint connectionConfigurations.
-	reference remove: self class defaultConfigurationDictionary.
+	reference remove: self class defaultAccountInfo.
 	
 	self assert: ICEndPoint connectionConfigurations equals:
-		{self class defaultConfigurationDictionary} asOrderedCollection.
+		{self class defaultAccountInfo} asOrderedCollection

@@ -1,7 +1,7 @@
-email selection
+action - emails
 deleteEmail
 	
-	self selectedEmail deleteEmail.
+	self selectedEndpoint deleteEmail: self selectedEmail.
 		
 	self selectedEmail: nil.
 	self triggerEmailChanges

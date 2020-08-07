@@ -1,4 +1,4 @@
-crud
+action
 addEmail: aString
 
 	self addIfNotPresent: aString
