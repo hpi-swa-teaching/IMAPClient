@@ -1,4 +1,4 @@
-action - folder hierarchy
+folder hierarchy
 path
 
 	^ (self parent == self rootFolder) 

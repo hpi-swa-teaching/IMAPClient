@@ -1,4 +1,4 @@
-validating
+helper
 accountnameUnused: anAccountInfo
 
 	(anAccountInfo accountNameUnused) ifFalse: [ 

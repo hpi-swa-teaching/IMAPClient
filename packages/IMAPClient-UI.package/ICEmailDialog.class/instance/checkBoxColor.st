@@ -1,4 +1,4 @@
-accessing - user interface
+user interface
 checkBoxColor
 
 	^ Color transparent 

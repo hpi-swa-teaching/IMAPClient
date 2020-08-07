@@ -1,8 +1,8 @@
-action - remove emails
+accessing
 expungeEmails
 	
-	self emails do: [ :email |
-		email deleted ifTrue: [self endpoint deleteMailLocally: email]].
-	self endpoint
-		select: self path;
-		expungeEmails
+	| anICEndPoint |
+	
+	self emails do: [ :email | email deleteEmailFromDisk].
+	anICEndPoint := self endpoint select: self path.
+	anICEndPoint expungeEmail

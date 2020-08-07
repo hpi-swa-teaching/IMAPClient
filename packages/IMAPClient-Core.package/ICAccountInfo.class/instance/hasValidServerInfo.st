@@ -1,4 +1,4 @@
-validating
+validation
 hasValidServerInfo
 
 	^ self host ~= self class invalidHost

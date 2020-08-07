@@ -1,4 +1,4 @@
-configuration storage
+storage
 connectionConfigurations
 
 	^ self basicConnectionConfigurations copy

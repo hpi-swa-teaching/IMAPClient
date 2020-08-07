@@ -1,5 +1,5 @@
-validating
+accessing
 accountNameUnused
 
 	^ ICEndPoint connectionConfigurations
-			noneSatisfy: [:each | (self accountName) = (each accountName)]
+			noneSatisfy: [:credDict | (self accountName) = (credDict at: 'accountName')]

@@ -1,4 +1,4 @@
-accessing - user interface
+user interface
 guiElementXOffset
 
 	^ (1 - self guiElementWidth) / 2

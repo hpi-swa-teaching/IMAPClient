@@ -1,4 +1,4 @@
-action - button
+login
 insertDefaults
 
 	((self serverPort isNil) or: [(self serverPort asString isEmpty)])

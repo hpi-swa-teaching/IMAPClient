@@ -1,4 +1,4 @@
-converting
+accessing
 passwordAsIMAPString
 	
 	^ '"', self password, '"'

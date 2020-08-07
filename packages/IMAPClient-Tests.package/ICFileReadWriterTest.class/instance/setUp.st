@@ -1,5 +1,4 @@
-setup
+running
 setUp
-	
-	self endpoint: (ICMockEndpoint new rootFolder: ICFolder new).
-	self readWriter: (ICFileReadWriter newWith: self endpoint)
+		
+	self readWriter: ICFileReadWriter new

@@ -1,4 +1,4 @@
-action
+crud
 find: anEntry
 
 	| index |

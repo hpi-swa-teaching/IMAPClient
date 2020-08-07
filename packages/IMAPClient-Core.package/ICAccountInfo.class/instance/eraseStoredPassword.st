@@ -1,4 +1,0 @@
-action
-eraseStoredPassword
-	
-	self password: ''

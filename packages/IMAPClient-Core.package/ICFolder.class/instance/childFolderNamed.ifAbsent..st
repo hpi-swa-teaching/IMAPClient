@@ -1,4 +1,4 @@
-action - folder hierarchy
+folder hierarchy
 childFolderNamed: childFolderName ifAbsent: block
 
 	^ self childFolders 

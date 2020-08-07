@@ -1,4 +1,4 @@
-validating
+helper
 checkAccountInfoValidity: anAccountInfo
  
 	self displayEmptyFieldErrorMessageIfNecessary: anAccountInfo missingFields.

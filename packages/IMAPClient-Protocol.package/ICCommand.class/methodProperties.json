@@ -2,11 +2,11 @@
 	"class" : {
 		"allUIDs" : "pm 7/23/2019 14:18",
 		"deleteEmail:" : "pm 7/23/2019 14:46",
-		"expungeEmails" : "NH 8/2/2020 11:35",
+		"expungeEmail" : "pm 7/23/2019 14:19",
 		"fetchBody:" : "pm 7/23/2019 14:48",
 		"fetchFlagsForUIDsFrom:to:" : "pm 7/24/2019 21:18",
 		"fetchHeadersForUIDsFrom:to:" : "pm 7/24/2019 21:18",
-		"isValidFlag:" : "JJ 7/31/2020 13:55",
+		"isValidFlag:" : "tg 7/26/2019 13:45",
 		"join:" : "pm 7/24/2019 21:24",
 		"listSubfoldersOf:filterBy:" : "pm 7/23/2019 14:50",
 		"loginWith:" : "pm 7/23/2019 14:52",

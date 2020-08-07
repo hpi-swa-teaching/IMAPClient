@@ -1,4 +1,4 @@
-accessing - folder
+folder selection
 subFoldersOf: folder
 
 	^ folder childFolders

@@ -1,8 +1,9 @@
-action
+endpoint interaction
 retrieveBody
 	
-	"this is the only action that the email has to be responsible for, because it is called when an email is opened"
-	self folder endpoint retrieveBody: self.
+	self folder endpoint
+		select: self folder path;
+		fillBodyFor: self.
 
 	^'Content-Type: ', (self contentType), Character cr,
 		'Content-Transfer-Encoding: ', self contentTransferEncoding,

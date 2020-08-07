@@ -1,4 +1,4 @@
-keyboard handling
+events
 emailListKeyPressMapping
 
 	^ {

@@ -1,4 +1,4 @@
-toolbuilder
+folder selection
 folderListMenu
 
 	| aMenu folders |

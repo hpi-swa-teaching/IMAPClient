@@ -1,4 +1,4 @@
-protocol handling - fetch
+fetching
 retrieveFlagsFrom: anUID to: anotherUID in: aFolder
 	
 	self 

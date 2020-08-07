@@ -1,4 +1,4 @@
-accessing - email
+email access
 sender
 
 	^ self email from

@@ -1,4 +1,4 @@
-error handling
+toasts
 constructEmptyFieldsErrorMessage: aCollection
 	
 	aCollection sort: [:first :second | 

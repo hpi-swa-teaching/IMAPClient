@@ -1,4 +1,4 @@
-keyboard handling
+events
 emailListKeyPress: aKey
 	
 	self emailListKeyPressMapping at: (aKey asLowercase) ifPresent: [ :anAction |

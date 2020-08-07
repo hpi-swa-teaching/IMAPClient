@@ -1,8 +1,8 @@
-action - emails
+email selection
 openEmail: anICEmail
 	
 	[anICEmail open.	
-	self selectedFolder retrieveFlagsFor: anICEmail.
+	self selectedEmail retrieveFlags.
 	self triggerEmailChanges]
 	on: Error
 	do: [:e | self inform: self class loadEmailBodyFailure]

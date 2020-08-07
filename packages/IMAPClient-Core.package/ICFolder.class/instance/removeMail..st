@@ -1,4 +1,4 @@
-action - remove emails
+email access
 removeMail: anICEmail
 
 	self emails remove: anICEmail.

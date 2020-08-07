@@ -1,4 +1,4 @@
-accessing - user interface
+user interface
 serverPortHelpText
 
 	^ 'server port (default: 993)'

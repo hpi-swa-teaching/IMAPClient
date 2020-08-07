@@ -1,4 +1,4 @@
-action - load older emails
+get emails
 loadOlderEmailsProcess
 
 	self selectedFolder loadOlderMails.

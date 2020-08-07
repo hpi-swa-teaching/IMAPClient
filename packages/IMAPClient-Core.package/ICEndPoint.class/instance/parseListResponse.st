@@ -1,4 +1,4 @@
-protocol handling
+protocol parse
 parseListResponse
 	
 	self fetchNextResponse.

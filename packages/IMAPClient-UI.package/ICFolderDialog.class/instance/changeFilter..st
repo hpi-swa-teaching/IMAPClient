@@ -1,4 +1,4 @@
-action - sorting
+get emails
 changeFilter: aText
 	self
 		filterString: aText asString;

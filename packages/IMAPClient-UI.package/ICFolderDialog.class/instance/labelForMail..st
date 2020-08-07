@@ -1,12 +1,18 @@
-accessing - email
+email selection
 labelForMail: anICEmail
 
-	^	((anICEmail flagged) 
-			ifTrue: ['*'] 
-			ifFalse: [' ']),
-		Character tab, 
-		((anICEmail subject ifEmpty: [ICEmailDialog defaultSubject]) truncateTo: 80),
+	| fromCollection subject label |
+
+	fromCollection := anICEmail from findBetweenSubStrs: '<>'.
+	
+	subject := anICEmail subject ifEmpty: [ICEmailDialog defaultSubject].
+	
+	label := (subject truncateTo: 80),
 		Character tab,
-		anICEmail sender,
+		(fromCollection at: 2 ifAbsent: [fromCollection at: 1 ifAbsent: ['']]),
 		Character tab,
-		anICEmail dateFormatted
+		anICEmail dateFormatted.
+	
+	(anICEmail flagged) ifTrue: [label := '[FLAGGED] ', label].	
+	
+	^ label

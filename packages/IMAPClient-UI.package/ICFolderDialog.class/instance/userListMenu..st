@@ -1,7 +1,5 @@
-toolbuilder
+folder selection
 userListMenu: aMenu
-
-	self selectedEndpoint ifNil: [^ aMenu].
 
 	aMenu
 		add: 'Edit' action: [self editAccountButton: self selectedEndpoint];

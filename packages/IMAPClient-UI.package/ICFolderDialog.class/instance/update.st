@@ -1,4 +1,4 @@
-action - emails
+get emails
 update
 
 	self numberOfFetchedFolders: 0. 

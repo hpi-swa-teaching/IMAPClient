@@ -1,4 +1,4 @@
-configuration storage
+storage
 basicConnectionConfigurations
 	
 	^ ConnectionConfigurations ifNil: [ConnectionConfigurations := OrderedCollection new]

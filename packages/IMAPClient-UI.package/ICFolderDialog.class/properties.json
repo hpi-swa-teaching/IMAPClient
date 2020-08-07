@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "LW 8/1/2020 11:38",
+	"commentStamp" : "ms 7/28/2016 12:02",
 	"instvars" : [
 		"rootFolder",
 		"selectedEmail",
@@ -16,9 +16,7 @@
 		"numberOfFetchedFolders",
 		"numberOfFolders",
 		"filterString",
-		"searchResultsString",
-		"sortMethod",
-		"reverseMails" ],
+		"searchResultsString" ],
 	"name" : "ICFolderDialog",
 	"pools" : [
 		 ],

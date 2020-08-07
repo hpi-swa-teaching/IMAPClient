@@ -6,10 +6,10 @@
 		 ],
 	"commentStamp" : "tg 7/9/2019 14:43",
 	"instvars" : [
+		"data",
 		"folderDialogInstance",
 		"password",
-		"window",
-		"accountInfo" ],
+		"window" ],
 	"name" : "ICPasswordDialog",
 	"pools" : [
 		 ],

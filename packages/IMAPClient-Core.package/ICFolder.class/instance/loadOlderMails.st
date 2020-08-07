@@ -1,4 +1,4 @@
-action - update emails
+email access
 loadOlderMails
 
 	self emails addAll: 

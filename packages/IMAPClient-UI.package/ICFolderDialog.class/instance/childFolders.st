@@ -1,4 +1,4 @@
-accessing - folder
+folder selection
 childFolders
 
 	(self rootFolder)

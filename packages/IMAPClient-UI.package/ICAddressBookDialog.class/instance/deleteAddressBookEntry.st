@@ -4,4 +4,5 @@ deleteAddressBookEntry
 	self addressBook remove: self selectedAddressBookEntry.
 	
 	self selectedAddressBookEntry: nil.
-	self changed: #addressBook.
+	self 
+		changed: #addressBook.

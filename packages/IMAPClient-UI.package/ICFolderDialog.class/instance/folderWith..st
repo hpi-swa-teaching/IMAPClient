@@ -1,4 +1,4 @@
-accessing - folder
+folder selection
 folderWith: endpoint
 	
 	 ^ endpoint 

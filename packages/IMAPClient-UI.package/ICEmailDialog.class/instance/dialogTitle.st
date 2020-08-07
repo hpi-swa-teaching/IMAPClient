@@ -1,4 +1,4 @@
-accessing - user interface
+toolbuilder
 dialogTitle
 
 	^ self subject

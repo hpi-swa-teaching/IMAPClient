@@ -1,4 +1,4 @@
 accessing-header
 to
 
-	^ self header at: #to ifAbsent: Array new
+	^ self header at: #to ifAbsent: String empty

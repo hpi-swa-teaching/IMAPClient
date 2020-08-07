@@ -1,4 +1,0 @@
-UIDs
-readUID
-	
-	^ '3'

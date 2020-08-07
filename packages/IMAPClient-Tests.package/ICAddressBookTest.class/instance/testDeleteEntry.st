@@ -1,4 +1,4 @@
-delete entries
+as yet unclassified
 testDeleteEntry
 
 	self addressBook addEmail: self emailAddress.

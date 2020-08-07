@@ -1,4 +1,4 @@
-converting
+print
 bodyAsString
 
 	^ self body asString

@@ -1,10 +1,14 @@
-action - update emails
+updateEmails
 fetchHeadersFrom: anUID
 	
 	self emails addAll: (self endpoint
 		currentUIDsFor: self;
 		maildirDiffFetchHeadersFrom: anUID).
 		
-	self ensureFreshness.
 	self emails ifEmpty: [^ self].
+	
+	self checkTopicality.
+	
+	self emails ifEmpty: [^ self].
+
 	self retrieveFlagsFrom: self emails last uniqueID to: self emails first uniqueID

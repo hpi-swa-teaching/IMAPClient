@@ -1,4 +1,4 @@
 accessing
-emails: anOrderedCollection
+emails: aDictionary
 
-	emails := anOrderedCollection
+	emails := aDictionary

@@ -1,4 +1,4 @@
-action - update emails
+updateEmails
 update
 
 	self startUpdateProcess: self highestUniqueID.	

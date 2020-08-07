@@ -1,4 +1,4 @@
-accessing - folder
+folder selection
 emailsOfSelectedFolder
 
 	| emails |
@@ -8,7 +8,8 @@ emailsOfSelectedFolder
 	
 	emails ifEmpty: [^ emails].
 	
-	emails sort: (self sortBlocks at: self sortMethod).
-	self reverseMails ifTrue: [emails reverseInPlace].
-	
-	^ emails select: [:anICEmail | self shouldEmailBeVisible: anICEmail]
+	self filterString notEmpty
+		ifTrue: [^ emails select: [:anICEmail |
+					(self labelForMail: anICEmail) includesSubstring: self filterString caseSensitive: false]].
+		
+	^ emails

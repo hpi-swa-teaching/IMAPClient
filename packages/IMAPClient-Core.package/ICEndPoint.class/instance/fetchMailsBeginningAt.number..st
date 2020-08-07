@@ -1,4 +1,4 @@
-protocol handling - fetch
+fetching
 fetchMailsBeginningAt: aBeginUID number: numberOfMessages 
 
 	| start end possibleUID numberToFetch |

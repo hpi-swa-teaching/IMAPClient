@@ -1,4 +1,4 @@
-protocol handling
+protocol parse
 parseFetchHeaders: headerLines
 
 	| folder parseResult mailCollection |
@@ -17,7 +17,6 @@ parseFetchHeaders: headerLines
 		mail := ICParser parseFetchHeader: message withId: id.
 		mailCollection add: mail.
 		"store the ICMail in the appropriate folder and write it on the disk"
-		mail folder: folder.
-		self readWriter write: mail].
+		mail folder: folder; saveInMaildir].
 	
 	^ mailCollection

@@ -4,7 +4,7 @@ testFetchMailsBeginningAtWithFoundMails
 	| path emailObjects mailAPath mailBPath folderName |
 		
 	emailObjects := self endPoint fetchMailsBeginningAt: 42 number: 2. 
-	folderName := self endPoint rootDirectoryName.	
+	folderName := self endPoint rootFolderName.	
 	path := 'Maildir', FileDirectory slash, folderName, FileDirectory slash, 'inbox'.
 	mailAPath := FileDirectory default fullPathFor: path , FileDirectory slash, '3' .
 	mailBPath := FileDirectory default fullPathFor: path , FileDirectory slash, '4' .

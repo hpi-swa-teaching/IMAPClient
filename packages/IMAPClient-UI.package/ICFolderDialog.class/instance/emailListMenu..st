@@ -1,9 +1,10 @@
-toolbuilder
+folder selection
 emailListMenu: aMenu
 
 	self selectedEmail ifNil: [^ aMenu].
 	
-	self selectedFolder retrieveFlagsFor: self selectedEmail.
+	"update the flags of the mail"
+	self selectedEmail retrieveFlags.
 	
 	aMenu
 		add: ((self selectedEmail seen) 

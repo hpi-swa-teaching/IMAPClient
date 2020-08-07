@@ -1,7 +1,7 @@
 toolbuilder
 emphasizeUnseenMessages: aCollection
-	
+
 	aCollection do: [:anIndentingListItemMorph |
 		anIndentingListItemMorph complexContents item seen
-			ifTrue: [self unemphasize: anIndentingListItemMorph]
-			ifFalse: [self emphasize: anIndentingListItemMorph]]
+			ifTrue: [anIndentingListItemMorph emphasis: 0]
+			ifFalse: [anIndentingListItemMorph emphasis: 9]]

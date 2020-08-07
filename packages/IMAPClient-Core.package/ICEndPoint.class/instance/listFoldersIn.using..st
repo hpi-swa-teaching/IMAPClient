@@ -1,4 +1,4 @@
-protocol handling - fetch
+message handling
 listFoldersIn: root using: filter
 
 	self 

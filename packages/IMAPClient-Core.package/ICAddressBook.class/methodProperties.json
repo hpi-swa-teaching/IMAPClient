@@ -1,8 +1,9 @@
 {
 	"class" : {
-		"new" : "hg 6/24/2020 12:34" },
+		 },
 	"instance" : {
 		"addEmail:" : "LW 6/16/2020 09:51",
+		"change:with:" : "LW 6/16/2020 09:51",
 		"feedMeWithEntries:" : "LW 6/16/2020 09:51",
 		"find:" : "LW 6/16/2020 09:51",
 		"readChildFoldersMailsFrom:" : "LW 6/16/2020 09:50",

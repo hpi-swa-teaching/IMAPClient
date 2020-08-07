@@ -1,4 +1,4 @@
-configuration storage
-removeConfiguration: anAccountInfo
+storage
+removeConfiguration: aDictionary
 
-	^ self basicConnectionConfigurations remove: anAccountInfo
+	^ self basicConnectionConfigurations remove: aDictionary

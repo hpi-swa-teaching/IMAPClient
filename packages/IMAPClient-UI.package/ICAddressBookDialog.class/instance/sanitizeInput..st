@@ -1,4 +1,4 @@
-validating
+action
 sanitizeInput: aString
 	
-	^ aString asString withBlanksTrimmed
+	^ aString asString withBlanksTrimmed.

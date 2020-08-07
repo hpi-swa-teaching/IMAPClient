@@ -1,4 +1,4 @@
-find entries
+as yet unclassified
 testFindEntry
 
 	self addressBook addEmail: self emailAddress.

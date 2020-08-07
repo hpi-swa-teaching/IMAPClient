@@ -1,4 +1,4 @@
 testing
 testLazyInit
 
-	self assert: ICEndPoint connectionConfigurations equals: OrderedCollection new
+	self assert: ICEndPoint connectionConfigurations equals: OrderedCollection new 

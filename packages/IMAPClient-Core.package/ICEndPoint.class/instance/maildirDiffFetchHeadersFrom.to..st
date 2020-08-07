@@ -1,4 +1,4 @@
-protocol handling - fetch
+fetching
 maildirDiffFetchHeadersFrom: start to: end
 
 	| searchBegin searchEnd mailFolder |

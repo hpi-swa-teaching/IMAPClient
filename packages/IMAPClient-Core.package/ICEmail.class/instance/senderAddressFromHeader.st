@@ -1,4 +1,7 @@
 accessing-header
 senderAddressFromHeader
 
-	^ (MailAddressParser addressesIn: self from) first
+	| emailAddress |
+	emailAddress := (MailAddressParser addressesIn: self from) at: 1.
+	
+	^ emailAddress

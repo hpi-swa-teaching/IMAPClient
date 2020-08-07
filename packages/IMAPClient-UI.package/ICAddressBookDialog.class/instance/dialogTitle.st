@@ -1,4 +1,4 @@
-accessing
+toolbuilder
 dialogTitle
 
 	^ 'Address Book'

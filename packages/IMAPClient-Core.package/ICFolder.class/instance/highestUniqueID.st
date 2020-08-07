@@ -1,4 +1,4 @@
-accessing
+updateEmails
 highestUniqueID
 	
 	(self emails) ifEmpty: [^ nil].

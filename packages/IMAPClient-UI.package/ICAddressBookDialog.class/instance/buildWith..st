@@ -6,4 +6,7 @@ buildWith: builder
 			label: self dialogTitle;
 			children: OrderedCollection new;
 			extent: 350 @ 200;
-			children: {self buildAddressBookEntryList: builder.})
+			children: {
+				self buildAddressBookEntryList: builder.
+				self buildAddressBookEntryAddLine: builder.
+				self buildAddAddressBookEntryButton: builder.})

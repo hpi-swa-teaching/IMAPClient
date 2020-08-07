@@ -1,6 +1,6 @@
-action - emails
+flags
 modifyFlag: aFlag
 	
-	self selectedFolder modifyFlag: aFlag for: self selectedEmail.
-	self selectedFolder retrieveFlagsFor: self selectedEmail.
+	self selectedEmail modifyFlag: aFlag.
+	self selectedEmail retrieveFlags.
 	self triggerEmailChanges
