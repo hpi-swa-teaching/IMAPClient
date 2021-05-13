@@ -1,5 +1,4 @@
 action
 addEmail: aString
 
-	self addIfNotPresent: aString
-	
+	self addAllFirstUnlessAlreadyPresent: {aString} asOrderedCollection

@@ -1,0 +1,17 @@
+{
+	"category" : "IMAPClient-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "sf 5/13/2021 08:55",
+	"instvars" : [
+		"instance",
+		"contactName",
+		"email",
+		"addressBookDialog" ],
+	"name" : "ICContactDialog",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

@@ -2,11 +2,15 @@
 	"class" : {
 		"openWith:" : "LW 6/10/2020 13:21" },
 	"instance" : {
+		"addContact" : "sf 5/11/2021 11:01",
 		"addressBook" : "LW 5/27/2020 11:11",
 		"addressBook:" : "LW 5/27/2020 11:11",
 		"addressBookEntriesMenu:" : "LW 8/1/2020 10:38",
-		"buildAddressBookEntryList:" : "hg 7/3/2020 15:49",
-		"buildWith:" : "hg 7/3/2020 15:49",
+		"buildAddressBookEntryList:" : "sf 5/6/2021 11:46",
+		"buildAddressBookPanel:" : "sf 5/6/2021 11:47",
+		"buildButtonAddContact:with:with:with:" : "sf 5/6/2021 11:28",
+		"buildWith:" : "sf 5/6/2021 11:30",
+		"buttonOffset" : "sf 5/6/2021 11:43",
 		"defaultBackgroundColor" : "LW 5/27/2020 11:11",
 		"deleteAddressBookEntry" : "hg 7/3/2020 15:54",
 		"dialogTitle" : "LW 5/27/2020 11:10",

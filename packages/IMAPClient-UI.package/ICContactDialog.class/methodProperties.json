@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"open:" : "sf 5/11/2021 10:59" },
+	"instance" : {
+		"accept" : "sf 5/13/2021 08:51",
+		"acceptLabel" : "sf 5/11/2021 09:45",
+		"addressBookDialog" : "sf 5/11/2021 10:59",
+		"addressBookDialog:" : "sf 5/11/2021 10:59",
+		"buildAcceptButton:" : "sf 5/11/2021 10:09",
+		"buildEmailInputField:" : "sf 5/11/2021 10:09",
+		"buildNameInputField:" : "sf 5/11/2021 09:33",
+		"buildWith:" : "sf 5/13/2021 10:48",
+		"contactName" : "sf 5/11/2021 09:34",
+		"contactName:" : "sf 5/13/2021 08:53",
+		"dialogTitle" : "sf 5/11/2021 09:18",
+		"email" : "sf 5/11/2021 09:34",
+		"email:" : "sf 5/13/2021 08:52",
+		"emailHelpText" : "sf 5/11/2021 09:47",
+		"guiElementHeight" : "sf 5/11/2021 10:12",
+		"guiElementWidth" : "sf 5/11/2021 10:12",
+		"guiElementXOffset" : "sf 5/11/2021 09:35",
+		"guiElementYOffset" : "sf 5/11/2021 09:37",
+		"guiElementYOffsetOf:" : "sf 5/11/2021 09:37",
+		"guiElementYSpacing" : "sf 5/11/2021 10:13",
+		"keyEvent:" : "sf 5/11/2021 10:06",
+		"nameHelpText" : "sf 5/11/2021 09:47" } }
