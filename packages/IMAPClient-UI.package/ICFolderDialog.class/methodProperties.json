@@ -1,6 +1,7 @@
 {
 	"class" : {
 		"addUserIcon" : "fr 7/7/2019 10:43",
+		"connectionClosedFailure" : "JST 5/17/2021 10:23",
 		"install" : "pm 5/24/2019 14:28",
 		"loadEmailBodyFailure" : "tg 7/26/2019 16:19",
 		"open" : "DH 7/19/2018 18:21" },
@@ -65,7 +66,7 @@
 		"numberOfFolders" : "C.G. 7/12/2018 08:15",
 		"numberOfFolders:" : "pm 6/9/2019 17:03",
 		"openAddressBook" : "LW 6/10/2020 11:16",
-		"openEmail:" : "JJ 8/2/2020 15:37",
+		"openEmail:" : "JST 5/15/2021 12:42",
 		"passwordPromtCallback:" : "LW 7/15/2020 11:05",
 		"progressCallback" : "LW 6/3/2020 15:10",
 		"reverseMails" : "NH 6/29/2020 17:16",
@@ -97,5 +98,5 @@
 		"uninitializedAccounts" : "pm 6/9/2019 13:16",
 		"uninitializedAccounts:" : "C.G. 7/25/2018 14:21",
 		"update" : "tg 7/25/2019 11:38",
-		"updateProcess" : "hg 6/16/2020 22:10",
+		"updateProcess" : "JST 5/16/2021 18:15",
 		"userListMenu:" : "NH 8/2/2020 17:24" } }

@@ -4,7 +4,7 @@ checkConnected
 	(self fatalErrorOccured)
 		ifTrue: [^ false].
   
-	self stream isConnected 
+	self isConnected 
 		ifFalse: [
 			self fatalErrorOccured: true.
 			^ false].

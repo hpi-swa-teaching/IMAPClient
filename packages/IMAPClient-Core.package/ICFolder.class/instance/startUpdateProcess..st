@@ -3,8 +3,6 @@ startUpdateProcess: anUID
 
 	(self folderName = 'root') ifTrue: [^self].
 	
-	[anUID
+	anUID
 		ifNil: [self fetchNumberOfLatestEmails: self class numberOfHeadersToFetchAtTheBeginning]
-		ifNotNil: [self fetchHeadersFrom: anUID]]
-	on: Error
-	do: [:e | self inform: e asString]
+		ifNotNil: [self fetchHeadersFrom: anUID]

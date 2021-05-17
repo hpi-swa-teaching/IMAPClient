@@ -1,4 +1,7 @@
 accessing
 body
 
-	^ body ifNil: [body := String empty]
+	(body isNil or: [body isEmpty]) ifTrue: [
+		self retrieveBody].
+	^body.	
+	
