@@ -4,7 +4,7 @@
 	"instance" : {
 		"=" : "hg 7/30/2020 11:06",
 		"asString" : "AR 7/28/2016 14:06",
-		"body" : "JST 5/13/2021 19:10",
+		"body" : "JST 5/20/2021 12:17",
 		"body:" : "pm 6/9/2019 16:34",
 		"bodyAsString" : "AR 7/28/2016 13:58",
 		"contentTransferEncoding" : "C.G. 7/25/2018 13:46",
@@ -32,6 +32,7 @@
 		"messageID" : "ms 7/10/2016 13:59",
 		"messageID:" : "pm 6/9/2019 16:41",
 		"open" : "lvm 5/20/2018 20:10",
+		"readBody" : "JST 5/20/2021 12:14",
 		"retrieveBody" : "JJ 8/2/2020 15:33",
 		"seen" : "C.G. 7/25/2018 13:49",
 		"seen:" : "C.G. 7/25/2018 13:49",
