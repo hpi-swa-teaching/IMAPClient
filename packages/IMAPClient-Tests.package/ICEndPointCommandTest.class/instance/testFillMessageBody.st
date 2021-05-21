@@ -7,5 +7,5 @@ testFillMessageBody
 	email messageID: 42.
 	email uniqueID: 42.
 	
-	self endPoint fillBodyFor: email. 
+	self endPoint getBodyFor: email. 
 	self assert: (email body) equals: self class expectedFetchBody

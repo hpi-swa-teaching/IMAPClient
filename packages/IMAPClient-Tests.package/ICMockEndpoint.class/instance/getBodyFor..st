@@ -1,4 +1,4 @@
 mockMethods
-fillBodyFor: aMail
+getBodyFor: aMail
 	
 	^ self mailBody
