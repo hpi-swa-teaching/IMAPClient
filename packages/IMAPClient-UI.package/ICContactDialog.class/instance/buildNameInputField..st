@@ -6,7 +6,7 @@ buildNameInputField: builder
 		askBeforeDiscardingEdits: false;
 		indicateUnacceptedChanges: false;
 		getText: #contactName;
-		setText: #contactName:;
-		editText: #contactName:;
+		setText: #name:;
+		editText: #name:;
 		help: #nameHelpText;
 		frame: (self guiElementXOffset @ (self guiElementYOffsetOf: 0) extent: self guiElementWidth @ self guiElementHeight)

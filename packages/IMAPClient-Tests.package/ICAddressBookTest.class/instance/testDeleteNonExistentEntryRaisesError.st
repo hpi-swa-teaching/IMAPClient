@@ -1,4 +1,4 @@
 delete entries
 testDeleteNonExistentEntryRaisesError
 
-	self should: [self addressBook remove: self emailAddress] raise: NotFound
+	self should: [self addressBook remove: self emailContact] raise: NotFound

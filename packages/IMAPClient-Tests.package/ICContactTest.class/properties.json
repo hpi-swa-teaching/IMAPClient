@@ -4,11 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "LW 8/1/2020 11:39",
+	"commentStamp" : "",
 	"instvars" : [
-		"addressBook",
-		"emailContact" ],
-	"name" : "ICAddressBookTest",
+		"contact" ],
+	"name" : "ICContactTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

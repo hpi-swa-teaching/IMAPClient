@@ -1,0 +1,8 @@
+{
+	"class" : {
+		"expectedStringRepresentation" : "EG 5/22/2021 14:55" },
+	"instance" : {
+		"contact" : "EG 5/22/2021 14:16",
+		"contact:" : "EG 5/22/2021 14:16",
+		"setUp" : "EG 5/22/2021 14:28",
+		"testAsString" : "EG 5/22/2021 14:55" } }

@@ -1,0 +1,15 @@
+{
+	"category" : "IMAPClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"email",
+		"name" ],
+	"name" : "ICContact",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,4 +1,4 @@
 accessing
 email: aText
 
-	email := aText string
+	contactEmail := aText string

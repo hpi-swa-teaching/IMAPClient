@@ -1,6 +1,8 @@
 initialize
 readChildFoldersMailsFrom: anEmailAccount
 
+	| anICContact |
 	anEmailAccount rootFolder recursiveChildFolders do: [:childFolder |
 			childFolder emails do: [:childFolderEmail | 
-				self addEmail: childFolderEmail senderAddressFromHeader]]
+				anICContact := ICContact newWith: childFolderEmail senderAddressFromHeader with: childFolderEmail senderName.
+				self addEmail: anICContact asString]]

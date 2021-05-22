@@ -1,11 +1,11 @@
 keyboard handling
 keyEvent: aKey
 	
-	| shouldLogin |
+	| shouldAccept |
 	
 	Smalltalk os platformName = 'Win32'
-		ifTrue: [shouldLogin := (aKey keyValue = 13)]
-		ifFalse: [shouldLogin := (aKey keyValue = 36)].
+		ifTrue: [shouldAccept := (aKey keyValue = 13)]
+		ifFalse: [shouldAccept := (aKey keyValue = 36)].
 
-	shouldLogin
+	shouldAccept
 		ifTrue: [self accept]

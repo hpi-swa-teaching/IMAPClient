@@ -8,8 +8,8 @@
 	"instvars" : [
 		"instance",
 		"contactName",
-		"email",
-		"addressBookDialog" ],
+		"addressBookDialog",
+		"contactEmail" ],
 	"name" : "ICContactDialog",
 	"pools" : [
 		 ],

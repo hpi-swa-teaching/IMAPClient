@@ -1,4 +1,4 @@
 accessing
-contactName: aText
+name: aText
 	
 		contactName := aText string

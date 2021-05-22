@@ -1,8 +1,8 @@
 delete entries
 testDeleteEntry
 
-	self addressBook addEmail: self emailAddress.
+	self addressBook addEmail: self emailContact.
 	
-	self addressBook remove: self emailAddress.
+	self addressBook remove: self emailContact.
 	
 	self assert: self addressBook isEmpty
