@@ -1,4 +1,4 @@
 mockMethods
 retrieveBody: anEmail
 
-	anEmail body: self mailBody
+	^ self mailBody

@@ -1,0 +1,2 @@
+mockMethods
+write: anArgument
