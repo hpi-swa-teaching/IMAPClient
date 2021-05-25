@@ -1,4 +1,4 @@
-accessing - user interface
+accessing
 dialogTitle
 
-	^ 'IMAP Overview'
+	^ dialogTitle
