@@ -1,4 +1,4 @@
 constants
 expectedStringRepresentation
 	
-	^ 'Erika Musterfrau erika.musterfrau@rocks.de'
+	^ 'Erika Musterfrau', Character tab, 'erika.musterfrau@rocks.de'
