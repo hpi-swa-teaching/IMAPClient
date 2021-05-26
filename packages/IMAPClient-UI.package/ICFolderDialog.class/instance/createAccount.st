@@ -1,4 +1,4 @@
-accountManagment
+accountManagement
 createAccount
 
 	ICLoginDialog open: self

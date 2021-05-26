@@ -1,4 +1,4 @@
-accountManagment
+accountManagement
 addAccount: anAccountInfo
 	
 	self emailAccounts add: (ICEndPoint new connectAndLoginWith: anAccountInfo).

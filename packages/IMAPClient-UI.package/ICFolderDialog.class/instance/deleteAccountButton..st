@@ -1,4 +1,4 @@
-accountManagment
+accountManagement
 deleteAccountButton: anEndpoint
 
 	ICEndPoint removeConfiguration: anEndpoint accountInfo.
