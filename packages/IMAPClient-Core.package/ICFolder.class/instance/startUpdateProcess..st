@@ -1,10 +1,10 @@
 action - update emails
 startUpdateProcess: anUID
 
-	(self folderName = 'root') ifTrue: [^self].
+	(self folderName = 'root') ifTrue: [^true].
 	
 	[anUID
 		ifNil: [self fetchNumberOfLatestEmails: self class numberOfHeadersToFetchAtTheBeginning]
-		ifNotNil: [self fetchHeadersFrom: anUID]]
+		ifNotNil: [self fetchHeadersFrom: anUID]. ^true]
 	on: Error
-	do: [:e | self inform: e asString]
+	do: [:e | self inform: e asString. ^false]

@@ -1,7 +1,7 @@
 toolbuilder
 buildWith: builder
 
-	self dialogTitle: 'IMAP Overview'.
+	self updateSynchTime.
 	^ builder build: (builder pluggableWindowSpec new
 		model: self;
 		label: #dialogTitle;
