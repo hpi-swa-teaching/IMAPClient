@@ -6,6 +6,5 @@ moveEmail: anEmail to: aFolder
 	
 	self resetDeletedFlagWhenRecovering: anEmail.
 	
-	self sendCommand: (ICCommand moveEmail: anEmail messageID to: aFolder).		
-	self fetchNextResponse.
+	self sendCommand: (ICCommand moveEmail: anEmail messageID to: aFolder).
 	(self rootFolder childFolderNamed: aFolder with: (self hierarchyDelimiter)) update

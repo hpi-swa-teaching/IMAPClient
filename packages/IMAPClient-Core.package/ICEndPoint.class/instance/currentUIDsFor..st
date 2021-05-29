@@ -12,9 +12,7 @@ currentUIDsFor: anICFolder
 	
 	isEmpty
 	ifFalse: [
-		self
-			sendCommand: ICCommand allUIDs;
-			fetchNextResponse.
+		self sendCommand: ICCommand allUIDs.
 		self 
 			uids: ((self lastResponse first subStrings: ' ') asOrderedCollection 
 			removeFirst;

@@ -2,7 +2,6 @@ action - update emails
 fetchNumberOfLatestEmails: aNumber
 
 	| startUID allUIDs |
-	
 	self endpoint currentUIDsFor: self.
 	allUIDs := self endpoint uids.
 	allUIDs ifEmpty: [^ OrderedCollection new].
