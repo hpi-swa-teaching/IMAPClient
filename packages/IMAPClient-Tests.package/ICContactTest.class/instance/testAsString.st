@@ -1,4 +1,4 @@
 test - converting
 testAsString
 
-	self assert: self contact asString equals: (ICContactTest expectedStringRepresentation)
+	self assert: self contact asString equals: self class expectedStringRepresentation

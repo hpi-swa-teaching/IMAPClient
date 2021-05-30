@@ -5,6 +5,6 @@ buildWith: builder
 			model: self;
 			label: self dialogTitle;
 			children: OrderedCollection new;
-			extent: 350 @ 200;
+			extent: 550 @ 400;
 			children: {self buildAddressBookEntryList: builder. 
 						self buildAddressBookPanel: builder})

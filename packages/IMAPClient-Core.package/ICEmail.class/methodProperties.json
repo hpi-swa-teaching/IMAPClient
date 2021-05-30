@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"newFromJsonStream:" : "hg 7/30/2020 09:50" },
+		"newFromJsonStream:" : "hg 7/30/2020 09:50",
+		"senderAddressDelimeters" : "EG 5/30/2021 12:19" },
 	"instance" : {
 		"=" : "hg 7/30/2020 11:06",
 		"asString" : "AR 7/28/2016 14:06",
@@ -35,9 +36,9 @@
 		"retrieveBody" : "JJ 8/2/2020 15:33",
 		"seen" : "C.G. 7/25/2018 13:49",
 		"seen:" : "C.G. 7/25/2018 13:49",
-		"sender" : "EG 5/20/2021 18:51",
+		"sender" : "EG 5/30/2021 12:20",
 		"senderAddressFromHeader" : "LW 8/2/2020 13:58",
-		"senderName" : "EG 5/21/2021 14:56",
+		"senderName" : "EG 5/30/2021 12:20",
 		"serializeToJson" : "hg 7/29/2020 15:25",
 		"subject" : "tg 7/19/2019 11:45",
 		"subject:" : "C.G. 7/25/2018 13:49",
