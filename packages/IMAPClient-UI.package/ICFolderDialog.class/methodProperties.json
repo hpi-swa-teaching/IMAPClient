@@ -1,12 +1,11 @@
 {
 	"class" : {
-		"addAccountIcon" : "lro 5/26/2021 18:49",
-		"addContactIcon" : "lro 5/26/2021 18:19",
-		"contactsIcon" : "lro 5/26/2021 18:38",
+		"addAccountIcon" : "lro 5/31/2021 15:54",
+		"contactsIcon" : "lro 5/31/2021 15:55",
 		"install" : "pm 5/24/2019 14:28",
 		"loadEmailBodyFailure" : "tg 7/26/2019 16:19",
 		"open" : "DH 7/19/2018 18:21",
-		"updateIcon" : "lro 5/26/2021 18:54" },
+		"updateIcon" : "lro 5/31/2021 15:56" },
 	"instance" : {
 		"accountsComplete" : "LW 7/31/2020 11:24",
 		"addAccount:" : "LW 7/31/2020 11:15",
