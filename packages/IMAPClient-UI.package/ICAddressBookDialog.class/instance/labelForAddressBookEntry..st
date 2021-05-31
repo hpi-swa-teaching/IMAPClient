@@ -1,4 +1,4 @@
-accessing
-labelForAddressBookEntry: aEmailAddress
-	
-	^ aEmailAddress
+accessing - contact
+labelForAddressBookEntry: aString
+
+	^	aString
