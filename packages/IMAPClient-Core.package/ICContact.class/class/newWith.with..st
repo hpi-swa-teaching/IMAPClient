@@ -1,8 +1,7 @@
-as yet unclassified
+instance creation
 newWith: anEmail with: aName
 	
-	^ (ICContact new)
+	^ ICContact new
 		email: anEmail;
 		name: aName;
 		yourself
-		

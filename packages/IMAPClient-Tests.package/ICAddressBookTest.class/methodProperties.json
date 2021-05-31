@@ -1,15 +1,18 @@
 {
 	"class" : {
-		 },
+		"emails" : "EG 5/30/2021 12:10" },
 	"instance" : {
-		"addressBook" : "LW 5/13/2020 09:54",
-		"addressBook:" : "LW 5/13/2020 09:54",
-		"emailContact" : "EG 5/22/2021 14:10",
-		"emailContact:" : "EG 5/22/2021 14:10",
-		"setUp" : "EG 5/22/2021 15:08",
-		"testAddEntry" : "EG 5/22/2021 14:44",
-		"testAddEntryDuplicated" : "EG 5/22/2021 14:45",
+		"addressBook" : "EG 5/29/2021 23:22",
+		"addressBook:" : "EG 5/29/2021 23:21",
+		"emailAccounts" : "EG 5/30/2021 12:42",
+		"emailAccounts:" : "EG 5/30/2021 12:42",
+		"emailContact" : "EG 5/29/2021 23:21",
+		"emailContact:" : "EG 5/29/2021 23:21",
+		"setUp" : "EG 5/30/2021 12:22",
+		"testAddEntry" : "EG 5/27/2021 09:47",
+		"testAddEntryDuplicated" : "EG 5/27/2021 09:48",
 		"testDeleteEntry" : "EG 5/22/2021 14:45",
-		"testDeleteNonExistentEntryRaisesError" : "EG 5/22/2021 14:45",
-		"testFindEntry" : "EG 5/22/2021 14:46",
-		"testFindNonExistentEntryRaisesError" : "EG 5/22/2021 14:46" } }
+		"testDeleteNonExistentEntryRaisesError" : "EG 5/29/2021 23:23",
+		"testFeedWithEntries" : "EG 5/30/2021 12:09",
+		"testFindEntry" : "EG 5/29/2021 23:24",
+		"testFindNonExistentEntryRaisesError" : "EG 5/29/2021 23:24" } }

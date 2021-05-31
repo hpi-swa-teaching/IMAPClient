@@ -1,0 +1,1 @@
+An ICContact is a data object holding all relevant data for an ICAddressBook entry. 
