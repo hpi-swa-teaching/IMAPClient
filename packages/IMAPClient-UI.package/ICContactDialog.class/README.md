@@ -1,0 +1,1 @@
+An ICContactDialog is a toolbuilder-based UI for adding contacts to the address book.
