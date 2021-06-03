@@ -18,6 +18,7 @@
 		"emailAccounts" : "LW 6/10/2020 11:20",
 		"emailAccounts:" : "LW 6/10/2020 11:20",
 		"initializeMailEmailAddresses" : "lro 6/3/2021 12:14",
+		"invalidateSorting" : "lro 6/3/2021 20:53",
 		"labelForAddressBookEntry:" : "EG 5/22/2021 15:02",
 		"labelForDeletionAction" : "LW 6/16/2020 10:05",
 		"reverseContacts" : "lro 6/3/2021 12:11",
@@ -27,6 +28,6 @@
 		"sortBlocks" : "lro 6/3/2021 12:12",
 		"sortByMail" : "lro 6/3/2021 12:10",
 		"sortByName" : "lro 6/3/2021 12:10",
-		"sortContactsBy:" : "lro 6/3/2021 12:11",
-		"sortMethod" : "lro 6/3/2021 11:58",
-		"sortMethod:" : "lro 6/3/2021 11:58" } }
+		"sortContactsBy:" : "lro 6/3/2021 20:51",
+		"sortMethod" : "lro 6/3/2021 20:48",
+		"sortMethod:" : "lro 6/3/2021 20:49" } }
