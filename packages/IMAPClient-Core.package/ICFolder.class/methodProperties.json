@@ -21,8 +21,13 @@
 		"endpoint:" : "pm 6/9/2019 16:56",
 		"ensureFreshness" : "JJ 8/2/2020 15:52",
 		"expungeEmails" : "NH 8/2/2020 11:36",
+<<<<<<< HEAD
 		"fetchHeadersFrom:" : "JJ 8/2/2020 15:52",
 		"fetchNumberOfLatestEmails:" : "jng 5/29/2021 17:35",
+=======
+		"fetchEmailsFrom:" : "jng 6/3/2021 15:13",
+		"fetchNumberOfLatestEmails:" : "jng 6/3/2021 13:28",
+>>>>>>> feature/all_mails_fetched
 		"folderName" : "tg 7/19/2019 09:17",
 		"folderName:" : "tg 7/19/2019 09:17",
 		"hierarchyDelimiter" : "ok 7/26/2019 19:02",
@@ -30,7 +35,10 @@
 		"isTrashFolder" : "JJ 6/10/2020 10:47",
 		"loadOlderMails" : "tg 7/26/2019 21:05",
 		"lowestUniqueID" : "pm 6/3/2019 18:34",
+<<<<<<< HEAD
 		"modifyFlag:for:" : "EG 6/3/2021 13:29",
+=======
+>>>>>>> feature/all_mails_fetched
 		"numberOfUnseenMails" : "LW 8/2/2020 14:27",
 		"parent" : "tg 6/25/2019 21:21",
 		"parent:" : "js 6/7/2016 11:32",
@@ -40,10 +48,21 @@
 		"removeFolder:" : "C.G. 7/25/2018 14:03",
 		"removeFolder:ifAbsent:" : "C.G. 7/25/2018 14:04",
 		"removeMail:" : "tg 7/26/2019 21:59",
+<<<<<<< HEAD
+=======
+		"retrieveBodyFor:" : "jng 6/3/2021 13:25",
+>>>>>>> feature/all_mails_fetched
 		"retrieveFlagsFor:" : "JST 5/14/2021 15:28",
 		"retrieveFlagsFrom:to:" : "JST 5/29/2021 18:31",
 		"rootFolder" : "ok 7/26/2019 19:05",
 		"sanitizeMailCollection:" : "LW 5/20/2020 09:49",
+<<<<<<< HEAD
 		"update" : "JNG 5/21/2021 12:30",
 		"startUpdateProcess:" : "EG 5/29/2021 20:46",
+=======
+		"startUpdateProcess:" : "jng 6/3/2021 13:28",
+		"switchFlag:for:to:" : "jng 6/3/2021 15:23",
+		"toggleFlag:for:" : "jng 6/3/2021 15:29",
+		"update" : "JNG 5/21/2021 12:30",
+>>>>>>> feature/all_mails_fetched
 		"updateAndShowProgressWith:" : "LW 6/3/2020 15:13" } }
