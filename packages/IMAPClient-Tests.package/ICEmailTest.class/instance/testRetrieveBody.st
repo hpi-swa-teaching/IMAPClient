@@ -12,4 +12,4 @@ testRetrieveBody
 		   parent: nil.
 	
 	self email folder: folder.
-	self assert: self email retrieveBody equals: self class expectedBody
+	self assert: self email readBody equals: self class expectedBody

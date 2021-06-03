@@ -1,0 +1,14 @@
+{
+	"category" : "IMAPClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Instance" ],
+	"commentStamp" : "sf 5/27/2021 09:12",
+	"instvars" : [
+		 ],
+	"name" : "ICCommandStorage",
+	"pools" : [
+		 ],
+	"super" : "Dictionary",
+	"type" : "normal" }

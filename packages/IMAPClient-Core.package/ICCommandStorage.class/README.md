@@ -1,0 +1,1 @@
+An ICCommandStorage stores the user's commands in offline mode so changes can be sychronized with the server later. It maps every account's hash to a list of commands.

@@ -2,9 +2,7 @@ login
 logout
 
 	self checkConnected.
-	self sendCommand: ICCommand logout.
-	self
-		fetchNextResponse;
-		close.
+	self sendDirectCommand: ICCommand logout.
+	self close.
 
 	^ true

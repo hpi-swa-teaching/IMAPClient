@@ -2,8 +2,7 @@ protocol handling - fetch
 currentUIDs
 
 	self
-		sendCommand: ICCommand allUIDs;
-		fetchNextResponse.
+		sendCommand: ICCommand allUIDs.
 		
 	self 
 		uids: ((self lastResponse first subStrings: ' ') asOrderedCollection 

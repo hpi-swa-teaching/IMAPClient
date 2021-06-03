@@ -3,6 +3,5 @@ refreshConnectionProcess
 
 	[self isConnected and: [self loggedIn]]
 		whileTrue: [
-			self sendCommand: ICCommand noop.
-			self fetchNextResponse.
+			self sendDirectCommand: ICCommand noop..
 			(Delay forSeconds: self class refreshConnectionIntervalInSeconds) wait]

@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"new" : "sf 5/27/2021 11:16" },
+	"instance" : {
+		"add:for:" : "sf 5/27/2021 12:02",
+		"addAccount:" : "jng 6/3/2021 11:22",
+		"getNextCommandFor:" : "jng 5/29/2021 15:09",
+		"isEmptyFor:" : "sf 5/27/2021 12:25",
+		"popNextCommandFor:" : "jng 5/29/2021 15:09" } }

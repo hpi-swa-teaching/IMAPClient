@@ -1,7 +1,7 @@
 accessing - email
 labelForMail: anICEmail
 
-	^	((anICEmail flagged) 
+	^ ((anICEmail flagged) 
 			ifTrue: ['*'] 
 			ifFalse: [' ']),
 		Character tab, 
