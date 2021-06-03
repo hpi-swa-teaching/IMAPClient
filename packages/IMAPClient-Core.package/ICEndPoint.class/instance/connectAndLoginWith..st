@@ -5,5 +5,5 @@ connectAndLoginWith: anICAccountInfo
 	[self 
 		connect;
 		login]
-	valueWithin: 10 seconds 
+	valueWithin: 30 seconds 
 	onTimeout: [self handleTimeout]
