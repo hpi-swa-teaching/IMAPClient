@@ -5,8 +5,4 @@ startUpdateProcess: anUID
 	
 	anUID
 		ifNil: [self fetchNumberOfLatestEmails: self class numberOfHeadersToFetchAtTheBeginning]
-<<<<<<< HEAD
-		ifNotNil: [self fetchHeadersFrom: anUID]
-=======
 		ifNotNil: [self fetchEmailsFrom: anUID]
->>>>>>> feature/all_mails_fetched
