@@ -8,4 +8,4 @@ fetchNumberOfLatestEmails: aNumber
 	(allUIDs size - aNumber) strictlyPositive
 		ifTrue: [startUID := allUIDs at: (allUIDs size - aNumber)]
 		ifFalse: [startUID := (allUIDs first) - 1].
-	self fetchHeadersFrom: startUID
+	self fetchEmailsFrom: startUID
