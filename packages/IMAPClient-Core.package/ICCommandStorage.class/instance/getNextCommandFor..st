@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 getNextCommandFor: anAccount
 
 	^ (self at: anAccount) last

@@ -1,4 +1,4 @@
-as yet unclassified
+undo
 popNextCommandFor: anAccount
 
 	^ (self at: anAccount) removeLast
