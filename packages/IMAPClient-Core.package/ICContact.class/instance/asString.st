@@ -1,4 +1,4 @@
 accessing
 asString
 
-	^ (self name truncateTo: 30), Character tab, self email
+	^ (self name truncateTo: 40), Character tab, self email

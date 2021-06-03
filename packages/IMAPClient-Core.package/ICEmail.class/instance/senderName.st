@@ -3,4 +3,4 @@ senderName
 
 	| fromCollection |
 	fromCollection := self from findBetweenSubStrs: self class senderAddressDelimeters.
-	^ (fromCollection at: 1 ifAbsent: [ '' ])
+	^ ((fromCollection at: 1 ifAbsent: [ '' ]) subStrings: '"') at: 1
