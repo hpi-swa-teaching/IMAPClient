@@ -1,14 +1,14 @@
 {
 	"class" : {
-		"connectionClosedFailure" : "EG 6/3/2021 13:49",
 		"addAccountIcon" : "lro 5/31/2021 15:54",
+		"connectionClosedFailure" : "EG 6/3/2021 13:49",
 		"contactsIcon" : "lro 5/31/2021 15:55",
 		"install" : "pm 5/24/2019 14:28",
 		"loadEmailBodyFailure" : "tg 7/26/2019 16:19",
 		"open" : "DH 7/19/2018 18:21",
 		"updateIcon" : "lro 5/31/2021 15:56" },
 	"instance" : {
-		"accountsComplete" : "JST 5/29/2021 20:45",
+		"accountsComplete" : "JNG 6/3/2021 19:29",
 		"addAccount:" : "LW 7/31/2020 11:15",
 		"addAccountInfoToEndpointConfigWithoutPassword:" : "LW 7/31/2020 11:15",
 		"buildAddAccountButton:" : "lro 5/26/2021 18:21",
@@ -60,8 +60,7 @@
 		"labelForFolder:" : "LW 8/2/2020 14:27",
 		"labelForMail:" : "JST 5/29/2021 20:11",
 		"loadOlderEmails" : "hg 6/4/2020 20:03",
-		"loadOlderEmailsProcess" : "hg 6/6/2020 11:37",
-		"modifyFlag:" : "sf 5/24/2021 11:48",
+		"loadOlderEmailsProcess" : "JNG 6/3/2021 18:32",
 		"moveEmail:" : "NH 7/31/2020 09:25",
 		"numberOfFetchedFolders" : "C.G. 7/12/2018 08:14",
 		"numberOfFetchedFolders:" : "pm 6/9/2019 17:03",
