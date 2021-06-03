@@ -5,4 +5,4 @@ startUpdateProcess: anUID
 	
 	anUID
 		ifNil: [self fetchNumberOfLatestEmails: self class numberOfHeadersToFetchAtTheBeginning]
-		ifNotNil: [self fetchHeadersFrom: anUID]
+		ifNotNil: [self fetchEmailsFrom: anUID]
