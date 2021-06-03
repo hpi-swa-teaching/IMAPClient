@@ -10,8 +10,10 @@ buildAddressBookEntryList: builder
 			setSelected: #selectedAddressBookEntry:;
 			getSelected: #selectedAddressBookEntry;
 			menu: #addressBookEntriesMenu:;
-			frame: (0 @ 0 extent: 1 @ 1);
+			frame: (0 @ self buttonOffset extent:   1 @ (1 - self buttonOffset));
 			color: (Color white);
 			columns: {
 				[:listMorph | (listMorph filteredItems collect: [:item | 
-					item preferredWidthOfColumn: 1]) max].}
+					item preferredWidthOfColumn: 1]) max].
+				[:listMorph | (listMorph filteredItems collect: [:item | 
+					item preferredWidthOfColumn: 2]) max].}

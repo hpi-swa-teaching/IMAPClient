@@ -7,7 +7,8 @@
 	"commentStamp" : "LW 8/1/2020 11:39",
 	"instvars" : [
 		"addressBook",
-		"emailAddress" ],
+		"emailContact",
+		"emailAccounts" ],
 	"name" : "ICAddressBookTest",
 	"pools" : [
 		 ],

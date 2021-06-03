@@ -1,4 +1,4 @@
-accountManagment
+accountManagement
 passwordPromtCallback: anAccountInfo
 	
 	| nextAccount |
