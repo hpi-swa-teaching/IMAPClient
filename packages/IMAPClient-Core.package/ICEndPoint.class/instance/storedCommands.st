@@ -1,4 +1,0 @@
-accessing
-storedCommands
-	
-	^ ICCommandStorage new

@@ -1,5 +1,4 @@
 protocol handling - fetch
 getBodyFor: anEmail
 	
-	self sendCommand: (ICCommand fetchBody: anEmail messageID).
-	^ (ICParser parseFetchBody: self lastResponse)
+	^ self connectionHandler getBodyFor: anEmail messageID

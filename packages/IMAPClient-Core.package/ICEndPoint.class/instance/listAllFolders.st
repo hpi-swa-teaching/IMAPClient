@@ -1,4 +1,4 @@
 protocol handling - fetch
 listAllFolders
 
-	^ self listFoldersIn: String empty using: '*'
+	^ self connectionHandler listFoldersIn: String empty using: '*'

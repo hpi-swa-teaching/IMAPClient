@@ -1,5 +1,5 @@
 connection
 isConnected
 
-	^ self stream isConnected
+	^ self connectionHandler isConnected
 	

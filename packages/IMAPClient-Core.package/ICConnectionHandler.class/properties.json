@@ -1,0 +1,18 @@
+{
+	"category" : "IMAPClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "sf 6/4/2021 11:32",
+	"instvars" : [
+		"stream",
+		"loggedIn",
+		"lastResponse",
+		"accountInfo",
+		"fatalErrorOccured" ],
+	"name" : "ICConnectionHandler",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
