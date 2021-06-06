@@ -1,5 +1,5 @@
 login
 logout
 
-	Error shouldBeImplemented.
-	self connectionHandler logout
+	"Error shouldBeImplemented."
+	^ self connectionHandler logout

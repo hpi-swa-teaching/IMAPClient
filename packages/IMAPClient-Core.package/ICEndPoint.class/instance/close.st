@@ -1,4 +1,4 @@
 connection
 close
 
-	self connectionHandler close
+	^ self connectionHandler close

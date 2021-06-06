@@ -8,7 +8,7 @@ fetchMailsBeginningAt: aBeginUID number: numberOfMessages
 	
 	numberToFetch := numberOfMessages.
 	
-	uids := self connectionHandler currentUIDs.
+	uids := self currentUIDs.
 	possibleUID := uids select: [:uid | uid asNumber < aBeginUID].
 	possibleUID size < numberToFetch
 		ifTrue: [numberToFetch := possibleUID size].

@@ -1,6 +1,6 @@
 connectOn
 testConnectToOn
 	
-	self endPoint accountInfo: self class validAccountInfo.
+	self endPoint connectionHandler accountInfo: self class validAccountInfo.
 	self	shouldnt: [self endPoint connectWith: ICMockSocketStream] 
 		raise: Exception
