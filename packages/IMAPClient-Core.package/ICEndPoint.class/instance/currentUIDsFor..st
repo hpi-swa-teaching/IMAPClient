@@ -9,8 +9,7 @@ currentUIDsFor: aFolder
 	self lastResponse do:
 		[:line | (line findString: 'EXISTS') positive
 			ifTrue: [isEmpty := false]].
-	
+		
 	isEmpty 
 		ifFalse: [^ self currentUIDs ]
 		ifTrue: [^ OrderedCollection new]
-	

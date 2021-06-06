@@ -1,4 +1,4 @@
 accessing
 connectionHandler
 
-	^ connectionHandler ifNil: [ICConnectionHandler new]
+	^ connectionHandler ifNil: [connectionHandler := ICConnectionHandler new]

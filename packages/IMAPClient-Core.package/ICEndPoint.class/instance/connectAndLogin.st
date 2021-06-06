@@ -4,5 +4,5 @@ connectAndLogin
 	[self 
 		connect;
 		login]
-	valueWithin: 30 seconds 
+	valueWithin: 300 seconds 
 	onTimeout: [self connectionHandler handleTimeout]

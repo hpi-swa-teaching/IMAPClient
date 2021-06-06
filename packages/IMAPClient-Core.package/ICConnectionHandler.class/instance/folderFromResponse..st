@@ -1,7 +1,7 @@
 as yet unclassified
 folderFromResponse: responseLine
 
-	| folder folderPath parent namePart|
+	| folder folderPath parent namePart |
 	
 	
 	namePart := (responseLine copyAfter: ICCommand protocolQuote asCharacter).

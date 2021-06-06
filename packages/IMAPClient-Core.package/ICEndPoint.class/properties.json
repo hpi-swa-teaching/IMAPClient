@@ -7,11 +7,11 @@
 	"commentStamp" : "LW 8/2/2020 14:03",
 	"instvars" : [
 		"rootFolder",
-		"hierarchyDelimiter",
 		"currentFolderName",
 		"folderNameOfTrash",
 		"readWriter",
-		"connectionHandler" ],
+		"connectionHandler",
+		"hierarchyDelimiter" ],
 	"name" : "ICEndPoint",
 	"pools" : [
 		 ],
