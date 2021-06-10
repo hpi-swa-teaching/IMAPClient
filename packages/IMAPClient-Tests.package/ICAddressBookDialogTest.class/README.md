@@ -1,0 +1,1 @@
+This class tests the ICAddressBookDialog (especially the sorting feature).
