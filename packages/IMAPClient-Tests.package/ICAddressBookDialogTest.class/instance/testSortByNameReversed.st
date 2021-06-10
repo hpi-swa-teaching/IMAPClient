@@ -3,4 +3,4 @@ testSortByNameReversed
 
 	self addressBookDialog sortByName.
 	self addressBookDialog sortByName.
-	self assert: self addressBook equals: self expectedSortedByName reversed
+	self assert: self addressBook asOrderedCollection equals: self expectedSortedByName reversed

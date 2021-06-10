@@ -7,9 +7,9 @@ setUp
 		  (ICContact newWith: 'info@musterfirma.de' with: 'Musterfirma GmbH') asString.} 
 		asOrderedCollection.
 	
-	self addressBook: (ICAddressBook new: 10).
+	self addressBook: ICAddressBook new.
+	self addressBook removeAll.
 	self addressBook addAll: contactList.
-		
-	self emailAccounts: ICMockEndpoint new asOrderedCollection.
 	
-	self addressBookDialog: (ICAddressBookDialog openWith: emailAccounts)
+	self addressBookDialog: ICAddressBookDialog basicNew.
+	

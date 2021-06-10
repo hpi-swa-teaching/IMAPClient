@@ -12,8 +12,9 @@
 		"emailAccounts:" : "lro 6/10/2021 10:09",
 		"expectedSortedByMail" : "lro 6/10/2021 11:08",
 		"expectedSortedByName" : "lro 6/10/2021 11:08",
-		"setUp" : "lro 6/10/2021 11:05",
-		"testSortByMail" : "lro 6/10/2021 10:18",
-		"testSortByMailReversed" : "lro 6/10/2021 10:19",
-		"testSortByName" : "lro 6/10/2021 10:15",
-		"testSortByNameReversed" : "lro 6/10/2021 10:16" } }
+		"setUp" : "lro 6/10/2021 11:26",
+		"tearDown" : "lro 6/10/2021 11:25",
+		"testSortByMail" : "lro 6/10/2021 11:23",
+		"testSortByMailReversed" : "lro 6/10/2021 11:23",
+		"testSortByName" : "lro 6/10/2021 11:23",
+		"testSortByNameReversed" : "lro 6/10/2021 11:23" } }
