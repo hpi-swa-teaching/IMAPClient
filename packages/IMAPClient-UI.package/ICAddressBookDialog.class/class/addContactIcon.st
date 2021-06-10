@@ -1,5 +1,5 @@
 constants
-addUserIcon
+addContactIcon
 	"The 'user-plus' icon taken from https://fontawesome.com/icons/user-plus as 20@16.
 	Licensed under https://fontawesome.com/license."
 	^ Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes:

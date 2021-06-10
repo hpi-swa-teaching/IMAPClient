@@ -1,0 +1,4 @@
+mockMethods
+isConnected
+
+	^ true

@@ -1,4 +1,4 @@
-accountManagment
+accountManagement
 editAccount: anAccountInfo with: anEndPoint
 	
 	ICEndPoint removeConfiguration: anEndPoint accountInfo.

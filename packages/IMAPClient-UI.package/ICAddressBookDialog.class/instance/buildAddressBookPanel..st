@@ -6,4 +6,4 @@ buildAddressBookPanel: builder
 		model: self;
 		frame: (0.0 @ 0.0 extent: 1 @ self buttonOffset);
 		children: {
-			self buildButton: (0 @ 0 extent: 1 @ 1) with: 'Add Contact' with: #addContact with: builder.}
+			self buildButton: (0 @ 0 extent: 1 @ 1) with: self class addContactIcon with: #addContact with: builder.}

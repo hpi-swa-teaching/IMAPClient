@@ -8,4 +8,4 @@ expectedStringRepresentation
 		'subject: subject text', String cr,
 		'to: receiver', String cr,
 		String cr,
-		'body text', String cr
+		'', String cr

@@ -1,4 +1,4 @@
-accountManagment
+accountManagement
 accountsComplete
 
 	self emailAccounts: (self initializedAccounts collect: [:anAccountInfo | 

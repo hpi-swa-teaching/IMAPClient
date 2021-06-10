@@ -1,4 +1,4 @@
-accountManagment
+accountManagement
 triggerEmailChanges
 
 	self 

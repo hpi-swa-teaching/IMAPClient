@@ -1,0 +1,14 @@
+{
+	"category" : "IMAPClient-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "sf 5/27/2021 09:00",
+	"instvars" : [
+		 ],
+	"name" : "ICMockReadWriter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

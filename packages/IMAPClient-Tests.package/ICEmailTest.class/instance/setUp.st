@@ -2,7 +2,7 @@ running
 setUp
 
 	self email: (ICEmail new
-		body: 'body text';
+		body: '';
 		subject: 'subject text';
 		from: 'Sender <sender@address.de>';
 		to: 'receiver';

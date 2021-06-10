@@ -1,4 +1,4 @@
-accountManagment
+accountManagement
 addAccountInfoToEndpointConfigWithoutPassword: anAccountInfo
 	
 	anAccountInfo eraseStoredPassword.

@@ -1,0 +1,13 @@
+constants
+contactsIcon
+	"The 'users' icon taken from https://fontawesome.com/icons/users as 20@16.
+	Licensed under https://fontawesome.com/license."
+	^ Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes:
+'iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAB2
+AAAAdgFOeyYIAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48G
+gAAAPNJREFUOI2907FKA1EQBdATY2cTe/UX1MJerExs/BZt7WwFwUr9CT/CIAELLS0
+lIX5ChGDQYudhXF5214AOXNh3d+7d4c5b/rnWcYs3jHGDzrJmqxjgs4QB2nXiHkaBb
+nBHGbOEXoWOIFLzMLjTCsOTRbqViqlflnxHjDsMHAbXls/wwXeGOV1ldRSbHQeuNdhy
+CjZN8IrNBh/bit6kG6HbioeNaPrAMd5xjh084REt7AX3jDOs4U5xxYTXj3wucYCZxRtOm
+GEfVyVef+6wrQi9ziyhj925830um8kvDCdlce4e1v5WVfqc4QWmDcym0fu39QUzEX
+R8pRswOgAAAABJRU5ErkJggg==' readStream)
