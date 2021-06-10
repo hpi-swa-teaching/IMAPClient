@@ -1,6 +1,6 @@
 action - emails
-openEmail: anICEmail
+openEmail: anEmail
 	
-	anICEmail open.
-	self selectedFolder switchFlag: #seen for: anICEmail to: true.
-	self triggerEmailChanges.
+	ICEmailDialog openWith: anEmail.
+	self selectedFolder switchFlag: #seen for: anEmail to: true.
+	self triggerEmailChanges

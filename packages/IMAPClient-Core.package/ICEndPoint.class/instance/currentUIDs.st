@@ -3,7 +3,9 @@ currentUIDs
 
 	self connectionHandler allUIDs.
 		
-	^ (self lastResponse first subStrings: ' ') asOrderedCollection 
-		removeFirst;
-		removeFirst; 
-		yourself
+	"self isConnected 
+		ifTrue: ["^ (self lastResponse first subStrings: ' ') asOrderedCollection 
+			removeFirst;
+			removeFirst; 
+			yourself"]
+		ifFalse: [^ OrderedCollection new.]"

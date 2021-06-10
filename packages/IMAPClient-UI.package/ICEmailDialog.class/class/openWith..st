@@ -1,4 +1,4 @@
 instance creation
-openWith: email
+openWith: anEmail
 
-	^ ToolBuilder default open: (self new email: email)
+	^ ToolBuilder default open: (self new email: anEmail)
