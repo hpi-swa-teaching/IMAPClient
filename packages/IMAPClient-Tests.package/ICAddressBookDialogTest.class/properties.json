@@ -1,0 +1,17 @@
+{
+	"category" : "IMAPClient-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lro 6/10/2021 09:56",
+	"instvars" : [
+		"addressBook",
+		"addressBookDialog",
+		"contactList",
+		"emailAccounts" ],
+	"name" : "ICAddressBookDialogTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
