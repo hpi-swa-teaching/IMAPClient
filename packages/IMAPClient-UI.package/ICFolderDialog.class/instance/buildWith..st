@@ -1,9 +1,10 @@
 toolbuilder
 buildWith: builder
 
+	self updateSynchTime.
 	^ builder build: (builder pluggableWindowSpec new
 		model: self;
-		label: self dialogTitle;
+		label: #dialogTitle;
 		closeAction: #closeConnection;
 		extent: 1200 @ 600;
 		children: {
