@@ -1,7 +1,7 @@
-# IMAPClient [![Build Status](https://travis-ci.org/hpi-swa-teaching/IMAPClient.svg?branch=develop)](https://travis-ci.org/hpi-swa-teaching/IMAPClient) [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/IMAPClient/badge.svg?branch=develop)](https://coveralls.io/github/hpi-swa-teaching/IMAPClient?branch=develop)
+# IMAPClient [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/IMAPClient/badge.svg?branch=develop)](https://coveralls.io/github/hpi-swa-teaching/IMAPClient?branch=develop)
  
 Welcome to our IMAP Client project. We are a team of 4th semester IT-Systems Engineering students and are happy to take over this project for the sixth iteration.
-This project is part of a lecture in Softwareengineering techniques and will be contributing to our final grade, so we are giving it our best ;)
+This project is part of a lecture in Software Engineering techniques and will be contributing to our final grade, so we are giving it our best ;)
 As this is a student project, it will mostly be worked on during the summer terms. Therefore our time with this project is limited to the end of july.
 
 In case of any questions, feel free to contact us.
@@ -97,7 +97,7 @@ After closing the IMAP-Client and reopening it your are welcomed by a password p
 As this project has lived through many iterations, there are a couple of known issues that we could not resolve during the few months we spend with this project. 
 If you encounter any problem while using our IMAP client, have a look at the Issues of this GitHub Project. Most of them are probably already known to us.
 In case your problem has not been reported yet, feel free to post a new issue and describe what you did to get the problem, what the unexpected behaviour was and what behaviour you would have expected. 
-Thank you in anvance for contributing to making this project better by reporting any problems that we are not yet aware of!
+Thank you in advance for contributing to making this project better by reporting any problems that we are not yet aware of!
 
 ## Documentation
 
@@ -113,3 +113,5 @@ Hava a look at the GitHub Project Wiki to find more insights into the project.
 2019: Paul Methfessel, Martin Taraz, Otto Kissig, Tim Garrels, Felix Rindt
 
 2020: Henrik Guhl, Lorenz Woth, Niko Hastrich, Julia Joch
+
+2021: Smilla Fox, Elena Gensch, Jan Groeneveld, Christian Helms, Lukas Rost, Johann Schulze Tast
