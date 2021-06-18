@@ -2,7 +2,7 @@ accountManagement
 accountsComplete
 
 	self emailAccounts: (self initializedAccounts collect: [:anAccountInfo | 
-		ICEndPoint new connectAndLoginWith: anAccountInfo]).
+		(ICEndPoint newWith: anAccountInfo) connectAndLogin]).
 	
 	"let all Endpoints preload their file structure and configure them to prevent timeouts"
 	self emailAccounts do: [:endpoint |

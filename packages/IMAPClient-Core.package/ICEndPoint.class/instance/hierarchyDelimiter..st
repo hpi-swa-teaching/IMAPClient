@@ -1,6 +1,4 @@
 accessing
-hierarchyDelimiter: aSymbol
+hierarchyDelimiter: anObject
 
-	hierarchyDelimiter := aSymbol
-
-	
+	hierarchyDelimiter := anObject

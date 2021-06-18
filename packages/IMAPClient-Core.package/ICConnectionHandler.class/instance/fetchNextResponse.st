@@ -1,4 +1,4 @@
-protocol handling - fetch
+fetch
 fetchNextResponse
 	
 	| multiLineResponse |

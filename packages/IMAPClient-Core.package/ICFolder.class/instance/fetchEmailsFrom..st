@@ -1,9 +1,7 @@
 action - update emails
 fetchEmailsFrom: anUID
 	
-	self emails addAll: (self endpoint
-		currentUIDsFor: self;
-		maildirDiffFetchHeadersFrom: anUID).
+	self emails addAll: (self endpoint maildirDiffFetchHeadersFor: self from: anUID).
 		
 	self ensureFreshness.
 	self emails ifEmpty: [^ self].

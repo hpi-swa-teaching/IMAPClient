@@ -12,6 +12,6 @@ maildirDiffFetchHeadersFrom: start to: end
 			(searchBegin notEmpty and: [searchEnd notEmpty])
 				ifTrue: [^ OrderedCollection new]].
 
-     ^ self
-       	sendCommand: (ICCommand fetchHeadersForUIDsFrom: start to: end);
-		parseFetchHeaders: self lastResponse
+     self connectionHandler fetchHeadersForUIDsFrom: start to: end.
+
+	^ self parseFetchHeaders: self lastResponse

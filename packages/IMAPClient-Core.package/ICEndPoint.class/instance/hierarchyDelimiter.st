@@ -2,4 +2,3 @@ accessing
 hierarchyDelimiter
 
 	^ hierarchyDelimiter
-	

@@ -1,4 +1,4 @@
-accessing
+connection
 storedCommands
 	
 	^ ICCommandStorage new

@@ -1,4 +1,4 @@
-error handling
+connection
 checkConnected
 	
 	(self fatalErrorOccured)

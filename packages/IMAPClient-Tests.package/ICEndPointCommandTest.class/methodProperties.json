@@ -22,13 +22,13 @@
 		"endPoint:" : "pm 6/9/2019 17:17",
 		"rootFolder" : "C.G. 7/25/2018 17:54",
 		"rootFolder:" : "pm 6/9/2019 17:17",
-		"setUp" : "JJ 8/2/2020 18:51",
+		"setUp" : "JST 6/6/2021 18:37",
 		"tearDown" : "hg 7/29/2020 10:50",
 		"testFetchMailsBeginningAtWithFoundMails" : "hg 7/29/2020 10:50",
 		"testFetchMailsBeginningAtWithoutFoundMails" : "mt 7/26/2019 14:46",
 		"testFillMessageBody" : "JNG 5/24/2021 10:11",
 		"testFillMessageBodyWithMultilineBody" : "JNG 5/24/2021 10:11",
-		"testListAllFolders" : "DH 4/27/2018 02:35",
-		"testLogout" : "jwe 6/21/2016 10:15",
+		"testListAllFolders" : "JST 6/6/2021 18:39",
+		"testLogout" : "JST 6/6/2021 23:36",
 		"testRetrieveFlagsOnly" : "JJ 7/31/2020 14:13",
-		"testSelectInbox" : "C.G. 7/25/2018 18:00" } }
+		"testSelectInbox" : "JST 6/6/2021 18:40" } }

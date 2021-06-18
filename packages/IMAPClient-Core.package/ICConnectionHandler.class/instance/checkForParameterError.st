@@ -1,4 +1,4 @@
-error handling
+connection
 checkForParameterError
 	
 	(self fatalErrorOccured)

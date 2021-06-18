@@ -1,15 +1,15 @@
 protocol handling - fetch
 fetchMailsBeginningAt: aBeginUID number: numberOfMessages 
 
-	| start end possibleUID numberToFetch |
+	| uids start end possibleUID numberToFetch |
 	
 	"aBeginUID is the last known UID of the folder. numberOfMessages is the number
 	 of messages which should be fetched starting at this UID"
 	
 	numberToFetch := numberOfMessages.
 	
-	self currentUIDs.
-	possibleUID := self uids select: [:uid | uid asNumber < aBeginUID].
+	uids := self currentUIDs.
+	possibleUID := uids select: [:uid | uid asNumber < aBeginUID].
 	possibleUID size < numberToFetch
 		ifTrue: [numberToFetch := possibleUID size].
 		
@@ -21,3 +21,4 @@ fetchMailsBeginningAt: aBeginUID number: numberOfMessages
 	end := possibleUID last.
 			
 	^ self maildirDiffFetchHeadersFrom: start asString to: end asString
+	

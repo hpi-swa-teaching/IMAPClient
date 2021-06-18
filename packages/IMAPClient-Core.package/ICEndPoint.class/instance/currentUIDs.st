@@ -1,11 +1,9 @@
-protocol handling - fetch
+accessing
 currentUIDs
 
-	self
-		sendCommand: ICCommand allUIDs.
+	self connectionHandler allUIDs.
 		
-	self 
-		uids: ((self lastResponse first subStrings: ' ') asOrderedCollection 
-		removeFirst;
-		removeFirst; 
-		yourself)
+	^ (self lastResponse first subStrings: ' ') asOrderedCollection 
+			removeFirst;
+			removeFirst; 
+			yourself
