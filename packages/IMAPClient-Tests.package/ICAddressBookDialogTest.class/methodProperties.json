@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addressBook" : "lro 6/10/2021 09:58",
+		"addressBook:" : "lro 6/10/2021 09:58",
+		"addressBookDialog" : "lro 6/10/2021 09:59",
+		"addressBookDialog:" : "lro 6/10/2021 09:59",
+		"contactList" : "lro 6/10/2021 09:59",
+		"contactList:" : "lro 6/10/2021 09:59",
+		"emailAccounts" : "lro 6/10/2021 10:09",
+		"emailAccounts:" : "lro 6/10/2021 10:09",
+		"expectedSortedByMail" : "lro 6/10/2021 11:08",
+		"expectedSortedByName" : "lro 6/10/2021 11:08",
+		"setUp" : "lro 6/10/2021 11:26",
+		"tearDown" : "lro 6/10/2021 11:25",
+		"testSortByMail" : "lro 6/10/2021 11:23",
+		"testSortByMailReversed" : "lro 6/10/2021 11:23",
+		"testSortByName" : "lro 6/10/2021 11:23",
+		"testSortByNameReversed" : "lro 6/10/2021 11:23" } }
