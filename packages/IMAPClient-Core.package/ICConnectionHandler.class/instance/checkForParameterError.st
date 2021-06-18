@@ -1,4 +1,4 @@
-as yet unclassified
+connection
 checkForParameterError
 	
 	(self fatalErrorOccured)

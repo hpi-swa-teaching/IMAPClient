@@ -1,4 +1,4 @@
-as yet unclassified
+login
 throwErrorIfNotLoggedIn
 	
 	(self checkConnected) ifFalse: [

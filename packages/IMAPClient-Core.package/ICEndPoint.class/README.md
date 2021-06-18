@@ -1,4 +1,4 @@
-An ICEndPoint is main class for our framework, handling server communication.
+An ICEndPoint is handling access to server communication and file system storage.
 
 Instance Variables
 	stream:					Contains an ICStreamWrapper, resembling the connection to the server.

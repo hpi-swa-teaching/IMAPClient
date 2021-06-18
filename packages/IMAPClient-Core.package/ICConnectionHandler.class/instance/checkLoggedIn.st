@@ -1,4 +1,4 @@
-as yet unclassified
+connection
 checkLoggedIn
   
 	(self fatalErrorOccured)

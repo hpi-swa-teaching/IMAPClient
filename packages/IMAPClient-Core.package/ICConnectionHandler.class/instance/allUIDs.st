@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 allUIDs
 
 	self sendCommand: ICCommand allUIDs.

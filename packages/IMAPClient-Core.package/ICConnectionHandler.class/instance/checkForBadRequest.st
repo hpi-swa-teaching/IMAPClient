@@ -1,4 +1,4 @@
-as yet unclassified
+connection
 checkForBadRequest
 
 	(self fatalErrorOccured)

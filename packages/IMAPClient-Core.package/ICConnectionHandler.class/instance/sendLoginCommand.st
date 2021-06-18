@@ -1,4 +1,4 @@
-as yet unclassified
+login
 sendLoginCommand
 	
 	self sendDirectCommand: (ICCommand loginWith: self accountInfo).

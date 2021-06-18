@@ -1,4 +1,4 @@
-as yet unclassified
+fetch
 getBodyFor: aMessageID
 
 	self sendCommand: (ICCommand fetchBody: aMessageID).

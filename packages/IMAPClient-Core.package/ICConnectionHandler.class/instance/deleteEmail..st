@@ -1,4 +1,4 @@
-as yet unclassified
+delete
 deleteEmail: aMessageID
 
 	self sendCommand: (ICCommand deleteEmail: aMessageID)

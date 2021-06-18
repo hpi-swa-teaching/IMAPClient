@@ -1,4 +1,4 @@
-as yet unclassified
+connection
 storedCommands
 	
 	^ ICCommandStorage new
