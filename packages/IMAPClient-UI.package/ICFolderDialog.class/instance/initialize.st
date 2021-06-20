@@ -1,8 +1,7 @@
 initialize
 initialize 
 
-	self uninitializedAccounts: ICEndPoint connectionConfigurations.
+	self emailAccounts: ((ICEndPoint connectionConfigurations) collect: [:anAccountInfo | 
+		(ICEndPoint newWith: anAccountInfo) readEmailsFromDisk]).
 
-	(self uninitializedAccounts) 
-		ifEmpty: [self accountsComplete]
-		ifNotEmpty: [ICPasswordDialog openWith: (self uninitializedAccounts first) and: self]
+	ToolBuilder default open: self
