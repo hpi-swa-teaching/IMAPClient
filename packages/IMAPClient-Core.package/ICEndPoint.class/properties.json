@@ -4,19 +4,14 @@
 		 ],
 	"classvars" : [
 		"ConnectionConfigurations" ],
-	"commentStamp" : "LW 8/2/2020 14:03",
+	"commentStamp" : "EG 6/18/2021 10:54",
 	"instvars" : [
-		"stream",
-		"accountInfo",
-		"loggedIn",
 		"rootFolder",
-		"lastResponse",
-		"uids",
-		"hierarchyDelimiter",
 		"currentFolderName",
-		"fatalErrorOccured",
 		"folderNameOfTrash",
-		"readWriter" ],
+		"readWriter",
+		"connectionHandler",
+		"hierarchyDelimiter" ],
 	"name" : "ICEndPoint",
 	"pools" : [
 		 ],

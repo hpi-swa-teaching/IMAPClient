@@ -1,4 +1,4 @@
-error handling
+connection
 checkForBadRequest
 
 	(self fatalErrorOccured)
@@ -6,6 +6,7 @@ checkForBadRequest
   
 	(ICParser responseIsError: self stream lastResponse) ifTrue: [
 		self fatalErrorOccured: true.
-		^ Error signal: self class errorBadProtocol].
+		self inform: 'Wrong username or password'.
+		^ true].
  
 	^ false

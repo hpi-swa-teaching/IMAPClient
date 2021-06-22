@@ -1,4 +1,4 @@
 connection
 connect
 
-	self connectWith: self class defaultStreamClass
+	self connectionHandler connect

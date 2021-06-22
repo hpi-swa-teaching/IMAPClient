@@ -1,4 +1,4 @@
-login
+connection
 checkLoggedIn
   
 	(self fatalErrorOccured)

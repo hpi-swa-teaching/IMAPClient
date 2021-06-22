@@ -1,8 +1,4 @@
 login
 logout
 
-	self checkConnected.
-	self sendDirectCommand: ICCommand logout.
-	self close.
-
-	^ true
+	^ self connectionHandler logout

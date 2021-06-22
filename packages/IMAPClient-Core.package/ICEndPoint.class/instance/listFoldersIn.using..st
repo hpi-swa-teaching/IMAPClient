@@ -1,10 +1,6 @@
-protocol handling - fetch
+storage
 listFoldersIn: root using: filter
-
-	self 
-		checkConnected;
-		checkLoggedIn.
 		
-	self sendCommand: (ICCommand listSubfoldersOf: root filterBy: filter).
+	self connectionHandler listSubfoldersOf: root filterBy: filter.
 		
 	^ self parseListResponse

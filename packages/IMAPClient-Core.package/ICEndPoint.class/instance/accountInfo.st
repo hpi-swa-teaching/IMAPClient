@@ -1,4 +1,4 @@
 accessing
 accountInfo
 
-	^ accountInfo ifNil: [accountInfo := ICAccountInfo new]
+	^ self connectionHandler accountInfo
