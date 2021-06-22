@@ -8,7 +8,7 @@
 		"open" : "DH 7/19/2018 18:21",
 		"updateIcon" : "lro 5/31/2021 15:56" },
 	"instance" : {
-		"accountsComplete" : "sf 6/4/2021 14:13",
+		"accountsComplete" : "EG 6/22/2021 21:00",
 		"addAccount:" : "sf 6/4/2021 14:14",
 		"addAccountInfoToEndpointConfigWithoutPassword:" : "LW 7/31/2020 11:15",
 		"buildAddAccountButton:" : "lro 6/10/2021 12:05",
@@ -55,7 +55,7 @@
 		"folderNameOf:" : "tg 7/26/2019 22:03",
 		"folderTreeMenu:" : "NH 8/2/2020 17:23",
 		"folderWith:" : "EG 6/20/2021 22:01",
-		"initialize" : "EG 6/19/2021 00:40",
+		"initialize" : "EG 6/22/2021 21:46",
 		"initializedAccounts" : "C.G. 7/25/2018 14:18",
 		"labelForAccount:" : "LW 8/2/2020 14:27",
 		"labelForFolder:" : "LW 8/2/2020 14:27",
