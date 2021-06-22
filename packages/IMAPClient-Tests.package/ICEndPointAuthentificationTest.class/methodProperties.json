@@ -13,9 +13,9 @@
 	"instance" : {
 		"endPoint" : "AR 5/31/2016 21:33",
 		"endPoint:" : "pm 6/9/2019 17:16",
-		"setUp" : "lro 6/17/2021 12:15",
+		"setUp" : "lro 6/22/2021 11:12",
 		"tearDown" : "js 6/7/2016 09:40",
-		"testErasePassword" : "lro 6/17/2021 12:16",
+		"testErasePassword" : "lro 6/22/2021 11:11",
 		"testLogin" : "JST 6/6/2021 18:31",
 		"testLoginWithInvalidPassword" : "JST 6/6/2021 18:32",
 		"testLoginWithInvalidUsername" : "JST 6/6/2021 18:32" } }

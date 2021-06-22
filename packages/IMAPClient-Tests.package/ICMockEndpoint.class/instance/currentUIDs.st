@@ -1,3 +1,4 @@
 mockMethods
 currentUIDs
 
+	 ^ self uids

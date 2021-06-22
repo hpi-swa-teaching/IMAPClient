@@ -19,5 +19,5 @@ setUp
 		password: 'superSecure';
 		ssl: true).
 	
-	self endPoint accountInfo: accountInfo.
+	self endPoint connectionHandler accountInfo: accountInfo.
 	self endPoint class addConfiguration: accountInfo
