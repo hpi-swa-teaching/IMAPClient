@@ -8,7 +8,7 @@
 		"open" : "DH 7/19/2018 18:21",
 		"updateIcon" : "lro 5/31/2021 15:56" },
 	"instance" : {
-		"accountsComplete" : "EG 6/22/2021 21:00",
+		"accountsComplete" : "EG 6/22/2021 22:26",
 		"addAccount:" : "sf 6/4/2021 14:14",
 		"addAccountInfoToEndpointConfigWithoutPassword:" : "LW 7/31/2020 11:15",
 		"buildAddAccountButton:" : "lro 6/10/2021 12:05",
@@ -69,7 +69,7 @@
 		"numberOfFolders:" : "pm 6/9/2019 17:03",
 		"openAddressBook" : "LW 6/10/2020 11:16",
 		"openEmail:" : "JST 6/10/2021 09:52",
-		"passwordPromtCallback:" : "JST 5/29/2021 21:07",
+		"passwordPromtCallback:" : "EG 6/23/2021 08:44",
 		"progressCallback" : "LW 6/3/2020 15:10",
 		"reverseMails" : "NH 6/29/2020 17:16",
 		"reverseMails:" : "NH 6/29/2020 17:09",

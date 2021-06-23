@@ -8,6 +8,4 @@ passwordPromtCallback: anAccountInfo
 		(account accountName) = (anAccountInfo accountName)].
 	(self uninitializedAccounts at: nextAccount) ifNotNil: [self uninitializedAccounts removeAt: nextAccount].
 	
-	(self uninitializedAccounts isEmpty)
-		ifTrue: [self accountsComplete]
-		ifFalse: [ICPasswordDialog openWith: (self uninitializedAccounts first) and: self]
+	self emailAccounts add: ((ICEndPoint newWith: anAccountInfo) connectAndLogin).
