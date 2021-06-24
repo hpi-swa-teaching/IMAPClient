@@ -6,7 +6,6 @@ login
 	
 	self connectionHandler sendLoginCommand.
 	
-	"(self throwErrorIfNotLoggedIn) ifFalse: [^ false]."
-
-	(ICFileReadWriter newWith: self) readEmailsFromDisk.
+	(self connectionHandler throwErrorIfNotLoggedIn) ifFalse: [^ false].
+	
 	^ true

@@ -10,7 +10,9 @@ passwordPromtCallback: anAccountInfo
 		(account accountInfo accountName) = (anAccountInfo accountName)].
 	(self emailAccounts at: nextAccount) ifNotNil: [self emailAccounts removeAt: nextAccount].
 	
-	BreakPoint break.
-	
 	self emailAccounts add: ((ICEndPoint newWith: anAccountInfo) connectAndLogin).
 	self uninitializedAccounts ifNotEmpty: [ICPasswordDialog openWith: (self uninitializedAccounts first) and: self].
+	
+	 self emailAccounts do: [:endpoint |
+		self folderWith: endpoint.
+		endpoint preventTimeout].

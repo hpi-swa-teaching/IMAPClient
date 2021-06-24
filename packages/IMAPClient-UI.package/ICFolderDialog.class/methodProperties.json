@@ -8,7 +8,6 @@
 		"open" : "DH 7/19/2018 18:21",
 		"updateIcon" : "lro 5/31/2021 15:56" },
 	"instance" : {
-		"accountsComplete" : "EG 6/22/2021 22:26",
 		"addAccount:" : "sf 6/4/2021 14:14",
 		"addAccountInfoToEndpointConfigWithoutPassword:" : "LW 7/31/2020 11:15",
 		"buildAddAccountButton:" : "lro 6/10/2021 12:05",
@@ -68,7 +67,7 @@
 		"numberOfFolders:" : "pm 6/9/2019 17:03",
 		"openAddressBook" : "LW 6/10/2020 11:16",
 		"openEmail:" : "JST 6/10/2021 09:52",
-		"passwordPromtCallback:" : "EG 6/23/2021 13:09",
+		"passwordPromtCallback:" : "EG 6/24/2021 08:45",
 		"progressCallback" : "LW 6/3/2020 15:10",
 		"reverseMails" : "NH 6/29/2020 17:16",
 		"reverseMails:" : "NH 6/29/2020 17:09",
@@ -101,7 +100,7 @@
 		"unemphasize:" : "hg 8/2/2020 15:41",
 		"uninitializedAccounts" : "pm 6/9/2019 13:16",
 		"uninitializedAccounts:" : "C.G. 7/25/2018 14:21",
-		"update" : "tg 7/25/2019 11:38",
+		"update" : "EG 6/24/2021 08:51",
 		"updateProcess" : "c.h. 5/27/2021 12:16",
 		"updateSynchTime" : "c.h. 5/27/2021 12:09",
 		"userListMenu:" : "NH 8/2/2020 17:24" } }
