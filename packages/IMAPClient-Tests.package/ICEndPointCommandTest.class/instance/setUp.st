@@ -6,6 +6,7 @@ setUp
 	self endPoint: ICEndPoint new.
 	self rootFolder: ICFolder new.
 	self rootFolder endpoint: self endPoint.
+	self endPoint connectionHandler storedCommands: ICMockCommandStorage new.
 	
 	subfolder := ICFolder named: 'inbox' in: self rootFolder with: self endPoint.
 	

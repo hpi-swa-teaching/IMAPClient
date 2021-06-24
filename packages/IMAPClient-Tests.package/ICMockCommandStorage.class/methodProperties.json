@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"add:for:" : "sf 6/24/2021 15:56",
+		"addAccount:" : "sf 6/24/2021 15:56",
+		"getNextCommandFor:" : "sf 6/24/2021 15:56",
+		"isEmptyFor:" : "sf 6/24/2021 15:56",
+		"popNextCommandFor:" : "sf 6/24/2021 15:56" } }

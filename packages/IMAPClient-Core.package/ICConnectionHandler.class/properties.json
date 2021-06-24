@@ -10,7 +10,8 @@
 		"loggedIn",
 		"lastResponse",
 		"accountInfo",
-		"fatalErrorOccured" ],
+		"fatalErrorOccured",
+		"storedCommands" ],
 	"name" : "ICConnectionHandler",
 	"pools" : [
 		 ],
