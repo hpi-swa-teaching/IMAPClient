@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "sf 6/24/2021 15:56",
+	"commentStamp" : "",
 	"instvars" : [
 		 ],
 	"name" : "ICMockCommandStorage",
 	"pools" : [
 		 ],
-	"super" : "Dictionary",
+	"super" : "ICCommandStorage",
 	"type" : "normal" }

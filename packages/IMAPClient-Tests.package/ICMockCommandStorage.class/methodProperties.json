@@ -1,9 +1,5 @@
 {
 	"class" : {
-		 },
+		"new" : "EG 6/25/2021 11:19" },
 	"instance" : {
-		"add:for:" : "sf 6/24/2021 15:56",
-		"addAccount:" : "sf 6/24/2021 15:56",
-		"getNextCommandFor:" : "sf 6/24/2021 15:56",
-		"isEmptyFor:" : "sf 6/24/2021 15:56",
-		"popNextCommandFor:" : "sf 6/24/2021 15:56" } }
+		 } }

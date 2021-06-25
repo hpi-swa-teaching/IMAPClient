@@ -1,1 +1,0 @@
-Mock CommandStorage for testing. Uses the same methods as ICCommandStorage but isn't a singleton.
