@@ -1,5 +1,5 @@
 accessing
-testRetrieveBody
+testReadBody
 
 	| folder endpoint |
 	
@@ -12,4 +12,4 @@ testRetrieveBody
 		   parent: nil.
 	
 	self email folder: folder.
-	self assert: (folder retrieveBodyFor: email) equals: self class expectedBody
+	self assert: (self email readBody) equals: self class expectedBody
