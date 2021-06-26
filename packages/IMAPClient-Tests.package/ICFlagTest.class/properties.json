@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "sf 5/27/2021 09:01",
 	"instvars" : [
-		"email" ],
+		"emails",
+		"folder" ],
 	"name" : "ICFlagTest",
 	"pools" : [
 		 ],
