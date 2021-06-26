@@ -1,7 +1,7 @@
 login
 login
  
-	self accountInfo password: self password asString.
+	self accountInfo password: (Project uiManager requestPassword: 'Please enter your password!').
 		
 	((ICEndPoint new) testAccountWith: self accountInfo)
 		ifTrue: [

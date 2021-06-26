@@ -2,9 +2,6 @@ accountManagement
 passwordPromtCallback: anAccountInfo
 	
 	| nextAccount |	
-	nextAccount := self uninitializedAccounts findFirst: [:account | 
-		(account accountName) = (anAccountInfo accountName)].
-	(self uninitializedAccounts at: nextAccount) ifNotNil: [self uninitializedAccounts removeAt: nextAccount].
 	
 	nextAccount := self emailAccounts findFirst: [:account | 
 		(account accountInfo accountName) = (anAccountInfo accountName)].

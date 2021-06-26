@@ -11,8 +11,6 @@
 		"selectedEndpoint",
 		"selectedFolder",
 		"emailAccounts",
-		"uninitializedAccounts",
-		"initializedAccounts",
 		"numberOfFetchedFolders",
 		"numberOfFolders",
 		"filterString",

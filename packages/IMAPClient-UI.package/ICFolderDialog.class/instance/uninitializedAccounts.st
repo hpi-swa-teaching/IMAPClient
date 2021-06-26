@@ -1,4 +1,4 @@
 accessing
 uninitializedAccounts
 
-	^ uninitializedAccounts ifNil: [uninitializedAccounts := OrderedCollection new]
+	^((self emailAccounts select: [:account| account connectionHandler loggedIn not]) collect: [:account | account accountInfo])

@@ -1,6 +1,7 @@
 action - emails
 update
 
+	self uninitializedAccounts ifNotEmpty: [self login: self uninitializedAccounts first].
 	self numberOfFetchedFolders: 0. 
 	self numberOfFolders: 
 		(self emailAccounts collect: [:each | each rootFolder recursiveChildFolders]) flatten size +
