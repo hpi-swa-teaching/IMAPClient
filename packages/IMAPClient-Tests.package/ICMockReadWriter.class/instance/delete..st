@@ -1,3 +1,2 @@
 mockMethods
 delete: anArgument
-
