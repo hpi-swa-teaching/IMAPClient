@@ -31,6 +31,7 @@
 		"getBodyFor:" : "sf 6/4/2021 16:32",
 		"hierarchyDelimiter" : "sf 6/7/2021 15:47",
 		"hierarchyDelimiter:" : "sf 6/7/2021 15:47",
+		"isCommandStorageEmpty" : "c.h. 6/28/2021 09:05",
 		"isConnected" : "sf 6/4/2021 17:06",
 		"lastResponse" : "sf 6/4/2021 17:58",
 		"listAllFolders" : "JST 6/6/2021 15:55",
@@ -40,7 +41,7 @@
 		"maildirDiffFetchHeadersFor:from:" : "JST 6/6/2021 17:57",
 		"maildirDiffFetchHeadersFrom:to:" : "JST 6/6/2021 16:10",
 		"maildirFileName" : "hg 7/29/2020 10:50",
-		"moveEmail:to:" : "sf 6/4/2021 16:45",
+		"moveEmail:to:" : "c.h. 6/28/2021 12:03",
 		"parseFetchHeaders:" : "sf 5/20/2021 12:34",
 		"parseFetchedFlagsAndPopulate:" : "JNG 6/3/2021 19:51",
 		"parseListResponse" : "JST 6/6/2021 16:06",
@@ -57,5 +58,6 @@
 		"rootFolder" : "JST 6/6/2021 16:04",
 		"rootFolder:" : "JST 6/6/2021 16:04",
 		"select:" : "JST 6/6/2021 17:57",
+		"sendNextCommands" : "c.h. 6/28/2021 09:22",
 		"switchFlag:for:to:" : "JST 6/10/2021 10:01",
 		"testAccountWith:" : "EG 6/24/2021 08:59" } }
