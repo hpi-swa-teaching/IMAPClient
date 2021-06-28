@@ -21,7 +21,7 @@
 		"testDateInSecondsSince1980" : "EG 5/20/2021 11:50",
 		"testDateInSecondsSinceSqueakEpoch" : "EG 5/20/2021 11:50",
 		"testDeserialization" : "hg 7/30/2020 11:01",
-		"testReadBody" : "lro 6/25/2021 16:54",
+		"testRetrieveBody" : "lro 6/28/2021 18:05",
 		"testSender" : "EG 5/29/2021 21:00",
 		"testSenderName" : "EG 5/29/2021 21:00",
 		"testSerialization" : "hg 7/30/2020 10:57" } }
