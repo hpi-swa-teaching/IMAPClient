@@ -1,16 +1,16 @@
 protocol handling - move
 moveEmail: anEmail to: folderName
 	
+	"has to be refactored immediately"
 	|aFolder|
-	(ICMovedEmailStorage at: {self accountName, anEmail folderName}) remove: anEmail.
+	(ICMovedEmailStorage at: self accountInfo at: anEmail folderName) remove: anEmail.
 	aFolder := self rootFolder childFolderNamed: folderName ifAbsent: [].
-	(ICMovedEmailStorage at: {self accountName, folderName}) add: anEmail.
-	
-	self connectionHandler select: anEmail folder path.
-	
 	self deleteMailLocally: anEmail.
-	aFolder addMails: {anEmail}.
+	self connectionHandler select: anEmail folder path.
 	anEmail folder: aFolder.
+	ICMovedEmailStorage addMail: anEmail forAccount: self accountInfo.
+	
+	aFolder addMails: {anEmail}.
 	
 	self resetDeletedFlagWhenRecovering: anEmail.
 	

@@ -1,10 +1,11 @@
 action - update emails
 startUpdateProcess: anUID
 	
-	|movedEmails|
-	movedEmails := (ICMovedEmailStorage at: {self accountName, self folderName}).
+	|movedEmails acc |
+	acc := self accountName.
+	movedEmails := ICMovedEmailStorage new getSetForAccount: self accountName andFolder: self.
 	(self folderName = 'root') ifTrue: [ ^true].
-	movedEmails do: [:anEmail | self endpoint deleteMailLocally: anEmail].
+	ICMovedEmailStorage new deleteEmailsFromFolder: self.
 	[anUID
 		ifNil: [self fetchNumberOfLatestEmails: self class numberOfHeadersToFetchAtTheBeginning]
 		ifNotNil: [self fetchEmailsFrom: anUID]. movedEmails := Set new. ^true]
