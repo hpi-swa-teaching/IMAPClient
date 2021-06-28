@@ -1,15 +1,19 @@
 accountManagement
 passwordPromtCallback: anAccountInfo
 	
-	| nextAccount |	
+	| nextAccount newEndpoint |	
 	
-	nextAccount := self emailAccounts findFirst: [:account | 
+	newEndpoint := ICEndPoint newWith: anAccountInfo.
+	newEndpoint connectAndLogin ifTrue: [
+		nextAccount := self emailAccounts findFirst: [:account | 
 		(account accountInfo accountName) = (anAccountInfo accountName)].
 	(self emailAccounts at: nextAccount) ifNotNil: [self emailAccounts removeAt: nextAccount].
+		self emailAccounts add: newEndpoint]
+		ifFalse: [^ false].
 	
-	self emailAccounts add: ((ICEndPoint newWith: anAccountInfo) connectAndLogin).
-	self uninitializedAccounts ifNotEmpty: [ICPasswordDialog openWith: (self uninitializedAccounts first) and: self].
+	self uninitializedAccounts ifNotEmpty: [self login: self uninitializedAccounts first].
 	
 	 self emailAccounts do: [:endpoint |
 		self folderWith: endpoint.
 		endpoint preventTimeout].
+	^true
