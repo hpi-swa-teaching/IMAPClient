@@ -1,19 +1,21 @@
 accountManagement
-passwordPromtCallback: anAccountInfo
+passwordPromtCallback: anICEndpoint
 	
-	| nextAccount newEndpoint |	
 	
-	newEndpoint := ICEndPoint newWith: anAccountInfo.
-	newEndpoint connectAndLogin ifTrue: [
+	anICEndpoint connectAndLogin ifFalse: [^false]."ifTrue: [
 		nextAccount := self emailAccounts findFirst: [:account | 
-		(account accountInfo accountName) = (anAccountInfo accountName)].
+		(account accountInfo accountName) = (anICEndpoint accountName)].
 	(self emailAccounts at: nextAccount) ifNotNil: [self emailAccounts removeAt: nextAccount].
 		self emailAccounts add: newEndpoint]
-		ifFalse: [^ false].
+		ifFalse: [^ false]."
 	
-	self uninitializedAccounts ifNotEmpty: [self login: self uninitializedAccounts first].
+	"self uninitializedAccounts ifNotEmpty: [self login: self uninitializedAccounts first]."
+	"self unconnectedAccounts ifNotEmpty: [
+		(self login: self first) ifFalse: [^false]]."
 	
-	 self emailAccounts do: [:endpoint |
+	self folderWith: anICEndpoint.
+	anICEndpoint preventTimeout.
+	 "self emailAccounts do: [:endpoint |
 		self folderWith: endpoint.
-		endpoint preventTimeout].
+		endpoint preventTimeout]."
 	^true
