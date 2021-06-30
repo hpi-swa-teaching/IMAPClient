@@ -1,0 +1,1 @@
+An ICLoginDialog is a toolbuilder-based UI for authorizing a user. It is basically a password prompt
