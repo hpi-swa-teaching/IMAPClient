@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "sf 6/24/2021 15:53",
+	"commentStamp" : "",
 	"instvars" : [
-		"rootFolder",
-		"mailBody" ],
-	"name" : "ICMockEndpoint",
+		 ],
+	"name" : "ICMockCommandStorage",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ICCommandStorage",
 	"type" : "normal" }
