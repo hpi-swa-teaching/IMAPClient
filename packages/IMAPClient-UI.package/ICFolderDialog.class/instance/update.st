@@ -9,4 +9,4 @@ update
 		self emailAccounts size.
 
 	'Updating ' displaySequentialProgress: [self updateProcess].
-	self numberOfFetchedFolders: 0.
+	self numberOfFetchedFolders: 0
