@@ -1,0 +1,2 @@
+mockMethods
+delete: anArgument
