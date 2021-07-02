@@ -1,5 +1,6 @@
 action - update emails
 update
-
-	self startUpdateProcess: self highestUniqueID.	
-	self childFolders do: [:anICFolder | anICFolder update]
+	self endpoint sendNextCommands.
+	(self endpoint isCommandStorageEmpty) ifTrue:
+		[self startUpdateProcess: self highestUniqueID.	
+		self childFolders do: [:anICFolder | anICFolder update]]

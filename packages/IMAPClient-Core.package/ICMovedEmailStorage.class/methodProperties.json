@@ -1,0 +1,7 @@
+{
+	"class" : {
+		"new" : "c.h. 6/28/2021 10:48" },
+	"instance" : {
+		"addMail:forAccount:" : "JST 6/28/2021 14:20",
+		"deleteEmailsFromFolder:" : "JST 6/28/2021 15:10",
+		"getSetForAccount:andFolder:" : "JST 6/28/2021 15:07" } }

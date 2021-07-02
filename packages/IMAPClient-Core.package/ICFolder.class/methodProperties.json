@@ -7,7 +7,7 @@
 		"numberOfHeadersToFetchAtLoadOlderMails" : "DH 7/22/2018 22:37",
 		"numberOfHeadersToFetchAtTheBeginning" : "DH 7/22/2018 22:37" },
 	"instance" : {
-		"accountName" : "ok 7/26/2019 19:06",
+		"accountName" : "JST 6/28/2021 14:47",
 		"addFolder:" : "js 6/7/2016 13:09",
 		"addMails:" : "LW 8/1/2020 10:14",
 		"childFolderNamed:ifAbsent:" : "tg 7/19/2019 09:19",
@@ -44,8 +44,8 @@
 		"retrieveFlagsFrom:to:" : "JST 5/29/2021 18:31",
 		"rootFolder" : "ok 7/26/2019 19:05",
 		"sanitizeMailCollection:" : "LW 5/20/2020 09:49",
-		"startUpdateProcess:" : "jng 6/3/2021 13:28",
+		"startUpdateProcess:" : "JST 6/28/2021 15:07",
 		"switchFlag:for:to:" : "jng 6/3/2021 15:23",
 		"toggleFlag:for:" : "jng 6/3/2021 15:29",
-		"update" : "jng 6/25/2021 13:53",
-		"updateAndShowProgressWith:" : "LW 6/3/2020 15:13" } }
+		"update" : "c.h. 6/28/2021 09:24",
+		"updateAndShowProgressWith:" : "c.h. 6/28/2021 10:06" } }

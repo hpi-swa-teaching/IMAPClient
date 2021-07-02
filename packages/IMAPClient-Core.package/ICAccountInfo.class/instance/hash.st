@@ -1,5 +1,5 @@
 comparing
 hash
-	"Answer an integer value that is related to the identity of the receiver."
+	"Answer an integer value that identifies the receiver."
 
 	^ 'test'

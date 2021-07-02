@@ -7,7 +7,6 @@
 		"connectionConfigurations:" : "pm 6/19/2019 14:49",
 		"eraseStoredPasswords" : "LW 7/31/2020 11:29",
 		"errorBadProtocol" : "js 5/15/2016 13:55",
-		"errorInvalidConnectionConfiguration" : "js 5/15/2016 16:15",
 		"newWith:" : "sf 6/4/2021 14:10",
 		"removeConfiguration:" : "NH 7/15/2020 09:55" },
 	"instance" : {
@@ -31,6 +30,7 @@
 		"getBodyFor:" : "sf 6/4/2021 16:32",
 		"hierarchyDelimiter" : "sf 6/7/2021 15:47",
 		"hierarchyDelimiter:" : "sf 6/7/2021 15:47",
+		"isCommandStorageEmpty" : "c.h. 6/28/2021 09:05",
 		"isConnected" : "sf 6/4/2021 17:06",
 		"lastResponse" : "sf 6/4/2021 17:58",
 		"listAllFolders" : "JST 6/6/2021 15:55",
@@ -40,7 +40,8 @@
 		"maildirDiffFetchHeadersFor:from:" : "JST 6/6/2021 17:57",
 		"maildirDiffFetchHeadersFrom:to:" : "JST 6/6/2021 16:10",
 		"maildirFileName" : "hg 7/29/2020 10:50",
-		"moveEmail:to:" : "sf 6/4/2021 16:45",
+		"moveEmail:to:" : "JST 7/1/2021 23:44",
+		"movedMailStorage" : "JST 7/1/2021 23:43",
 		"parseFetchHeaders:" : "sf 5/20/2021 12:34",
 		"parseFetchedFlagsAndPopulate:" : "JNG 6/3/2021 19:51",
 		"parseListResponse" : "JST 6/6/2021 16:06",
@@ -58,5 +59,6 @@
 		"rootFolder:" : "JST 6/6/2021 16:04",
 		"select:" : "JNG 6/30/2021 11:27",
 		"select:direct:" : "JNG 6/30/2021 11:27",
+    "sendNextCommands" : "c.h. 6/28/2021 09:22",
 		"switchFlag:for:to:" : "JNG 6/30/2021 11:30",
 		"testAccountWith:" : "EG 6/24/2021 08:59" } }
