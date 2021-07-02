@@ -1,8 +1,8 @@
 action - emails
 update
 
-	self uninitializedAccounts ifNotEmpty: [self login: self uninitializedAccounts first].
-	
+	[self unconnectedAccounts isEmpty] whileFalse: [
+		(self login: self unconnectedAccounts first) ifFalse: [^false]].
 	self numberOfFetchedFolders: 0. 
 	self numberOfFolders: 
 		(self emailAccounts collect: [:each | each rootFolder recursiveChildFolders]) flatten size +
