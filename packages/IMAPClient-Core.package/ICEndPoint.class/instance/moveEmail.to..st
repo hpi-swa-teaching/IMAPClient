@@ -3,12 +3,12 @@ moveEmail: anEmail to: folderName
 	
 	"has to be refactored immediately"
 	|aFolder|
-	(ICMovedEmailStorage at: self accountInfo at: anEmail folderName) remove: anEmail.
+	(self movedMailStorage getSetForAccount: self connectionHandler accountInfo accountName andFolder: anEmail folder folderName) remove: anEmail ifAbsent: [].
 	aFolder := self rootFolder childFolderNamed: folderName ifAbsent: [].
 	self deleteMailLocally: anEmail.
 	self connectionHandler select: anEmail folder path.
 	anEmail folder: aFolder.
-	ICMovedEmailStorage addMail: anEmail forAccount: self accountInfo.
+	self movedMailStorage addMail: anEmail forAccount: self accountInfo.
 	
 	aFolder addMails: {anEmail}.
 	
