@@ -1,7 +1,7 @@
 action - update emails
 updateAndShowProgressWith: aBlock
 	
-	|successful|
+	| successful |
 	successful :=false.
 	self endpoint sendNextCommands.
 	(self endpoint isCommandStorageEmpty) ifTrue: [
