@@ -1,9 +1,8 @@
 action - update emails
 startUpdateProcess: anUID
 	
-	| movedEmails acc |
-	acc := self accountName.
-	movedEmails := ICMovedEmailStorage new getSetForAccount: self accountName andFolder: self.
+	| movedEmails |
+	movedEmails := ICMovedEmailStorage new movedMailsForAccount: self accountName andFolder: self.
 	(self folderName = 'root') ifTrue: [ ^true].
 	ICMovedEmailStorage new deleteEmailsFromFolder: self.
 	[anUID

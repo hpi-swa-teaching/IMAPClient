@@ -1,8 +1,8 @@
 connection
 checkConnected
 	
-	(self fatalErrorOccured)
-		ifTrue: [^ false].
+	"(self fatalErrorOccured)
+		ifTrue: [^ false]."
   
 	self isConnected 
 		ifFalse: [

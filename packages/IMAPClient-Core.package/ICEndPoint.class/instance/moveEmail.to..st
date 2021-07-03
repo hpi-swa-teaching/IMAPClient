@@ -1,20 +1,22 @@
 protocol handling - move
-moveEmail: anEmail to: aFolderName
+moveEmail: anEmail to: aTargetFolderName
 	
-	"has to be refactored immediately"
-	|aFolder|
-	(anEmail folder folderName = aFolderName) ifFalse: [
+	
+	| targetFolder |
+	(anEmail folder folderName = aTargetFolderName) ifFalse: [
+		"removes anemail from the Set representing the moved Emails in the origin folder, in case it was already moved"
+		(self movedMailStorage movedMailsForAccount: self connectionHandler accountInfo accountName andFolder: anEmail folder) remove: anEmail ifAbsent: [].
+		"resolve the target folder from the given name "
+		targetFolder := self rootFolder childFolderNamed: aTargetFolderName with: self hierarchyDelimiter ifAbsent: [].
 		
-		(self movedMailStorage getSetForAccount: self connectionHandler accountInfo accountName andFolder: anEmail folder) remove: anEmail ifAbsent: [].
-		aFolder := self rootFolder childFolderNamed: aFolderName with: self hierarchyDelimiter ifAbsent: [].
 		self deleteMailLocally: anEmail.
 		self connectionHandler select: anEmail folder path.
-		anEmail folder: aFolder.
+		anEmail folder: targetFolder.
 		self movedMailStorage addMail: anEmail forAccount: self accountInfo.
-		aFolder addMails: {anEmail}.
+		targetFolder addMails: {anEmail}.
 	
 		self resetDeletedFlagWhenRecovering: anEmail.
 	
-		self connectionHandler moveEmail: anEmail messageID to: aFolderName.
-		aFolder update
+		self connectionHandler moveEmail: anEmail messageID to: aTargetFolderName.
+		targetFolder update
 	] ifTrue: [self inform: 'The Email is already in the specified folder']

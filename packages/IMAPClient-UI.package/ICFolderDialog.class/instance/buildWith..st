@@ -1,7 +1,7 @@
 toolbuilder
 buildWith: builder
 
-	self updateSynchTime.
+	self initializeSynchTime.
 	^ builder build: (builder pluggableWindowSpec new
 		model: self;
 		label: #dialogTitle;
