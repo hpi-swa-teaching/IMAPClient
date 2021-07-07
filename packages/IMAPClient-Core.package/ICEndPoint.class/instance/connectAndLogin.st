@@ -1,8 +1,9 @@
 login
 connectAndLogin
 
-	[self 
+	[^ self 
 		connect;
 		login]
-	valueWithin: 300 seconds 
-	onTimeout: [self connectionHandler handleTimeout]
+	valueWithin: 5 seconds 
+	onTimeout: [self connectionHandler handleTimeout.
+		^false]

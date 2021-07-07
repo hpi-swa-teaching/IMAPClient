@@ -1,13 +1,9 @@
 accountManagement
-passwordPromtCallback: anAccountInfo
+passwordPromtCallback: anICEndpoint
 	
-	| nextAccount |
-	self initializedAccounts add: anAccountInfo.
+	anICEndpoint connectAndLogin ifFalse: [^ false].
 	
-	nextAccount := self uninitializedAccounts findFirst: [:account | 
-		(account accountName) = (anAccountInfo accountName)].
-	(self uninitializedAccounts at: nextAccount) ifNotNil: [self uninitializedAccounts removeAt: nextAccount].
+	self folderWith: anICEndpoint.
+	anICEndpoint preventTimeout.
 	
-	(self uninitializedAccounts isEmpty)
-		ifTrue: [self accountsComplete]
-		ifFalse: [ICPasswordDialog openWith: (self uninitializedAccounts first) and: self]
+	^ true

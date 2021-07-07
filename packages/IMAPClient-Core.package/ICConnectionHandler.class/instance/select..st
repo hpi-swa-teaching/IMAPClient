@@ -1,4 +1,4 @@
 fetch
 select: aFolderName
-
-	self sendCommand: (ICCommand select: aFolderName)
+	
+	self select: aFolderName direct: false
