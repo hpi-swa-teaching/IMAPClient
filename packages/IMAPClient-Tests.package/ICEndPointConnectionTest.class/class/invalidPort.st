@@ -1,4 +1,4 @@
 constants
 invalidPort
 
-	^ 000
+	^ -1

@@ -1,7 +1,9 @@
 connection
 connectWith: aStreamClass
 
-	self accountInfo isValid ifFalse: [^ Error signal: self class errorInvalidConnectionConfiguration].
+	self accountInfo isValid ifFalse: 
+		[self fatalErrorOccured: true.
+		^ Error signal: self class errorInvalidConnectionConfiguration].
 	
 	[self stream
 		ssl: self accountInfo ssl;

@@ -1,1 +1,1 @@
-Mock endpoint for offline testing purposes
+Mock endpoint for offline testing.
