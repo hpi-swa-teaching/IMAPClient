@@ -7,7 +7,4 @@ editAccount: anAccountInfo with: anEndPoint
 	self addAccount: anAccountInfo.
 	self selectedFolder: nil.
 	self rootFolder: nil.
-
-	"self addAccountInfoToEndpointConfigWithoutPassword: anAccountInfo."
-	
 	self triggerEmailChanges

@@ -1,5 +1,4 @@
 fetch
 select: aFolderName
 	
-	"BreakPoint break."
-	self select: aFolderName direct: false.
+	self select: aFolderName direct: false
