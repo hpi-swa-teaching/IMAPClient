@@ -1,10 +1,10 @@
 action - emails
-login: anAccountInfo
+login: anICEndpoint
 
-	| continueAsking | 
-	continueAsking := false. 
-	[continueAsking] whileFalse: [
-		anAccountInfo password: (Project uiManager requestPassword: 'Please enter your password!').
-		anAccountInfo password ifEmpty: [^false].
-		continueAsking:= (self passwordPromtCallback: anAccountInfo)].
+	| continueAsking |
+	continueAsking := true. 
+	[continueAsking] whileTrue: [
+		anICEndpoint accountInfo password: (Project uiManager requestPassword: 'Please enter your password!').
+		anICEndpoint accountInfo password ifEmpty: [^false].
+		continueAsking:= (self passwordPromtCallback: anICEndpoint) not.].
 	^ true.

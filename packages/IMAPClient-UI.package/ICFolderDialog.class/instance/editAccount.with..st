@@ -4,10 +4,10 @@ editAccount: anAccountInfo with: anEndPoint
 	ICEndPoint removeConfiguration: anEndPoint accountInfo.
 	self emailAccounts remove: anEndPoint.
 	
-	self emailAccounts add: (ICEndPoint newWith: anAccountInfo) connectAndLogin.
+	self addAccount: anAccountInfo.
 	self selectedFolder: nil.
 	self rootFolder: nil.
 
-	self addAccountInfoToEndpointConfigWithoutPassword: anAccountInfo.
+	"self addAccountInfoToEndpointConfigWithoutPassword: anAccountInfo."
 	
 	self triggerEmailChanges

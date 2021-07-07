@@ -3,7 +3,7 @@ currentUIDsFor: aFolder
 
 	| isEmpty |
 		
-	self select: aFolder path direct: true.
+	self select: aFolder path.
 	isEmpty := true.
 	
 	self lastResponse do:
