@@ -15,4 +15,4 @@ fetchNextResponse
 			self stream nextResponse].
 	
 	self lastResponse: multiLineResponse.
-	^multiLineResponse
+	^ multiLineResponse

@@ -4,9 +4,9 @@ moveEmail: anEmail to: aTargetFolderName
 	
 	| targetFolder |
 	(anEmail folder folderName = aTargetFolderName) ifFalse: [
-		"removes anemail from the Set representing the moved Emails in the origin folder, in case it was already moved"
+		"removes anEmail from the Set representing the moved Emails in the origin folder, in case it was already moved"
 		(self movedMailStorage movedMailsForAccount: self connectionHandler accountInfo accountName andFolder: anEmail folder) remove: anEmail ifAbsent: [].
-		"resolve the target folder from the given name "
+		"resolve the target folder from the given name"
 		targetFolder := self rootFolder childFolderNamed: aTargetFolderName with: self hierarchyDelimiter ifAbsent: [].
 		
 		self deleteMailLocally: anEmail.

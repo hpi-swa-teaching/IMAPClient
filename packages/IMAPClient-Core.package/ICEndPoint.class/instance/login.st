@@ -5,7 +5,6 @@ login
   	(self accountInfo isValid) ifFalse: [^ false].
 	
 	self connectionHandler sendLoginCommand.
-	"self readEmailsFromDisk."
 	
 	(self connectionHandler throwErrorIfNotLoggedIn) ifFalse: [^ false].
 	
