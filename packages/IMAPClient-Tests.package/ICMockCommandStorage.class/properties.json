@@ -1,0 +1,14 @@
+{
+	"category" : "IMAPClient-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ICMockCommandStorage",
+	"pools" : [
+		 ],
+	"super" : "ICCommandStorage",
+	"type" : "normal" }

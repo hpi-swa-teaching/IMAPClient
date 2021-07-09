@@ -1,4 +1,4 @@
 fetch
 select: aFolderName
 	
-	self select: aFolderName direct: false.
+	self select: aFolderName direct: false

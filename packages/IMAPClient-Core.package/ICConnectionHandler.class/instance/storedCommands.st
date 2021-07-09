@@ -1,4 +1,4 @@
-connection
+accessing
 storedCommands
-	
-	^ ICCommandStorage new
+
+	^ storedCommands ifNil: [storedCommands := ICCommandStorage new]

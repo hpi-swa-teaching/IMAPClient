@@ -2,10 +2,10 @@ action - emails
 updateProcess
 		
 	| successful |
-	successful := false.
-	[self emailAccounts do: [:anICEndpoint | successful := ( successful and: (anICEndpoint rootFolder updateAndShowProgressWith: [self progressCallback]))]]
-  on: NetworkError
+	successful := true.
+	[self emailAccounts do: [:anICEndpoint | successful := ( successful and: ( anICEndpoint rootFolder updateAndShowProgressWith: [self progressCallback]))]]
+  	on: ConnectionClosed
 	do: [:e | self inform: e asString].
   
-	successful ifFalse: [self updateSynchTime].
+	successful ifTrue: [self updateSynchTime].
 	self triggerEmailChanges
