@@ -11,6 +11,7 @@
 		"removeConfiguration:" : "NH 7/15/2020 09:55" },
 	"instance" : {
 		"accountInfo" : "sf 6/4/2021 13:58",
+		"accountName" : "JST 7/10/2021 18:18",
 		"close" : "JST 6/6/2021 23:35",
 		"connect" : "sf 6/4/2021 13:57",
 		"connectAndLogin" : "JNG 6/30/2021 14:06",
@@ -60,4 +61,4 @@
 		"select:" : "JNG 6/30/2021 11:27",
 		"select:direct:" : "JNG 6/30/2021 11:27",
 		"sendNextCommands" : "JST 7/4/2021 00:04",
-		"switchFlag:for:to:" : "JNG 6/30/2021 11:30"} }
+		"switchFlag:for:to:" : "JNG 6/30/2021 11:30" } }

@@ -1,4 +1,4 @@
 move
 isCommandStorageEmpty
 
-	^ self storedCommands isEmptyFor: self accountInfo hash
+	^ self storedCommands isEmptyFor: self accountInfo username

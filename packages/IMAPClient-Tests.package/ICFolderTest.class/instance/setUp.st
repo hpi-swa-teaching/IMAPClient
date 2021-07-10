@@ -1,8 +1,9 @@
 running
 setUp 
-
+	
 	self root: ICFolder new.
 	self endpoint: ICMockEndpoint new.
+	
 	self endpoint rootFolder: self root.
 	self root endpoint: self endpoint.
 	
