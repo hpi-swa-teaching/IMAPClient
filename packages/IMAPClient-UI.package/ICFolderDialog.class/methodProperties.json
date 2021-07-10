@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"addAccountIcon" : "lro 5/31/2021 15:54",
-		"connectionClosedFailure" : "EG 6/3/2021 13:49",
+		"connectionClosedFailure" : "JST 7/1/2021 23:46",
 		"contactsIcon" : "lro 5/31/2021 15:55",
 		"install" : "pm 5/24/2019 14:28",
 		"loadEmailBodyFailure" : "tg 7/26/2019 16:19",
@@ -101,6 +101,6 @@
 		"unconnectedAccounts" : "JNG 6/30/2021 17:36",
 		"unemphasize:" : "hg 8/2/2020 15:41",
 		"update" : "JNG 7/1/2021 12:16",
-		"updateProcess" : "JNG 6/30/2021 01:31",
+		"updateProcess" : "JST 7/3/2021 22:19",
 		"updateSynchTime" : "c.h. 5/27/2021 12:09",
 		"userListMenu:" : "NH 8/2/2020 17:24" } }

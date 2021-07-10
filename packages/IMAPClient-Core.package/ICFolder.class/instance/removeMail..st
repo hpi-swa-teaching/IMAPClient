@@ -1,4 +1,4 @@
 action - remove emails
-removeMail: anICEmail
+removeMail: anEmail
 
-	self emails remove: anICEmail.
+	self emails remove: anEmail

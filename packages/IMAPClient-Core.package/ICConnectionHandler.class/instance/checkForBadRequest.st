@@ -6,7 +6,7 @@ checkForBadRequest
   
 	(ICParser responseIsError: self stream lastResponse) ifTrue: [
 		self fatalErrorOccured: true.
-		self inform: 'Wrong username or password'.
+		self inform: 'responseError in checkForBadRequest'.
 		^ true].
  
 	^ false

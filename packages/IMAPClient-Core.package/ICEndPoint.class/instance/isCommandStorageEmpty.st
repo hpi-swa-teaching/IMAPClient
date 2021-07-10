@@ -1,0 +1,4 @@
+accessing
+isCommandStorageEmpty
+
+	^ self connectionHandler isCommandStorageEmpty

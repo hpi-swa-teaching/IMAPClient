@@ -1,10 +1,15 @@
 action - update emails
 startUpdateProcess: anUID
-
-	(self folderName = 'root') ifTrue: [^true].
 	
+	| movedEmails |
+	movedEmails := ICMovedEmailStorage new movedMailsForAccount: self accountName andFolder: self.
+	(self folderName = 'root') ifTrue: [^ true].
+	ICMovedEmailStorage new deleteEmailsFromFolder: self.
 	[anUID
 		ifNil: [self fetchNumberOfLatestEmails: self class numberOfHeadersToFetchAtTheBeginning]
-		ifNotNil: [self fetchEmailsFrom: anUID]. ^true]
-	on: Error
-	do: [:e | self inform: e asString. ^false]
+		ifNotNil: [self fetchEmailsFrom: anUID].
+		
+		movedEmails := Set new. 
+		^ true
+	] on: Error
+	do: [:e | self inform: e asString. self addMails: movedEmails asOrderedCollection. ^false]
