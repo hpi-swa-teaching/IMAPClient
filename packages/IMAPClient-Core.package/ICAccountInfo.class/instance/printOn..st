@@ -1,7 +1,7 @@
 printing
 printOn: aStream
 
-	aStream nextPut: ({
+	aStream nextPutAll: ({
 		self accountName.
 		self host.
 		self port.
