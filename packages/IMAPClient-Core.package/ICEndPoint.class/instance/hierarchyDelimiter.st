@@ -1,4 +1,4 @@
 accessing
 hierarchyDelimiter
 
-	^ hierarchyDelimiter
+	^ hierarchyDelimiter ifNil: [hierarchyDelimiter := '/']
