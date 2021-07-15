@@ -1,0 +1,1 @@
+This class tests for an Endpoint oflline mode and synchronisation with the server when online.
