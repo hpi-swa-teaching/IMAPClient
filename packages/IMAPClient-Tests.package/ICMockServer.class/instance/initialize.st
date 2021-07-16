@@ -16,6 +16,6 @@ initialize
 		'. FETCH 42 body[TEXT]' -> self fetchBodyResponse.
 		'. FETCH 43 body[TEXT]' -> self fetchMultlineBodyResponse.
 		'. UID SEARCH ALL' -> self uidResponse.
-		'. STORE 47 +FLAGS \Flagged' -> self fetchFlagsFlagged.
+		'. STORE 47 -FLAGS \Seen' -> self fetchFlagsSeen.
 		'. STORE 47 +FLAGS \Seen' -> self fetchFlagsSeen.
 		'. SELECT "root"' ->  self selectInboxResponse})
