@@ -9,7 +9,10 @@ setUp
 	self endPoint: (ICEndPoint new connectionHandler: connectionHandler).
 	folder := ICFolder new endpoint: self endPoint.
 	folder parent: folder.
-	self endPoint rootFolder: folder.
+	
+	self endPoint rootFolder: folder;
+		folderNameOfTrash: 'trash';
+		readWriter: ICMockReadWriter new.
 		
 	self email: (ICEmail new
 		flagged: false;
