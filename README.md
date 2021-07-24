@@ -29,44 +29,44 @@ You can open the tool with the command `ICFolderDialog new` or using a Menu Entr
  This will not regard the e-mails that are already persisted on your disk, so if you have some e-mails in a Maildir directory, all of them will be read no matter what you defined here.
  
  ## Features
- - Manage different accounts
+ - _Manage different accounts_
   ![](screenshots/addAccount.png)
   You can add an account by clicking the `+` button. You will then be prompted to enter the account information needed to establish a connection with the server.
   
- - Fetch new mails from the server
+ - _Fetch new mails from the server_
   ![](screenshots/updating.png)
-  Mails are automatically fetched on login. If you wish to update and resynchronize with the server, click the update button.
+  Mails are automatically fetched on the first login. If you wish to update and resynchronize with the server afterwards, click the update button. The title bar of the tool will show you the time of the last successful synchronization to help you decide if you want to update.
   
- - Delete & move mails
+ - _Delete & move mails_
  ![](screenshots/move.png)
  A right click on any mail will show you your options. Deleting a mail automatically moves it to the trash folder. If you want to revert a deletion, you can simply navigate to the trash folder and move the email back to another folder.
  When you want to permanently delete emails, right click on the trash folder and choose expunge. This will dump your trash folder permanently.
  
- - Flag and read emails
+ - _Flag and read emails_
   A right click on any mail will show you your options. You can flag an email for later use or mark it as seen if you do not want to be disturbed by it beeing highlighted anymore. Also you can mark already seen mails as unseen again.
   ![](screenshots/flag.png)
   ![](screenshots/unflag.png)
     
- - See unseen mails immediately. 
+ - _See unseen mails immediately._ 
  All unseen mails will be highlighted and the number of unseen mails per folder can be seen next to the folder name.
  
- - Search Mails
+ - _Search Mails_
   ![](screenshots/search.png)
   You can enter a search string into the search bar at the top. Right next to the search bar you can see how many search results you got for the current search.
  
- - Parse different encodings
+ - _Parse different encodings_
  
- - Reflect server changes back to Client. 
+ - _Reflect server changes back to Client._
  If you're accessing your mails for a different device, and deleting/moving them, just press the update button in the Client, and every change should be correctly updated.
  
- - Offline mode
- TODO
+ - _Offline mode_
+  All above features are also available while you are offline. Specifically, mails can be read, flagged and moved to other folders after they were downloaded on the first login. As soon as you are online again, you may resynchronize your account with the server by clicking on the update button and filling in your password.
  
- - Sort mails by different categories. 
+ - _Sort mails by different categories._ 
    ![](screenshots/sort.png)
  By default all sortings are ascending. Double clicking the button will switch to descending order.
  
- - Addressbook. 
+ - _Addressbook._ 
    ![](screenshots/addressbook.png)
  You can open the addressbook by clicking the button with the persons icon. The adressbook holds all sender names and addresses of mails from any of the currently logged in accounts. You can also add your own contacts by clicking on the respective button. Finally, it is possible to sort contacts in ascending or descending order by both sender name and address.
 
@@ -93,18 +93,18 @@ Use SSL: True
 
 ## Security
 Your password isn't stored on disk, but will be visible to your Squeak environment. It is immediately deleted after login, so you will not be able to retrieve it afterwards, but be aware that we are no security experts and you might not want to test this with a high severity account.
-After closing the IMAP-Client and reopening it, you are welcomed by a password prompt when you click the `Update` button for the first time.
+After closing the IMAP-Client and reopening it, you are welcomed by a password prompt when you click the update button for the first time.
 
 ## Known Problems
 
 As this project has lived through many iterations, there are a couple of known issues that we could not resolve during the few months we spend with this project. 
-If you encounter any problem while using our IMAP client, have a look at the Issues of this GitHub Project. Most of them are probably already known to us.
+If you encounter any problem while using our IMAP client, have a look at the [Issues](https://github.com/hpi-swa-teaching/IMAPClient/issues) of this GitHub Project. Most of them are probably already known to us.
 In case your problem has not been reported yet, feel free to post a new issue and describe what you did to get the problem, what the unexpected behaviour was and what behaviour you would have expected. 
 Thank you in advance for contributing to making this project better by reporting any problems that we are not yet aware of!
 
 ## Documentation
 
-Have a look at the GitHub Project Wiki to find more insights into the project.
+Have a look at the [GitHub Project Wiki](https://github.com/hpi-swa-teaching/IMAPClient/wiki) to find more insights into the project.
 
 ## History
 2016: Johannes Schneider, Maximilian Söchting, Julian Weise, Alexander Riese, Alexander Loeser
