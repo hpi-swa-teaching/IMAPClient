@@ -1,4 +1,4 @@
-accessing
+testing
 testSwitchFlagOnline
 
 	self endPoint connectionHandler stream: ICMockSocketStream new.

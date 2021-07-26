@@ -1,4 +1,4 @@
-accessing
+testing
 testSwitchFlagOffline
 
 	self assert: (self endPoint connectionHandler storedCommands isEmptyFor:  self endPoint accountInfo hash).		
