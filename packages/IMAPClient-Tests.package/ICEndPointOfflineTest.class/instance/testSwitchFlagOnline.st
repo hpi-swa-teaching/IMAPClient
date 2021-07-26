@@ -1,7 +1,6 @@
 accessing
 testSwitchFlagOnline
 
-	self testSwitchFlagOffline.
 	self endPoint connectionHandler stream: ICMockSocketStream new.
 	
 	self email folder switchFlag: 'seen' for: self email to: false.
