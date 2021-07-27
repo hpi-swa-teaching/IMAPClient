@@ -7,7 +7,8 @@ setUp
 	self endpoint rootFolder: self root.
 	self root 
 		endpoint: self endpoint;
-		parent: self root.
+		parent: self root;
+		folderName: 'roo'.
 	
 	self uniqueIds do: [:aNumber |
 		self root emails add: (ICEmail new 
