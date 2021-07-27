@@ -13,9 +13,8 @@ initialize
 		'. FETCH 44 (body[HEADER.FIELDS (from to subject date)])' -> self fetchHeaderResponseWithDifferentOrder.
 		'. FETCH 45 (body[HEADER.FIELDS (from to subject date)])' -> self fetchHeaderResponseWithMultilineSender.
 		'. FETCH 46 (body[HEADER.FIELDS (from to subject date)])' -> self fetchHeaderResponseWithMultilineReceiver.
+		'. MOVE 47 "trash"' -> self noopResponse.
 		'. FETCH 42 body[TEXT]' -> self fetchBodyResponse.
 		'. FETCH 43 body[TEXT]' -> self fetchMultlineBodyResponse.
-		'. UID SEARCH ALL' -> self uidResponse.
-		'. STORE 47 -FLAGS \Seen' -> self fetchFlagsSeen.
-		'. STORE 47 +FLAGS \Seen' -> self fetchFlagsSeen.
-		'. SELECT "root"' ->  self selectInboxResponse})
+		'. SELECT "root"' ->  self selectResponse.
+		'. SELECT "trash"' ->  self selectResponse}), self fetchSetFlags, self fetchResetFlags
