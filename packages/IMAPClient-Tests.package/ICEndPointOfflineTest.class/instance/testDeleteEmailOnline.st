@@ -9,4 +9,4 @@ testDeleteEmailOnline
 	self assert: (self endPoint connectionHandler storedCommands isEmptyFor:  self endPoint accountInfo username).
 	
 	self deny: self email seen.
-	self assert: (self endPoint connectionHandler storedCommands isEmptyFor: self endPoint accountInfo username)
+	self assert: (self endPoint connectionHandler storedCommands isEmptyFor: self endPoint accountName)
