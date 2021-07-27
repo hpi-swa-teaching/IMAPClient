@@ -6,7 +6,7 @@ testDeleteEmailOnline
 	self endPoint connectionHandler stream: ICMockSocketStream new.
 	
 	self email folder retrieveFlagsFor: self email.	
-	self assert: (self endPoint connectionHandler storedCommands isEmptyFor:  self endPoint accountInfo username).
+	self assert: self endPoint connectionHandler isCommandStorageEmpty.
 	
 	self deny: self email seen.
-	self assert: (self endPoint connectionHandler storedCommands isEmptyFor: self endPoint accountName)
+	self assert: self endPoint connectionHandler isCommandStorageEmpty
