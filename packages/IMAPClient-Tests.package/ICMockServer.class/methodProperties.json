@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"acceptedFlags" : "eg 7/27/2021 14:03",
+		"acceptedFolders" : "eg 7/27/2021 16:10",
 		"authenticatedResponses" : "eg 7/27/2021 14:08",
 		"badResponse" : "AR 6/10/2016 15:26",
 		"commandSucceeded:" : "pm 7/15/2019 20:39",
@@ -24,8 +25,9 @@
 		"fetchHeadersWithRangeResponse" : "C.G. 7/25/2018 18:12",
 		"fetchMultlineBodyResponse" : "C.G. 7/25/2018 18:12",
 		"fetchResetFlags" : "eg 7/27/2021 14:19",
+		"fetchSelectResponse" : "eg 7/27/2021 16:11",
 		"fetchSetFlags" : "eg 7/27/2021 14:19",
-		"initialize" : "eg 7/27/2021 14:30",
+		"initialize" : "eg 7/27/2021 16:26",
 		"listFoldersResponse" : "jwe 7/12/2016 10:08",
 		"loginResponse" : "jwe 7/12/2016 10:41",
 		"logoutResponse" : "AR 6/30/2016 07:46",

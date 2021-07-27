@@ -16,5 +16,7 @@ initialize
 		'. MOVE 47 "trash"' -> self noopResponse.
 		'. FETCH 42 body[TEXT]' -> self fetchBodyResponse.
 		'. FETCH 43 body[TEXT]' -> self fetchMultlineBodyResponse.
-		'. SELECT "root"' ->  self selectResponse.
-		'. SELECT "trash"' ->  self selectResponse}), self fetchSetFlags, self fetchResetFlags
+		}),
+		 self fetchSetFlags, 
+		self fetchResetFlags,
+		self fetchSelectResponse
