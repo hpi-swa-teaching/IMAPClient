@@ -7,7 +7,7 @@
 		"exampleEmailIn:" : "mt 7/26/2019 15:18",
 		"root" : "js 6/7/2016 12:56",
 		"root:" : "pm 6/9/2019 17:19",
-		"setUp" : "JST 7/10/2021 18:21",
+		"setUp" : "eg 7/27/2021 19:16",
 		"tearDown" : "js 6/7/2016 12:56",
 		"testAddFolder" : "JJ 8/2/2020 18:47",
 		"testCountFolders" : "JJ 8/2/2020 18:47",
@@ -15,6 +15,8 @@
 		"testEnsureFreshness" : "lro 6/22/2021 10:48",
 		"testHighestUniqueID" : "lro 6/22/2021 10:50",
 		"testLowestUniqueID" : "lro 6/22/2021 10:50",
+		"testNumberOfUnseenEmails" : "eg 7/27/2021 19:15",
 		"testRemoveFolder" : "JJ 8/2/2020 18:48",
 		"testRemoveFolderWithFolderNotExisting" : "JJ 8/2/2020 18:48",
-		"testRootFolderHashName" : "JST 6/6/2021 18:43" } }
+		"testRootFolderHashName" : "JST 6/6/2021 18:43",
+		"uniqueIds" : "eg 7/27/2021 19:15" } }
