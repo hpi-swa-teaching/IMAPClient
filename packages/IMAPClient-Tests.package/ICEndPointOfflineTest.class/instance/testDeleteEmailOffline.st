@@ -9,4 +9,4 @@ testDeleteEmailOffline
 	
 	self deny: self endPoint connectionHandler isCommandStorageEmpty.
 	self deny: (self endPoint movedMailStorage isEmptyFor: self endPoint accountName).
-	self assert: self email folder folderName equals: self endPoint folderNameOfTrash
+	self assert: self email folder isTrashFolder
