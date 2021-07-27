@@ -5,5 +5,4 @@ testUpdate
 	self endpoint mailBody: 'body'.
 	self root update.
 	
-	self deny: (self root emails includes: [:anEmail | anEmail body isNil or: [anEmail body isEmpty]]).
-	self deny: self root emails last seen.
+	self deny: (self root emails includes: [:anEmail | anEmail body isNil or: [anEmail body isEmpty]])
