@@ -1,4 +1,4 @@
-folder
+flag
 fetchFlag: aString from: aUIDRange
 
 	| index response|

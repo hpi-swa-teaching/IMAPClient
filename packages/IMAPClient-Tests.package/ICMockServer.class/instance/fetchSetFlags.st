@@ -1,4 +1,4 @@
-folder
+flag
 fetchSetFlags
 
 	^ self acceptedFlags collect: [:aFlag|
