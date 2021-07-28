@@ -1,6 +1,6 @@
-folder
-fetchResetFlags
+accessing
+fetchSwitchFlags: aCommand
 
 	^ self acceptedFlags collect: [:aFlag|
-			(ICCommand resetFlag: aFlag for: '47') 
+			aCommand
 			-> (self fetchFlag: aFlag from: 48 asOrderedCollection)] as: Dictionary

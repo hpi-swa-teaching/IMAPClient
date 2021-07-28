@@ -1,4 +1,4 @@
-initialization
+header
 fetchHeadersWithRangeResponse
 
 	^ #('* 3 FETCH (BODY[HEADER.FIELDS ("from" "to" "subject" "date" "content-type")] {179}'.

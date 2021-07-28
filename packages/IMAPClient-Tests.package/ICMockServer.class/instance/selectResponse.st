@@ -1,4 +1,4 @@
-initialization
+folder
 selectResponse
 
 	^ OrderedCollection newFrom: {
