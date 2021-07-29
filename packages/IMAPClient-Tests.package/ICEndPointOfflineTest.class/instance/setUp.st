@@ -11,12 +11,7 @@ setUp
 	folder parent: folder.
 	
 	self endPoint rootFolder: folder;
-		folderNameOfTrash: 'trash';
+		folderNameOfTrash: self trashFolderName;
 		readWriter: ICMockReadWriter new.
 		
-	self email: (ICEmail new
-		flagged: false;
-		seen: false; 
-		folder: folder;
-		messageID: 47;
-		uniqueID: 48).
+	self email: (self class mailIn: folder)

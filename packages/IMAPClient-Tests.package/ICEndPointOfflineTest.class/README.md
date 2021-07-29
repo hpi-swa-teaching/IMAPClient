@@ -1,1 +1,1 @@
-This class tests oflline mode funtionality and synchronisation with the server when online again.
+This tests the offline functionality and synchronisation with the server as soon as an internet connection is established.

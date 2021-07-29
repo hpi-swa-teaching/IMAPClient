@@ -1,17 +1,19 @@
 {
 	"class" : {
-		"trashFolder" : "eg 7/27/2021 19:36" },
+		"mailIn:" : "eg 7/29/2021 18:38" },
 	"instance" : {
+		"connectionHandler" : "eg 7/29/2021 18:05",
 		"email" : "EG 7/15/2021 13:41",
 		"email:" : "EG 7/15/2021 13:41",
 		"endPoint" : "EG 7/15/2021 13:40",
 		"endPoint:" : "EG 7/15/2021 13:40",
-		"folderForMoving" : "lro 7/26/2021 17:40",
-		"setUp" : "EG 7/19/2021 22:51",
-		"tearDown" : "eg 7/27/2021 17:00",
-		"testDeleteEmailOffline" : "eg 7/27/2021 22:42",
-		"testDeleteEmailOnline" : "eg 7/27/2021 17:46",
-		"testMoveEmailOffline" : "eg 7/27/2021 17:45",
-		"testSwitchFlagOffline" : "eg 7/27/2021 17:44",
-		"testSwitchFlagOnline" : "eg 7/27/2021 17:45",
-		"trashFolder" : "EG 7/16/2021 14:25" } }
+		"folder" : "eg 7/29/2021 18:05",
+		"setUp" : "eg 7/29/2021 18:38",
+		"tearDown" : "eg 7/29/2021 19:02",
+		"testDeleteEmailOffline" : "eg 7/29/2021 18:04",
+		"testDeleteEmailOnline" : "eg 7/29/2021 18:04",
+		"testMoveEmailOffline" : "eg 7/29/2021 18:24",
+		"testSwitchFlagOffline" : "eg 7/29/2021 18:07",
+		"testSwitchFlagOnline" : "eg 7/29/2021 18:08",
+		"trashFolder" : "eg 7/29/2021 18:31",
+		"trashFolderName" : "eg 7/29/2021 18:31" } }

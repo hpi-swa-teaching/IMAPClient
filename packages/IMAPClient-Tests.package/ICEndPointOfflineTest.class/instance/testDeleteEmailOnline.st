@@ -1,7 +1,7 @@
 testing
 testDeleteEmailOnline	
 	
-	self email folder childFolders add: self trashFolder.
+	self email folder addFolder: self trashFolder.
 	self endPoint deleteEmail: self email.
 	self endPoint connectionHandler stream: ICMockSocketStream new.
 	

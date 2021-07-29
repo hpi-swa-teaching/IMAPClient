@@ -1,7 +1,7 @@
-accessing
+constants
 trashFolder
 
 	^ ICFolder new
-		folderName: 'trash';
-		parent: self email folder;
+		folderName: self trashFolderName;
+		parent: self folder;
 		endpoint: self endPoint

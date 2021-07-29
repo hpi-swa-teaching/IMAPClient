@@ -1,7 +1,7 @@
 testing
 testDeleteEmailOffline
 	
-	self email folder childFolders add: self trashFolder.
+	self email folder addFolder: self trashFolder.
 	
 	self assert: self endPoint connectionHandler isCommandStorageEmpty.
 	

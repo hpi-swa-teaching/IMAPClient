@@ -1,22 +1,7 @@
 running
 tearDown
 
-	| connectionHandler folder |
-	connectionHandler := ICConnectionHandler new 
-		stream: ICNullStream new;
-		storedCommands: ICMockCommandStorage new.
+	| mailQueue |
+	mailQueue := self endPoint movedMailStorage.
+	(mailQueue at: self endPoint accountName) removeAll
 	
-	self endPoint: (ICEndPoint new connectionHandler: connectionHandler).
-	folder := ICFolder new endpoint: self endPoint.
-	folder parent: folder.
-	
-	self endPoint rootFolder: folder;
-		folderNameOfTrash: 'trash';
-		readWriter: ICMockReadWriter new.
-		
-	self email: (ICEmail new
-		flagged: false;
-		seen: false; 
-		folder: folder;
-		messageID: 47;
-		uniqueID: 48).
