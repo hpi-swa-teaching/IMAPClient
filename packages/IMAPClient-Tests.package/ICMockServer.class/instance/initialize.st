@@ -9,4 +9,5 @@ initialize
 		self fetchSetFlags, 
 		self fetchResetFlags,
 		self fetchSelectResponse,
-		self fetchMoveResponse
+		self fetchMoveResponse,
+		self expungeResponse
