@@ -1,10 +1,10 @@
 setup
-exampleEmailIn: aFolder
+mailIn: aFolder
 
 	^ ICEmail new
-		body: 'i am very body';
+		body: self class mailBody;
 		subject: 'urgent';
 		from: 'coolkid@aol.com';
 		to: 'me@me.com';
 		folder: aFolder;
-		date: 'Fri, 10 Jun 2016 12:52:11 +0200'
+		date: self class date

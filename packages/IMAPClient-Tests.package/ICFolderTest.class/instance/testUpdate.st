@@ -1,8 +1,13 @@
 addFolder
 testUpdate
 	
-	self endpoint uids:{0} asOrderedCollection.
-	self endpoint mailBody: 'body'.
+	| iDsBeforeUpdate body |
+	iDsBeforeUpdate :=  (self root lowestUniqueID to: self root highestUniqueID).
+	self endpoint uids: iDsBeforeUpdate.
+	self endpoint mailBody: self class mailBody.
 	self root update.
 	
-	self deny: (self root emails includes: [:anEmail | anEmail body isNil or: [anEmail body isEmpty]])
+	self deny: (self root emails includes: [:anEmail | 
+		body := anEmail body.
+		body isString not or: [body isEmpty]]).
+	self assert: self root emails size equals: iDsBeforeUpdate size + self class numberOfFetchedMails.

@@ -8,10 +8,12 @@ setUp
 	self root 
 		endpoint: self endpoint;
 		parent: self root;
-		folderName: 'roo'.
+		folderName: 'rootFolder'.
 	
 	self uniqueIds do: [:aNumber |
-		self root emails add: (ICEmail new 
-			uniqueID: aNumber; 
-			folder: self root;
-			seen: false)]
+		self root addMails: 
+			{ICEmail new 
+				uniqueID: aNumber; 
+				folder: self root;
+				date: self class date;
+				seen: false}]
