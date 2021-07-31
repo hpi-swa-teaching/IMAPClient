@@ -1,4 +1,4 @@
 uniqueIDs
 testHighestUniqueID
 
-	self assert: self root highestUniqueID = 2
+	self assert: self root highestUniqueID equals: self uniqueIds max

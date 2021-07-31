@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "tg 7/8/2019 15:42",
+	"commentStamp" : "eg 7/29/2021 18:58",
 	"instvars" : [
 		"endPoint" ],
-	"name" : "ICEndPointAuthentificationTest",
+	"name" : "ICEndPointAuthenticationTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

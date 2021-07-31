@@ -1,4 +1,4 @@
-initialization
+folder
 listFoldersResponse 
 
 	^ OrderedCollection newFrom: {

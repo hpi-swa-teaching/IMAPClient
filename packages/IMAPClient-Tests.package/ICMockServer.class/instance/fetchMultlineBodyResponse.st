@@ -1,4 +1,4 @@
-initialization
+body
 fetchMultlineBodyResponse
 
 	^ OrderedCollection newFrom: {

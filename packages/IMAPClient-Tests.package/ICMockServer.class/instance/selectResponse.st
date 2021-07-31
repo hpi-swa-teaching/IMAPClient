@@ -1,5 +1,5 @@
-initialization
-selectInboxResponse
+folder
+selectResponse
 
 	^ OrderedCollection newFrom: {
 		'* FLAGS (\Draft \Answered \Flagged \Deleted \Seen \Recent)'.

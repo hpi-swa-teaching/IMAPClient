@@ -1,7 +1,7 @@
 constants
 accountInfoForErasing
 
-	^  (ICAccountInfo new)
+	^  ICAccountInfo new
 		accountName:  'testAccountName';
 		host: 'test.host';
 		port: 993;

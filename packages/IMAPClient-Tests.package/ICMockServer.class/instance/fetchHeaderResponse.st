@@ -1,4 +1,4 @@
-initialization
+header
 fetchHeaderResponse
 
 	^ (self fetchHeaderResponseBeginning: 42),
