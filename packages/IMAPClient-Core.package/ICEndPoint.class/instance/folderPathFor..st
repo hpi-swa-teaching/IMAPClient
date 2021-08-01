@@ -1,4 +1,4 @@
-fetch
+storage
 folderPathFor: responseLine
 	
 	| folder namePart |

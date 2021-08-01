@@ -8,8 +8,9 @@ startUpdateProcess: anUID
 	[anUID
 		ifNil: [self fetchNumberOfLatestEmails: self class numberOfHeadersToFetchAtTheBeginning]
 		ifNotNil: [self fetchEmailsFrom: anUID].
-		
 		movedEmails := Set new. 
 		^ true
 	] on: Error
-	do: [:e | self inform: e asString. self addMails: movedEmails asOrderedCollection. ^false]
+	  do: [:error | self inform: error asString. 
+				self addMails: movedEmails asOrderedCollection. 
+				^ false]
