@@ -4,8 +4,8 @@ moveEmail: anEmail to: aTargetFolderName
 	| targetFolder |
 	
 	(anEmail folder folderName = aTargetFolderName) ifFalse: [
+		targetFolder := self getFolderFor: aTargetFolderName.
 		self prepareMoveEmail: anEmail.
-	 	targetFolder := self getFolderFor: aTargetFolderName.
 		self addMail: anEmail to: targetFolder.
 		self resetDeletedFlagWhenRecovering: anEmail.
 		
