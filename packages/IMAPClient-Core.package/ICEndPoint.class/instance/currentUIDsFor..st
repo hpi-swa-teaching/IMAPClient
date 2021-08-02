@@ -1,15 +1,10 @@
 accessing
 currentUIDsFor: aFolder
-
-	| isEmpty |
-		
-	self select: aFolder path.
-	isEmpty := true.
 	
+	self select: aFolder path.
+
 	self lastResponse do:
 		[:line | (line findString: 'EXISTS') positive
-			ifTrue: [isEmpty := false]].
+			ifTrue: [^ self currentUIDs]].
 		
-	isEmpty 
-		ifFalse: [^ self currentUIDs ]
-		ifTrue: [^ OrderedCollection new]
+	^ OrderedCollection new

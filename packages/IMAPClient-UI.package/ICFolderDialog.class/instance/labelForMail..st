@@ -1,12 +1,12 @@
 accessing - email
-labelForMail: anICEmail
+labelForMail: anEmail
 
-	^ ((anICEmail flagged) 
+	^ (anEmail flagged
 			ifTrue: ['*'] 
 			ifFalse: [' ']),
 		Character tab, 
-		((anICEmail subject ifEmpty: [ICEmailDialog defaultSubject]) truncateTo: 80),
+		((anEmail subject ifEmpty: [ICEmailDialog defaultSubject]) truncateTo: 80),
 		Character tab,
-		anICEmail sender,
+		anEmail sender,
 		Character tab,
-		anICEmail dateFormatted
+		anEmail dateFormatted
