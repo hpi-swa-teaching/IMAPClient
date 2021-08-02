@@ -1,0 +1,24 @@
+{
+	"category" : "IMAPClient-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "LW 8/1/2020 11:28",
+	"instvars" : [
+		"accountName",
+		"serverPort",
+		"username",
+		"password",
+		"serverAddress",
+		"ssl",
+		"inputCollection",
+		"loginMorph",
+		"folderDialogInstance",
+		"updateMode",
+		"endpoint" ],
+	"name" : "ICLoginDialog",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }
