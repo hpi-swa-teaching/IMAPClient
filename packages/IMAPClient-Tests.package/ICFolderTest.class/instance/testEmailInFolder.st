@@ -1,9 +1,10 @@
 emailInFolder
 testEmailInFolder
 
-	| folder |
+	| folder firstMail |
 	
 	folder := ICFolder named: 'folder' in: self root with: self endpoint.
-	folder emails: {self exampleEmailIn: folder}.	
+	folder emails: {self mailIn: folder}.	
+	firstMail := folder emails first.
 	
-	self assert: folder emails first folder path = folder path
+	self assert: firstMail folder path equals: folder path

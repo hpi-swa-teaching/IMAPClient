@@ -4,4 +4,5 @@
 	"instance" : {
 		"addMail:forAccount:" : "JST 7/4/2021 00:25",
 		"deleteEmailsFromFolder:" : "JST 7/4/2021 00:25",
+		"isEmptyFor:" : "eg 7/29/2021 19:01",
 		"movedMailsForAccount:andFolder:" : "JST 7/4/2021 00:25" } }

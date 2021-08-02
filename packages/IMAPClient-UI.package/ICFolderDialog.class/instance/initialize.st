@@ -5,4 +5,5 @@ initialize
 		(ICEndPoint newWith: anAccountInfo) readEmailsFromDisk]).
 	self dialogTitle: self title, '   |   ', 'Please update for login'.
 
+	Smalltalk addToShutDownList: self.
 	ToolBuilder default open: self
