@@ -2,7 +2,7 @@ fetch
 folderFromResponse: responseLine
 
 	| folder folderPath parent namePart |
-	
+	"should be in ICEndPoint, from an achitectual standpoint"
 	
 	namePart := (responseLine copyAfter: ICCommand protocolQuote asCharacter).
 	
