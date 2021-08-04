@@ -1,4 +1,4 @@
 accessing
 accountName
 
-	^ self connectionHandler accountInfo accountName
+	^ self accountInfo accountName

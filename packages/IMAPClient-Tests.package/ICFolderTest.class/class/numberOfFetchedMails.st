@@ -1,0 +1,4 @@
+constants
+numberOfFetchedMails
+
+	^ 1

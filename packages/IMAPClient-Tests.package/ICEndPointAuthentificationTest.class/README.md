@@ -1,1 +1,0 @@
-This tests the ICEndPoint-Authentification part by performing a successfull and a failing mock login 

@@ -1,0 +1,1 @@
+This tests the offline functionality and synchronisation with the server as soon as an internet connection is established.

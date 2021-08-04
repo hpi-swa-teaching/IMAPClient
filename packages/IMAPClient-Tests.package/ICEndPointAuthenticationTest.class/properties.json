@@ -1,0 +1,14 @@
+{
+	"category" : "IMAPClient-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "eg 7/29/2021 18:58",
+	"instvars" : [
+		"endPoint" ],
+	"name" : "ICEndPointAuthenticationTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

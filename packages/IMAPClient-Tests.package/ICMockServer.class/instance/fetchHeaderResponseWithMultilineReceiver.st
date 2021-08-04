@@ -1,4 +1,4 @@
-accessing
+header
 fetchHeaderResponseWithMultilineReceiver
 
 	^ (self fetchHeaderResponseBeginning: 42),

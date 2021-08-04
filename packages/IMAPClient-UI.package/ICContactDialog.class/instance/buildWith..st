@@ -16,4 +16,4 @@ buildWith: builder
 		(m class == PluggableTextMorphPlus)
 			ifTrue: [m textMorph on: #keyDown send: #keyEvent: to: self]].
 				
-		^ window
+	^ window

@@ -5,14 +5,15 @@ setUp
 	self endpoint: ICMockEndpoint new.
 	
 	self endpoint rootFolder: self root.
-	self root endpoint: self endpoint.
+	self root 
+		endpoint: self endpoint;
+		parent: self root;
+		folderName: 'rootFolder'.
 	
-	self root emails add: (ICEmail new 
-		uniqueID: 0; 
-		folder: self root).
-	self root emails add: (ICEmail new 
-		uniqueID: 1;
-		folder: self root).
-	self root emails add: (ICEmail new 
-		uniqueID: 2;
-		folder: self root)
+	self uniqueIds do: [:aNumber |
+		self root addMails: 
+			{ICEmail new 
+				uniqueID: aNumber; 
+				folder: self root;
+				date: self class date;
+				seen: false}]

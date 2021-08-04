@@ -1,14 +1,9 @@
 storage
 folderFromResponse: responseLine
 
-	| folder folderPath parent namePart |
+	| folderPath parent |
 	
-	
-	namePart := (responseLine copyAfter: ICCommand protocolQuote asCharacter).
-	
-	folder := ICParser parseFolderPathFrom: namePart.
-	self hierarchyDelimiter: folder hierarchyDelimiter.
-	folderPath := folder pathAsArray.
+	folderPath := self folderPathFor: responseLine.
 	
 	(responseLine includesSubstring: '\Trash') ifTrue: [self folderNameOfTrash: folderPath first].
 	

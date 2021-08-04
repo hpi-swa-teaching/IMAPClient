@@ -6,9 +6,10 @@ folderListMenu
 	aMenu := MenuMorph new.
 	folders := self rootFolder recursiveChildFolders.
 
-	folders allButFirst do: [:each | 
-		aMenu 
-			add: (self folderNameOf: each) 
-			action: [self moveEmail: (each path)]].
+	folders reject: [:each | each = self selectedFolder]
+		thenDo: [:each | 
+			aMenu 
+			  add: (self folderNameOf: each) 
+			  action: [self moveEmail: (each path)]].
 		
 	^ aMenu
