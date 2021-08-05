@@ -21,7 +21,7 @@
 		"endpoint:" : "pm 6/9/2019 16:56",
 		"ensureFreshness" : "JST 7/3/2021 12:28",
 		"expungeEmails" : "NH 8/2/2020 11:36",
-		"fetchEmailsFrom:" : "eg 7/27/2021 22:04",
+		"fetchEmailsFrom:" : "JNG 8/5/2021 19:47",
 		"fetchNumberOfLatestEmails:" : "sf 8/1/2021 16:45",
 		"folderName" : "tg 7/19/2019 09:17",
 		"folderName:" : "tg 7/19/2019 09:17",
@@ -46,7 +46,7 @@
 		"sanitizeMailCollection:" : "LW 5/20/2020 09:49",
 		"startUIDFor:" : "sf 8/1/2021 16:46",
 		"startUpdateProcess:" : "sf 8/1/2021 16:57",
-		"switchFlag:for:to:" : "jng 6/3/2021 15:23",
+		"switchFlag:for:to:" : "JNG 8/5/2021 19:10",
 		"toggleFlag:for:" : "jng 6/3/2021 15:29",
 		"update" : "eg 7/27/2021 21:21",
 		"updateAndShowProgressWith:" : "EG 7/7/2021 10:44" } }
