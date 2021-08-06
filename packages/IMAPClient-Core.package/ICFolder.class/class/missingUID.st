@@ -1,4 +1,0 @@
-constants
-missingUID
-
- 	^ -1 
