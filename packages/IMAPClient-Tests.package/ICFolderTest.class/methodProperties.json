@@ -1,17 +1,25 @@
 {
 	"class" : {
-		 },
+		"date" : "eg 7/29/2021 17:06",
+		"mailBody" : "eg 7/29/2021 13:53",
+		"numberOfFetchedMails" : "eg 7/28/2021 22:58" },
 	"instance" : {
 		"endpoint" : "ms 7/28/2016 14:10",
 		"endpoint:" : "pm 6/9/2019 17:19",
-		"exampleEmailIn:" : "mt 7/26/2019 15:18",
+		"mailIn:" : "eg 7/29/2021 17:05",
 		"root" : "js 6/7/2016 12:56",
 		"root:" : "pm 6/9/2019 17:19",
-		"setUp" : "C.G. 7/25/2018 18:04",
+		"setUp" : "eg 7/29/2021 17:15",
 		"tearDown" : "js 6/7/2016 12:56",
-		"testAddFolder" : "JJ 8/2/2020 18:47",
+		"testAddFolder" : "eg 7/29/2021 17:12",
 		"testCountFolders" : "JJ 8/2/2020 18:47",
-		"testEmailInFolder" : "JJ 8/2/2020 18:48",
+		"testEmailInFolder" : "eg 7/29/2021 18:38",
+		"testEnsureFreshness" : "eg 7/29/2021 17:09",
+		"testHighestUniqueID" : "eg 7/29/2021 16:44",
+		"testLowestUniqueID" : "lro 6/22/2021 10:50",
+		"testNumberOfUnseenEmails" : "eg 7/29/2021 16:47",
 		"testRemoveFolder" : "JJ 8/2/2020 18:48",
 		"testRemoveFolderWithFolderNotExisting" : "JJ 8/2/2020 18:48",
-		"testRootFolderHashName" : "hg 7/29/2020 10:50" } }
+		"testRootFolderHashName" : "JST 6/6/2021 18:43",
+		"testUpdate" : "eg 7/29/2021 17:14",
+		"uniqueIds" : "eg 7/27/2021 19:15" } }

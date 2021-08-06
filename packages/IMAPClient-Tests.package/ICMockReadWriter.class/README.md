@@ -1,0 +1,1 @@
+Mock ReadWriter for testing purposes. This is not a singleton.

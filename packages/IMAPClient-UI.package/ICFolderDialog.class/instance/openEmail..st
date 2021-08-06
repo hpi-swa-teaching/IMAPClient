@@ -1,8 +1,7 @@
 action - emails
-openEmail: anICEmail
+openEmail: anEmail
 	
-	[anICEmail open.	
-	self selectedFolder retrieveFlagsFor: anICEmail.
-	self triggerEmailChanges]
-	on: Error
-	do: [:e | self inform: self class loadEmailBodyFailure]
+	ICEmailDialog openWith: anEmail.
+	self selectedFolder switchFlag: #seen for: anEmail to: true.
+	self selectedFolder switchFlag: #seen for: anEmail to: true.
+	self triggerEmailChanges

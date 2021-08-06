@@ -1,7 +1,7 @@
 {
 	"class" : {
-		"emailHeaderWithId3" : "hg 7/30/2020 11:27",
-		"emailHeaderWithId4" : "hg 7/30/2020 11:27",
+		"emailHeaderWithId3" : "c.h. 8/6/2021 01:04",
+		"emailHeaderWithId4" : "c.h. 8/6/2021 01:05",
 		"expectedFetchBody" : "AR 6/13/2016 17:02",
 		"expectedFetchHeader" : "mw 5/11/2018 14:33",
 		"expectedFetchHeaderDate" : "AR 6/30/2016 07:42",
@@ -22,13 +22,13 @@
 		"endPoint:" : "pm 6/9/2019 17:17",
 		"rootFolder" : "C.G. 7/25/2018 17:54",
 		"rootFolder:" : "pm 6/9/2019 17:17",
-		"setUp" : "JJ 8/2/2020 18:51",
+		"setUp" : "sf 6/24/2021 16:04",
 		"tearDown" : "hg 7/29/2020 10:50",
 		"testFetchMailsBeginningAtWithFoundMails" : "hg 7/29/2020 10:50",
 		"testFetchMailsBeginningAtWithoutFoundMails" : "mt 7/26/2019 14:46",
-		"testFillMessageBody" : "pm 6/2/2019 15:58",
-		"testFillMessageBodyWithMultilineBody" : "pm 6/2/2019 15:58",
-		"testListAllFolders" : "DH 4/27/2018 02:35",
-		"testLogout" : "jwe 6/21/2016 10:15",
-		"testRetrieveFlagsOnly" : "JJ 7/31/2020 14:13",
-		"testSelectInbox" : "C.G. 7/25/2018 18:00" } }
+		"testFillMessageBody" : "JNG 5/24/2021 10:11",
+		"testFillMessageBodyWithMultilineBody" : "JNG 5/24/2021 10:11",
+		"testListAllFolders" : "JST 6/6/2021 18:39",
+		"testLogout" : "JST 6/6/2021 23:36",
+		"testRetrieveFlagsOnly" : "c.h. 8/6/2021 01:08",
+		"testSelectInbox" : "JST 6/6/2021 18:40" } }

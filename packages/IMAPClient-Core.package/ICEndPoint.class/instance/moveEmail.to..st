@@ -1,11 +1,14 @@
 protocol handling - move
-moveEmail: anEmail to: aFolder
-
-	self select: anEmail folder path.
-	self deleteMailLocally: anEmail.
+moveEmail: anEmail to: aTargetFolderName
 	
-	self resetDeletedFlagWhenRecovering: anEmail.
+	| targetFolder |
 	
-	self sendCommand: (ICCommand moveEmail: anEmail messageID to: aFolder).		
-	self fetchNextResponse.
-	(self rootFolder childFolderNamed: aFolder with: (self hierarchyDelimiter)) update
+	(anEmail folder folderName = aTargetFolderName) ifFalse: [
+		targetFolder := self getFolderFor: aTargetFolderName.
+		self prepareMoveEmail: anEmail.
+		self addMail: anEmail to: targetFolder.
+		self resetDeletedFlagWhenRecovering: anEmail.
+		
+		self connectionHandler moveEmail: anEmail messageID to: aTargetFolderName.
+		targetFolder update] 
+	ifTrue: [self inform: 'The Email is already in the specified folder']

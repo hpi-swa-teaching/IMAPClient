@@ -1,0 +1,1 @@
+The ConnectionHandler handles the connection to the server.

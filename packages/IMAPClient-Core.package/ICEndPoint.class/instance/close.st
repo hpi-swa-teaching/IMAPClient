@@ -1,5 +1,4 @@
 connection
 close
 
-	self stream close.
-	self loggedIn: false
+	^ self connectionHandler close

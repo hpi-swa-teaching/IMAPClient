@@ -1,4 +1,4 @@
 accessing
-rootFolder: anICFolder
+rootFolder: aFolder
 
-	rootFolder := anICFolder
+	rootFolder := aFolder

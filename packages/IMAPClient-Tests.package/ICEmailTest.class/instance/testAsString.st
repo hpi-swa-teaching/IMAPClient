@@ -1,4 +1,4 @@
 accessing
 testAsString
 
-	self assert: self email asString equals: self class expectedStringRepresentation
+	self assert: self class expectedStringRepresentation equals: self email asString

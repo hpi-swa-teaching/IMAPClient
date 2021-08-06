@@ -1,4 +1,4 @@
 connection
 preventTimeout
 
-	[self refreshConnectionProcess] forkAt: Processor userBackgroundPriority
+	self connectionHandler preventTimeout

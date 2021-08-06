@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"expectedStringRepresentation" : "lro 6/17/2021 12:36",
 		"invalidPassword" : "tg 5/9/2019 13:03",
 		"invalidUsername" : "tg 5/9/2019 13:04",
 		"validAccountName" : "tg 7/10/2019 19:37",
@@ -23,4 +24,5 @@
 		"testMissingPortForCompleteness" : "NH 6/14/2020 12:04",
 		"testMissingSSLForCompleteness" : "NH 6/14/2020 12:04",
 		"testMissingUsernameForCompleteness" : "NH 6/14/2020 12:05",
-		"testNoMissingFieldsForCompleteness" : "JJ 6/12/2020 11:37" } }
+		"testNoMissingFieldsForCompleteness" : "JJ 6/12/2020 11:37",
+		"testPrintOn" : "lro 6/17/2021 12:39" } }

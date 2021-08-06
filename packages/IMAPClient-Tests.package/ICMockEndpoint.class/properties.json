@@ -4,10 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "tg 7/9/2019 14:43",
+	"commentStamp" : "sf 6/24/2021 15:53",
 	"instvars" : [
 		"rootFolder",
-		"mailBody" ],
+		"mailBody",
+		"uids" ],
 	"name" : "ICMockEndpoint",
 	"pools" : [
 		 ],

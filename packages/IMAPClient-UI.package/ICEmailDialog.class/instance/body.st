@@ -3,7 +3,7 @@ body
 	
 	| mimeDoc body |
 	
-	body := self email retrieveBody.
+	body := self email body.
 	mimeDoc := MailMessage new initializeFromString: body.
 	
 	^ mimeDoc bodyTextFormatted

@@ -1,4 +1,4 @@
-initialization
+header
 fetchHeaderResponseBeginning: aMessageId
 
 	| responseBeginning |

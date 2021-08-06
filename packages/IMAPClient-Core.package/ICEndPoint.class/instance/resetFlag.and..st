@@ -1,5 +1,4 @@
 protocol handling - flags
 resetFlag: anEmail and: aFlag
-	
-	self sendCommand: (ICCommand resetFlag: aFlag asString for: anEmail messageID).
-	self fetchNextResponse
+
+	self connectionHandler resetFlag: aFlag of: anEmail

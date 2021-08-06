@@ -1,17 +1,17 @@
 addFolder
 testAddFolder
 	
-	| subfolder1 |
+	| subFolder |
 	
-	subfolder1 := ICFolder named: 'subfolder' in: self root with: self endpoint.
+	subFolder := ICFolder named: 'subfolder' in: self root with: self endpoint.
 	self assert: self root childFolders size equals: 1.
 	self assert: self root countFolders equals: 1.
 	
-	ICFolder named: 'subfolder' in: subfolder1 with: self endpoint.
+	ICFolder named: 'subfolder' in: subFolder with: self endpoint.
 	self assert: self root childFolders size equals: 1.
 	self assert: self root countFolders equals: 2.
 	
-	ICFolder named: 'subfolder' in: subfolder1 with: self endpoint.
+	ICFolder named: 'subfolder' in: subFolder with: self endpoint.
 	self assert: self root childFolders size equals: 1.
 	self assert: self root countFolders equals: 3.
-	self assert: subfolder1 countFolders equals: 2
+	self assert: subFolder countFolders equals: 2

@@ -1,5 +1,4 @@
-protocol handling
+connection
 parseListResponse
 	
-	self fetchNextResponse.
-	self lastResponse do: [:each | self folderFromResponse: each]
+	self connectionHandler lastResponse do: [:each | self folderFromResponse: each]

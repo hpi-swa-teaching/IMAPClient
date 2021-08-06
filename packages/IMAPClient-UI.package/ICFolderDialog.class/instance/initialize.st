@@ -1,8 +1,9 @@
 initialize
 initialize 
 
-	self uninitializedAccounts: ICEndPoint connectionConfigurations.
+	self emailAccounts: ((ICEndPoint connectionConfigurations) collect: [:anAccountInfo | 
+		(ICEndPoint newWith: anAccountInfo) readEmailsFromDisk]).
+	self dialogTitle: self title, '   |   ', 'Please update for login'.
 
-	(self uninitializedAccounts) 
-		ifEmpty: [self accountsComplete]
-		ifNotEmpty: [ICPasswordDialog openWith: (self uninitializedAccounts first) and: self]
+	Smalltalk addToShutDownList: self.
+	ToolBuilder default open: self

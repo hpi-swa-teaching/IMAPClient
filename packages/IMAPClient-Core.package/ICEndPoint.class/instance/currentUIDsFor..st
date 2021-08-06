@@ -1,23 +1,10 @@
-protocol handling - fetch
-currentUIDsFor: anICFolder
-
-	| isEmpty |
-		
-	self select: anICFolder path.
-	isEmpty := true.
+accessing
+currentUIDsFor: aFolder
 	
+	self select: aFolder path.
+
 	self lastResponse do:
 		[:line | (line findString: 'EXISTS') positive
-			ifTrue: [isEmpty := false]].
-	
-	isEmpty
-	ifFalse: [
-		self
-			sendCommand: ICCommand allUIDs;
-			fetchNextResponse.
-		self 
-			uids: ((self lastResponse first subStrings: ' ') asOrderedCollection 
-			removeFirst;
-			removeFirst; 
-			yourself)]
-	ifTrue: [^ OrderedCollection new]
+			ifTrue: [^ self currentUIDs]].
+		
+	^ OrderedCollection new

@@ -1,4 +1,4 @@
-initialization
+header
 fetchHeaderResponseEnding
 
 	^ #('' ')' '. OK FETCH completed.')

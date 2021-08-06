@@ -1,12 +1,9 @@
 login
 login
+
+	(self connectionHandler throwErrorIfNotLoggedIn and: self accountInfo isValid)
+  		 ifFalse: [^ false].
 	
-	(self throwErrorIfNotLoggedIn) ifFalse: [^false].
-  	(self throwErrorIfAccountInvalid) ifFalse: [^false].
-	
-	self sendLoginCommand.
-	
-	(self throwErrorIfNotLoggedIn) ifFalse: [^false].
-	
-	(ICFileReadWriter newWith: self) readEmailsFromDisk.
-	^ true
+	self connectionHandler sendLoginCommand.
+
+	^ self connectionHandler throwErrorIfNotLoggedIn

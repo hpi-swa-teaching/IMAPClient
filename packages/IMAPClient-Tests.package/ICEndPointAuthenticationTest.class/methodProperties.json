@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"accountInfoForErasing" : "eg 7/29/2021 18:54",
+		"invalidPassword" : "jwe 6/15/2016 16:03",
+		"invalidPasswordAccountInfo" : "hg 7/31/2020 22:30",
+		"invalidUsername" : "jwe 6/15/2016 16:03",
+		"invalidUsernameAccountInfo" : "hg 7/31/2020 22:30",
+		"validAccountInfo" : "hg 7/31/2020 22:30",
+		"validAccountName" : "tg 7/10/2019 19:43",
+		"validHost" : "tg 7/10/2019 19:43",
+		"validPassword" : "tg 4/30/2019 12:22",
+		"validPort" : "tg 7/10/2019 19:43",
+		"validUsername" : "tg 4/30/2019 12:22" },
+	"instance" : {
+		"endPoint" : "AR 5/31/2016 21:33",
+		"endPoint:" : "pm 6/9/2019 17:16",
+		"setUp" : "eg 7/29/2021 18:53",
+		"tearDown" : "js 6/7/2016 09:40",
+		"testErasePassword" : "lro 6/30/2021 18:19",
+		"testLogin" : "eg 7/28/2021 16:59",
+		"testLoginWithInvalidPassword" : "eg 7/29/2021 18:59",
+		"testLoginWithInvalidUsername" : "eg 7/28/2021 16:59" } }
