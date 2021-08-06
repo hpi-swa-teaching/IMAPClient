@@ -6,6 +6,4 @@ login
 	
 	self connectionHandler sendLoginCommand.
 
-	(self connectionHandler throwErrorIfNotLoggedIn) ifFalse: [^ false].
-	
-	^ true
+	^ self connectionHandler throwErrorIfNotLoggedIn
