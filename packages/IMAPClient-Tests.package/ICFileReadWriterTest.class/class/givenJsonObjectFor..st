@@ -8,6 +8,7 @@ givenJsonObjectFor: UID
 			'subject' -> 'subject text'.
 			'flagged' -> false.
 			'seen' -> false.
+			'deleted' -> false.
 			'contentType' -> 'text/plain;  charset="iso-8859-1"'.
 			'contentTransferEncoding' -> 'quoted-printable'.
 			'to' -> #('receiver1' 'receiver2')}).

@@ -19,10 +19,10 @@ testRetrieveFlagsOnly
 	mailBPath := FileDirectory default fullPathFor: path , FileDirectory slash, '4' .
 	
 	"Asserts that in the beginning the flags equal this"
-	self assert: mailA seen equals: true.
+	self assert: mailA seen equals: false.
 	self assert: mailA flagged equals: false.
 	self assert: mailA deleted equals: false.
-	self assert: mailB seen equals: true.
+	self assert: mailB seen equals: false.
 	self assert: mailB flagged equals: false.
 	self assert: mailB deleted equals: false.
 	
