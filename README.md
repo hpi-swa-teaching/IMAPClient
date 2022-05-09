@@ -118,3 +118,5 @@ Have a look at the [GitHub Project Wiki](https://github.com/hpi-swa-teaching/IMA
 2020: Henrik Guhl, Lorenz Woth, Niko Hastrich, Julia Joch
 
 2021: Smilla Fox, Elena Gensch, Jan Groeneveld, Christian Helms, Lukas Rost, Johann Schulze Tast
+
+2022: Fynn Kröger, Simon Weißmüller, Raban Gießler, Anton Neubauer, Johanna Schlimme, Hannes Spitz
