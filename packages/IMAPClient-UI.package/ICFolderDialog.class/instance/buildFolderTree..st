@@ -11,6 +11,7 @@ buildFolderTree: builder
 		menu: #folderTreeMenu:;
 		autoDeselect: false;
 		frame: (0 @ 0.15 corner: 1 @ 1);
+		iconFor: #iconFor:;
 		columns: {
 			[:listMorph | self emphasizeUnseenFolders: listMorph filteredItems.
 				(listMorph filteredItems collect: [:item |

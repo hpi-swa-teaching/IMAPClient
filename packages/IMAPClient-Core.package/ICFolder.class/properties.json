@@ -10,7 +10,8 @@
 		"childFolders",
 		"folderName",
 		"emails",
-		"endpoint" ],
+		"endpoint",
+		"iconName" ],
 	"name" : "ICFolder",
 	"pools" : [
 		 ],
