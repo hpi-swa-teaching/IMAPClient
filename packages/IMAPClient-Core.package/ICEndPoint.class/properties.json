@@ -11,7 +11,10 @@
 		"folderNameOfTrash",
 		"readWriter",
 		"connectionHandler",
-		"hierarchyDelimiter" ],
+		"hierarchyDelimiter",
+		"folderNameOfDrafts",
+		"folderNameOfJunk",
+		"folderNameOfSent" ],
 	"name" : "ICEndPoint",
 	"pools" : [
 		 ],
