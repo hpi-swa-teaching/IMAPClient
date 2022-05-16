@@ -24,5 +24,7 @@
 		"testRemoveFolder" : "JJ 8/2/2020 18:48",
 		"testRemoveFolderWithFolderNotExisting" : "JJ 8/2/2020 18:48",
 		"testRootFolderHashName" : "JST 6/6/2021 18:43",
+		"testSortedChildren" : "FK 5/16/2022 17:52",
+		"testSortedChildrenEmpty" : "FK 5/16/2022 17:54",
 		"testUpdate" : "eg 7/29/2021 17:14",
 		"uniqueIds" : "eg 7/27/2021 19:15" } }
