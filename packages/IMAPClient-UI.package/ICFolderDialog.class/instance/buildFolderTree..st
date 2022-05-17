@@ -7,11 +7,11 @@ buildFolderTree: builder
 		setSelected: #selectedFolder:;
 		getSelected: #selectedFolder;
 		getChildren: #subFoldersOf:;
+		icon: #iconFor:;
 		label: #labelForFolder:;
 		menu: #folderTreeMenu:;
 		autoDeselect: false;
 		frame: (0 @ 0.15 corner: 1 @ 1);
-		"iconFor: #iconFor:;"
 		columns: {
 			[:listMorph | self emphasizeUnseenFolders: listMorph filteredItems.
 				(listMorph filteredItems collect: [:item |

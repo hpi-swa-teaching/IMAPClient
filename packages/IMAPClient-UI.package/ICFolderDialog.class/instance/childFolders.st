@@ -4,4 +4,4 @@ childFolders
 	(self rootFolder)
 		ifNil: [^ OrderedCollection new].
 		
-	^ self rootFolder childFolders
+	^ self rootFolder childFoldersSorted
