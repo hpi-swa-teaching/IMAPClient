@@ -7,5 +7,5 @@ testDefaultIcons
 	
 	defaultFolders do: [ :folderName | 
 		subFolder := ICFolder named: folderName in: self root with: self endpoint.
-		self deny: subFolder iconName equals: #none.
+		self assert: subFolder iconName ~= #none.
 		]
