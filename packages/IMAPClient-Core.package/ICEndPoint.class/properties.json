@@ -14,7 +14,8 @@
 		"hierarchyDelimiter",
 		"folderNameOfDrafts",
 		"folderNameOfJunk",
-		"folderNameOfSent" ],
+		"folderNameOfSent",
+		"folderNameOfInbox" ],
 	"name" : "ICEndPoint",
 	"pools" : [
 		 ],
