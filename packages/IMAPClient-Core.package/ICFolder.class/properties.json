@@ -11,7 +11,8 @@
 		"folderName",
 		"emails",
 		"endpoint",
-		"iconName" ],
+		"iconName",
+		"folderType" ],
 	"name" : "ICFolder",
 	"pools" : [
 		 ],
