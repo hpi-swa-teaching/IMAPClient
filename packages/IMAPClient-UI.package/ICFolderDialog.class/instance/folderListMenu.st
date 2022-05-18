@@ -5,8 +5,6 @@ folderListMenu
 	
 	aMenu := MenuMorph new.
 	folders := self rootFolder recursiveChildFolders.
-	
-	self halt.
 
 	folders reject: [:each | each = self selectedFolder]
 		thenDo: [:each | 
