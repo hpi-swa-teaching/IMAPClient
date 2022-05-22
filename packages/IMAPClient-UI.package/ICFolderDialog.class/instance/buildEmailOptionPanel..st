@@ -10,4 +10,4 @@ buildEmailOptionPanel: builder
 			self buildOptionButtonIn: (0.225 @ 0.0 extent: 0.225 @ 1) with: 'Subject' with: #sortEmailsBySubject with: builder.
 			self buildOptionButtonIn: (0.45 @ 0.0 extent: 0.225 @ 1) with: 'Sender' with: #sortEmailsBySender with: builder.
 			self buildOptionButtonIn: (0.675 @ 0.0 extent: 0.225 @ 1) with: 'Date' with: #sortEmailsByDate with: builder.
-			self buildOptionButtonIn: (0.9 @ 0.0 extent: 0.1 @ 1) with: 'Unread' with: #filterEmailsUnread with: builder.}
+			self buildOptionButtonIn: (0.9 @ 0.0 extent: 0.1 @ 1) with: #filterButtonLabelUnread with: #filterEmailsUnread with: builder.}

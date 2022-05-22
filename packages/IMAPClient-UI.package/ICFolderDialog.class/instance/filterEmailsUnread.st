@@ -1,4 +1,4 @@
-action - emails
+action - sorting/filter
 filterEmailsUnread
 
 	self showUnread: self showUnread not.
