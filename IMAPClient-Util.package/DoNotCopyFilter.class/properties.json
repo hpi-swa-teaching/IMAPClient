@@ -1,0 +1,14 @@
+{
+	"category" : "IMAPClient-Util",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "DoNotCopyFilter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
