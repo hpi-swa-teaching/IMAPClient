@@ -1,5 +1,5 @@
 toolbuilder
-buildButtonSortBy: aFrame with: aLabel with: anAction with: builder
+buildOptionButtonIn: aFrame with: aLabel with: anAction with: builder
 	
 	^ builder pluggableButtonSpec new
 		model: self;
