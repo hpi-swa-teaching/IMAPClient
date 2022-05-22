@@ -5,4 +5,5 @@ sortEmailsBy: aSymbol
 		ifFalse: [
 			self sortMethod: aSymbol.
 			self reverseMails: false].
+	self updateSortButtonLabels.
 	self changed: #emailsOfSelectedFolder
