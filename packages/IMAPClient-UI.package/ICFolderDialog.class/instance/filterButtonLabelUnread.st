@@ -3,4 +3,4 @@ filterButtonLabelUnread
 
 	self showUnread
 		ifTrue: [^ 'Unread']
-		ifFalse: [^ 'Read']
+		ifFalse: [^ 'All']
