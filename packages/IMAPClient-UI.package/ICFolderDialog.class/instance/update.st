@@ -8,5 +8,5 @@ update
 		(self emailAccounts collect: [:each | each rootFolder recursiveChildFolders]) flatten size +
 		self emailAccounts size.
 
-	'Updating ' displaySequentialProgress: [self updateProcess].
+	['Updating ' displaySequentialProgress: [self updateProcess]] fork.
 	self numberOfFetchedFolders: 0
