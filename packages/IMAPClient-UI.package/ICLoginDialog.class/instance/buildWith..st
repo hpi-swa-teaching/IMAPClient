@@ -1,10 +1,10 @@
 toolbuilder
 buildWith: builder
 
-	| window filter| 
+	| window| 
 	
 	self inputCollection: OrderedCollection new.
-	filter := DoNotCopyFilter new.
+	self doNotCopyFilter: DoNotCopyFilter new.
 	
 	window := (builder build: (builder pluggableWindowSpec new
 			model: self;
@@ -19,6 +19,7 @@ buildWith: builder
 				self buildPasswordInputField: builder.
 				self buildSslCheckBox: builder}))
 		on: #keyStroke send: #keyEvent: to: self;
+		addEventCaptureFilter: self doNotCopyFilter;
 		"add listener to text fields
 		and hack to make the checkbox background transparent
 		can be removed once PluggableCheckBoxMorph starts using its color selector instead of default mint green
@@ -30,6 +31,5 @@ buildWith: builder
 		(m class == PluggableCheckBoxMorph)
 			ifTrue: [m color: Color transparent]].
 	self loginMorph: window.
-	window submorphs second addEventCaptureFilter: filter.
 		
 	^ window
