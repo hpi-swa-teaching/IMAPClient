@@ -4,7 +4,7 @@ buildWith: builder
 	| window| 
 	
 	self inputCollection: OrderedCollection new.
-	self doNotCopyFilter: DoNotCopyFilter new.
+	self doNotCopyFilter: ICDoNotCopyFilter new.
 	
 	window := (builder build: (builder pluggableWindowSpec new
 			model: self;
