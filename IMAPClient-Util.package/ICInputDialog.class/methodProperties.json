@@ -1,21 +1,28 @@
 {
 	"class" : {
-		"open:with:" : "RJPG 5/23/2022 10:39" },
+		"open:with:" : "RJPG 5/23/2022 10:39",
+		"open:with:onCallback:" : "sw 5/25/2022 14:20" },
 	"instance" : {
 		"acceptButtonLabel" : "RJPG 5/23/2022 10:35",
 		"buildAcceptButton:" : "RJPG 5/23/2022 10:48",
-		"buildInputField:" : "RJPG 5/23/2022 10:46",
+		"buildInputField:" : "sw 5/25/2022 13:49",
 		"buildLabel:" : "RJPG 5/23/2022 10:46",
 		"buildWith:" : "RJPG 5/23/2022 10:48",
 		"checkBoxColor" : "RJPG 5/23/2022 10:44",
+		"closingMethod" : "sw 5/25/2022 14:05",
+		"closingMethod:" : "sw 5/25/2022 14:05",
 		"guiElementHeight" : "RJPG 5/23/2022 10:41",
 		"guiElementWidth" : "RJPG 5/23/2022 10:41",
 		"guiElementXOffset" : "RJPG 5/23/2022 10:41",
 		"guiElementYOffset" : "RJPG 5/23/2022 10:41",
 		"guiElementYOffsetOf:" : "RJPG 5/23/2022 10:41",
 		"guiElementYSpacing" : "RJPG 5/23/2022 10:42",
+		"input" : "sw 5/25/2022 13:48",
+		"input:" : "sw 5/25/2022 13:50",
 		"inputMorph" : "RJPG 5/23/2022 10:32",
 		"inputMorph:" : "RJPG 5/23/2022 10:32",
 		"label" : "RJPG 5/23/2022 10:24",
 		"label:" : "RJPG 5/23/2022 10:32",
-		"submit" : "RJPG 5/23/2022 10:43" } }
+		"owner" : "sw 5/25/2022 14:19",
+		"owner:" : "sw 5/25/2022 14:20",
+		"submit" : "sw 5/25/2022 14:22" } }

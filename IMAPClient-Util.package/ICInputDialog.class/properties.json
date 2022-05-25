@@ -7,7 +7,10 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"label",
-		"inputMorph" ],
+		"inputMorph",
+		"input",
+		"closingMethod",
+		"owner" ],
 	"name" : "ICInputDialog",
 	"pools" : [
 		 ],

@@ -1,9 +1,9 @@
 action - emails
 login: anEndpoint
 
-
-	ICInputDialog open: self with: 'Test text'.
+	|out|
 	
+	out := ICInputDialog open: self with: 'Input Password To Login' onCallback: #emailAccounts .
 	"| continueAsking |
 	continueAsking := true. 
 	[continueAsking] whileTrue: [
