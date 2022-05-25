@@ -10,7 +10,8 @@
 		"inputMorph",
 		"input",
 		"closingMethod",
-		"owner" ],
+		"owner",
+		"filter" ],
 	"name" : "ICInputDialog",
 	"pools" : [
 		 ],

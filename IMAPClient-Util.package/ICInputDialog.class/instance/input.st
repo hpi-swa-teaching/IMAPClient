@@ -1,3 +1,3 @@
 accessing
 input
-	^ input
+	^ input ifNil: ''

@@ -1,4 +1,4 @@
 accessing
-label: String
+label: aString
 
-	label := String
+	label := aString 
