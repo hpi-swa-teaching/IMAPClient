@@ -6,5 +6,6 @@ directoryVisitor
 			currentFolder := ICFolder
 				named: directory pathParts last
 				in: (self directoryToFolderDictionary at: directory containingDirectory)
-				with: self endpoint.
+				with: self endpoint
+				of: #Generic.
 			directoryToFolderDictionary at: directory put: currentFolder]]

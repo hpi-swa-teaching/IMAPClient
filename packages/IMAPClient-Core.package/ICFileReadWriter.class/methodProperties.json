@@ -2,12 +2,15 @@
 	"class" : {
 		"newWith:" : "hg 7/29/2020 13:55" },
 	"instance" : {
+		"addMailTo:from:" : "RJPG 5/30/2022 20:11",
 		"delete:" : "hg 8/2/2020 19:11",
 		"directoryToFolderDictionary" : "hg 7/29/2020 15:35",
-		"directoryVisitor" : "an 5/17/2022 23:05",
+		"directoryVisitor" : "RJPG 5/30/2022 20:27",
 		"endpoint" : "hg 7/29/2020 14:09",
 		"endpoint:" : "hg 7/29/2020 14:09",
-		"fileVisitor" : "JST 5/14/2021 14:50",
-		"readEmailsFromDisk" : "JNG 6/3/2021 19:28",
+		"fileVisitor" : "RJPG 5/30/2022 20:12",
+		"isICFolderFile:" : "RJPG 5/30/2022 20:06",
+		"readEmailsFromDisk" : "RJPG 5/28/2022 11:08",
 		"rootDirectory" : "hg 7/29/2020 13:56",
-		"write:" : "LW 8/2/2020 16:37" } }
+		"write:" : "LW 8/2/2020 16:37",
+		"writeFolder:" : "RJPG 5/30/2022 20:50" } }

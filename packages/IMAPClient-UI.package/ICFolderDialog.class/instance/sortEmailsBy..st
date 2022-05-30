@@ -1,4 +1,4 @@
-action - sorting
+action - sorting/filter
 sortEmailsBy: aSymbol
 	(self sortMethod = aSymbol)
 		ifTrue: [self toggleReverseMails]

@@ -7,8 +7,6 @@ named: name in: parent with: endpoint of: aType
 		folderName: name;
 		endpoint: endpoint;
 		folderType: aType.
-	
-	newFolder iconName: (ICFolder getDefaultIcon: name).
 		
 	parent addFolder: newFolder.
 	

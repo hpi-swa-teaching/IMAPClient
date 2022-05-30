@@ -1,4 +1,4 @@
-action - sorting
+action - sorting/filter
 updateSortButtonLabels
 	
 	self changed: #sortButtonLabelFlagUpdate;

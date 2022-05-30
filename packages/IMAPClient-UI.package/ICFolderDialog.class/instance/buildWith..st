@@ -10,4 +10,4 @@ buildWith: builder
 			self buildNavigationPanel: builder.
 			self buildEmailTopPanel: builder.
 			self buildEmailList: builder.
-			self buildEmailSortPanel: builder})
+			self buildEmailOptionPanel: builder})

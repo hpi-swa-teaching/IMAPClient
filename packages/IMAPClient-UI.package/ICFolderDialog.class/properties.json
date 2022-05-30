@@ -17,7 +17,8 @@
 		"searchResultsString",
 		"sortMethod",
 		"reverseMails",
-		"dialogTitle" ],
+		"dialogTitle",
+		"showUnread" ],
 	"name" : "ICFolderDialog",
 	"pools" : [
 		 ],

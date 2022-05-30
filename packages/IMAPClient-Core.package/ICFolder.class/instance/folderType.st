@@ -1,3 +1,4 @@
 accessing
 folderType
-	^ folderType
+
+	^ folderType ifNil: #Generic
