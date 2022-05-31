@@ -6,6 +6,7 @@
 	"instance" : {
 		"endpoint" : "ms 7/28/2016 14:10",
 		"endpoint:" : "pm 6/9/2019 17:19",
+		"givenJsonObject" : "RJPG 5/31/2022 15:52",
 		"mailIn:" : "eg 7/29/2021 17:05",
 		"root" : "js 6/7/2016 12:56",
 		"root:" : "pm 6/9/2019 17:19",
@@ -14,6 +15,7 @@
 		"testAddFolder" : "RJPG 5/30/2022 20:30",
 		"testCountFolders" : "RJPG 5/30/2022 20:28",
 		"testDefaultIcons" : "RJPG 5/30/2022 20:39",
+		"testDeserialization" : "RJPG 5/31/2022 16:03",
 		"testEmailInFolder" : "RJPG 5/30/2022 20:28",
 		"testEmptyIcon" : "RJPG 5/30/2022 20:28",
 		"testEnsureFreshness" : "eg 7/29/2021 17:09",
@@ -25,9 +27,10 @@
 		"testRemoveFolder" : "RJPG 5/30/2022 20:29",
 		"testRemoveFolderWithFolderNotExisting" : "RJPG 5/30/2022 20:29",
 		"testRootFolderHashName" : "JST 6/6/2021 18:43",
+		"testSerialization" : "RJPG 5/31/2022 15:55",
 		"testSortedChildren" : "RJPG 5/30/2022 20:29",
 		"testSortedChildrenEmpty" : "FK 5/16/2022 17:54",
-		"testUnreadButton" : "an 5/22/2022 17:25",
-		"testUnreadButtonEmailVisible" : "an 5/22/2022 17:26",
+		"testUnreadButton" : "RJPG 5/31/2022 15:49",
+		"testUnreadButtonEmailVisible" : "RJPG 5/31/2022 15:49",
 		"testUpdate" : "eg 7/29/2021 17:14",
 		"uniqueIds" : "eg 7/27/2021 19:15" } }

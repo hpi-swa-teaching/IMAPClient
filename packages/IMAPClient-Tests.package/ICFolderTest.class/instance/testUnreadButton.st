@@ -11,3 +11,5 @@ dialog filterEmailsUnread.
 
 self assert: dialog showUnread equals: true.
 
+dialog folderMorph abandon
+
