@@ -1,4 +1,4 @@
 running
 tearDown 
 
-	self deleteMorphs.
+	self subject abandon

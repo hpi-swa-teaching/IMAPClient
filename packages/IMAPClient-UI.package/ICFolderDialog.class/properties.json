@@ -19,7 +19,7 @@
 		"reverseMails",
 		"dialogTitle",
 		"showUnread",
-		"folderMorph" ],
+		"folderDialogMorph" ],
 	"name" : "ICFolderDialog",
 	"pools" : [
 		 ],

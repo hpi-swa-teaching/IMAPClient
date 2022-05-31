@@ -12,7 +12,7 @@ buildWith: builder
 			self buildEmailTopPanel: builder.
 			self buildEmailList: builder.
 			self buildEmailOptionPanel: builder})).
-	self folderMorph: window.
+	self folderDialogMorph: window.
 		
 	^ window
 		

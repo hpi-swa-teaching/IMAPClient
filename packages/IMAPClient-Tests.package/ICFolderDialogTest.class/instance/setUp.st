@@ -1,4 +1,4 @@
 running
 setUp
 
-	self wantsToTest: ICFolderDialog new
+	self wantsToTest: ICFolderDialog new folderDialogMorph.
