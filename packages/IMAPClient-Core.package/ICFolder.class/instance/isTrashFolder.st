@@ -1,5 +1,4 @@
 accessing
 isTrashFolder
 
-	^ self endpoint folderNameOfTrash = self folderName
-	
+	^ self folderType = #Trash

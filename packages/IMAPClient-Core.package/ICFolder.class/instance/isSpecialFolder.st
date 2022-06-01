@@ -1,8 +1,4 @@
-as yet unclassified
+accessing
 isSpecialFolder
 
-	^ (self isSentFolder) 
-	or: [self isDraftsFolder]
-	or: [self isInboxFolder]
-	or: [self isJunkFolder]
-	or: [self isTrashFolder]
+	^ self specialFolderTypes contains: [:sym | sym = self folderType]
