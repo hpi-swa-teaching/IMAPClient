@@ -12,4 +12,4 @@ setUp
 	self addressBook addAll: contactList.
 	
 	self addressBookDialog: ICAddressBookDialog basicNew.
-	
+	self wantsToTest: (self addressBookDialog addressBookDialogMorph).

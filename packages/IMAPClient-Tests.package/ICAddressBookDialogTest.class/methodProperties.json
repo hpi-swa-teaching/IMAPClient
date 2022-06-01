@@ -12,9 +12,10 @@
 		"emailAccounts:" : "lro 6/10/2021 10:09",
 		"expectedSortedByMail" : "lro 6/10/2021 11:08",
 		"expectedSortedByName" : "lro 6/10/2021 11:08",
-		"setUp" : "lro 6/10/2021 11:26",
-		"tearDown" : "lro 6/10/2021 11:25",
+		"setUp" : "Hannes Spitz4 6/1/2022 22:59",
+		"tearDown" : "Hannes Spitz4 6/1/2022 21:41",
 		"testSortByMail" : "lro 6/10/2021 11:23",
 		"testSortByMailReversed" : "lro 6/10/2021 11:23",
 		"testSortByName" : "lro 6/10/2021 11:23",
-		"testSortByNameReversed" : "lro 6/10/2021 11:23" } }
+		"testSortByNameReversed" : "lro 6/10/2021 11:23",
+		"testVisualizeSort" : "Hannes Spitz4 6/1/2022 21:12" } }

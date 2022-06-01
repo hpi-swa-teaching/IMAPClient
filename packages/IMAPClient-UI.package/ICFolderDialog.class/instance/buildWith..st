@@ -1,7 +1,7 @@
 toolbuilder
 buildWith: builder
 
-	| window|
+	| window |
 	window := (builder build: (builder pluggableWindowSpec new
 		model: self;
 		label: #dialogTitle;
