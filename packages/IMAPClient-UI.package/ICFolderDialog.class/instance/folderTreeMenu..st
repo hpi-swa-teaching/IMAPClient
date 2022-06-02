@@ -11,6 +11,6 @@ folderTreeMenu: aMenu
 			
 	(self selectedFolder isSpecialFolder) ifFalse: [
 		aMenu add: 'delete folder'
-				action: #halt].
+				action: #deleteEmailsFromFolder].
 	
 	^ aMenu
