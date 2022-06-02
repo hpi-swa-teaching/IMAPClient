@@ -10,5 +10,6 @@ getFolderType: aResponseLine
 	(aResponseLine includesSubstring: '\Junk') ifTrue: [folderType := #Junk.].
 	(aResponseLine includesSubstring: '\Sent') ifTrue: [folderType := #Sent.].
 	(aResponseLine includesSubstring: 'INBOX') ifTrue: [folderType := #Inbox.].
+	(aResponseLine includesSubstring: 'Postausgang') ifTrue: [folderType := #Outbox.].
 	
 	^ folderType

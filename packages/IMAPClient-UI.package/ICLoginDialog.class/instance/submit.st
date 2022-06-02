@@ -5,6 +5,5 @@ submit
  
 	self insertDefaults.
 	accountInfo := self createAccountInfo.
- 
 	self loginMorph abandon.
 	self addOrEditAccount: accountInfo

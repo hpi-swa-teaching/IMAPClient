@@ -1,6 +1,6 @@
 toolbuilder
 buildPasswordInputField: builder
-
+	
 	^ builder pluggableInputFieldSpec new
 		model: self;
 		askBeforeDiscardingEdits: false;

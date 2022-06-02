@@ -1,3 +1,4 @@
 accessing
-folderType: anObject
-	folderType := anObject
+folderType: aSymbol
+
+	folderType := aSymbol

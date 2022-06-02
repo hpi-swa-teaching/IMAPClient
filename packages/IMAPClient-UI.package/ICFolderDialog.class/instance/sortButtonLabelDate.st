@@ -1,4 +1,4 @@
-action - sorting
+action - sorting/filter
 sortButtonLabelDate
 
 	self sortMethod = #date

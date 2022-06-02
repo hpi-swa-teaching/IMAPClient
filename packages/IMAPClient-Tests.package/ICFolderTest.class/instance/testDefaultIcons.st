@@ -1,11 +1,11 @@
 folderIcon
 testDefaultIcons
 
-	| subFolder defaultFolders|
+	| subFolder defaultTypes|
 	
-	defaultFolders := {'INBOX'. 'Spam'. 'Entwurf'. 'Papierkorb'. 'Gesendet'}.
+	defaultTypes := {#Inbox . #Sent . #Junk . #Drafts . #Trash}.
 	
-	defaultFolders do: [ :folderName | 
-		subFolder := ICFolder named: folderName in: self root with: self endpoint.
+	defaultTypes do: [ :folderType | 
+		subFolder := ICFolder named: 'subfolders' in: self root with: self endpoint of: folderType.
 		self assert: subFolder iconName ~= #none.
 		]

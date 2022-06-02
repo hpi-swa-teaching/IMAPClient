@@ -1,4 +1,4 @@
-action - sorting
+action - sorting/filter
 sortButtonLabelSubject
 
 	self sortMethod = #subject

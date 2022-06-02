@@ -9,9 +9,10 @@ baseline: spec
 				baseline: 'Widgets' with: [ spec repository: 'github://hpi-swa/widgets:master/repository' ];
 				package: 'IMAPClient-Core' with: [ spec requires: #('libraries') ];
 				package: 'IMAPClient-UI';
+				package: 'IMAPClient-Util';
 				package: 'IMAPClient-Protocol';
 				package: 'IMAPClient-Tests' with: [ spec requires: #('default')].
 			spec
-				group: 'default' with: #('IMAPClient-UI' 'IMAPClient-Core' 'IMAPClient-Protocol');
+				group: 'default' with: #('IMAPClient-UI' 'IMAPClient-Core' 'IMAPClient-Protocol' 'IMAPClient-Util');
 				group: 'Tests' with: #('IMAPClient-Tests');
 				group: 'libraries' with: #('JSON' 'Widgets')]
