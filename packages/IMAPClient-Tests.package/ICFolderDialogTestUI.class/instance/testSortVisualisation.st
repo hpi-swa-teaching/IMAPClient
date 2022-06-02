@@ -10,4 +10,4 @@ testSortVisualisation
 		button click.
 		self assert: button label equals: buttonLabel, ' (asc)'.
 		button click.
-		self assert: button label equals: buttonLabel, ' (desc)']
+		self assert: button label equals: buttonLabel, ' (desc)'].
