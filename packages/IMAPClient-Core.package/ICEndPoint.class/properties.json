@@ -15,7 +15,8 @@
 		"folderNameOfDrafts",
 		"folderNameOfJunk",
 		"folderNameOfSent",
-		"folderNameOfInbox" ],
+		"folderNameOfInbox",
+		"folderNameOfOutbox" ],
 	"name" : "ICEndPoint",
 	"pools" : [
 		 ],

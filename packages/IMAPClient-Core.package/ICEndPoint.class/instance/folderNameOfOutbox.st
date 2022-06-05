@@ -1,0 +1,4 @@
+accessing
+folderNameOfOutbox
+
+	^ folderNameOfOutbox

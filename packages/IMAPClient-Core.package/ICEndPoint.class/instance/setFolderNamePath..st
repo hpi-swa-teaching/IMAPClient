@@ -10,5 +10,6 @@ setFolderNamePath: aResponseLine
 	(aResponseLine includesSubstring: '\Junk') ifTrue: [self folderNameOfJunk: folderPath first].
 	(aResponseLine includesSubstring: '\Sent') ifTrue: [self folderNameOfSent: folderPath first].
 	(aResponseLine includesSubstring: 'INBOX') ifTrue: [self folderNameOfInbox: folderPath first].
+	(aResponseLine includesSubstring: 'Postausgang') ifTrue: [self folderNameOfOutbox: folderPath first].
 	
 	^ folderPath
