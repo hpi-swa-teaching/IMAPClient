@@ -1,10 +1,8 @@
 as yet unclassified
 scaleIconFitting: anIcon
 
-	| scaleFactor referenceExtent |
+	| scaleFactor |
 	
 	scaleFactor := RealEstateAgent scaleFactor.
-	referenceExtent := RealEstateAgent defaultIconExtent.
 	
-	
-	^ (anIcon  scaledToSize: (referenceExtent * scaleFactor * self iconScaleFactor))
+	^ (anIcon  scaledToSize: ((anIcon width)@(anIcon height) * scaleFactor * self iconScaleFactor))

@@ -1,4 +1,4 @@
 as yet unclassified
 iconScaleFactor
 	
-	^0.8
+	^0.6
