@@ -1,4 +1,4 @@
 running
 tearDown
 
-	"self folderDialog folderDialogMorph abandon"
+	self folderDialog folderMorph abandon
