@@ -1,4 +1,10 @@
 as yet unclassified
 scaleIconToDisplay: anIcon
 
-	^ (anIcon scaleIconToDisplay) magnifyBy: 0.8
+	| scaleFactor referenceExtent |
+	
+	scaleFactor := RealEstateAgent scaleFactor.
+	referenceExtent := RealEstateAgent defaultIconExtent.
+	
+	
+	^ (anIcon  scaledToSize: (referenceExtent * scaleFactor * self iconScaleFactor))
