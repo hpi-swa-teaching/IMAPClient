@@ -1,5 +1,5 @@
 as yet unclassified
-scaleIconToDisplay: anIcon
+scaleIconFitting: anIcon
 
 	| scaleFactor referenceExtent |
 	
