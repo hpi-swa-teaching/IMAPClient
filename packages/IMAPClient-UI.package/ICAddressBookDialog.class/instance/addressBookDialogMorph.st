@@ -1,0 +1,4 @@
+accessing
+addressBookDialogMorph
+
+	^ addressBookDialogMorph

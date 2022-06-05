@@ -20,4 +20,4 @@ self assert: (dialog shouldEmailBeVisible: email) equals: true.
 email seen: true.
 self assert: (dialog shouldEmailBeVisible: email) equals: false.
 
-dialog folderMorph abandon
+dialog folderDialogMorph abandon

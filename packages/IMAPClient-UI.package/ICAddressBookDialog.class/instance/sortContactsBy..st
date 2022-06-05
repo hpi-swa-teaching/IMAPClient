@@ -4,6 +4,7 @@ sortContactsBy: aMethod
 	self sortMethod = aMethod ifTrue: [self reverseContacts] 
 		ifFalse: [
 			self sortMethod: aMethod.
-			self addressBook sort: (self sortBlocks at: aMethod)
+			self addressBook sort: (self sortBlocks at: aMethod).
+			self sortedReversed: false
 		].
 	self changed: #addressBook

@@ -1,6 +1,7 @@
 running
 setUp
 	
+	| endpoint |
 	self contactList: 
 		{(ICContact newWith: 'erika.musterfrau@rocks.de' with: 'Erika Musterfrau') asString.
 		  (ICContact newWith: 'max.mustermann@rocks.de' with: 'Max Mustermann') asString.
@@ -11,4 +12,9 @@ setUp
 	self addressBook removeAll.
 	self addressBook addAll: contactList.
 	
-	self addressBookDialog: ICAddressBookDialog basicNew.
+	
+	endpoint:= ICMockEndpoint new rootFolder: ICFolder new.
+	self emailAccounts: endpoint asOrderedCollection.
+	
+	self addressBookDialog: (ICAddressBookDialog openWith: self emailAccounts).
+	self wantsToTest: self addressBookDialog

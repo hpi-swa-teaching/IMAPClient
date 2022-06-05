@@ -1,0 +1,17 @@
+{
+	"category" : "IMAPClient-Tests-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"addressBook",
+		"addressBookDialog",
+		"contactList",
+		"emailAccounts" ],
+	"name" : "ICAddressBookDialogTestUI",
+	"pools" : [
+		 ],
+	"super" : "MTFTestCase",
+	"type" : "normal" }

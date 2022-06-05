@@ -1,7 +1,7 @@
 toolbuilder
 buildWith: builder
 
-	| window|
+	| window |
 	window := (builder build: (builder pluggableWindowSpec new
 		model: self;
 		label: #dialogTitle;
@@ -12,7 +12,7 @@ buildWith: builder
 			self buildEmailTopPanel: builder.
 			self buildEmailList: builder.
 			self buildEmailOptionPanel: builder})).
-	self folderMorph: window.
+	self folderDialogMorph: window.
 		
 	^ window
 		
