@@ -5,4 +5,5 @@ buildButton: aFrame with: aLabel with: anAction with: builder
 		model: self;
 		frame: aFrame;
 		label: aLabel;
-		action: anAction
+		action: anAction;
+		changeLabelWhen: #addressBook

@@ -8,7 +8,7 @@ testSortedChildren
 	subfolder3 := ICFolder named: 'A' in: self root with: self endpoint of: #Generic.
 	subfolder4 := ICFolder named: 'b' in: self root with: self endpoint of: #Generic.
 	subfolder5 := ICFolder named: 'DDA' in: self root with: self endpoint of: #Generic.
-	subfolder6 := ICFolder named: 'INBOX' in: self root with: self endpoint of: #Generic.
-	subfolder7 := ICFolder named: 'Gesendet' in: self root with: self endpoint of: #Generic.
+	subfolder6 := ICFolder named: 'INBOX' in: self root with: self endpoint of: #Inbox.
+	subfolder7 := ICFolder named: 'Gesendet' in: self root with: self endpoint of: #Sent.
 	
 	self assert: self root childFoldersSorted equals: (OrderedCollection newFrom: {subfolder6 . subfolder7 . subfolder3 . subfolder4. subfolder5 . subfolder1 . subfolder2}).

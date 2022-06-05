@@ -1,12 +1,10 @@
 accessing
 childFoldersSorted
 
-	^ self childFolders sort: [:a :b | (self priorityFolders contains: [:entry | entry = a folderName]) 
+	^ self childFolders sort: [:a :b | (a isSpecialFolder) 
 											ifTrue: 
-												[(self priorityFolders contains: [:entry | entry = b folderName]) 
-													ifTrue: [(self priorityFolders indexOf: a folderName) <= (self priorityFolders indexOf: b folderName)]
-													ifFalse: [true]]
+												[(b isSpecialFolder) ifFalse: [true]
+													ifTrue: [(self specialFolderTypes indexOf: a folderType) <= (self specialFolderTypes indexOf: b folderType)]]
 											ifFalse:
-												 [(self priorityFolders contains: [:entry | entry = b folderName]) 
-													ifTrue: [false]
+												 [(b isSpecialFolder) ifTrue: [false]
 													ifFalse: [a folderName caseInsensitiveLessOrEqual: b folderName]]]	

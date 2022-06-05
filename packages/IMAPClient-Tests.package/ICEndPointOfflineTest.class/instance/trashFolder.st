@@ -1,7 +1,4 @@
 constants
 trashFolder
 
-	^ ICFolder new
-		folderName: self trashFolderName;
-		parent: self folder;
-		endpoint: self endPoint
+	^ ICFolder named: 'trash' in: self endPoint rootFolder with: self endPoint of: #Trash

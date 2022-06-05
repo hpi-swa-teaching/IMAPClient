@@ -12,6 +12,7 @@
 	"instance" : {
 		"accountInfo" : "sf 6/4/2021 13:58",
 		"accountName" : "sf 7/26/2021 12:01",
+		"addFolderTo:with:with:" : "RJPG 6/2/2022 14:39",
 		"addMail:to:" : "sf 7/26/2021 12:10",
 		"close" : "JST 6/6/2021 23:35",
 		"connect" : "sf 6/4/2021 13:57",
@@ -27,7 +28,7 @@
 		"doFilesExistFrom:to:" : "sf 8/1/2021 15:50",
 		"expungeEmails" : "sf 6/4/2021 16:29",
 		"fetchMailsBeginningAt:number:" : "sf 7/30/2021 16:40",
-		"folderFromResponse:" : "RJPG 5/30/2022 20:58",
+		"folderFromResponse:" : "RJPG 6/2/2022 14:41",
 		"folderNameOfDrafts" : "sw 5/15/2022 19:20",
 		"folderNameOfDrafts:" : "sw 5/15/2022 19:19",
 		"folderNameOfInbox" : "an 5/15/2022 20:31",
@@ -79,4 +80,5 @@
 		"sendNextCommands" : "JST 7/4/2021 00:04",
 		"setFolderNamePath:" : "an 5/15/2022 20:26",
 		"switchFlag:for:to:" : "JNG 6/30/2021 11:30",
-		"updateFlagsFor:with:" : "sf 8/1/2021 16:36" } }
+		"updateFlagsFor:with:" : "sf 8/1/2021 16:36",
+		"updateFolderType:with:" : "RJPG 6/2/2022 14:05" } }

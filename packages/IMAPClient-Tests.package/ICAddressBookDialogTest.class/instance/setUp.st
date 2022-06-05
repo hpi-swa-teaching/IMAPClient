@@ -12,4 +12,3 @@ setUp
 	self addressBook addAll: contactList.
 	
 	self addressBookDialog: ICAddressBookDialog basicNew.
-	

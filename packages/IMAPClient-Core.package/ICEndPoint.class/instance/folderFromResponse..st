@@ -6,12 +6,6 @@ folderFromResponse: responseLine
 	folderPath := self setFolderNamePath: responseLine.
 	folderType := self getFolderType: responseLine. 
 
-	parent := self rootFolder childFolderNamed: folderPath first 
-		ifAbsent: [|folder|
-			folder := ICFolder named: folderPath first in: self rootFolder with: self of: folderType.
-			self readWriter writeFolder: folder].
-	
-	folderPath allButFirst do: [ :name | parent := parent childFolderNamed: name 
-		ifAbsent: [|folder|
-			folder := ICFolder named: name in: parent with: self of: folderType.
-			self readWriter writeFolder: folder]]
+	parent := self addFolderTo: self rootFolder with: folderPath first with: folderType.
+	self updateFolderType: parent with: folderType.
+	folderPath allButFirst do: [ :name | self addFolderTo: parent with: name with: folderType]
