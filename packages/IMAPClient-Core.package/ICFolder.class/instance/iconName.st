@@ -8,3 +8,4 @@ iconName
 	(dict includesKey: self folderType)
 		ifTrue: [^ dict at: self folderType]
 		ifFalse: [^ #none]
+	
