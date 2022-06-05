@@ -6,8 +6,6 @@
 	"instance" : {
 		"endpoint" : "ms 7/28/2016 14:10",
 		"endpoint:" : "pm 6/9/2019 17:19",
-		"getAnEmail" : "an 6/5/2022 18:20",
-		"getNumberOfEmails:in:" : "an 6/5/2022 19:04",
 		"givenJsonObject" : "RJPG 5/31/2022 15:52",
 		"mailIn:" : "eg 7/29/2021 17:05",
 		"root" : "js 6/7/2016 12:56",
@@ -26,7 +24,6 @@
 		"testIMAPFolderType" : "sw 5/17/2022 22:07",
 		"testLowestUniqueID" : "lro 6/22/2021 10:50",
 		"testNumberOfUnseenEmails" : "eg 7/29/2021 16:47",
-		"testRemoveEmailsFromFolder" : "an 6/5/2022 19:17",
 		"testRootFolderHashName" : "JST 6/6/2021 18:43",
 		"testSerialization" : "RJPG 5/31/2022 15:55",
 		"testSortedChildren" : "FK 6/1/2022 14:45",
