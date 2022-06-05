@@ -6,10 +6,10 @@ testIconScaling
 	formOrigin := Form dotOfSize: 100.
 	Preferences changeFontSize: -3.
 
-	formOld := self folderDialog scaleIconToDisplay: formOrigin.
+	formOld := self folderDialog scaleIconFitting: formOrigin.
 
 	Preferences changeFontSize: 6.
-	formNew := self folderDialog scaleIconToDisplay: formOrigin.
+	formNew := self folderDialog scaleIconFitting: formOrigin.
 
 	Preferences changeFontSize: -3.
 	self assert: (formNew width > formOld width)
