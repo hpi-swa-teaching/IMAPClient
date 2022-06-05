@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 outboxIcon
 	"This is an auto-generated method"
 	^ (Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: 'iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAQAAAAngNWGAAAABGdBTUEAALGPC/xhBQAAACBj
