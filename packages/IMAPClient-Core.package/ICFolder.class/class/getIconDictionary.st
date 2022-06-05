@@ -7,6 +7,5 @@ getIconDictionary
 		#Drafts -> #draftIcon.
 		#Trash -> #trashIcon.
 		#Sent -> #sentIcon.
-		#Outbox -> #outboxIcon.
 	}
 	
