@@ -21,7 +21,7 @@ jobs:
         with:
           smalltalk-version: ${{ matrix.smalltalk }}
       - run: smalltalkci -s ${{ matrix.smalltalk }}
- 	shell: bash
+        shell: bash
         env: 
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         timeout-minutes: 15
