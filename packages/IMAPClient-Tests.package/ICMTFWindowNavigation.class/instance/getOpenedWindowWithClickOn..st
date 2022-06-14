@@ -1,5 +1,5 @@
 navigation
-getOpenedWindow: aButton
+getOpenedWindowWithClickOn: aButton
 
 	|addressBookWindow addressBookWindowCandidates currentWorld morphsInWorld 	wrappedAddressBookWindow|
 	currentWorld := self subject world.

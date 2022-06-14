@@ -1,6 +1,4 @@
 navigation
 navigateFromFolderDialogToAddressBook: aMorph
-
-	| button 	|
-	button := aMorph findByName: ICFolderDialog nameAddressBookButton.
-	^ self getOpenedWindow: button
+	
+	^ self navigateFrom: aMorph toNamedMorph: ICFolderDialog nameAddressBookButton

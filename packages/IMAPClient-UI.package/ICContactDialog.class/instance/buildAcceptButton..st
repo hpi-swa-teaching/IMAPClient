@@ -2,6 +2,7 @@ toolbuilder
 buildAcceptButton: builder
 
 	^ builder pluggableButtonSpec new
+		name: self class nameAcceptButton;
 		model: self;
 		label: #acceptLabel;
 		action: #accept;
