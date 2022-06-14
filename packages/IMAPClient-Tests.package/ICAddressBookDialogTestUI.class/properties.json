@@ -13,5 +13,5 @@
 	"name" : "ICAddressBookDialogTestUI",
 	"pools" : [
 		 ],
-	"super" : "MTFTestCase",
+	"super" : "ICMTFWindowNavigation",
 	"type" : "normal" }

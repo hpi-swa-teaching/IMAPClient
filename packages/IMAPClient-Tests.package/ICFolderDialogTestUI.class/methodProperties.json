@@ -2,7 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "hsp 5/31/2022 17:54",
+		"folderDialog" : "RJPG 6/14/2022 16:39",
+		"folderDialog:" : "RJPG 6/14/2022 16:39",
+		"setUp" : "RJPG 6/14/2022 16:58",
 		"sortButtonLabels" : "hsp 5/31/2022 18:04",
-		"tearDown" : "hsp 5/31/2022 17:52",
-		"testSortVisualisation" : "Hannes Spitz4 6/2/2022 18:04" } }
+		"tearDown" : "RJPG 6/14/2022 17:26",
+		"testSearchForContactsInEmails" : "RJPG 6/14/2022 17:38",
+		"testSortVisualisation" : "RJPG 6/12/2022 12:51" } }

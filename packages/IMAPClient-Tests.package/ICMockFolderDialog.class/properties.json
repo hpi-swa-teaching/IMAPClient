@@ -1,14 +1,14 @@
 {
-	"category" : "IMAPClient-Tests-UI",
+	"category" : "IMAPClient-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"folderDialog" ],
-	"name" : "ICFolderDialogTestUI",
+		 ],
+	"name" : "ICMockFolderDialog",
 	"pools" : [
 		 ],
-	"super" : "ICMTFWindowNavigation",
+	"super" : "ICFolderDialog",
 	"type" : "normal" }

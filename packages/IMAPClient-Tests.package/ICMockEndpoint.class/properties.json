@@ -6,11 +6,10 @@
 		 ],
 	"commentStamp" : "sf 6/24/2021 15:53",
 	"instvars" : [
-		"rootFolder",
 		"mailBody",
 		"uids" ],
 	"name" : "ICMockEndpoint",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ICEndPoint",
 	"type" : "normal" }

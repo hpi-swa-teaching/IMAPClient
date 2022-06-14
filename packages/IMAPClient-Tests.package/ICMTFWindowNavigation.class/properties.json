@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "RJPG 6/14/2022 17:23",
 	"instvars" : [
-		"folderDialog" ],
-	"name" : "ICFolderDialogTestUI",
+		"openedWindows" ],
+	"name" : "ICMTFWindowNavigation",
 	"pools" : [
 		 ],
-	"super" : "ICMTFWindowNavigation",
+	"super" : "MTFTestCase",
 	"type" : "normal" }
