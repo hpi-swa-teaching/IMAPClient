@@ -1,7 +1,9 @@
 accessing - folder
 shouldEmailBeVisible: anICEmail
 	^ (self filterString isEmpty or: [
-			(self labelForMail: anICEmail) includesSubstring: self filterString caseSensitive: false])
+		(self hasMatchInLabel: anICEmail with: self filterString)
+		or:
+		[self hasMatchInAddressbook: anICEmail sender with: self filterString]])
 		and: [(self showUnread) ifTrue:
 			[anICEmail seen not]
 			ifFalse: [true].]
