@@ -4,13 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "sf 6/24/2021 15:53",
+	"commentStamp" : "",
 	"instvars" : [
-		"rootFolder",
-		"mailBody",
-		"uids" ],
-	"name" : "ICMockEndpoint",
+		 ],
+	"name" : "IMAPClientTestsServiceProvider",
 	"pools" : [
 		 ],
-	"super" : "ICEndPoint",
+	"super" : "ServiceProvider",
 	"type" : "normal" }

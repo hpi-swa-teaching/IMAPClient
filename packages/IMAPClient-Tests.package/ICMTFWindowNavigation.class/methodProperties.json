@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"findBySubstringInContents:in:" : "RJPG 6/15/2022 20:03",
 		"getOpenedWindowWithClickOn:" : "RJPG 6/14/2022 17:50",
 		"navigateFrom:toNamedMorph:" : "RJPG 6/14/2022 18:01",
 		"navigateFromAddressBookToAddContact:" : "RJPG 6/14/2022 18:01",

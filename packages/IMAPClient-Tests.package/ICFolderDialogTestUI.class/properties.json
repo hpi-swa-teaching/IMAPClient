@@ -6,7 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"folderDialog" ],
+		"folderDialog",
+		"testFolder",
+		"root",
+		"endpoint" ],
 	"name" : "ICFolderDialogTestUI",
 	"pools" : [
 		 ],
