@@ -14,5 +14,4 @@ setUp
 	
 	self wantsToTest: self folderDialog folderDialogMorph.
 	
-	self testFolder: (ICFolder new folderName: 'testFolder').
-	self folderDialog rootFolder addFolder: testFolder
+	
