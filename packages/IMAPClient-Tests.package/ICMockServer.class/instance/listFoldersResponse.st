@@ -1,5 +1,5 @@
 folder
-listFoldersResponse 
+listFoldersResponse
 
 	^ OrderedCollection newFrom: {
 		'* LIST (\Unmarked \HasChildren) "." "INBOX"'.

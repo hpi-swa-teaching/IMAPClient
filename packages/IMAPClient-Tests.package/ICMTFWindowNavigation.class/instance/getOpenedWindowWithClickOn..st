@@ -1,7 +1,7 @@
 helper
 getOpenedWindowWithClickOn: aButtonMorph
 
-	|addressBookWindow addressBookWindowCandidates currentWorld morphsInWorld wrappedAddressBookWindow|
+	| addressBookWindow addressBookWindowCandidates currentWorld morphsInWorld wrappedAddressBookWindow |
 	currentWorld := self subject world.
 	morphsInWorld := currentWorld submorphs.
 	aButtonMorph click.
@@ -11,4 +11,3 @@ getOpenedWindowWithClickOn: aButtonMorph
 	wrappedAddressBookWindow := self wrapMTFMorphAround: addressBookWindow.
 	self openedWindows add: wrappedAddressBookWindow.
 	^ wrappedAddressBookWindow
-	

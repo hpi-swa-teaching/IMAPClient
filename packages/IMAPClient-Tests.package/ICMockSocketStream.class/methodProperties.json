@@ -1,17 +1,17 @@
 {
 	"class" : {
-		"openConnectionToHost:port:" : "C.G. 7/25/2018 18:15" },
+		"openConnectionToHost:port:" : "an 6/16/2022 20:29" },
 	"instance" : {
 		"close" : "js 6/7/2016 09:49",
-		"connectTo:on:" : "C.G. 7/25/2018 18:14",
+		"connectTo:on:" : "an 6/16/2022 20:29",
 		"connected" : "js 6/7/2016 09:49",
 		"connected:" : "pm 6/9/2019 17:23",
 		"initialize" : "hg 7/31/2020 22:16",
 		"isConnected" : "js 6/7/2016 09:57",
-		"lastResponse" : "js 6/7/2016 10:26",
+		"lastResponse" : "an 6/16/2022 20:29",
 		"lastResponse:" : "pm 6/9/2019 17:25",
-		"nextLine" : "AR 7/12/2016 10:00",
-		"nextResponse" : "mt 7/26/2019 14:30",
+		"nextLine" : "an 6/16/2022 20:29",
+		"nextResponse" : "an 6/16/2022 20:29",
 		"responseQueue" : "AR 5/24/2016 10:18",
 		"responseQueue:" : "pm 6/9/2019 17:25",
 		"sendCommand:" : "AR 6/10/2016 15:30",

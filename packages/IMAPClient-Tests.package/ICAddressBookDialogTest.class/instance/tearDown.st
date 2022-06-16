@@ -1,4 +1,4 @@
 running
 tearDown
 
-	self addressBook removeAll.
+	self addressBook removeAll

@@ -1,4 +1,4 @@
 constants
 testserverHost
 
-	^ 'hpi.de' 
+	^ 'hpi.de'

@@ -9,4 +9,4 @@ emailHeaderWithId3
 		#deleted -> false.
 		#flagged -> false.
 		#seen -> false.
-		#contentType->'text/plain; charset="UTF-8"'}
+		#contentType -> 'text/plain; charset="UTF-8"'}

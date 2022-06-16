@@ -1,6 +1,6 @@
 tests
 testToggleFlagFor
-	
+
 	self emails first flagged: true.
 	self emails second flagged: false.
 	
@@ -8,4 +8,4 @@ testToggleFlagFor
 	self folder toggleFlag: #flagged for: self emails second.
 	
 	self assert: self emails first flagged equals: false.
-	self assert: self emails second flagged equals: true.
+	self assert: self emails second flagged equals: true

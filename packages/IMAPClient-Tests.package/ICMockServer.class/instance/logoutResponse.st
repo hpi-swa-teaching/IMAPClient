@@ -1,4 +1,4 @@
 accessing
 logoutResponse
 
-	^ OrderedCollection newFrom: #('. OK' . '. OK')
+	^ OrderedCollection newFrom: #('. OK' #'.' '. OK')

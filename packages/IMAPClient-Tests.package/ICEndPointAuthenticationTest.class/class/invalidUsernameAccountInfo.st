@@ -1,6 +1,6 @@
 constants
 invalidUsernameAccountInfo
-	
+
 	^ ICAccountInfo new
 		accountName: self validAccountName;
 		host: self validHost;

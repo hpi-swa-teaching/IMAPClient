@@ -1,13 +1,13 @@
 {
 	"class" : {
-		"testserverHost" : "ok 7/25/2019 20:16",
+		"testserverHost" : "an 6/16/2022 20:29",
 		"testserverPort" : "ok 7/25/2019 20:16",
 		"testserverSSLPort" : "ok 7/25/2019 20:17" },
 	"instance" : {
-		"setUp" : "hg 7/31/2020 22:28",
+		"setUp" : "an 6/16/2022 20:29",
 		"streamWrapper" : "ok 7/25/2019 20:18",
 		"streamWrapper:" : "ok 7/25/2019 20:18",
 		"tearDown" : "ok 7/25/2019 20:17",
-		"testAccessors" : "ok 7/25/2019 20:24",
+		"testAccessors" : "an 6/16/2022 20:29",
 		"testStreamConnection" : "ok 7/25/2019 20:24",
-		"testStreamSSLConnection" : "ok 7/25/2019 20:24" } }
+		"testStreamSSLConnection" : "an 6/16/2022 20:29" } }

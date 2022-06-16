@@ -1,13 +1,15 @@
 testing
 testSearchForContactsInEmails
-	
-	| addressBook contactWindow nameInput emailInput emailFolder searchBar emailAddress1 emailAddress2|
+
+	| addressBook contactWindow nameInput emailInput emailFolder searchBar emailAddress1 emailAddress2 |
 	"SetUp"
-	emailAddress1:= 'TestName@de.de'.
-	emailAddress2:= 'AnotherName@de.de'.
+	emailAddress1 := 'TestName@de.de'.
+	emailAddress2 := 'AnotherName@de.de'.
 	self testFolder: (ICFolder new folderName: 'testFolder').
 	self folderDialog rootFolder addFolder: self testFolder.
-	self testFolder addMails: {self getMailIn: self testFolder from: emailAddress1 . self getMailIn: self testFolder from: emailAddress2}.
+	self testFolder addMails: {
+		self getMailIn: self testFolder from: emailAddress1.
+		self getMailIn: self testFolder from: emailAddress2}.
 	self folderDialog triggerEmailChanges.
 	
 	"Add Contact to AddressBook"
@@ -21,15 +23,13 @@ testSearchForContactsInEmails
 	super tearDown.
 	
 	"Search for Contact and Test"
-	emailFolder := self findBySubstringInContents:self testFolder folderName in: self subject.
+	emailFolder := self findBySubstringInContents: self testFolder folderName in: self subject.
 	self folderDialog selectedFolder: self testFolder.
 	self assert: true equals: (self existsMorphWithContentWith: emailAddress1 in: self subject).
-	self assert:  true equals: (self existsMorphWithContentWith: emailAddress2 in: self subject).
+	self assert: true equals: (self existsMorphWithContentWith: emailAddress2 in: self subject).
 	
 	searchBar := self subject findByName: ICFolderDialog nameEmailSearch.
 	searchBar sendKeys: 'Anton'.
 	
 	self assert: true equals: (self existsMorphWithContentWith: emailAddress1 in: self subject).
-	self assert:  false equals: (self existsMorphWithContentWith: emailAddress2 in: self subject).
-
-	
+	self assert: false equals: (self existsMorphWithContentWith: emailAddress2 in: self subject)

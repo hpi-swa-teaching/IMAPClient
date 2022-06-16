@@ -1,4 +1,4 @@
 testing
 sortButtonLabels
 
-	^{'Flag'. 'Subject'. 'Sender'. 'Date'}
+	^ {'Flag'. 'Subject'. 'Sender'. 'Date'}

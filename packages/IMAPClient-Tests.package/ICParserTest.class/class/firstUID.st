@@ -1,4 +1,4 @@
 constants
 firstUID
 
-	 ^ '20'
+	^ '20'
