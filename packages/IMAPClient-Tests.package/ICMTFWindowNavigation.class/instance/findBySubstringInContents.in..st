@@ -5,10 +5,5 @@ findBySubstringInContents: aString in: aSubject
 				findByCriteria: [:morph | (morph respondsTo: #contents)
 						and: [(morph contents respondsTo: #includesSubstring:)
 								and: [morph contents includesSubstring: aString]]].
-"	contentMorphs := contentMorphs morphs asOrderedCollection."
 	self assert: contentMorphs morphs size <= 1 description: 'Bad Condition! Multiple morphs found.'.
 	^ contentMorphs
-	"
-	contentMorphs size == 1
-		ifTrue: [^ self wrapMTFMorphAround: contentMorphs]
-		ifFalse: [^ nil]"
