@@ -2,11 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"findBySubstringInContents:in:" : "RJPG 6/15/2022 21:02",
-		"getOpenedWindowWithClickOn:" : "RJPG 6/14/2022 17:50",
+		"existsMorphWithContentWith:in:" : "RJPG 6/16/2022 14:53",
+		"findBySubstringInContents:in:" : "RJPG 6/16/2022 14:39",
+		"getOpenedWindowWithClickOn:" : "RJPG 6/16/2022 14:49",
 		"navigateFrom:toNamedMorph:" : "RJPG 6/14/2022 18:01",
 		"navigateFromAddressBookToAddContact:" : "RJPG 6/14/2022 18:01",
 		"navigateFromFolderDialogToAddressBook:" : "RJPG 6/14/2022 18:02",
 		"openedWindows" : "RJPG 6/14/2022 17:24",
 		"openedWindows:" : "RJPG 6/14/2022 17:24",
-		"tearDown" : "RJPG 6/14/2022 17:25" } }
+		"tearDown" : "RJPG 6/14/2022 17:25",
+		"wrapMTFMorphAround:" : "RJPG 6/16/2022 14:22" } }

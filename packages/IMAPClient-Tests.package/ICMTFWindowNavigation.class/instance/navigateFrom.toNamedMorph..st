@@ -1,4 +1,4 @@
-navigation
+navigating
 navigateFrom: aMorph toNamedMorph: aName
 
 	|button|

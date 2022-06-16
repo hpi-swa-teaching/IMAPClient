@@ -1,11 +1,14 @@
-finder
-findBySubstringInContents: aString in: aSubject
-
-	|morphWrapper|
-	morphWrapper := aSubject findByCriteria: [ :morph |
-		(morph respondsTo: #contents) and: [(morph contents respondsTo: #includesSubstring:)and:[morph contents includesSubstring: aString] ]].
-	self assert: morphWrapper 
-		morphs size <= 1 
-		description: 'Bad Condition! Multiple morphs found.'.
-	^ morphWrapper morphs asOrderedCollection
-	
+navigating
+findBySubstringInContents: aString in: aSubject 
+	| contentMorphs |
+	contentMorphs := aSubject
+				findByCriteria: [:morph | (morph respondsTo: #contents)
+						and: [(morph contents respondsTo: #includesSubstring:)
+								and: [morph contents includesSubstring: aString]]].
+"	contentMorphs := contentMorphs morphs asOrderedCollection."
+	self assert: contentMorphs morphs size <= 1 description: 'Bad Condition! Multiple morphs found.'.
+	^ contentMorphs
+	"
+	contentMorphs size == 1
+		ifTrue: [^ self wrapMTFMorphAround: contentMorphs]
+		ifFalse: [^ nil]"
