@@ -1,8 +1,8 @@
 {
 	"class" : {
-		"new" : "c.h. 6/28/2021 10:48" },
+		"new" : "an 6/16/2022 20:29" },
 	"instance" : {
-		"addMail:forAccount:" : "JST 7/4/2021 00:25",
-		"deleteEmailsFromFolder:" : "JST 7/4/2021 00:25",
+		"addMail:forAccount:" : "an 6/16/2022 20:29",
+		"deleteEmailsFromFolder:" : "an 6/16/2022 20:29",
 		"isEmptyFor:" : "eg 7/29/2021 19:01",
-		"movedMailsForAccount:andFolder:" : "RJPG 5/28/2022 10:41" } }
+		"movedMailsForAccount:andFolder:" : "an 6/16/2022 20:29" } }

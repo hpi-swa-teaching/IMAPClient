@@ -1,6 +1,7 @@
 accessing-header
 initialize
 
-	self seen: false;
+	self
+		seen: false;
 		flagged: false;
 		deleted: false

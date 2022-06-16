@@ -1,4 +1,4 @@
 converting
 passwordAsIMAPString
-	
+
 	^ '"', self password, '"'

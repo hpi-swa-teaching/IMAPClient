@@ -2,9 +2,9 @@
 	"class" : {
 		"connectionTimeout" : "ok 7/26/2019 18:50" },
 	"instance" : {
-		"close" : "js 6/14/2016 10:43",
-		"connectTo:on:" : "LW 8/1/2020 10:24",
-		"connectTo:on:with:" : "LW 8/1/2020 10:24",
+		"close" : "an 6/16/2022 20:29",
+		"connectTo:on:" : "an 6/16/2022 20:29",
+		"connectTo:on:with:" : "an 6/16/2022 20:29",
 		"host" : "js 6/7/2016 09:58",
 		"host:" : "js 6/7/2016 09:59",
 		"isConnected" : "js 6/7/2016 10:04",
@@ -16,6 +16,6 @@
 		"sendCommand:" : "tg 7/26/2019 21:57",
 		"ssl" : "pm 6/9/2019 13:14",
 		"ssl:" : "ms 7/12/2016 09:45",
-		"sslConnectTo:on:" : "tg 7/26/2019 22:13",
+		"sslConnectTo:on:" : "an 6/16/2022 20:29",
 		"stream" : "pm 6/9/2019 13:14",
 		"stream:" : "js 6/7/2016 10:05" } }

@@ -1,6 +1,4 @@
 accessing
 rootDirectoryName
-	
-	^ (SecureHashAlgorithm new 
-		hashMessage: self accountInfo host, self accountInfo username) 
-			asString first: self class accountFolderHashRelevantCharacters
+
+	^ (SecureHashAlgorithm new hashMessage: self accountInfo host, self accountInfo username) asString first: self class accountFolderHashRelevantCharacters

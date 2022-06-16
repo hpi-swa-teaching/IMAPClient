@@ -1,4 +1,4 @@
 storage
 readEmailsFromDisk
 
-	(ICFileReadWriter newWith: self) readEmailsFromDisk.
+	(ICFileReadWriter newWith: self) readEmailsFromDisk

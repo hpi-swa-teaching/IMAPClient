@@ -1,4 +1,4 @@
 configuration storage
 eraseStoredPasswords
-	self basicConnectionConfigurations do: [:anAccountInfo |
-		anAccountInfo eraseStoredPassword].
+
+	self basicConnectionConfigurations do: [:anAccountInfo | anAccountInfo eraseStoredPassword]

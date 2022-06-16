@@ -1,9 +1,9 @@
 {
 	"class" : {
-		"new" : "hg 6/24/2020 12:34" },
+		"new" : "an 6/16/2022 20:29" },
 	"instance" : {
-		"addEmail:" : "EG 5/22/2021 09:43",
-		"feedMeWithEntries:" : "EG 5/20/2021 12:25",
+		"addEmail:" : "an 6/16/2022 20:29",
+		"feedMeWithEntries:" : "an 6/16/2022 20:29",
 		"find:" : "LW 6/16/2020 09:51",
-		"readChildFoldersMailsFrom:" : "EG 5/29/2021 23:35",
-		"readRootFoldersMailsFrom:" : "EG 5/29/2021 23:35" } }
+		"readChildFoldersMailsFrom:" : "an 6/16/2022 20:29",
+		"readRootFoldersMailsFrom:" : "an 6/16/2022 20:29" } }

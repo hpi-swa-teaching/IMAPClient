@@ -1,4 +1,4 @@
 protocol handling - move
 movedMailStorage
 
-	^ICMovedEmailStorage new
+	^ ICMovedEmailStorage new

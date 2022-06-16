@@ -2,9 +2,8 @@ storage
 setFolderNamePath: aResponseLine
 
 	| folderPath |
-	
 	folderPath := self folderPathFor: aResponseLine.
-
+	
 	(aResponseLine includesSubstring: '\Trash') ifTrue: [self folderNameOfTrash: folderPath first].
 	(aResponseLine includesSubstring: '\Drafts') ifTrue: [self folderNameOfDrafts: folderPath first].
 	(aResponseLine includesSubstring: '\Junk') ifTrue: [self folderNameOfJunk: folderPath first].
