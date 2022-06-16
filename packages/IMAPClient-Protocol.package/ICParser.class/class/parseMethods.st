@@ -8,5 +8,4 @@ parseMethods
 		'Date' -> [:headerChunk :email | self populate: email withDate: headerChunk].
 		'FLAGS' -> [:headerChunk :email | self populate: email withFlags: headerChunk].
 		'Content-Type' -> [:headerChunk :email | self populate: email withContentType: headerChunk].
-		'Content-Transfer-Encoding' -> [:headerChunk :email | 
-			self populate: email withContentTransferEncoding: headerChunk]}
+		'Content-Transfer-Encoding' -> [:headerChunk :email | self populate: email withContentTransferEncoding: headerChunk]}

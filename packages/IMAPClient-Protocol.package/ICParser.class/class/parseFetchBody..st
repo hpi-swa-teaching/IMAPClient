@@ -1,7 +1,6 @@
 parsing
 parseFetchBody: aResponseStringArray
 
-	^ ((aResponseStringArray 
+	^ (aResponseStringArray
 		copyFrom: self fetchBodyOffset
-		to: (aResponseStringArray size - 1))
-			joinSeparatedBy: Character cr)
+		to: aResponseStringArray size - 1) joinSeparatedBy: Character cr

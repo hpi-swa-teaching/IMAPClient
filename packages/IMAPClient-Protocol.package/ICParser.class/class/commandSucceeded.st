@@ -1,4 +1,4 @@
 responses
 commandSucceeded
 
-	^ {ICCommand protocolCommandStart . 'OK'} joinSeparatedBy: ICCommand protocolBlank
+	^ {ICCommand protocolCommandStart. 'OK'} joinSeparatedBy: ICCommand protocolBlank
