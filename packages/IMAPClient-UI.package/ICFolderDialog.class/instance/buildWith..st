@@ -2,7 +2,7 @@ toolbuilder
 buildWith: builder
 
 	| window |
-	window := (builder build: (builder pluggableWindowSpec new
+	window := builder build: (builder pluggableWindowSpec new
 		model: self;
 		label: #dialogTitle;
 		closeAction: #closeConnection;
@@ -11,8 +11,7 @@ buildWith: builder
 			self buildNavigationPanel: builder.
 			self buildEmailTopPanel: builder.
 			self buildEmailList: builder.
-			self buildEmailOptionPanel: builder})).
+			self buildEmailOptionPanel: builder}).
 	self folderDialogMorph: window.
-		
+	
 	^ window
-		

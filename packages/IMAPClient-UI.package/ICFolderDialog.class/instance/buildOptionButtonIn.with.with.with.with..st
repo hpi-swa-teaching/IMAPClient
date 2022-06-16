@@ -1,6 +1,6 @@
 toolbuilder
 buildOptionButtonIn: aFrame with: aLabel with: anAction with: builder with: aChangeLabel
-	
+
 	^ builder pluggableButtonSpec new
 		model: self;
 		frame: aFrame;

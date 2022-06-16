@@ -1,6 +1,6 @@
 toolbuilder
 buildSslCheckBox: builder
-	
+
 	^ builder pluggableCheckBoxSpec new
 		model: self;
 		label: #sslCheckBoxLabel;

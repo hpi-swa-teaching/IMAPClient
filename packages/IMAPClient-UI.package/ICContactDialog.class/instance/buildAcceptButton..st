@@ -6,5 +6,4 @@ buildAcceptButton: builder
 		model: self;
 		label: #acceptLabel;
 		action: #accept;
-		frame: (self guiElementXOffset @ (self guiElementYOffsetOf: 2)
-			extent: self guiElementWidth @ (self guiElementHeight * 1.0))
+		frame: (self guiElementXOffset @ (self guiElementYOffsetOf: 2) extent: self guiElementWidth @ (self guiElementHeight * 1.0))

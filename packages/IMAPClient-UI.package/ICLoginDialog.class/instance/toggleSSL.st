@@ -1,4 +1,4 @@
 accessing - user interface
 toggleSSL
 
-	self ssl: (self ssl not)
+	self ssl: self ssl not

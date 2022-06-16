@@ -8,6 +8,6 @@ buildEmailSearch: builder
 		editText: #changeFilter:;
 		setText: #filterString:;
 		getText: #filterString;
-		help: #emailSearchHelp;		
+		help: #emailSearchHelp;
 		askBeforeDiscardingEdits: true;
 		indicateUnacceptedChanges: false

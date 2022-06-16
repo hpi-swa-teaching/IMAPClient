@@ -1,9 +1,7 @@
 accessing - email
 body
-	
-	
-	| mimeDoc|
 
+	| mimeDoc |
 	mimeDoc := MailMessage new initializeFromString: self email body.
 	
 	^ mimeDoc bodyTextFormatted

@@ -1,7 +1,7 @@
 accountManagement
 triggerEmailChanges
 
-	self 
+	self
 		changed: #emailAccounts;
 		changed: #childFolders;
-		changed: #emailsOfSelectedFolder.
+		changed: #emailsOfSelectedFolder

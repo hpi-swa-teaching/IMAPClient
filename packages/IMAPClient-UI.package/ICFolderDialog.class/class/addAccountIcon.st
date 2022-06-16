@@ -2,8 +2,8 @@ constants
 addAccountIcon
 	"envelope plus by Iulia Ardeleanu from thenounproject.com as 20@15.
 	Licensed under CC BY 3.0."
-	^ Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes:
-'iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAOz
+
+	^ Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: 'iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAOz
 AAADswGKfS7AAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48G
 gAAAWtJREFUOI2d08tLlFEcxvHPO40J6UIjmEVRmCgILoqgRYwR5DZcRIEQCBW6bZ
 FGl0XRhcgbEujaaOsf0qJFq1ZRLcRFgaGUVsa4OL+Jl2EuTQ/8eM97DnzPc57fORl+4R
