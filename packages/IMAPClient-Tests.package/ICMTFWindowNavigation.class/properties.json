@@ -1,0 +1,14 @@
+{
+	"category" : "IMAPClient-Tests-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "RJPG 6/14/2022 17:23",
+	"instvars" : [
+		"openedWindows" ],
+	"name" : "ICMTFWindowNavigation",
+	"pools" : [
+		 ],
+	"super" : "MTFTestCase",
+	"type" : "normal" }

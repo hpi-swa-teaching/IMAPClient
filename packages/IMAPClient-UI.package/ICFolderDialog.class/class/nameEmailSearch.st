@@ -1,0 +1,4 @@
+constants
+nameEmailSearch
+
+	^ 'emailSearch'

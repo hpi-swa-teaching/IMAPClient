@@ -1,4 +1,4 @@
 running
 setUp
 
-	self folderDialog: ICFolderDialog new
+	self folderDialog: ICMockFolderDialog new

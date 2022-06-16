@@ -6,9 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"folderDialog",
+		"testFolder",
+		"root",
+		"endpoint" ],
 	"name" : "ICFolderDialogTestUI",
 	"pools" : [
 		 ],
-	"super" : "MTFTestCase",
+	"super" : "ICMTFWindowNavigation",
 	"type" : "normal" }

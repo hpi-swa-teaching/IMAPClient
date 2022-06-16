@@ -2,6 +2,7 @@ toolbuilder
 buildEmailInputField: builder
 
 	^ builder pluggableInputFieldSpec new
+		name: self class nameEmailInputField;
 		model: self;
 		askBeforeDiscardingEdits: false;
 		indicateUnacceptedChanges: false;
