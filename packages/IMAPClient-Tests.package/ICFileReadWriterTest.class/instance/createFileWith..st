@@ -3,9 +3,9 @@ createFileWith: UID
 
 	| testMail |
 	testMail := self class expectedMailObjectFor: UID in: self endpoint rootFolder.
-	(FileDirectory default / self endpoint maildirFileName) assureExistence.
+	(FileDirectory default / (self endpoint maildirFileName: self endpoint rootFolder folderName)) assureExistence.
 	FileStream
-		forceNewFileNamed: self endpoint maildirFileName, FileDirectory slash, testMail uniqueID
+		forceNewFileNamed: (self endpoint maildirFileName: self endpoint rootFolder folderName), FileDirectory slash, testMail uniqueID
 		do: [:stream |
 			stream
 				nextPutAll: testMail serializeToJson;
