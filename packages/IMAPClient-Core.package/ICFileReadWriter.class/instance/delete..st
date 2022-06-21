@@ -1,6 +1,9 @@
 delete file
 delete: anICEmail
 
-	FileDirectory default / self endpoint maildirFileName
+	| filePath |
+	filePath:= self endpoint maildirFileName: anICEmail folder folderName.
+	FileDirectory default / filePath
 		deleteFileNamed: anICEmail uniqueID
-		ifAbsent: [^ self]
+		ifAbsent: [CannotDeleteFileException new
+			messageText: 'file not found: ' , filePath,'/', anICEmail uniqueID]

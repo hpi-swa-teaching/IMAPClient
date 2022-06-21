@@ -1,10 +1,11 @@
 constants
-expectedMailObjectFor: UID
+expectedMailObjectFor: UID in: anICFolder
 
 	^ ICEmail new
 		body: 'body text';
 		subject: 'subject text';
 		from: 'sender';
+		folder: anICFolder;
 		flagged: false;
 		seen: false;
 		contentType: 'text/plain;  charset="iso-8859-1"';

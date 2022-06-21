@@ -1,18 +1,20 @@
 {
 	"class" : {
-		"expectedMailObjectFor:" : "an 6/16/2022 20:29",
+		"expectedMailObjectFor:in:" : "RJPG 6/21/2022 10:20",
 		"givenJsonObjectFor:" : "an 6/16/2022 20:29" },
 	"instance" : {
-		"createFileWith:" : "an 6/16/2022 20:29",
+		"createFileWith:" : "RJPG 6/21/2022 10:03",
 		"deleteUID" : "an 6/16/2022 20:29",
 		"endpoint" : "an 6/16/2022 20:29",
 		"endpoint:" : "an 6/16/2022 20:29",
+		"moveToUID" : "RJPG 6/21/2022 10:00",
 		"readUID" : "an 6/16/2022 20:29",
 		"readWriter" : "dl 7/20/2017 10:54",
 		"readWriter:" : "pm 6/9/2019 17:18",
-		"setUp" : "an 6/16/2022 20:29",
+		"setUp" : "RJPG 6/21/2022 10:09",
 		"tearDown" : "an 6/16/2022 20:29",
-		"testDelete" : "an 6/16/2022 20:29",
-		"testRead" : "an 6/16/2022 20:29",
-		"testWrite" : "an 6/16/2022 20:29",
+		"testDelete" : "RJPG 6/21/2022 10:21",
+		"testMoveTo" : "RJPG 6/21/2022 10:24",
+		"testRead" : "RJPG 6/21/2022 10:22",
+		"testWrite" : "RJPG 6/21/2022 10:22",
 		"writeUID" : "hg 7/31/2020 11:29" } }

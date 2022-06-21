@@ -1,5 +1,10 @@
 setup
 setUp
 
-	self endpoint: (ICMockEndpoint new rootFolder: ICFolder new).
+	| root |
+	root:= ICFolder new.
+	self endpoint: (ICMockEndpoint new rootFolder: root).
+	root endpoint: self endpoint;
+		parent: root;
+		folderName: 'rootFolder'.
 	self readWriter: (ICFileReadWriter newWith: self endpoint)
