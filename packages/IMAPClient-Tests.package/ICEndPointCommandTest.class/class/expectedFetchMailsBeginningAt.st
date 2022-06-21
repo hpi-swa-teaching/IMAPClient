@@ -1,5 +1,4 @@
 constants
 expectedFetchMailsBeginningAt
 
-	^ OrderedCollection newFrom: {self emailHeaderWithId3 . self emailHeaderWithId4}
-		
+	^ OrderedCollection newFrom: {self emailHeaderWithId3. self emailHeaderWithId4}

@@ -2,8 +2,8 @@ testing
 testMoveEmailOffline
 
 	self folder addFolder: self trashFolder.
-	self assert: self endPoint connectionHandler isCommandStorageEmpty.	
-		
+	self assert: self endPoint connectionHandler isCommandStorageEmpty.
+	
 	self endPoint moveEmail: self email to: self trashFolder folderName.
 	
 	self deny: self connectionHandler isCommandStorageEmpty.

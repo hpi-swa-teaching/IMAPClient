@@ -1,8 +1,4 @@
 accessing
 symbolArray
-	
-	^ {#accountName.
-		#serverAddress.
-		#serverPort.
-		#username.
-		#password}
+
+	^ {#accountName. #serverAddress. #serverPort. #username. #password}

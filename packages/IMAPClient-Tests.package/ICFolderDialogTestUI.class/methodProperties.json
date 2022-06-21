@@ -2,7 +2,17 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "hsp 5/31/2022 17:54",
-		"sortButtonLabels" : "hsp 5/31/2022 18:04",
-		"tearDown" : "hsp 5/31/2022 17:52",
-		"testSortVisualisation" : "Hannes Spitz4 6/2/2022 18:04" } }
+		"endpoint" : "an 6/16/2022 20:29",
+		"endpoint:" : "an 6/16/2022 20:29",
+		"folderDialog" : "RJPG 6/14/2022 16:39",
+		"folderDialog:" : "RJPG 6/14/2022 16:39",
+		"getMailIn:from:" : "RJPG 6/15/2022 19:00",
+		"root" : "an 6/16/2022 20:29",
+		"root:" : "an 6/16/2022 20:29",
+		"setUp" : "an 6/16/2022 20:29",
+		"sortButtonLabels" : "an 6/16/2022 20:29",
+		"tearDown" : "an 6/16/2022 20:29",
+		"testFolder" : "an 6/16/2022 20:29",
+		"testFolder:" : "an 6/16/2022 20:29",
+		"testSearchForContactsInEmails" : "an 6/16/2022 20:29",
+		"testSortVisualisation" : "an 6/16/2022 20:29" } }

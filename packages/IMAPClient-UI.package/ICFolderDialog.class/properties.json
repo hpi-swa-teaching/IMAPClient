@@ -19,7 +19,9 @@
 		"reverseMails",
 		"dialogTitle",
 		"showUnread",
-		"folderDialogMorph" ],
+		"folderDialogMorph",
+		"isAlreadyUpdating",
+		"passwordDialog" ],
 	"name" : "ICFolderDialog",
 	"pools" : [
 		 ],

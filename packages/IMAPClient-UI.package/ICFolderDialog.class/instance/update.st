@@ -1,13 +1,17 @@
 action - emails
 update
-	
-	self unconnectedAccounts isEmpty ifFalse: [self openPasswordDialog]
-	ifTrue:
-		[self numberOfFetchedFolders: 0. 
-		self numberOfFolders: 
-			(self emailAccounts collect: [:each | each rootFolder recursiveChildFolders]) flatten size +
-			self emailAccounts size.
 
-		['Updating ' displaySequentialProgress: [self updateProcess]] fork.
-		self numberOfFetchedFolders: 0]
-	
+	self isAlreadyUpdating ifFalse: [
+		self unconnectedAccounts isEmpty
+			ifFalse: [self openPasswordDialog]
+			ifTrue: [
+				self
+					isAlreadyUpdating: true;
+					numberOfFetchedFolders: 0;
+					numberOfFolders: self calculateNumberOfFolders.
+				
+				[
+					'Updating ' displaySequentialProgress: [self updateProcess].
+					self
+						isAlreadyUpdating: false;
+						numberOfFetchedFolders: 0] fork]]

@@ -2,6 +2,7 @@ toolbuilder
 buildNameInputField: builder
 
 	^ builder pluggableInputFieldSpec new
+		name: self class nameNameInputField;
 		model: self;
 		askBeforeDiscardingEdits: false;
 		indicateUnacceptedChanges: false;

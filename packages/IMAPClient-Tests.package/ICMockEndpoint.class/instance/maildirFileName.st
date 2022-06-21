@@ -1,6 +1,4 @@
 mockMethods
 maildirFileName
 
-	^ 'Maildir', 
-		FileDirectory slash, 
-		self rootDirectoryName
+	^ 'Maildir', FileDirectory slash, self rootDirectoryName

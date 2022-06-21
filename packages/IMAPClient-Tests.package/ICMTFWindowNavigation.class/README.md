@@ -1,0 +1,1 @@
+Due to the need of MorphicTests across different windows, the MTFWindowNavigator tracks newly opened windows. 

@@ -1,4 +1,4 @@
 storage
 maildirFileName
 
-	^  self maildirFileName: self currentFolderName 
+	^ self maildirFileName: self currentFolderName

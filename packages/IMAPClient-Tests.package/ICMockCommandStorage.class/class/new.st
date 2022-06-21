@@ -1,4 +1,4 @@
 as yet unclassified
-new 
-	
+new
+
 	^ super new copy removeAll

@@ -1,7 +1,6 @@
 toolbuilder
-iconFor: aMailObject
-	
-	((aMailObject iconName) == #none)
-		ifFalse: [^ self class perform: aMailObject iconName.]
-		ifTrue:  [^ nil]
-	
+iconFor: aFolder
+
+	aFolder iconName == #none
+		ifFalse: [^ self scaleIconFitting: (self class perform: aFolder iconName)]
+		ifTrue: [^ nil]

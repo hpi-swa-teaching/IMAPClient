@@ -1,9 +1,8 @@
 connection
 checkConnected
+
+	self isConnected ifFalse: [
+		self fatalErrorOccured: true.
+		^ false].
 	
-	self isConnected 
-		ifFalse: [
-			self fatalErrorOccured: true.
-			^ false].
-  
 	^ true

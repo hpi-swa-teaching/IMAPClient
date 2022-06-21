@@ -1,6 +1,6 @@
 login
 testErasePassword
-	
+
 	| accountInfo |
 	accountInfo := self class accountInfoForErasing.
 	self endPoint connectionHandler accountInfo: accountInfo.

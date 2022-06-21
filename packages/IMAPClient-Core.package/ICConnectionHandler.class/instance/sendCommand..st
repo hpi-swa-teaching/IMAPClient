@@ -1,5 +1,5 @@
 connection
-sendCommand: aCommand 
+sendCommand: aCommand
 
-	self storedCommands add: aCommand for: self accountInfo username.    
+	self storedCommands add: aCommand for: self accountInfo username.
 	self sendNextCommands

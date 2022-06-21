@@ -1,8 +1,8 @@
 {
 	"class" : {
-		"expectedStringRepresentation" : "c.h. 5/25/2021 09:37" },
+		"expectedStringRepresentation" : "an 6/16/2022 20:29" },
 	"instance" : {
 		"contact" : "EG 5/22/2021 14:16",
 		"contact:" : "EG 5/22/2021 14:16",
-		"setUp" : "EG 5/27/2021 09:45",
-		"testAsString" : "EG 5/30/2021 12:52" } }
+		"setUp" : "an 6/16/2022 20:29",
+		"testAsString" : "an 6/16/2022 20:29" } }

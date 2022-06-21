@@ -1,4 +1,5 @@
 running
-tearDown 
+tearDown
 
-	self subject abandon
+	self subject abandon.
+	super tearDown

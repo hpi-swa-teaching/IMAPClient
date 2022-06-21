@@ -1,4 +1,4 @@
 accessing - contact
 labelForAddressBookEntry: aString
 
-	^	aString
+	^ aString

@@ -3,6 +3,6 @@ selectedFolder: aFolder
 
 	selectedFolder := aFolder.
 	self selectedEmail: nil.
-	self 
+	self
 		changed: #selectedFolder;
 		changed: #emailsOfSelectedFolder

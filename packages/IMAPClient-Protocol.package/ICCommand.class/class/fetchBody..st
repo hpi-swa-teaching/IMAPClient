@@ -1,4 +1,4 @@
 commands
 fetchBody: aMessageId
 
-	^ self join: {'FETCH' . aMessageId . 'body[TEXT]'}
+	^ self join: {'FETCH'. aMessageId. 'body[TEXT]'}

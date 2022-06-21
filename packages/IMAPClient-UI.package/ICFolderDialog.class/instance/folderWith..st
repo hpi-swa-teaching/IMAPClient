@@ -1,10 +1,10 @@
 accessing - folder
 folderWith: endpoint
-	
-	 endpoint connectionHandler 
+
+	endpoint connectionHandler
 		checkConnected;
 		checkLoggedIn.
-
+	
 	^ endpoint
 		listAllFolders;
 		rootFolder

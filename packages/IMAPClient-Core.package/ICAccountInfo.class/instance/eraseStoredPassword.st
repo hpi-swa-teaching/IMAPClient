@@ -1,4 +1,4 @@
 action
 eraseStoredPassword
-	
+
 	self password: ''

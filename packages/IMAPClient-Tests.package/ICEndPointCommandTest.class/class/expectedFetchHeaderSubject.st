@@ -2,4 +2,3 @@ constants
 expectedFetchHeaderSubject
 
 	^ 'Test Mail'
-		

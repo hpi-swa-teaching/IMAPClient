@@ -1,5 +1,4 @@
 validating
 hasValidUserInfo
 
-	^ self username ~= self class invalidUsername
-		and: [self password ~= self class invalidPassword]
+	^ self username ~= self class invalidUsername and: [self password ~= self class invalidPassword]

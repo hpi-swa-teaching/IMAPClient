@@ -1,8 +1,7 @@
 accessing
 testDateFormatted
-	
+
 	| previousOffset |
-	
 	previousOffset := DateAndTime localOffset.
 	
 	"use UTC (Coordinated Universal Time)"

@@ -5,5 +5,4 @@ buildLoginButton: builder
 		model: self;
 		label: #buttonLabel;
 		action: #submit;
-		frame: (self guiElementXOffset @ (self guiElementYOffsetOf: 6)
-			extent: self guiElementWidth @ (self guiElementHeight * 1.0))
+		frame: (self guiElementXOffset @ (self guiElementYOffsetOf: 6) extent: self guiElementWidth @ (self guiElementHeight * 1.0))

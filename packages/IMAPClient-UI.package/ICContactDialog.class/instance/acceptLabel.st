@@ -1,4 +1,4 @@
 constants - user interface
 acceptLabel
 
-	^'Accept'
+	^ 'Accept'

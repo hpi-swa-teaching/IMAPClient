@@ -1,6 +1,6 @@
 login
 sendLoginCommand
-	
-	self 
+
+	self
 		sendDirectCommand: (ICCommand loginWith: self accountInfo);
 		loggedIn: (ICParser commandSucceeded: self stream lastResponse)

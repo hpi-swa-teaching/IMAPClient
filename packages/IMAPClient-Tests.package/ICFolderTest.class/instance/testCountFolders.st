@@ -2,7 +2,6 @@ countFolders
 testCountFolders
 
 	| subfolder1 subfolder2 subfolder3 |
-	
 	subfolder1 := ICFolder named: 'subfolder1' in: self root with: self endpoint of: #Generic.
 	subfolder2 := ICFolder named: 'subfolder2' in: subfolder1 with: self endpoint of: #Generic.
 	subfolder3 := ICFolder named: 'subfolder3' in: subfolder2 with: self endpoint of: #Generic.

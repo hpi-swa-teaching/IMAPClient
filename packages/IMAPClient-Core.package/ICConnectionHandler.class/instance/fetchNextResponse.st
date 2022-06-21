@@ -2,8 +2,8 @@ fetch
 fetchNextResponse
 
 	self stream nextResponse.
-	self 
+	self
 		checkForBadRequest;
 		checkForParameterError.
-		
+	
 	self lastResponse: self assembleResponse

@@ -1,4 +1,4 @@
 accessing
 allUIDs
 
-	self sendCommand: ICCommand allUIDs.
+	self sendCommand: ICCommand allUIDs

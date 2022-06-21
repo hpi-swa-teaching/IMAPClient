@@ -1,7 +1,7 @@
 validating
 accountnameUnused: anAccountInfo
 
-	(anAccountInfo accountNameUnused) ifFalse: [ 
+	anAccountInfo accountNameUnused ifFalse: [
 		self displayAccountnameExistsErrorMessage.
 		^ false].
-	^ true 
+	^ true

@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"emails" : "EG 5/30/2021 12:10" },
+		"emails" : "an 6/16/2022 20:29" },
 	"instance" : {
 		"addressBook" : "EG 5/29/2021 23:22",
 		"addressBook:" : "EG 5/29/2021 23:21",
@@ -8,11 +8,11 @@
 		"emailAccounts:" : "EG 5/30/2021 12:42",
 		"emailContact" : "EG 5/29/2021 23:21",
 		"emailContact:" : "EG 5/29/2021 23:21",
-		"setUp" : "EG 5/30/2021 12:22",
+		"setUp" : "an 6/16/2022 20:29",
 		"testAddEntry" : "EG 5/27/2021 09:47",
 		"testAddEntryDuplicated" : "EG 5/27/2021 09:48",
 		"testDeleteEntry" : "EG 5/22/2021 14:45",
 		"testDeleteNonExistentEntryRaisesError" : "EG 5/29/2021 23:23",
-		"testFeedWithEntries" : "EG 5/30/2021 12:09",
-		"testFindEntry" : "EG 5/29/2021 23:24",
+		"testFeedWithEntries" : "an 6/16/2022 20:29",
+		"testFindEntry" : "an 6/16/2022 20:29",
 		"testFindNonExistentEntryRaisesError" : "EG 5/29/2021 23:24" } }

@@ -1,8 +1,8 @@
 protocol handling - delete
 deleteEmail: anEmail
-	
-	self connectionHandler 
+
+	self connectionHandler
 		select: anEmail folder path;
 		deleteEmail: anEmail messageID.
 	
-	self moveEmail: anEmail to: self folderNameOfTrash.
+	self moveEmail: anEmail to: self folderNameOfTrash

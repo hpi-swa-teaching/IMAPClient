@@ -1,16 +1,16 @@
 {
 	"class" : {
-		"newWith:" : "hg 7/29/2020 13:55" },
+		"newWith:" : "an 6/16/2022 20:29" },
 	"instance" : {
-		"addMailTo:from:" : "RJPG 5/30/2022 20:11",
-		"delete:" : "hg 8/2/2020 19:11",
-		"directoryToFolderDictionary" : "hg 7/29/2020 15:35",
-		"directoryVisitor" : "RJPG 5/30/2022 20:27",
-		"endpoint" : "hg 7/29/2020 14:09",
-		"endpoint:" : "hg 7/29/2020 14:09",
-		"fileVisitor" : "RJPG 5/30/2022 20:12",
+		"addMailTo:from:" : "an 6/16/2022 20:29",
+		"delete:" : "an 6/16/2022 20:29",
+		"directoryToFolderDictionary" : "an 6/16/2022 20:29",
+		"directoryVisitor" : "an 6/16/2022 20:29",
+		"endpoint" : "an 6/16/2022 20:29",
+		"endpoint:" : "an 6/16/2022 20:29",
+		"fileVisitor" : "an 6/16/2022 20:29",
 		"isICFolderFile:" : "RJPG 5/30/2022 20:06",
-		"readEmailsFromDisk" : "RJPG 5/28/2022 11:08",
-		"rootDirectory" : "hg 7/29/2020 13:56",
-		"write:" : "LW 8/2/2020 16:37",
-		"writeFolder:" : "RJPG 5/31/2022 11:13" } }
+		"readEmailsFromDisk" : "an 6/16/2022 20:29",
+		"rootDirectory" : "an 6/16/2022 20:29",
+		"write:" : "an 6/16/2022 20:29",
+		"writeFolder:" : "an 6/16/2022 20:29" } }

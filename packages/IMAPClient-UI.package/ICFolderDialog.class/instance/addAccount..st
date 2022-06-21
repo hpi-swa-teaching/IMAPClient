@@ -1,6 +1,6 @@
 accountManagement
 addAccount: anAccountInfo
-	
+
 	| endpoint |
 	endpoint := ICEndPoint newWith: anAccountInfo.
 	endpoint connectAndLogin ifTrue: [

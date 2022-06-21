@@ -2,8 +2,8 @@ constants
 updateIcon
 	"The 'sync-alt' icon taken from https://fontawesome.com/icons/sync-alt as 20@20.
 	Licensed under https://fontawesome.com/license."
-	^ Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes:
-'iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAACTA
+
+	^ Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: 'iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAACTA
 AAAkwEr+6uQAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48Gg
 AAAYJJREFUOI3N1ctLVVEUx/HPiURL8UUgDZoF/gFSOHFiEeRICkH6D5w66aFzI+gxa
 hzOGoiNCipHDpzlH1AYjkTuHcjFiLrQbbD34e6O5+GwH2w4Z+21vqy1zt7rZKo1jtuYx

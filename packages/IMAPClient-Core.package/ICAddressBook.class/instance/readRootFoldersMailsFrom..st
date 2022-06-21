@@ -1,9 +1,9 @@
 initialize
-readRootFoldersMailsFrom: anEmailAccount 
+readRootFoldersMailsFrom: anEmailAccount
 
 	| anICContact |
-	anEmailAccount rootFolder emails 
-		do: [:rootFolderEmail | 
-			anICContact := ICContact newWith: rootFolderEmail senderAddressFromHeader 
-				with: rootFolderEmail senderName.
-			self addEmail: anICContact asString]
+	anEmailAccount rootFolder emails do: [:rootFolderEmail |
+		anICContact := ICContact
+			newWith: rootFolderEmail senderAddressFromHeader
+			with: rootFolderEmail senderName.
+		self addEmail: anICContact asString]

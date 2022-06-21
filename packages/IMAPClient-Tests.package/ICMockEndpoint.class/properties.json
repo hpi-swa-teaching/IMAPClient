@@ -12,5 +12,5 @@
 	"name" : "ICMockEndpoint",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ICEndPoint",
 	"type" : "normal" }

@@ -1,4 +1,4 @@
 connection
-nextLine 
+nextLine
 
 	^ self responseQueue removeFirst
