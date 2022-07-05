@@ -2,12 +2,6 @@ write file
 moveEmail: anICEmail to: anICFolder
 
 	self write: anICEmail in: anICFolder.
-	self delete: anICEmail.
-	anICEmail folder: anICFolder.
-	
-	"getNewEmail"
-	"getNewFolder"
-	
-	"anICEmail discard"
+	self delete: anICEmail
 	
 	
