@@ -8,4 +8,4 @@ directoryVisitor
 				in: (self directoryToFolderDictionary at: directory containingDirectory)
 				with: self endpoint
 				of: #Generic.
-			directoryToFolderDictionary at: directory put: currentFolder]]
+			self directoryToFolderDictionary at: directory put: currentFolder]]

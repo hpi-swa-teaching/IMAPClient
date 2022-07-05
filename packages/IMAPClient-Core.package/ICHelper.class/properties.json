@@ -4,16 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "jwe 7/28/2016 14:20",
+	"commentStamp" : "",
 	"instvars" : [
-		"id",
-		"parent",
-		"childFolders",
-		"folderName",
-		"emails",
-		"endpoint",
-		"folderType" ],
-	"name" : "ICFolder",
+		 ],
+	"name" : "ICHelper",
 	"pools" : [
 		 ],
 	"super" : "Object",
