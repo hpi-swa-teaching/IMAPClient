@@ -15,4 +15,6 @@ emailListMenu: aMenu
 	
 	aMenu add: 'Move to ...' subMenu: self folderListMenu.
 	
+	aMenu add: 'Move all to ...' subMenu: self folderListMenuMoveAll.
+	
 	^ aMenu
