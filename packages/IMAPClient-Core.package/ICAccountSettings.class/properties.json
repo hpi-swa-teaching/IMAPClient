@@ -1,0 +1,15 @@
+{
+	"category" : "IMAPClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"notSyncedFolders",
+		"accountEndpoint" ],
+	"name" : "ICAccountSettings",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

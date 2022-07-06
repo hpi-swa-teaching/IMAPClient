@@ -6,5 +6,7 @@ fileVisitor
 		
 		(self isICFolderFile: file)
 			ifTrue: [currentFolder setFrom: (Json readFrom: file)]
-			ifFalse: [self addMailTo: currentFolder from: file].
+			ifFalse: [
+				(self isICAccountSettingsFile: file) ifFalse: [
+				self addMailTo: currentFolder from: file]].
 		file close]
