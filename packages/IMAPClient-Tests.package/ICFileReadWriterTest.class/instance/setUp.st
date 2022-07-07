@@ -8,4 +8,7 @@ setUp
 	root endpoint: self endpoint;
 		parent: root;
 		folderName: 'rootFolder'.
-	self readWriter: (ICFileReadWriter newWith: self endpoint)
+	
+	self readWriter: (ICFileReadWriter newWith: self endpoint).
+	
+	self helper: ICSetUpTestHelper new.

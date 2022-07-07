@@ -4,13 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "tg 7/8/2019 15:48",
+	"commentStamp" : "",
 	"instvars" : [
-		"readWriter",
 		"endpoint",
-		"helper" ],
-	"name" : "ICFileReadWriterTest",
+		"currentMailID",
+		"emails" ],
+	"name" : "ICSetUpTestHelper",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "Object",
 	"type" : "normal" }
