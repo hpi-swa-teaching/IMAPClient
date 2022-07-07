@@ -1,4 +1,4 @@
 accessing - user interface
-guiElementHeight
+label
 
-	^ 0.14
+	^'Login Window'

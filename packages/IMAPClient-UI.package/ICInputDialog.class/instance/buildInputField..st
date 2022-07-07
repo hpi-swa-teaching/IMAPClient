@@ -8,5 +8,6 @@ buildInputField: builder
 		getText: #input;
 		setText: #input:;
 		editText: #input:;
+		help: #helperText;
 		font: (StrikeFont passwordFontSize: 12);
 		frame: (self guiElementXOffset @ (self guiElementYOffsetOf: 1) extent: self guiElementWidth @ self guiElementHeight)
