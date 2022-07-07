@@ -2,6 +2,7 @@ write file
 moveEmail: anICEmail to: anICFolder
 
 	self write: anICEmail in: anICFolder.
-	self delete: anICEmail
+	self delete: anICEmail.
+	self syncFromDisk
 	
 	

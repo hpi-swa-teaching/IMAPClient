@@ -3,6 +3,7 @@ createFileWith: UID
 
 	| testMail |
 	testMail := self class expectedMailObjectFor: UID in: self endpoint rootFolder.
+	self endpoint rootFolder addMails: {testMail}.
 	(FileDirectory default / (self endpoint maildirFileName: self endpoint rootFolder folderName)) assureExistence.
 	FileStream
 		forceNewFileNamed: (self endpoint maildirFileName: self endpoint rootFolder folderName), FileDirectory slash, testMail uniqueID

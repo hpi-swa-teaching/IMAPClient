@@ -7,7 +7,8 @@
 	"commentStamp" : "LW 8/1/2020 11:14",
 	"instvars" : [
 		"directoryToFolderDictionary",
-		"endpoint" ],
+		"endpoint",
+		"loadedEmails" ],
 	"name" : "ICFileReadWriter",
 	"pools" : [
 		 ],
