@@ -2,7 +2,6 @@ read file
 directoryVisitor
 
 	^ [:directory | | currentFolder |
-		self halt.
 		self directoryToFolderDictionary at: directory ifAbsent:[
 		directory = self rootDirectory ifFalse: [
 			currentFolder := ICFolder
