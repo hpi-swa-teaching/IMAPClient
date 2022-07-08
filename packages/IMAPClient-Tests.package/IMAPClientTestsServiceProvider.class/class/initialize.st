@@ -1,4 +1,3 @@
 initialization
-initialize
-
+initialize 
 	ServiceRegistry current buildProvider: self new

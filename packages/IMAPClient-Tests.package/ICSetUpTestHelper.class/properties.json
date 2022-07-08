@@ -4,11 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "RJPG 7/8/2022 11:09",
 	"instvars" : [
 		"endpoint",
-		"currentMailID",
-		"emails" ],
+		"currentMailID" ],
 	"name" : "ICSetUpTestHelper",
 	"pools" : [
 		 ],

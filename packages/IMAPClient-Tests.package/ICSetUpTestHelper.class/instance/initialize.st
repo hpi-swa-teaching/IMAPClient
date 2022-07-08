@@ -8,6 +8,6 @@ initialize
 	rootfolder endpoint: self endpoint;
 		parent: rootfolder;
 		folderName: 'rootFolder'.
-	
-	self deleteAccountFolder.
+		
+	self reset
 	

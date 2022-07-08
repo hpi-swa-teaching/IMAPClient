@@ -1,4 +1,4 @@
 accessing
 unlinkAllEmails
 
-	^ self rootFolder unlink
+	^ self rootFolder unlinkAllEmails

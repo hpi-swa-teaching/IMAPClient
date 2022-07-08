@@ -7,7 +7,8 @@
 	"commentStamp" : "eg 7/29/2021 18:37",
 	"instvars" : [
 		"endPoint",
-		"email" ],
+		"email",
+		"helper" ],
 	"name" : "ICEndPointOfflineTest",
 	"pools" : [
 		 ],

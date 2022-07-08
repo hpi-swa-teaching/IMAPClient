@@ -8,7 +8,8 @@
 	"instvars" : [
 		"directoryToFolderDictionary",
 		"endpoint",
-		"loadedEmails" ],
+		"loadedEmails",
+		"loadedFolders" ],
 	"name" : "ICFileReadWriter",
 	"pools" : [
 		 ],

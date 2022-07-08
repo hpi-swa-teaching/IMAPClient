@@ -12,4 +12,5 @@ getMailObjectWith: UID in: anICFolder
 		contentTransferEncoding: 'quoted-printable';
 		to: {'receiver1'. 'receiver2'};
 		date: 'Fri, 10 Jun 2016 12:51:42 +0200';
-		uniqueID: UID
+		uniqueID: UID;
+		messageID: UID

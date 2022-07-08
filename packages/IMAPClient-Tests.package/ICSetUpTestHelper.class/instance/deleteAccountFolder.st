@@ -1,10 +1,10 @@
 io
 deleteAccountFolder
 
-	| filePath folder filedirectory |
-	filePath:=   'Maildir'.
+	| filePath folder |
 	folder := self endpoint rootDirectoryName.
-	
-	filedirectory :=FileDirectory new.
-	filedirectory setPathName:  (FileDirectory default / filePath ) pathName.
-	"filedirectory deleteDirectory: folder"
+	filePath := FileDirectory default /   'Maildir' / folder.
+	filePath assureExistence.
+	(FileDirectory new)
+		setPathName:  filePath pathName;
+		recursiveDelete
