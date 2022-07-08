@@ -1,6 +1,6 @@
 read file
 readAccountSettings
-
-	^ (Json readFrom: (self rootDirectory
+	
+	[^Json readFrom: (self rootDirectory
 		assureExistence;
-		fileNamed: 'settings'))
+		fileNamed: 'settings')] on: JsonIncompleteError do: [^ JsonObject new]

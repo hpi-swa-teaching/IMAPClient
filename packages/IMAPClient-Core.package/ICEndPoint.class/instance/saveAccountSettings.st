@@ -1,0 +1,4 @@
+storage
+saveAccountSettings
+
+	self readWriter writeAccountSettings: self accountSettings serializeToJson
