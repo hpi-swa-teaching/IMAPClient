@@ -13,5 +13,6 @@ givenJsonObjectFor: UID
 			'contentTransferEncoding' -> 'quoted-printable'.
 			'to' -> #('receiver1' 'receiver2')}).
 		'body' -> 'body text'.
-		'messageID' -> nil.
+		'messageID' -> UID.
+		'id'->'7gP0b5O2hfUb'.
 		'uid' -> UID}

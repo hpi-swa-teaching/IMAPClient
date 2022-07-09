@@ -1,13 +1,12 @@
-delteFile
+testing
 testDelete
 
-	| folder mail |
-	"self createFileWith: self deleteUID."
+	| folder mail emailPath |
 	folder := self helper createAFolder: 'folder'.
 	mail := self helper createAnEmail: folder.
+	emailPath :=FileDirectory default / (self helper endpoint maildirFileName: folder folderName) / mail uniqueID asString.
 	
-	self assert: (FileDirectory default / (self endpoint maildirFileName: self helper endpoint rootFolder folderName) / mail uniqueID asString) exists.
+	self assert: emailPath exists.
 	
-	
-	"self readWriter delete: (self class expectedMailObjectFor: self deleteUID in: self endpoint rootFolder).
-	self assert: (FileDirectory default / self endpoint maildirFileName / self deleteUID asString) exists not"
+	self readWriter delete: mail.
+	self assert: emailPath exists not.
