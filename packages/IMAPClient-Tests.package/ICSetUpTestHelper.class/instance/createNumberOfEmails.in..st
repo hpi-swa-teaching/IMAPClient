@@ -1,5 +1,5 @@
 accessing
-getNumberOfEmails: aNumber in: anICFolder 
+createNumberOfEmails: aNumber in: anICFolder 
 	
 	| collection |
 	

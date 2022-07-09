@@ -3,7 +3,7 @@
 		"emailDate" : "tg 7/19/2019 12:40",
 		"expected1980Seconds" : "an 6/16/2022 20:29",
 		"expectedBody" : "an 6/16/2022 20:29",
-		"expectedMailObject" : "an 6/16/2022 20:29",
+		"expectedMailObject" : "RJPG 7/9/2022 16:33",
 		"expectedMinimalHeaderAsString" : "an 6/16/2022 20:29",
 		"expectedParsedMESZDate" : "an 6/16/2022 20:29",
 		"expectedParsedUTCDate" : "an 6/16/2022 20:29",
@@ -11,7 +11,7 @@
 		"expectedSenderName" : "EG 5/29/2021 23:16",
 		"expectedSqueakEpochSeconds" : "an 6/16/2022 20:29",
 		"expectedStringRepresentation" : "an 6/16/2022 20:29",
-		"givenJsonObject" : "an 6/16/2022 20:29" },
+		"givenJsonObject" : "RJPG 7/9/2022 16:32" },
 	"instance" : {
 		"email" : "EG 5/20/2021 11:50",
 		"email:" : "EG 5/20/2021 11:50",
