@@ -1,3 +1,4 @@
 accessing
 loadedEmails
-	^ loadedEmails
+
+	^ loadedEmails ifNil: [ loadedEmails:= OrderedCollection new]
