@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"openWith:" : "an 7/10/2022 17:16" },
+	"instance" : {
+		"buildNavigationPanel:" : "an 7/10/2022 18:31",
+		"buildSettingsList:" : "an 7/10/2022 18:31",
+		"buildUserList:" : "an 7/10/2022 17:46",
+		"buildWith:" : "an 7/10/2022 17:39",
+		"dialogTitle" : "an 7/10/2022 16:48",
+		"emailAccounts" : "an 7/10/2022 16:29",
+		"emailAccounts:" : "an 7/10/2022 16:29",
+		"labelForAccount:" : "an 7/10/2022 16:55",
+		"labelForSetting:" : "an 7/10/2022 18:13",
+		"selectedEndpoint" : "an 7/10/2022 17:00",
+		"selectedEndpoint:" : "an 7/10/2022 16:59",
+		"selectedSetting" : "an 7/10/2022 18:08",
+		"selectedSetting:" : "an 7/10/2022 18:10",
+		"settingsDialogMorph" : "an 7/10/2022 17:10",
+		"settingsDialogMorph:" : "an 7/10/2022 17:10",
+		"settingsList" : "an 7/10/2022 17:55",
+		"switchToNewEndpoint" : "an 7/10/2022 17:04",
+		"switchToNewSetting" : "an 7/10/2022 18:10" } }

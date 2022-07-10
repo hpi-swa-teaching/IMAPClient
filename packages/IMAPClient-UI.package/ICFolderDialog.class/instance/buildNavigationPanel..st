@@ -10,4 +10,5 @@ buildNavigationPanel: builder
 			self buildOpenAddressBookButton: builder.
 			self buildUpdateButton: builder.
 			self buildUserList: builder.
+			self buildOpenSettingsWindowButton: builder.
 			self buildFolderTree: builder}

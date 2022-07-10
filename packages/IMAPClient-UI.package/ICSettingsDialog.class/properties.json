@@ -1,0 +1,17 @@
+{
+	"category" : "IMAPClient-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"emailAccounts",
+		"settingsDialogMorph",
+		"selectedEndpoint",
+		"selectedSetting" ],
+	"name" : "ICSettingsDialog",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

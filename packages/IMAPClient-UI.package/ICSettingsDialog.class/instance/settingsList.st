@@ -1,0 +1,4 @@
+accessing
+settingsList
+
+	^ ICAccountSettings settingNames

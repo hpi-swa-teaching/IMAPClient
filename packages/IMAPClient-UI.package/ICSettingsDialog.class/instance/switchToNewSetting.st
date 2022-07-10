@@ -1,0 +1,4 @@
+accessing
+switchToNewSetting
+
+	self halt
