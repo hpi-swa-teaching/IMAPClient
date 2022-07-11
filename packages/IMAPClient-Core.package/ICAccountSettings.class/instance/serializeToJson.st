@@ -1,4 +1,4 @@
 accessing
 serializeToJson
 
-	^ Json render: (JsonObject newFrom: {'notSyncedFolders' -> self notSyncedFolders})
+	^ Json render: (JsonObject newFrom: {self notSyncedFoldersID asString -> self notSyncedFolders})

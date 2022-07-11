@@ -1,4 +1,3 @@
 accessing
 switchToNewSetting
 
-	self halt

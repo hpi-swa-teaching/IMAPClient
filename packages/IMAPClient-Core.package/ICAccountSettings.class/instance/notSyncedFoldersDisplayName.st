@@ -1,0 +1,4 @@
+accessing
+notSyncedFoldersDisplayName
+	
+	^ 'Hidden Folders'

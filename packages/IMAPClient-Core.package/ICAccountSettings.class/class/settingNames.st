@@ -1,4 +1,4 @@
 constants
 settingNames
 
-	^ OrderedCollection newFrom: {#settingNotSyncedFolders}
+	^ self displayNames keys asOrderedCollection

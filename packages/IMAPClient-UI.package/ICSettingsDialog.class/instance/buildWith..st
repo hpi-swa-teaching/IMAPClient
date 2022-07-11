@@ -8,6 +8,7 @@ buildWith: builder
 		extent: 600 @ 300;
 		children: {
 			self buildNavigationPanel: builder.
+			self buildSettingsPanel: builder.
 			}).
 	self settingsDialogMorph: window.
 	

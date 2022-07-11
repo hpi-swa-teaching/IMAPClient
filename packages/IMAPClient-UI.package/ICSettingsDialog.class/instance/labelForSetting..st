@@ -1,4 +1,4 @@
 accessing - account
 labelForSetting: aSymbol
 
-	^ aSymbol asString
+	^ ICAccountSettings displayNames at: aSymbol

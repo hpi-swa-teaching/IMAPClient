@@ -1,10 +1,13 @@
 {
 	"class" : {
+		"displayNames" : "an 7/11/2022 16:47",
 		"newFrom:" : "an 7/10/2022 18:44",
-		"settingNames" : "an 7/10/2022 18:40",
+		"settingNames" : "an 7/11/2022 16:52",
 		"settingNotSyncedFolders" : "an 7/10/2022 18:43",
 		"settingsFileName" : "an 7/8/2022 11:34" },
 	"instance" : {
 		"notSyncedFolders" : "an 7/6/2022 17:29",
 		"notSyncedFolders:" : "an 7/6/2022 17:29",
-		"serializeToJson" : "an 7/6/2022 17:36" } }
+		"notSyncedFoldersDisplayName" : "an 7/11/2022 16:09",
+		"notSyncedFoldersID" : "an 7/11/2022 16:09",
+		"serializeToJson" : "an 7/11/2022 16:11" } }
