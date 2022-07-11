@@ -6,6 +6,7 @@ buildWith: builder
 	window := (builder build: (builder pluggableWindowSpec new
 		model: self;
 		extent: 300 @ 200;
+		label: 'LoginWindow';
 		children: {self buildAcceptButton: builder. self buildInputField: builder. self buildLabel: builder})) addEventCaptureFilter: self filter.
 	self inputMorph: window.
 	
