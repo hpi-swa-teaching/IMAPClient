@@ -6,4 +6,4 @@ delete: anICEmail
 	FileDirectory default / filePath
 		deleteFileNamed: anICEmail uniqueID
 		ifAbsent: [CannotDeleteFileException new
-			messageText: 'file not found: ' , filePath,'/', anICEmail uniqueID]
+			messageText: 'file not found: ' , filePath,FileDirectory slash, anICEmail uniqueID]
