@@ -5,9 +5,17 @@ moveEmail: anEmail to: aTargetFolderName
 	anEmail folder folderName = aTargetFolderName
 		ifFalse: [
 			targetFolder := self getFolderFor: aTargetFolderName.
-			self prepareMoveEmail: anEmail.
-			self addMail: anEmail to: targetFolder.
+			
+			"For movedMailStorage:" 
+			self removeMoved: anEmail.
+			
+			"chg. something in the old folder"
+			self connectionHandler select: anEmail folder path.
+			self readWriter moveEmail: anEmail to: targetFolder.
+			
+			
 			self resetDeletedFlagWhenRecovering: anEmail.
+			
 			
 			self connectionHandler moveEmail: anEmail messageID to: aTargetFolderName.
 			targetFolder update]

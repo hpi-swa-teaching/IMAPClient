@@ -7,7 +7,7 @@ write: anICEmail in: anICFolder
 	(FileDirectory default / folderPath) assureExistence.
 	
 	FileStream
-		forceNewFileNamed: folderPath, FileDirectory slash, anICEmail uniqueID
+		forceNewFileNamed: folderPath, FileDirectory slash, anICEmail id
 		do: [:stream |
 			stream
 				nextPutAll: anICEmail serializeToJson;

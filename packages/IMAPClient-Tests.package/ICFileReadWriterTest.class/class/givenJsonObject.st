@@ -1,5 +1,5 @@
 constants
-givenJsonObjectFor: UID
+givenJsonObject
 
 	^ JsonObject newFrom: {
 		'header' -> (JsonObject newFrom: {
@@ -13,6 +13,6 @@ givenJsonObjectFor: UID
 			'contentTransferEncoding' -> 'quoted-printable'.
 			'to' -> #('receiver1' 'receiver2')}).
 		'body' -> 'body text'.
-		'messageID' -> UID.
-		'id'->'7gP0b5O2hfUb'.
-		'uid' -> UID}
+		'messageID' -> '1'.
+		'id'-> self writeID.
+		'uid' -> '1'}

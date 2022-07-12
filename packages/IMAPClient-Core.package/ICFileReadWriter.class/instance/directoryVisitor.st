@@ -1,20 +1,18 @@
 read file
 directoryVisitor
 
-	
 	^ [:directory | | currentFolder folderName matchingFolder |	
-		self directoryToFolderDictionary at: directory ifAbsent:[
 		directory = self rootDirectory ifFalse: [
 			folderName :=directory pathParts last.
-			matchingFolder:= self loadedFolders select:  [:f | f folderName = folderName].
+			matchingFolder:= self loadedFolders select:  [:folder | folder folderName = folderName].
 			
 			matchingFolder isEmpty
 			ifTrue: [currentFolder := ICFolder
-				named: directory pathParts last
+				named: folderName
 				in: (self directoryToFolderDictionary at: directory containingDirectory)
 				with: self endpoint
 				of: #Generic.]
 			ifFalse: [
-				self assert: matchingFolder size = 1 description: 'Crutical Error. FolderName is not Unique! You should change the name to id ;)'.
+				self assert: matchingFolder size = 1 description: 'Critical Error. FolderName is not Unique!'.
 				currentFolder:= matchingFolder first].
-			self directoryToFolderDictionary at: directory put: currentFolder]]]
+			self directoryToFolderDictionary at: directory put: currentFolder]]

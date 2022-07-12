@@ -1,5 +1,5 @@
 constants
-expectedMailObjectFor: UID in: anICFolder
+expectedMailObjectIn: anICFolder
 
 	^ ICEmail new
 		body: 'body text';
@@ -13,6 +13,6 @@ expectedMailObjectFor: UID in: anICFolder
 		contentTransferEncoding: 'quoted-printable';
 		to: {'receiver1'. 'receiver2'};
 		date: 'Fri, 10 Jun 2016 12:51:42 +0200';
-		id:'7gP0b5O2hfUb';
-		uniqueID: UID;
-		messageID: UID
+		id:self writeID;
+		uniqueID: '1';
+		messageID: '1'
