@@ -5,7 +5,6 @@ buildUserList: builder
 		model: self;
 		roots: #emailAccounts;
 		label: #labelForAccount:;
-		"menu: #userListMenu:;"
 		autoDeselect: false;
 		getSelected: #selectedEndpoint;
 		setSelected: #selectedEndpoint:;

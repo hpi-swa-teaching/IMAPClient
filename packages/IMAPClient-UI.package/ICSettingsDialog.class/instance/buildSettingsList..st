@@ -5,7 +5,6 @@ buildSettingsList: builder
 		model: self;
 		roots: #settingsList;
 		label: #labelForSetting:;
-		"menu: #userListMenu:;"
 		autoDeselect: false;
 		getSelected: #selectedSetting;
 		setSelected: #selectedSetting:;

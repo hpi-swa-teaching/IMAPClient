@@ -5,5 +5,5 @@ buildOpenSettingsWindowButton: builder
 		name: self class nameSettingsWindowButton;
 		model: self;
 		frame: (0.75 @ 0 corner: 1 @ 0.05);
-		label: self class contactsIcon;
+		label: self class settingsIcon;
 		action: #openSettingsWindow

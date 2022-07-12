@@ -9,7 +9,9 @@
 		"emailAccounts",
 		"settingsDialogMorph",
 		"selectedEndpoint",
-		"selectedSetting" ],
+		"selectedSetting",
+		"settingsPanel",
+		"settingsPanelWidget" ],
 	"name" : "ICSettingsDialog",
 	"pools" : [
 		 ],
