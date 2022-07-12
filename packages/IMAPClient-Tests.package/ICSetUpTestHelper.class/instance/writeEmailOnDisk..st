@@ -2,13 +2,10 @@ io
 writeEmailOnDisk: anICEmail
 
 	| folderPath |
-	folderPath:= self endpoint maildirFileName:  anICEmail folderName.
+	folderPath:= self endpoint maildirFileName: anICEmail folderName.
 
 	(FileDirectory default / folderPath) assureExistence.
-	
 
-	(FileDirectory default / folderPath) assureExistence.
-	
 	FileStream
 		forceNewFileNamed: folderPath, FileDirectory slash, anICEmail id
 		do: [:stream |
