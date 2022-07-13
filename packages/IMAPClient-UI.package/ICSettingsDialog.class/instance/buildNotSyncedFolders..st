@@ -1,2 +1,0 @@
-toolbuilder
-buildNotSyncedFolders: builder

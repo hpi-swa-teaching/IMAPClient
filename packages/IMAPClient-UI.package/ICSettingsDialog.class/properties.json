@@ -10,8 +10,8 @@
 		"settingsDialogMorph",
 		"selectedEndpoint",
 		"selectedSetting",
-		"settingsPanel",
-		"settingsPanelWidget" ],
+		"settingsPanelWidget",
+		"selectedNotSyncedFolders" ],
 	"name" : "ICSettingsDialog",
 	"pools" : [
 		 ],

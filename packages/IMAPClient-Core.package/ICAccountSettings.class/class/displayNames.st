@@ -1,4 +1,4 @@
 constants
 displayNames
 	
-	^ {#notSyncedFolders -> 'Hidden Folders'} asDictionary
+	^ {#notSyncedFolders -> 'Hidden Folders' . #allowConcurrentSync -> 'Allow usage while syncing'} asDictionary

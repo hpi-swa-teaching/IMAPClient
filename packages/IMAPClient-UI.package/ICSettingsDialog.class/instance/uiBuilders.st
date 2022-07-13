@@ -1,4 +1,4 @@
 accessing
 uiBuilders
 
-	^ {#notSyncedFolders -> [self buildNotSyncedFolders]} asDictionary
+	^ {#notSyncedFolders -> [self buildNotSyncedFolders] . #allowConcurrentSync -> [self buildAllowConcurrentSync]} asDictionary

@@ -1,11 +1,15 @@
 toolbuilder
 buildNotSyncedFolders
 	"morph basteln, dann: self settingsPanel moprh: gebastelterMorph"
-	| morph |
-	morph := AlternatePluggableListMorphOfMany new
-	autoDeselect: false.
+	| morph builder |
+	"morph := AlternatePluggableListMorphOfMany new"
+	"autoDeselect: false."
 	
+	builder := ToolBuilder default.
+	morph := builder build: (builder pluggableListSpec new
+		list: #getFolderList;
+		autoDeselect: false;
+		model: self).
 	
-	
-	
-	self  settingsPanel morph: morph.
+	self settingsPanelWidget morph: morph.
+	self changed: #morph.
