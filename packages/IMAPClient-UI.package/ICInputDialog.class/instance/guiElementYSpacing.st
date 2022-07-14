@@ -1,4 +1,4 @@
 accessing - user interface
 guiElementYSpacing
 
-	^ 0.14
+	^ 0.3
