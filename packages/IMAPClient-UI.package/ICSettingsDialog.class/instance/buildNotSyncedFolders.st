@@ -10,6 +10,6 @@ buildNotSyncedFolders
 		list: #getFolderList;
 		autoDeselect: false;
 		model: self).
-	
+	morph extent: settingsPanelWidget extent.
 	self settingsPanelWidget morph: morph.
 	self changed: #morph.

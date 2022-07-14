@@ -5,7 +5,7 @@
 	"instance" : {
 		"buildAllowConcurrentSync" : "FK 7/13/2022 22:35",
 		"buildNavigationPanel:" : "an 7/10/2022 18:31",
-		"buildNotSyncedFolders" : "FK 7/13/2022 23:10",
+		"buildNotSyncedFolders" : "FK 7/14/2022 10:44",
 		"buildSettingsList:" : "an 7/11/2022 17:40",
 		"buildSettingsPanel:" : "FK 7/13/2022 22:17",
 		"buildUserList:" : "an 7/11/2022 18:03",
@@ -19,7 +19,7 @@
 		"selectedEndpoint" : "an 7/11/2022 16:29",
 		"selectedEndpoint:" : "an 7/11/2022 16:43",
 		"selectedNotSyncedFolders" : "FK 7/13/2022 23:05",
-		"selectedNotSyncedFolders:" : "FK 7/13/2022 23:09",
+		"selectedNotSyncedFolders:" : "FK 7/14/2022 10:36",
 		"selectedSetting" : "an 7/10/2022 18:08",
 		"selectedSetting:" : "an 7/11/2022 18:15",
 		"settingsDialogMorph" : "an 7/10/2022 17:10",
