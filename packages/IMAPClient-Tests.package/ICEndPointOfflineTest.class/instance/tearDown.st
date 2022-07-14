@@ -1,6 +1,6 @@
 running
 tearDown
 
-	| mailQueue |
-	mailQueue := self endPoint movedMailStorage.
-	(mailQueue at: self endPoint accountName) removeAll
+	self helper reset.
+	"mailQueue := self endPoint movedMailStorage.
+	(mailQueue at: self endPoint accountName) removeAll"

@@ -1,4 +1,4 @@
 accessing
 connectionHandler
 
-	^ self endPoint connectionHandler
+	^ self helper endpoint connectionHandler

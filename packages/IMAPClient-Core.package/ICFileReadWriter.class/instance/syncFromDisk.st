@@ -1,4 +1,4 @@
-read file
+synchronize
 syncFromDisk
 
 	self loadedEmails: self endpoint collectAllEmails.

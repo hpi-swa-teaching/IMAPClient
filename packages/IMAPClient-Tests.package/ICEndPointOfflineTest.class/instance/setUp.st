@@ -3,20 +3,20 @@ setUp
 
 	| connectionHandler folder |
 	
-	self helper: ICSetUpTestHelper new.
 	
 	connectionHandler := ICConnectionHandler new
 		stream: ICNullStream new;
 		storedCommands: ICMockCommandStorage new.
 	
-	self endPoint: (ICEndPoint new connectionHandler: connectionHandler).
-	folder := ICFolder new endpoint: self endPoint.
-	folder parent: folder.
-	
-	self endPoint
-		rootFolder: folder;
+	self helper: ICSetUpTestHelper new.
+	self helper endpoint connectionHandler: connectionHandler;
 		folderNameOfTrash: self trashFolderName;
-		readWriter: ICMockReadWriter new.
+		readWriter:( ICFileReadWriter new endpoint: self helper endpoint).
 	
-	self helper endpoint:  self endPoint.
-	self email: (self class mailIn: folder)
+	self trashFolder: (self helper createAFolder: self trashFolderName).
+	self trashFolder folderType: #Trash.
+	self helper writeFolderOnDisk: self trashFolder.
+	
+	folder := self helper createAFolder: 'folder'.
+	
+	self email: (self helper createAnEmail: folder)

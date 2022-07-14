@@ -15,6 +15,6 @@ startUpdateProcess: anUID
 		^ true]
 		on: Error
 		do: [:error |
-			self inform: error asString.
+			self error: error asString.
 			self addMails: movedEmails asOrderedCollection.
-			^ false]
+	^ false]

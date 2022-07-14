@@ -1,4 +1,4 @@
-as yet unclassified
-directoryExists: aDirectoryName
+verification
+directoryExists: aPathString
 
-	^FileDirectory default directoryExists: (FileDirectory default fullPathFor: aDirectoryName)
+	^FileDirectory default directoryExists: (FileDirectory default fullPathFor: aPathString)

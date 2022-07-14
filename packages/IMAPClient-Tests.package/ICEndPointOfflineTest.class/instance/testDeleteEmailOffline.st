@@ -1,14 +1,10 @@
 testing
 testDeleteEmailOffline
 
-	self endPoint readWriter: (ICFileReadWriter new endpoint: self endPoint).
+	self assert: self helper endpoint connectionHandler isCommandStorageEmpty.
 	
-	self email folder addFolder: self trashFolder.
+	self helper endpoint  deleteEmail: self email.
 	
-	self assert: self endPoint connectionHandler isCommandStorageEmpty.
-	
-	self endPoint deleteEmail: self email.
-	
-	self deny: self endPoint connectionHandler isCommandStorageEmpty.
-	self deny: (self endPoint movedMailStorage isEmptyFor: self endPoint accountName).
+	self deny: self helper endpoint connectionHandler isCommandStorageEmpty.
+	self deny: (self helper endpoint movedMailStorage isEmptyFor: self helper endpoint accountName).
 	self assert: self email folder isTrashFolder
