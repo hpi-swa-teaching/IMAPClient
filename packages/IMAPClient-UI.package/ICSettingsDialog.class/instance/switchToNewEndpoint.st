@@ -2,6 +2,6 @@ action - endpoints
 switchToNewEndpoint
 
 	self folders: self getFolderList.
-	selectedNotSyncedFolders := self selectedEndpoint accountSettings notSyncedFolders.
+	self selectedNotSyncedFolders: self selectedEndpoint accountSettings notSyncedFolders.
 	self selectedSetting: nil.
-	self changed: #settingsList
+	self changed: #settingsList; changed: #enableSaveButton

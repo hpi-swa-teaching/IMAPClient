@@ -1,4 +1,4 @@
-accessing
+action - endpoints
 selectedNotSyncedFolders
 
 	^ selectedNotSyncedFolders

@@ -1,5 +1,4 @@
-accessing
-selectedNotSyncedFolders: anOrderedCollection
+toolbuilder
+selectedNotSyncedFolders: aFolderCollection
 
-	selectedNotSyncedFolders := anOrderedCollection.
-	self changed: #selectedNotSyncedFolders
+	selectedNotSyncedFolders := aFolderCollection
