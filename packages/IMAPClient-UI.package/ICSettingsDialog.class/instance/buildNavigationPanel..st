@@ -8,4 +8,4 @@ buildNavigationPanel: builder
 		children: {
 			self buildUserList: builder.
 			self buildSettingsList: builder.
-			"self buildSaveButton: builder."}
+			self buildSaveButton: builder}

@@ -1,0 +1,4 @@
+toolbuilder
+saveNotSyncedFolders
+
+	self selectedEndpoint accountSettings notSyncedFolders: selectedNotSyncedFolders
