@@ -1,15 +1,19 @@
 toolbuilder
 buildNotSyncedFolders
-	"morph basteln, dann: self settingsPanel moprh: gebastelterMorph"
+	"morph basteln, dann: self
+	settingsPanelWidget moprh:
+	gebastelterMorph "
 	| morph builder |
-	"morph := AlternatePluggableListMorphOfMany new"
-	"autoDeselect: false."
-	
 	builder := ToolBuilder default.
-	morph := builder build: (builder pluggableListSpec new
-		list: #getFolderList;
-		autoDeselect: false;
-		model: self).
+	morph := builder build: (builder pluggableMultiSelectionListSpec new list: #getFolderList;
+					 autoDeselect: false;
+					 vScrollBarPolicy: #whenNeeded;
+					 hScrollBarPolicy: #whenNeeded;
+					 getIndex: #folderSelected;
+					 setIndex: #folderSelected:;
+					 getSelectionList: #selectedNotSyncedFoldersAt:;
+					 setSelectionList: #selectedNotSyncedFoldersAt:put:;
+					 model: self).
 	morph extent: settingsPanelWidget extent.
 	self settingsPanelWidget morph: morph.
-	self changed: #morph.
+	self changed: #morph

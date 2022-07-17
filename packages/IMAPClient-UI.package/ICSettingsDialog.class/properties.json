@@ -11,7 +11,10 @@
 		"selectedEndpoint",
 		"selectedSetting",
 		"settingsPanelWidget",
-		"selectedNotSyncedFolders" ],
+		"selectedNotSyncedFolders",
+		"foldersSelected",
+		"folders",
+		"folderIndex" ],
 	"name" : "ICSettingsDialog",
 	"pools" : [
 		 ],
