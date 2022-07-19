@@ -1,7 +1,13 @@
 action - update emails
 fetchEmailsFrom: anUID
-
-	self emails addAll: (self endpoint maildirDiffFetchHeadersFor: self from: anUID).
+	
+	
+	| fetchedEmails loadedEmails |
+	fetchedEmails :=self endpoint maildirDiffFetchHeadersFor: self from: anUID.
+	loadedEmails := self endpoint collectAllEmails.
+	
+	
+	self emails addAll: 
 	self ensureFreshness.
 	self emails ifEmpty: [^ self].
 	self retrieveFlagsFrom: self emails last uniqueID to: self emails first uniqueID.
