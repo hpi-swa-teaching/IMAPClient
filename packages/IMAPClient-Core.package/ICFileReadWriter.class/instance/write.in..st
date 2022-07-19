@@ -12,4 +12,6 @@ write: anICEmail in: anICFolder
 			stream
 				nextPutAll: anICEmail serializeToJson;
 				flush;
-				close]
+				close].
+			
+	ICFileCommandStorage new push: [self write: anICEmail in: anICFolder]

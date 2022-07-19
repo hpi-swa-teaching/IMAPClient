@@ -2,4 +2,4 @@ comparing
 = anObject
 	"Answer whether the receiver and anObject represent the same object."
 	
-	^ (self equalityIndependentOfFolder: anObject) and: [self folder = anObject folder]
+	^ (self equalsExceptFolder: anObject) and: [self folder = anObject folder]

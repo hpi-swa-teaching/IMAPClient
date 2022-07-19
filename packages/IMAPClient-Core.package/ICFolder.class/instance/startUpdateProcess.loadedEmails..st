@@ -1,5 +1,5 @@
 action - update emails
-startUpdateProcess: anUID
+startUpdateProcess: anUID loadedEmails: anOrderedCollection
 
 	| movedEmails |
 	movedEmails := ICMovedEmailStorage new
@@ -9,8 +9,8 @@ startUpdateProcess: anUID
 	ICMovedEmailStorage new deleteEmailsFromFolder: self.
 	[
 		anUID
-			ifNil: [self fetchNumberOfLatestEmails: self class numberOfHeadersToFetchAtTheBeginning]
-			ifNotNil: [self fetchEmailsFrom: anUID].
+			ifNil: [self fetchNumberOfLatestEmails: self class numberOfHeadersToFetchAtTheBeginning loadedEmails: anOrderedCollection]
+			ifNotNil: [self fetchEmailsFrom: anUID loadedEmails: anOrderedCollection].
 		movedEmails := Set new.
 		^ true]
 		on: Error

@@ -5,7 +5,7 @@ testUpdate
 	iDsBeforeUpdate := self root lowestUniqueID to: self root highestUniqueID.
 	self endpoint uids: iDsBeforeUpdate.
 	self endpoint mailBody: self class mailBody.
-	self root update.
+	self root updateWithLoadedEmails: self selectedFolder endpoint collectAllEmails.
 	
 	self deny: (self root emails includes: [:anEmail |
 		body := anEmail body.
