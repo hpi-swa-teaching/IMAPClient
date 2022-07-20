@@ -8,5 +8,4 @@ sync: anICFolderCollection
 	self directoryToFolderDictionaryReset.
 	anICFolderCollection
 		do: [:folder | self readEmailsFromDisk: self rootDirectory / folder path].
-	self loadedEmails: OrderedCollection new.
-	self loadedFolders: OrderedCollection new
+	self resetLoadedObjects

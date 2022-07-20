@@ -13,5 +13,5 @@ moveEmail: anEmail to: aTargetFolderName
 			self resetDeletedFlagWhenRecovering: anEmail.
 						
 			self connectionHandler moveEmail: anEmail messageID to: aTargetFolderName.
-			targetFolder updateWithLoadedEmails: self collectAllEmails]
+			targetFolder startUpdateWithLoadedEmails: self collectAllEmails showProgress: false with: []]
 		ifTrue: [self inform: 'The Email is already in the specified folder']

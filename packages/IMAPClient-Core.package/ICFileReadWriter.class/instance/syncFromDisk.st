@@ -6,5 +6,4 @@ syncFromDisk
 	self endpoint unlinkAllEmails.
 	self directoryToFolderDictionaryReset.
 	self readEmailsFromDisk.
-	self loadedEmails: OrderedCollection new.
-	self loadedFolders: OrderedCollection new.
+	self resetLoadedObjects

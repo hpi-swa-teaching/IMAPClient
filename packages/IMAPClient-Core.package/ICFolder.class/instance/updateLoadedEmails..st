@@ -1,7 +1,8 @@
 action - update emails
-startUpdateProcess: anUID loadedEmails: anOrderedCollection
+updateLoadedEmails: anOrderedCollection
 
-	| movedEmails |
+	| movedEmails anUID |
+	anUID := self highestUniqueID.
 	movedEmails := ICMovedEmailStorage new
 		movedMailsForAccount: self accountName
 		andFolder: self.
