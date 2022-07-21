@@ -3,7 +3,6 @@ buildWith: builder
 
 	| window |
 	self inputCollection: OrderedCollection new.
-	self doNotCopyFilter: ICDoNotCopyFilter new.
 	
 	window := (builder build: (builder pluggableWindowSpec new
 		model: self;
@@ -20,7 +19,6 @@ buildWith: builder
 		on: #keyStroke
 			send: #keyEvent:
 			to: self;
-		addEventCaptureFilter: self doNotCopyFilter;
 		submorphsDo: [:m |
 			"add listener to text fields
 		and hack to make the checkbox background transparent

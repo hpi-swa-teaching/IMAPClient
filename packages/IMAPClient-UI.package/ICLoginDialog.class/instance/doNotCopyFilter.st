@@ -1,4 +1,0 @@
-accessing
-doNotCopyFilter
-
-	^ doNotCopyFilter
