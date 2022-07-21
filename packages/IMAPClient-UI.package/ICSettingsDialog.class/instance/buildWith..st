@@ -11,5 +11,5 @@ buildWith: builder
 			self buildSettingsPanel: builder.
 			}).
 	self settingsDialogMorph: window.
-	self settingsPanelWidget: (builder widgetAt: ICSettingsDialog nameSettingsPanel).
+	self settingsPanelWidget: (builder widgetAt: self class nameSettingsPanel).
 	^ window

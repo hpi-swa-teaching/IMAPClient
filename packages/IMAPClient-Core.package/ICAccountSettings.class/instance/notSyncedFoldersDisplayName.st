@@ -1,4 +1,0 @@
-accessing
-notSyncedFoldersDisplayName
-	
-	^ 'Hidden Folders'
