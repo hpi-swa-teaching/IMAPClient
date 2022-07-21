@@ -1,0 +1,18 @@
+{
+	"category" : "IMAPClient-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"label",
+		"inputMorph",
+		"input",
+		"closingMethod",
+		"owner" ],
+	"name" : "ICInputDialog",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }
