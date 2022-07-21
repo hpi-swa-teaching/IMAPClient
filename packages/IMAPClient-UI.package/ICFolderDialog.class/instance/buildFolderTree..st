@@ -3,7 +3,7 @@ buildFolderTree: builder
 
 	^ builder pluggableTreeSpec new
 		model: self;
-		roots: #childFolders;
+		roots: #shownChildFolders;
 		setSelected: #selectedFolder:;
 		getSelected: #selectedFolder;
 		getChildren: #subFoldersOf:;
