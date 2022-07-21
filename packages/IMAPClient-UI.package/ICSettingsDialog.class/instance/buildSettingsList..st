@@ -8,4 +8,4 @@ buildSettingsList: builder
 		autoDeselect: false;
 		getSelected: #selectedSetting;
 		setSelected: #selectedSetting:;
-		frame: (0 @ 0.15 corner: 1 @ 0.85).
+		frame: (0 @ 0.15 corner: 1 @ 0.85)

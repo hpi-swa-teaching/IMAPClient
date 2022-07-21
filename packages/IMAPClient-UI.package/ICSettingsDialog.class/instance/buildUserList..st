@@ -8,4 +8,4 @@ buildUserList: builder
 		autoDeselect: false;
 		getSelected: #selectedEndpoint;
 		setSelected: #selectedEndpoint:;
-		frame: (0 @ 0 corner: 1 @ 0.15).
+		frame: (0 @ 0 corner: 1 @ 0.15)

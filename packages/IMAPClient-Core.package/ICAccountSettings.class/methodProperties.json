@@ -1,14 +1,14 @@
 {
 	"class" : {
 		"allowConcurrentSyncID" : "an 7/21/2022 15:25",
-		"displayNames" : "an 7/21/2022 15:30",
-		"newFrom:" : "an 7/10/2022 18:44",
-		"notSyncedFoldersID" : "an 7/21/2022 15:25",
+		"displayNames" : "an 7/21/2022 15:51",
+		"newFrom:" : "an 7/21/2022 15:51",
+		"notSyncedFoldersID" : "an 7/21/2022 15:51",
 		"settingNames" : "an 7/11/2022 16:52",
 		"settingsFileName" : "an 7/8/2022 11:34" },
 	"instance" : {
 		"allowConcurrentSync" : "FK 7/13/2022 22:25",
 		"allowConcurrentSync:" : "FK 7/13/2022 22:26",
-		"notSyncedFolders" : "FK 7/13/2022 22:25",
-		"notSyncedFolders:" : "an 7/6/2022 17:29",
-		"serializeToJson" : "an 7/21/2022 15:29" } }
+		"notSyncedFolders" : "an 7/21/2022 15:51",
+		"notSyncedFolders:" : "an 7/21/2022 15:51",
+		"serializeToJson" : "an 7/21/2022 15:51" } }
