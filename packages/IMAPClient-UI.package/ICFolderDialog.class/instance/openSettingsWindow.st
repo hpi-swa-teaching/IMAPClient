@@ -1,4 +1,4 @@
 action - settings
 openSettingsWindow
 
-	ICSettingsDialog openWith: self emailAccounts
+	self settingsDialogMorph: (ICSettingsDialog openWith: self emailAccounts)

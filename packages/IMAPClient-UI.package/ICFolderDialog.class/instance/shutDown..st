@@ -1,4 +1,4 @@
 connection
 shutDown: isGoingDown
 
-	isGoingDown ifTrue: [self closeConnection]
+	isGoingDown ifTrue: [self closeFolderDialog]
