@@ -3,5 +3,5 @@ triggerEmailChanges
 
 	self
 		changed: #emailAccounts;
-		changed: #shownChildFolders;
+		changed: #shownTopLevelFolders;
 		changed: #emailsOfSelectedFolder

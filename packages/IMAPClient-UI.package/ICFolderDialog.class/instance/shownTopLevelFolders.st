@@ -1,5 +1,5 @@
 accessing - folder
-shownChildFolders
+shownTopLevelFolders
 
 	self rootFolder ifNil: [^ OrderedCollection new].
 	self selectedEndpoint ifNil: [^ OrderedCollection new].

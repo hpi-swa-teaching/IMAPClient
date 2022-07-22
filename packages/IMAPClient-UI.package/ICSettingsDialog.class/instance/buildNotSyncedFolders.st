@@ -1,8 +1,5 @@
 toolbuilder
 buildNotSyncedFolders
-	"morph basteln, dann: self
-	settingsPanelWidget moprh:
-	gebastelterMorph "
 
 	| morph builder |
 	builder := ToolBuilder default.
