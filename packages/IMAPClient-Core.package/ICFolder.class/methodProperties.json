@@ -24,7 +24,6 @@
 		"emails:" : "LW 7/31/2020 12:26",
 		"endpoint" : "ms 7/10/2016 13:24",
 		"endpoint:" : "pm 6/9/2019 16:56",
-		"ensureFreshness" : "an 6/16/2022 20:29",
 		"executeFileCommands" : "RJPG 7/20/2022 18:04",
 		"expungeEmails" : "an 6/16/2022 20:29",
 		"fetchEmailsFrom:loadedEmails:" : "RJPG 7/22/2022 13:35",
@@ -54,7 +53,6 @@
 		"removeFolder:" : "RJPG 6/21/2022 09:45",
 		"removeFolder:ifAbsent:" : "RJPG 6/21/2022 09:46",
 		"removeMail:" : "JST 7/12/2021 10:00",
-		"retrieveAllFlags" : "hsp 7/22/2022 12:37",
 		"retrieveAllFlagsFromEmails:" : "RJPG 7/22/2022 13:15",
 		"retrieveBodyFor:" : "an 6/16/2022 20:29",
 		"retrieveFlagsFor:" : "an 6/16/2022 20:29",
@@ -71,5 +69,5 @@
 		"switchFlag:for:to:" : "Hannes Spitz4 7/11/2022 18:08",
 		"toggleFlag:for:" : "an 6/16/2022 20:29",
 		"unlinkAllEmails" : "RJPG 7/7/2022 12:05",
-		"updateLoadedEmails:" : "RJPG 7/20/2022 17:52",
+		"updateLoadedEmails:" : "RJPG 7/22/2022 13:56",
 		"updateWithLoadedEmails:showProgress:with:" : "RJPG 7/20/2022 17:53" } }

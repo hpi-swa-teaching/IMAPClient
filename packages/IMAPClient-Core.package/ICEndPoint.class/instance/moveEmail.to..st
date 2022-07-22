@@ -3,8 +3,7 @@ moveEmail: anEmail to: aTargetFolderName
 
 	| targetFolder |
 	anEmail folder folderName = aTargetFolderName
-		ifFalse: [
-			self movedMailStorage addMail: anEmail forAccount: self accountInfo.		
+		ifFalse: [	
 			self connectionHandler select: anEmail folder path.
 			
 			"chg. something in the old folder"
