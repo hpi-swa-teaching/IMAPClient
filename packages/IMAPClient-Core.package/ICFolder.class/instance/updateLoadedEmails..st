@@ -1,13 +1,9 @@
 action - update emails
 updateLoadedEmails: anOrderedCollection
 
-	| anUID |
-	anUID := self highestUniqueID.
-	self folderName = 'root' ifTrue: [^ true].
+	self isRootFolder ifTrue: [^ true].
 	[
-		anUID
-			ifNil: [self fetchNumberOfLatestEmails: self class numberOfHeadersToFetchAtTheBeginning loadedEmails: anOrderedCollection]
-			ifNotNil: [self fetchEmailsFrom: anUID loadedEmails: anOrderedCollection].
+		self fetchEmailsWithLoadedEmails: anOrderedCollection.
 		^ true]
 		on: Error
 		do: [:error |

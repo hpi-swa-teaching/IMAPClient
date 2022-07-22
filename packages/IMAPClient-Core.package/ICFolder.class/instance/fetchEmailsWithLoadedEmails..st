@@ -1,8 +1,8 @@
 action - update emails
-fetchEmailsFrom: anUID loadedEmails: anICEmailOrderedCollection 
+fetchEmailsWithLoadedEmails: anICEmailOrderedCollection 
 	
 	| fetchedEmails folderEmails loadedEmails |
-	fetchedEmails := self getFetchedEmails: anUID.
+	fetchedEmails := self getFetchedEmails.
 	loadedEmails := anICEmailOrderedCollection.
 	folderEmails := self emails.
 	fetchedEmails
@@ -12,7 +12,6 @@ fetchEmailsFrom: anUID loadedEmails: anICEmailOrderedCollection
 						select: [:each | each equalsExceptFolder: email].
 			matchingEmail isEmpty
 				ifFalse: [self assert: matchingEmail size = 1 description: 'Critical Error. Only one email should match'.
-					
 					email id: matchingEmail first id].
 			self endpoint readWriter write: email].
 	folderEmails

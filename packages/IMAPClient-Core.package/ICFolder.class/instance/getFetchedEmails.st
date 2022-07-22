@@ -1,5 +1,5 @@
 action - update emails
-getFetchedEmails: anUID
+getFetchedEmails
 	
 	| fetchedEmails |
 	self endpoint select: self path.
