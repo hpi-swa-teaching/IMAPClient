@@ -12,7 +12,8 @@ fetchEmailsFrom: anUID loadedEmails: anICEmailOrderedCollection
 						select: [:each | each equalsExceptFolder: email].
 			matchingEmail isEmpty
 				ifFalse: [self assert: matchingEmail size = 1 description: 'Critical Error. Only one email should match'.
-					email id: matchingEmail id].
+					
+					email id: matchingEmail first id].
 			self endpoint readWriter write: email].
 	folderEmails
 		do: [:email | (fetchedEmails

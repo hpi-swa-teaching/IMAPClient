@@ -1,4 +1,6 @@
 as yet unclassified
 new
 
-	^ super new copy removeAll
+	MockInstance ifNil: [MockInstance := super new copy removeAll].
+	^  MockInstance
+	
