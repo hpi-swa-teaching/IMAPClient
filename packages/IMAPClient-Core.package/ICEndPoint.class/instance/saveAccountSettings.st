@@ -1,4 +1,4 @@
 storage
 saveAccountSettings
 
-	self readWriter writeAccountSettings: self accountSettings serializeToJson
+	self readWriter writeAccountSettings: (Json render: self accountSettings serializeToJson)
