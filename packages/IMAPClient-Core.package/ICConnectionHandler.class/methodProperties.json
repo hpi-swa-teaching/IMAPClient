@@ -19,6 +19,8 @@
 		"expungeEmails" : "sf 6/4/2021 16:29",
 		"fatalErrorOccured" : "sf 6/4/2021 16:11",
 		"fatalErrorOccured:" : "sf 6/4/2021 16:11",
+		"fetchAllFlags" : "hsp 7/22/2022 12:29",
+		"fetchAllHeaders" : "hsp 7/22/2022 12:40",
 		"fetchFlagsForUIDs:to:" : "sf 6/4/2021 16:48",
 		"fetchHeadersForUIDsFrom:to:" : "JST 6/6/2021 16:09",
 		"fetchNextResponse" : "an 6/16/2022 20:29",
