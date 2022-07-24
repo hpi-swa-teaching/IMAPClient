@@ -1,4 +1,6 @@
 toolbuilder
 saveActions
 
-	^ {#notSyncedFolders -> [self saveNotSyncedFolders]} asDictionary
+	^ {
+		ICAccountSettings notSyncedFoldersID -> [self saveNotSyncedFolders].
+		ICAccountSettings foldersPerMoveMenuID -> [self saveFoldersPerMoveMenu]} asDictionary

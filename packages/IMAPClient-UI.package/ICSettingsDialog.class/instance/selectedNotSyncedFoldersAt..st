@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 selectedNotSyncedFoldersAt: anInteger
 
 	self selectedNotSyncedFolders ifNil: [^ false].

@@ -13,7 +13,8 @@
 		"settingsPanelWidget",
 		"selectedNotSyncedFolders",
 		"folders",
-		"folderIndex" ],
+		"folderIndex",
+		"foldersPerMoveMenu" ],
 	"name" : "ICSettingsDialog",
 	"pools" : [
 		 ],

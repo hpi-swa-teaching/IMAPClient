@@ -2,7 +2,7 @@ action - endpoints
 switchToNewEndpoint
 
 	self folders: self getFolderList.
-	self selectedNotSyncedFolders: self selectedEndpoint accountSettings notSyncedFolders.
+	self selectedNotSyncedFolders: self selectedEndpointSettings notSyncedFolders.
 	self selectedSetting: nil.
 	self settingsPanelWidget morph abandon.
 	self

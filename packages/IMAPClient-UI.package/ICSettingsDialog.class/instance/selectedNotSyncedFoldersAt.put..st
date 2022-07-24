@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 selectedNotSyncedFoldersAt: anInteger put: aBoolean
 
 	self selectedNotSyncedFolders: (self selectedNotSyncedFolders

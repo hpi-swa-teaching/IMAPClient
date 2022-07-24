@@ -1,4 +1,6 @@
 accessing
 uiBuilders
 
-	^ {#notSyncedFolders -> [self buildNotSyncedFolders]} asDictionary
+	^ {
+		ICAccountSettings notSyncedFoldersID -> [self buildNotSyncedFolders].
+		ICAccountSettings foldersPerMoveMenuID -> [self buildFoldersPerMoveMenu]} asDictionary
