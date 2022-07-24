@@ -19,7 +19,7 @@
 	"instance" : {
 		"addAccount:" : "an 6/16/2022 20:29",
 		"addAccountInfoToEndpointConfigWithoutPassword:" : "an 6/16/2022 20:29",
-		"addFolder:toMenu:" : "FK 6/27/2022 11:39",
+		"addFolder:toMenu:" : "an 7/22/2022 20:55",
 		"buildAddAccountButton:" : "an 7/10/2022 16:37",
 		"buildEmailList:" : "an 6/16/2022 20:29",
 		"buildEmailOptionPanel:" : "an 6/16/2022 20:29",
@@ -68,8 +68,7 @@
 		"filterString:" : "an 6/16/2022 20:29",
 		"folderDialogMorph" : "hsp 5/31/2022 17:54",
 		"folderDialogMorph:" : "hsp 5/31/2022 17:55",
-		"folderListMenu" : "FK 6/27/2022 11:39",
-		"folderNameOf:" : "an 6/16/2022 20:29",
+		"folderListMenu" : "an 7/22/2022 20:54",
 		"folderTreeMenu:" : "an 6/16/2022 20:29",
 		"folderWith:" : "an 6/16/2022 20:29",
 		"hasMatchInAddressbook:with:" : "an 6/16/2022 20:29",

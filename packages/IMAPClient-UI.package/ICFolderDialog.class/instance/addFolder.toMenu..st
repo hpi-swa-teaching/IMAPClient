@@ -1,4 +1,4 @@
 toolbuilder
 addFolder: aFolder toMenu: aMenu
 
-	aMenu add: (self folderNameOf: aFolder) action: [self moveEmail: aFolder path]
+	aMenu add: aFolder folderName action: [self moveEmail: aFolder path]
