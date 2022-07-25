@@ -1,3 +1,4 @@
 accessing - user interface
 windowExtend
-	^300 @ 130
+
+	^ 250 @ 100

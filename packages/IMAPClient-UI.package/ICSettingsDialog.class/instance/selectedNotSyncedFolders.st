@@ -1,0 +1,4 @@
+action - endpoints
+selectedNotSyncedFolders
+
+	^ selectedNotSyncedFolders

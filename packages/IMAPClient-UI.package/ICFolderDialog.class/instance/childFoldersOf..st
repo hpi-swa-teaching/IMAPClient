@@ -1,4 +1,4 @@
 accessing - folder
-subFoldersOf: folder
+childFoldersOf: folder
 
 	^ folder childFoldersSorted

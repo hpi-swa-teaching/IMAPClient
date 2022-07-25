@@ -1,0 +1,4 @@
+toolbuilder
+selectedNotSyncedFolders: aFolderCollection
+
+	selectedNotSyncedFolders := aFolderCollection

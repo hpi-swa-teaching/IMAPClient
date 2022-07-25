@@ -1,4 +1,4 @@
-action - addressbook
+toolbuilder
 openAddressBook
 
 	ICAddressBookDialog openWith: self emailAccounts

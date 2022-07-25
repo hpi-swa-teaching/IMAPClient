@@ -3,7 +3,7 @@ testMoveMenu
 
 	| rootfolder menu firstItem |
 	rootfolder := ICFolder new.
-	3 * self folderDialog itemsPerMoveMenu timesRepeat: [rootfolder addFolder: ICFolder new].
+	3 * self folderDialog itemsPerMoveMenu timesRepeat: [rootfolder addFolder: (ICFolder new folderName: 'testName')].
 	self folderDialog rootFolder: rootfolder.
 	menu := self folderDialog folderListMenu.
 	self assert: menu items size equals: self folderDialog itemsPerMoveMenu + 1.

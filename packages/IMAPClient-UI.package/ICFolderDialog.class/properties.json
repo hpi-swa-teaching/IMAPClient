@@ -21,7 +21,8 @@
 		"showUnread",
 		"folderDialogMorph",
 		"isAlreadyUpdating",
-		"passwordDialog" ],
+		"passwordDialog",
+		"settingsDialogMorph" ],
 	"name" : "ICFolderDialog",
 	"pools" : [
 		 ],

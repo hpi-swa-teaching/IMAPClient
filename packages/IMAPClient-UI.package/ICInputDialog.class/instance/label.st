@@ -1,4 +1,4 @@
 accessing - user interface
 label
 
-	^'Login Window'
+	^ 'Login Window'

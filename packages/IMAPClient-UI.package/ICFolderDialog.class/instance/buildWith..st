@@ -5,7 +5,7 @@ buildWith: builder
 	window := builder build: (builder pluggableWindowSpec new
 		model: self;
 		label: #dialogTitle;
-		closeAction: #closeConnection;
+		closeAction: #closeFolderDialog;
 		extent: 1200 @ 600;
 		children: {
 			self buildNavigationPanel: builder.

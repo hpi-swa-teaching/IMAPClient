@@ -6,5 +6,5 @@ switchToNewEndpoint
 	self selectedFolder: nil.
 	
 	self
-		changed: #childFolders;
+		changed: #shownTopLevelFolders;
 		changed: #emailOfSelectedFolder

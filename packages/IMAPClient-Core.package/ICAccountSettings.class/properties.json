@@ -1,0 +1,15 @@
+{
+	"category" : "IMAPClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "an 7/24/2022 12:56",
+	"instvars" : [
+		"notSyncedFolders",
+		"foldersPerMoveMenu" ],
+	"name" : "ICAccountSettings",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
