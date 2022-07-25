@@ -8,6 +8,6 @@ folderTreeMenu: aMenu
 	
 	"method that moves all mails to trash and deletes folder has to be build"
 	
-	self selectedFolder isSpecialFolder ifFalse: [aMenu add: 'delete folder' action: #deleteEmailsFromFolder].
+	self selectedFolder isSpecialFolder ifFalse: [aMenu add: 'move mails to trash' action: #deleteEmailsFromFolder].
 	
 	^ aMenu
