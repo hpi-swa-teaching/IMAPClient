@@ -4,7 +4,7 @@ testMoveEmailsOffline
 	| numberOfEmails folder1 folder2 |
 	
 	numberOfEmails := 5.
-	self helper endpoint connectionHandler: ICMockConnectionHandler new.
+
 	folder1 := self helper createAFolder: 'folder1'.
 	folder2 := self helper createAFolder: 'folder2'.
 	
