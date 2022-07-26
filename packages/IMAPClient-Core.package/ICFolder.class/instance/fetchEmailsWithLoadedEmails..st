@@ -5,16 +5,5 @@ fetchEmailsWithLoadedEmails: anICEmailOrderedCollection
 	fetchedEmails := self getFetchedEmails.
 	loadedEmails := anICEmailOrderedCollection.
 	folderEmails := self emails.
-	fetchedEmails
-		do: [:email | 
-			| matchingEmail |
-			matchingEmail := loadedEmails
-						select: [:each | each equalsExceptFolder: email].
-			matchingEmail isEmpty
-				ifFalse: [self assert: matchingEmail size = 1 description: 'Critical Error. Only one email should match'.
-					email id: matchingEmail first id].
-			self endpoint readWriter write: email].
-	folderEmails
-		do: [:email | (fetchedEmails
-					anySatisfy: [:each | each equalsExceptFolder: email])
-				ifFalse: [self endpoint readWriter delete: email]]
+	self save: fetchedEmails inReferenceTo: loadedEmails.
+	self removeOutdated: folderEmails basedOn: fetchedEmails

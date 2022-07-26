@@ -4,13 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "eg 7/29/2021 18:37",
+	"commentStamp" : "",
 	"instvars" : [
-		"email",
-		"helper",
-		"trashFolder" ],
-	"name" : "ICEndPointOfflineTest",
+		 ],
+	"name" : "ICMockConnectionHandler",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "Object",
 	"type" : "normal" }
