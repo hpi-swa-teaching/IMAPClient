@@ -1,6 +1,11 @@
 {
 	"class" : {
-		"getMailObjectWith:in:" : "RJPG 7/8/2022 12:02" },
+		"getMailObjectWith:in:" : "RJPG 7/8/2022 12:02",
+		"validAccountName" : "RJPG 7/26/2022 16:40",
+		"validHost" : "RJPG 7/26/2022 16:40",
+		"validPassword" : "RJPG 7/26/2022 16:40",
+		"validPort" : "RJPG 7/26/2022 16:40",
+		"validUsername" : "RJPG 7/26/2022 16:40" },
 	"instance" : {
 		"createAFolder:" : "RJPG 7/8/2022 11:39",
 		"createAFolder:in:" : "RJPG 7/8/2022 11:39",
@@ -10,6 +15,8 @@
 		"deleteAccountFolder" : "RJPG 7/8/2022 09:13",
 		"endpoint" : "RJPG 7/7/2022 23:33",
 		"endpoint:" : "RJPG 7/7/2022 23:33",
+		"getAccountInfo" : "RJPG 7/26/2022 16:41",
+		"getAccountInfoAsStringRepresentation" : "RJPG 7/26/2022 16:44",
 		"initialize" : "RJPG 7/8/2022 09:20",
 		"reset" : "RJPG 7/8/2022 09:22",
 		"resetCurrentMailID" : "RJPG 7/8/2022 00:06",
