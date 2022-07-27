@@ -1,4 +1,4 @@
 protocol handling - flags
-resetFlag: anEmail and: aFlag
+resetFlag: aFlag of: anEmail
 
 	self connectionHandler resetFlag: aFlag of: anEmail
