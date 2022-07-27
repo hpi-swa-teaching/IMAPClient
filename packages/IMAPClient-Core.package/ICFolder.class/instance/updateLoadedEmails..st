@@ -8,4 +8,4 @@ updateLoadedEmails: anOrderedCollection
 		on: Error
 		do: [:error |
 			self error: error asString.
-	^ false]
+			^ false]

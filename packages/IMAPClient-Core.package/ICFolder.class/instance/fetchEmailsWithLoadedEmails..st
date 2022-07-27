@@ -1,6 +1,6 @@
 action - update emails
-fetchEmailsWithLoadedEmails: anICEmailOrderedCollection 
-	
+fetchEmailsWithLoadedEmails: anICEmailOrderedCollection
+
 	| fetchedEmails folderEmails loadedEmails |
 	fetchedEmails := self getFetchedEmails.
 	loadedEmails := anICEmailOrderedCollection.

@@ -2,5 +2,4 @@ accessing
 lowestUniqueID
 
 	self emails ifEmpty: [^ nil].
-	^ (self emails detectMin: [:mail |
-		mail uniqueID asNumber]) uniqueID
+	^ (self emails detectMin: [:mail | mail uniqueID asNumber]) uniqueID

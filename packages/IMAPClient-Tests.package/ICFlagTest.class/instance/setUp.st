@@ -1,6 +1,6 @@
 running
 setUp
-	
+
 	self helper: ICSetUpTestHelper new.
 	
 	self

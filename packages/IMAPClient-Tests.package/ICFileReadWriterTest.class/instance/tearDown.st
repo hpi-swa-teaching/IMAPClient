@@ -1,4 +1,4 @@
 teardown
 tearDown
 
-	self helper reset.
+	self helper reset

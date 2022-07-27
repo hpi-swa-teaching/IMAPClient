@@ -1,4 +1,4 @@
 fetch
 fetchAllFlags
 
-	self sendCommand: (ICCommand fetchAllFlags)
+	self sendCommand: ICCommand fetchAllFlags

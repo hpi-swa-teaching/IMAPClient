@@ -1,4 +1,4 @@
 constants
 folderInfosFileName
 
-	^'_folderInfos'
+	^ '_folderInfos'

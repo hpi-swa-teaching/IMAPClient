@@ -1,4 +1,4 @@
 mockMethods
 readWriter
 
-	^ readWriter ifNil: [readWriter:= ICMockReadWriter new]
+	^ readWriter ifNil: [readWriter := ICMockReadWriter new]

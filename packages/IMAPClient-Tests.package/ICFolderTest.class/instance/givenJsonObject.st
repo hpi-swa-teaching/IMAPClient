@@ -1,4 +1,4 @@
 folderIO
 givenJsonObject
 
-	^ JsonObject newFrom: {'type' -> 'Inbox' . 'id'->self folderIOId}
+	^ JsonObject newFrom: {'type' -> 'Inbox'. 'id' -> self folderIOId}

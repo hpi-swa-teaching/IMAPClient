@@ -14,5 +14,5 @@ givenJsonObject
 			'to' -> #('receiver1' 'receiver2')}).
 		'body' -> 'body text'.
 		'messageID' -> '1'.
-		'id'-> self writeID.
+		'id' -> self writeID.
 		'uid' -> '1'}

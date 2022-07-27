@@ -13,6 +13,6 @@ expectedMailObjectIn: anICFolder
 		contentTransferEncoding: 'quoted-printable';
 		to: {'receiver1'. 'receiver2'};
 		date: 'Fri, 10 Jun 2016 12:51:42 +0200';
-		id:self writeID;
+		id: self writeID;
 		uniqueID: '1';
 		messageID: '1'

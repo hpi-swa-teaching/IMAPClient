@@ -1,9 +1,7 @@
 addFolder
 testAddFolder
 
-	
 	| subFolder |
-	
 	subFolder := ICFolder named: 'subfolder' in: self root with: self helper endpoint of: #Generic.
 	self assert: self root childFolders size equals: 1.
 	self assert: self root countFolders equals: 1.

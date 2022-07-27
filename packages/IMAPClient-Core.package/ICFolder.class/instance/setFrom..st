@@ -1,6 +1,6 @@
 accessing
 setFrom: aJson
 
-	self 
+	self
 		id: (aJson at: 'id');
 		folderType: (aJson at: 'type' ifAbsent: ['Generic']) asSymbol

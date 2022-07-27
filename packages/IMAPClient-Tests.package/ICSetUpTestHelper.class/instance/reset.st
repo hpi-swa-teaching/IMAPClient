@@ -2,5 +2,4 @@ running
 reset
 
 	self resetCurrentMailID.
-	self deleteAccountFolder.
-	 
+	self deleteAccountFolder

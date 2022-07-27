@@ -1,4 +1,4 @@
 fetch
 fetchAllHeaders
 
-	self sendCommand: (ICCommand fetchAllHeaders)
+	self sendCommand: ICCommand fetchAllHeaders

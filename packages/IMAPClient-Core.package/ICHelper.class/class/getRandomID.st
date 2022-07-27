@@ -1,4 +1,4 @@
 id-creation
-getRandomID 
+getRandomID
 
 	^ self getRandomIDOfLength: 12
