@@ -1,4 +1,4 @@
 mockMethods
 isConnected
 
-	^ false
+	^ true

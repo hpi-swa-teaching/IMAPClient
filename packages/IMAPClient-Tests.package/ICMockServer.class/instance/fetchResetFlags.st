@@ -1,6 +1,4 @@
 flag
 fetchResetFlags
 
-	^ self acceptedFlags
-		collect: [:aFlag | (ICCommand resetFlag: aFlag for: '47') -> (self fetchFlag: aFlag from: 48 asOrderedCollection)]
-		as: Dictionary
+	^ (self fetchResetFlags: 48 with: 47), (self fetchResetFlags: 3 with: 3), (self fetchResetFlags: 4 with: 4)

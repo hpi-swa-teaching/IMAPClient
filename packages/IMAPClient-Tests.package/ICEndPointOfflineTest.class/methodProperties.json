@@ -1,6 +1,8 @@
 {
 	"class" : {
-		"mailIn:" : "an 6/16/2022 20:29" },
+		"bodyForValidMockServerResponse" : "RJPG 7/28/2022 17:21",
+		"messageIDForValidMockServerResponse" : "RJPG 7/28/2022 17:06",
+		"uniqueIDForValidMockServerResponse" : "RJPG 7/28/2022 17:06" },
 	"instance" : {
 		"connectionHandler" : "RJPG 7/12/2022 16:26",
 		"email" : "an 6/16/2022 20:29",
@@ -10,10 +12,10 @@
 		"helper:" : "RJPG 7/8/2022 12:11",
 		"setUp" : "RJPG 7/27/2022 18:25",
 		"setUpConnectionHandler" : "RJPG 7/27/2022 18:25",
-		"setUpFolder" : "RJPG 7/27/2022 18:25",
+		"setUpFolder" : "RJPG 7/28/2022 17:21",
 		"tearDown" : "RJPG 7/27/2022 18:25",
 		"testDeleteEmailOffline" : "RJPG 7/27/2022 18:25",
-		"testDeleteEmailOnline" : "RJPG 7/27/2022 18:25",
+		"testDeleteEmailOnline" : "RJPG 7/28/2022 17:23",
 		"testExpungeEmailOffline" : "RJPG 7/12/2022 16:29",
 		"testExpungeEmailOnline" : "RJPG 7/26/2022 17:21",
 		"testMoveEmailOffline" : "RJPG 7/26/2022 17:21",

@@ -3,7 +3,7 @@
 		"newFromJsonStream:" : "an 6/16/2022 20:29",
 		"senderAddressDelimeters" : "an 6/16/2022 20:29" },
 	"instance" : {
-		"=" : "RJPG 7/27/2022 18:25",
+		"=" : "RJPG 7/28/2022 17:17",
 		"asString" : "AR 7/28/2016 14:06",
 		"body" : "an 6/16/2022 20:29",
 		"body:" : "pm 6/9/2019 16:34",
@@ -21,7 +21,7 @@
 		"deleted" : "DH 7/19/2018 21:58",
 		"deleted:" : "an 6/16/2022 20:29",
 		"deserializeFrom:" : "RJPG 7/27/2022 18:25",
-		"equalsExceptFolder:" : "RJPG 7/27/2022 18:25",
+		"equalsExceptFolderAndHeader:" : "RJPG 7/28/2022 17:19",
 		"flagged" : "C.G. 7/25/2018 13:47",
 		"flagged:" : "C.G. 7/25/2018 13:47",
 		"folder" : "ms 7/10/2016 13:31",

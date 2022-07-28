@@ -1,0 +1,4 @@
+constants
+messageIDForValidMockServerResponse
+
+	^ '3'
