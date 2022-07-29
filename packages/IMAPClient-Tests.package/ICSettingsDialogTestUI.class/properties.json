@@ -1,0 +1,14 @@
+{
+	"category" : "IMAPClient-Tests-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"settingsDialog" ],
+	"name" : "ICSettingsDialogTestUI",
+	"pools" : [
+		 ],
+	"super" : "ICMTFWindowNavigation",
+	"type" : "normal" }

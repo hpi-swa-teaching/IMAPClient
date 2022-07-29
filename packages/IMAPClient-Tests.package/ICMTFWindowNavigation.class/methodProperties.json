@@ -4,7 +4,7 @@
 	"instance" : {
 		"existsMorphWithContentWith:in:" : "an 6/16/2022 20:29",
 		"findBySubstringInContents:in:" : "an 6/16/2022 20:29",
-		"getOpenedWindowWithClickOn:" : "an 6/16/2022 20:29",
+		"getOpenedWindowWithClickOn:" : "an 7/29/2022 11:21",
 		"navigateFrom:toNamedMorph:" : "an 6/16/2022 20:29",
 		"navigateFromAddressBookToAddContact:" : "an 6/16/2022 20:29",
 		"navigateFromFolderDialogToAddressBook:" : "an 6/16/2022 20:29",
