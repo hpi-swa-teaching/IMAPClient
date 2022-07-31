@@ -8,7 +8,11 @@
 		"folder:" : "sf 6/26/2021 15:50",
 		"helper" : "RJPG 7/27/2022 18:25",
 		"helper:" : "RJPG 7/9/2022 16:27",
-		"setUp" : "RJPG 7/27/2022 18:25",
+		"serverRespondsEmailsSeen" : "Hannes Spitz4 7/31/2022 17:37",
+		"serverRespondsEmailsUnflagged" : "Hannes Spitz4 7/31/2022 17:37",
+		"setUp" : "Hannes Spitz4 7/31/2022 17:37",
 		"tearDown" : "RJPG 7/9/2022 16:29",
-		"testSwitchFlagForTo" : "sf 6/26/2021 16:02",
-		"testToggleFlagFor" : "an 6/16/2022 20:29" } }
+		"testSwitchFlagOffline" : "Hannes Spitz4 7/31/2022 17:14",
+		"testSwitchedFlagOnline" : "Hannes Spitz4 7/31/2022 17:35",
+		"testSwitchedSeenOnline" : "Hannes Spitz4 7/31/2022 17:36",
+		"testToggleFlagOffline" : "Hannes Spitz4 7/31/2022 17:14" } }
