@@ -1,4 +1,4 @@
 accessing
-foldersPerMoveMenu: aNumber
+foldersPerMoveMenu: aText
 
-	foldersPerMoveMenu := aNumber
+	foldersPerMoveMenu := aText

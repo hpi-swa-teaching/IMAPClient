@@ -9,7 +9,6 @@ buildFoldersPerMoveMenu
 		name: self class nameFoldersPerMoveMenuMorph;
 		askBeforeDiscardingEdits: false;
 		indicateUnacceptedChanges: false;
-		getText: #foldersPerMoveMenu;
 		setText: #foldersPerMoveMenu:;
 		editText: #foldersPerMoveMenu:;
 		help: #helpText).

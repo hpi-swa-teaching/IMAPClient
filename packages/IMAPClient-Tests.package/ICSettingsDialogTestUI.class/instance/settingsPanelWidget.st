@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 settingsPanelWidget
 	
 	^ self settingsDialog model settingsPanelWidget

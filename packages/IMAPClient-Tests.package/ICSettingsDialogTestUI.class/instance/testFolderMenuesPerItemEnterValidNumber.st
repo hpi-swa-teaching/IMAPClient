@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testFolderMenuesPerItemEnterValidNumber
 	
 	| inputField saveButton testNumber |
@@ -11,8 +11,6 @@ testFolderMenuesPerItemEnterValidNumber
 	
 	saveButton := self subject findByName: ICSettingsDialog nameSaveButton.
 	inputField := self subject findByName: ICSettingsDialog nameFoldersPerMoveMenuMorph.
-	
-	self halt.
 	
 	self assert: self settingsDialog model foldersPerMoveMenu equals: ICAccountSettings defaultFoldersPerMoveMenu.
 	
