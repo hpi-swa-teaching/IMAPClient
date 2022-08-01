@@ -7,6 +7,7 @@ setUpFolder
 	self helper writeFolderOnDisk: self trashFolder.
 	folder := self helper createAFolder: 'test'.
 	self email: (self helper createAnEmail: folder).
-	self email uniqueID: self class uniqueIDForValidMockServerResponse;
-				messageID: self class messageIDForValidMockServerResponse;
-				body: self class bodyForValidMockServerResponse
+	self email
+		uniqueID: self class uniqueIDForValidMockServerResponse;
+		messageID: self class messageIDForValidMockServerResponse;
+		body: self class bodyForValidMockServerResponse
