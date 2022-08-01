@@ -1,4 +1,5 @@
 as yet unclassified
 new
 
-	^ super newMock
+	^ self basicNew initialize
+	

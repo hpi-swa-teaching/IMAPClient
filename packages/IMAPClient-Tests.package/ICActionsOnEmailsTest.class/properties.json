@@ -9,7 +9,7 @@
 		"email",
 		"helper",
 		"trashFolder" ],
-	"name" : "ICEndPointOfflineTest",
+	"name" : "ICActionsOnEmailsTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
