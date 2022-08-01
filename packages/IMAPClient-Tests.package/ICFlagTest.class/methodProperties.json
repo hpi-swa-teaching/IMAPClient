@@ -13,6 +13,8 @@
 		"setUp" : "Hannes Spitz4 7/31/2022 17:37",
 		"tearDown" : "RJPG 7/9/2022 16:29",
 		"testSwitchFlagOffline" : "Hannes Spitz4 7/31/2022 17:14",
-		"testSwitchedFlagOnline" : "Hannes Spitz4 7/31/2022 17:35",
-		"testSwitchedSeenOnline" : "Hannes Spitz4 7/31/2022 17:36",
-		"testToggleFlagOffline" : "Hannes Spitz4 7/31/2022 17:14" } }
+		"testSwitchFlagOnline" : "Hannes Spitz4 8/1/2022 16:36",
+		"testSwitchedFlagOnServer" : "Hannes Spitz4 8/1/2022 16:35",
+		"testSwitchedSeenOnServer" : "Hannes Spitz4 8/1/2022 16:35",
+		"testToggleFlagOffline" : "Hannes Spitz4 7/31/2022 17:14",
+		"testToggleFlagOnline" : "Hannes Spitz4 8/1/2022 16:37" } }

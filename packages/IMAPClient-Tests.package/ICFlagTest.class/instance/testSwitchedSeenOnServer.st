@@ -1,5 +1,5 @@
 tests
-testSwitchedSeenOnline
+testSwitchedSeenOnServer
 
 	self emails first seen: true.
 	self emails second seen: false.

@@ -1,5 +1,5 @@
 tests
-testSwitchedFlagOnline
+testSwitchedFlagOnServer
 
 	self emails first flagged: true.
 	self emails second flagged: false.
