@@ -6,7 +6,7 @@ testSettingsUpdated
 	self settingsDialog model selectedEndpoint: self emailAccounts first.
 	settingsPanel := self subject findByName: ICSettingsDialog nameSettingsPanel.
 	
-	"the settingsPanel is shown empty (as it should be) but for some reason there is a 'Morph new' hidden in there. So we check if that default morph is in there to test if no setting is shown"
+	"the settingsPanel is shown empty (as it should be) but for some reason there is a 'Morph new' hidden in there. So we check if that default morph is in there to test if no setting is being shown"
 	self assert: settingsPanel morph bounds equals: (Morph new bounds).
 	self assert: settingsPanel morph color equals: (Morph new color).
 	

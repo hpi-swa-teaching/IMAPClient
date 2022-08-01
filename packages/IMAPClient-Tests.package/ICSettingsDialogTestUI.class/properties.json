@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"settingsDialog" ],
+		"settingsDialog",
+		"saveButton",
+		"inputField" ],
 	"name" : "ICSettingsDialogTestUI",
 	"pools" : [
 		 ],

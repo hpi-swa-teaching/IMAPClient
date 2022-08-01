@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"invalidNumberWarningText" : "an 8/1/2022 23:11",
 		"nameFoldersPerMoveMenuMorph" : "an 7/31/2022 15:22",
 		"nameNotSyncedFoldersMorph" : "an 7/31/2022 15:22",
 		"nameSaveButton" : "an 7/31/2022 15:31",
@@ -31,7 +32,7 @@
 		"labelForAccount:" : "an 7/10/2022 16:55",
 		"labelForSetting:" : "an 7/11/2022 16:47",
 		"saveActions" : "an 7/24/2022 14:05",
-		"saveFoldersPerMoveMenu" : "an 8/1/2022 22:42",
+		"saveFoldersPerMoveMenu" : "an 8/1/2022 23:11",
 		"saveNotSyncedFolders" : "an 7/24/2022 14:06",
 		"saveSetting" : "FK 7/17/2022 17:03",
 		"selectedEndpoint" : "an 7/11/2022 16:29",
