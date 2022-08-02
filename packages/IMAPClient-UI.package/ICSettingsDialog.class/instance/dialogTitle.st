@@ -1,4 +1,4 @@
 accessing
 dialogTitle
 
-	^ 'Settings'
+	^ 'Settings | reopen client or sync for changes to apply'
