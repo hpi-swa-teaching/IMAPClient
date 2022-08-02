@@ -2,6 +2,7 @@ constants
 expectedMailObject
 
 	^ ICEmail new
+		id: '7gP0b5O2hfUb';
 		body: 'body text';
 		subject: 'subject text';
 		from: 'sender';

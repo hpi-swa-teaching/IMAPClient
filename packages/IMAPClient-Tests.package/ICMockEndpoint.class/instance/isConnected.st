@@ -1,4 +1,0 @@
-mockMethods
-isConnected
-
-	^ true

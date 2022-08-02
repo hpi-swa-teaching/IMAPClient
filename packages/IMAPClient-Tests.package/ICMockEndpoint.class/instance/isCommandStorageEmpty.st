@@ -1,4 +1,0 @@
-mockMethods
-isCommandStorageEmpty
-
-	^ true

@@ -1,4 +1,0 @@
-UIDs
-writeUID
-
-	^ '2'

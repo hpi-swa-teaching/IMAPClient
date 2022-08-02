@@ -14,4 +14,5 @@ givenJsonObject
 			'to' -> #('receiver1' 'receiver2')}).
 		'body' -> 'body text'.
 		'messageID' -> nil.
+		'id' -> '7gP0b5O2hfUb'.
 		'uid' -> 0}
