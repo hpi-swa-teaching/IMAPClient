@@ -1,5 +1,4 @@
 accessing
 addressBook
 
-	addressBook ifNil: [addressBook := ICAddressBook new].
-	^ addressBook
+	^ addressBook ifNil: [addressBook := ICAddressBook new].

@@ -1,5 +1,5 @@
 accessing
 reverseMails
 
-	reverseMails ifNil: [reverseMails := false].
-	^ reverseMails
+	^ reverseMails ifNil: [reverseMails := false].
+	
