@@ -1,4 +1,0 @@
-accessing
-testSetUp
-
-	self halt
