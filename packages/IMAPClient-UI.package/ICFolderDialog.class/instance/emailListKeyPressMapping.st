@@ -1,4 +1,4 @@
 keyboard handling
 emailListKeyPressMapping
 
-	^ {$o -> [self selectedEmail ifNotNil: [self openEmail: self selectedEmail]]} asDictionary
+	^ Dictionary newFrom: {$o -> [self selectedEmail ifNotNil: [self openEmail: self selectedEmail]]}

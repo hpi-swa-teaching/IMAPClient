@@ -1,14 +1,15 @@
 {
 	"class" : {
-		"displayNames" : "an 7/24/2022 14:09",
+		"defaultFoldersPerMoveMenu" : "an 7/31/2022 16:06",
+		"displayNames" : "FK 8/2/2022 14:16",
 		"foldersPerMoveMenuID" : "an 7/24/2022 12:44",
-		"newFrom:" : "an 7/24/2022 12:55",
+		"newFrom:" : "an 7/31/2022 15:35",
 		"notSyncedFoldersID" : "an 7/21/2022 15:51",
 		"settingNames" : "an 7/11/2022 16:52",
 		"settingsFileName" : "an 7/8/2022 11:34" },
 	"instance" : {
-		"foldersPerMoveMenu" : "an 7/24/2022 12:48",
-		"foldersPerMoveMenu:" : "an 7/24/2022 12:48",
+		"foldersPerMoveMenu" : "an 8/1/2022 22:41",
+		"foldersPerMoveMenu:" : "an 8/1/2022 22:40",
 		"notSyncedFolders" : "an 7/21/2022 15:51",
 		"notSyncedFolders:" : "an 7/21/2022 16:15",
 		"serializeToJson" : "an 7/24/2022 14:10" } }

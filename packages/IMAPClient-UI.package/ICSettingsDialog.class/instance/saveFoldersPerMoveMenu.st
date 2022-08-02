@@ -7,9 +7,10 @@ saveFoldersPerMoveMenu
 		parsedNumber < 1 ifTrue: [NumberParserError signal]]
 		on: NumberParserError
 		do: [
-			UIManager inform: 'please enter a positive Integer'.
+			"UIManager inform: self class invalidNumberWarningText."
+			self buildInfoWindowContaining: #invalidInputText.
 			^ self].
 	
 	self foldersPerMoveMenu: parsedNumber asString.
-	self selectedEndpointSettings foldersPerMoveMenu: parsedNumber.
+	self selectedEndpointSettings foldersPerMoveMenu: parsedNumber asString.
 	self changed: #foldersPerMoveMenu
