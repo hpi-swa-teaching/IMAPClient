@@ -6,9 +6,9 @@ buildFoldersPerMoveMenu
 	
 	morph := builder build: (builder pluggableInputFieldSpec new
 		model: self;
+		name: self class nameFoldersPerMoveMenuMorph;
 		askBeforeDiscardingEdits: false;
 		indicateUnacceptedChanges: false;
-		getText: #foldersPerMoveMenu;
 		setText: #foldersPerMoveMenu:;
 		editText: #foldersPerMoveMenu:;
 		help: #helpText).

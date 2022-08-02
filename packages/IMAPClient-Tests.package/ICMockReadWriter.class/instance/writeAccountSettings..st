@@ -1,0 +1,3 @@
+mockMethods
+writeAccountSettings: aJsonString
+

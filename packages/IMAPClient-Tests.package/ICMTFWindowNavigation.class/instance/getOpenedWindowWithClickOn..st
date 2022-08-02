@@ -1,13 +1,13 @@
 helper
 getOpenedWindowWithClickOn: aButtonMorph
 
-	| addressBookWindow addressBookWindowCandidates currentWorld morphsInWorld wrappedAddressBookWindow |
+	| openedWindow openedWindowCandidates currentWorld morphsInWorld wrappedOpenedWindow |
 	currentWorld := self subject world.
 	morphsInWorld := currentWorld submorphs.
 	aButtonMorph click.
-	addressBookWindowCandidates := currentWorld submorphs difference: morphsInWorld.
-	self assert: 1 equals: addressBookWindowCandidates size.
-	addressBookWindow := addressBookWindowCandidates first.
-	wrappedAddressBookWindow := self wrapMTFMorphAround: addressBookWindow.
-	self openedWindows add: wrappedAddressBookWindow.
-	^ wrappedAddressBookWindow
+	openedWindowCandidates := currentWorld submorphs difference: morphsInWorld.
+	self assert: 1 equals: openedWindowCandidates size.
+	openedWindow := openedWindowCandidates first.
+	wrappedOpenedWindow := self wrapMTFMorphAround: openedWindow.
+	self openedWindows add: wrappedOpenedWindow.
+	^ wrappedOpenedWindow

@@ -1,6 +1,6 @@
 toolbuilder
 saveActions
 
-	^ {
+	^ Dictionary newFrom: {
 		ICAccountSettings notSyncedFoldersID -> [self saveNotSyncedFolders].
-		ICAccountSettings foldersPerMoveMenuID -> [self saveFoldersPerMoveMenu]} asDictionary
+		ICAccountSettings foldersPerMoveMenuID -> [self saveFoldersPerMoveMenu]}

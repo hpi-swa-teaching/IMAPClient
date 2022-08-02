@@ -4,6 +4,7 @@ buildNotSyncedFolders
 	| morph builder |
 	builder := ToolBuilder default.
 	morph := builder build: (builder pluggableMultiSelectionListSpec new
+		name: self class nameNotSyncedFoldersMorph;
 		list: #getFolderList;
 		autoDeselect: false;
 		vScrollBarPolicy: #whenNeeded;
