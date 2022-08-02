@@ -1,10 +1,8 @@
 testing
-testChangedEmailsOnServer
+testKeepReferenceForSameEmailsAfterSync
 
-	| mail |
 	self connectionHandler stream: ICMockSocketStream new.
-	mail := self helper createAnEmail: self testFolder.
 	
 	self testFolder startUpdateWithLoadedEmails: self helper endpoint collectAllEmails.
 	
-	self deny: mail = self testFolder emails first
+	self assert: (self testFolder emails contains:[:anICEmail| self email == anICEmail]).

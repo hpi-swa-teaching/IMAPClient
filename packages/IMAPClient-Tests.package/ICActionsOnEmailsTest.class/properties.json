@@ -8,7 +8,8 @@
 	"instvars" : [
 		"email",
 		"helper",
-		"trashFolder" ],
+		"trashFolder",
+		"testFolder" ],
 	"name" : "ICActionsOnEmailsTest",
 	"pools" : [
 		 ],
