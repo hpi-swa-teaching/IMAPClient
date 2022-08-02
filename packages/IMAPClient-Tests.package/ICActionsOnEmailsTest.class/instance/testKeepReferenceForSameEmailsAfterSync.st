@@ -5,4 +5,4 @@ testKeepReferenceForSameEmailsAfterSync
 	
 	self testFolder startUpdateWithLoadedEmails: self helper endpoint collectAllEmails.
 	
-	self assert: (self testFolder emails contains:[:anICEmail| self email == anICEmail]).
+	self assert: (self testFolder emails contains: [:anICEmail | self email == anICEmail])

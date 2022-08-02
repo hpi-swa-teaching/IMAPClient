@@ -1,5 +1,4 @@
 accessing
 sortMethod
 
-	^ sortMethod ifNil: [sortMethod := #date].
-	
+	^ sortMethod ifNil: [sortMethod := #date]

@@ -1,5 +1,5 @@
 instance creation
 new
-	"we don't want Singleton here"
+	"we don't want the Singleton here"
 
-	^ super basicNew initialize: 5 
+	^ super basicNew initialize: 5

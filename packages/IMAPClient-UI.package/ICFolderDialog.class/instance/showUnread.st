@@ -1,4 +1,4 @@
 accessing
 showUnread
 
-	^ showUnread ifNil: [showUnread := false].
+	^ showUnread ifNil: [showUnread := false]
