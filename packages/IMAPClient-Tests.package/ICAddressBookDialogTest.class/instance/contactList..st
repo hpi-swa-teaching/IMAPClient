@@ -1,4 +1,4 @@
 accessing
-contactList: anObject
+contactList: aContactList
 
-	contactList := anObject
+	contactList := aContactList

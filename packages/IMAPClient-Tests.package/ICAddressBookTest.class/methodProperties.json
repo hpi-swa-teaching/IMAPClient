@@ -13,6 +13,6 @@
 		"testAddEntryDuplicated" : "EG 5/27/2021 09:48",
 		"testDeleteEntry" : "EG 5/22/2021 14:45",
 		"testDeleteNonExistentEntryRaisesError" : "EG 5/29/2021 23:23",
-		"testFeedWithEntries" : "an 6/16/2022 20:29",
+		"testFeedWithEntries" : "JS 8/2/2022 19:23",
 		"testFindEntry" : "an 6/16/2022 20:29",
 		"testFindNonExistentEntryRaisesError" : "EG 5/29/2021 23:24" } }
