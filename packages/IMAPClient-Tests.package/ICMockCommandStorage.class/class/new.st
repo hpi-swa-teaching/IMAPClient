@@ -1,5 +1,5 @@
 as yet unclassified
 new
 
-	^ self basicNew initialize
+	^ super basicNew initialize:5
 	
