@@ -1,5 +1,5 @@
-as yet unclassified
+instance creation
 new
+	"we don't want Singleton here"
 
-	^ super basicNew initialize:5
-	
+	^ super basicNew initialize: 5 
