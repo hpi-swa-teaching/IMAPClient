@@ -11,7 +11,7 @@ setUp
 	self addressBook removeAll.
 	self addressBook addAll: self contactList.
 	
-	endpoint := ICMockEndpoint new rootFolder: ICFolder new.
+	endpoint := ICMockEndPoint new rootFolder: ICFolder new.
 	self emailAccounts: endpoint asOrderedCollection.
 	
 	self addressBookDialog: (ICAddressBookDialog openWith: self emailAccounts).
