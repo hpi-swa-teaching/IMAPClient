@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"mailIn:" : "an 6/16/2022 20:29" },
+	"instance" : {
+		"connectionHandler" : "eg 7/29/2021 18:05",
+		"email" : "an 6/16/2022 20:29",
+		"email:" : "an 6/16/2022 20:29",
+		"endPoint" : "an 6/16/2022 20:29",
+		"endPoint:" : "an 6/16/2022 20:29",
+		"folder" : "eg 7/29/2021 18:05",
+		"setUp" : "an 6/16/2022 20:29",
+		"tearDown" : "an 6/16/2022 20:29",
+		"testDeleteEmailOffline" : "an 6/16/2022 20:29",
+		"testDeleteEmailOnline" : "an 6/16/2022 20:29",
+		"testExpungeEmailOffline" : "an 6/16/2022 20:29",
+		"testExpungeEmailOnline" : "an 6/16/2022 20:29",
+		"testMoveEmailOffline" : "an 6/16/2022 20:29",
+		"testSwitchFlagOffline" : "an 6/16/2022 20:29",
+		"testSwitchFlagOnline" : "eg 7/29/2021 18:08",
+		"trashFolder" : "FK 6/2/2022 13:29",
+		"trashFolderName" : "eg 7/29/2021 18:31" } }

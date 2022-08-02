@@ -1,4 +1,0 @@
-accessing
-trashFolder
-
-	^ trashFolder

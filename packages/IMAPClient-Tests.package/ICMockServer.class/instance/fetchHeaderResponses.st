@@ -3,7 +3,6 @@ fetchHeaderResponses
 
 	^ Dictionary newFrom: {
 		(ICCommand fetchHeadersForUIDsFrom: 3 to: 4) -> self fetchHeadersWithRangeResponse.
-		ICCommand fetchAllHeaders -> self fetchHeadersWithRangeResponse.
 		'. FETCH 3:4 BODY.PEEK[HEADER.FIELDS (from to subject date)])' -> self fetchHeadersWithRangeResponse.
 		'. FETCH 3:* (body[HEADER.FIELDS (from to subject date)])' -> self fetchHeadersWithRangeResponse.
 		'. FETCH 42 (body[HEADER.FIELDS (from to subject date)])' -> self fetchHeaderResponse.

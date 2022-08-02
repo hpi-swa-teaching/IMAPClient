@@ -7,11 +7,10 @@ updateProcess
 		self emailAccounts do: [:anICEndpoint |
 			successful := successful and: [
 				anICEndpoint rootFolder
-					startUpdateWithLoadedEmails: anICEndpoint collectAllEmails
-					showProgress: true
-					with: [self progressCallback]
+					updateAndShowProgressWith: [self progressCallback]
 					except: anICEndpoint accountSettings notSyncedFolders]]]
 		on: ConnectionClosed
 		do: [:error | self inform: error asString].
+	
 	successful ifTrue: [self updateSynchTime].
 	self triggerEmailChanges

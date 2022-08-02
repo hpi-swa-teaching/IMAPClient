@@ -1,6 +1,6 @@
 action - emails
-moveEmail: aFolderName
+moveEmail: aFolder
 
-	self selectedEndpoint moveEmail: self selectedEmail to: aFolderName.
+	self selectedEndpoint moveEmail: self selectedEmail to: aFolder.
 	self selectedEmail: nil.
 	self triggerEmailChanges

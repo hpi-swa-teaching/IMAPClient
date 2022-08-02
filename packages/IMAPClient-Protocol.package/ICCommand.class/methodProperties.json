@@ -3,8 +3,6 @@
 		"allUIDs" : "pm 7/23/2019 14:18",
 		"deleteEmail:" : "an 6/16/2022 20:29",
 		"expungeEmails" : "NH 8/2/2020 11:35",
-		"fetchAllFlags" : "hsp 7/22/2022 12:29",
-		"fetchAllHeaders" : "hsp 7/22/2022 12:40",
 		"fetchBody:" : "an 6/16/2022 20:29",
 		"fetchFlagsForUIDsFrom:to:" : "an 6/16/2022 20:29",
 		"fetchHeadersForUIDsFrom:to:" : "an 6/16/2022 20:29",

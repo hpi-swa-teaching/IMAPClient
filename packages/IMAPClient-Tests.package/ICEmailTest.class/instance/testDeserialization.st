@@ -1,6 +1,7 @@
 accessing
 testDeserialization
 
-	| mail |
-	mail := ICEmail new deserializeFrom: self class givenJsonObject.
-	self assert: mail equals: self class expectedMailObject
+	| stream |
+	stream := ReadWriteStream on: String new.
+	self class givenJsonObject jsonWriteOn: stream.
+	self assert: (ICEmail newFromJsonStream: stream) equals: self class expectedMailObject

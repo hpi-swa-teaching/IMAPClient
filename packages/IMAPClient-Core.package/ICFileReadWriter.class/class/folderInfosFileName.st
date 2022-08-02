@@ -1,4 +1,0 @@
-constants
-folderInfosFileName
-
-	^ '_folderInfos'

@@ -1,4 +1,4 @@
 running
 tearDown
 
-	self endpoint close
+	self endPoint close

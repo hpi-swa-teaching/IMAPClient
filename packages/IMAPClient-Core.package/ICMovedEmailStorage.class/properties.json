@@ -1,0 +1,14 @@
+{
+	"category" : "IMAPClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Instance" ],
+	"commentStamp" : "JST 7/4/2021 00:32",
+	"instvars" : [
+		 ],
+	"name" : "ICMovedEmailStorage",
+	"pools" : [
+		 ],
+	"super" : "Dictionary",
+	"type" : "normal" }

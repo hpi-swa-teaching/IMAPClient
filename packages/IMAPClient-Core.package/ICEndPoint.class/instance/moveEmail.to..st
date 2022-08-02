@@ -2,15 +2,13 @@ protocol handling - move
 moveEmail: anEmail to: aTargetFolderName
 
 	| targetFolder |
-	targetFolder := self getFolderFor: aTargetFolderName.
-	anEmail folder = targetFolder
+	anEmail folder folderName = aTargetFolderName
 		ifFalse: [
-			self connectionHandler select: anEmail folder path.
-			self connectionHandler moveEmail: anEmail messageID to: aTargetFolderName.
-			self readWriter moveEmail: anEmail to: targetFolder.
+			targetFolder := self getFolderFor: aTargetFolderName.
+			self prepareMoveEmail: anEmail.
+			self addMail: anEmail to: targetFolder.
 			self resetDeletedFlagWhenRecovering: anEmail.
 			
-			"this is important for ensuring the synchronicity with the server but it can take a while"
-			anEmail folder startUpdateWithLoadedEmails: self collectAllEmails.
-			targetFolder startUpdateWithLoadedEmails: self collectAllEmails]
+			self connectionHandler moveEmail: anEmail messageID to: aTargetFolderName.
+			targetFolder update]
 		ifTrue: [self inform: 'The Email is already in the specified folder']

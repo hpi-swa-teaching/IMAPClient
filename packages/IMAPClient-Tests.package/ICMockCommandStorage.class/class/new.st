@@ -1,5 +1,4 @@
-instance creation
+as yet unclassified
 new
-	"we don't want the Singleton here"
 
-	^ super basicNew initialize: 5
+	^ super new copy removeAll

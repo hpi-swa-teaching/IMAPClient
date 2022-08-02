@@ -1,5 +1,12 @@
 write file
 write: anICEmail
 
-	self assert: [anICEmail folder notNil].
-	self write: anICEmail in: anICEmail folder
+	(FileDirectory default / self endpoint maildirFileName) assureExistence.
+	
+	FileStream
+		forceNewFileNamed: self endpoint maildirFileName, FileDirectory slash, anICEmail uniqueID
+		do: [:stream |
+			stream
+				nextPutAll: anICEmail serializeToJson;
+				flush;
+				close]

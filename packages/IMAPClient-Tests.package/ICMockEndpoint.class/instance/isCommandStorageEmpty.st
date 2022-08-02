@@ -1,0 +1,4 @@
+mockMethods
+isCommandStorageEmpty
+
+	^ true
