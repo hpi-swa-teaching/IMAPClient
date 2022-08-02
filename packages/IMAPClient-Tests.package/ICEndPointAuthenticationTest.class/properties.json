@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "eg 7/29/2021 18:58",
 	"instvars" : [
-		"endPoint" ],
+		"endpoint" ],
 	"name" : "ICEndPointAuthenticationTest",
 	"pools" : [
 		 ],

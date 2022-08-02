@@ -5,4 +5,4 @@ setUp
 	self helper endpoint: ICEndPoint new.
 	self setUpFolders.
 	self setUpConnectionHandler.
-	self endPoint: self helper endpoint
+	self endpoint: self helper endpoint

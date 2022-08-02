@@ -3,8 +3,8 @@ testConnectToOnWithWrongHost
 
 	self
 		should: [
-			self endPoint connectionHandler
+			self endpoint connectionHandler
 				accountInfo: self class invalidHostAccountInfo;
 				connectWith: ICMockSocketStream]
 		raise: Error.
-	self assert: self endPoint connectionHandler fatalErrorOccured equals: true
+	self assert: self endpoint connectionHandler fatalErrorOccured equals: true

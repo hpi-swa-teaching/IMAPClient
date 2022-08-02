@@ -12,11 +12,11 @@
 		"validPort" : "tg 7/10/2019 19:43",
 		"validUsername" : "tg 4/30/2019 12:22" },
 	"instance" : {
-		"endPoint" : "AR 5/31/2016 21:33",
-		"endPoint:" : "pm 6/9/2019 17:16",
-		"setUp" : "eg 7/29/2021 18:53",
-		"tearDown" : "an 6/16/2022 20:29",
-		"testErasePassword" : "an 6/16/2022 20:29",
-		"testLogin" : "an 6/16/2022 20:29",
-		"testLoginWithInvalidPassword" : "eg 7/29/2021 18:59",
-		"testLoginWithInvalidUsername" : "eg 7/28/2021 16:59" } }
+		"endpoint" : "Hannes Spitz4 8/2/2022 18:08",
+		"endpoint:" : "Hannes Spitz4 8/2/2022 18:06",
+		"setUp" : "Hannes Spitz4 8/2/2022 18:16",
+		"tearDown" : "Hannes Spitz4 8/2/2022 18:16",
+		"testErasePassword" : "Hannes Spitz4 8/2/2022 18:21",
+		"testLogin" : "Hannes Spitz4 8/2/2022 18:21",
+		"testLoginWithInvalidPassword" : "Hannes Spitz4 8/2/2022 18:22",
+		"testLoginWithInvalidUsername" : "Hannes Spitz4 8/2/2022 18:17" } }

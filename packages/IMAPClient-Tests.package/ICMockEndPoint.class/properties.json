@@ -9,7 +9,7 @@
 		"mailBody",
 		"uids",
 		"isConnected" ],
-	"name" : "ICMockEndpoint",
+	"name" : "ICMockEndPoint",
 	"pools" : [
 		 ],
 	"super" : "ICEndPoint",

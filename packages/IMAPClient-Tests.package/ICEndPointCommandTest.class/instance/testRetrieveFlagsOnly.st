@@ -5,14 +5,14 @@ testRetrieveFlagsOnly
 	"Load emails from server and store them locally"
 	"To test the functionality I need ICEMails, which are already present in storage, 
 	 so I can check whether the flags are updated"
-	emailObjects := self endPoint maildirDiffFetchHeadersFrom: '3' to: '4'.
+	emailObjects := self endpoint maildirDiffFetchHeadersFrom: '3' to: '4'.
 	mailA := emailObjects first.
 	mailB := emailObjects second.
 	
 	folder := emailObjects first folder.
 	folder addMails: emailObjects.
 	
-	folderName := self endPoint rootDirectoryName.
+	folderName := self endpoint rootDirectoryName.
 	path := 'Maildir', FileDirectory slash, folderName, FileDirectory slash, 'inbox'.
 	mailAPath := FileDirectory default fullPathFor: path, FileDirectory slash, mailA id.
 	mailBPath := FileDirectory default fullPathFor: path, FileDirectory slash, mailB id.
@@ -26,7 +26,7 @@ testRetrieveFlagsOnly
 	self assert: mailB deleted equals: false.
 	
 	"Now retrive flags to trigger update"
-	self endPoint retrieveFlagsFrom: 3 to: 4 in: folder.
+	self endpoint retrieveFlagsFrom: 3 to: 4 in: folder.
 	
 	"Asserts that the flags - in the mail object - were updated"
 	self assert: mailA seen equals: false.

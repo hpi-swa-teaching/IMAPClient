@@ -1,11 +1,11 @@
 running
 setUp
 
-	self endPoint: ICEndPoint new.
-	self endPoint connectionHandler stream: ICMockSocketStream new.
-	self endPoint connectionHandler stream connected: true.
+	self endpoint: ICEndPoint new.
+	self endpoint connectionHandler stream: ICMockSocketStream new.
+	self endpoint connectionHandler stream connected: true.
 	
-	self endPoint connectionHandler stream server
+	self endpoint connectionHandler stream server
 		validUsername: self class validUsername;
 		validPassword: self class validPassword;
-		responses: self endPoint connectionHandler stream server notAuthenticatedResponses
+		responses: self endpoint connectionHandler stream server notAuthenticatedResponses

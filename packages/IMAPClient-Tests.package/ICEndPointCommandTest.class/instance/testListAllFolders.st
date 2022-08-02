@@ -1,6 +1,6 @@
 logout
 testListAllFolders
 
-	self endPoint connectionHandler stream server responses: self endPoint connectionHandler stream server authenticatedResponses.
-	self endPoint listAllFolders.
-	self assert: self endPoint rootFolder countFolders equals: 7
+	self endpoint connectionHandler stream server responses: self endpoint connectionHandler stream server authenticatedResponses.
+	self endpoint listAllFolders.
+	self assert: self endpoint rootFolder countFolders equals: 7
