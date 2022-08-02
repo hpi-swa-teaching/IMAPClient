@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"Missing" : "JS 8/2/2022 20:35",
 		"accountName" : "JST 7/10/2021 18:23",
 		"currentUIDs" : "an 6/16/2022 20:29",
 		"getBodyFor:" : "an 6/16/2022 20:29",
@@ -11,12 +12,11 @@
 		"isConnected:" : "Hannes Spitz4 7/31/2022 17:13",
 		"mailBody" : "C.G. 7/25/2018 18:10",
 		"mailBody:" : "pm 6/9/2019 17:19",
-		"maildirDiffFetchHeadersFor:from:" : "an 6/16/2022 20:29",
 		"maildirFileName" : "Hannes Spitz4 7/12/2022 16:31",
 		"readWriter" : "RJPG 7/27/2022 18:25",
 		"retrieveBody:" : "JNG 5/24/2021 10:43",
 		"rootDirectoryName" : "hg 7/31/2020 10:33",
-		"select:" : "an 6/16/2022 20:29",
-		"sendNextCommands" : "an 6/16/2022 20:29",
+		"select:" : "JS 8/2/2022 20:35",
+		"sendNextCommands" : "JS 8/2/2022 20:08",
 		"uids" : "an 6/16/2022 20:29",
-		"uids:" : "an 6/16/2022 20:29" } }
+		"uids:" : "JS 8/2/2022 19:53" } }

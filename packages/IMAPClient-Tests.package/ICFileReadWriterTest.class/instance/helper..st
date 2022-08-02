@@ -1,4 +1,4 @@
 accessing
-helper: anObject
+helper: anICSetUpTestHelper
 
-	helper := anObject
+	helper := anICSetUpTestHelper

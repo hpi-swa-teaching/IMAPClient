@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "JS 8/2/2022 20:22",
 	"instvars" : [
 		"folderDialog" ],
 	"name" : "ICFolderDialogTest",

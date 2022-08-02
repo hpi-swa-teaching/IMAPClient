@@ -1,4 +1,4 @@
 accessing
-uids: anObject
+uids: aUniqueID
 
-	uids := anObject
+	uids := aUniqueID
