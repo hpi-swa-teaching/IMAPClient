@@ -1,10 +1,18 @@
 running
 setUp
 
-	self helper: ICSetUpTestHelper new.
-	self helper endpoint: ICEndPoint new.
-	self helper endpoint
+	| connectionHandler folder |
+	connectionHandler := ICConnectionHandler new
+		stream: ICNullStream new;
+		storedCommands: ICMockCommandStorage new.
+	
+	self endPoint: (ICEndPoint new connectionHandler: connectionHandler).
+	folder := ICFolder new endpoint: self endPoint.
+	folder parent: folder.
+	
+	self endPoint
+		rootFolder: folder;
 		folderNameOfTrash: self trashFolderName;
-		readWriter: (ICFileReadWriter new endpoint: self helper endpoint).
-	self setUpConnectionHandler.
-	self setUpFolder
+		readWriter: ICMockReadWriter new.
+	
+	self email: (self class mailIn: folder)

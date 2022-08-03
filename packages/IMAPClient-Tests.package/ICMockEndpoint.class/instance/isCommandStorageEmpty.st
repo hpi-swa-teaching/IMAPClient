@@ -1,4 +1,4 @@
-as yet unclassified
+mockMethods
 isCommandStorageEmpty
 
-	^ false
+	^ true

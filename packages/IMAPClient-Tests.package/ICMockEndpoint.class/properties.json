@@ -7,8 +7,7 @@
 	"commentStamp" : "sf 6/24/2021 15:53",
 	"instvars" : [
 		"mailBody",
-		"uids",
-		"isConnected" ],
+		"uids" ],
 	"name" : "ICMockEndpoint",
 	"pools" : [
 		 ],

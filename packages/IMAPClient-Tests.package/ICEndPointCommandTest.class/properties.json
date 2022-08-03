@@ -6,10 +6,8 @@
 		 ],
 	"commentStamp" : "tg 7/8/2019 15:43",
 	"instvars" : [
-		"helper",
 		"endPoint",
-		"rootFolder",
-		"inboxFolder" ],
+		"rootFolder" ],
 	"name" : "ICEndPointCommandTest",
 	"pools" : [
 		 ],

@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "jwe 7/28/2016 14:20",
 	"instvars" : [
-		"id",
 		"parent",
 		"childFolders",
 		"folderName",

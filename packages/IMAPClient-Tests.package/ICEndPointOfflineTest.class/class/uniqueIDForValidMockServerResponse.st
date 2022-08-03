@@ -1,4 +1,0 @@
-constants
-uniqueIDForValidMockServerResponse
-
-	^ '3'

@@ -1,4 +1,6 @@
 read file
 readEmailsFromDisk
 
-	self readEmailsFromDisk: self rootDirectory
+	self rootDirectory
+		assureExistence;
+		withAllFilesDo: self fileVisitor andDirectoriesDo: self directoryVisitor

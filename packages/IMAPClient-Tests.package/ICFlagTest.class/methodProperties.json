@@ -6,15 +6,6 @@
 		"emails:" : "sf 6/26/2021 15:50",
 		"folder" : "sf 6/26/2021 15:50",
 		"folder:" : "sf 6/26/2021 15:50",
-		"helper" : "RJPG 7/27/2022 18:25",
-		"helper:" : "RJPG 7/9/2022 16:27",
-		"serverRespondsEmailsSeen" : "Hannes Spitz4 8/1/2022 16:46",
-		"serverRespondsEmailsUnflagged" : "Hannes Spitz4 8/1/2022 16:46",
-		"setUp" : "Hannes Spitz4 7/31/2022 17:37",
-		"tearDown" : "RJPG 7/9/2022 16:29",
-		"testSwitchFlagOffline" : "Hannes Spitz4 7/31/2022 17:14",
-		"testSwitchFlagOnline" : "Hannes Spitz4 8/1/2022 16:36",
-		"testSwitchedFlagOnServer" : "Hannes Spitz4 8/1/2022 16:35",
-		"testSwitchedSeenOnServer" : "Hannes Spitz4 8/1/2022 16:35",
-		"testToggleFlagOffline" : "Hannes Spitz4 7/31/2022 17:14",
-		"testToggleFlagOnline" : "Hannes Spitz4 8/1/2022 16:37" } }
+		"setUp" : "an 6/16/2022 20:29",
+		"testSwitchFlagForTo" : "sf 6/26/2021 16:02",
+		"testToggleFlagFor" : "an 6/16/2022 20:29" } }

@@ -1,18 +1,15 @@
 fetch
 testFetchMailsBeginningAtWithFoundMails
 
-	| path emailObjects mailAPath mailBPath |
+	| path emailObjects mailAPath mailBPath folderName |
 	emailObjects := self endPoint fetchMailsBeginningAt: 42 number: 2.
-	
-	self assert: emailObjects size equals: 2.
-	self inboxFolder save: emailObjects inReferenceTo: OrderedCollection new.
-	self inboxFolder removeOutdated: self inboxFolder emails basedOn: emailObjects.
-	
-	path := self helper endpoint maildirFileName: self inboxFolder folderName.
-	mailAPath := FileDirectory default fullPathFor: path, FileDirectory slash, emailObjects first id.
-	mailBPath := FileDirectory default fullPathFor: path, FileDirectory slash, emailObjects second id.
+	folderName := self endPoint rootDirectoryName.
+	path := 'Maildir', FileDirectory slash, folderName, FileDirectory slash, 'inbox'.
+	mailAPath := FileDirectory default fullPathFor: path, FileDirectory slash, '3'.
+	mailBPath := FileDirectory default fullPathFor: path, FileDirectory slash, '4'.
 	
 	self
+		assert: emailObjects size equals: 2;
 		assert: (emailObjects collect: [:each | each header])
 			equals: self class expectedFetchMailsBeginningAt;
 		assert: (FileDirectory default directoryExists: (FileDirectory default fullPathFor: path));

@@ -1,9 +1,9 @@
 running
 setUp
 
-	self helper: ICSetUpTestHelper new.
-	
 	self
-		folder: (self helper createAFolder: 'folder');
+		folder: (ICFolder new endpoint: ICMockEndpoint new);
 		emails: OrderedCollection new.
-	self emails addAll: (self helper createNumberOfEmails: 2 in: self folder)
+	self emails
+		add: ICEmail new;
+		add: ICEmail new

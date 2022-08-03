@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "tg 7/19/2019 10:33",
 	"instvars" : [
-		"id",
 		"body",
 		"header",
 		"folder",

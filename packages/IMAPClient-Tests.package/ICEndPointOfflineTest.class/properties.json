@@ -6,9 +6,8 @@
 		 ],
 	"commentStamp" : "eg 7/29/2021 18:37",
 	"instvars" : [
-		"email",
-		"helper",
-		"trashFolder" ],
+		"endPoint",
+		"email" ],
 	"name" : "ICEndPointOfflineTest",
 	"pools" : [
 		 ],

@@ -1,14 +1,17 @@
 {
 	"class" : {
+		"expectedStringRepresentation" : "an 6/16/2022 20:29",
 		"invalidPassword" : "tg 5/9/2019 13:03",
-		"invalidUsername" : "tg 5/9/2019 13:04" },
+		"invalidUsername" : "tg 5/9/2019 13:04",
+		"validAccountName" : "tg 7/10/2019 19:37",
+		"validHost" : "tg 7/10/2019 19:37",
+		"validPassword" : "tg 7/10/2019 19:36",
+		"validPort" : "tg 7/10/2019 19:38",
+		"validUsername" : "tg 7/10/2019 19:36" },
 	"instance" : {
 		"accountInfo" : "an 6/16/2022 20:29",
 		"accountInfo:" : "an 6/16/2022 20:29",
-		"helper" : "RJPG 7/27/2022 18:25",
-		"helper:" : "RJPG 7/26/2022 16:42",
-		"setUp" : "RJPG 7/27/2022 18:25",
-		"tearDown" : "RJPG 7/27/2022 18:25",
+		"setUp" : "an 6/16/2022 20:29",
 		"testAccountInfoFromEmptyDictionaryIsInvalid" : "hg 7/31/2020 22:05",
 		"testAccountInfoFromFullDictionaryIsValid" : "hg 7/31/2020 22:05",
 		"testAccountNameUnused" : "an 6/16/2022 20:29",
@@ -22,4 +25,4 @@
 		"testMissingSSLForCompleteness" : "an 6/16/2022 20:29",
 		"testMissingUsernameForCompleteness" : "an 6/16/2022 20:29",
 		"testNoMissingFieldsForCompleteness" : "an 6/16/2022 20:29",
-		"testPrintOn" : "RJPG 7/26/2022 16:44" } }
+		"testPrintOn" : "an 6/16/2022 20:29" } }

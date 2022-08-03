@@ -1,4 +1,4 @@
 teardown
 tearDown
 
-	self helper reset
+	(FileDirectory default / self endpoint maildirFileName) deleteLocalFiles

@@ -15,8 +15,9 @@ parseFetchHeaders: headerLines
 	parseResult keysAndValuesDo: [:id :message | | mail |
 		"parse the message and ID into a ICMail"
 		mail := ICParser parseFetchHeader: message withId: id.
+		mailCollection add: mail.
+		"store the ICMail in the appropriate folder and write it on the disk"
 		mail folder: folder.
-		mailCollection add: mail
-		"store the ICMail in the appropriate folder and write it on the disk"].
+		self readWriter write: mail].
 	
 	^ mailCollection

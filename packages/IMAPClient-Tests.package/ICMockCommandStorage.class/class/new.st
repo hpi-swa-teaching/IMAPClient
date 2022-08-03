@@ -1,4 +1,4 @@
 as yet unclassified
 new
 
-	^ super newMock
+	^ super new copy removeAll
