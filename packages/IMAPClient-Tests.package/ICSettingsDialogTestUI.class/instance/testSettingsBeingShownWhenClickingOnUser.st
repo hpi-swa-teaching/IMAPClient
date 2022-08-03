@@ -1,7 +1,8 @@
 testing
 testSettingsBeingShownWhenClickingOnUser
-	"
-	we wanted to actually click on the list items and not just select them but the framework doesn't seem to offer a solution for that. So here we are, left with this not working code. If you find a way, feel free to reactivte it. Writing our own 'click' didn't seem like a good idea to us.
+	
+	"We wanted to actually click on the list items and not just select them but the framework doesn't seem to offer a solution for that. 
+	So here we are, left with this not working code. If you find a way, feel free to reactivte it. Writing our own 'click' didn't seem like a good idea to us.
 
 	| accountListItem clickableItem |
 	
@@ -11,8 +12,4 @@ testSettingsBeingShownWhenClickingOnUser
 	self assert: (self existsMorphWithContentWith: (ICAccountSettings displayNames at: (ICAccountSettings notSyncedFoldersID)) in: self subject)"
 	
 	self settingsDialog model selectedEndpoint: (self emailAccounts first).
-	self assert: (self existsMorphWithContentWith: (ICAccountSettings displayNames at: (ICAccountSettings notSyncedFoldersID)) in: self subject)
-	
-	
-	
-	
+	self assert: (self existsMorphWithContent: (ICAccountSettings displayNames at: (ICAccountSettings notSyncedFoldersID)) in: self subject)

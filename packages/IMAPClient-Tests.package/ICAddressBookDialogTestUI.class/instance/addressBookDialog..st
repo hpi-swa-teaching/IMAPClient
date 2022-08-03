@@ -1,4 +1,4 @@
 accessing
-addressBookDialog: anObject
+addressBookDialog: anICAddressBookDialog
 
-	addressBookDialog := anObject
+	addressBookDialog := anICAddressBookDialog

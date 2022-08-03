@@ -2,4 +2,4 @@ running
 tearDown
 
 	self subject abandon.
-	super tearDown
+	super abandonOpenedWindows

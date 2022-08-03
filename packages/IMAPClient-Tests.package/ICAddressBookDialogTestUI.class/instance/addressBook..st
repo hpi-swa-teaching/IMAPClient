@@ -1,4 +1,4 @@
 accessing
-addressBook: anObject
+addressBook: anICAddressBook
 
-	addressBook := anObject
+	addressBook := anICAddressBook

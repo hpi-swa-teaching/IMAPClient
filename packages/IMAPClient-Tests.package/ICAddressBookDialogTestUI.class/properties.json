@@ -4,11 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "JS 8/3/2022 21:31",
 	"instvars" : [
 		"addressBook",
 		"addressBookDialog",
-		"contactList",
 		"emailAccounts" ],
 	"name" : "ICAddressBookDialogTestUI",
 	"pools" : [

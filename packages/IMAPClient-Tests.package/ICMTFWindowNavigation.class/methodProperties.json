@@ -2,13 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"existsMorphWithContentWith:in:" : "an 6/16/2022 20:29",
+		"abandonOpenedWindows" : "JS 8/3/2022 20:44",
+		"existsMorphWithContent:in:" : "JS 8/3/2022 20:49",
 		"findBySubstringInContents:in:" : "an 8/3/2022 19:42",
-		"getOpenedWindowWithClickOn:" : "an 8/3/2022 19:45",
-		"navigateFrom:toNamedMorph:" : "an 6/16/2022 20:29",
-		"navigateFromAddressBookToAddContact:" : "an 8/3/2022 19:50",
-		"navigateFromFolderDialogToAddressBook:" : "an 8/3/2022 19:50",
+		"getOpenedWindowWithClickOn:" : "JS 8/3/2022 21:36",
+		"getWindowFromClickIn:onButtonNamed:" : "JS 8/3/2022 20:51",
+		"navigateFromAddressBookToAddContact:" : "JS 8/3/2022 20:53",
+		"navigateFromFolderDialogToAddressBook:" : "JS 8/3/2022 20:53",
 		"openedWindows" : "an 6/16/2022 20:29",
-		"openedWindows:" : "RJPG 6/14/2022 17:24",
-		"tearDown" : "an 6/16/2022 20:29",
 		"wrapMTFMorphAround:" : "RJPG 6/16/2022 14:22" } }

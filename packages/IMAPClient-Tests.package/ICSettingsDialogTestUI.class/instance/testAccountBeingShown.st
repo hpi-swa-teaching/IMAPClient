@@ -1,4 +1,4 @@
 testing
 testAccountBeingShown
 
-	self assert: (self existsMorphWithContentWith: self accountName in: self subject)
+	self assert: (self existsMorphWithContent: self accountName in: self subject)

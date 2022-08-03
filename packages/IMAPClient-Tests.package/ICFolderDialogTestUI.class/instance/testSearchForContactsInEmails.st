@@ -20,16 +20,16 @@ testSearchForContactsInEmails
 	nameInput sendKeys: 'Anton'.
 	emailInput sendKeys: emailAddress1.
 	(contactWindow findByName: ICContactDialog nameAcceptButton) click.
-	super tearDown.
+	super abandonOpenedWindows.
 	
 	"Search for Contact and Test"
 	emailFolder := self findBySubstringInContents: self testFolder folderName in: self subject.
 	self folderDialog selectedFolder: self testFolder.
-	self assert: true equals: (self existsMorphWithContentWith: emailAddress1 in: self subject).
-	self assert: true equals: (self existsMorphWithContentWith: emailAddress2 in: self subject).
+	self assert: true equals: (self existsMorphWithContent: emailAddress1 in: self subject).
+	self assert: true equals: (self existsMorphWithContent: emailAddress2 in: self subject).
 	
 	searchBar := self subject findByName: ICFolderDialog nameEmailSearch.
 	searchBar sendKeys: 'Anton'.
 	
-	self assert: true equals: (self existsMorphWithContentWith: emailAddress1 in: self subject).
-	self assert: false equals: (self existsMorphWithContentWith: emailAddress2 in: self subject)
+	self assert: true equals: (self existsMorphWithContent: emailAddress1 in: self subject).
+	self assert: false equals: (self existsMorphWithContent: emailAddress2 in: self subject)
