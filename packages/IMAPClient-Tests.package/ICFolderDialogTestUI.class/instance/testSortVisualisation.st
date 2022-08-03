@@ -2,7 +2,7 @@ testing
 testSortVisualisation
 
 	| button |
-	self sortButtonLabels do: [:buttonLabel |
+	ICFolderDialog sortButtonLabels do: [:buttonLabel |
 		button := self subject findByLabel: buttonLabel.
 		self assert: button label equals: buttonLabel.
 		button click.
