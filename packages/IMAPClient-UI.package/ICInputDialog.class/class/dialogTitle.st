@@ -1,0 +1,4 @@
+constants
+dialogTitle
+
+	^ 'Login Window'

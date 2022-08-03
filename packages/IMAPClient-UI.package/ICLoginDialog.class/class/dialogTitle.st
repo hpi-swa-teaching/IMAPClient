@@ -1,4 +1,4 @@
-accessing - user interface
+constants
 dialogTitle
 
 	^ 'IMAP Login'

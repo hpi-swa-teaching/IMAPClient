@@ -1,4 +1,4 @@
 accessing
-folder: anObject
+folder: anICFolder
 
-	folder := anObject
+	folder := anICFolder

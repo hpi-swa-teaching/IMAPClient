@@ -1,4 +1,4 @@
 accessing
-folderDialog: anObject
+folderDialog: anICFolderDialog
 
-	folderDialog := anObject
+	folderDialog := anICFolderDialog

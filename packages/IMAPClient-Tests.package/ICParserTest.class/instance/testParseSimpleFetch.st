@@ -8,7 +8,6 @@ testParseSimpleFetch
 	self assert: parseResult size equals: self class expectedNumberOfMails.
 	self assert: firstResult equals: self class firstExpectedResponse.
 	
-	"parse the mail into ICMail and compare"
 	parsedMail := ICParser
 		parseFetchHeader: firstResult
 		withId: (parseResult keyAtValue: firstResult).

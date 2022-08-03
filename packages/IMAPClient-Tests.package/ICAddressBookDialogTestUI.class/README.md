@@ -1,0 +1,1 @@
+This class tests the UI aspects of ICAddressBookDialog.

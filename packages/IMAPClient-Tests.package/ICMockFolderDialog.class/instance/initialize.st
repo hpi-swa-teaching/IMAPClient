@@ -1,4 +1,4 @@
-as yet unclassified
+mock methods
 initialize
 
 	self emailAccounts: self getEmailAccounts.

@@ -1,5 +1,5 @@
 initialize
-feedMeWithEntries: anEmailCollection
+addEntries: anEmailCollection
 
 	anEmailCollection do: [:emailAccount |
 		self

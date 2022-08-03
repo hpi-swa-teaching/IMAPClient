@@ -1,4 +1,4 @@
 accessing
-ssl: aBool
+ssl: aBoolean
 
-	ssl := aBool
+	ssl := aBoolean
