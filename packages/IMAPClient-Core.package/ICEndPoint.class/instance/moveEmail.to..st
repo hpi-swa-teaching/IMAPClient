@@ -10,7 +10,7 @@ moveEmail: anEmail to: aTargetFolderName
 			self readWriter moveEmail: anEmail to: targetFolder.
 			self resetDeletedFlagWhenRecovering: anEmail.
 			
-			"this is important for ensuring the synchronicity with the server but it can take a while"
+			"this is important for ensuring the synchronicity with the server. It can take a while"
 			anEmail folder startUpdateWithLoadedEmails: self collectAllEmails.
 			targetFolder startUpdateWithLoadedEmails: self collectAllEmails]
 		ifTrue: [self inform: 'The Email is already in the specified folder']

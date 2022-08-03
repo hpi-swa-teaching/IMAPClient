@@ -1,4 +1,4 @@
 action - emails
-loginWithPassword: aPassword
+loginWithPassword: aText
 
-	self unconnectedAccounts ifNotEmpty: [self login: self unconnectedAccounts first with: aPassword string]
+	self unconnectedAccounts ifNotEmpty: [self login: self unconnectedAccounts first with: aText string]
