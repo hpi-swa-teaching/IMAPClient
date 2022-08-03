@@ -3,6 +3,5 @@ OrderedDictionary {
 	'packages/IMAPClient-Core.package' : #SquotCypressCodeSerializer,
 	'packages/IMAPClient-Tests.package' : #SquotCypressCodeSerializer,
 	'packages/IMAPClient-UI.package' : #SquotCypressCodeSerializer,
-	'packages/IMAPClient-Protocol.package' : #SquotCypressCodeSerializer,
-	'packages/IMAPClient-Util.package' : #SquotCypressCodeSerializer
+	'packages/IMAPClient-Protocol.package' : #SquotCypressCodeSerializer
 }
