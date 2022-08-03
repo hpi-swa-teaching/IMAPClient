@@ -2,7 +2,7 @@ fetch
 testFetchMailsBeginningAtWithFoundMails
 
 	| path emailObjects mailAPath mailBPath |
-	emailObjects := self endpoint fetchMailsBeginningAt: 42 number: 2.
+	emailObjects := self endPoint fetchMailsBeginningAt: 42 number: 2.
 	
 	self assert: emailObjects size equals: 2.
 	self inboxFolder save: emailObjects inReferenceTo: OrderedCollection new.

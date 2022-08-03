@@ -3,7 +3,7 @@ createAnEmail: anICFolder
 
 	| mail |
 	mail := self class getMailObjectWith: self currentMailID in: anICFolder.
-	anICFolder addMail: mail.
+	anICFolder addMails: {mail}.
 	self writeEmailOnDisk: mail.
 	
 	^ mail

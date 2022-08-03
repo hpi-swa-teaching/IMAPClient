@@ -3,7 +3,7 @@ initialize
 
 	| rootfolder |
 	rootfolder := ICFolder new.
-	self endpoint: ICMockEndPoint new.
+	self endpoint: ICMockEndpoint new.
 	self endpoint connectionHandler storedCommands: ICMockCommandStorage new.
 	self endpoint rootFolder: rootfolder.
 	rootfolder
