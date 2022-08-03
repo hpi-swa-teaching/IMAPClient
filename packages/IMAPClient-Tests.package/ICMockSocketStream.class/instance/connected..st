@@ -1,4 +1,4 @@
 accessing
-connected: aBool
+connected: aBoolean
 
-	connected := aBool
+	connected := aBoolean

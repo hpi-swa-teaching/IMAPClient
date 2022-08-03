@@ -1,4 +1,4 @@
 accessing
-emailAccounts: anObject
+emailAccounts: anEmailAccountCollection
 
-	emailAccounts := anObject
+	emailAccounts := anEmailAccountCollection

@@ -7,8 +7,7 @@
 	"commentStamp" : "tg 7/8/2019 15:49",
 	"instvars" : [
 		"helper",
-		"root",
-		"accountName" ],
+		"root" ],
 	"name" : "ICFolderTest",
 	"pools" : [
 		 ],
