@@ -6,5 +6,5 @@ emailListKeyPress: aKey
 		ifPresent: [:anAction |
 			anAction value.
 			^ true]
-		ifAbsent: [^ false].
+		ifAbsent: [^false].
 	^ false

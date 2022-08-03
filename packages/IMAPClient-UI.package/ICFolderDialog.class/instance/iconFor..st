@@ -1,6 +1,6 @@
 toolbuilder
 iconFor: aFolder
 
-	aFolder iconName == #none
+	aFolder iconName = #none
 		ifFalse: [^ self scaleIconFitting: (self class perform: aFolder iconName)]
 		ifTrue: [^ nil]
