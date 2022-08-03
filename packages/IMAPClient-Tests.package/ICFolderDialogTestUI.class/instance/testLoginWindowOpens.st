@@ -2,11 +2,14 @@ testing
 testLoginWindowOpens
 
 	
-	| openUpdateButton loginWindow loggedOutAccount |
+	| updateButton inputWindow |
 	
-	loggedOutAccount := ICMockEndpoint newWith: (ICAccountInfo new).
-	loggedOutAccount isConnected: false.
-	self folderDialog emailAccounts: {loggedOutAccount} asOrderedCollection.
-	openUpdateButton := self subject findByName: ICFolderDialog nameUpdateButton.
-	loginWindow := self getOpenedWindowWithClickOn: openUpdateButton.
-	self assert: loginWindow label equals: ICInputDialog dialogTitle.
+	updateButton := self subject findByName: ICFolderDialog nameUpdateButton.
+	
+	self folderDialog emailAccounts first isConnected: false.
+	inputWindow := self getOpenedWindowWithClickOn: updateButton.
+	self assert: inputWindow label equals: ICInputDialog dialogTitle.
+	
+	self folderDialog emailAccounts first isConnected: true.
+	inputWindow := self getOpenedWindowWithClickOn: updateButton.
+	self assert: inputWindow isEmpty

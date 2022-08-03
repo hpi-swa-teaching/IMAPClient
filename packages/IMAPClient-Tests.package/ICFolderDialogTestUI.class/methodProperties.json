@@ -4,6 +4,8 @@
 	"instance" : {
 		"endpoint" : "an 6/16/2022 20:29",
 		"endpoint:" : "an 6/16/2022 20:29",
+		"folder" : "an 8/3/2022 22:34",
+		"folder:" : "an 8/3/2022 22:33",
 		"folderDialog" : "RJPG 6/14/2022 16:39",
 		"folderDialog:" : "RJPG 6/14/2022 16:39",
 		"getMailIn:from:" : "RJPG 6/15/2022 19:00",
@@ -13,9 +15,7 @@
 		"tearDown" : "JS 8/3/2022 20:46",
 		"testAddAccountWindowOpens" : "SW 8/3/2022 18:41",
 		"testAddressBookOpens" : "SW 8/3/2022 17:35",
-		"testFolder" : "an 6/16/2022 20:29",
-		"testFolder:" : "an 6/16/2022 20:29",
-		"testLoginWindowOpens" : "SW 8/3/2022 18:42",
-		"testSearchForContactsInEmails" : "JS 8/3/2022 20:49",
+		"testLoginWindowOpens" : "an 8/3/2022 22:46",
+		"testSearchForContactsInEmails" : "an 8/3/2022 22:50",
 		"testSettingsDialogOpens" : "FK 8/2/2022 14:06",
 		"testSortVisualisation" : "an 8/3/2022 22:21" } }

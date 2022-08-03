@@ -3,8 +3,8 @@ testChangedEmailsOnServer
 
 	| mail |
 	self connectionHandler stream: ICMockSocketStream new.
-	mail := self helper createAnEmail: self testFolder.
+	mail := self helper createAnEmail: self folder.
 	
-	self testFolder startUpdateWithLoadedEmails: self helper endpoint collectAllEmails.
+	self folder startUpdateWithLoadedEmails: self helper endpoint collectAllEmails.
 	
-	self deny: mail = self testFolder emails first
+	self deny: mail = self folder emails first
