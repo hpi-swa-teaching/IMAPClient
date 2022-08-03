@@ -1,0 +1,4 @@
+constants
+folderInfosFileName
+
+	^ '_folderInfos'

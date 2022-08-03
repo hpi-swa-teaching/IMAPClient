@@ -3,11 +3,7 @@ testUnreadButtonEmailVisible
 
 	| dialog email |
 	dialog := ICFolderDialog new.
-	email := ICEmail new
-		uniqueID: self uniqueIds first;
-		folder: self root;
-		date: self class date;
-		seen: false.
+	email := self helper createAnEmail: self root.
 	
 	self assert: (dialog shouldEmailBeVisible: email) equals: true.
 	

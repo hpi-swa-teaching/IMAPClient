@@ -1,4 +1,5 @@
 running
 tearDown
 
-	self root: nil
+	self root: nil.
+	self helper reset

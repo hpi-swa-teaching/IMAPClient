@@ -14,8 +14,8 @@ testRetrieveFlagsOnly
 	
 	folderName := self endPoint rootDirectoryName.
 	path := 'Maildir', FileDirectory slash, folderName, FileDirectory slash, 'inbox'.
-	mailAPath := FileDirectory default fullPathFor: path, FileDirectory slash, '3'.
-	mailBPath := FileDirectory default fullPathFor: path, FileDirectory slash, '4'.
+	mailAPath := FileDirectory default fullPathFor: path, FileDirectory slash, mailA id.
+	mailBPath := FileDirectory default fullPathFor: path, FileDirectory slash, mailB id.
 	
 	"Asserts that in the beginning the flags equal this"
 	self assert: mailA seen equals: false.

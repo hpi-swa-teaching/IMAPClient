@@ -1,5 +1,4 @@
 accessing
 isAlreadyUpdating
 
-	isAlreadyUpdating ifNil: [self isAlreadyUpdating: false].
-	^ isAlreadyUpdating
+	^ isAlreadyUpdating ifNil: [isAlreadyUpdating := false]

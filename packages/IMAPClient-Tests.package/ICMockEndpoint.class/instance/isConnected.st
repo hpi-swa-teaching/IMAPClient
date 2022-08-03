@@ -1,4 +1,4 @@
 mockMethods
 isConnected
 
-	^ true
+	^ isConnected ifNil: [isConnected := true]

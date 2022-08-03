@@ -3,7 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"MockInstance" ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
