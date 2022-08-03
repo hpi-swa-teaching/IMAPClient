@@ -2,6 +2,7 @@ toolbuilder
 buildUserList: builder
 
 	^ builder pluggableTreeSpec new
+		name: self class nameUserListTree;
 		model: self;
 		roots: #emailAccounts;
 		label: #labelForAccount:;
