@@ -2,7 +2,7 @@ accessing
 testRetrieveBody
 
 	| folder endpoint |
-	endpoint := ICMockEndPoint new.
+	endpoint := ICMockEndpoint new.
 	endpoint mailBody: self email body.
 	
 	folder := ICFolder new.

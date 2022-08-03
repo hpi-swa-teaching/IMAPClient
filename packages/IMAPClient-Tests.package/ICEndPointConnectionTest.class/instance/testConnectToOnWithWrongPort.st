@@ -3,8 +3,8 @@ testConnectToOnWithWrongPort
 
 	self
 		should: [
-			self endpoint connectionHandler
+			self endPoint connectionHandler
 				accountInfo: self class invalidPortAccountInfo;
 				connectWith: ICMockSocketStream]
 		raise: Error.
-	self assert: self endpoint connectionHandler fatalErrorOccured equals: true
+	self assert: self endPoint connectionHandler fatalErrorOccured equals: true
