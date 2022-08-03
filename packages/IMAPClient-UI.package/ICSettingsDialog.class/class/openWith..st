@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 openWith: anEmailAccountCollection
 
 	^ ToolBuilder default open: (self new

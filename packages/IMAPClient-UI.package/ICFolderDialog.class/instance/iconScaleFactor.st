@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 iconScaleFactor
 
 	^ 0.6

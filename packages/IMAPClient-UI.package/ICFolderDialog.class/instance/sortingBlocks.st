@@ -1,5 +1,5 @@
 action - sorting/filter
-sortBlocks
+sortingBlocks
 
 	^ Dictionary withAll: {
 		#subject -> [:aMail :anotherMail | aMail subject caseInsensitiveLessOrEqual: anotherMail subject].
