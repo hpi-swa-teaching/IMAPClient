@@ -1,5 +1,5 @@
 toolbuilder
-buildOptionButtonIn: aFrame with: aLabel with: anAction with: builder
+buildOptionButtonIn: aFrame andLabel: aLabel andAction: anAction andBuilder: builder
 
 	^ builder pluggableButtonSpec new
 		model: self;
