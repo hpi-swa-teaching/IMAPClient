@@ -2,7 +2,6 @@ testing
 testFoldersPerMoveMenuEnterInvalidNumber
 
 	| defaultNumber |
-	
 	defaultNumber := ICAccountSettings defaultFoldersPerMoveMenu.
 	
 	self setUpEnterFoldersPerMoveMenuNumbers.

@@ -6,4 +6,4 @@ setUpFolderAndMails
 	self folder addMails: {
 		self getMailIn: self folder from: self emailAddresses first.
 		self getMailIn: self folder from: self emailAddresses second}.
-	self folderDialog triggerEmailChanges.
+	self folderDialog triggerEmailChanges

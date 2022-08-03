@@ -1,5 +1,6 @@
 testing
 testHiddenFolders
+
 	| wrappedListMorph |
 	self setUpTestHiddenFolders.
 	
@@ -15,6 +16,4 @@ testHiddenFolders
 	wrappedListMorph click.
 	self saveButton click.
 	self assert: self settingsDialog model selectedNotSyncedFolders isEmpty.
-	self assert: self settingsDialog model selectedEndpointSettings notSyncedFolders isEmpty.
-	
-
+	self assert: self settingsDialog model selectedEndpointSettings notSyncedFolders isEmpty
