@@ -1,8 +1,6 @@
 parsing
 continueMailStream: aStream into: anEmailStringCollection
 
-	| id |
-	id := self readMessageIdFromStream: aStream.
 	anEmailStringCollection
-		at: id
+		at: (self readMessageIdFromStream: aStream)
 		put: (String streamContents: [:email | self extractEmailContentFrom: aStream for: email])
