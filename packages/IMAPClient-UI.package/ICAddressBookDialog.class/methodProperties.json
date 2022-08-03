@@ -1,6 +1,7 @@
 {
 	"class" : {
 		"addContactIcon" : "an 6/16/2022 20:29",
+		"dialogTitle" : "SW 8/3/2022 17:40",
 		"nameAddContactButton" : "RJPG 6/14/2022 17:16",
 		"openWith:" : "JS 8/2/2022 19:21" },
 	"instance" : {
@@ -14,11 +15,10 @@
 		"buildAddressBookPanel:" : "an 6/16/2022 20:29",
 		"buildButton:with:with:with:" : "an 6/16/2022 20:29",
 		"buildButton:with:with:with:with:" : "an 6/16/2022 20:29",
-		"buildWith:" : "an 6/16/2022 20:29",
+		"buildWith:" : "SW 8/3/2022 17:41",
 		"buttonOffset" : "an 6/16/2022 20:29",
 		"defaultBackgroundColor" : "LW 5/27/2020 11:11",
 		"deleteAddressBookEntry" : "an 6/16/2022 20:29",
-		"dialogTitle" : "LW 5/27/2020 11:10",
 		"emailAccounts" : "an 6/16/2022 20:29",
 		"emailAccounts:" : "an 6/16/2022 20:29",
 		"initializeEmailAddresses" : "JS 8/2/2022 19:23",

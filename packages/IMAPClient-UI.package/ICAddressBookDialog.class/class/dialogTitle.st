@@ -1,4 +1,4 @@
-accessing
+constants
 dialogTitle
 
 	^ 'Address Book'
