@@ -1,11 +1,12 @@
 {
 	"class" : {
+		"dialogTitle" : "SW 8/3/2022 18:25",
 		"open:onCallback:" : "an 8/2/2022 11:16" },
 	"instance" : {
 		"acceptButtonLabel" : "an 6/16/2022 20:29",
 		"buildAcceptButton:" : "an 6/16/2022 20:29",
 		"buildInputField:" : "SW 7/7/2022 12:02",
-		"buildWith:" : "an 7/21/2022 16:15",
+		"buildWith:" : "SW 8/3/2022 18:26",
 		"checkBoxColor" : "an 6/16/2022 20:29",
 		"closingMethod" : "an 6/16/2022 20:29",
 		"closingMethod:" : "an 7/21/2022 16:15",
@@ -21,8 +22,6 @@
 		"inputMorph" : "RJPG 5/25/2022 14:18",
 		"inputMorph:" : "RJPG 5/23/2022 10:32",
 		"keyEvent:" : "SW 7/7/2022 12:13",
-		"label" : "an 7/21/2022 16:15",
-		"label:" : "an 6/16/2022 20:29",
 		"owner" : "an 6/16/2022 20:29",
 		"owner:" : "an 6/16/2022 20:29",
 		"submit" : "an 6/16/2022 20:29",

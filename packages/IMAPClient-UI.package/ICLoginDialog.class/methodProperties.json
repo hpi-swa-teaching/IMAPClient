@@ -1,6 +1,7 @@
 {
 	"class" : {
 		"defaultPort" : "ok 7/9/2019 19:05",
+		"dialogTitle" : "SW 8/3/2022 18:02",
 		"inputParameterOrder" : "tg 7/25/2019 10:48",
 		"open:" : "an 6/16/2022 20:29",
 		"open:with:" : "an 6/16/2022 20:29" },
@@ -16,7 +17,7 @@
 		"buildServerPortInputField:" : "pm 6/25/2019 16:43",
 		"buildSslCheckBox:" : "an 6/16/2022 20:29",
 		"buildUserInputField:" : "pm 6/25/2019 16:43",
-		"buildWith:" : "SW 7/7/2022 12:06",
+		"buildWith:" : "SW 8/3/2022 18:02",
 		"buttonLabel" : "an 6/16/2022 20:29",
 		"changeInputField:" : "an 6/16/2022 20:29",
 		"checkBoxColor" : "an 6/16/2022 20:29",
@@ -24,7 +25,6 @@
 		"createAccountInfo" : "NH 6/14/2020 12:25",
 		"data:" : "an 6/16/2022 20:29",
 		"defaultBackgroundColor" : "an 6/16/2022 20:29",
-		"dialogTitle" : "ms 6/14/2016 09:53",
 		"displayAccountnameExistsErrorMessage" : "ok 6/25/2019 00:26",
 		"displayEmptyFieldErrorMessageIfNecessary:" : "an 6/16/2022 20:29",
 		"endpoint" : "C.G. 7/25/2018 14:22",
