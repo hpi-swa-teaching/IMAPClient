@@ -1,4 +1,5 @@
 uniqueIDs
 testLowestUniqueID
 
-	self assert: self root lowestUniqueID = 0
+	self helper createNumberOfEmails: 2 in: self root.
+	self assert: self root lowestUniqueID = '1'

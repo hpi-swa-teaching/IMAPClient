@@ -1,0 +1,17 @@
+{
+	"category" : "IMAPClient-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "eg 7/29/2021 18:37",
+	"instvars" : [
+		"email",
+		"helper",
+		"trashFolder",
+		"testFolder" ],
+	"name" : "ICActionsOnEmailsTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

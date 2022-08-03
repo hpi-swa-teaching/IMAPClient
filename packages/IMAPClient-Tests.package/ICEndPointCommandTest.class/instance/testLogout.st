@@ -2,6 +2,6 @@ logout
 testLogout
 
 	self
-		assert: self endPoint logout;
-		deny: self endPoint connectionHandler loggedIn;
-		deny: self endPoint isConnected
+		assert: self endpoint logout;
+		deny: self endpoint connectionHandler loggedIn;
+		deny: self endpoint isConnected

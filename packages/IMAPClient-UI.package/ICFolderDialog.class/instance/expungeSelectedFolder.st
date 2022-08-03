@@ -3,5 +3,7 @@ expungeSelectedFolder
 
 	self selectedFolder
 		expungeEmails;
-		update;
+		startUpdateWithLoadedEmails: self selectedFolder endpoint collectAllEmails
+			showProgress: false
+			with: [];
 		triggerEmailChanges

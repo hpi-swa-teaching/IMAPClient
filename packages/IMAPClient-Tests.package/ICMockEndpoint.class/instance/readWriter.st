@@ -1,4 +1,0 @@
-mockMethods
-readWriter
-
-	^ ICMockReadWriter new

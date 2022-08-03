@@ -1,4 +1,0 @@
-UIDs
-deleteUID
-
-	^ '1'

@@ -1,6 +1,6 @@
 login
 testLogin
 
-	self endPoint connectionHandler accountInfo: self class validAccountInfo.
-	self assert: self endPoint connectAndLogin.
-	self assert: self endPoint connectionHandler loggedIn
+	self endpoint connectionHandler accountInfo: self class validAccountInfo.
+	self assert: self endpoint connectAndLogin.
+	self assert: self endpoint connectionHandler loggedIn

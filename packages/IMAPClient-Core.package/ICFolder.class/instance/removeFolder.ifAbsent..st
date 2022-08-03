@@ -1,4 +1,4 @@
-action - folder hierarchy
+action - remove emails
 removeFolder: child ifAbsent: block
 
 	(self childFolders includes: child) ifFalse: [^ block value].

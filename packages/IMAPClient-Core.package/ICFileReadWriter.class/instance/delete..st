@@ -1,6 +1,5 @@
 delete file
 delete: anICEmail
 
-	FileDirectory default / self endpoint maildirFileName
-		deleteFileNamed: anICEmail uniqueID
-		ifAbsent: [^ self]
+	self assert: [anICEmail folder notNil].
+	self delete: anICEmail in: anICEmail folder

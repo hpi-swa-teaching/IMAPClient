@@ -1,5 +1,4 @@
 accessing
 body
 
-	body ifNil: [body := ''].
-	^ body
+	^ body ifNil: [body := '']

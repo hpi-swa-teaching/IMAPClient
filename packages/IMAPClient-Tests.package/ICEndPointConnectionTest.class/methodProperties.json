@@ -13,10 +13,10 @@
 		"validPort" : "AR 5/31/2016 21:37",
 		"validUsername" : "tg 7/10/2019 19:26" },
 	"instance" : {
-		"endPoint" : "AR 5/31/2016 21:33",
-		"endPoint:" : "pm 6/9/2019 17:17",
-		"setUp" : "an 6/16/2022 20:29",
-		"tearDown" : "an 6/16/2022 20:29",
-		"testConnectToOn" : "an 6/16/2022 20:29",
-		"testConnectToOnWithWrongHost" : "an 6/16/2022 20:29",
-		"testConnectToOnWithWrongPort" : "an 6/16/2022 20:29" } }
+		"endpoint" : "Hannes Spitz4 8/2/2022 18:13",
+		"endpoint:" : "Hannes Spitz4 8/2/2022 18:13",
+		"setUp" : "Hannes Spitz4 8/2/2022 18:16",
+		"tearDown" : "Hannes Spitz4 8/2/2022 18:20",
+		"testConnectToOn" : "Hannes Spitz4 8/2/2022 18:20",
+		"testConnectToOnWithWrongHost" : "Hannes Spitz4 8/2/2022 18:22",
+		"testConnectToOnWithWrongPort" : "Hannes Spitz4 8/2/2022 18:20" } }
