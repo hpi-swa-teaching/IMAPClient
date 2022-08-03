@@ -1,4 +1,4 @@
 accessing
-sortedReversed: anObject
+sortedReversed: aBoolean
 
-	sortedReversed := anObject
+	sortedReversed := aBoolean

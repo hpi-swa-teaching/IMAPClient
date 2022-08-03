@@ -1,4 +1,4 @@
 accessing
-sortMethod
+sortingMethod
 
 	^ sortMethod

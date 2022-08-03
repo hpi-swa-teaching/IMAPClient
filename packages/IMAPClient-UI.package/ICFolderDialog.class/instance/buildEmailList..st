@@ -9,8 +9,8 @@ buildEmailList: builder
 		getSelected: #selectedEmail;
 		doubleClick: #openEmail:;
 		keyPress: #emailListKeyPress:;
-		hScrollBarPolicy: #always;
-		vScrollBarPolicy: #always;
+		hScrollBarPolicy: #whenNeeded;
+		vScrollBarPolicy: #whenNeeded;
 		menu: #emailListMenu:;
 		autoDeselect: false;
 		columns: {

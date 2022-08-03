@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 invalidNumberWarningText
 
 	^  'please enter a positive Integer
