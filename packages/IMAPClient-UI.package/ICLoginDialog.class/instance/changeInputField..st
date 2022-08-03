@@ -1,16 +1,12 @@
 keyboard handling
 changeInputField: currentIndex
 
-	| correctSubmorph text |
-	"last element has no successor"
+	| nextSubmorph text |
+	
 	self inputCollection size > currentIndex ifTrue: [
-		"find submorph with same symbol as successor"
-		correctSubmorph := self inputCollection detect: [:each | each getTextSelector = (self symbolArray at: currentIndex + 1)].
-		
-		"get text of next input field - to select it"
-		text := self perform: correctSubmorph getTextSelector.
+		nextSubmorph := self inputCollection detect: [:each | each getTextSelector = (self symbolArray at: currentIndex + 1)].
+		text := self perform: nextSubmorph getTextSelector.
 		text ifNotNil: [
-			text ifNotEmpty: ["select text of morph"
-			correctSubmorph textMorph editor selectInterval: (1 to: text size)]].
-		
-		correctSubmorph grabKeyboard]
+			text ifNotEmpty: [
+				nextSubmorph textMorph editor selectInterval: (1 to: text size)]].
+		nextSubmorph grabKeyboard]
