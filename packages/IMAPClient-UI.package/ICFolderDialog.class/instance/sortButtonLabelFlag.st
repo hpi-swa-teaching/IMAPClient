@@ -1,6 +1,6 @@
 action - sorting/filter
 sortButtonLabelFlag
 
-	self sortMethod = #flag
+	self sortingMethod = #flag
 		ifTrue: [self reverseMails ifTrue: [^ 'Flag (desc)'] ifFalse: [^ 'Flag (asc)']]
 		ifFalse: [^ 'Flag']

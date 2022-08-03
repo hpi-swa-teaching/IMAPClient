@@ -7,10 +7,10 @@ buildAddressBookPanel: builder
 		frame: (0.0 @ 0.0 extent: 1 @ self buttonOffset);
 		children: {
 			self
-				buildButton: (0 @ 0 extent: 0.2 @ 1)
-				with: self class nameAddContactButton
-				with: self class addContactIcon
-				with: #addContact
-				with: builder.
-			self buildButton: (0.2 @ 0 extent: 0.4 @ 1) with: #sortByNameButtonLabel with: #sortByName with: builder.
-			self buildButton: (0.6 @ 0 extent: 0.4 @ 1) with: #sortByMailButtonLabel with: #sortByMail with: builder}
+				buildButtonWithFrame: (0 @ 0 extent: 0.2 @ 1)
+				andName: self class nameAddContactButton
+				andLabel: self class addContactIcon
+				andAction: #addContact
+				andBuilder: builder.
+			self buildButtonWithFrame: (0.2 @ 0 extent: 0.4 @ 1) andLabel: #sortByNameButtonLabel andAction: #sortByName andBuilder: builder.
+			self buildButtonWithFrame:(0.6 @ 0 extent: 0.4 @ 1) andLabel: #sortByMailButtonLabel andAction: #sortByMail andBuilder: builder}

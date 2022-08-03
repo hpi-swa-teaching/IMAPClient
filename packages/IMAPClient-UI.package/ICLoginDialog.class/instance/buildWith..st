@@ -6,7 +6,7 @@ buildWith: builder
 	
 	window := (builder build: (builder pluggableWindowSpec new
 		model: self;
-		label: self dialogTitle;
+		label: self class dialogTitle;
 		extent: 300 @ 200;
 		children: {
 			self buildLoginButton: builder.

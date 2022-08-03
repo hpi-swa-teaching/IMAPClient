@@ -1,4 +1,4 @@
 accessing - user interface
-helperText
+helpText
 
 	^ 'Input Password Here'

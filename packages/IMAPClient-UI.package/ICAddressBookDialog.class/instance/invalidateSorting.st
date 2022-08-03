@@ -1,4 +1,4 @@
 action
 invalidateSorting
 
-	self sortMethod: #invalid
+	self sortingMethod: #invalid

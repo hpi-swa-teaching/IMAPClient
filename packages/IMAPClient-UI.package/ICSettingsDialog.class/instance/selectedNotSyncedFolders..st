@@ -1,4 +1,4 @@
 toolbuilder
-selectedNotSyncedFolders: aFolderCollection
+selectedNotSyncedFolders: anOrderedCollection
 
-	selectedNotSyncedFolders := aFolderCollection
+	selectedNotSyncedFolders := anOrderedCollection

@@ -1,7 +1,4 @@
-as yet unclassified
+toolbuilder
 scaleIconFitting: anIcon
 
-	| scaleFactor |
-	scaleFactor := RealEstateAgent scaleFactor.
-	
-	^ anIcon scaledToSize: anIcon width @ anIcon height * scaleFactor * self iconScaleFactor
+	^ anIcon scaledToSize: anIcon width @ anIcon height * RealEstateAgent scaleFactor * self iconScaleFactor
