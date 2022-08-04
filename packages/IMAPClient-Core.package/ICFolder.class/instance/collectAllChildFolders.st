@@ -1,8 +1,4 @@
 accessing
 collectAllChildFolders
 
-	| allFolders |
-	allFolders := self collectAllFolders.
-	allFolders remove: self.
-	
-	^ allFolders
+	^ self collectAllFolders remove: self
