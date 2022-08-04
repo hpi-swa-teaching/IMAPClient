@@ -1,0 +1,4 @@
+toolbuilder
+getItemFrom: anIndentingListItemMorph
+
+	^ anIndentingListItemMorph complexContents item
