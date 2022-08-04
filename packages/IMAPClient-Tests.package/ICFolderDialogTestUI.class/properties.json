@@ -7,9 +7,9 @@
 	"commentStamp" : "JS 8/3/2022 21:32",
 	"instvars" : [
 		"folderDialog",
-		"testFolder",
 		"root",
-		"endpoint" ],
+		"endpoint",
+		"folder" ],
 	"name" : "ICFolderDialogTestUI",
 	"pools" : [
 		 ],

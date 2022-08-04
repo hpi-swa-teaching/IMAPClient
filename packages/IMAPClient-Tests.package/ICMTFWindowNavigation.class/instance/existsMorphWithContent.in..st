@@ -1,4 +1,4 @@
 navigating
-existsMorphWithContentWith: aSubstring in: aSubject
+existsMorphWithContent: aSubstring in: aSubject
 
 	^ (self findBySubstringInContents: aSubstring in: aSubject) morphs size == 1

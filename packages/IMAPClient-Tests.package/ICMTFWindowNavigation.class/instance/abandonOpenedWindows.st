@@ -1,4 +1,4 @@
 running
-tearDown
+abandonOpenedWindows
 
 	self openedWindows do: [:window | window abandon]

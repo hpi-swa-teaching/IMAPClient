@@ -6,5 +6,4 @@ setUpEnterFoldersPerMoveMenuNumbers
 	self settingsDialog model selectedSetting: ICAccountSettings foldersPerMoveMenuID.
 	
 	self saveButton: (self subject findByName: ICSettingsDialog nameSaveButton).
-	self inputField: (self subject findByName: ICSettingsDialog nameFoldersPerMoveMenuMorph).
-
+	self inputField: (self subject findByName: ICSettingsDialog nameFoldersPerMoveMenuMorph)

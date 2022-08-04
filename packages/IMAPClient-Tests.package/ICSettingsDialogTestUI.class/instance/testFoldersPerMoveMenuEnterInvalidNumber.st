@@ -1,15 +1,14 @@
 testing
-testFolderMenuesPerItemEnterInvalidNumber
+testFoldersPerMoveMenuEnterInvalidNumber
 
 	| defaultNumber |
-	
 	defaultNumber := ICAccountSettings defaultFoldersPerMoveMenu.
 	
 	self setUpEnterFoldersPerMoveMenuNumbers.
 	
 	self assert: self settingsDialog model foldersPerMoveMenu equals: defaultNumber.
 	
-	{0. -453453} do: [:testNumber | | warningWindow |
+	self invalidNumbersForFoldersPerMoveMenu do: [:testNumber | | warningWindow |
 		self inputField sendKeys: testNumber asString.
 		warningWindow := self getOpenedWindowWithClickOn: self saveButton.
 		self
