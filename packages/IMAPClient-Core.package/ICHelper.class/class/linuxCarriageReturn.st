@@ -1,0 +1,4 @@
+constants
+linuxCarriageReturn
+
+	^ 36

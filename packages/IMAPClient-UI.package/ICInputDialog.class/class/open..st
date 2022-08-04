@@ -1,9 +1,8 @@
 instance creation
-open: anOwner onCallback: aMethod
+open: aFolderDialogInstance
 
 	| instance |
 	instance := self new.
-	instance closingMethod: aMethod.
-	instance owner: anOwner.
+	instance folderDialogInstance: aFolderDialogInstance.
 	
 	^ ToolBuilder default open: instance

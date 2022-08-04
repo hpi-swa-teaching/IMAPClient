@@ -14,6 +14,6 @@ buildNotSyncedFolders
 		getSelectionList: #selectedNotSyncedFoldersAt:;
 		setSelectionList: #selectedNotSyncedFoldersAt:put:;
 		model: self).
-	morph extent: settingsPanelWidget extent.
+	morph extent: self settingsPanelWidget extent.
 	self settingsPanelWidget morph: morph.
 	self changed: #morph
