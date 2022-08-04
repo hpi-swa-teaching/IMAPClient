@@ -14,7 +14,7 @@
 		"ssl",
 		"inputCollection",
 		"loginMorph",
-		"folderDialogInstance",
+		"folderDialog",
 		"updateMode",
 		"endpoint" ],
 	"name" : "ICLoginDialog",

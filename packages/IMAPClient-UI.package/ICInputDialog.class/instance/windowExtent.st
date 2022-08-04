@@ -1,4 +1,4 @@
 accessing - user interface
-windowExtend
+windowExtent
 
 	^ 250 @ 100

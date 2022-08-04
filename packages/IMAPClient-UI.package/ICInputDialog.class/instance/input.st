@@ -1,4 +1,4 @@
 accessing
 input
 
-	^ input ifNil: ''
+	^ input ifNil: [input := '']
