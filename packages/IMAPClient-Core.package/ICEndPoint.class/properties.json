@@ -12,10 +12,6 @@
 		"readWriter",
 		"connectionHandler",
 		"hierarchyDelimiter",
-		"folderNameOfDrafts",
-		"folderNameOfJunk",
-		"folderNameOfSent",
-		"folderNameOfInbox",
 		"accountSettings" ],
 	"name" : "ICEndPoint",
 	"pools" : [
