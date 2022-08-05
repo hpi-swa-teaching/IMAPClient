@@ -4,12 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "sf 6/24/2021 15:53",
+	"commentStamp" : "Hannes Spitz4 8/5/2022 17:27",
 	"instvars" : [
 		"mailBody",
 		"uids",
 		"isConnected" ],
-	"name" : "ICMockEndpoint",
+	"name" : "ICMockEndPoint",
 	"pools" : [
 		 ],
 	"super" : "ICEndPoint",

@@ -3,7 +3,7 @@ An ICFolderDialog is a toolbuilder-based UI for displaying the folder hierarchy 
 Instance Variables:
 	rootFolder: Virtual root folder of the select account.
 	selectedEmail: Currently selected ICEMail from the e-mail list. Might be nil if non is selected.
-	selectedEndpoint: Selected endpoint indicating the selected account.
+	selectedEndPoint: Selected EndPoint indicating the selected account.
 	selectedFolder: Currently selected ICFolder from the folder list. Might be nil if non is selected.
 	emailAccounts: Collection of all accounts visible in the account list.
 	uninitializedAccounts: Collection of uninitialized accounts.

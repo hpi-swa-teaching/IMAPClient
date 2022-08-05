@@ -1,5 +1,5 @@
 action - endpoints
 fillSettingsOnSwitch
 
-	self selectedNotSyncedFolders: self selectedEndpointSettings notSyncedFolders.
-	self foldersPerMoveMenu: self selectedEndpointSettings foldersPerMoveMenu
+	self selectedNotSyncedFolders: self selectedEndPointSettings notSyncedFolders.
+	self foldersPerMoveMenu: self selectedEndPointSettings foldersPerMoveMenu

@@ -1,4 +1,4 @@
-An ICInputDialog is a password dialog for the current endpoint in the ICFolderDialog.
+An ICInputDialog is a password dialog for the current EndPoint in the ICFolderDialog.
 
 Instance Variables
 	folderDialogInstance: Parent instance of ICFolderDialog.

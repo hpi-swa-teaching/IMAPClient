@@ -5,4 +5,4 @@ setUp
 	
 	self emailContact: (ICContact newWith: 'erika.musterfrau@rocks.de' with: 'Erika Musterfrau') asString.
 	
-	self emailAccounts: ICMockEndpoint new asOrderedCollection
+	self emailAccounts: ICMockEndPoint new asOrderedCollection

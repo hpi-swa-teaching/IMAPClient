@@ -15,5 +15,5 @@ testFoldersPerMoveMenuEnterInvalidNumber
 			assert: warningWindow morphs first message string
 			equals: ICSettingsDialog invalidNumberWarningText.
 		self
-			assert: self settingsDialog model selectedEndpointSettings foldersPerMoveMenu
+			assert: self settingsDialog model selectedEndPointSettings foldersPerMoveMenu
 			equals: defaultNumber asString]

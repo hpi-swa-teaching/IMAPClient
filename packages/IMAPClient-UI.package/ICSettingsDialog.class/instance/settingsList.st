@@ -1,6 +1,6 @@
 accessing
 settingsList
 
-	self selectedEndpoint ifNil: [^ OrderedCollection new].
+	self selectedEndPoint ifNil: [^ OrderedCollection new].
 	
 	^ ICAccountSettings settingNames

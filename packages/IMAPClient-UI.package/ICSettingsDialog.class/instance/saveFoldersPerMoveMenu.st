@@ -11,5 +11,5 @@ saveFoldersPerMoveMenu
 			^ self].
 	
 	self foldersPerMoveMenu: parsedNumber asString.
-	self selectedEndpointSettings foldersPerMoveMenu: parsedNumber asString.
+	self selectedEndPointSettings foldersPerMoveMenu: parsedNumber asString.
 	self changed: #foldersPerMoveMenu

@@ -1,4 +1,4 @@
 accessing - user interface
 itemsPerMoveMenu
 
-	^ self selectedEndpoint accountSettings foldersPerMoveMenu
+	^ self selectedEndPoint accountSettings foldersPerMoveMenu

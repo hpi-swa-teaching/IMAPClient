@@ -1,8 +1,8 @@
 accountManagement
-switchToNewEndpoint
+switchToNewEndPoint
 
-	self selectedEndpoint ifNil: [^ self].
-	self rootFolder: self selectedEndpoint rootFolder.
+	self selectedEndPoint ifNil: [^ self].
+	self rootFolder: self selectedEndPoint rootFolder.
 	self selectedFolder: nil.
 	
 	self

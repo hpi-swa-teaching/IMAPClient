@@ -1,4 +1,4 @@
 accessing
-endPoint: anICMockEndpoint
+endPoint: anICMockEndPoint
 
-	endPoint := anICMockEndpoint
+	endPoint := anICMockEndPoint

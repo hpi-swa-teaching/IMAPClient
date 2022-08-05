@@ -1,5 +1,5 @@
 action - endpoints
-switchToNewEndpoint
+switchToNewEndPoint
 
 	self folders: self getFolderList.
 	self fillSettingsOnSwitch.

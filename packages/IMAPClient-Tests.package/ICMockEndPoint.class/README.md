@@ -1,0 +1,1 @@
+Mock endPoint for offline testing.

@@ -1,4 +1,4 @@
 accessing - account
-labelForAccount: anICEndpoint
+labelForAccount: anICEndPoint
 
-	^ anICEndpoint accountInfo accountName
+	^ anICEndPoint accountInfo accountName
