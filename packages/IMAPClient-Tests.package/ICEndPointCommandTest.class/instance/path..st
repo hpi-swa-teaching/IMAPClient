@@ -1,4 +1,4 @@
 accessing
-path: aPath
+path: aString
 
-	path := aPath
+	path := aString

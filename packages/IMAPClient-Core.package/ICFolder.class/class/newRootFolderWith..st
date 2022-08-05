@@ -1,4 +1,4 @@
 instance creation
-newRootFolderWith: endpoint
+newRootFolderWith: endPoint
 
-	^ self new endpoint: endpoint
+	^ self new endPoint: endPoint

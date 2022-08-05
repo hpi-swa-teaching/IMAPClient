@@ -1,4 +1,4 @@
 accessing
-addressBookDialogMorph: anObject
+addressBookDialogMorph: aMorph
 
-	addressBookDialogMorph := anObject
+	addressBookDialogMorph := aMorph

@@ -2,7 +2,7 @@ io
 deleteAccountFolder
 
 	| filePath folder |
-	folder := self endpoint rootDirectoryName.
+	folder := self endPoint rootDirectoryName.
 	filePath := FileDirectory default / 'Maildir' / folder.
 	filePath assureExistence.
 	FileDirectory new

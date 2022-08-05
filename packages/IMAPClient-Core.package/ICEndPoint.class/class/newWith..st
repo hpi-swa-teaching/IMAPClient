@@ -1,9 +1,9 @@
 instance creation
 newWith: anAccountInfo
 
-	| endpoint |
-	endpoint := self new.
-	endpoint connectionHandler accountInfo: anAccountInfo.
-	endpoint accountSettings: (ICAccountSettings newFrom: endpoint readWriter readAccountSettings).
+	| endPoint |
+	endPoint := self new.
+	endPoint connectionHandler accountInfo: anAccountInfo.
+	endPoint accountSettings: (ICAccountSettings newFrom: endPoint readWriter readAccountSettings).
 	
-	^ endpoint
+	^ endPoint

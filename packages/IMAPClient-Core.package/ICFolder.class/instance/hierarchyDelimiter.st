@@ -1,4 +1,4 @@
 accessing
 hierarchyDelimiter
 
-	^ self endpoint hierarchyDelimiter
+	^ self endPoint hierarchyDelimiter

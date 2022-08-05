@@ -1,21 +1,21 @@
 folderNames
 testRootFolderHashName
 
-	| testEndpoint |
-	testEndpoint := ICEndPoint new.
-	testEndpoint connectionHandler accountInfo: ICAccountInfo new.
+	| testEndPoint |
+	testEndPoint := ICEndPoint new.
+	testEndPoint connectionHandler accountInfo: ICAccountInfo new.
 	
-	testEndpoint connectionHandler accountInfo
+	testEndPoint connectionHandler accountInfo
 		host: 'testHost';
 		username: 'klaus'.
-	self assert: testEndpoint rootDirectoryName equals: '1394373304'.
+	self assert: testEndPoint rootDirectoryName equals: '1394373304'.
 	
-	testEndpoint accountInfo
+	testEndPoint accountInfo
 		host: 'tHost';
 		username: 'klaus'.
-	self assert: testEndpoint rootDirectoryName equals: '8003456151'.
+	self assert: testEndPoint rootDirectoryName equals: '8003456151'.
 	
-	testEndpoint accountInfo
+	testEndPoint accountInfo
 		host: 'abcd';
 		username: 'efgh'.
-	self assert: testEndpoint rootDirectoryName equals: '3788214663'
+	self assert: testEndPoint rootDirectoryName equals: '3788214663'

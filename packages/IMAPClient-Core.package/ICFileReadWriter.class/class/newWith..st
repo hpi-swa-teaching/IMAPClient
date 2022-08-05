@@ -1,6 +1,6 @@
 instance creation
-newWith: anEndpoint
+newWith: anICEndPoint
 
 	^ self new
-		endpoint: anEndpoint;
+		endPoint: anICEndPoint;
 		yourself

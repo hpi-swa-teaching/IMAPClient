@@ -1,4 +1,4 @@
 accessing
-connectionHandler: anObject
+connectionHandler: aConnectionHandler
 
-	connectionHandler := anObject
+	connectionHandler := aConnectionHandler

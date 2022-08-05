@@ -1,4 +1,4 @@
 accessing
 folderDialogInstance
 
-	^ folderDialogInstance
+	^ folderDialog

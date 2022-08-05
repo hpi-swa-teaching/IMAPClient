@@ -1,4 +1,4 @@
 toolbuilder
 saveNotSyncedFolders
 
-	self selectedEndpointSettings notSyncedFolders: self selectedNotSyncedFolders
+	self selectedEndPointSettings notSyncedFolders: self selectedNotSyncedFolders

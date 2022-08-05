@@ -8,7 +8,7 @@ testFetchMailsBeginningAtWithFoundMails
 	self inboxFolder save: emailObjects inReferenceTo: OrderedCollection new.
 	self inboxFolder removeOutdated: self inboxFolder emails basedOn: emailObjects.
 	
-	path := self helper endpoint maildirFileName: self inboxFolder folderName.
+	path := self helper endPoint maildirFileName: self inboxFolder folderName.
 	mailAPath := FileDirectory default fullPathFor: path, FileDirectory slash, emailObjects first id.
 	mailBPath := FileDirectory default fullPathFor: path, FileDirectory slash, emailObjects second id.
 	

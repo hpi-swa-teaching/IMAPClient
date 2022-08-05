@@ -1,4 +1,4 @@
 accessing
-contact: anObject
+contact: aContact
 
-	contact := anObject
+	contact := aContact

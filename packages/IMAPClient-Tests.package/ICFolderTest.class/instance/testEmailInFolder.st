@@ -2,7 +2,7 @@ emailInFolder
 testEmailInFolder
 
 	| folder firstMail |
-	folder := ICFolder named: 'folder' in: self root with: self helper endpoint of: #Generic.
+	folder := ICFolder named: 'folder' in: self root with: self helper endPoint of: #Generic.
 	self helper createAnEmail: folder.
 	firstMail := folder emails first.
 	

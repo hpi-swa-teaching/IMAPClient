@@ -1,4 +1,4 @@
 running
 setUp
 
-	self endpoint: ICEndPoint new
+	self endPoint: ICEndPoint new

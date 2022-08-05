@@ -1,8 +1,8 @@
 instance creation
-open: aFolderDialogInstance
+open: aFolderDialog
 
 	| instance |
 	instance := self new.
-	instance folderDialogInstance: aFolderDialogInstance.
+	instance folderDialog: aFolderDialog.
 	
 	^ ToolBuilder default open: instance

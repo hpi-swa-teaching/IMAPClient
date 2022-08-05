@@ -1,0 +1,4 @@
+accessing
+numberOfEmailsBeforeRemoving
+
+	^ numberOfEmailsBeforeRemoving

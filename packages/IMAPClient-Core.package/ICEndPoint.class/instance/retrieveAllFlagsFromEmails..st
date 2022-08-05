@@ -1,6 +1,6 @@
 protocol handling - fetch
-retrieveAllFlagsFromEmails: anOrderdCollection
+retrieveAllFlagsFromEmails: anOrderedCollection
 
 	self isConnected ifTrue: [
 		self connectionHandler fetchAllFlags.
-		self parseFetchedFlagsAndPopulateFromEmails: anOrderdCollection]
+		self parseFetchedFlagsAndPopulateFromEmails: anOrderedCollection]

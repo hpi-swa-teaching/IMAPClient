@@ -1,4 +1,4 @@
 toolbuilder
 folderListMenu
 
-	^ self folderListMenuForFolders: self allFoldersExceptSelectedAndRoot
+	^ self folderListMenuWithRemainingFolders: self allFoldersExceptSelectedAndRoot

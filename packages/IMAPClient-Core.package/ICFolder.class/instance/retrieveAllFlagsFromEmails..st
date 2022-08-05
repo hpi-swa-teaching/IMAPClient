@@ -1,6 +1,6 @@
 action - update emails
-retrieveAllFlagsFromEmails: anOrderdCollection
+retrieveAllFlagsFromEmails: anOrderedCollection
 
-	self endpoint
+	self endPoint
 		select: self path;
-		retrieveAllFlagsFromEmails: anOrderdCollection
+		retrieveAllFlagsFromEmails: anOrderedCollection

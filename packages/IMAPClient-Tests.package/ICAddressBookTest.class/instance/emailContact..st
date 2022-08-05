@@ -1,4 +1,4 @@
 accessing
-emailContact: anObject
+emailContact: aString
 
-	emailContact := anObject
+	emailContact := aString

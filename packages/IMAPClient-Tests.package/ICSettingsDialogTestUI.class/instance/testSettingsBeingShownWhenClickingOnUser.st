@@ -10,7 +10,7 @@ testSettingsBeingShownWhenClickingOnUser
 	clickableItem click: (MouseButtonEvent new position: (clickableItem bounds origin + (1 @ 1))).
 	self assert: (self existsMorphWithContentWith: (ICAccountSettings displayNames at: (ICAccountSettings notSyncedFoldersID)) in: self subject)"
 
-	self settingsDialog model selectedEndpoint: self emailAccounts first.
+	self settingsDialog model selectedEndPoint: self emailAccounts first.
 	self assert: (self
 		existsMorphWithContent: (ICAccountSettings displayNames at: ICAccountSettings notSyncedFoldersID)
 		in: self subject)

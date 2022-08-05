@@ -1,10 +1,10 @@
 accessing - folder
-folderWith: endpoint
+folderWith: anICEndPoint
 
-	endpoint connectionHandler
+	anICEndPoint connectionHandler
 		checkConnected;
 		checkLoggedIn.
 	
-	^ endpoint
+	^ anICEndPoint
 		listAllFolders;
 		rootFolder

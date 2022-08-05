@@ -1,10 +1,10 @@
-as yet unclassified
+mock methods
 getEmailAccounts
 
-	| endpoint |
-	endpoint := ICMockEndpoint newWith: ICAccountInfo new.
-	endpoint accountInfo accountName: 'testName'.
-	endpoint rootFolder: (ICFolder newRootFolderWith: endpoint).
-	self addTestFoldersTo: endpoint.
+	| endPoint |
+	endPoint := ICMockEndPoint newWith: ICAccountInfo new.
+	endPoint accountInfo accountName: 'testName'.
+	endPoint rootFolder: (ICFolder newRootFolderWith: endPoint).
+	self addTestFoldersTo: endPoint.
 	
-	^ {endpoint} asOrderedCollection
+	^ {endPoint} asOrderedCollection

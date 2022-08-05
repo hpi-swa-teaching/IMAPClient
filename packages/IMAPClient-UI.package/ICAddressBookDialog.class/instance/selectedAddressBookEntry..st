@@ -1,5 +1,5 @@
 accessing
-selectedAddressBookEntry: anObject
+selectedAddressBookEntry: aString
 
-	selectedAddressBookEntry := anObject.
+	selectedAddressBookEntry := aString.
 	self changed: #selectedAddressBookEntry

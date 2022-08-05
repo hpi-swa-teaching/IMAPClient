@@ -1,4 +1,5 @@
 action - remove emails
 moveEmailsToTrash
 
-	[self emails isEmpty] whileFalse: [self endpoint deleteEmail: self emails first]
+	self numberOfEmailsBeforeRemoving: self emails size.
+	'Moving Emails To Trash: ' displaySequentialProgress: [self moveEmailsToTrashProcess]

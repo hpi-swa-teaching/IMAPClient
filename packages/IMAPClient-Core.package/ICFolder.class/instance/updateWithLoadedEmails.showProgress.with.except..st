@@ -3,8 +3,8 @@ updateWithLoadedEmails: anOrderedCollection showProgress: aBoolean with: aBlock 
 
 	| successful |
 	successful := false.
-	self endpoint sendNextCommands.
-	self endpoint isCommandStorageEmpty ifTrue: [
+	self endPoint sendNextCommands.
+	self endPoint isCommandStorageEmpty ifTrue: [
 		aBoolean ifTrue: [self showProgress: aBlock].
 		successful := self updateLoadedEmails: anOrderedCollection.
 		self childFolders

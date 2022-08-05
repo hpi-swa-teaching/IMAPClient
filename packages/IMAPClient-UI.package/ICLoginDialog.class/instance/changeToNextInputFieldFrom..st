@@ -1,4 +1,4 @@
-keyboard handling
+toolbuilder
 changeToNextInputFieldFrom: currentIndex
 
 	| nextSubmorph text |

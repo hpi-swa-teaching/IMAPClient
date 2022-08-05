@@ -2,6 +2,6 @@ accessing
 createAFolder: anName in: anICParentFolder
 
 	| folder |
-	folder := ICFolder named: anName in: anICParentFolder with: self endpoint of: #Generic.
+	folder := ICFolder named: anName in: anICParentFolder with: self endPoint of: #Generic.
 	self writeFolderOnDisk: folder.
 	^ folder

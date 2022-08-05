@@ -1,6 +1,6 @@
 action - emails
-login: anEndpoint with: aString
+login: anICEndPoint with: aString
 
 	aString ifNotEmpty: [
-		anEndpoint accountInfo password: aString.
-		(self passwordPromtCallback: anEndpoint) ifTrue: [self update]]
+		anICEndPoint accountInfo password: aString.
+		(self passwordPromtCallback: anICEndPoint) ifTrue: [self update]]

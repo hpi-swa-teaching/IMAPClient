@@ -11,4 +11,4 @@ Instance Variables
 	loginMorph: 			Morph with the login form.
 	folderDialogInstance: 	Parent instance of ICFolderDialog.
 	updateMode: 			Indicates wheter we update an existing or create a new account.
-	endpoint: 				ICEndpoint instance to talk with.
+	endPoint: 				ICEndPoint instance to talk with.

@@ -1,4 +1,4 @@
 accessing
-reverseMails: anObject
+reverseMails: aBoolean
 
-	reverseMails := anObject
+	reverseMails := aBoolean
