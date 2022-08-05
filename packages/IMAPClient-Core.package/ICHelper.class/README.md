@@ -1,0 +1,1 @@
+An ICHelper is used to create random IDs for Folders and Mails

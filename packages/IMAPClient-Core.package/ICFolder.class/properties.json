@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "jwe 7/28/2016 14:20",
+	"commentStamp" : "FK 8/3/2022 19:26",
 	"instvars" : [
 		"id",
 		"parent",
@@ -12,7 +12,8 @@
 		"folderName",
 		"emails",
 		"endpoint",
-		"folderType" ],
+		"folderType",
+		"numberOfEmailsBeforeRemoving" ],
 	"name" : "ICFolder",
 	"pools" : [
 		 ],
