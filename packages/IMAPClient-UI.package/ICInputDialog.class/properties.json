@@ -8,7 +8,7 @@
 	"instvars" : [
 		"inputMorph",
 		"input",
-		"folderDialogInstance" ],
+		"folderDialog" ],
 	"name" : "ICInputDialog",
 	"pools" : [
 		 ],

@@ -1,15 +1,15 @@
 {
 	"class" : {
 		"dialogTitle" : "SW 8/3/2022 18:25",
-		"open:" : "RJPG 8/4/2022 11:17" },
+		"open:" : "an 8/5/2022 12:08" },
 	"instance" : {
 		"acceptButtonLabel" : "an 6/16/2022 20:29",
 		"buildAcceptButton:" : "RJPG 8/4/2022 11:30",
 		"buildInputField:" : "an 8/3/2022 15:02",
 		"buildWith:" : "an 8/4/2022 11:47",
 		"checkBoxColor" : "an 6/16/2022 20:29",
-		"folderDialogInstance" : "RJPG 8/4/2022 11:15",
-		"folderDialogInstance:" : "RJPG 8/4/2022 11:15",
+		"folderDialog:" : "an 8/5/2022 12:08",
+		"folderDialogInstance" : "an 8/5/2022 12:07",
 		"guiElementHeight" : "SW 7/21/2022 12:13",
 		"guiElementWidth" : "SW 7/21/2022 12:11",
 		"guiElementXOffset" : "an 6/16/2022 20:29",

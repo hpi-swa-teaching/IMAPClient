@@ -1,8 +1,8 @@
 instance creation
-open: aFolderDialogInstance with: anEndpoint 
+open: aFolderDialog with: anEndpoint 
 	"if dialog is opened with existing data, its in update	mode "
 	| instance |
-	instance := self new folderDialogInstance: aFolderDialogInstance;
+	instance := self new folderDialog: aFolderDialog;
 				 data: anEndpoint accountInfo;
 				 updateMode: true;
 				 endpoint: anEndpoint.
