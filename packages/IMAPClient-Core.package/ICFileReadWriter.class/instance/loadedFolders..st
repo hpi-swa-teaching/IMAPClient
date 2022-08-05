@@ -1,4 +1,4 @@
 accessing
-loadedFolders: anOrderdCollection
+loadedFolders: anOrderedCollection
 
-	loadedFolders := anOrderdCollection
+	loadedFolders := anOrderedCollection

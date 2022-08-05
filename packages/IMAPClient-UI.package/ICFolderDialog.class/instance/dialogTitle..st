@@ -1,5 +1,5 @@
 accessing
-dialogTitle: anObject
-
-	dialogTitle := anObject.
+dialogTitle: aString
+	
+	dialogTitle := aString.
 	self changed: #dialogTitle

@@ -1,4 +1,3 @@
 accessing
-contact: anObject
-
-	contact := anObject
+contact: aContact
+	contact := aContact

@@ -1,4 +1,3 @@
 accessing
-storedCommands: anObject
-
-	storedCommands := anObject
+storedCommands: aCommandStorage
+	storedCommands := aCommandStorage

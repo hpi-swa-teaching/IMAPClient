@@ -1,4 +1,4 @@
 accessing
-readWriter: anObject
+readWriter: aReadWriter
 
-	readWriter := anObject
+	readWriter := aReadWriter

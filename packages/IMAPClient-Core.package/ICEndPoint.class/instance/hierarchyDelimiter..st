@@ -1,4 +1,3 @@
 accessing
-hierarchyDelimiter: anObject
-
-	hierarchyDelimiter := anObject
+hierarchyDelimiter: aString
+	hierarchyDelimiter := aString

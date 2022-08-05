@@ -3,6 +3,6 @@
 		"expectedStringRepresentation" : "an 6/16/2022 20:29" },
 	"instance" : {
 		"contact" : "EG 5/22/2021 14:16",
-		"contact:" : "EG 5/22/2021 14:16",
+		"contact:" : "hsp 8/5/2022 20:27",
 		"setUp" : "an 6/16/2022 20:29",
 		"testAsString" : "an 6/16/2022 20:29" } }

@@ -1,4 +1,4 @@
 accessing
-accountInfo: anObject
+accountInfo: anAccountInfo
 
-	accountInfo := anObject
+	accountInfo := anAccountInfo

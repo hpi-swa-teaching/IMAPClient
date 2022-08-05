@@ -1,3 +1,3 @@
 accessing
-numberOfEmailsBeforeRemoving: anObject
-	numberOfEmailsBeforeRemoving := anObject
+numberOfEmailsBeforeRemoving: aNumber
+	numberOfEmailsBeforeRemoving := aNumber

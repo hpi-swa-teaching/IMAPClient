@@ -1,4 +1,3 @@
 accessing
-uids: anObject
-
-	uids := anObject
+uids: anOrderedCollection
+	uids := anOrderedCollection

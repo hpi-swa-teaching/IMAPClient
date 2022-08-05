@@ -1,4 +1,3 @@
 accessing
-lastResponse: anObject
-
-	lastResponse := anObject
+lastResponse: anOrderedCollection
+	lastResponse := anOrderedCollection

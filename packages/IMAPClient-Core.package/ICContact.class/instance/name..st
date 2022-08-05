@@ -1,4 +1,3 @@
 accessing
-name: anObject
-
-	name := anObject
+name: aString
+	name := aString
