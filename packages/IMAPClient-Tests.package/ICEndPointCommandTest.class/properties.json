@@ -9,7 +9,8 @@
 		"helper",
 		"endPoint",
 		"rootFolder",
-		"inboxFolder" ],
+		"inboxFolder",
+		"path" ],
 	"name" : "ICEndPointCommandTest",
 	"pools" : [
 		 ],

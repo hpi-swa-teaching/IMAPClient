@@ -1,5 +1,6 @@
 testing
 testHiddenFoldersPreselected
+
 	self settingsDialog model selectedEndpoint: self emailAccounts first.
 	self subject findByName: ICSettingsDialog nameSettingsPanel.
 	self settingsDialog model selectedNotSyncedFolders: {'testFolder'} asOrderedCollection.
