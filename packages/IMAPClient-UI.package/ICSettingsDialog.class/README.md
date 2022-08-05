@@ -1,4 +1,5 @@
 An ICSettingsDialog is a window to adjust the settings of a selected Endpoint.
+To add a setting named <name>, you need to add build method for the user interface as a message called build<name>. This message needs to be added to 'uiBuilders'. You also need a save<name> message that needs to be added to saveActions.
 
 Instance Variables
 	emailAccounts: 		collection of Endpoints
