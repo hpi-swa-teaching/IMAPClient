@@ -2,4 +2,3 @@ mockMethods
 readAccountSettings
 
 	^ JsonObject new
-	
