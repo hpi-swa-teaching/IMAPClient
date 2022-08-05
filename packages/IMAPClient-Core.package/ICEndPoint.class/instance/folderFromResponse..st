@@ -5,6 +5,6 @@ folderFromResponse: responseLine
 	folderPath := self setFolderNamePath: responseLine.
 	folderType := self getFolderType: responseLine.
 	
-	parent := self addFolderTo: self rootFolder with: folderPath first with: folderType.
+	parent := self addFolderTo: self rootFolder named: folderPath first ofType: folderType.
 	self updateFolderType: parent with: folderType.
-	folderPath allButFirst do: [:name | self addFolderTo: parent with: name with: folderType]
+	folderPath allButFirst do: [:name | self addFolderTo: parent named: name ofType: folderType]

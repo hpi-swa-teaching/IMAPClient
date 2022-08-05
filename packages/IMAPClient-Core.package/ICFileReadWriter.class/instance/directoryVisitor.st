@@ -5,7 +5,6 @@ directoryVisitor
 		directory = self rootDirectory ifFalse: [
 			folderName := directory pathParts last.
 			matchingFolder := self loadedFolders select: [:folder | folder folderName = folderName].
-			
 			matchingFolder isEmpty
 				ifTrue: [
 					currentFolder := ICFolder

@@ -1,4 +1,6 @@
 navigating
-navigateFromAddressBookToAddContact: aMorph
+navigateFromAddressBookToAddContact: anAddressBookMorph
 
-	^ self navigateFrom: aMorph toNamedMorph: ICAddressBookDialog nameAddContactButton
+	^ self
+		getWindowFromClickIn: anAddressBookMorph
+		onButtonNamed: ICAddressBookDialog nameAddContactButton

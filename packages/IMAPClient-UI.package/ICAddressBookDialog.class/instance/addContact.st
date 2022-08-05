@@ -1,4 +1,4 @@
 action
 addContact
 
-	ICContactDialog open: self
+	ICContactDialog openWith: self

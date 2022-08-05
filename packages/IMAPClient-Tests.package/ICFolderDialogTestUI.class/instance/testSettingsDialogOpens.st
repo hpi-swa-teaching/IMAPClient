@@ -2,8 +2,6 @@ testing
 testSettingsDialogOpens
 
 	| openSettingsButton settingsWindow |
-	
 	openSettingsButton := self subject findByName: ICFolderDialog nameSettingsWindowButton.
 	settingsWindow := self getOpenedWindowWithClickOn: openSettingsButton.
-	self assert: settingsWindow label equals: ICSettingsDialog dialogTitle.
-	
+	self assert: settingsWindow label equals: ICSettingsDialog dialogTitle

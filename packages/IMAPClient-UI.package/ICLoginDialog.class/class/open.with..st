@@ -1,12 +1,9 @@
 instance creation
-open: aFolderDialogInstance with: anEndpoint
-
+open: aFolderDialogInstance with: anEndpoint 
+	"if dialog is opened with existing data, its in update	mode "
 	| instance |
-	"if dialog is opened with existing data, its in update mode"
-	instance := self new.
-	instance folderDialogInstance: aFolderDialogInstance.
-	instance data: anEndpoint accountInfo.
-	instance updateMode: true.
-	instance endpoint: anEndpoint.
-	
+	instance := self new folderDialogInstance: aFolderDialogInstance;
+				 data: anEndpoint accountInfo;
+				 updateMode: true;
+				 endpoint: anEndpoint.
 	^ ToolBuilder default open: instance

@@ -7,7 +7,6 @@ saveFoldersPerMoveMenu
 		parsedNumber < 1 ifTrue: [NumberParserError signal]]
 		on: NumberParserError
 		do: [
-			"UIManager inform: self class invalidNumberWarningText."
 			self buildInfoWindowContaining: #invalidInputText.
 			^ self].
 	

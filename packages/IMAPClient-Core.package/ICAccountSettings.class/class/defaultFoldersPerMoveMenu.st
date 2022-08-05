@@ -1,4 +1,4 @@
 instance creation
 defaultFoldersPerMoveMenu
 
-	 ^ 14 asString
+	^ 14 asString

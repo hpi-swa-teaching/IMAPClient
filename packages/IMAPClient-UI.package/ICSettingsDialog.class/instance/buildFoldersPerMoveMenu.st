@@ -13,7 +13,7 @@ buildFoldersPerMoveMenu
 		editText: #foldersPerMoveMenu:;
 		help: #helpText).
 	
-	morph extent: settingsPanelWidget extent.
+	morph extent: self settingsPanelWidget extent.
 	
 	self settingsPanelWidget morph: morph.
 	self changed: #morph

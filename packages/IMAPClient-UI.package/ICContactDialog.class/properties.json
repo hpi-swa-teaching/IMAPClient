@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "sf 5/13/2021 08:55",
 	"instvars" : [
-		"instance",
 		"contactName",
 		"addressBookDialog",
 		"contactEmail" ],

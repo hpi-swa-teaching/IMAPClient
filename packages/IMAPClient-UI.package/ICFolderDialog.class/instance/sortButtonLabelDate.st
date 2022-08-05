@@ -1,6 +1,10 @@
 action - sorting/filter
 sortButtonLabelDate
-
-	self sortMethod = #date
-		ifTrue: [self reverseMails ifTrue: [^ 'Date (desc)'] ifFalse: [^ 'Date (asc)']]
-		ifFalse: [^ 'Date']
+	
+	| sortingLabel |
+	
+	sortingLabel := self class sortButtonLabels at: #date.
+	
+	self sortingMethod = #date
+		ifTrue: [self reverseMails ifTrue: [^ sortingLabel, ' (desc)'] ifFalse: [^ sortingLabel, ' (asc)']]
+		ifFalse: [^ sortingLabel]

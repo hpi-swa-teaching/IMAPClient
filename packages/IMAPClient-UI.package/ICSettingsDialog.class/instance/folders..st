@@ -1,4 +1,4 @@
 accessing
-folders: aFolderArray
+folders: anOrderedCollection
 
-	folders := aFolderArray
+	folders := anOrderedCollection

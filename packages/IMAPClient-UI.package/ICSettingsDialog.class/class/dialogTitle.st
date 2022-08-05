@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 dialogTitle
 
 	^ 'Settings | reopen client or sync for changes to apply'

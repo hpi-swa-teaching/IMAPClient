@@ -1,13 +1,16 @@
 helper
 getOpenedWindowWithClickOn: aButtonMorph
 
-	| openedWindow openedWindowCandidates currentWorld morphsInWorld wrappedOpenedWindow |
+	| openedWindow openedWindowCandidates currentWorld morphsBeforeClick wrappedOpenedWindow |
 	currentWorld := self subject world.
-	morphsInWorld := currentWorld submorphs.
+	morphsBeforeClick := currentWorld submorphs.
+	
 	aButtonMorph click.
-	openedWindowCandidates := currentWorld submorphs difference: morphsInWorld.
+	openedWindowCandidates := currentWorld submorphs difference: morphsBeforeClick.
 	self assert: 1 equals: openedWindowCandidates size.
+	
 	openedWindow := openedWindowCandidates first.
 	wrappedOpenedWindow := self wrapMTFMorphAround: openedWindow.
 	self openedWindows add: wrappedOpenedWindow.
+	
 	^ wrappedOpenedWindow

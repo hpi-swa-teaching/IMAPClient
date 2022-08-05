@@ -1,4 +1,0 @@
-accessing
-folderNameOfInbox
-
-	^ folderNameOfInbox

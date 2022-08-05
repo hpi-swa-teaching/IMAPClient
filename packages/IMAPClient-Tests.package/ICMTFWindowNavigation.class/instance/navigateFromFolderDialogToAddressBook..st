@@ -1,4 +1,4 @@
 navigating
-navigateFromFolderDialogToAddressBook: aMorph
+navigateFromFolderDialogToAddressBook: aFolderDialogMorph
 
-	^ self navigateFrom: aMorph toNamedMorph: ICFolderDialog nameAddressBookButton
+	^ self getWindowFromClickIn: aFolderDialogMorph onButtonNamed: ICFolderDialog nameAddressBookButton
