@@ -1,5 +1,5 @@
 adding entries
-testFeedWithEntries
+testAddEntries
 
 	self emailAccounts do: [:account | account rootFolder: (ICFolder new emails: self class emails)].
 	

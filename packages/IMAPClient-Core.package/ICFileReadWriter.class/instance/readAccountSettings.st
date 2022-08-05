@@ -5,5 +5,5 @@ readAccountSettings
 		^ Json readFrom: (self rootDirectory
 			assureExistence;
 			fileNamed: 'settings')]
-		on: JsonIncompleteError
+		on: Error
 		do: [^ JsonObject new]

@@ -2,7 +2,8 @@
 	"class" : {
 		"testFolderNames" : "an 8/2/2022 15:15" },
 	"instance" : {
+		"addTestFoldersTo:" : "hsp 8/5/2022 20:11",
 		"closeConnection" : "JS 8/2/2022 20:06",
-		"getEmailAccounts" : "Hannes Spitz4 8/5/2022 17:27",
+		"getEmailAccounts" : "hsp 8/5/2022 20:12",
 		"initialize" : "an 8/2/2022 15:01",
 		"itemsPerMoveMenu" : "SW 6/27/2022 11:57" } }

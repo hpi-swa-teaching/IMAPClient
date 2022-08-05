@@ -1,4 +1,4 @@
 accessing
 sortingMethod: aSymbol
 
-	sortMethod := aSymbol
+	sortingMethod := aSymbol
