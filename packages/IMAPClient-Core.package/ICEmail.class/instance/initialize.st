@@ -1,4 +1,4 @@
-accessing-header
+initialization
 initialize
 
 	self

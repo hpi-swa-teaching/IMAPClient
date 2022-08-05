@@ -8,8 +8,7 @@
 	"instvars" : [
 		"inputMorph",
 		"input",
-		"closingMethod",
-		"owner" ],
+		"folderDialog" ],
 	"name" : "ICInputDialog",
 	"pools" : [
 		 ],

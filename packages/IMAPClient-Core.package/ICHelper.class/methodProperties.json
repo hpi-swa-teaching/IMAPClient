@@ -2,6 +2,9 @@
 	"class" : {
 		"getRandomCharacter" : "RJPG 7/27/2022 18:25",
 		"getRandomID" : "RJPG 7/27/2022 18:25",
-		"getRandomIDOfLength:" : "RJPG 7/27/2022 18:25" },
+		"getRandomIDOfLength:" : "RJPG 7/27/2022 18:25",
+		"keyEvent:ifTrue:" : "RJPG 8/4/2022 11:06",
+		"linuxCarriageReturn" : "RJPG 8/4/2022 11:06",
+		"winCarriageReturn" : "RJPG 8/4/2022 11:06" },
 	"instance" : {
 		 } }

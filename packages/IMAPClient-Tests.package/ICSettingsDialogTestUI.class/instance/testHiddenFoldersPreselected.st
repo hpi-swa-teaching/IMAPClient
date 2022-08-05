@@ -10,4 +10,4 @@ testHiddenFoldersPreselected
 	
 	self saveButton click.
 	self assert: self settingsDialog model selectedNotSyncedFolders size equals: 1.
-	self assert: self settingsDialog model selectedEndpointSettings notSyncedFolders size equals: 1.
+	self assert: self settingsDialog model selectedEndpointSettings notSyncedFolders size equals: 1

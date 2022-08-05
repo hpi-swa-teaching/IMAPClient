@@ -1,35 +1,19 @@
 testing
 testSearchForContactsInEmails
 
-	| addressBook contactWindow nameInput emailInput emailFolder searchBar emailAddress1 emailAddress2 |
-	"SetUp"
-	emailAddress1 := 'TestName@de.de'.
-	emailAddress2 := 'AnotherName@de.de'.
-	self testFolder: (ICFolder new folderName: 'testFolder').
-	self folderDialog rootFolder addFolder: self testFolder.
-	self testFolder addMails: {
-		self getMailIn: self testFolder from: emailAddress1.
-		self getMailIn: self testFolder from: emailAddress2}.
-	self folderDialog triggerEmailChanges.
+	| searchBar emailAddress1 emailAddress2 |
+	emailAddress1 := self emailAddresses first.
+	emailAddress2 := self emailAddresses second.
 	
-	"Add Contact to AddressBook"
-	addressBook := self navigateFromFolderDialogToAddressBook: self subject.
-	contactWindow := self navigateFromAddressBookToAddContact: addressBook.
-	nameInput := contactWindow findByName: ICContactDialog nameNameInputField.
-	emailInput := contactWindow findByName: ICContactDialog nameEmailInputField.
-	nameInput sendKeys: 'Anton'.
-	emailInput sendKeys: emailAddress1.
-	(contactWindow findByName: ICContactDialog nameAcceptButton) click.
-	super abandonOpenedWindows.
+	self setUpFolderAndMails.
+	self addContactToAddressBookWith: emailAddress1.
 	
-	"Search for Contact and Test"
-	emailFolder := self findBySubstringInContents: self testFolder folderName in: self subject.
-	self folderDialog selectedFolder: self testFolder.
-	self assert: true equals: (self existsMorphWithContent: emailAddress1 in: self subject).
-	self assert: true equals: (self existsMorphWithContent: emailAddress2 in: self subject).
+	self folderDialog selectedFolder: self folder.
+	self assert: (self existsMorphWithContent: emailAddress1 in: self subject).
+	self assert: (self existsMorphWithContent: emailAddress2 in: self subject).
 	
 	searchBar := self subject findByName: ICFolderDialog nameEmailSearch.
-	searchBar sendKeys: 'Anton'.
+	searchBar sendKeys: self contactName.
 	
-	self assert: true equals: (self existsMorphWithContent: emailAddress1 in: self subject).
-	self assert: false equals: (self existsMorphWithContent: emailAddress2 in: self subject)
+	self assert: (self existsMorphWithContent: emailAddress1 in: self subject).
+	self deny: (self existsMorphWithContent: emailAddress2 in: self subject)

@@ -1,4 +1,4 @@
 accessing - user interface
 nameHelpText
 
-	^ 'name (arbitrarily)'
+	^ 'name (arbitrary)'

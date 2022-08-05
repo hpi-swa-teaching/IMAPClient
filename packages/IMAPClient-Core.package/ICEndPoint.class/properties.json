@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		"ConnectionConfigurations" ],
-	"commentStamp" : "EG 6/18/2021 10:54",
+	"commentStamp" : "FK 8/3/2022 19:19",
 	"instvars" : [
 		"rootFolder",
 		"currentFolderName",
@@ -12,10 +12,6 @@
 		"readWriter",
 		"connectionHandler",
 		"hierarchyDelimiter",
-		"folderNameOfDrafts",
-		"folderNameOfJunk",
-		"folderNameOfSent",
-		"folderNameOfInbox",
 		"accountSettings" ],
 	"name" : "ICEndPoint",
 	"pools" : [

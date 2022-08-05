@@ -8,7 +8,6 @@ fetchMailsBeginningAt: aBeginUID number: numberOfMessages
 	
 	possibleUID := self currentUIDs select: [:uid | uid asNumber < aBeginUID].
 	possibleUID size < numberToFetch ifTrue: [numberToFetch := possibleUID size].
-	
 	numberToFetch = 0 ifTrue: [^ OrderedCollection new].
 	
 	possibleUID := possibleUID

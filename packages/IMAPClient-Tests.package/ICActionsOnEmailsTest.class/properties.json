@@ -9,7 +9,7 @@
 		"email",
 		"helper",
 		"trashFolder",
-		"testFolder" ],
+		"folder" ],
 	"name" : "ICActionsOnEmailsTest",
 	"pools" : [
 		 ],

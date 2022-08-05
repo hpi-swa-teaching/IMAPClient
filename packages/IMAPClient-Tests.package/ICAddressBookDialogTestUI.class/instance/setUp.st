@@ -1,6 +1,6 @@
 running
 setUp
-	
+
 	self addressBook: ICAddressBook new.
 	self addressBook removeAll.
 	self addressBook addAll: self contactList.

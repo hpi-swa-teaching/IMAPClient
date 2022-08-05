@@ -1,4 +1,4 @@
 accessing
 getNameFromContactString: aString
 
-	^(aString splitBy: Character tab asString) first
+	^ (aString splitBy: Character tab asString) first
