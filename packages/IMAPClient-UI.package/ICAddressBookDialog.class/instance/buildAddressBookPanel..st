@@ -7,5 +7,5 @@ buildAddressBookPanel: builder
 		frame: (0.0 @ 0.0 extent: 1 @ self buttonOffset);
 		children: {
 			self buildAddContactButton: builder.
-			self buildAddSortByNameButton:builder.
+			self buildAddSortByNameButton: builder.
 			self buildAddSortByMailButton: builder}

@@ -1,8 +1,9 @@
 {
 	"class" : {
-		"testFolderNames" : "an 8/2/2022 15:15" },
+		"testFolderNames" : "an 8/5/2022 19:14" },
 	"instance" : {
-		"closeConnection" : "JS 8/2/2022 20:06",
-		"getEmailAccounts" : "an 8/2/2022 15:15",
+		"addTestFoldersTo:" : "an 8/5/2022 19:22",
+		"closeConnection" : "an 8/5/2022 19:14",
+		"getEmailAccounts" : "an 8/5/2022 19:17",
 		"initialize" : "an 8/2/2022 15:01",
 		"itemsPerMoveMenu" : "SW 6/27/2022 11:57" } }

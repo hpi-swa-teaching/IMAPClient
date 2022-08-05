@@ -12,4 +12,4 @@ testRetrieveFlagsDefault
 	self assert: mailA deleted equals: false.
 	self assert: mailB seen equals: false.
 	self assert: mailB flagged equals: false.
-	self assert: mailB deleted equals: false.
+	self assert: mailB deleted equals: false
