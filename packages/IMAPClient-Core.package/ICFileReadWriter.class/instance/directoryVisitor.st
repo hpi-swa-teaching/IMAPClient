@@ -10,7 +10,7 @@ directoryVisitor
 					currentFolder := ICFolder
 						named: folderName
 						in: (self directoryToFolderDictionary at: directory containingDirectory)
-						with: self endpoint
+						with: self endPoint
 						of: #Generic]
 				ifFalse: [
 					self assert: matchingFolder size = 1 description: 'Critical Error. FolderName is not Unique!'.

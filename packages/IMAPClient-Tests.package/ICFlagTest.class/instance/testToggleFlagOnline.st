@@ -1,7 +1,7 @@
 tests
 testToggleFlagOnline
 
-	self helper endpoint isConnected: true.
+	self helper endPoint isConnected: true.
 	
 	self emails first flagged: true.
 	self emails second flagged: false.

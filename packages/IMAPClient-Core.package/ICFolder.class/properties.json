@@ -11,9 +11,9 @@
 		"childFolders",
 		"folderName",
 		"emails",
-		"endpoint",
 		"folderType",
-		"numberOfEmailsBeforeRemoving" ],
+		"numberOfEmailsBeforeRemoving",
+		"endPoint" ],
 	"name" : "ICFolder",
 	"pools" : [
 		 ],

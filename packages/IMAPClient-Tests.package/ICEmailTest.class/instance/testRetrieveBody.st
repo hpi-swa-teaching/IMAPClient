@@ -7,7 +7,7 @@ testRetrieveBody
 	
 	folder := ICFolder new.
 	folder
-		endpoint: endpoint;
+		endPoint: endpoint;
 		folderName: 'dummy';
 		parent: nil.
 	

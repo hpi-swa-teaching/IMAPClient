@@ -16,7 +16,7 @@
 		"loginMorph",
 		"folderDialog",
 		"updateMode",
-		"endpoint" ],
+		"endPoint" ],
 	"name" : "ICLoginDialog",
 	"pools" : [
 		 ],

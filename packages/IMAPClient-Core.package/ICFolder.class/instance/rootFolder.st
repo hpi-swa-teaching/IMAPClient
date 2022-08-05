@@ -1,4 +1,4 @@
 accessing
 rootFolder
 
-	^ self endpoint rootFolder
+	^ self endPoint rootFolder

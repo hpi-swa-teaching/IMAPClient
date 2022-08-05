@@ -3,8 +3,8 @@ initializeRootFolder
 
 	| rootfolder |
 	rootfolder := ICFolder new.
-	self endpoint rootFolder: rootfolder.
+	self endPoint rootFolder: rootfolder.
 	rootfolder
-		endpoint: self endpoint;
+		endPoint: self endPoint;
 		parent: rootfolder;
 		folderName: 'rootFolder'

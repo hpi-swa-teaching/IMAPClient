@@ -2,5 +2,5 @@ instance creation
 newWith: anEndpoint
 
 	^ self new
-		endpoint: anEndpoint;
+		endPoint: anEndpoint;
 		yourself

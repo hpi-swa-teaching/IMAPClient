@@ -7,5 +7,5 @@ open: aFolderDialog with: anEndpoint
 		folderDialog: aFolderDialog;
 		data: anEndpoint accountInfo;
 		updateMode: true;
-		endpoint: anEndpoint.
+		endPoint: anEndpoint.
 	^ ToolBuilder default open: instance
