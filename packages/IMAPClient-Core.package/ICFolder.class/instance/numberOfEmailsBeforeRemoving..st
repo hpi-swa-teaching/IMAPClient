@@ -1,0 +1,3 @@
+accessing
+numberOfEmailsBeforeRemoving: anObject
+	numberOfEmailsBeforeRemoving := anObject

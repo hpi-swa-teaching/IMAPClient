@@ -1,8 +1,8 @@
 initialize-release
 initialize
 
-	self endpoint: ICMockEndpoint new.
-	self endpoint connectionHandler storedCommands: ICMockCommandStorage new.
+	self endPoint: ICMockEndPoint new.
+	self endPoint connectionHandler storedCommands: ICMockCommandStorage new.
 	self initializeRootFolder.
 	
 	self reset

@@ -1,4 +1,3 @@
 accessing
-path: aPath
-
-	path := aPath
+path: anObject
+	path := anObject

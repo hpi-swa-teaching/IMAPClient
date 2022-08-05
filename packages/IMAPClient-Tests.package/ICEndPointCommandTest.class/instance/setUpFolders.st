@@ -2,8 +2,8 @@ running
 setUpFolders
 
 	self rootFolder: ICFolder new.
-	self rootFolder endpoint: self helper endpoint.
-	self helper endpoint
+	self rootFolder endPoint: self helper endPoint.
+	self helper endPoint
 		rootFolder: self rootFolder;
 		currentFolderName: 'inbox';
 		hierarchyDelimiter: '\'.

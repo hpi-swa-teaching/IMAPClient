@@ -2,7 +2,7 @@ delete file
 delete: anICEmail in: anICFolder
 
 	| filePath |
-	filePath := self endpoint maildirFileName: anICFolder folderName.
+	filePath := self endPoint maildirFileName: anICFolder folderName.
 	FileDirectory default / filePath
 		deleteFileNamed: anICEmail id
 		ifAbsent: [CannotDeleteFileException new messageText: 'file not found: ', filePath, FileDirectory slash, anICEmail id].

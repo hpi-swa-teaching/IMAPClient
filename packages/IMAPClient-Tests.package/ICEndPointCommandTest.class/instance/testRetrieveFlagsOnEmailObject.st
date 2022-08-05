@@ -18,4 +18,4 @@ testRetrieveFlagsOnEmailObject
 	
 	FileDirectory default
 		deleteFileNamed: (FileDirectory default fullPathFor: self path, FileDirectory slash, mailA id);
-		deleteFileNamed: (FileDirectory default fullPathFor: self path, FileDirectory slash, mailB id)
+		deleteFileNamed: (FileDirectory default fullPathFor: self path, FileDirectory slash, mailB id).

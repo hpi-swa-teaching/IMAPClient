@@ -5,9 +5,9 @@ testRetrieveFlagsConsitency
 	emailObjects := self setUpRetieveFlagsTests.
 	mailA := emailObjects first.
 	mailB := emailObjects second.
-	
+
 	self endPoint retrieveFlagsFrom: 3 to: 4 in: mailA folder.
-	
+
 	mailAPath := FileDirectory default fullPathFor: self path, FileDirectory slash, mailA id.
 	mailBPath := FileDirectory default fullPathFor: self path, FileDirectory slash, mailB id.
 	mailAonDisk := ICEmail newFromJsonStream: (FileStream readOnlyFileNamed: mailAPath).

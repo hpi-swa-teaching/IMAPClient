@@ -9,7 +9,7 @@
 		"addressBook",
 		"selectedAddressBookEntry",
 		"emailAccounts",
-		"sortingMethod",
+		"sortMethod",
 		"addressBookDialogMorph",
 		"sortedReversed" ],
 	"name" : "ICAddressBookDialog",

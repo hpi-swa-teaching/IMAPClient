@@ -11,4 +11,4 @@ setUpRetieveFlagsTests
 	folderName := self endPoint rootDirectoryName.
 	self path: 'Maildir', FileDirectory slash, folderName, FileDirectory slash, 'inbox'.
 	
-	^ {mailA. mailB}
+	^{mailA. mailB}

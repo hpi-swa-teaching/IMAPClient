@@ -1,4 +1,4 @@
 constants
 dialogTitle
 
-	^ 'IMAP Settings | reopen client or sync for changes to apply'
+	^ 'Settings | reopen client or sync for changes to apply'

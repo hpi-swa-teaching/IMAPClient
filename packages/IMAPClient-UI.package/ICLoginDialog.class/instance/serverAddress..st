@@ -3,6 +3,6 @@ serverAddress: aText
 
 	(self lastCharacterIsTab: aText string)
 		ifFalse: [serverAddress := aText withBlanksTrimmed]
-		ifTrue: [self changeToNextInputFieldFrom: (self textFieldNames indexOf: #serverAddress)].
+		ifTrue: [self changeInputField: 2].
 	
 	self changed: #serverAddress

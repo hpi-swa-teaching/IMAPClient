@@ -1,9 +1,9 @@
 accessing
 emailAccounts
 
-	| endpoint |
-	endpoint := ICMockEndpoint newWith: ICAccountInfo new.
-	endpoint accountInfo accountName: self accountName.
-	endpoint rootFolder: (ICFolder newRootFolderWith: endpoint).
-	ICFolder named: self folderName in: endpoint rootFolder with: endpoint of: #Generic.
-	^ {endpoint} asOrderedCollection
+	| endPoint |
+	endPoint := ICMockEndPoint newWith: ICAccountInfo new.
+	endPoint accountInfo accountName: self accountName.
+	endPoint rootFolder: (ICFolder newRootFolderWith: endPoint).
+	ICFolder named: self folderName in: endPoint rootFolder with: endPoint of: #Generic.
+	^ {endPoint} asOrderedCollection

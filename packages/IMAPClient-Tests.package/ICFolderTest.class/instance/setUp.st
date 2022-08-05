@@ -2,5 +2,5 @@ running
 setUp
 
 	self helper: ICSetUpTestHelper new.
-	self helper endpoint readWriter: (ICFileReadWriter new endpoint: self helper endpoint).
-	self root: self helper endpoint rootFolder
+	self helper endPoint readWriter: (ICFileReadWriter new endPoint: self helper endPoint).
+	self root: self helper endPoint rootFolder.

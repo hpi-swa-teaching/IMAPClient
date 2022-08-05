@@ -1,7 +1,7 @@
 accessing
 selectedSetting: aSymbol
 
-	aSymbol = self selectedEndpoint ifFalse: [
+	aSymbol = self selectedEndPoint ifFalse: [
 		selectedSetting := aSymbol.
 		self switchToNewSetting].
 	

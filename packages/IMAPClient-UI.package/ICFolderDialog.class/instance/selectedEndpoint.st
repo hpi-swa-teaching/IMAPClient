@@ -1,4 +1,0 @@
-accessing
-selectedEndpoint
-
-	^ selectedEndpoint

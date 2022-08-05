@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "RJPG 8/4/2022 11:26",
+	"commentStamp" : "Hannes Spitz4 8/5/2022 17:34",
 	"instvars" : [
 		"inputMorph",
 		"input",
-		"folderDialogInstance" ],
+		"folderDialog" ],
 	"name" : "ICInputDialog",
 	"pools" : [
 		 ],

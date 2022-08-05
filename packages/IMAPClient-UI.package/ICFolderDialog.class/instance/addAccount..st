@@ -1,11 +1,11 @@
 accountManagement
 addAccount: anAccountInfo
 
-	| endpoint |
-	endpoint := ICEndPoint newWith: anAccountInfo.
-	endpoint connectAndLogin ifTrue: [
-		self emailAccounts add: endpoint.
-		self folderWith: endpoint.
-		endpoint preventTimeout.
+	| endPoint |
+	endPoint := ICEndPoint newWith: anAccountInfo.
+	endPoint connectAndLogin ifTrue: [
+		self emailAccounts add: endPoint.
+		self folderWith: endPoint.
+		endPoint preventTimeout.
 		self changed: #emailAccounts.
-		self addAccountInfoToEndpointConfigWithoutPassword: anAccountInfo]
+		self addAccountInfoToEndPointConfigWithoutPassword: anAccountInfo]

@@ -1,8 +1,8 @@
 action - emails
-updateEndPoint: anICEndpoint
+updateEndPoint: anICEndPoint
 
-	^ anICEndpoint rootFolder
-		startUpdateWithLoadedEmails: anICEndpoint collectAllEmails
+	^ anICEndPoint rootFolder
+		startUpdateWithLoadedEmails: anICEndPoint collectAllEmails
 		showProgress: true
 		with: [self progressCallback]
-		except: anICEndpoint accountSettings notSyncedFolders
+		except: anICEndPoint accountSettings notSyncedFolders
