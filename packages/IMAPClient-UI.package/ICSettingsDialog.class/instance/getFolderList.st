@@ -1,4 +1,4 @@
 accessing
 getFolderList
 
-	^ self selectedEndPoint folderNameList
+	^ self selectedEndpoint folderNameList

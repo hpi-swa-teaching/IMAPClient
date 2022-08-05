@@ -1,6 +1,4 @@
 accessing
 collectAllChildFolders
 
-	^ self collectAllFolders
-		remove: self;
-		yourself
+	^ self collectAllFolders remove: self

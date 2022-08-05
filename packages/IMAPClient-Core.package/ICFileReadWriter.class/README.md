@@ -2,4 +2,4 @@ An ICFileReadWriter is a JSON File Writer and Reader handling the file system st
 
 Instance Variables:
 	directoryToFolderDictionary: Dictionary that maps a folder instance to each directory.
-	endPoint: EndPoint instance.
+	endpoint: Endpoint instance.

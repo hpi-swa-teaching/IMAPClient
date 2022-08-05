@@ -2,9 +2,9 @@ running
 setUp
 
 	self helper: ICSetUpTestHelper new.
-	self helper endPoint: ICEndPoint new.
-	self helper endPoint
+	self helper endpoint: ICEndPoint new.
+	self helper endpoint
 		folderNameOfTrash: self trashFolderName;
-		readWriter: (ICFileReadWriter new endPoint: self helper endPoint).
+		readWriter: (ICFileReadWriter new endpoint: self helper endpoint).
 	self setUpConnectionHandler.
 	self setUpFolder

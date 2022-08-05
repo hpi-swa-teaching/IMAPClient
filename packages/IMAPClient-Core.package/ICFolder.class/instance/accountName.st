@@ -1,4 +1,4 @@
 accessing
 accountName
 
-	^ self endPoint accountName
+	^ self endpoint accountName

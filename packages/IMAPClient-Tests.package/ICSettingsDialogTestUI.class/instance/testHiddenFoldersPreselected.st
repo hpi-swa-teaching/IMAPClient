@@ -1,7 +1,7 @@
 testing
 testHiddenFoldersPreselected
 
-	self settingsDialog model selectedEndPoint: self emailAccounts first.
+	self settingsDialog model selectedEndpoint: self emailAccounts first.
 	self subject findByName: ICSettingsDialog nameSettingsPanel.
 	
 	self settingsDialog model selectedNotSyncedFolders: {self folderName} asOrderedCollection.
@@ -10,4 +10,4 @@ testHiddenFoldersPreselected
 	
 	self saveButton click.
 	self assert: self settingsDialog model selectedNotSyncedFolders size equals: 1.
-	self assert: self settingsDialog model selectedEndPointSettings notSyncedFolders size equals: 1
+	self assert: self settingsDialog model selectedEndpointSettings notSyncedFolders size equals: 1

@@ -2,7 +2,7 @@ running
 setUpConnectionHandler
 
 	| connectionHandler |
-	connectionHandler := self helper endPoint connectionHandler.
+	connectionHandler := self helper endpoint connectionHandler.
 	connectionHandler
 		stream: ICMockSocketStream new;
 		loggedIn: true.

@@ -2,7 +2,7 @@ write file
 write: anICEmail in: anICFolder
 
 	| folderPath |
-	folderPath := self endPoint maildirFileName: anICFolder folderName.
+	folderPath := self endpoint maildirFileName: anICFolder folderName.
 	(FileDirectory default / folderPath) assureExistence.
 	FileStream forceNewFileNamed: folderPath, FileDirectory slash, anICEmail id do: [:stream |
 		stream

@@ -1,4 +1,4 @@
 accessing
 isRootFolder
 
-	^ self == self endPoint rootFolder
+	^ self == self endpoint rootFolder

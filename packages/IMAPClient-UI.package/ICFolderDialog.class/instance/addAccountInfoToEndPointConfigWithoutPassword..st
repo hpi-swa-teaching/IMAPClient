@@ -1,5 +1,0 @@
-accountManagement
-addAccountInfoToEndPointConfigWithoutPassword: anAccountInfo
-
-	anAccountInfo eraseStoredPassword.
-	ICEndPoint addConfiguration: anAccountInfo

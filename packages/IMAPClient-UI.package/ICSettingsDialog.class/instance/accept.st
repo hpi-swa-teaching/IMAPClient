@@ -1,4 +1,4 @@
 toolbuilder
 accept
 
-	self changed: #close
+	self changed: #close.

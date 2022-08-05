@@ -1,10 +1,10 @@
 instance creation
-named: name in: parent with: endPoint of: aType
+named: name in: parent with: endpoint of: aType
 
 	| newFolder |
 	newFolder := self new
 		folderName: name;
-		endPoint: endPoint;
+		endpoint: endpoint;
 		folderType: aType.
 	
 	parent addFolder: newFolder.

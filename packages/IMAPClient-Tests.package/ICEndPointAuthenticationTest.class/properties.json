@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "Hannes Spitz4 8/5/2022 17:33",
+	"commentStamp" : "eg 7/29/2021 18:58",
 	"instvars" : [
 		"endPoint" ],
 	"name" : "ICEndPointAuthenticationTest",

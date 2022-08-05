@@ -4,12 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "Hannes Spitz4 8/5/2022 17:33",
+	"commentStamp" : "LW 8/1/2020 11:14",
 	"instvars" : [
 		"directoryToFolderDictionary",
+		"endpoint",
 		"loadedEmails",
-		"loadedFolders",
-		"endPoint" ],
+		"loadedFolders" ],
 	"name" : "ICFileReadWriter",
 	"pools" : [
 		 ],

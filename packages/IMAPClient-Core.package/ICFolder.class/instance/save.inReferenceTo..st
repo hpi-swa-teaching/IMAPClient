@@ -6,4 +6,4 @@ save: anICEmailCollection inReferenceTo: anotherICEmailCollection
 		matchingEmail isEmpty ifFalse: [
 			self assert: matchingEmail size = 1 description: 'Critical Error. Only one email should match'.
 			email id: matchingEmail first id].
-		self endPoint readWriter write: email]
+		self endpoint readWriter write: email]

@@ -1,9 +1,9 @@
 synchronize
 syncFromDisk
 
-	self loadedEmails: self endPoint collectAllEmails.
-	self loadedFolders: self endPoint collectAllFolders.
-	self endPoint unlinkAllEmails.
+	self loadedEmails: self endpoint collectAllEmails.
+	self loadedFolders: self endpoint collectAllFolders.
+	self endpoint unlinkAllEmails.
 	self directoryToFolderDictionaryReset.
 	self readEmailsFromDisk.
 	self resetLoadedObjects

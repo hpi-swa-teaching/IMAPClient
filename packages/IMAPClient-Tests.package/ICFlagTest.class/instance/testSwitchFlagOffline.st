@@ -1,7 +1,7 @@
 tests
 testSwitchFlagOffline
 
-	self helper endPoint isConnected: false.
+	self helper endpoint isConnected: false.
 	
 	self emails first flagged: true.
 	self emails second flagged: false.

@@ -2,7 +2,7 @@ io
 writeEmailOnDisk: anICEmail
 
 	| folderPath |
-	folderPath := self endPoint maildirFileName: anICEmail folderName.
+	folderPath := self endpoint maildirFileName: anICEmail folderName.
 	
 	(FileDirectory default / folderPath) assureExistence.
 	

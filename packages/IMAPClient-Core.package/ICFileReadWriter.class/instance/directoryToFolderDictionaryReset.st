@@ -1,4 +1,4 @@
 accessing
 directoryToFolderDictionaryReset
 
-	directoryToFolderDictionary := Dictionary newFrom: {self rootDirectory -> self endPoint rootFolder}
+	directoryToFolderDictionary := Dictionary newFrom: {self rootDirectory -> self endpoint rootFolder}

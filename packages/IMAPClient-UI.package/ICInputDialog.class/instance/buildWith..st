@@ -11,7 +11,7 @@ buildWith: builder
 		on: #keyStroke
 			send: #keyEvent:
 			to: self;
-		submorphsDo: [:m | (m respondsTo: #TextMorph) ifTrue: [m textMorph on: #keyDown send: #keyEvent: to: self]].
+		submorphsDo: [:m |  (m respondsTo: #TextMorph) ifTrue: [m textMorph on: #keyDown send: #keyEvent: to: self]].
 	
 	self inputMorph: window.
 	

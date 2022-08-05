@@ -2,7 +2,7 @@ testing
 testSettingsUpdated
 
 	| settingsPanel |
-	self settingsDialog model selectedEndPoint: self emailAccounts first.
+	self settingsDialog model selectedEndpoint: self emailAccounts first.
 	settingsPanel := self subject findByName: ICSettingsDialog nameSettingsPanel.
 	
 	"the settingsPanel is shown empty (as it should be) but for some reason there is a 'Morph new' hidden in there. 

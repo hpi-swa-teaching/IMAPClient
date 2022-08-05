@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"addContactIcon" : "an 6/16/2022 20:29",
-		"dialogTitle" : "SW 8/3/2022 17:40",
+		"dialogTitle" : "an 8/5/2022 12:25",
 		"nameAddContactButton" : "RJPG 6/14/2022 17:16",
 		"openWith:" : "JS 8/2/2022 19:21" },
 	"instance" : {
@@ -11,9 +11,12 @@
 		"addressBookDialogMorph" : "Hannes Spitz4 6/1/2022 21:40",
 		"addressBookDialogMorph:" : "an 6/16/2022 20:29",
 		"addressBookEntriesMenu:" : "Hannes Spitz4 8/3/2022 14:38",
+		"buildAddContactButton:" : "an 8/5/2022 13:08",
+		"buildAddSortByMailButton:" : "an 8/5/2022 13:10",
+		"buildAddSortByNameButton:" : "an 8/5/2022 13:10",
 		"buildAddressBookEntryList:" : "an 6/16/2022 20:29",
-		"buildAddressBookPanel:" : "an 8/5/2022 12:16",
-		"buildButtonWithFrame:andLabel:andAction:andBuilder:" : "an 8/5/2022 12:16",
+		"buildAddressBookPanel:" : "an 8/5/2022 13:11",
+		"buildButtonWithFrame:andLabel:andAction:andBuilder:" : "Hannes Spitz4 8/3/2022 16:55",
 		"buildButtonWithFrame:andName:andLabel:andAction:andBuilder:" : "Hannes Spitz4 8/3/2022 16:53",
 		"buildWith:" : "SW 8/3/2022 17:41",
 		"buttonOffset" : "an 6/16/2022 20:29",
@@ -21,8 +24,8 @@
 		"deleteAddressBookEntry" : "an 6/16/2022 20:29",
 		"emailAccounts" : "an 6/16/2022 20:29",
 		"emailAccounts:" : "an 6/16/2022 20:29",
-		"getEmailFromContactString:" : "an 8/5/2022 12:16",
-		"getNameFromContactString:" : "an 8/5/2022 12:16",
+		"getEmailFromContactString:" : "Hannes Spitz4 8/3/2022 16:28",
+		"getNameFromContactString:" : "Hannes Spitz4 8/3/2022 16:30",
 		"initializeEmailAddresses" : "JS 8/2/2022 19:23",
 		"invalidateSorting" : "Hannes Spitz4 8/3/2022 16:42",
 		"labelForAddressBookEntry:" : "an 6/16/2022 20:29",
@@ -37,6 +40,6 @@
 		"sortContactsBy:" : "Hannes Spitz4 8/3/2022 16:42",
 		"sortedReversed" : "an 6/16/2022 20:29",
 		"sortedReversed:" : "Hannes Spitz4 8/3/2022 16:40",
-		"sortingBlocks" : "an 8/5/2022 12:16",
+		"sortingBlocks" : "Hannes Spitz4 8/3/2022 16:37",
 		"sortingMethod" : "Hannes Spitz4 8/3/2022 16:42",
 		"sortingMethod:" : "Hannes Spitz4 8/3/2022 16:42" } }

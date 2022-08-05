@@ -1,1 +1,1 @@
-This tests the EndPoint authentication by performing a successful and a failing mock login.
+This tests the Endpoint authentication by performing a successful and a failing mock login.

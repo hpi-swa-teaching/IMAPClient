@@ -1,5 +1,5 @@
 testing
 testDeleteEmailOffline
 
-	self helper endPoint deleteEmail: self email.
+	self helper endpoint deleteEmail: self email.
 	self assert: self email folder isTrashFolder

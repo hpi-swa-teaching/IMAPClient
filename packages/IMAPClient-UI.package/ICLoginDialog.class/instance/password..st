@@ -3,6 +3,6 @@ password: aText
 
 	(self lastCharacterIsTab: aText string)
 		ifFalse: [password := aText]
-		ifTrue: [self changeInputField: 5].
+		ifTrue: [self changeToNextInputFieldFrom: (self textFieldNames indexOf: #password)].
 	
 	self changed: #password

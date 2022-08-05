@@ -7,4 +7,4 @@ setUpConnectionHandler
 		storedCommands: ICMockCommandStorage new;
 		loggedIn: true;
 		accountInfo: self helper getAccountInfo.
-	self helper endPoint connectionHandler: connectionHandler
+	self helper endpoint connectionHandler: connectionHandler

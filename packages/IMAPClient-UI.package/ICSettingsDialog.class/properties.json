@@ -4,17 +4,17 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "Hannes Spitz4 8/5/2022 17:36",
+	"commentStamp" : "an 7/21/2022 15:49",
 	"instvars" : [
 		"emailAccounts",
 		"settingsDialogMorph",
+		"selectedEndpoint",
 		"selectedSetting",
 		"settingsPanelWidget",
 		"selectedNotSyncedFolders",
 		"folders",
 		"folderIndex",
-		"foldersPerMoveMenu",
-		"selectedEndPoint" ],
+		"foldersPerMoveMenu" ],
 	"name" : "ICSettingsDialog",
 	"pools" : [
 		 ],

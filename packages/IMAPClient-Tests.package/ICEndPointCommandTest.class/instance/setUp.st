@@ -2,7 +2,7 @@ running
 setUp
 
 	self helper: ICSetUpTestHelper new.
-	self helper endPoint: ICEndPoint new.
+	self helper endpoint: ICEndPoint new.
 	self setUpFolders.
 	self setUpConnectionHandler.
-	self endPoint: self helper endPoint
+	self endPoint: self helper endpoint

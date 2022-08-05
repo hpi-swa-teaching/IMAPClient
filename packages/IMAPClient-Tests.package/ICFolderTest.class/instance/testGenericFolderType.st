@@ -1,8 +1,8 @@
 folderTypes
 testGenericFolderType
 
-	| responseLine testEndPoint |
+	| responseLine testEndpoint |
 	responseLine := '* LIST ( \NoInferiors) "/" Testordner1'.
-	testEndPoint := ICEndPoint new.
-	testEndPoint folderFromResponse: responseLine.
-	self assert: testEndPoint rootFolder childFolders first folderType equals: #Generic
+	testEndpoint := ICEndPoint new.
+	testEndpoint folderFromResponse: responseLine.
+	self assert: testEndpoint rootFolder childFolders first folderType equals: #Generic

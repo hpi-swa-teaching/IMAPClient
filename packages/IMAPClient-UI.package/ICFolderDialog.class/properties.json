@@ -4,10 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "Hannes Spitz4 8/5/2022 17:34",
+	"commentStamp" : "LW 8/1/2020 11:38",
 	"instvars" : [
 		"rootFolder",
 		"selectedEmail",
+		"selectedEndpoint",
 		"selectedFolder",
 		"emailAccounts",
 		"numberOfFetchedFolders",
@@ -21,8 +22,7 @@
 		"folderDialogMorph",
 		"isAlreadyUpdating",
 		"passwordDialog",
-		"settingsDialogMorph",
-		"selectedEndPoint" ],
+		"settingsDialogMorph" ],
 	"name" : "ICFolderDialog",
 	"pools" : [
 		 ],

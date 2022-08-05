@@ -1,9 +1,9 @@
 accountManagement
-passwordPromtCallback: anICEndPoint
+passwordPromtCallback: anEndpoint
 
-	anICEndPoint connectAndLogin ifFalse: [^ false].
+	anEndpoint connectAndLogin ifFalse: [^ false].
 	
-	self folderWith: anICEndPoint.
-	anICEndPoint preventTimeout.
+	self folderWith: anEndpoint.
+	anEndpoint preventTimeout.
 	
 	^ true

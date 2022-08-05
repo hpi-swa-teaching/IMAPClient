@@ -1,8 +1,8 @@
 folderTypes
 testIMAPFolderType
 
-	| responseLine testEndPoint |
+	| responseLine testEndpoint |
 	responseLine := '* LIST (\Drafts \NoInferiors) "/" Entwurf'.
-	testEndPoint := ICEndPoint new.
-	testEndPoint folderFromResponse: responseLine.
-	self assert: testEndPoint rootFolder childFolders first folderType equals: #Drafts
+	testEndpoint := ICEndPoint new.
+	testEndpoint folderFromResponse: responseLine.
+	self assert: testEndpoint rootFolder childFolders first folderType equals: #Drafts

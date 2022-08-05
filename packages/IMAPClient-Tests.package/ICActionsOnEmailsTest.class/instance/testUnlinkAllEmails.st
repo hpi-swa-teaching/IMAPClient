@@ -6,6 +6,6 @@ testUnlinkAllEmails
 	
 	mail := self helper createAnEmail: folder.
 	self assert: (folder emails contains: [:e | e = mail]).
-	self helper endPoint unlinkAllEmails.
+	self helper endpoint unlinkAllEmails.
 	
 	self assert: folder emails isEmpty

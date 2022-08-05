@@ -6,7 +6,7 @@ emailListMenu: aMenu
 	
 	aMenu
 		add: self selectedEmailSeenLabel action: [self toggleFlag: #seen];
-		add: self selectedEmailFlagLabel action: [self toggleFlag: #flagged].
+		add: self selectedEmailFlagLabel	action: [self toggleFlag: #flagged].
 	self selectedEmail deleted ifFalse: [aMenu add: 'Delete mail' action: #deleteEmail].
 	aMenu add: 'Move to ...' subMenu: self folderListMenu.
 	^ aMenu

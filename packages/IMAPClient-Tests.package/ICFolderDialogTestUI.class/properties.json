@@ -8,8 +8,8 @@
 	"instvars" : [
 		"folderDialog",
 		"root",
-		"folder",
-		"endPoint" ],
+		"endpoint",
+		"folder" ],
 	"name" : "ICFolderDialogTestUI",
 	"pools" : [
 		 ],

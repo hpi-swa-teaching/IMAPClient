@@ -1,7 +1,7 @@
 countFolders
 testNumberOfUnseenEmails
 
-	self helper endPoint isConnected: false.
+	self helper endpoint isConnected: false.
 	
 	self helper createNumberOfEmails: 2 in: self root.
 	self assert: self root numberOfUnseenMails equals: 2.

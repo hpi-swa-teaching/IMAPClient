@@ -1,7 +1,7 @@
 tests
 testSwitchFlagOnline
 
-	self helper endPoint isConnected: true.
+	self helper endpoint isConnected: true.
 	
 	self emails first flagged: true.
 	self emails second flagged: false.

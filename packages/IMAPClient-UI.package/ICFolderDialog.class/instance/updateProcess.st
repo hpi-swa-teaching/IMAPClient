@@ -3,7 +3,7 @@ updateProcess
 
 	| successful |
 	successful := true.
-	[self emailAccounts do: [:anICEndPoint | successful := successful and: [self updateEndPoint: anICEndPoint]]]
+	[self emailAccounts do: [:anICEndpoint | successful := successful and: [self updateEndPoint: anICEndpoint]]]
 		on: ConnectionClosed
 		do: [:error | self inform: error asString].
 	successful ifTrue: [self updateSynchTime].

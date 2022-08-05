@@ -5,4 +5,4 @@ addOrEditAccount: anAccountInfo
 		ifFalse: [
 			(self accountnameUnused: anAccountInfo) ifFalse: [^ self].
 			self folderDialog addAccount: anAccountInfo]
-		ifTrue: [self folderDialog editAccount: anAccountInfo with: self endPoint]
+		ifTrue: [self folderDialog editAccount: anAccountInfo with: self endpoint]

@@ -1,8 +1,8 @@
 accessing - account
-labelForAccount: anICEndPoint
+labelForAccount: anICEndpoint
 
 	| countOfUnseenMails |
-	countOfUnseenMails := anICEndPoint rootFolder numberOfUnseenMails.
+	countOfUnseenMails := anICEndpoint rootFolder numberOfUnseenMails.
 	countOfUnseenMails > 0
-		ifTrue: [^ anICEndPoint accountInfo accountName, Character tab, '[', countOfUnseenMails asString, ']']
-		ifFalse: [^ anICEndPoint accountInfo accountName, Character tab, '']
+		ifTrue: [^ anICEndpoint accountInfo accountName, Character tab, '[', countOfUnseenMails asString, ']']
+		ifFalse: [^ anICEndpoint accountInfo accountName, Character tab, '']

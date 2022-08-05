@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "pm 7/25/2019 15:44",
 	"instvars" : [
-		"endPoint" ],
+		"endpoint" ],
 	"name" : "ICParserTest",
 	"pools" : [
 		 ],

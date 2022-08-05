@@ -1,4 +1,4 @@
 accessing
 rootDirectory
 
-	^ (FileDirectory default directoryNamed: 'Maildir') directoryNamed: self endPoint rootDirectoryName
+	^ (FileDirectory default directoryNamed: 'Maildir') directoryNamed: self endpoint rootDirectoryName
