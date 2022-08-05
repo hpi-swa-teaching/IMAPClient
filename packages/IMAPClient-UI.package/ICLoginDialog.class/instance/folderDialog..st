@@ -1,4 +1,4 @@
 accessing
 folderDialog: aFolderDialog
 
-	folderDialog :=  aFolderDialog
+	folderDialog := aFolderDialog
