@@ -2,31 +2,35 @@
  
 Welcome to our IMAP Client project. We are a team of 4th semester IT-Systems Engineering students and are happy to take over this project for the seventh iteration.
 This project is part of a lecture in Software Engineering techniques and will be contributing to our final grade, so we are giving it our best ;)
-As this is a student project, it will mostly be worked on during the summer terms. Therefore our time with this project is limited to the end of july.
+As this is a student project, it will mostly be worked on during the summer terms. Therefore our time with this project is limited to the beginning of august.
 
 In case of any questions, feel free to contact us.
  
 ## Installation
-1. Get [Squeak 5.2 or later](http://www.squeak.org)
+If you want to participate in development, have a look at the *Development* section below
+1. Get [Squeak 5.2 or later](http://www.squeak.org) 
 2. Load [Metacello](https://github.com/metacello/metacello)
-3. Finally, load the package with the following command:
-
+3. Load the Morphic Testing Framework with:
+```
+Metacello new
+	baseline: 'MorphicTestingFramework';
+	repository: 'github://hpi-swa-teaching/Morphic-Testing-Framework:master/packages';
+	load.
+```
+4. Finally, load the package with the following command:
 ```
 Metacello new
   baseline: 'IMAPClient';
   repository: 'github://hpi-swa-teaching/IMAPClient:develop/packages';
   load.
 ```
-
-4. Now you can setup a Menu Entry under "Apps" using `ICFolderDialog install`.
+If you encounter any dependency problems, click proceed.
+5. Now you can setup a Menu Entry under "Apps" using `ICFolderDialog install`.
 
 
 ## Open
 You can open the tool with the command `ICFolderDialog new` or using a Menu Entry.
 
- ## Configuration
- You can customize the number of mails, which are fetched on the initial update process, and the number of mails which are loaded if you press the `Load older Mails` Button. Default are 100 and 10. Change `ICFolder>>numbersOfHeadersToFetch{AtLoadOlderMail | AtTheBeginning}`
- This will not regard the e-mails that are already persisted on your disk, so if you have some e-mails in a Maildir directory, all of them will be read no matter what you defined here.
  
  ## Features
  - _Manage different accounts_
@@ -64,21 +68,21 @@ You can open the tool with the command `ICFolderDialog new` or using a Menu Entr
  
  - _Sort mails by different categories._ 
    ![](screenshots/sort.png)
- By default all sortings are ascending. Double clicking the button will switch to descending order.
+ By default all sortings are ascending. Clicking the button again will reverse the sorting order.
  
  - _Addressbook._ 
    ![](screenshots/addressbook.png)
- You can open the addressbook by clicking the button with the persons icon. The adressbook holds all sender names and addresses of mails from any of the currently logged in accounts. You can also add your own contacts by clicking on the respective button. Finally, it is possible to sort contacts in ascending or descending order by both sender name and address.
+ You can open the addressbook by clicking the button with the icon of a person. The adressbook holds all sender names and addresses of mails from any of the currently logged in accounts. You can also add your own contacts by clicking on the respective button. Finally, it is possible to sort contacts in ascending or descending order by both sender name and address.
 
 ## Usage
-Start the IMAP Client with `ICFolderDialog new`. Add new Accounts with the `+` Button. We tested the functionality with web.de Accounts. But other accounts should work fine.
+Start the IMAP Client with `ICFolderDialog new`. Add new Accounts with the `+` Button. We tested the functionality with web.de and gmx.de Accounts. But other accounts should work fine.
 The HPI OWA accounts are known to be relatively large, as calendar and contact meta information is also sent to our client as folder objects. Therefore it might not entirely load in the requested time of 5 seconds.
 
 For HPI accounts use the following login info:
 ``` 
 Server: owa.hpi.de
 Port: 993
-Username: surname.lastname
+Username: firstname.lastname
 Password: xxxxxxx
 Use SSL: True
 ```
@@ -91,9 +95,24 @@ Password: xxxxxxx
 Use SSL: True
 ```
 
+ ## Configuration
+ You can customize the number of mails, which are fetched if you press the `Load older Mails` Button. The default is 10. Change `ICFolder>>numbersOfHeadersToFetchAtLoadOlderMail`
+ This will not regard the e-mails that are already persisted on your disk, so if you have some e-mails in a Maildir directory, all of them will be read no matter what you defined here.
+ 
+ You can access a setting for which folder should not be synced by the IMAPClient and hidden in the Overview as well as a setting for how many folders to show at once in the menu that pops up when you want to move a mail to another folder in the settings browser, acessed by clicking the cogwheel on the top left.
+
+
 ## Security
-Your password isn't stored on disk, but will be visible to your Squeak environment. It is immediately deleted after login, so you will not be able to retrieve it afterwards, but be aware that we are no security experts and you might not want to test this with a high severity account.
+Your password isn't stored on disk, but will be visible to your Squeak environment. It is immediately deleted after login, so you will not be able to retrieve it afterwards, but be aware that we are no security experts and you might not want to test this with a sensitive account.
 After closing the IMAP-Client and reopening it, you are welcomed by a password prompt when you click the update button for the first time.
+
+## Development
+To take part in developing the IMAPClient, follow the steps of Installation. Instead of loading it with Meatcello however, clone the project via git and check out the latest commit. Before commiting something yourself, you should format your code with [PoppyPrint](https://github.com/hpi-swa-teaching/poppy-print). You can install it with the following command:
+```
+Metacello new baseline: 'PoppyPrint'; repository: 'github://hpi-swa-teaching/poppy-print/packages'; load
+```
+And use it to format one package with `PPFormatter formatPackage: 'IMAPClient-Core'`.
+This ensures consistent formatting across the whole project, enforcing the coding standard.
 
 ## Known Problems
 
