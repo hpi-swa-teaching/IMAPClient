@@ -1,4 +1,4 @@
 accessing - user interface
 dialogTitle
 
-	^ self subject
+	^ 'IMAP Email | ', self subject

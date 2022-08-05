@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"addContactIcon" : "an 6/16/2022 20:29",
-		"dialogTitle" : "SW 8/3/2022 17:40",
+		"dialogTitle" : "an 8/5/2022 12:25",
 		"nameAddContactButton" : "RJPG 6/14/2022 17:16",
 		"openWith:" : "JS 8/2/2022 19:21" },
 	"instance" : {
@@ -11,8 +11,11 @@
 		"addressBookDialogMorph" : "Hannes Spitz4 6/1/2022 21:40",
 		"addressBookDialogMorph:" : "an 6/16/2022 20:29",
 		"addressBookEntriesMenu:" : "Hannes Spitz4 8/3/2022 14:38",
+		"buildAddContactButton:" : "an 8/5/2022 13:08",
+		"buildAddSortByMailButton:" : "an 8/5/2022 13:10",
+		"buildAddSortByNameButton:" : "an 8/5/2022 13:10",
 		"buildAddressBookEntryList:" : "an 6/16/2022 20:29",
-		"buildAddressBookPanel:" : "an 8/5/2022 12:16",
+		"buildAddressBookPanel:" : "an 8/5/2022 13:11",
 		"buildButtonWithFrame:andLabel:andAction:andBuilder:" : "an 8/5/2022 12:16",
 		"buildButtonWithFrame:andName:andLabel:andAction:andBuilder:" : "Hannes Spitz4 8/3/2022 16:53",
 		"buildWith:" : "SW 8/3/2022 17:41",

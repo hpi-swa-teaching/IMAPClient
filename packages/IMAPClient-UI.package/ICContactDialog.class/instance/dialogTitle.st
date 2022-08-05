@@ -1,4 +1,4 @@
 constants - user interface
 dialogTitle
 
-	^ 'Add contact'
+	^ 'IMAP Adress Book | Add contact'

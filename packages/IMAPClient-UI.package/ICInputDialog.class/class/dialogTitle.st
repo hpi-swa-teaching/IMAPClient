@@ -1,4 +1,4 @@
 constants
 dialogTitle
 
-	^ 'Login Window'
+	^ 'IMAP Login Window'

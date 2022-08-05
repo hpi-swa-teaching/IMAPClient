@@ -1,4 +1,4 @@
 accessing
-symbolArray
+textFieldNames
 
 	^ {#accountName. #serverAddress. #serverPort. #username. #password}

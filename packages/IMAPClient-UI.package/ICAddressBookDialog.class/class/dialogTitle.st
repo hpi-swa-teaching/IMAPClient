@@ -1,4 +1,4 @@
 constants
 dialogTitle
 
-	^ 'Address Book'
+	^ 'IMAP Address Book'
